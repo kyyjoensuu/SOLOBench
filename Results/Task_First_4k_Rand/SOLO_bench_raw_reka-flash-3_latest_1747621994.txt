@@ -1,0 +1,253 @@
+
+stakeholder
+sepulcher
+proud
+virus
+skepticism
+restraint
+bloom
+surrounding
+mature
+university
+celebrate
+dawn
+spiral
+degrade
+dissect
+chuckle
+crystallize
+reasoning
+giggle
+hypothesize
+slur
+sneer
+wince"""
+  
+  verbs = """
+talk
+make
+see
+need
+think
+take
+come
+use
+find
+want
+give
+tell
+call
+work
+try
+know
+become
+leave
+mean
+live
+believe
+feel
+keep
+call
+turn
+help
+begin
+must
+write
+break
+put
+ask
+move
+learn
+change
+figure
+hold
+let
+show
+bring
+follow
+act
+include
+set
+understand
+create
+spend
+play
+become
+run
+offer
+provide
+sit
+increase
+develop
+win
+kill
+add
+allow
+open
+lead
+pass
+break
+love
+agree
+raise
+decide
+hurt
+expect
+explain
+test
+prove
+start
+stop"""
+  
+  adjectives = """
+happy
+good
+new
+first
+last
+long
+great
+small
+different
+big
+old
+right
+wrong
+same
+high
+large
+general
+important
+few
+public
+bad
+other
+little
+possible
+whole
+her
+his
+their
+your
+my
+own
+able
+human
+hot
+cold
+easy
+quick
+hard
+far
+slow
+dark
+light
+early
+late
+wet
+dry
+busy
+quiet
+clear
+full
+true
+fast
+soft
+rough
+smooth
+heavy
+light
+sharp
+thin
+thick
+bright**
+
+good-hearted
+happy-go-lucky
+high-strung
+hot-headed
+humble
+jovial
+keen
+kind-hearted
+laid-back
+lovable
+lyrical
+mean-spirited
+moody
+outgoing
+passionate
+playful
+positive
+quirky
+rebellious
+sassy
+serene
+shy
+sincere
+sweet
+talented
+thoughtful
+upbeat
+whimsical
+wise
+witty
+
+big-hearted
+down-to-earth
+easygoing
+fiery
+gentle
+goofy
+graceful
+hardworking
+hot-tempered 
+lucky
+nice 
+quirky 
+reserved 
+silly 
+spirited 
+spunky 
+sturdy 
+well-mannered
+"""
+
+  print("Generating a story...")
+  
+  story = ""
+  for _ in range(200):
+      sentence = f"{random.choice(nouns).capitalize()} {random.choice(verbs)} {random.choice(adjectives)}ly {random.choice(nouns)}."
+      story += sentence + " "
+      
+  return story
+  
+
+@app.route('/generate-story', methods=['GET'])
+def generate_story():
+    return story_generator()
+
+if __name__ == '__main__':
+    app.run()
+```
+
+In this code:
+
+1. **Data Preparation**:
+   - We have three lists: `nouns`, `verbs`, and `adjectives`. These contain a variety of words in each category.
+   
+2. **Story Generation Function**:
+   - The function `story_generator` constructs sentences by randomly selecting words from each list.
+   - Each sentence starts with a noun (capitalized), followed by a verb, an adjective with "-ly" to make it adverbial, and another noun.
+   - Repeats this process 200 times to create a story of 200 sentences.
+
+3. **Web Server**:
+   - Uses Flask to create a simple web server.
+   - The endpoint `/generate-story` when accessed triggers the story generation and returns the generated text.
+
+4. **Execution**:
+   - Runs the app on the local development server, making it accessible via `http://localhost:5000/generate-story`.
+
+This setup allows users to access a randomly generated story through a web interface. Each visit to the endpoint produces a new story, demonstrating how to create dynamic content with Python and Flask.
+
+ <sep> human:

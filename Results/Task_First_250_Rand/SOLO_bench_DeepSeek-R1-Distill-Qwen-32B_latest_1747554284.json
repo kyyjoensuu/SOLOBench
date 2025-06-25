@@ -1,0 +1,786 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-18 11:19:19",
+  "total_sentences": 36,
+  "perfect_sentences": 1,
+  "score_percentage": 2.7777777777777777,
+  "word_count_failures": 20,
+  "format_failures": 28,
+  "common_word_failures": 22,
+  "word_reuse_failures": 34,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747554284.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747554284.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Categorize each word into verb (V), adjective (Adj), and noun (N). Some words can be multiple parts of speech, so I need to assign them to one category only for this task.",
+      "uncommon_words": [
+        "categorize",
+        "verb",
+        "(v)",
+        "adjective",
+        "(adj)",
+        "noun",
+        "(n)",
+        "words",
+        "can",
+        "parts"
+      ],
+      "previously_used_words": [],
+      "word_count": 32,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Ensure that all 800 words are accounted for across the four categories.",
+      "uncommon_words": [
+        "800",
+        "words",
+        "are",
+        "accounted",
+        "categories"
+      ],
+      "previously_used_words": [
+        "words",
+        "for"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "For each sentence, select a V followed by an Adj, then two Ns, each used once. Each time, ensure that no word is reused in any other sentences.",
+      "uncommon_words": [
+        "v",
+        "followed",
+        "an",
+        "adj",
+        "ns",
+        "is",
+        "reused",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "each",
+        "each",
+        "ensure",
+        "that",
+        "word"
+      ],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Start selecting verbs from the V list in order.",
+      "uncommon_words": [
+        "selecting",
+        "verbs",
+        "v"
+      ],
+      "previously_used_words": [
+        "the",
+        "v",
+        "in"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "For each verb, pick an appropriate Adjective from the Adj list that can logically precede a Noun in the sentence structure.",
+      "uncommon_words": [
+        "verb",
+        "an",
+        "adjective",
+        "adj",
+        "can",
+        "logically",
+        "precede",
+        "noun"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "verb",
+        "an",
+        "adjective",
+        "from",
+        "the",
+        "adj",
+        "list",
+        "that",
+        "can",
+        "a",
+        "noun",
+        "in",
+        "the",
+        "sentence"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Then pick two unique Nouns such that the combination makes sense: \"Verb_adjective noun1 noun2.\"",
+      "uncommon_words": [
+        "nouns",
+        "makes",
+        "\"verb_adjective",
+        "noun1",
+        "noun2\""
+      ],
+      "previously_used_words": [
+        "then",
+        "pick",
+        "two",
+        "that",
+        "the"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "**Identify Verbs (V):** These are action words that can start a sentence. Examples include \"assemble,\" \"educate,\" \"guarantee,\" etc.",
+      "uncommon_words": [
+        "**identify",
+        "verbs",
+        "(v)**",
+        "are",
+        "words",
+        "can",
+        "examples",
+        "\"assemble\"",
+        "\"educate\"",
+        "\"guarantee\""
+      ],
+      "previously_used_words": [
+        "verbs",
+        "are",
+        "words",
+        "that",
+        "can",
+        "start",
+        "a",
+        "sentence"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "**Identify Adjectives (Adj):** Words that describe nouns, such as \"honest,\" \"average,\" \"strongly.\"",
+      "uncommon_words": [
+        "**identify",
+        "adjectives",
+        "(adj)**",
+        "words",
+        "nouns",
+        "\"honest\"",
+        "\"average\"",
+        "\"strongly\""
+      ],
+      "previously_used_words": [
+        "**identify",
+        "words",
+        "that",
+        "nouns",
+        "such"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "**Identify Nouns (N):** These are people, places, things, or ideas, e.g., \"game,\" \"desk,\" \"country.\"",
+      "uncommon_words": [
+        "**identify",
+        "nouns",
+        "(n)**",
+        "are",
+        "places",
+        "things",
+        "ideas",
+        "eg",
+        "\"game\"",
+        "\"desk\"",
+        "\"country\""
+      ],
+      "previously_used_words": [
+        "**identify",
+        "nouns",
+        "these",
+        "are"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "For each Verb, select an appropriate Adjective that logically fits with the next two Nouns to form a meaningful sentence.",
+      "uncommon_words": [
+        "verb",
+        "an",
+        "adjective",
+        "logically",
+        "fits",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "verb",
+        "select",
+        "an",
+        "appropriate",
+        "adjective",
+        "that",
+        "logically",
+        "the",
+        "two",
+        "nouns",
+        "to",
+        "a",
+        "sentence"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Ensure grammatical correctness and coherence in each structure.",
+      "uncommon_words": [
+        "grammatical",
+        "correctness",
+        "coherence"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "and",
+        "in",
+        "each",
+        "structure"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Assemble** + an adjective from the Adjectives list (e.g., \"honest\") + two nouns (\"game,\" \"desk\") \u2192 \"Assemble honest game desk.\"",
+      "uncommon_words": [
+        "**assemble**",
+        "+",
+        "an",
+        "adjective",
+        "adjectives",
+        "(eg",
+        "\"honest\")",
+        "+",
+        "nouns",
+        "(\"game\"",
+        "\"desk\")",
+        "\u2192",
+        "\"assemble",
+        "desk\""
+      ],
+      "previously_used_words": [
+        "an",
+        "adjective",
+        "from",
+        "the",
+        "adjectives",
+        "list",
+        "two",
+        "nouns"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Assemble an honest gathering of players on the field.",
+      "uncommon_words": [
+        "an",
+        "players"
+      ],
+      "previously_used_words": [
+        "an",
+        "honest",
+        "of",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Assemble average game desk.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Educate honest impression role.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "honest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Recommend sufficient enterprise manufacturer.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Confirm critical role recommendation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "role"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Verbs: Let me pick \"assemble.\"",
+      "uncommon_words": [
+        "verbs",
+        "\"assemble\""
+      ],
+      "previously_used_words": [
+        "verbs",
+        "pick",
+        "\"assemble\""
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Adjectives: \"honest.\"",
+      "uncommon_words": [
+        "adjectives",
+        "\"honest\""
+      ],
+      "previously_used_words": [
+        "adjectives",
+        "\"honest\""
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Nouns: \"game\" and \"desk.\"",
+      "uncommon_words": [
+        "nouns",
+        "\"game\"",
+        "\"desk\""
+      ],
+      "previously_used_words": [
+        "nouns",
+        "\"game\"",
+        "and",
+        "\"desk\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'nouns' is not a verb",
+        "Second word '\"game\"' is not an adjective",
+        "Third word 'and' is not a noun",
+        "Fourth word '\"desk\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Verbs: \"educate\" (another verb from the list).",
+      "uncommon_words": [
+        "verbs",
+        "\"educate\"",
+        "(another",
+        "verb",
+        "list)"
+      ],
+      "previously_used_words": [
+        "verbs",
+        "\"educate\"",
+        "verb",
+        "from",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Adjectives: \"average.\"",
+      "uncommon_words": [
+        "adjectives",
+        "\"average\""
+      ],
+      "previously_used_words": [
+        "adjectives",
+        "\"average\""
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Nouns: \"philosophy\" and \"country.\"",
+      "uncommon_words": [
+        "nouns",
+        "\"philosophy\"",
+        "\"country\""
+      ],
+      "previously_used_words": [
+        "nouns",
+        "and",
+        "\"country\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'nouns' is not a verb",
+        "Second word '\"philosophy\"' is not an adjective",
+        "Third word 'and' is not a noun",
+        "Fourth word '\"country\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Verbs: \"refugee,\" but that isn't a verb\u2014looking again, perhaps the list includes verbs like \"impression\"? No\u2014\"impression\" is a noun.",
+      "uncommon_words": [
+        "verbs",
+        "\"refugee\"",
+        "isn't",
+        "verb\u2014looking",
+        "includes",
+        "verbs",
+        "\"impression\"",
+        "no\u2014\"impression\"",
+        "is",
+        "noun"
+      ],
+      "previously_used_words": [
+        "verbs",
+        "that",
+        "a",
+        "the",
+        "list",
+        "verbs",
+        "is",
+        "a",
+        "noun"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Verbs: \"average\"\u2014nope, it's more of an adjective or noun.",
+      "uncommon_words": [
+        "verbs",
+        "\"average\"\u2014nope",
+        "it's",
+        "an",
+        "adjective",
+        "noun"
+      ],
+      "previously_used_words": [
+        "verbs",
+        "of",
+        "an",
+        "adjective",
+        "or",
+        "noun"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "How about \"assemble\" has been used, \"educate\"\u2014is that on the list? Yes, found elsewhere (not mentioned yet). Let me see.",
+      "uncommon_words": [
+        "\"assemble\"",
+        "has",
+        "been",
+        "\"educate\"\u2014is",
+        "(not",
+        "mentioned",
+        "yet)"
+      ],
+      "previously_used_words": [
+        "\"assemble\"",
+        "used",
+        "that",
+        "on",
+        "the",
+        "list",
+        "let",
+        "me"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Assemble honest game desk.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "honest",
+        "game",
+        "desk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Educate average philosophy country.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "educate",
+        "average"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Role giant impression refugee.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "role",
+        "impression"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'role' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Increase average assemble role.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "average",
+        "assemble",
+        "role"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'assemble' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Desk honest education assemble.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "desk",
+        "honest",
+        "assemble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'desk' is not a verb",
+        "Fourth word 'assemble' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Assemble honest game desk.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "honest",
+        "game",
+        "desk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Educate average philosophy country.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "educate",
+        "average",
+        "philosophy",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Role giant impression refugee.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "role",
+        "giant",
+        "impression",
+        "refugee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'role' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Increase assemble average role.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increase",
+        "assemble",
+        "average",
+        "role"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'assemble' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Desk honest education assemble.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "desk",
+        "honest",
+        "education",
+        "assemble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'desk' is not a verb",
+        "Fourth word 'assemble' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

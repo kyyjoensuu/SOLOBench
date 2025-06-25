@@ -1,0 +1,1011 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-16 04:08:40",
+  "total_sentences": 46,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 43,
+  "format_failures": 46,
+  "common_word_failures": 46,
+  "word_reuse_failures": 33,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_Phi-4-mini-instruct_latest_1747357146.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_Phi-4-mini-instruct_latest_1747357146.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Avoid using any punctuation on an end of your each sentence except period.",
+      "uncommon_words": [
+        "using",
+        "punctuation",
+        "an"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Try including as much diversity among these 200 generated combinations without repeating too many frequently paired words from source list such as Noun+Noun but also, include some less frequent pairings like Adjective+Verb",
+      "uncommon_words": [
+        "200",
+        "generated",
+        "combinations",
+        "repeating",
+        "paired",
+        "words",
+        "noun+noun",
+        "pairings",
+        "adjective+verb"
+      ],
+      "previously_used_words": [],
+      "word_count": 32,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "the dog barks at loud noise.",
+      "uncommon_words": [
+        "barks"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "The moon shines over sleepy child.",
+      "uncommon_words": [
+        "shines",
+        "sleepy"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "fish swims fast river.",
+      "uncommon_words": [
+        "swims"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swims' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "bird flies high mountain peak",
+      "uncommon_words": [
+        "flies"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "boy eats apple quickly morning",
+      "uncommon_words": [
+        "eats"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "girl reads book silently class,",
+      "uncommon_words": [
+        "reads",
+        "silently"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "tree grows tall forest floor",
+      "uncommon_words": [
+        "grows"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "car drives quietly highway night",
+      "uncommon_words": [
+        "drives"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "dog chases cat fur coat house,",
+      "uncommon_words": [
+        "chases"
+      ],
+      "previously_used_words": [
+        "dog"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "plane takes off runway terminal sky",
+      "uncommon_words": [
+        "takes",
+        "runway",
+        "terminal"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "man drinks coffee hot city park.",
+      "uncommon_words": [
+        "drinks"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "woman dances elegantly party hall.",
+      "uncommon_words": [
+        "dances",
+        "elegantly"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "bird sings lullaby nest tree branch forest,",
+      "uncommon_words": [
+        "sings",
+        "lullaby"
+      ],
+      "previously_used_words": [
+        "bird",
+        "tree",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "cat jumps swiftly mouse house",
+      "uncommon_words": [
+        "jumps",
+        "swiftly"
+      ],
+      "previously_used_words": [
+        "cat",
+        "house"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "boy reads quickly classroom book table blackboard library,",
+      "uncommon_words": [
+        "reads",
+        "blackboard"
+      ],
+      "previously_used_words": [
+        "boy",
+        "reads",
+        "quickly",
+        "book"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "bird flies happily branch tree song near morning sun warming leaves high.",
+      "uncommon_words": [
+        "flies",
+        "warming",
+        "leaves"
+      ],
+      "previously_used_words": [
+        "bird",
+        "flies",
+        "branch",
+        "tree",
+        "morning",
+        "high"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "man writes carefully letter friend love backyard living room writing long and important note.",
+      "uncommon_words": [
+        "writes"
+      ],
+      "previously_used_words": [
+        "man"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "dog chases ball play park game street outside loud children laughing noise,",
+      "uncommon_words": [
+        "chases",
+        "children",
+        "laughing"
+      ],
+      "previously_used_words": [
+        "dog",
+        "chases",
+        "park",
+        "loud",
+        "noise"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "girl walks quietly in moonlit night garden house back yard listening to water trickling fountain peaceful atmosphere,",
+      "uncommon_words": [
+        "walks",
+        "moonlit",
+        "listening",
+        "trickling",
+        "fountain"
+      ],
+      "previously_used_words": [
+        "girl",
+        "quietly",
+        "night",
+        "house"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "boy reads slowly story school library books tall corner soft pink reading table comfortable place kids love read during spring weather",
+      "uncommon_words": [
+        "reads",
+        "books",
+        "kids"
+      ],
+      "previously_used_words": [
+        "boy",
+        "reads",
+        "library",
+        "tall",
+        "table",
+        "love"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "monkey plays catch bird song tree branch sunny bright afternoon playing outside with other friends fun games running around and laughing together,",
+      "uncommon_words": [
+        "plays",
+        "playing",
+        "friends",
+        "games",
+        "laughing"
+      ],
+      "previously_used_words": [
+        "bird",
+        "song",
+        "tree",
+        "branch",
+        "outside",
+        "and",
+        "laughing"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "horse grazes calm fenced pasture woods small grass green wide flowing stream nearby ducks swimming,",
+      "uncommon_words": [
+        "grazes",
+        "fenced",
+        "pasture",
+        "woods",
+        "flowing",
+        "ducks"
+      ],
+      "previously_used_words": [],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "train moves very smoothly through tunnel station platform field many cars passing by along railway bed.",
+      "uncommon_words": [
+        "moves",
+        "smoothly",
+        "cars",
+        "railway"
+      ],
+      "previously_used_words": [
+        "many"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "woman dances gracefully room little girls birthday party school event family having cake celebration everyone happy playing music,",
+      "uncommon_words": [
+        "dances",
+        "gracefully",
+        "girls",
+        "having",
+        "playing"
+      ],
+      "previously_used_words": [
+        "woman",
+        "dances",
+        "room",
+        "party",
+        "school",
+        "playing"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "man cooks hot food dinner table kitchen counter in cozy house evening light soft warm setting with tv and board game on background children's TV watching cartoons",
+      "uncommon_words": [
+        "cooks",
+        "cozy",
+        "children's",
+        "watching",
+        "cartoons"
+      ],
+      "previously_used_words": [
+        "man",
+        "hot",
+        "table",
+        "in",
+        "house",
+        "soft",
+        "with",
+        "and",
+        "game",
+        "on"
+      ],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "cat sits peacefully near window sunny afternoon home time no noise running around,",
+      "uncommon_words": [
+        "sits",
+        "peacefully"
+      ],
+      "previously_used_words": [
+        "cat",
+        "near",
+        "sunny",
+        "afternoon",
+        "noise",
+        "running",
+        "around"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "girl listens quietly story book corner school library long tall comfortable place kids love to read during late afternoons,",
+      "uncommon_words": [
+        "listens",
+        "kids",
+        "afternoons"
+      ],
+      "previously_used_words": [
+        "girl",
+        "quietly",
+        "story",
+        "book",
+        "corner",
+        "school",
+        "library",
+        "long",
+        "tall",
+        "comfortable",
+        "place",
+        "kids",
+        "love",
+        "to",
+        "read",
+        "during"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "dog chases ball play park games outside tree branches happy friends laughing together in warm bright summer weather.",
+      "uncommon_words": [
+        "chases",
+        "games",
+        "branches",
+        "friends",
+        "laughing"
+      ],
+      "previously_used_words": [
+        "dog",
+        "chases",
+        "ball",
+        "play",
+        "park",
+        "games",
+        "outside",
+        "tree",
+        "happy",
+        "friends",
+        "laughing",
+        "together",
+        "in",
+        "warm",
+        "bright",
+        "weather"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "train pulls slowly along railway station platform wide field small trees near bridge",
+      "uncommon_words": [
+        "pulls",
+        "railway",
+        "trees"
+      ],
+      "previously_used_words": [
+        "train",
+        "slowly",
+        "along",
+        "railway",
+        "station",
+        "platform",
+        "wide",
+        "field",
+        "small",
+        "near"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "woman writes carefully birthday cake invitation party house living room planning family fun gathering,",
+      "uncommon_words": [
+        "writes"
+      ],
+      "previously_used_words": [
+        "woman",
+        "writes",
+        "carefully",
+        "birthday",
+        "cake",
+        "party",
+        "house",
+        "living",
+        "room",
+        "family",
+        "fun"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "cat jumps swiftly mouse around house,",
+      "uncommon_words": [
+        "jumps",
+        "swiftly"
+      ],
+      "previously_used_words": [
+        "cat",
+        "jumps",
+        "swiftly",
+        "mouse",
+        "around",
+        "house"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "boy reads quickly classroom book tall blackboard library,",
+      "uncommon_words": [
+        "reads",
+        "blackboard"
+      ],
+      "previously_used_words": [
+        "boy",
+        "reads",
+        "quickly",
+        "classroom",
+        "book",
+        "tall",
+        "blackboard",
+        "library"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "bird in tree branches happily sings morning sun warming leaves.",
+      "uncommon_words": [
+        "branches",
+        "sings",
+        "warming",
+        "leaves"
+      ],
+      "previously_used_words": [
+        "bird",
+        "in",
+        "tree",
+        "branches",
+        "happily",
+        "sings",
+        "morning",
+        "sun",
+        "warming",
+        "leaves"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "monkey play catch friends outside forest game laughing running and happy time",
+      "uncommon_words": [
+        "friends",
+        "laughing"
+      ],
+      "previously_used_words": [
+        "monkey",
+        "play",
+        "catch",
+        "friends",
+        "outside",
+        "forest",
+        "game",
+        "laughing",
+        "running",
+        "and",
+        "happy",
+        "time"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "train moves very smoothly through tunnel station platform few cars along railway bed.",
+      "uncommon_words": [
+        "moves",
+        "smoothly",
+        "cars",
+        "railway"
+      ],
+      "previously_used_words": [
+        "train",
+        "moves",
+        "very",
+        "smoothly",
+        "through",
+        "tunnel",
+        "station",
+        "platform",
+        "cars",
+        "along",
+        "railway",
+        "bed"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "woman dances gracefully room little girl's birthday celebration family event kids have fun playing music,",
+      "uncommon_words": [
+        "dances",
+        "gracefully",
+        "girl's",
+        "kids",
+        "playing"
+      ],
+      "previously_used_words": [
+        "woman",
+        "dances",
+        "gracefully",
+        "room",
+        "little",
+        "birthday",
+        "celebration",
+        "family",
+        "event",
+        "kids",
+        "fun",
+        "playing",
+        "music"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "man cooks hot food dinner table counter kitchen evening light setting tv board games background children's cartoons,",
+      "uncommon_words": [
+        "cooks",
+        "games",
+        "children's",
+        "cartoons"
+      ],
+      "previously_used_words": [
+        "man",
+        "cooks",
+        "hot",
+        "food",
+        "dinner",
+        "table",
+        "counter",
+        "kitchen",
+        "evening",
+        "light",
+        "setting",
+        "tv",
+        "board",
+        "games",
+        "background",
+        "children's",
+        "cartoons"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "girl listening quietly story book corner school library long tall comfortable place read late afternoons,",
+      "uncommon_words": [
+        "listening",
+        "afternoons"
+      ],
+      "previously_used_words": [
+        "girl",
+        "listening",
+        "quietly",
+        "story",
+        "book",
+        "corner",
+        "school",
+        "library",
+        "long",
+        "tall",
+        "comfortable",
+        "place",
+        "read",
+        "late",
+        "afternoons"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "dog barks loudly in park street close home evening noise busy construction run cars moving other children playing,",
+      "uncommon_words": [
+        "barks",
+        "loudly",
+        "cars",
+        "moving",
+        "children",
+        "playing"
+      ],
+      "previously_used_words": [
+        "dog",
+        "barks",
+        "in",
+        "park",
+        "street",
+        "home",
+        "evening",
+        "noise",
+        "cars",
+        "other",
+        "children",
+        "playing"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "squirrel quickly busily moving around busy street many cars passing by in middle of day,",
+      "uncommon_words": [
+        "squirrel",
+        "busily",
+        "moving",
+        "cars"
+      ],
+      "previously_used_words": [
+        "quickly",
+        "moving",
+        "around",
+        "busy",
+        "street",
+        "many",
+        "cars",
+        "passing",
+        "by",
+        "in",
+        "of"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "cat quickly jumps house",
+      "uncommon_words": [
+        "jumps"
+      ],
+      "previously_used_words": [
+        "cat",
+        "quickly",
+        "jumps",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'jumps' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "cat quickly jumps house",
+      "uncommon_words": [
+        "jumps"
+      ],
+      "previously_used_words": [
+        "cat",
+        "quickly",
+        "jumps",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'jumps' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "monkey plays catch friends outside running fun in forest under shade of trees early afternoon,",
+      "uncommon_words": [
+        "plays",
+        "friends",
+        "trees"
+      ],
+      "previously_used_words": [
+        "monkey",
+        "plays",
+        "catch",
+        "friends",
+        "outside",
+        "running",
+        "fun",
+        "in",
+        "forest",
+        "of",
+        "trees",
+        "afternoon"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "bird sings gentle song peaceful tree branch small wooden window on garden during late fall time, 4. woman works carefully sewing doll clothes for family planning project birthday shopping online,",
+      "uncommon_words": [
+        "sings",
+        "4",
+        "sewing"
+      ],
+      "previously_used_words": [
+        "bird",
+        "sings",
+        "song",
+        "peaceful",
+        "tree",
+        "branch",
+        "small",
+        "window",
+        "on",
+        "garden",
+        "during",
+        "late",
+        "time",
+        "woman",
+        "carefully",
+        "family",
+        "planning",
+        "birthday"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

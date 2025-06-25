@@ -1,0 +1,34 @@
+{
+  "model": "EXAONE-3.5-2.4B-Instruct:latest",
+  "label": "2025-05-15 17:31:09",
+  "total_sentences": 1,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 0,
+  "format_failures": 1,
+  "common_word_failures": 1,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_EXAONE-3.5-2.4B-Instruct_latest_1747319462.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_EXAONE-3.5-2.4B-Instruct_latest_1747319462.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "lead - courageous knight",
+      "uncommon_words": [
+        "-",
+        "courageous",
+        "knight"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word '-' is not an adjective",
+        "Third word 'courageous' is not a noun",
+        "Fourth word 'knight' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

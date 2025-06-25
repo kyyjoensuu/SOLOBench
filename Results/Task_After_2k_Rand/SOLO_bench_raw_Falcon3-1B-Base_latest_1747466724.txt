@@ -1,0 +1,54 @@
+
+8. Do not use the same word more than once in a sentence. 
+9. The vocabulary has been shuffled. For example, do not output the words: "The", "in", "that". Try producing something like: "a", "is", "the".
+10. Output in uppercase and remove all punctuation as shown below: For example: "A man with a gun" should be output as follows: "AMAN THGM GUN"
+11. Do not use the same sentence twice
+Example of words used for 3 lines:
+26.3: "Man", "with", "a"
+5.00: "man", "with", "an"
+784: "A man with a gun". This doesn't adhere to the requirement of only using words from the list. However, as that would be impossible to achieve, we will remove this line instead.
+9. To meet rules
+
+
+Output the above output to stdout separated by spaces and then quit"
+### Questions and Answers about Scoring Rules for a Language Learning Contest
+
+#### Q1: What is the specific challenge of scoring in this language learning contest?
+**A1:** The primary challenge lies in adhering to strict formatting rules for each sentence generated. There are no exceptions or flexibility in the number of words, punctuation, casing, or using any tools or codes. The sentences must strictly follow the given structure and contain exactly four words on separate lines. No two distinct sentences can have the same contents.
+
+#### Q2: What is the length constraint for each sentence?
+**A2:** Each sentence must consist of exactly four words. For example, a valid 4-word sentence might be: "A man with a gun".
+
+#### Q3: How are rules 9, 11, and rule 10 addressed in the scoring guidelines provided for Rule 10.20?
+**A3:** Regarding Rule 9, which involves removing punctuation after each sentence, this requires manually identifying each sentence and punctuating it as needed; a program may not achieve this accurately. Regarding Rule 11, rule 10 is broken by using the original vocabulary list, but due to its complexity or length, it's impractical for a bot to implement without significant parsing or shuffling. So the bot cannot create distinct sentences without directly knowing words in advance, which is against the rules. Thus, using any solution that avoids these problems would likely be better than a bot following all rules.
+
+#### Q4: Can you provide an example of what constitutes Rule 6 and how it affects score calculation?
+**A4:** According to Rule 5 and Rule 6 together, a scoring system for the bots includes:
+- For 3 lines with no punctuation (no punctuation), each line has to be one sentence.
+- If the sentences contain 2 unique words and punctuation can be used, it's fine. Otherwise, 4 consecutive identical words are penalized.
+For instance, if you output "Man with gun", the system will penalize "man with gun" instead of "A man with a gun". You must also exclude lines like "Man with gun", as that is an example of violating Rule 6's requirements without punctuation being allowed.
+
+#### Q5: What are some strategies for managing the complexity when generating different sentences?
+**A5:** Generating different sentences to follow all formatting rules can be challenging due to the vast number of possibilities for word combinations and the complex nature of the problem description including punctuation, casing, and punctuation removal. For bots, it is crucial to prioritize efficiency since each sentence must contain four words on separate lines without repetition or any punctuation other than spaces between words in the final output. One suggested approach is to implement a dictionary with all words used in one specific sentence, along with their formatting rules which can be easily accessed and modified for new sentences. This dictionary serves as the only source for word use patterns; thus, it ensures you comply with every rule while also generating different sentences efficiently.
+
+#### Q6: How do you handle Rule 7 to make submissions compatible with multiple languages?
+**A6:** To ensure bots are able to produce different sentences in various languages while adhering to the problem constraints, rules like 1 and 7 need particular handling: "If a program must output text in a specific language or not at all, that's what it must do." Regarding Rule 4: For tasks requiring more than three lines, for example when using punctuation, you must use at least four words rather than just one word per line. The same approach is applicable: if outputting ten sentences requires five lines each with punctuation marks and no repetition, a solution must follow these rules; otherwise, it may be penalized.
+
+#### Q7: What are the consequences of ignoring Rule 3 regarding the input format or any non-standard character inputs?
+**A7:** According to Rule 2, non-standard characters -- such as spaces between words -- should not appear in sentence tokens. In practice, this means that only one space can exist between each word in each individual sentence, leading to output containing nothing but a single digit or string of digits due to these restrictions. The requirement to avoid punctuation like commas would also not apply similarly since punctuation is forbidden.
+
+#### Q8: What guidelines are established for the rules themselves?
+**A8:** Several key points set the framework for scoring and adhering to the contest rules:
+1. 4 unique lines of text must appear, and no repetitions or punctuation except for spaces between words.
+2. The same sentence cannot be used more than once with different characters or content in different positions but should only involve a variation in capitalization or spacing on each line.
+3. There's a restriction against using spaces as a form of punctuation; all sentences need to remain a single, compact unit with no gaps apart from the end-of-line punctuation marks (.)
+4. Punctuation other than whitespace between words should be excluded, such as periods or commas.
+5. Sentences containing exactly four distinct tokens with different characters and order are mandatory. A bot that creates more than one sentence using these rules would be considered for a prize, although not all bots can execute this task without modification to produce multiple sentences on separate lines while adhering to the rules provided.
+6. Punctuation usage must follow strict standards: it cannot appear elsewhere in the code.
+
+#### Q9: How does Rule 4 impact the scoring and requirements of a bot when dealing with punctuation in sentences?
+**A9:** According to Rule 6, regardless of whether punctuation should be used or omitted between words and lines, a sentence token must always consist of four distinct characters, even if punctuation is missing from other locations. This means that only one type of character can appear on each line; hence, no more than four distinct characters can make up any given sentence output, ensuring it does not contain unnecessary spaces, commas or other delimiters between words to comply with the word limit of a simple, single-word sentences task (no punctuation).
+   In summary, this rule means that:
+   - Punctuation is used only for clarity on individual lines.
+   - There are no extra spaces in between words; instead, this must be handled through other methods (such as using hyphens or another punctuation type) to maintain the exact four-character requirement and not overstep the four-character limit by adding characters in other parts of text.
+   This can lead to different approaches being required from various bot designs aiming for submission into these kinds of challenges, such as incorporating a unique alphanumeric pattern or special codes to distinguish them in submissions.

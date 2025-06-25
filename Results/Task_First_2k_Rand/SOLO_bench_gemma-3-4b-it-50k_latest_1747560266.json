@@ -1,0 +1,3618 @@
+{
+  "model": "gemma-3-4b-it-50k:latest",
+  "label": "2025-05-18 12:34:15",
+  "total_sentences": 200,
+  "perfect_sentences": 3,
+  "score_percentage": 1.5,
+  "word_count_failures": 1,
+  "format_failures": 193,
+  "common_word_failures": 45,
+  "word_reuse_failures": 190,
+  "raw_output_file": "Results/Task_First_2k_Rand/SOLO_bench_raw_gemma-3-4b-it-50k_latest_1747560266.txt",
+  "formatted_output_file": "Results/Task_First_2k_Rand/SOLO_bench_gemma-3-4b-it-50k_latest_1747560266.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Write  massive  country  chamber",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Maintain  norm  village  mess",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'norm' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Elect  humor  house  road",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'humor' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Shrug  concern  table  paper",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Re  great  shadow  signal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Sometimes  lightly  mountain  water",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sometimes' is not a verb",
+        "Second word 'lightly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Idea  careful  forest  method",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'idea' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Limit  domestic  river  structure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Juror  notice  window  artwork",
+      "uncommon_words": [
+        "artwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'juror' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Fourth word 'artwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Metropolitan  road  bridge  forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "road",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'metropolitan' is not a verb",
+        "Second word 'road' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Obtain  light  garden  flower",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Offer  quality  mountain  valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Reject  manner  desert  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'manner' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Release  effort  river  beach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effort' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Remark  impact  field  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Respond  reason  park  river",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'reason' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Reveal  impact  forest  valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "forest",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Retain  impact  region  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Retreat  impact  desert  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "desert",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Retrieve  impact  forest  desert",
+      "uncommon_words": [
+        "retrieve"
+      ],
+      "previously_used_words": [
+        "impact",
+        "forest",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retrieve' is not a verb",
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Reject  impact  region  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject",
+        "impact",
+        "region",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Remember  impact  forest  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "forest",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Remain  impact  region  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "region",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Reach  impact  river  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "river",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Report  impact  forest  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "forest",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Restore  impact  country  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "country",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Renew  impact  forest  river",
+      "uncommon_words": [
+        "renew"
+      ],
+      "previously_used_words": [
+        "impact",
+        "forest",
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'renew' is not a verb",
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Respond  impact  mountain  area",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "respond",
+        "impact",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Review  impact  region  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "region",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Recover  impact  desert  river",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "desert",
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Reflect  impact  forest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "forest",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Reveal  impact  mountain  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "mountain",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Recognize  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Remember  impact  region  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "remember",
+        "impact",
+        "region",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Retain  impact  forest  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "forest",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Respond  impact  river  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "respond",
+        "impact",
+        "river",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Report  impact  country  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report",
+        "impact",
+        "country",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Review  impact  desert  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "impact",
+        "desert",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Recover  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recover",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Reflect  impact  forest  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "impact",
+        "forest",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Reveal  impact  mountain  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "mountain",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Recognize  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recognize",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Remember  impact  desert  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "remember",
+        "impact",
+        "desert",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Retain  impact  forest  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "forest",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Respond  impact  river  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "respond",
+        "impact",
+        "river",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Report  impact  country  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report",
+        "impact",
+        "country",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Review  impact  desert  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "impact",
+        "desert",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Recover  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recover",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Reflect  impact  forest  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "impact",
+        "forest",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Reveal  impact  mountain  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "mountain",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Recognize  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recognize",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Remember  impact  desert  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "remember",
+        "impact",
+        "desert",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Retain  impact  forest  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "forest",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Respond  impact  river  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "respond",
+        "impact",
+        "river",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Report  impact  country  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report",
+        "impact",
+        "country",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Review  impact  desert  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "impact",
+        "desert",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Recover  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recover",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Reflect  impact  forest  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "impact",
+        "forest",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Reveal  impact  mountain  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "mountain",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Recognize  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recognize",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Remember  impact  desert  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "remember",
+        "impact",
+        "desert",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Retain  impact  forest  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "forest",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Respond  impact  river  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "respond",
+        "impact",
+        "river",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Report  impact  country  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report",
+        "impact",
+        "country",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Review  impact  desert  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "impact",
+        "desert",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Recover  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recover",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Reflect  impact  forest  desert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "impact",
+        "forest",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Reveal  impact  mountain  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "mountain",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Recognize  impact  river  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recognize",
+        "impact",
+        "river",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Remember  impact  desert  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "remember",
+        "impact",
+        "desert",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Maintain  concern  church  morning",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "maintain",
+        "concern"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Retain  norm  city  garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "norm",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'norm' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Re  success  ocean  beach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Release  impact  valley  garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "valley",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Reject  impact  plain  forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject",
+        "impact",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Retain  concern  mountain  yard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "concern",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Reject  norm  town  lake",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject",
+        "norm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'norm' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Release  success  desert  field",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "success",
+        "desert",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Re  success  valley  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "valley",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Release  concern  field  garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "concern",
+        "field",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Re  success  plain  yard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "plain",
+        "yard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Release  concern  field  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "concern",
+        "field",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Re  success  plain  yard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "plain",
+        "yard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Release  concern  region  garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "concern",
+        "region",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Re  success  plain  yard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "plain",
+        "yard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Release  concern  garden  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "concern",
+        "garden",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Re  success  plain  yard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "plain",
+        "yard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Release  concern  garden  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "concern",
+        "garden",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Re  success  plain  yard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "plain",
+        "yard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Release  concern  garden  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "concern",
+        "garden",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concern' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Re  message  park  window",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "park",
+        "window"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'message' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Release  impact  village  house",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "village",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Re  quality  beach  room",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "quality",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Release  impact  garden  table",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "garden",
+        "table"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Re  success  house  kitchen",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "success",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'success' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Release  impact  room  garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "room",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Re  quality  garden  kitchen",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "quality",
+        "garden",
+        "kitchen"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Release  impact  kitchen  room",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "kitchen",
+        "room"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Re  quality  room  kitchen",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "quality",
+        "room",
+        "kitchen"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Release  impact  kitchen  room",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "kitchen",
+        "room"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Re  message  desert  path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "message",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'message' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Release  impact  garden  building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Re  quality  house  area",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "quality",
+        "house",
+        "area"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Release  impact  room  structure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "room",
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Re  message  building  path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "message",
+        "building",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'message' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Release  impact  structure  building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "structure",
+        "building"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Re  message  building  path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "message",
+        "building",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'message' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Release  impact  path  building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "path",
+        "building"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Re  message  building  path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "message",
+        "building",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'message' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Release  impact  path  building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "impact",
+        "path",
+        "building"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Reach  quality  river  shore",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reach",
+        "quality",
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Render  value  desert  coast",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Resolve  impact  mountain  crest",
+      "uncommon_words": [
+        "crest"
+      ],
+      "previously_used_words": [
+        "impact",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective",
+        "Fourth word 'crest' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Revive  value  valley  ridge",
+      "uncommon_words": [
+        "revive"
+      ],
+      "previously_used_words": [
+        "value",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'revive' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Reveal  value  region  peak",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "value",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Recognize  value  crest  ridge",
+      "uncommon_words": [
+        "crest"
+      ],
+      "previously_used_words": [
+        "recognize",
+        "value",
+        "crest",
+        "ridge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective",
+        "Third word 'crest' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Recover  value  ridge  peak",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recover",
+        "value",
+        "ridge",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Rewrite  value  peak  ridge",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "value",
+        "peak",
+        "ridge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Retell  value  ridge  peak",
+      "uncommon_words": [
+        "retell"
+      ],
+      "previously_used_words": [
+        "value",
+        "ridge",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retell' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Remind  value  ridge  peak",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "value",
+        "ridge",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Return  impact  shore  beach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "impact",
+        "shore",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Reflect  value  coast  shore",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "value",
+        "coast",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Restore  value  beach  coast",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "restore",
+        "value",
+        "beach",
+        "coast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Rewrite  value  shore  beach",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "value",
+        "shore",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Retell  value  beach  shore",
+      "uncommon_words": [
+        "retell"
+      ],
+      "previously_used_words": [
+        "retell",
+        "value",
+        "beach",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retell' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Retain  value  shore  beach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "value",
+        "shore",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Reject  impact  beach  coast",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject",
+        "impact",
+        "beach",
+        "coast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Release  value  coast  beach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "value",
+        "coast",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Retain  value  beach  coast",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "value",
+        "beach",
+        "coast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Reveal  impact  coast  beach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "coast",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Remain  value  shore  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "remain",
+        "value",
+        "shore",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Retain  impact  region  shore",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "region",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Rewrite  value  shore  region",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "value",
+        "shore",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Retell  impact  region  shore",
+      "uncommon_words": [
+        "retell"
+      ],
+      "previously_used_words": [
+        "retell",
+        "impact",
+        "region",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retell' is not a verb",
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Rewrite  value  shore  region",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "value",
+        "shore",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Retain  impact  region  shore",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "region",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Reveal  impact  region  shore",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "region",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Reveal  impact  shore  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "shore",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Reveal  impact  region  shore",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "region",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Reveal  impact  shore  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "shore",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Re  value  field  district",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "value",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Release  quality  shore  park",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "quality",
+        "shore",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Retain  value  region  district",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "value",
+        "region",
+        "district"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Rewind  quality  park  field",
+      "uncommon_words": [
+        "rewind"
+      ],
+      "previously_used_words": [
+        "quality",
+        "park",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewind' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Retell  value  region  park",
+      "uncommon_words": [
+        "retell"
+      ],
+      "previously_used_words": [
+        "retell",
+        "value",
+        "region",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retell' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Rewrite  quality  park  field",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "quality",
+        "park",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Retain  value  park  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "value",
+        "park",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Retrieve  quality  region  park",
+      "uncommon_words": [
+        "retrieve"
+      ],
+      "previously_used_words": [
+        "retrieve",
+        "quality",
+        "region",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retrieve' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Rewind  quality  park  region",
+      "uncommon_words": [
+        "rewind"
+      ],
+      "previously_used_words": [
+        "rewind",
+        "quality",
+        "park",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewind' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Rewrite  quality  park  region",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "quality",
+        "park",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Reach  standard  mountainside  valley",
+      "uncommon_words": [
+        "mountainside"
+      ],
+      "previously_used_words": [
+        "reach",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'mountainside' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Render  impact  desert  slope",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "render",
+        "impact",
+        "desert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Resolve  outcome  coastal  area",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resolve",
+        "area"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outcome' is not an adjective",
+        "Third word 'coastal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Revive  effect  forest  space",
+      "uncommon_words": [
+        "revive"
+      ],
+      "previously_used_words": [
+        "revive",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'revive' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Reveal  result  region  space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "region",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Recognize  effect  space  forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recognize",
+        "effect",
+        "space",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Recover  result  forest  space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recover",
+        "result",
+        "forest",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Rewrite  effect  space  forest",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "effect",
+        "space",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Retell  effect  forest  space",
+      "uncommon_words": [
+        "retell"
+      ],
+      "previously_used_words": [
+        "retell",
+        "effect",
+        "forest",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retell' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Rewrite  effect  forest  space",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "effect",
+        "forest",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Return  value  ridge  forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "return",
+        "value",
+        "ridge",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Resolve  outcome  valley  plain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resolve",
+        "outcome",
+        "valley",
+        "plain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outcome' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Revive  result  peak  slope",
+      "uncommon_words": [
+        "revive"
+      ],
+      "previously_used_words": [
+        "revive",
+        "result",
+        "peak",
+        "slope"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'revive' is not a verb",
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Resolve  outcome  slope  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resolve",
+        "outcome",
+        "slope",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outcome' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Reveal  effect  mountain  valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "effect",
+        "mountain",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Reveal  result  valley  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "result",
+        "valley",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Rewrite  effect  mountain  valley",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "effect",
+        "mountain",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Rewrite  result  valley  mountain",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "result",
+        "valley",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Reveal  effect  mountain  valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "effect",
+        "mountain",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Reveal  result  valley  mountain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "result",
+        "valley",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Return   aspect  beach  rock",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "return",
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'aspect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Retain   impact  river  stone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "impact",
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Rewrite  effect  shore  rock",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "effect",
+        "shore",
+        "rock"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Return    value  cliff  stone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "return",
+        "value",
+        "stone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Rewind   result  rock  shore",
+      "uncommon_words": [
+        "rewind"
+      ],
+      "previously_used_words": [
+        "rewind",
+        "result",
+        "rock",
+        "shore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewind' is not a verb",
+        "Second word 'result' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Resolve  impact  cliff  rock",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resolve",
+        "impact",
+        "cliff",
+        "rock"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Return   aspect  rock  cliff",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "return",
+        "aspect",
+        "rock",
+        "cliff"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'aspect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Resolve  aspect  cliff  rock",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resolve",
+        "aspect",
+        "cliff",
+        "rock"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'aspect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Rewrite  impact  rock  cliff",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "impact",
+        "rock",
+        "cliff"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Rewind  effect  cliff  rock",
+      "uncommon_words": [
+        "rewind"
+      ],
+      "previously_used_words": [
+        "rewind",
+        "effect",
+        "cliff",
+        "rock"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewind' is not a verb",
+        "Second word 'effect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Re  value  channel  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "value",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 're' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Resolve  impact  delta  stream",
+      "uncommon_words": [
+        "delta"
+      ],
+      "previously_used_words": [
+        "resolve",
+        "impact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective",
+        "Third word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Return   level  coast  river",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "return",
+        "coast",
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Rewind  result  stream  delta",
+      "uncommon_words": [
+        "rewind",
+        "delta"
+      ],
+      "previously_used_words": [
+        "rewind",
+        "result",
+        "stream",
+        "delta"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewind' is not a verb",
+        "Second word 'result' is not an adjective",
+        "Fourth word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Rewrite  effect  delta  stream",
+      "uncommon_words": [
+        "rewrite",
+        "delta"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "effect",
+        "delta",
+        "stream"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'effect' is not an adjective",
+        "Third word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Reveal  impact  stream  delta",
+      "uncommon_words": [
+        "delta"
+      ],
+      "previously_used_words": [
+        "reveal",
+        "impact",
+        "stream",
+        "delta"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective",
+        "Fourth word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Rewrite  impact  delta  stream",
+      "uncommon_words": [
+        "rewrite",
+        "delta"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "impact",
+        "delta",
+        "stream"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'impact' is not an adjective",
+        "Third word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Reveal  effect  stream  delta",
+      "uncommon_words": [
+        "delta"
+      ],
+      "previously_used_words": [
+        "reveal",
+        "effect",
+        "stream",
+        "delta"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effect' is not an adjective",
+        "Fourth word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Retain  result  delta  stream",
+      "uncommon_words": [
+        "delta"
+      ],
+      "previously_used_words": [
+        "retain",
+        "result",
+        "delta",
+        "stream"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'result' is not an adjective",
+        "Third word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Rewrite  impact  stream  delta",
+      "uncommon_words": [
+        "rewrite",
+        "delta"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "impact",
+        "stream",
+        "delta"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'impact' is not an adjective",
+        "Fourth word 'delta' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Re build   system  terrain  coast",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "re",
+        "coast"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Resolve   process   desert   valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resolve",
+        "desert",
+        "valley"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'process' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Retain    value     mountain   zone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "retain",
+        "value",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Return     impact     plains    range",
+      "uncommon_words": [
+        "plains"
+      ],
+      "previously_used_words": [
+        "return",
+        "impact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective",
+        "Third word 'plains' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Rewrite  result  island  peninsula",
+      "uncommon_words": [
+        "rewrite",
+        "peninsula"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "result"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'result' is not an adjective",
+        "Fourth word 'peninsula' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Return  outcome   lakeside   region",
+      "uncommon_words": [
+        "lakeside"
+      ],
+      "previously_used_words": [
+        "return",
+        "outcome",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outcome' is not an adjective",
+        "Third word 'lakeside' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Rewrite  value  coastal   landscape",
+      "uncommon_words": [
+        "rewrite"
+      ],
+      "previously_used_words": [
+        "rewrite",
+        "value",
+        "coastal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewrite' is not a verb",
+        "Second word 'value' is not an adjective",
+        "Third word 'coastal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Reveal   process   mountain   district",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "process",
+        "mountain",
+        "district"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'process' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Resolve   impact   countryside   habitat",
+      "uncommon_words": [
+        "countryside"
+      ],
+      "previously_used_words": [
+        "resolve",
+        "impact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective",
+        "Third word 'countryside' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Rewind  value   landscape   terrain",
+      "uncommon_words": [
+        "rewind"
+      ],
+      "previously_used_words": [
+        "rewind",
+        "value",
+        "landscape",
+        "terrain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rewind' is not a verb",
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}

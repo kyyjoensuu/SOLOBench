@@ -1,0 +1,120 @@
+
+shocking
+fiction
+discover
+teach
+disease
+criminal
+thousand
+bluebird
+stay
+bend
+dust
+taste
+purchase
+council
+mood
+neighborhood
+lively
+hate
+clinic
+deer
+exactly
+hugely
+cute
+unfortunately
+favorably
+challenge
+enough
+suggestion
+conservative
+admission
+influence
+obvious
+tremendous
+breathtaking
+perfectly
+
+ 1. Teach adorable student football.
+1. Lead bold army infrastructure.
+2. Adore brave character trait personality.
+3. Keep busy citizen culture society.
+4. Make casual community convention.
+5. Adapt certain democracy dialogue.
+6. Share daily discussion dilemma.
+7. Embrace each election environment.
+9. Reveal ethical example family.
+9. Build every exercise faculty friend.
+10. Lend familiar furniture garbage.
+11. Encourage final festival genre.
+12. Protect fresh food generation.
+13. Admire glorious goal habitat.
+14. Identify gradual game grade.
+15. Fix good group growth health.
+16. Serve great holiday history.
+17. Celebrate great job justice.
+18. Lend grateful kid knowledge
+19. Lift heavy land law.
+20. Support historical location loyalty.
+21. Enjoy huge meal meeting neighborhood.
+22. Teach hungry lion literature
+23. Manage ideal machine mathematics.
+24. Assist important matter memory.
+25. Lose interest modern music neighbor.
+26. Show multiple nature network neighborhood
+27. Revisit old offer operation order.
+28. Solve ordinary paper plan problem
+29. Discover practical question research room.
+30. Adopt radical system task territory.
+31. Address recent technique theory third.
+32 .Propose recent title town tradition true.
+34. Understand regional risk school shape
+35. Avoid reliable role science skill.
+36. Gather regular situation society sort.
+37. Encourage remarkable star study.
+38. Serve remarkable story strategy stuff
+39. Enjoy simple task tension test
+40. Love sweet theme thief thing
+41. Appreciate total tooth training tree
+42. Assist typical unit universe virus
+43. Recruit various vision volunteer way
+44. Revisit village voice vote waiter
+45. Protect vital wall well wish.
+46. Teach wild youth zero zone.
+47. Observe warm word worldwide work.
+48. Gather wide world worship worth
+49. Avoid willing worm worse worst.
+50. Build willing wound workshop
+51. Embrace wonderful word wrong wry.
+52. Protect younger yacht year yen
+53 .Enjoy young yard yoga yours
+54. Solve youth zone zeitgies
+56. Encourage zig zag zero zoetic
+57. Avoid zany zephyr zoo zebra
+58. Lose zest zinc zone zip line.
+70 .Teach zodiac zoo zombie zombie world
+83.  Keep busy citizen culture society.
+94. Protect fresh food generation.
+127. Manage ideal machine mathematics.
+167. Visit regional risk school shape.
+55. Enjoy village voice vote waiter
+59. Discover various vision volunteer way
+50. Build willing wound workshop.
+190. Embrace wonderful word wrong wry.
+
+
++++++ python/test.py
+from flask import Flask, request, jsonify
+import os
+
+app = Flask(__name__)
+
+@app.route('/start', methods=['GET'])
+def start_server():
+    # Your logic for starting the server goes here.
+    return "Server started"
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 5000))
+    host = os.environ.get('HOST','0.0.0.0')
+    app.run(host=host, port=port)

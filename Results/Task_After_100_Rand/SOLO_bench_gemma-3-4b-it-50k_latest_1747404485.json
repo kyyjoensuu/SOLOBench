@@ -1,0 +1,835 @@
+{
+  "model": "gemma-3-4b-it-50k:latest",
+  "label": "2025-05-16 17:14:43",
+  "total_sentences": 51,
+  "perfect_sentences": 2,
+  "score_percentage": 3.9215686274509802,
+  "word_count_failures": 2,
+  "format_failures": 16,
+  "common_word_failures": 14,
+  "word_reuse_failures": 48,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-4b-it-50k_latest_1747404485.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-4b-it-50k_latest_1747404485.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Turn  superior  ship  vessel",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Relieve  tall  citizen  country",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Identify  useful  place  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Modify  average  car  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Offer  former  hostile  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Inspect  giant  penalty  car",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Provide  equal  democracy  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Expect  brown  desk  car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Assure  dozen  place  car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "place",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Permit  several  floor  car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Adjust  native  ship  car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ship",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Lend  ordinary  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "place",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Warn  random  size  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Restrict  average  country  car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "average",
+        "country",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Invite  ordinary  place  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ordinary",
+        "place",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Move  average  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "average",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Sustain  giant  citizen  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "giant",
+        "citizen",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Expect  quality  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Warn  several  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warn",
+        "several",
+        "place",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Offer  ordinary  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "ordinary",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Lend  quality  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "quality",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Expect  native  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "native",
+        "place",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Inspect  giant  ship  country",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "giant",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Alert  ordinary  ship  country",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "ordinary",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Lend  several  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "several",
+        "place",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Alert   average   ship   country",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "alert",
+        "average",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Expect  ordinary  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "ordinary",
+        "place",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Inspect  native  ship  country",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "native",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Warn  several  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warn",
+        "several",
+        "place",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Alert   ordinary   country   ship",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "alert",
+        "ordinary",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Expect  giant  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "giant",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Inspect  native  ship  place",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "native",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Warn  average  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warn",
+        "average",
+        "ship",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Alert  several  place  country",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "alert",
+        "several",
+        "place",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Expect  giant  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "giant",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Inspect  ordinary  ship  place",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "ordinary",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Lend  native  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "native",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Warn  average  place  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warn",
+        "average",
+        "place",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Alert  several  ship  place",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "alert",
+        "several",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Expect  giant  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "giant",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Inspect  ordinary  ship  place",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "ordinary",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Lend  native  place  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "native",
+        "place",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Warn  average  ship  place",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warn",
+        "average",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Alert  several  country  place",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "alert",
+        "several",
+        "country",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Expect  giant  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "giant",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Inspect  native  ship  place",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "native",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Lend  average  place  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "average",
+        "place",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Warn  several  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warn",
+        "several",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Alert  giant  ship  place",
+      "uncommon_words": [
+        "alert"
+      ],
+      "previously_used_words": [
+        "alert",
+        "giant",
+        "ship",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alert' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Expect  ordinary  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expect",
+        "ordinary",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": ".",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 0,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

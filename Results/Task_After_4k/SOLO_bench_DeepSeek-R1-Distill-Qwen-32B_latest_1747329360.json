@@ -1,0 +1,750 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-15 20:40:18",
+  "total_sentences": 45,
+  "perfect_sentences": 9,
+  "score_percentage": 20.0,
+  "word_count_failures": 5,
+  "format_failures": 27,
+  "common_word_failures": 27,
+  "word_reuse_failures": 25,
+  "raw_output_file": "Results/Task_After_4k/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747329360.txt",
+  "formatted_output_file": "Results/Task_After_4k/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747329360.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Go through the word list, separating verbs, adjectives, nouns.",
+      "uncommon_words": [
+        "separating",
+        "verbs",
+        "adjectives",
+        "nouns"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Randomly match verb to adjective, followed by two nouns.",
+      "uncommon_words": [
+        "randomly",
+        "verb",
+        "adjective",
+        "followed",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "nouns"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Ensure no duplication across sentences.",
+      "uncommon_words": [
+        "duplication",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Check if each combination makes a logical or vivid image.",
+      "uncommon_words": [
+        "makes",
+        "vivid"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Proceed until 200 such unique combinations are created.",
+      "uncommon_words": [
+        "200",
+        "combinations",
+        "are",
+        "created"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Run happy child swing.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Jump excited puppy park.",
+      "uncommon_words": [
+        "puppy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'puppy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Swim lazy frog pond.",
+      "uncommon_words": [
+        "lazy",
+        "frog"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lazy' is not an adjective",
+        "Third word 'frog' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Fly colorful butterfly garden.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Walk quiet shadow street.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Dance elegant ballerina stage.",
+      "uncommon_words": [
+        "ballerina"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ballerina' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Sing loud music concert.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Play joyful children playground.",
+      "uncommon_words": [
+        "joyful",
+        "children",
+        "playground"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Third word 'children' is not a noun",
+        "Fourth word 'playground' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Read interesting book shelf.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Write beautiful poem paper.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Laugh silly clown circus.",
+      "uncommon_words": [
+        "clown",
+        "circus"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'clown' is not a noun",
+        "Fourth word 'circus' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Cook delicious chef recipe.",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Bake sweet bread oven.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Paint bright artist canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Build strong architect house.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Play sad violinist melody.",
+      "uncommon_words": [
+        "violinist",
+        "melody"
+      ],
+      "previously_used_words": [
+        "play"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'violinist' is not a noun",
+        "Fourth word 'melody' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Sketch detailed artist drawing.",
+      "uncommon_words": [
+        "sketch"
+      ],
+      "previously_used_words": [
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sketch' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Chop fresh chef vegetables.",
+      "uncommon_words": [
+        "vegetables"
+      ],
+      "previously_used_words": [
+        "chef"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'vegetables' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Mingle excited guest party.",
+      "uncommon_words": [
+        "mingle"
+      ],
+      "previously_used_words": [
+        "excited"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mingle' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Whisper soft wind trees.",
+      "uncommon_words": [
+        "trees"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'trees' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Run happy child swing",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "run",
+        "happy",
+        "child",
+        "swing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Jump excited puppy park",
+      "uncommon_words": [
+        "puppy"
+      ],
+      "previously_used_words": [
+        "jump",
+        "excited",
+        "puppy",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'puppy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Swim lazy frog pond",
+      "uncommon_words": [
+        "lazy",
+        "frog"
+      ],
+      "previously_used_words": [
+        "swim",
+        "lazy",
+        "frog",
+        "pond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lazy' is not an adjective",
+        "Third word 'frog' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Fly colorful butterfly garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly",
+        "colorful",
+        "butterfly",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Walk quiet shadow street",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "walk",
+        "quiet",
+        "shadow",
+        "street"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Dance elegant ballerina stage",
+      "uncommon_words": [
+        "ballerina"
+      ],
+      "previously_used_words": [
+        "dance",
+        "elegant",
+        "ballerina",
+        "stage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ballerina' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Sing loud music concert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sing",
+        "loud",
+        "music",
+        "concert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Play joyful children playground",
+      "uncommon_words": [
+        "joyful",
+        "children",
+        "playground"
+      ],
+      "previously_used_words": [
+        "play",
+        "joyful",
+        "children",
+        "playground"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Third word 'children' is not a noun",
+        "Fourth word 'playground' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Read interesting book shelf",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "read",
+        "interesting",
+        "book",
+        "shelf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Write beautiful poem paper",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "beautiful",
+        "poem",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Laugh silly clown circus",
+      "uncommon_words": [
+        "clown",
+        "circus"
+      ],
+      "previously_used_words": [
+        "laugh",
+        "silly",
+        "clown",
+        "circus"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'clown' is not a noun",
+        "Fourth word 'circus' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Cook delicious chef recipe",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "cook",
+        "delicious",
+        "chef",
+        "recipe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Bake sweet bread oven",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bake",
+        "sweet",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Paint bright artist canvas",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "artist",
+        "canvas"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Build strong architect house",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "strong",
+        "architect",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Play sad violinist melody",
+      "uncommon_words": [
+        "violinist",
+        "melody"
+      ],
+      "previously_used_words": [
+        "play",
+        "sad",
+        "violinist",
+        "melody"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'violinist' is not a noun",
+        "Fourth word 'melody' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Sketch detailed artist drawing",
+      "uncommon_words": [
+        "sketch"
+      ],
+      "previously_used_words": [
+        "sketch",
+        "detailed",
+        "artist",
+        "drawing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sketch' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Chop fresh chef vegetables",
+      "uncommon_words": [
+        "vegetables"
+      ],
+      "previously_used_words": [
+        "chop",
+        "fresh",
+        "chef",
+        "vegetables"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'vegetables' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Mingle excited guest party",
+      "uncommon_words": [
+        "mingle"
+      ],
+      "previously_used_words": [
+        "mingle",
+        "excited",
+        "guest",
+        "party"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mingle' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Whisper soft wind trees",
+      "uncommon_words": [
+        "trees"
+      ],
+      "previously_used_words": [
+        "whisper",
+        "soft",
+        "wind",
+        "trees"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'trees' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

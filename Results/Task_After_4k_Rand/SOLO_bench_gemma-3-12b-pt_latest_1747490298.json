@@ -1,0 +1,53 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-17 17:08:53",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747490298.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747490298.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "After returning the list, output a sentence that follows the above structure using words from the list, and make it interesting and not predictable",
+      "uncommon_words": [
+        "returning",
+        "follows",
+        "using",
+        "words",
+        "predictable"
+      ],
+      "previously_used_words": [],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Keep the returned list short enough to be within the response threshold. Do not output any additional sentences unless prompted.",
+      "uncommon_words": [
+        "returned",
+        "sentences",
+        "prompted"
+      ],
+      "previously_used_words": [
+        "the",
+        "list",
+        "the",
+        "not",
+        "output"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

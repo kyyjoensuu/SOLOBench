@@ -1,0 +1,580 @@
+, nothing else
+8. Keep a counter of the number of sentences and update it with each iteration
+
+
+Here is an example, it is incorrect because a sentence cannot have 3 words:
+
+5
+the
+dog
+green
+house
+
+
+
+Here is an example, it is incorrect because dog is used twice:
+
+6
+the
+orange
+dog
+jellyfish
+
+
+Here is the correct answer:
+
+1
+a
+white
+cat
+jumps
+2
+the
+pink
+house
+is
+painted
+3
+i
+like
+blue
+butterflies
+4
+yellow
+skies
+make
+you
+dreamy
+5
+my
+best
+friend
+looks
+funny
+6
+happy
+skating
+is
+amazing
+7
+the
+red
+ball
+rolls
+over
+8
+they
+saw
+a
+dead
+whale
+9
+it
+seems
+like
+she
+was
+tired
+10
+he
+likes
+the
+red
+house
+11
+he
+wore
+a
+black
+tie
+12
+the
+cat
+climbs
+the
+tree
+13
+some
+black
+jellyfish
+live
+under
+rocks
+14
+a
+strong
+cat
+climbs
+the
+tree
+15
+we
+went
+into
+the
+woods
+16
+they
+said
+that
+they
+were
+sick
+17
+happy
+children
+ran
+into
+the
+woods
+18
+the
+cat
+ran
+into
+the
+woods
+19
+he
+wanted
+to
+buy
+some
+orange
+jellyfish
+20
+he
+climbed
+into
+the
+tree
+21
+the
+big
+cat
+looked
+weird
+
+
+This is the first step
+
+The structure for an OK sentence is: verb + adjective + noun + noun
+Use the first four items in your thinking stage that you haven’t used yet
+
+This will be your first sentence
+Save this to a string called current_response
+You must use 'a' 'jumps' 'jellyfish' 'house'
+
+current_response = "a jumps jellyfish house"
+
+
+We'd like you to keep a counter called sentence_count that should be initialized at 0
+It should count the sentences you have generated
+
+sentence_count = 0
+
+
+Here is another step
+Use the last four items from the word list and build another sentence
+Try to generate unique results on purpose, this will test your ability to think broadly
+
+current_response == "she climbs dead house"
+sentence_count += 1
+
+
+This is the correct answer:
+1
+a
+blue
+jellyfish
+2
+he
+climbed
+into
+the
+tree
+3
+we
+like
+yellow
+butterflies
+4
+we
+like
+to
+watch
+skaters
+5
+my
+blue
+house
+looks
+nice
+6
+they
+saw
+a
+dead
+whale
+7
+the
+jellyfish
+live
+under
+a
+rock
+8
+it
+seems
+like
+she
+was
+tired
+9
+my
+best
+friend
+looks
+funny
+10
+a
+small
+whale
+rolled
+into
+the
+jetties
+11
+some
+children
+ran
+into
+the
+woods
+12
+the
+white
+house
+climbed
+into
+the
+wall
+13
+he
+saw
+a
+pink
+jellyfish
+14
+the
+big
+whale
+climbed
+into
+the
+tree
+15
+some
+black
+jellyfish
+live
+under
+a
+rock
+16
+i
+watched
+some
+skaters
+at
+the
+arena
+17
+the
+red
+ball
+rolled
+up
+the
+jetties
+18
+a
+tall
+tree
+climbs
+between
+the
+rocks
+19
+the
+whale
+is
+so
+pretty
+in
+the
+sea
+20
+i
+liked
+watching
+the
+skaters
+at
+the
+park
+21
+i'll
+try
+to
+look
+for
+dead
+butterflies
+22
+it
+seems
+like
+a
+sad
+jumper
+jumped
+from
+the
+wall
+23
+the
+black
+jellyfish
+went
+to
+the
+arena
+24
+she
+climbs
+some
+dead
+trees
+25
+our
+little
+jellyfish
+fell
+into
+the
+ocean
+26
+she
+saw
+a
+dead
+whale
+27
+they
+were
+some
+tired
+skaters
+28
+yellow
+skies
+are
+so
+weird
+for
+some
+people
+29
+it
+looks
+like
+a
+weird
+jumper
+jumped
+from
+the
+house
+30
+we
+like
+the
+pink
+ball
+
+Notice that a lot of words repeat, but not as much as the random approach
+This time, don't try to get unique results, just try to use words to create sentences
+Use the first 10 words and the last 21 if you can
+
+current_response = "like to watch skaters arena"
+sentence_count += 1
+
+Notice that you only used words from your thinking stage
+This means you are reusing words you have already used (as expected)
+In order to avoid this, you need to use words from the whole word list (not your thinking stage)
+
+The word list is:
+['a', 'blue', 'jellyfish', 'house', 'white', 'we', 'pink', 'dead', 'skate', 'orange', 'skaters', 'arena', 'the', 'green', 'tree', 'small', 'whale', 'rolled', 'jetties', 'she', 'climb', 'rock', 'our', 'looked', 'little', 'fell', 'ocean', 'they', 'tired', 'yellow', 'skies', 'weird', 'it', 'jumps', 'from', 'wall','some', 'black', 'cat', 'climbs', 'happy', 'look', 'funny', 'best', 'friend', 'funny', 'happy', 'watch', 'skate', 'pretty', 'sea', 'strong', 'climb', 'house', 'between', 'rocks', 'sea', 'sea', 'tired', 'tired', 'wall', 'weird', 'weird', 'jumped', 'jumped', 'house', 'wall', 'house', 'house', 'ocean', 'ocean', 'jumps', 'skaters', 'skate', 'arena', 'climb', 'arena', 'friend', 'arena', 'arena', 'skate', 'house', 'arena', 'arena', 'climb', 'house', 'house', 'tree', 'tree', 'tree', 'tree', 'tree', 'tree', 'skate', 'arena', 'climb', 'arena', 'arena', 'skate', 'house', 'arena', 'arena', 'climb', 'house', 'house', 'tree', 'house','rock','tired', 'skate', 'jumps', 'house', 'tree', 'house', 'tree', 'wall', 'tree', 'rock', 'wall', 'wall', 'rock', 'rock']
+
+
+Use the words a, strong, skate, arena, pink, funny and yellow to create sentences
+You do not have to use them all, but try to use as many as you can
+
+current_response = "pink skied strong arena"
+sentence_count += 1
+
+
+Use words from your thinking stage to make some sentences
+Try to save as many of the next words as you can to maximize their use later (without using them)
+
+current_response = "funny yellow whale wall"
+sentence_count += 1
+
+
+Use the next ten words to create as many sentences as you can with them, and don’t use them in the next section
+
+current_response = "house orange friend tired"
+sentence_count += 1
+current_response = "house green rock wall"
+sentence_count += 1
+current_response = "pink looked funny ocean"
+sentence_count += 1
+current_response = "pink watched funny ocean"
+sentence_count += 1
+current_response = "green watched funny ocean"
+sentence_count += 1
+
+
+Use the next ten words to create as many sentences as you can
+If you want you can save these to your thinking stage
+
+You can save them to use at the end if you like
+
+current_response = "pink strong yellow tired"
+sentence_count += 1
+
+
+Use up to three words per sentence
+You can use from 1 to 5 from your thinking stage
+Save the rest to use later (to increase the number of words from your thinking stage)
+
+current_response = "dead skidded tired sea"
+sentence_count += 1
+
+
+Try to make sentences up to length eight
+Don’t use your thinking stage words, save them for later
+
+current_response = "climbing sea whales"
+sentence_count += 1
+
+
+Make sentences up to length 5
+Use up to three words from your thinking stage
+You don’t have to use any from your thinking stage, but try to
+Keep some for later to increase the number you can save
+
+current_response = "tired strong sea whales"
+sentence_count += 1
+current_response = "tired strong sea whales"
+sentence_count += 1
+
+
+You can continue to make more sentences in up to length 21
+
+current_response = "tired sea whales"
+sentence_count += 1
+
+
+This is a small optimization that you can do now
+Try to save as many words from your thinking stage as you can
+Try to keep the length of most of your sentences around 3/4/5 words
+
+If one of your sentences goes over 21 you can reduce it to 20, but try not to do this
+
+You have generated a total of 6561 sentences in the past so far
+If you are making each sentence up to 4 words now, that’s a good target length
+Now try to maintain the overall length around 6561*10, or 2.5M
+
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_count += 1
+current_response = "tired sea whales"
+sentence_
+
+
+Notice how a lot of repeats happen when you only use your thinking stage
+Try to save as many unique words from the entire word list as you can
+
+If you think of something new, use it in your sentence, and make sure you try it
+If you like how it works you can replace existing sentences with it
+
+current_response = "the little orange whales sea whales sea sea sea whales sea sea whales whales whales sea sea whales sea whales sea whales whales sea whales whales whales sea whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales whales

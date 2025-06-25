@@ -1,0 +1,48 @@
+{
+  "model": "falcon-40b:latest",
+  "label": "2025-05-18 10:48:18",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_250_Rand/SOLO_bench_raw_falcon-40b_latest_1747554034.txt",
+  "formatted_output_file": "Results/Task_After_250_Rand/SOLO_bench_falcon-40b_latest_1747554034.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The result must be exactly 150 different sentences",
+      "uncommon_words": [
+        "150",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "All sentences must use valid English (or whatever language you are programming in)",
+      "uncommon_words": [
+        "sentences",
+        "(or",
+        "are",
+        "in)"
+      ],
+      "previously_used_words": [
+        "sentences",
+        "must"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

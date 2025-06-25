@@ -1,0 +1,22 @@
+. Nothing else, no explanation. Just the sentences. 
+*/
+
+
+// Function to create random sentences using words from the list
+function createRandomSentence() {
+  // Get the words from the list
+  const words = "WORD LIST";
+
+  // Split the words into an array
+  const wordsArray = words.split("");
+
+  // Create an empty sentence
+  let sentence = "";
+
+  // Select four words from the array
+  const selectedWords = [];
+  while (selectedWords.length < 4) {
+    const randomIndex = Math.floor(Math.random() * words.length);
+    const randomWord = wordsArray[randomIndex;
+
+const word

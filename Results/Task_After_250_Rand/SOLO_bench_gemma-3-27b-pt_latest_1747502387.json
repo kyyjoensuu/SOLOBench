@@ -1,0 +1,57 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-17 20:23:10",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 0,
+  "format_failures": 2,
+  "common_word_failures": 0,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_250_Rand/SOLO_bench_raw_gemma-3-27b-pt_latest_1747502387.txt",
+  "formatted_output_file": "Results/Task_After_250_Rand/SOLO_bench_gemma-3-27b-pt_latest_1747502387.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "native fast football football",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'native' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "patience cheap package championship",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'patience' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "fast fast football football",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast",
+        "fast",
+        "football",
+        "football"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

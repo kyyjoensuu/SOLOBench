@@ -1,0 +1,979 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-17 09:30:46",
+  "total_sentences": 49,
+  "perfect_sentences": 1,
+  "score_percentage": 2.0408163265306123,
+  "word_count_failures": 42,
+  "format_failures": 48,
+  "common_word_failures": 32,
+  "word_reuse_failures": 33,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_Phi-4-mini-instruct_latest_1747463384.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_Phi-4-mini-instruct_latest_1747463384.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Fast powerful bond.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Bold brave eagle.",
+      "uncommon_words": [
+        "eagle"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Silent dark fish.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Small shy mountain.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Rich famous game.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Sharp sharp knife blade.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sharp' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Weak weak wall brick.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'weak' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Cold cold water river.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cold' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Slow slow train rail,",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "High happy dream.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Brave giant dragon",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "brave"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Large beautiful sky meadow",
+      "uncommon_words": [
+        "meadow"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'large' is not a verb",
+        "Fourth word 'meadow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Bright soft white cat fur",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Tough old wise tree trunk",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Soft furry wool sweater cloths",
+      "uncommon_words": [
+        "furry",
+        "wool",
+        "cloths"
+      ],
+      "previously_used_words": [
+        "soft"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Small quick mouse egg",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'small' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Strong silent stone bridge plank.",
+      "uncommon_words": [
+        "plank"
+      ],
+      "previously_used_words": [
+        "silent"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Great ancient Roman column pillar,",
+      "uncommon_words": [
+        "pillar"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Rich deep blue sea fish school of fish",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "rich",
+        "fish",
+        "fish"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Weak tired man muscle bone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "weak"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Old shiny gold watch jewelry timepiece",
+      "uncommon_words": [
+        "shiny",
+        "timepiece"
+      ],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Good tasty sweet apple pie dessert dish",
+      "uncommon_words": [
+        "tasty"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Small swift swallow bird.",
+      "uncommon_words": [
+        "swift"
+      ],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'small' is not a verb",
+        "Second word 'swift' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Big blue whale fish school ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blue",
+        "fish",
+        "school"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Hot spicy pepper salad ingredients dish food",
+      "uncommon_words": [
+        "spicy",
+        "ingredients"
+      ],
+      "previously_used_words": [
+        "dish"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Tiny glowing firefly insect street light.",
+      "uncommon_words": [
+        "glowing",
+        "firefly"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Strong sturdy oak tree floor table cloth items furniture piece household object room space area",
+      "uncommon_words": [
+        "sturdy",
+        "items"
+      ],
+      "previously_used_words": [
+        "strong",
+        "tree"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Bright colorful rainbow sky blue cloud formation appearance visual image picture art work design structure building wall or ceiling surface exterior face of a place.",
+      "uncommon_words": [
+        "rainbow",
+        "exterior"
+      ],
+      "previously_used_words": [
+        "bright",
+        "sky",
+        "blue",
+        "wall",
+        "of"
+      ],
+      "word_count": 25,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Deep silent night dark forest green woods",
+      "uncommon_words": [
+        "woods"
+      ],
+      "previously_used_words": [
+        "deep",
+        "silent",
+        "dark"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Long fast river water stream flowing down from higher elevation mountain top hill land formation ridge tall area high ground landscape geographic feature location",
+      "uncommon_words": [
+        "flowing",
+        "higher",
+        "elevation",
+        "geographic"
+      ],
+      "previously_used_words": [
+        "fast",
+        "river",
+        "water",
+        "mountain",
+        "formation",
+        "area",
+        "high"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Tall ancient wise tree trunk wooden column pillar long standing support structure built object of architecture construction house building home residence shelter structure place outside or inside.",
+      "uncommon_words": [
+        "pillar",
+        "built"
+      ],
+      "previously_used_words": [
+        "tall",
+        "ancient",
+        "wise",
+        "tree",
+        "trunk",
+        "column",
+        "pillar",
+        "long",
+        "structure",
+        "object",
+        "of",
+        "building",
+        "structure",
+        "place",
+        "or"
+      ],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Long narrow skinny dark tall giraffe neck stretched stretching reaching upward above ground level high area",
+      "uncommon_words": [
+        "skinny",
+        "giraffe",
+        "stretched",
+        "stretching",
+        "reaching",
+        "upward"
+      ],
+      "previously_used_words": [
+        "long",
+        "dark",
+        "tall",
+        "ground",
+        "high",
+        "area"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Short small round white kitten fur coat soft clothes clothing item piece accessory belongings property owned personally",
+      "uncommon_words": [
+        "kitten",
+        "accessory",
+        "belongings",
+        "owned"
+      ],
+      "previously_used_words": [
+        "small",
+        "white",
+        "fur",
+        "soft",
+        "piece"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Small quick mouse egg baby nursling offspring young animal mammal little growing development increasing age child of a living being",
+      "uncommon_words": [
+        "nursling",
+        "offspring",
+        "mammal"
+      ],
+      "previously_used_words": [
+        "small",
+        "quick",
+        "mouse",
+        "egg",
+        "of",
+        "a"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Big strong silent stone bridge plank long flat solid structural horizontal thick wide object built part or components building outside construction project.",
+      "uncommon_words": [
+        "plank",
+        "horizontal",
+        "built",
+        "components"
+      ],
+      "previously_used_words": [
+        "big",
+        "strong",
+        "silent",
+        "stone",
+        "bridge",
+        "plank",
+        "long",
+        "object",
+        "built",
+        "or",
+        "building",
+        "outside",
+        "construction"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Deep blue sea fish school large group of creatures swimming together ocean water habitat",
+      "uncommon_words": [
+        "creatures"
+      ],
+      "previously_used_words": [
+        "deep",
+        "blue",
+        "sea",
+        "fish",
+        "school",
+        "large",
+        "of",
+        "ocean",
+        "water"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "High mighty great powerful eagle bird flying high above the ground",
+      "uncommon_words": [
+        "mighty",
+        "eagle"
+      ],
+      "previously_used_words": [
+        "high",
+        "great",
+        "powerful",
+        "eagle",
+        "bird",
+        "high",
+        "above",
+        "ground"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Little tall skinny giraffe neck stretched reaching upward in forest trees canopy leaves surface layer branch small twig",
+      "uncommon_words": [
+        "skinny",
+        "giraffe",
+        "stretched",
+        "reaching",
+        "upward",
+        "trees",
+        "canopy",
+        "leaves",
+        "twig"
+      ],
+      "previously_used_words": [
+        "little",
+        "tall",
+        "skinny",
+        "giraffe",
+        "neck",
+        "stretched",
+        "reaching",
+        "upward",
+        "forest",
+        "surface",
+        "small"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Fat little old cat fur cuddly warm wool pile coat soft comforting blanket large homey living space house",
+      "uncommon_words": [
+        "cuddly",
+        "wool",
+        "comforting",
+        "homey"
+      ],
+      "previously_used_words": [
+        "little",
+        "old",
+        "cat",
+        "fur",
+        "wool",
+        "coat",
+        "soft",
+        "large",
+        "living",
+        "space",
+        "house"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Long fast river water flowing down from higher elevation mountain top hill land formation ridge high ground geographic feature location outside or inside place",
+      "uncommon_words": [
+        "flowing",
+        "higher",
+        "elevation",
+        "geographic"
+      ],
+      "previously_used_words": [
+        "long",
+        "fast",
+        "river",
+        "water",
+        "flowing",
+        "down",
+        "from",
+        "higher",
+        "elevation",
+        "mountain",
+        "top",
+        "hill",
+        "land",
+        "formation",
+        "ridge",
+        "high",
+        "ground",
+        "geographic",
+        "feature",
+        "location",
+        "outside",
+        "or",
+        "inside",
+        "place"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Dark silent night dark forest green woods and trees tall tree trunks long standing supportive structure built object of architecture construction outdoor building project indoor room house residence.",
+      "uncommon_words": [
+        "woods",
+        "trees",
+        "trunks",
+        "built",
+        "indoor"
+      ],
+      "previously_used_words": [
+        "dark",
+        "silent",
+        "night",
+        "dark",
+        "forest",
+        "green",
+        "woods",
+        "trees",
+        "tall",
+        "tree",
+        "long",
+        "standing",
+        "structure",
+        "built",
+        "object",
+        "of",
+        "architecture",
+        "construction",
+        "building",
+        "project",
+        "room",
+        "house",
+        "residence"
+      ],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Hot spicy pepper salad ingredients dish food yummy tasty meal dinner lunch",
+      "uncommon_words": [
+        "spicy",
+        "ingredients",
+        "yummy",
+        "tasty"
+      ],
+      "previously_used_words": [
+        "hot",
+        "spicy",
+        "pepper",
+        "salad",
+        "ingredients",
+        "dish",
+        "food",
+        "tasty"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Small swift swallow bird flying through air wind skies atmosphere",
+      "uncommon_words": [
+        "swift",
+        "skies"
+      ],
+      "previously_used_words": [
+        "small",
+        "swift",
+        "swallow",
+        "bird",
+        "flying"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Big blue whale fish school ocean deep sea water habitat marine environment living beings.",
+      "uncommon_words": [
+        "beings"
+      ],
+      "previously_used_words": [
+        "big",
+        "blue",
+        "whale",
+        "fish",
+        "school",
+        "ocean",
+        "deep",
+        "sea",
+        "water",
+        "habitat",
+        "living"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Tall wise tree trunk standing strong tall ancient sturdy oak support structure",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "tall",
+        "wise",
+        "tree",
+        "trunk",
+        "standing",
+        "strong",
+        "tall",
+        "ancient",
+        "sturdy",
+        "oak",
+        "support",
+        "structure"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Quick fast swallow bird flying",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quick",
+        "fast",
+        "swallow",
+        "bird",
+        "flying"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Tiny small sparrow wings flapping movement quick short light air breeze.",
+      "uncommon_words": [
+        "sparrow",
+        "wings",
+        "flapping"
+      ],
+      "previously_used_words": [
+        "tiny",
+        "small",
+        "quick",
+        "short",
+        "light",
+        "air"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Giant huge dinosaur bone fossils dead natural remains animal creature past prehistoric era extinct long gone millions years old time history very, very ancient great age extremely distant past far away from present day place",
+      "uncommon_words": [
+        "dinosaur",
+        "fossils",
+        "remains",
+        "prehistoric",
+        "extinct",
+        "gone",
+        "millions",
+        "years"
+      ],
+      "previously_used_words": [
+        "giant",
+        "bone",
+        "animal",
+        "long",
+        "old",
+        "ancient",
+        "great",
+        "age",
+        "from",
+        "place"
+      ],
+      "word_count": 35,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "White sparkling snowflake winter cold seasonal weather falling gently softly lightly drifting down to earth ground surface layer floor or pavement road sidewalk path walkways street urban outdoor living space outdoors outside roof flat top covering of a building upper part ceiling above face construction home structure room house residence shelter indoors buildings",
+      "uncommon_words": [
+        "sparkling",
+        "snowflake",
+        "seasonal",
+        "falling",
+        "drifting",
+        "pavement",
+        "walkways",
+        "outdoors",
+        "covering",
+        "indoors",
+        "buildings"
+      ],
+      "previously_used_words": [
+        "white",
+        "cold",
+        "down",
+        "ground",
+        "surface",
+        "layer",
+        "floor",
+        "or",
+        "street",
+        "outdoor",
+        "living",
+        "space",
+        "outside",
+        "flat",
+        "top",
+        "of",
+        "a",
+        "building",
+        "part",
+        "ceiling",
+        "above",
+        "face",
+        "construction",
+        "home",
+        "structure",
+        "room",
+        "house",
+        "residence",
+        "shelter"
+      ],
+      "word_count": 53,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

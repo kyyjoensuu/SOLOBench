@@ -1,0 +1,518 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-18 07:10:36",
+  "total_sentences": 29,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 12,
+  "format_failures": 29,
+  "common_word_failures": 25,
+  "word_reuse_failures": 17,
+  "raw_output_file": "Results/Task_After_250_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747538772.txt",
+  "formatted_output_file": "Results/Task_After_250_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747538772.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Assemble actively every variable solution.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "The first word must be an exact verb from the lists (if any).",
+      "uncommon_words": [
+        "an",
+        "verb",
+        "lists",
+        "(if",
+        "any)"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Second word must be an adjective.",
+      "uncommon_words": [
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "word",
+        "must",
+        "be",
+        "an"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Third and fourth as nouns. But since some words can belong to multiple categories, I need to check their availability.",
+      "uncommon_words": [
+        "nouns",
+        "words",
+        "can",
+        "categories"
+      ],
+      "previously_used_words": [],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Confirm your strong move.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'your' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Move with active speediness.",
+      "uncommon_words": [
+        "speediness"
+      ],
+      "previously_used_words": [
+        "move"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'with' is not an adjective",
+        "Fourth word 'speediness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Observe each tiny detail.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'tiny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Assemble all small components.",
+      "uncommon_words": [
+        "components"
+      ],
+      "previously_used_words": [
+        "assemble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'components' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Confirm strongly move guarantee.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "move"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "**Confirm** your strong guarantee.",
+      "uncommon_words": [
+        "**confirm**"
+      ],
+      "previously_used_words": [
+        "your",
+        "strong",
+        "guarantee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**confirm**' is not a verb",
+        "Second word 'your' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "**Move** every slow step.",
+      "uncommon_words": [
+        "**move**"
+      ],
+      "previously_used_words": [
+        "every"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**move**' is not a verb",
+        "Third word 'slow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Observe** each tiny detail.",
+      "uncommon_words": [
+        "**observe**"
+      ],
+      "previously_used_words": [
+        "each",
+        "tiny",
+        "detail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**observe**' is not a verb",
+        "Third word 'tiny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Assemble** all broken parts.",
+      "uncommon_words": [
+        "**assemble**",
+        "parts"
+      ],
+      "previously_used_words": [
+        "all"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**assemble**' is not a verb",
+        "Third word 'broken' is not a noun",
+        "Fourth word 'parts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Donate** our last dollar.",
+      "uncommon_words": [
+        "**donate**",
+        "dollar"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**donate**' is not a verb",
+        "Second word 'our' is not an adjective",
+        "Fourth word 'dollar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Specify** an exact plan.",
+      "uncommon_words": [
+        "**specify**",
+        "an"
+      ],
+      "previously_used_words": [
+        "an",
+        "exact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**specify**' is not a verb",
+        "Second word 'an' is not an adjective",
+        "Third word 'exact' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "**Interact** with local groups.",
+      "uncommon_words": [
+        "**interact**",
+        "groups"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**interact**' is not a verb",
+        "Second word 'with' is not an adjective",
+        "Fourth word 'groups' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "**Snap** the tight rope.",
+      "uncommon_words": [
+        "**snap**"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**snap**' is not a verb",
+        "Second word 'the' is not an adjective",
+        "Third word 'tight' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "**Review** past procedures.",
+      "uncommon_words": [
+        "**review**",
+        "procedures"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "**Line** up neatly now.",
+      "uncommon_words": [
+        "**line**",
+        "neatly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**line**' is not a verb",
+        "Third word 'neatly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "List all verbs from the word list.",
+      "uncommon_words": [
+        "verbs"
+      ],
+      "previously_used_words": [
+        "all",
+        "from",
+        "the",
+        "word"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Pair each verb with an adjective and two nouns.",
+      "uncommon_words": [
+        "verb",
+        "an",
+        "adjective",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "each",
+        "verb",
+        "with",
+        "an",
+        "adjective",
+        "and",
+        "nouns"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Ensure no words are reused across sentences.",
+      "uncommon_words": [
+        "words",
+        "are",
+        "reused",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "**Lend** a helping hand.",
+      "uncommon_words": [
+        "**lend**",
+        "helping"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**lend**' is not a verb",
+        "Second word 'a' is not an adjective",
+        "Third word 'helping' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "**Sustain** our wildest hopes.",
+      "uncommon_words": [
+        "**sustain**",
+        "wildest",
+        "hopes"
+      ],
+      "previously_used_words": [
+        "our"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sustain**' is not a verb",
+        "Second word 'our' is not an adjective",
+        "Third word 'wildest' is not a noun",
+        "Fourth word 'hopes' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "**Treat** every minor injury.",
+      "uncommon_words": [
+        "**treat**"
+      ],
+      "previously_used_words": [
+        "every"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**treat**' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "**Provide enough resources.",
+      "uncommon_words": [
+        "**provide",
+        "resources"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "**Educate all students.",
+      "uncommon_words": [
+        "**educate",
+        "students"
+      ],
+      "previously_used_words": [
+        "all"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "**Negotiate fair terms.",
+      "uncommon_words": [
+        "**negotiate"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "**Fix critical systems.",
+      "uncommon_words": [
+        "**fix",
+        "systems"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

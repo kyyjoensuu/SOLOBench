@@ -1,0 +1,507 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-18 13:21:25",
+  "total_sentences": 19,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 18,
+  "format_failures": 19,
+  "common_word_failures": 17,
+  "word_reuse_failures": 18,
+  "raw_output_file": "Results/Task_First_2k_Rand/SOLO_bench_raw_reka-flash-3_latest_1747561853.txt",
+  "formatted_output_file": "Results/Task_First_2k_Rand/SOLO_bench_reka-flash-3_latest_1747561853.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Parse each sentence into words.",
+      "uncommon_words": [
+        "parse",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "For each word in the list of 200, check if it appears in the sentence.",
+      "uncommon_words": [
+        "200",
+        "appears"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "For each occurrence, determine if the word is used as an adjective (adj).",
+      "uncommon_words": [
+        "occurrence",
+        "is",
+        "an",
+        "adjective",
+        "(adj)"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "if",
+        "the",
+        "word"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "If yes, include that sentence in the results for that word.",
+      "uncommon_words": [
+        "results"
+      ],
+      "previously_used_words": [
+        "if",
+        "sentence",
+        "in",
+        "the",
+        "for",
+        "word"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "For each sentence in the input:",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "for",
+        "each",
+        "sentence",
+        "in",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Import necessary libraries: nltk for tokenization and POS tagging.",
+      "uncommon_words": [
+        "libraries",
+        "nltk",
+        "tokenization",
+        "pos",
+        "tagging"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Define the target_words set (lowercase).",
+      "uncommon_words": [
+        "target_words",
+        "(lowercase)"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "For each sentence in the input:",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "for",
+        "each",
+        "sentence",
+        "in",
+        "the",
+        "input"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Loading the target words into a set.",
+      "uncommon_words": [
+        "loading",
+        "words"
+      ],
+      "previously_used_words": [
+        "the",
+        "words",
+        "into",
+        "set"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Iterating over each sentence, tokenizing, tagging, and checking for adjective uses.",
+      "uncommon_words": [
+        "iterating",
+        "tokenizing",
+        "tagging",
+        "checking",
+        "adjective",
+        "uses"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "tagging",
+        "and",
+        "for",
+        "adjective"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Aggregating results by word.",
+      "uncommon_words": [
+        "aggregating",
+        "results"
+      ],
+      "previously_used_words": [
+        "results",
+        "word"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'aggregating' is not a verb",
+        "Second word 'results' is not an adjective",
+        "Third word 'by' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Tokenization**: Split each sentence into individual words while preserving their original form and punctuation.",
+      "uncommon_words": [
+        "**tokenization**",
+        "words",
+        "preserving",
+        "punctuation"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "into",
+        "words",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**POS Tagging**: Use a POS tagger to assign grammatical categories (such as noun, verb, adjective) to each word in the tokenized sentences.",
+      "uncommon_words": [
+        "**pos",
+        "tagging**",
+        "pos",
+        "tagger",
+        "grammatical",
+        "categories",
+        "(such",
+        "noun",
+        "verb",
+        "adjective)",
+        "tokenized",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "a",
+        "pos",
+        "as",
+        "each",
+        "word",
+        "in",
+        "the"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Adjective Check**: For each word in the tokenized sentence, check if it exists in the predefined list of target words and if its POS tag indicates that it is an adjective (JJ, JJR, JJS).",
+      "uncommon_words": [
+        "**adjective",
+        "check**",
+        "tokenized",
+        "exists",
+        "predefined",
+        "words",
+        "pos",
+        "indicates",
+        "is",
+        "an",
+        "adjective",
+        "(jj",
+        "jjr",
+        "jjs)"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "word",
+        "in",
+        "the",
+        "tokenized",
+        "sentence",
+        "check",
+        "if",
+        "it",
+        "in",
+        "the",
+        "list",
+        "of",
+        "target",
+        "words",
+        "and",
+        "if",
+        "pos",
+        "that",
+        "it",
+        "is",
+        "an",
+        "adjective"
+      ],
+      "word_count": 34,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Result Aggregation**: Collect and store sentences where each target word is used as an adjective.",
+      "uncommon_words": [
+        "**result",
+        "aggregation**",
+        "sentences",
+        "is",
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "and",
+        "sentences",
+        "each",
+        "target",
+        "word",
+        "is",
+        "used",
+        "as",
+        "an",
+        "adjective"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "**Tokenization**: The `nltk.word_tokenize` function splits each sentence into words and punctuation marks.",
+      "uncommon_words": [
+        "**tokenization**",
+        "`nltkword_tokenize`",
+        "splits",
+        "words",
+        "punctuation",
+        "marks"
+      ],
+      "previously_used_words": [
+        "**tokenization**",
+        "the",
+        "each",
+        "sentence",
+        "into",
+        "words",
+        "and",
+        "punctuation"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "**POS Tagging**: The `nltk.pos_tag` function assigns a POS tag to each token, such as 'JJ' for adjectives, 'NN' for nouns, etc.",
+      "uncommon_words": [
+        "**pos",
+        "tagging**",
+        "`nltkpos_tag`",
+        "assigns",
+        "pos",
+        "token",
+        "'jj'",
+        "adjectives",
+        "'nn'",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "**pos",
+        "tagging**",
+        "the",
+        "function",
+        "a",
+        "pos",
+        "tag",
+        "to",
+        "each",
+        "as",
+        "for",
+        "for"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "**Adjective Check**: Each word is converted to lowercase and checked against the target list. If it matches, its POS tag is verified to start with 'JJ', indicating it is an adjective.",
+      "uncommon_words": [
+        "**adjective",
+        "check**",
+        "is",
+        "converted",
+        "lowercase",
+        "checked",
+        "matches",
+        "pos",
+        "is",
+        "verified",
+        "'jj'",
+        "indicating",
+        "is",
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "**adjective",
+        "check**",
+        "each",
+        "word",
+        "is",
+        "to",
+        "and",
+        "the",
+        "target",
+        "list",
+        "if",
+        "it",
+        "its",
+        "pos",
+        "tag",
+        "is",
+        "to",
+        "'jj'",
+        "it",
+        "is",
+        "an",
+        "adjective"
+      ],
+      "word_count": 31,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "**Result Aggregation**: Sentences where target words are used as adjectives are collected in a dictionary, organized by each target word.",
+      "uncommon_words": [
+        "**result",
+        "aggregation**",
+        "sentences",
+        "words",
+        "are",
+        "adjectives",
+        "are",
+        "collected",
+        "dictionary"
+      ],
+      "previously_used_words": [
+        "**result",
+        "aggregation**",
+        "sentences",
+        "where",
+        "target",
+        "words",
+        "used",
+        "as",
+        "adjectives",
+        "in",
+        "a",
+        "by",
+        "each",
+        "target",
+        "word"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

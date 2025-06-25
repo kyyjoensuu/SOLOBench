@@ -1,0 +1,396 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-16 07:13:21",
+  "total_sentences": 20,
+  "perfect_sentences": 1,
+  "score_percentage": 5.0,
+  "word_count_failures": 16,
+  "format_failures": 19,
+  "common_word_failures": 11,
+  "word_reuse_failures": 10,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_Phi-4-mini-instruct_latest_1747368108.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_Phi-4-mini-instruct_latest_1747368108.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Enjoy sport football.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Grateful holiday turkey.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Cheer competition table.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Discover culture food.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Appreciate game player ball.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Love music band guitar.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'music' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Delight team coach baseball field",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Admire book novelist story.",
+      "uncommon_words": [
+        "novelist"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'book' is not an adjective",
+        "Third word 'novelist' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Marvel invention device future hope technology machine car",
+      "uncommon_words": [
+        "marvel"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Learn language student Spanish.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'language' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Admire art piece painting beauty museum",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Discover country visit Italy land geography culture",
+      "uncommon_words": [
+        "italy",
+        "geography"
+      ],
+      "previously_used_words": [
+        "discover",
+        "culture"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Create poem writer book poems verses line collection word list creativity",
+      "uncommon_words": [
+        "poems",
+        "verses"
+      ],
+      "previously_used_words": [
+        "book"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Dream goal future aim vision aspiration imagination motivation desire challenge success idea plan ambition",
+      "uncommon_words": [
+        "aspiration"
+      ],
+      "previously_used_words": [
+        "future"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Help family member friend neighbor charity person care assistance kindness support give time love gift respect hope unity trust comfort encouragement peace friendship bond community togetherness relationship compassion understanding solidarity empathy alliance fellowship.",
+      "uncommon_words": [
+        "kindness",
+        "encouragement",
+        "togetherness",
+        "compassion",
+        "solidarity",
+        "empathy",
+        "fellowship"
+      ],
+      "previously_used_words": [
+        "love",
+        "hope"
+      ],
+      "word_count": 33,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Discover fact truth reality find discovery knowledge experience information research study evidence proof new insight findings data analysis discover prove conclude result conclusion finding answer determination accuracy source resource material tool solution approach methods strategy plan method model idea",
+      "uncommon_words": [
+        "findings",
+        "methods"
+      ],
+      "previously_used_words": [
+        "discover",
+        "discover",
+        "plan",
+        "idea"
+      ],
+      "word_count": 39,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Grasp complex subject concept learning student class environment education school time effort perseverance difficulty struggle challenge question problem understanding comprehension process progress step advance move forward achieve intellectual success gain knowledge acquire information learn understand retain memory retention growth development experience increase skill improvement mastery expertise ability capability discover new insights deeper perspectives thorough analysis develop better solutions innovation contribute to field",
+      "uncommon_words": [
+        "perseverance",
+        "comprehension",
+        "retention",
+        "mastery",
+        "insights",
+        "deeper",
+        "perspectives",
+        "thorough",
+        "solutions"
+      ],
+      "previously_used_words": [
+        "student",
+        "time",
+        "challenge",
+        "understanding",
+        "success",
+        "knowledge",
+        "information",
+        "learn",
+        "experience",
+        "discover",
+        "new",
+        "analysis",
+        "field"
+      ],
+      "word_count": 62,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Embrace culture heritage tradition custom celebration festival holiday family gathering community event ceremony practice ritual observation worship expression appreciation respect values legacy identity faith beliefs belief system doctrine principles moral code ethos principle value ethic standard norm guideline rule law order philosophy ideology thought vision aspiration worldview outlook aim purpose goal objective mission direction intention target end result outcome effect consequence impact influence change transformation adjustment shift adaptation evolution progress development growth process cycle sequence transition alteration improvement advancement innovation discovery",
+      "uncommon_words": [
+        "worship",
+        "values",
+        "beliefs",
+        "principles",
+        "ethos",
+        "ethic",
+        "aspiration",
+        "worldview",
+        "outlook",
+        "adaptation",
+        "alteration",
+        "advancement"
+      ],
+      "previously_used_words": [
+        "culture",
+        "holiday",
+        "family",
+        "community",
+        "respect",
+        "vision",
+        "aspiration",
+        "aim",
+        "goal",
+        "result",
+        "progress",
+        "development",
+        "growth",
+        "process",
+        "improvement",
+        "innovation",
+        "discovery"
+      ],
+      "word_count": 81,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Pursue knowledge truth discover facts understanding insight wisdom skill mastery expertise ability capability learning gain insights experiences grow develop learn expand understand retain memory retention increase capacity acquire information skills experience practice perfection apply use benefit advance improve contribute value add meaning create impact success achieve goal purpose complete end result achievement accomplishment fulfillment completion reach realization attain attainment acquisition ownership possession control",
+      "uncommon_words": [
+        "facts",
+        "mastery",
+        "insights",
+        "experiences",
+        "retention",
+        "skills",
+        "perfection",
+        "fulfillment",
+        "completion",
+        "realization",
+        "attain",
+        "attainment"
+      ],
+      "previously_used_words": [
+        "knowledge",
+        "truth",
+        "discover",
+        "understanding",
+        "insight",
+        "skill",
+        "mastery",
+        "expertise",
+        "ability",
+        "capability",
+        "learning",
+        "gain",
+        "insights",
+        "develop",
+        "learn",
+        "understand",
+        "retain",
+        "memory",
+        "retention",
+        "increase",
+        "acquire",
+        "information",
+        "experience",
+        "practice",
+        "advance",
+        "contribute",
+        "value",
+        "create",
+        "impact",
+        "success",
+        "achieve",
+        "goal",
+        "purpose",
+        "end",
+        "result"
+      ],
+      "word_count": 63,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Dream future envision imagine conceptualize speculate hypothesize contemplate theorize visualize project plan anticipate forecast predict",
+      "uncommon_words": [
+        "conceptualize",
+        "hypothesize",
+        "theorize",
+        "visualize",
+        "forecast"
+      ],
+      "previously_used_words": [
+        "dream",
+        "future",
+        "plan"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

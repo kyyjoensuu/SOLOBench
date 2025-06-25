@@ -1,0 +1,294 @@
+{
+  "model": "Falcon3-7B-Instruct:latest",
+  "label": "2025-05-14 18:12:12",
+  "total_sentences": 20,
+  "perfect_sentences": 2,
+  "score_percentage": 10.0,
+  "word_count_failures": 3,
+  "format_failures": 16,
+  "common_word_failures": 4,
+  "word_reuse_failures": 5,
+  "raw_output_file": "Results/Task_First_100/SOLO_bench_raw_Falcon3-7B-Instruct_latest.txt",
+  "formatted_output_file": "Results/Task_First_100/SOLO_bench_Falcon3-7B-Instruct_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Iraqi citizen assure refugee asylum",
+      "uncommon_words": [
+        "asylum"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Thanksgiving celebration brown flag",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'thanksgiving' is not a verb",
+        "Second word 'celebration' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "accounting bias novel statistics",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "adjustment duty colonial empire",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'adjustment' is not a verb",
+        "Second word 'duty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "agency alliance hostile aggression",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'agency' is not a verb",
+        "Second word 'alliance' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "anger appearance loud scream",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'appearance' is not an adjective",
+        "Third word 'loud' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "arrow fly tall tree",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'arrow' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "assure every citizen hope",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assure",
+        "citizen"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "average blood daily flow",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'blood' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "barely ten steps away",
+      "uncommon_words": [
+        "steps"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'barely' is not a verb",
+        "Third word 'steps' is not a noun",
+        "Fourth word 'away' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "bedroom lamp turn off",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bedroom' is not a verb",
+        "Second word 'lamp' is not an adjective",
+        "Fourth word 'off' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "bias colonial invasion perspective",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bias",
+        "colonial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "bloody battle fierce fight",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'battle' is not an adjective",
+        "Third word 'fierce' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "bowl shared joy meal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "brown cloth cover desk",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "brown"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cloth' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "button sew small shirt",
+      "uncommon_words": [
+        "sew"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sew' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "car drive city rush",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'car' is not a verb",
+        "Second word 'drive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "celebration decade joy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebration",
+        "joy"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "cheap item find affordable",
+      "uncommon_words": [
+        "affordable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cheap' is not a verb",
+        "Second word 'item' is not an adjective",
+        "Fourth word 'affordable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "citizen democracy right",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "citizen"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

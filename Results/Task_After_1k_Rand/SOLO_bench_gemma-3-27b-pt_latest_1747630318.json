@@ -1,0 +1,66 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-19 08:07:34",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_gemma-3-27b-pt_latest_1747630318.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_gemma-3-27b-pt_latest_1747630318.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not use quotations in the returned list.",
+      "uncommon_words": [
+        "quotations",
+        "returned"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Return exactly 200 unique sentences (that follow this structure: Verb + Adjective + Noun + Noun)",
+      "uncommon_words": [
+        "200",
+        "sentences",
+        "(that",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun)"
+      ],
+      "previously_used_words": [],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Do not return anything else",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "do",
+        "not",
+        "return"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

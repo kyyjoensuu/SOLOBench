@@ -1,0 +1,586 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-16 20:13:04",
+  "total_sentences": 27,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 26,
+  "format_failures": 27,
+  "common_word_failures": 26,
+  "word_reuse_failures": 17,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747415539.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747415539.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Government bans.",
+      "uncommon_words": [
+        "bans"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Sale. No live animal harmed.",
+      "uncommon_words": [
+        "harmed"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Only from animals raised in farm.",
+      "uncommon_words": [
+        "animals",
+        "raised"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Farms.",
+      "uncommon_words": [
+        "farms"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Humane.",
+      "uncommon_words": [
+        "humane"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Treatment. All. Living. Creatures.",
+      "uncommon_words": [
+        "creatures"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'treatment' is not a verb",
+        "Fourth word 'creatures' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Mammals. Farmed.",
+      "uncommon_words": [
+        "mammals",
+        "farmed"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Meat.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Raised. In. Farms.",
+      "uncommon_words": [
+        "raised",
+        "farms"
+      ],
+      "previously_used_words": [
+        "raised",
+        "in",
+        "farms"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Live. Animals. No. harm. To. All. Living, Creatures.",
+      "uncommon_words": [
+        "animals",
+        "creatures"
+      ],
+      "previously_used_words": [
+        "live",
+        "animals",
+        "no",
+        "all",
+        "living",
+        "creatures"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Pigs. Factory.",
+      "uncommon_words": [
+        "pigs"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Livestock. Farming.",
+      "uncommon_words": [
+        "livestock",
+        "farming"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "No. live. Animal. harmed. No. slaughter. Pigs. Farmed?",
+      "uncommon_words": [
+        "harmed",
+        "slaughter",
+        "pigs",
+        "farmed"
+      ],
+      "previously_used_words": [
+        "no",
+        "live",
+        "animal",
+        "harmed",
+        "no",
+        "pigs",
+        "farmed"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Pork. Farmed. In. A. Factory. Farm.",
+      "uncommon_words": [
+        "farmed"
+      ],
+      "previously_used_words": [
+        "farmed",
+        "in",
+        "factory",
+        "farm"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Animals. Raised. In. An. Indoor. Environment.",
+      "uncommon_words": [
+        "animals",
+        "raised",
+        "an",
+        "indoor"
+      ],
+      "previously_used_words": [
+        "animals",
+        "raised",
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Meat. Factory-raised. Food. For. Humans.",
+      "uncommon_words": [
+        "factory-raised",
+        "humans"
+      ],
+      "previously_used_words": [
+        "meat"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Factory Farms. No. live. Animals.. No. slaughter.. Pigs.",
+      "uncommon_words": [
+        "farms",
+        "animals",
+        "slaughter",
+        "pigs"
+      ],
+      "previously_used_words": [
+        "factory",
+        "farms",
+        "no",
+        "live",
+        "animals",
+        "no",
+        "slaughter",
+        "pigs"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Humane. treatment. All. Living. Creatures. No. harm. To. All. Living. Creatures..",
+      "uncommon_words": [
+        "humane",
+        "creatures",
+        "creatures"
+      ],
+      "previously_used_words": [
+        "humane",
+        "treatment",
+        "all",
+        "living",
+        "creatures",
+        "no",
+        "harm",
+        "to",
+        "all",
+        "living",
+        "creatures"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Factory Farm Animals... No. harm. To. Any. Living. Creatures..",
+      "uncommon_words": [
+        "animals",
+        "creatures"
+      ],
+      "previously_used_words": [
+        "factory",
+        "farm",
+        "animals",
+        "no",
+        "harm",
+        "to",
+        "living",
+        "creatures"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Animal. Farm. Livestock. \"Live\" Animal Farm... No. harm. To. Animals. Live. Creatures..",
+      "uncommon_words": [
+        "livestock",
+        "\"live\"",
+        "animals",
+        "creatures"
+      ],
+      "previously_used_words": [
+        "animal",
+        "farm",
+        "livestock",
+        "animal",
+        "farm",
+        "no",
+        "harm",
+        "to",
+        "animals",
+        "live",
+        "creatures"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Human. Needs. Live. Predators. With Meat. To. Sustain....No. harm...To. Live. Creatures..",
+      "uncommon_words": [
+        "needs",
+        "predators",
+        "sustainno",
+        "harmto",
+        "creatures"
+      ],
+      "previously_used_words": [
+        "live",
+        "meat",
+        "to",
+        "live",
+        "creatures"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Humans. Need. Meat. To. Support..., No. live Predator..To. Sustain....No. harm...To. Live. Creatures..",
+      "uncommon_words": [
+        "humans",
+        "predatorto",
+        "sustainno",
+        "harmto",
+        "creatures"
+      ],
+      "previously_used_words": [
+        "humans",
+        "meat",
+        "to",
+        "no",
+        "live",
+        "sustainno",
+        "harmto",
+        "live",
+        "creatures"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Humans. Have. No. Choice ...No. live. Animals. Farm. Produced..So...Animal. Farms.",
+      "uncommon_words": [
+        "humans",
+        "animals",
+        "producedsoanimal",
+        "farms"
+      ],
+      "previously_used_words": [
+        "humans",
+        "no",
+        "no",
+        "live",
+        "animals",
+        "farm",
+        "farms"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Humane. Treatment. All...Living Creatures. No. harm. No. animal. Slaughter, Pig. Factory. Farm.",
+      "uncommon_words": [
+        "humane",
+        "allliving",
+        "creatures",
+        "slaughter"
+      ],
+      "previously_used_words": [
+        "humane",
+        "treatment",
+        "creatures",
+        "no",
+        "harm",
+        "no",
+        "animal",
+        "slaughter",
+        "factory",
+        "farm"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "The government has banned the sale of all meat except for those raised in factory-filled farms, to guarantee that no animal will be slaughtered during its production.",
+      "uncommon_words": [
+        "has",
+        "banned",
+        "raised",
+        "factory-filled",
+        "farms",
+        "will",
+        "slaughtered"
+      ],
+      "previously_used_words": [
+        "government",
+        "sale",
+        "all",
+        "meat",
+        "for",
+        "raised",
+        "in",
+        "farms",
+        "to",
+        "no",
+        "animal"
+      ],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "The government has imposed an embargo on the sale of all livestock products except for animals raised in factory-farm environments, ensuring a reduction in animal suffering.",
+      "uncommon_words": [
+        "has",
+        "imposed",
+        "an",
+        "embargo",
+        "livestock",
+        "products",
+        "animals",
+        "raised",
+        "factory-farm",
+        "environments",
+        "ensuring"
+      ],
+      "previously_used_words": [
+        "the",
+        "government",
+        "has",
+        "an",
+        "the",
+        "sale",
+        "of",
+        "all",
+        "livestock",
+        "except",
+        "for",
+        "animals",
+        "raised",
+        "in",
+        "a",
+        "in",
+        "animal"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "The government ban on selling meat only comes with the exclusion of livestock raised in factory farms, thereby ensuring that no live animal is exposed to cruel methods during its development.",
+      "uncommon_words": [
+        "selling",
+        "comes",
+        "exclusion",
+        "livestock",
+        "raised",
+        "farms",
+        "ensuring",
+        "is",
+        "exposed",
+        "methods"
+      ],
+      "previously_used_words": [
+        "the",
+        "government",
+        "on",
+        "meat",
+        "only",
+        "with",
+        "the",
+        "of",
+        "livestock",
+        "raised",
+        "in",
+        "factory",
+        "farms",
+        "ensuring",
+        "that",
+        "no",
+        "live",
+        "animal",
+        "to",
+        "during",
+        "its"
+      ],
+      "word_count": 31,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

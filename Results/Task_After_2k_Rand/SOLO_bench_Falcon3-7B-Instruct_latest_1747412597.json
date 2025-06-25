@@ -1,0 +1,450 @@
+{
+  "model": "Falcon3-7B-Instruct:latest",
+  "label": "2025-05-16 19:24:39",
+  "total_sentences": 20,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 0,
+  "format_failures": 20,
+  "common_word_failures": 20,
+  "word_reuse_failures": 6,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_Falcon3-7B-Instruct_latest_1747412597.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_Falcon3-7B-Instruct_latest_1747412597.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Whispers** **gentle** **dreams** **night**.",
+      "uncommon_words": [
+        "**whispers**",
+        "**gentle**",
+        "**dreams**",
+        "**night**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**whispers**' is not a verb",
+        "Second word '**gentle**' is not an adjective",
+        "Third word '**dreams**' is not a noun",
+        "Fourth word '**night**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Flames** **angry** **fire** **logs**.",
+      "uncommon_words": [
+        "**flames**",
+        "**angry**",
+        "**fire**",
+        "**logs**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**flames**' is not a verb",
+        "Second word '**angry**' is not an adjective",
+        "Third word '**fire**' is not a noun",
+        "Fourth word '**logs**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Laughter** **joyous** **children** **play**.",
+      "uncommon_words": [
+        "**laughter**",
+        "**joyous**",
+        "**children**",
+        "**play**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**laughter**' is not a verb",
+        "Second word '**joyous**' is not an adjective",
+        "Third word '**children**' is not a noun",
+        "Fourth word '**play**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Secrets** **deep** **whispers** **night**.",
+      "uncommon_words": [
+        "**secrets**",
+        "**deep**",
+        "**whispers**",
+        "**night**"
+      ],
+      "previously_used_words": [
+        "**whispers**",
+        "**night**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**secrets**' is not a verb",
+        "Second word '**deep**' is not an adjective",
+        "Third word '**whispers**' is not a noun",
+        "Fourth word '**night**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "**Raindrops** **peaceful** **nature** **sky**.",
+      "uncommon_words": [
+        "**raindrops**",
+        "**peaceful**",
+        "**nature**",
+        "**sky**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**raindrops**' is not a verb",
+        "Second word '**peaceful**' is not an adjective",
+        "Third word '**nature**' is not a noun",
+        "Fourth word '**sky**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "**Tears** **compassionate** **eyes** **friend**.",
+      "uncommon_words": [
+        "**tears**",
+        "**compassionate**",
+        "**eyes**",
+        "**friend**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**tears**' is not a verb",
+        "Second word '**compassionate**' is not an adjective",
+        "Third word '**eyes**' is not a noun",
+        "Fourth word '**friend**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "**Curtains** **silky** **fabric** **window**.",
+      "uncommon_words": [
+        "**curtains**",
+        "**silky**",
+        "**fabric**",
+        "**window**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**curtains**' is not a verb",
+        "Second word '**silky**' is not an adjective",
+        "Third word '**fabric**' is not a noun",
+        "Fourth word '**window**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "**Dreams** **fierce** **visions** **night**.",
+      "uncommon_words": [
+        "**dreams**",
+        "**fierce**",
+        "**visions**",
+        "**night**"
+      ],
+      "previously_used_words": [
+        "**dreams**",
+        "**night**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**dreams**' is not a verb",
+        "Second word '**fierce**' is not an adjective",
+        "Third word '**visions**' is not a noun",
+        "Fourth word '**night**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "**Smiles** **sincere** **faces** **friends**.",
+      "uncommon_words": [
+        "**smiles**",
+        "**sincere**",
+        "**faces**",
+        "**friends**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**smiles**' is not a verb",
+        "Second word '**sincere**' is not an adjective",
+        "Third word '**faces**' is not a noun",
+        "Fourth word '**friends**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "**Clouds** **drifting** **skies** **blue**.",
+      "uncommon_words": [
+        "**clouds**",
+        "**drifting**",
+        "**skies**",
+        "**blue**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**clouds**' is not a verb",
+        "Second word '**drifting**' is not an adjective",
+        "Third word '**skies**' is not a noun",
+        "Fourth word '**blue**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "**Rats** **scurrying** **darkness** **attic**.",
+      "uncommon_words": [
+        "**rats**",
+        "**scurrying**",
+        "**darkness**",
+        "**attic**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**rats**' is not a verb",
+        "Second word '**scurrying**' is not an adjective",
+        "Third word '**darkness**' is not a noun",
+        "Fourth word '**attic**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Laughter** **joyful** **music** **party**.",
+      "uncommon_words": [
+        "**laughter**",
+        "**joyful**",
+        "**music**",
+        "**party**"
+      ],
+      "previously_used_words": [
+        "**laughter**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**laughter**' is not a verb",
+        "Second word '**joyful**' is not an adjective",
+        "Third word '**music**' is not a noun",
+        "Fourth word '**party**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Footsteps** **silent** **hallway** **midnight**.",
+      "uncommon_words": [
+        "**footsteps**",
+        "**silent**",
+        "**hallway**",
+        "**midnight**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**footsteps**' is not a verb",
+        "Second word '**silent**' is not an adjective",
+        "Third word '**hallway**' is not a noun",
+        "Fourth word '**midnight**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Whispers** **magical** **stories** **book**.",
+      "uncommon_words": [
+        "**whispers**",
+        "**magical**",
+        "**stories**",
+        "**book**"
+      ],
+      "previously_used_words": [
+        "**whispers**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**whispers**' is not a verb",
+        "Second word '**magical**' is not an adjective",
+        "Third word '**stories**' is not a noun",
+        "Fourth word '**book**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Dandelions** **tossed** **wind** **summer**.",
+      "uncommon_words": [
+        "**dandelions**",
+        "**tossed**",
+        "**wind**",
+        "**summer**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**dandelions**' is not a verb",
+        "Second word '**tossed**' is not an adjective",
+        "Third word '**wind**' is not a noun",
+        "Fourth word '**summer**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "**Stars** **shining** **heavens** **beautiful**.",
+      "uncommon_words": [
+        "**stars**",
+        "**shining**",
+        "**heavens**",
+        "**beautiful**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**stars**' is not a verb",
+        "Second word '**shining**' is not an adjective",
+        "Third word '**heavens**' is not a noun",
+        "Fourth word '**beautiful**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "**Leaves** **rustling** **trees** **autumn**.",
+      "uncommon_words": [
+        "**leaves**",
+        "**rustling**",
+        "**trees**",
+        "**autumn**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**leaves**' is not a verb",
+        "Second word '**rustling**' is not an adjective",
+        "Third word '**trees**' is not a noun",
+        "Fourth word '**autumn**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "**Secrets** **kept** **whispers** **confessions**.",
+      "uncommon_words": [
+        "**secrets**",
+        "**kept**",
+        "**whispers**",
+        "**confessions**"
+      ],
+      "previously_used_words": [
+        "**secrets**",
+        "**whispers**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**secrets**' is not a verb",
+        "Second word '**kept**' is not an adjective",
+        "Third word '**whispers**' is not a noun",
+        "Fourth word '**confessions**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "**Birds** **singing** **morning** **forest**.",
+      "uncommon_words": [
+        "**birds**",
+        "**singing**",
+        "**morning**",
+        "**forest**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**birds**' is not a verb",
+        "Second word '**singing**' is not an adjective",
+        "Third word '**morning**' is not a noun",
+        "Fourth word '**forest**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "**Whispers** **soft** **moonlit** **garden**.",
+      "uncommon_words": [
+        "**whispers**",
+        "**soft**",
+        "**moonlit**",
+        "**garden**"
+      ],
+      "previously_used_words": [
+        "**whispers**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**whispers**' is not a verb",
+        "Second word '**soft**' is not an adjective",
+        "Third word '**moonlit**' is not a noun",
+        "Fourth word '**garden**' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

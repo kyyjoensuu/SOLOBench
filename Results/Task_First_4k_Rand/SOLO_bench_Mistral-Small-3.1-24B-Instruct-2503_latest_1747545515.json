@@ -1,0 +1,193 @@
+{
+  "model": "Mistral-Small-3.1-24B-Instruct-2503:latest",
+  "label": "2025-05-18 08:41:31",
+  "total_sentences": 11,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 9,
+  "format_failures": 11,
+  "common_word_failures": 9,
+  "word_reuse_failures": 6,
+  "raw_output_file": "Results/Task_First_4k_Rand/SOLO_bench_raw_Mistral-Small-3.1-24B-Instruct-2503_latest_1747545515.txt",
+  "formatted_output_file": "Results/Task_First_4k_Rand/SOLO_bench_Mistral-Small-3.1-24B-Instruct-2503_latest_1747545515.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "ABIDE",
+      "uncommon_words": [
+        "abide"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "BLEND",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "CRUST",
+      "uncommon_words": [
+        "crust"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "DREAM",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "ABIDE - OBEY , ADHERE TO",
+      "uncommon_words": [
+        "abide",
+        "-",
+        "obey",
+        "adhere"
+      ],
+      "previously_used_words": [
+        "abide"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "BLEND - MERGE ,",
+      "uncommon_words": [
+        "-",
+        "merge"
+      ],
+      "previously_used_words": [
+        "blend",
+        "-"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "CRUST - SHELLS (OF BREAD)",
+      "uncommon_words": [
+        "crust",
+        "-",
+        "shells",
+        "(of",
+        "bread)"
+      ],
+      "previously_used_words": [
+        "crust",
+        "-"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "DREAM - VISION.",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "dream",
+        "-"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "QUOTH: QUOTE  + TH,",
+      "uncommon_words": [
+        "quoth",
+        "+",
+        "th"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quoth' is not a verb",
+        "Second word 'quote' is not an adjective",
+        "Third word '+' is not a noun",
+        "Fourth word 'th' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "DRIED-Drink + ED,",
+      "uncommon_words": [
+        "dried-drink",
+        "+",
+        "ed"
+      ],
+      "previously_used_words": [
+        "+"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "FILTH - FIll+Th, etc.",
+      "uncommon_words": [
+        "filth",
+        "-",
+        "fill+th"
+      ],
+      "previously_used_words": [
+        "-"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'filth' is not a verb",
+        "Second word '-' is not an adjective",
+        "Third word 'fill+th' is not a noun",
+        "Fourth word 'etc' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

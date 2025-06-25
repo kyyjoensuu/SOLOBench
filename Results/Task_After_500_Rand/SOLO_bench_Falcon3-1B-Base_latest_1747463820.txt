@@ -1,0 +1,3 @@
+1. **Initialize the DP table:** Define an N x M matrix where N is the number of unique elements in the list (6) and M is the number of possible sentences (4). Initialize all cells as 0 except for the first row and column, where each cell is set to 1 (because the sentence can start with any word).
+2. **Dynamic Programming:** For each position (i, j) in the DP table:
+3. **Return the last row of the table:** The last cell in the DP table will contain all valid combinations that meet the criteria. Extract these combinations from the last row of the table. Since there are 4 elements, you can create 200 sentences using each word exactly once. The number of combinations is thus:

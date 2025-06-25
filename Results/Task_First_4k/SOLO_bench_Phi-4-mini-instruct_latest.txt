@@ -1,0 +1,7 @@
+1. Initialize procedure SecurePasswordValidation with parameters: userProvidedAccount, inputtedSecurityQuestionAnswer.
+2. Store a mapping of security questions associated users in an internal secure database:
+3. Retrieve the expected answer from stored data using the provided account (userProvideAccount):
+4. Set initial validation state:
+5. Implement inputted answer verification process for each question in the retrieved tuple (Question-Answers set):
+6. End routine SecurePasswordValidation. If a correct username and its encrypted authentication factor do not match then display error prompt with an appropriate message without exposing original sensitive information.
+7. Establish function `validateItemFormat(dataLine)`

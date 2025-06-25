@@ -1,0 +1,49 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-18 13:11:11",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747562835.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747562835.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do NOT use space or other symbols in your code to indicate punctuation",
+      "uncommon_words": [
+        "symbols",
+        "punctuation"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "DO not use tools like Python's built-in String Methods",
+      "uncommon_words": [
+        "tools",
+        "python's",
+        "built-in",
+        "methods"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

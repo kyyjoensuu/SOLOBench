@@ -1,0 +1,3376 @@
+{
+  "model": "Falcon3-10B-Instruct:latest",
+  "label": "2025-05-16 03:44:08",
+  "total_sentences": 200,
+  "perfect_sentences": 3,
+  "score_percentage": 1.5,
+  "word_count_failures": 62,
+  "format_failures": 148,
+  "common_word_failures": 113,
+  "word_reuse_failures": 192,
+  "raw_output_file": "Results/Task_After_4k/SOLO_bench_raw_Falcon3-10B-Instruct_latest_1747355682.txt",
+  "formatted_output_file": "Results/Task_After_4k/SOLO_bench_Falcon3-10B-Instruct_latest_1747355682.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Celebrate ancient wisdom tradition.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Observe peaceful morning sky beauty.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Share thrilling adventure tale.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Investigate mysterious disease outbreak.",
+      "uncommon_words": [
+        "outbreak"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'outbreak' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Discover vibrant art culture festival.",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Examine delicate flower pattern.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Evaluate creative writer novel.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Collect exotic wildlife specimen.",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'specimen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Investigate modern computer technology.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Celebrate historic monument dedication.",
+      "uncommon_words": [
+        "dedication"
+      ],
+      "previously_used_words": [
+        "celebrate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'dedication' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Discover peaceful forest stream.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "peaceful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Examine stunning ocean wave crash.",
+      "uncommon_words": [
+        "stunning"
+      ],
+      "previously_used_words": [
+        "examine"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Share thrilling movie review.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Investigate ancient stone structure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "ancient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Evaluate classic opera performance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Collect rare historical artifact treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Observe colorful bird migration passage.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Investigate traditional dance movement.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Evaluate innovative scientific research.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Celebrate courageous hero story.",
+      "uncommon_words": [
+        "courageous"
+      ],
+      "previously_used_words": [
+        "celebrate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'courageous' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Discover mystical forest legend.",
+      "uncommon_words": [
+        "mystical"
+      ],
+      "previously_used_words": [
+        "discover",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mystical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Examine fascinating insect species.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Share creative dance performance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "dance",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Investigate complex chemistry experiment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Celebrate historical battle outcome.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Discover serene mountain view horizon.",
+      "uncommon_words": [
+        "serene"
+      ],
+      "previously_used_words": [
+        "discover"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Examine charming town architecture.",
+      "uncommon_words": [
+        "charming"
+      ],
+      "previously_used_words": [
+        "examine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'charming' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Share mystical dream vision.",
+      "uncommon_words": [
+        "mystical"
+      ],
+      "previously_used_words": [
+        "share",
+        "mystical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mystical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Investigate historical document mystery.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Evaluate elegant fashion design style.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Collect rare gem jewelry treasure.",
+      "uncommon_words": [
+        "gem"
+      ],
+      "previously_used_words": [
+        "collect",
+        "rare",
+        "treasure"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Observe dramatic theater play.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Investigate historic war relic.",
+      "uncommon_words": [
+        "relic"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "historic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'relic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Evaluate artistic painting masterpiece.",
+      "uncommon_words": [
+        "masterpiece"
+      ],
+      "previously_used_words": [
+        "evaluate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'masterpiece' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Collect ancient artifact treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "ancient",
+        "artifact",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Observe vibrant city street scene.",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [
+        "observe",
+        "vibrant"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Investigate advanced medical treatment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Celebrate romantic love story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "story"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Discover mysterious island path.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "mysterious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Examine captivating painting color.",
+      "uncommon_words": [
+        "captivating"
+      ],
+      "previously_used_words": [
+        "examine",
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'captivating' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Share thrilling news headline.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Investigate innovative energy source.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "innovative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Celebrate historic event anniversary.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Discover mysterious alien spacecraft.",
+      "uncommon_words": [
+        "spacecraft"
+      ],
+      "previously_used_words": [
+        "discover",
+        "mysterious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spacecraft' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Examine intricate machine gear.",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "examine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Share creative musical composition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Investigate ancient fossil discovery.",
+      "uncommon_words": [
+        "fossil"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "ancient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'fossil' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Evaluate elegant poetry performance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "elegant",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Collect diverse global culture artifact.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "culture",
+        "artifact"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Observe dynamic storm cloud formation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Investigate advanced robot technology.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "advanced",
+        "technology"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Celebrate artistic talent exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "artistic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Discover ancient artifact fragment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "ancient",
+        "artifact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Examine brilliant scientific theory.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "scientific"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Share thrilling mystery novel.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "mystery",
+        "novel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Investigate futuristic city design.",
+      "uncommon_words": [
+        "futuristic"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "city",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'futuristic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Celebrate historic music festival.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "festival"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Discover charming countryside village.",
+      "uncommon_words": [
+        "charming",
+        "countryside"
+      ],
+      "previously_used_words": [
+        "discover",
+        "charming"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'charming' is not an adjective",
+        "Third word 'countryside' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Examine complex computer code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "complex",
+        "computer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Share creative painting technique.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Investigate traditional cultural festival.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "traditional",
+        "festival"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cultural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Evaluate modern art gallery collection.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "modern",
+        "art"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Collect exotic animal species specimen.",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [
+        "collect",
+        "exotic",
+        "species",
+        "specimen"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Observe stunning galaxy observation.",
+      "uncommon_words": [
+        "stunning"
+      ],
+      "previously_used_words": [
+        "observe",
+        "stunning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Investigate historic war strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "historic",
+        "war"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Celebrate educational learning journey.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Discover mystical forest creature.",
+      "uncommon_words": [
+        "mystical"
+      ],
+      "previously_used_words": [
+        "discover",
+        "mystical",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mystical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Examine fascinating chemical reaction.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "fascinating"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Share creative dance choreography.",
+      "uncommon_words": [
+        "choreography"
+      ],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "dance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'choreography' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Investigate ancient stone carving.",
+      "uncommon_words": [
+        "carving"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "ancient",
+        "stone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'carving' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Evaluate elegant sculpture art.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "elegant",
+        "art"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Collect rare historical document artifact.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "rare",
+        "historical",
+        "document",
+        "artifact"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Observe dynamic city street life.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dynamic",
+        "city",
+        "street"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Investigate advanced military technology.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "advanced",
+        "technology"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Celebrate historic architectural wonder.",
+      "uncommon_words": [
+        "architectural"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'architectural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Discover mysterious lost treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "mysterious",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Examine exquisite diamond jewelry.",
+      "uncommon_words": [
+        "exquisite"
+      ],
+      "previously_used_words": [
+        "examine",
+        "jewelry"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'exquisite' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Share thrilling espionage novel.",
+      "uncommon_words": [
+        "thrilling",
+        "espionage"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "novel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective",
+        "Third word 'espionage' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Investigate complex ecosystem balance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Celebrate historic event landmark.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Discover serene desert landscape.",
+      "uncommon_words": [
+        "serene"
+      ],
+      "previously_used_words": [
+        "discover",
+        "serene"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'serene' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Examine intriguing historical mystery.",
+      "uncommon_words": [
+        "intriguing"
+      ],
+      "previously_used_words": [
+        "examine",
+        "historical",
+        "mystery"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intriguing' is not an adjective",
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Share creative writing workshop.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Investigate futuristic energy solution.",
+      "uncommon_words": [
+        "futuristic"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "futuristic",
+        "energy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'futuristic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Celebrate artistic talent showcase.",
+      "uncommon_words": [
+        "showcase"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "artistic",
+        "talent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'showcase' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Discover ancient cultural monument.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "ancient",
+        "cultural",
+        "monument"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cultural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Examine delicate flower arrangement.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "delicate",
+        "flower"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Share thrilling adventure movie.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "adventure",
+        "movie"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Investigate complex genetic experiment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "experiment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'genetic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Celebrate historic event celebration.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Discover mysterious ghost story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "mysterious",
+        "story"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Examine fascinating space asteroid.",
+      "uncommon_words": [
+        "asteroid"
+      ],
+      "previously_used_words": [
+        "examine",
+        "fascinating"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'asteroid' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Share creative songwriting process.",
+      "uncommon_words": [
+        "songwriting"
+      ],
+      "previously_used_words": [
+        "share",
+        "creative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'songwriting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Investigate historic legal battle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "historic",
+        "battle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'legal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Evaluate elegant fashion runway show.",
+      "uncommon_words": [
+        "runway"
+      ],
+      "previously_used_words": [
+        "evaluate",
+        "elegant",
+        "fashion"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Collect diverse botanical plant specimen.",
+      "uncommon_words": [
+        "botanical",
+        "specimen"
+      ],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "specimen"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Observe dynamic city skyline lighting.",
+      "uncommon_words": [
+        "skyline"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dynamic",
+        "city"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Investigate advanced computer algorithm.",
+      "uncommon_words": [
+        "algorithm"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "advanced",
+        "computer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'algorithm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Celebrate cultural diversity festival.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "cultural",
+        "festival"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Discover scenic mountain hiking path.",
+      "uncommon_words": [
+        "scenic",
+        "hiking"
+      ],
+      "previously_used_words": [
+        "discover",
+        "mountain",
+        "path"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Examine enchanting fairy tale story.",
+      "uncommon_words": [
+        "enchanting",
+        "fairy"
+      ],
+      "previously_used_words": [
+        "examine",
+        "tale",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Share thrilling detective novel.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "novel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Investigate ancient philosophical text.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "ancient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosophical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Evaluate innovative tech gadget design.",
+      "uncommon_words": [
+        "tech",
+        "gadget"
+      ],
+      "previously_used_words": [
+        "evaluate",
+        "innovative",
+        "design"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Collect diverse global coin collection.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "global",
+        "collection"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Observe captivating film theater performance.",
+      "uncommon_words": [
+        "captivating"
+      ],
+      "previously_used_words": [
+        "observe",
+        "captivating",
+        "theater",
+        "performance"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Investigate modern urban planning strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "modern",
+        "strategy"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Celebrate historic event memorial.",
+      "uncommon_words": [
+        "memorial"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'memorial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Discover charming art museum gallery.",
+      "uncommon_words": [
+        "charming"
+      ],
+      "previously_used_words": [
+        "discover",
+        "charming",
+        "art",
+        "gallery"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Examine intricate spider web structure.",
+      "uncommon_words": [
+        "intricate",
+        "spider"
+      ],
+      "previously_used_words": [
+        "examine",
+        "intricate",
+        "structure"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Share thrilling historical documentary.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective",
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Investigate complex human emotion theory.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "theory"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Celebrate artistic painting renaissance.",
+      "uncommon_words": [
+        "renaissance"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "artistic",
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'renaissance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Discover mysterious archaeological site.",
+      "uncommon_words": [
+        "archaeological"
+      ],
+      "previously_used_words": [
+        "discover",
+        "mysterious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'archaeological' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Examine fascinating scientific hypothesis.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "fascinating",
+        "scientific"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Share creative theatrical performance.",
+      "uncommon_words": [
+        "theatrical"
+      ],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'theatrical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Investigate ancient historical battlefield.",
+      "uncommon_words": [
+        "battlefield"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "ancient",
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'historical' is not a noun",
+        "Fourth word 'battlefield' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Evaluate elegant fashion clothing line.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "elegant",
+        "fashion"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Collect rare global currency artifact.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "rare",
+        "global",
+        "artifact"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Observe vibrant autumn leaf foliage.",
+      "uncommon_words": [
+        "vibrant",
+        "autumn",
+        "foliage"
+      ],
+      "previously_used_words": [
+        "observe",
+        "vibrant"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Investigate futuristic city infrastructure.",
+      "uncommon_words": [
+        "futuristic"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "futuristic",
+        "city"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'futuristic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Celebrate historic monument restoration.",
+      "uncommon_words": [
+        "restoration"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "monument"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'restoration' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Discover serene rural countryside.",
+      "uncommon_words": [
+        "serene",
+        "countryside"
+      ],
+      "previously_used_words": [
+        "discover",
+        "serene",
+        "countryside"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'serene' is not an adjective",
+        "Third word 'rural' is not a noun",
+        "Fourth word 'countryside' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Examine captivating optical illusion.",
+      "uncommon_words": [
+        "captivating",
+        "optical"
+      ],
+      "previously_used_words": [
+        "examine",
+        "captivating"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'captivating' is not an adjective",
+        "Third word 'optical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Share thrilling action movie scene.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "movie",
+        "scene"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Investigate complex economic theory.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "theory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Celebrate historical figure milestone.",
+      "uncommon_words": [
+        "milestone"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'milestone' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Discover scenic island beach landscape.",
+      "uncommon_words": [
+        "scenic"
+      ],
+      "previously_used_words": [
+        "discover",
+        "scenic",
+        "island",
+        "landscape"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Examine beautiful sunset sky view.",
+      "uncommon_words": [
+        "sunset"
+      ],
+      "previously_used_words": [
+        "examine",
+        "sky",
+        "view"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Share creative writing masterclass.",
+      "uncommon_words": [
+        "masterclass"
+      ],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "writing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'masterclass' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Investigate ancient cultural mythology.",
+      "uncommon_words": [
+        "mythology"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "ancient",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cultural' is not a noun",
+        "Fourth word 'mythology' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Evaluate innovative technology company.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "innovative",
+        "technology"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Collect diverse marine animal specimen.",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "animal",
+        "specimen"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Observe dynamic volcanic eruption.",
+      "uncommon_words": [
+        "volcanic",
+        "eruption"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dynamic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'volcanic' is not a noun",
+        "Fourth word 'eruption' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Investigate complex international treaty.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Celebrate historic musical event.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "musical",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Discover remote wilderness mountain trail.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "mountain"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Examine intricate traditional craftwork.",
+      "uncommon_words": [
+        "intricate",
+        "craftwork"
+      ],
+      "previously_used_words": [
+        "examine",
+        "intricate",
+        "traditional"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Third word 'traditional' is not a noun",
+        "Fourth word 'craftwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Share thrilling spy novel plot.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "novel"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Investigate complex space exploration mission.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "space"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Celebrate artistic concert performance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "artistic",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Discover ancient ceremonial mask artifact.",
+      "uncommon_words": [
+        "ceremonial"
+      ],
+      "previously_used_words": [
+        "discover",
+        "ancient",
+        "artifact"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Examine fascinating evolutionary biology.",
+      "uncommon_words": [
+        "evolutionary"
+      ],
+      "previously_used_words": [
+        "examine",
+        "fascinating"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'evolutionary' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Share creative photography technique.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "technique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Investigate historic pirate treasure.",
+      "uncommon_words": [
+        "pirate"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "historic",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'pirate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Evaluate elegant museum exhibit design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "elegant",
+        "museum",
+        "design"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Collect diverse global climate data.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "global"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Observe stunning lunar eclipse view.",
+      "uncommon_words": [
+        "stunning",
+        "lunar",
+        "eclipse"
+      ],
+      "previously_used_words": [
+        "observe",
+        "stunning",
+        "view"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Investigate complex mathematical equation.",
+      "uncommon_words": [
+        "mathematical"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'mathematical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Celebrate historic architectural innovation.",
+      "uncommon_words": [
+        "architectural"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "architectural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'architectural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Discover colorful coral reef dive.",
+      "uncommon_words": [
+        "coral",
+        "reef",
+        "dive"
+      ],
+      "previously_used_words": [
+        "discover",
+        "colorful"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Examine elegant dress design collection.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "elegant",
+        "design",
+        "collection"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Share thrilling historical account.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective",
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Investigate modern medical breakthrough.",
+      "uncommon_words": [
+        "breakthrough"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "modern",
+        "medical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'breakthrough' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Celebrate cultural diversity celebration.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "cultural",
+        "diversity",
+        "celebration"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Discover mysterious Mayan artifact.",
+      "uncommon_words": [
+        "mayan"
+      ],
+      "previously_used_words": [
+        "discover",
+        "mysterious",
+        "artifact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'mayan' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Examine enchanting fantasy novel.",
+      "uncommon_words": [
+        "enchanting"
+      ],
+      "previously_used_words": [
+        "examine",
+        "enchanting",
+        "novel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'enchanting' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Share thrilling crime drama series.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Investigate ancient manuscript discovery.",
+      "uncommon_words": [
+        "manuscript"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "ancient",
+        "discovery"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'manuscript' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Evaluate innovative engineering project.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "innovative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Collect diverse wildlife habitat specimen.",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "wildlife",
+        "specimen"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Observe dazzling fireworks display.",
+      "uncommon_words": [
+        "dazzling",
+        "fireworks"
+      ],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dazzling' is not an adjective",
+        "Third word 'fireworks' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Investigate complex economic market trend.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "economic"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Celebrate historic event triumph.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Discover charming coastal fishing village.",
+      "uncommon_words": [
+        "charming"
+      ],
+      "previously_used_words": [
+        "discover",
+        "charming",
+        "village"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Examine intricate ancient coin artifact.",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "examine",
+        "intricate",
+        "ancient",
+        "coin",
+        "artifact"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Share thrilling adventure travel story.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "adventure",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Investigate modern sustainable technology.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "modern",
+        "technology"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sustainable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Celebrate historic event grand opening.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Discover mysterious archaeological find.",
+      "uncommon_words": [
+        "archaeological"
+      ],
+      "previously_used_words": [
+        "discover",
+        "mysterious",
+        "archaeological"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'archaeological' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Examine fascinating optical illusion effect.",
+      "uncommon_words": [
+        "optical"
+      ],
+      "previously_used_words": [
+        "examine",
+        "fascinating",
+        "optical",
+        "illusion"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Share creative architectural design.",
+      "uncommon_words": [
+        "architectural"
+      ],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "architectural",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'architectural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Investigate historical pirate shipwreck.",
+      "uncommon_words": [
+        "pirate",
+        "shipwreck"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "historical",
+        "pirate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'pirate' is not a noun",
+        "Fourth word 'shipwreck' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Evaluate modern music festival lineup.",
+      "uncommon_words": [
+        "lineup"
+      ],
+      "previously_used_words": [
+        "evaluate",
+        "modern",
+        "music",
+        "festival"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Collect diverse plant species specimen.",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "plant",
+        "species",
+        "specimen"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Observe dazzling solar eclipse view.",
+      "uncommon_words": [
+        "dazzling",
+        "eclipse"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dazzling",
+        "eclipse",
+        "view"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Investigate complex astrophysical theory.",
+      "uncommon_words": [
+        "astrophysical"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "theory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'astrophysical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Celebrate historic event unveiling.",
+      "uncommon_words": [
+        "unveiling"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'unveiling' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Discover serene Arctic landscape.",
+      "uncommon_words": [
+        "serene",
+        "arctic"
+      ],
+      "previously_used_words": [
+        "discover",
+        "serene",
+        "landscape"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'serene' is not an adjective",
+        "Third word 'arctic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Examine captivating wildlife habitat.",
+      "uncommon_words": [
+        "captivating"
+      ],
+      "previously_used_words": [
+        "examine",
+        "captivating",
+        "wildlife",
+        "habitat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'captivating' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Share thrilling documentary series.",
+      "uncommon_words": [
+        "thrilling"
+      ],
+      "previously_used_words": [
+        "share",
+        "thrilling",
+        "documentary",
+        "series"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thrilling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Investigate modern city traffic solution.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "modern",
+        "city",
+        "solution"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Celebrate cultural diversity concert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate",
+        "cultural",
+        "diversity",
+        "concert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Discover scenic desert dune ride.",
+      "uncommon_words": [
+        "scenic",
+        "dune"
+      ],
+      "previously_used_words": [
+        "discover",
+        "scenic",
+        "desert"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Examine intricate puzzle solution.",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "examine",
+        "intricate",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Share creative culinary recipe.",
+      "uncommon_words": [
+        "culinary"
+      ],
+      "previously_used_words": [
+        "share",
+        "creative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'culinary' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Investigate ancient burial site discovery.",
+      "uncommon_words": [
+        "burial"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "ancient",
+        "site",
+        "discovery"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Evaluate innovative eco-friendly product design.",
+      "uncommon_words": [
+        "eco-friendly"
+      ],
+      "previously_used_words": [
+        "evaluate",
+        "innovative",
+        "design"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Collect diverse global ethnic dance display.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collect",
+        "diverse",
+        "global",
+        "dance",
+        "display"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Observe dynamic thunderstorm pattern.",
+      "uncommon_words": [
+        "thunderstorm"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dynamic",
+        "pattern"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'thunderstorm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Investigate complex DNA sequence.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Celebrate historic event memorialization.",
+      "uncommon_words": [
+        "memorialization"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'memorialization' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Discover charming historic town square.",
+      "uncommon_words": [
+        "charming"
+      ],
+      "previously_used_words": [
+        "discover",
+        "charming",
+        "historic",
+        "town"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Examine intricate architectural blueprint.",
+      "uncommon_words": [
+        "intricate",
+        "architectural",
+        "blueprint"
+      ],
+      "previously_used_words": [
+        "examine",
+        "intricate",
+        "architectural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Third word 'architectural' is not a noun",
+        "Fourth word 'blueprint' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Share creative landscape painting.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "landscape",
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Investigate complex economic policy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investigate",
+        "complex",
+        "economic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Celebrate historic event proclamation.",
+      "uncommon_words": [
+        "proclamation"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "historic",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'proclamation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Discover captivating natural wonder.",
+      "uncommon_words": [
+        "captivating"
+      ],
+      "previously_used_words": [
+        "discover",
+        "captivating",
+        "wonder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'captivating' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Examine elegant garden design layout.",
+      "uncommon_words": [
+        "layout"
+      ],
+      "previously_used_words": [
+        "examine",
+        "elegant",
+        "design"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Share creative travel photography essay.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "creative",
+        "travel",
+        "photography"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-15 21:15:26",
+  "total_sentences": 62,
+  "perfect_sentences": 5,
+  "score_percentage": 8.064516129032258,
+  "word_count_failures": 8,
+  "format_failures": 43,
+  "common_word_failures": 40,
+  "word_reuse_failures": 42,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747329145.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747329145.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Word Usage**: Each of the 200 sentences needs four unique words from the list. Since I have to avoid reusing any words, the total number of words used will be 800 distinct entries. Looking at the provided word list, it's quite extensive with 700+ words. However, ensuring that each sentence uses a verb, an adjective, and two nouns without repetition is key.",
+      "uncommon_words": [
+        "**word",
+        "usage**",
+        "200",
+        "sentences",
+        "needs",
+        "words",
+        "reusing",
+        "words",
+        "words",
+        "will",
+        "800",
+        "entries",
+        "looking",
+        "it's",
+        "700+",
+        "words",
+        "ensuring",
+        "uses",
+        "verb",
+        "an",
+        "adjective",
+        "nouns",
+        "repetition",
+        "is"
+      ],
+      "previously_used_words": [],
+      "word_count": 62,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Sentence Structure**: Each sentence must strictly follow \"Verb + Adjective + Noun + Noun.\" That means I need to select a verb first, then choose an adjective that can correctly describe the subsequent noun.",
+      "uncommon_words": [
+        "**sentence",
+        "structure**",
+        "\"verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun\"",
+        "means",
+        "verb",
+        "an",
+        "adjective",
+        "can",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "adjective",
+        "that",
+        "i",
+        "to",
+        "a",
+        "verb",
+        "an",
+        "adjective",
+        "that",
+        "the"
+      ],
+      "word_count": 34,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Adherence to Word List**:",
+      "uncommon_words": [
+        "**adherence",
+        "list**"
+      ],
+      "previously_used_words": [
+        "to",
+        "word"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**adherence' is not a verb",
+        "Second word 'to' is not an adjective",
+        "Fourth word 'list**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**No Tools**: I have to do this manually, without any code or auto-generators. This means relying on my own knowledge of grammar and the given words.",
+      "uncommon_words": [
+        "**no",
+        "tools**",
+        "manually",
+        "auto-generators",
+        "means",
+        "relying",
+        "grammar",
+        "words"
+      ],
+      "previously_used_words": [
+        "i",
+        "have",
+        "to",
+        "without",
+        "any",
+        "means",
+        "of",
+        "and",
+        "the",
+        "words"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "\"Jump happy dog park.\" Wait, no\u2014that structure isn't correct. Structure is verb + adjective + noun + noun. So the structure must be:",
+      "uncommon_words": [
+        "\"jump",
+        "park\"",
+        "no\u2014that",
+        "isn't",
+        "is",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "is",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "the",
+        "must",
+        "be"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "\"Catch bright firefly night.\"",
+      "uncommon_words": [
+        "\"catch",
+        "firefly",
+        "night\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"catch' is not a verb",
+        "Third word 'firefly' is not a noun",
+        "Fourth word 'night\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "\"Draw colorful dragon canvas.\"",
+      "uncommon_words": [
+        "\"draw",
+        "canvas\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"draw' is not a verb",
+        "Third word 'dragon' is not a noun",
+        "Fourth word 'canvas\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "\"Build solid wood house.\"",
+      "uncommon_words": [
+        "\"build",
+        "house\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"build' is not a verb",
+        "Fourth word 'house\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "\"Eat juicy apple pie.\"",
+      "uncommon_words": [
+        "\"eat",
+        "juicy",
+        "pie\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"eat' is not a verb",
+        "Second word 'juicy' is not an adjective",
+        "Fourth word 'pie\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "\"Play loud piano music.\"",
+      "uncommon_words": [
+        "\"play",
+        "music\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"play' is not a verb",
+        "Fourth word 'music\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "\"Cook delicious chicken recipe.\"",
+      "uncommon_words": [
+        "\"cook",
+        "delicious",
+        "recipe\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"cook' is not a verb",
+        "Second word 'delicious' is not an adjective",
+        "Fourth word 'recipe\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "\"Write clear essay topic.\"",
+      "uncommon_words": [
+        "\"write",
+        "topic\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"write' is not a verb",
+        "Fourth word 'topic\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "\"Swim fast dolphin ocean.\"",
+      "uncommon_words": [
+        "\"swim",
+        "dolphin",
+        "ocean\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"swim' is not a verb",
+        "Third word 'dolphin' is not a noun",
+        "Fourth word 'ocean\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "\"Sing sweet song melody.\"",
+      "uncommon_words": [
+        "\"sing",
+        "melody\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"sing' is not a verb",
+        "Fourth word 'melody\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "For each sentence, choose a verb from the list.",
+      "uncommon_words": [
+        "verb"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "choose",
+        "a",
+        "verb",
+        "from",
+        "the",
+        "list"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Pair it with an adjective that can logically describe the following noun.",
+      "uncommon_words": [
+        "an",
+        "adjective",
+        "can",
+        "logically",
+        "noun"
+      ],
+      "previously_used_words": [
+        "with",
+        "an",
+        "adjective",
+        "that",
+        "can",
+        "describe",
+        "the",
+        "noun"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Ensure that all four words are unique and haven't been used before.",
+      "uncommon_words": [
+        "words",
+        "are",
+        "haven't",
+        "been"
+      ],
+      "previously_used_words": [
+        "that",
+        "four",
+        "words",
+        "unique",
+        "and",
+        "used"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Run fast rabbit hole.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Jump high kangaroo grass.",
+      "uncommon_words": [
+        "kangaroo"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'kangaroo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Fly swift eagle sky.",
+      "uncommon_words": [
+        "swift",
+        "eagle"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swift' is not an adjective",
+        "Third word 'eagle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Swim smooth dolphin ocean.",
+      "uncommon_words": [
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "dolphin"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Walk steady robot path.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Cook hot oven meal.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Bake fresh dough bread.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Read interesting book page.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Play fun game rule.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fun' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Sing soft lullaby night.",
+      "uncommon_words": [
+        "lullaby"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'lullaby' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "\"Jump high kangaroo field.\" (If 'field' is in the list)",
+      "uncommon_words": [
+        "\"jump",
+        "kangaroo",
+        "field\"",
+        "(if",
+        "'field'",
+        "is",
+        "list)"
+      ],
+      "previously_used_words": [
+        "\"jump",
+        "high",
+        "kangaroo",
+        "is",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "\"Swim fast dolphin ocean.\"",
+      "uncommon_words": [
+        "\"swim",
+        "dolphin",
+        "ocean\""
+      ],
+      "previously_used_words": [
+        "\"swim",
+        "fast",
+        "dolphin",
+        "ocean\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"swim' is not a verb",
+        "Third word 'dolphin' is not a noun",
+        "Fourth word 'ocean\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "\"Run quick fox night.\"",
+      "uncommon_words": [
+        "\"run",
+        "fox",
+        "night\""
+      ],
+      "previously_used_words": [
+        "night\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"run' is not a verb",
+        "Third word 'fox' is not a noun",
+        "Fourth word 'night\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "\"Fly swiftly bird sky.\"",
+      "uncommon_words": [
+        "\"fly",
+        "swiftly",
+        "sky\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"fly' is not a verb",
+        "Second word 'swiftly' is not an adjective",
+        "Fourth word 'sky\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "\"Walk slow turtle park.\"",
+      "uncommon_words": [
+        "\"walk",
+        "turtle",
+        "park\""
+      ],
+      "previously_used_words": [
+        "park\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"walk' is not a verb",
+        "Third word 'turtle' is not a noun",
+        "Fourth word 'park\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Write clear essay topic.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clear",
+        "essay"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Eat fresh apple pie.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fresh",
+        "apple"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Draw bright picture canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Build solid wood house.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solid",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Jump high kangaroo field.",
+      "uncommon_words": [
+        "kangaroo"
+      ],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "kangaroo"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'kangaroo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Run swift deer forest.",
+      "uncommon_words": [
+        "swift"
+      ],
+      "previously_used_words": [
+        "run",
+        "swift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swift' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Fly fast plane sky.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly",
+        "fast",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Sing sweet song melody.",
+      "uncommon_words": [
+        "melody"
+      ],
+      "previously_used_words": [
+        "sing",
+        "sweet",
+        "song"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'melody' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Play fun game rule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play",
+        "fun",
+        "game",
+        "rule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fun' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Bake soft bread dough.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bake",
+        "soft",
+        "bread",
+        "dough"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Cook hot meal oven.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cook",
+        "hot",
+        "meal",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Read interesting book page.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "read",
+        "interesting",
+        "book",
+        "page"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Walk slow turtle park.",
+      "uncommon_words": [
+        "turtle"
+      ],
+      "previously_used_words": [
+        "walk",
+        "slow",
+        "turtle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'turtle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Swim smooth dolphin ocean.",
+      "uncommon_words": [
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "swim",
+        "smooth",
+        "dolphin",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Catch bright firefly night.",
+      "uncommon_words": [
+        "firefly"
+      ],
+      "previously_used_words": [
+        "bright",
+        "firefly",
+        "night"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'firefly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Grow tall tree garden.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Play loud piano music.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play",
+        "loud",
+        "piano"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Eat juicy apple pie.",
+      "uncommon_words": [
+        "juicy"
+      ],
+      "previously_used_words": [
+        "eat",
+        "juicy",
+        "apple",
+        "pie"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'juicy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Jump high kangaroo field.",
+      "uncommon_words": [
+        "kangaroo"
+      ],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "kangaroo",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'kangaroo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Run fast horse race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "run",
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Fly swiftly bird sky.",
+      "uncommon_words": [
+        "swiftly"
+      ],
+      "previously_used_words": [
+        "fly",
+        "swiftly",
+        "bird",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swiftly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Build wooden house tool.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Run quick fox forest.",
+      "uncommon_words": [
+        "fox"
+      ],
+      "previously_used_words": [
+        "run",
+        "quick",
+        "fox",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'fox' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Eat fresh salmon meal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "eat",
+        "fresh",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Sing soft lullaby night.",
+      "uncommon_words": [
+        "lullaby"
+      ],
+      "previously_used_words": [
+        "sing",
+        "soft",
+        "lullaby",
+        "night"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'lullaby' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Draw colorful dragon canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "draw",
+        "colorful",
+        "dragon",
+        "canvas"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dragon' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Catch bright firefly field.",
+      "uncommon_words": [
+        "firefly"
+      ],
+      "previously_used_words": [
+        "catch",
+        "bright",
+        "firefly",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'firefly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Walk steady robot path.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "walk",
+        "steady",
+        "robot",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Jump high kangaroo park.",
+      "uncommon_words": [
+        "kangaroo"
+      ],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "kangaroo",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'kangaroo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Fly fast plane skyline.",
+      "uncommon_words": [
+        "skyline"
+      ],
+      "previously_used_words": [
+        "fly",
+        "fast",
+        "plane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'skyline' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

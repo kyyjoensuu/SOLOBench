@@ -1,0 +1,68 @@
+{
+  "model": "EXAONE-3.5-2.4B-Instruct:latest",
+  "label": "2025-05-17 13:14:28",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_EXAONE-3.5-2.4B-Instruct_latest_1747476595.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_EXAONE-3.5-2.4B-Instruct_latest_1747476595.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Earth and Sun Dynamics**:",
+      "uncommon_words": [
+        "**earth",
+        "dynamics**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**earth' is not a verb",
+        "Second word 'and' is not an adjective",
+        "Fourth word 'dynamics**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Jupiter and its Asteroid Belt Influence**:",
+      "uncommon_words": [
+        "**jupiter",
+        "asteroid",
+        "influence**"
+      ],
+      "previously_used_words": [
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Sun's Influence on Galactic Alignment and Stability**:",
+      "uncommon_words": [
+        "**sun's",
+        "galactic",
+        "alignment",
+        "stability**"
+      ],
+      "previously_used_words": [
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

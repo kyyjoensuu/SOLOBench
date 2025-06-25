@@ -1,0 +1,213 @@
+  
+
+> I can only think of one word for this challenge "No".
+> Not possible to produce those strings of words. 
+> There must be something that we are missing here. We need more guidance.
+> I was hoping, that the next chapter will cover the thinking stage and provide more details about the problem.
+
+## Thinking Stage
+
+We have two problems that need a solution in this chapter: 
+
+* How to generate random words
+* How to produce 200 text strings with the provided words
+
+Let's start by identifying the **verbs** in our wordlist
+
+    {'re','confirm','assembly','mutual','constraint','guarantee','inspector','sustain','turn','progress','operation','order','developer','stock','harassment','modify','recommendation','priority','several','size','identify','divide','comparable','sympathy','initiative','establish','treat','hostile','former','ultimately','premise','property','theme','role','enterprise','provide','separation','boom','transformation','adjustment','cycle','reason'}
+
+**assembly** and **developer** have an identical pattern:
+
+- **assembly** <=> developer <=> assembly-developer-assembly 
++ **progress** <=> progress-development-progress 
++ **operation** <=> operation-process-operation
++ **operation** => operation-operate-operation 
++ **operation** => operation-operating-operation
++ **operation** => operation-operative-operative 
++ **operation** => operation-operative-operatives 
++ **order** => order-ordered-order
++ **order** => order-ordinal-ordinal
++ **order** => order-orders-orders
+
+I believe by combining those patterns we can generate the following words:
+- process-progress-progression-progressively 
+- operate-operating-operation-operator
+- operates-operative-operatives-operatively
+- order-ordered-order-ordering-ordinal
+- orders-Order-orders-ordinal-ordinaries 
+
+Since our problem is to generate 50 unique words by combining the following rules, I need to add more patterns to avoid having duplicates
+
+    {'operation','developer','progress'}
+
+**developer** has an identical pattern:
+
+- **developer**  <=> developer-develop-develops => development 
+- **developer** => developer-developer-develop => developing 
+
+So after combining both rules, we now have:
+
+    {'process','progress'}
+
+**re** is a bit more complicated, there's not much you can do with that
+
+    {'re'}
+
+**assembly** is easier, we can combine it with:
+
+- **assembly** <=> assembly-assembly-assembles 
+
+And we can also combine the following rules to produce more words:
+
+- **progress** <=> progress-progresses 
++ **progress** -> progresses-progressed-progress 
++ **progress** -> progresses-progresses-progresses 
+- **operation** <=> operation-operations 
++ **order** <=> order-orders 
++ **order** <=> order-ordered 
++ **order** <=> order-orders 
+- **developer** <=> developer-develops
++ **progress** <=> progress-develop-develop 
++ **operation** <=> operation-develop-develop 
++ **program** <=> program-programmer-programming 
++ **manufacturer** <=> manufacturer-manufacturers 
+- **order** <=> order-orders
++ **program** <=> program-programme-programmes 
+- **constraint** <=> constraint-constrains
+
+Let's add **re** to some of the existing patterns we just found.
+
+    {'re','order','developer','develop'}
+
+Here's something else we can add:
+
+- **programme** <=> programme-program-programmer-program
+
+We should be able to generate most of those sentences if we find more patterns.
+
+So after combining all the patterns,
+
+    {'re','constraint','developer','develop','order',
+     'operational','process','operation','reject'}
+
+Since our problem is to generate 50 unique sentences by combining the following rules, and after adding more words to our list. We now have to find at least 50 patterns to produce those 50 text strings
+
+Let's work at finding more patterns. I believe if we go through all the provided words and combine them with existing patterns like this one that was just demonstrated 
+
+    {x}'developer'={x} <=> develop-developer-develop => developing
+    {'develop','developer'} 
+
+We could produce a lot more words such as 
+
+- developer <=> developing <=> develops
++ programming
++ programmer
+
+I believe after combining all the provided words with existing patterns we should be able to generate most of those sentences by combining a few more patterns. 
+
+Let's take another look at the following pattern:
+
+-'develop'-developer'-develop' <=> 'developing'-developer'-develops
+
+This pattern can be used to produce different words such as:
+
+- developing
+- develops
+- develop
+
+- programmers 
+- programming 
+
+Let's create another pattern:
+
+    {'program', 'process'}
+
+> The main idea is to create a pattern that uses multiple existing words and produce more unique words with the help of the **combination** of those newly added words with existing patterns
+
++ programmer-program
+  + programmer-programmer-programming 
+  + programming-program
+  + programmers-programs
+  + processes-processing-process-processing
+
+Now that `program`, `programming` and `programs` are new words in our list we can combine them with other existing word patterns
+
+    {'program', 'process'}
+
+- programme-programmer-program
+  + programme-programme-proficiency 
+  - programme-programs-program 
+
+So after combining the entire `reject`list:
+
+    {x:'reject', 'x':{'operation', 'develop', 'reject', 'developer', 'develops', 'develop', 'process', 'program', 'programmer', 'processor', 'programs', 'processes', 'progress'}}
+ <=> 
+ re-process-profit-processor-proficient-progress <=> 
+ developer-development-develops-developing 
+Here's another way of generating different words.
+
+    {'re','progress','order','programme'}
+
+- programme-programmer-programs
+- progress-progressively-progressive-progressing => progress-programmer-progressing
++ programmer-programme-programming-program
+
+
+- programmes
+
+ {'developer','order','operation'}
+
+After putting all the words together, the pattern looks like this:
+
+> The main idea is to create a pattern that use multiple words that exist and use it to produce new unique word.
+
++ programme-programmer-programming => progess-progressive-progressed-progressing = programmer-progressively-progression-progresses.
+
++ operation-operate-operator-operators
+
+> {x:'developer', 'x':{'operation', 'develop','programma', 'reject','reception','ordinal'}
+<=> 
+  re-process-profit-processors-process-proficient-progress-processor >=
+
+ + developer-development-develops-developing 
+
+- developer-developer-development-develop => developer-develop
+ * programme-programmer-programme-program
+ + programme-programming = progressive-progress => programmatically-programmed-progressive
+
+ {'reject','order'
+
+> The main idea is to create pattern which use multiple word that exist and use them to produce more unique words.
+> after putting all the word look like pattern as fol low it look like this one the word:
+> the main idea is to create a patterns to produce more unique word.
+> the main idea to create the pattern like this one that use => progresivley-progressively-progressed progessively.
+
+|develop|programme
+
+(developers-programmer-program.  
+> The main idea is created by combining all pattern such as
+
+- processor-process-processor-processing-programs-programmed-processing
+
++ order-order-orders-order-operate-operation-program-program-processes-process-processed-processional-process-processor-process-product-product-programme-programmer-programming-program 
+
+operation-operate-operate-operator-operations-processes-prospects-processing 
+
++ programme-programme-program-programmes-progressive-process-processed-progress-progress-processing => processors-processing 
+program-programming-programmes-programmer-operate-operation-operates-operation-process = progressive => progresively.
+
+- developer-divides.
+- reorder_to_order_operation <=> programm-program-programme-processor-programs-program-processing-progress-progressing processor-programmer-programmer-programer-program-programmable  
+ - progress => progress-progression-process-progress => processor-programmed-program-programs-programme-programme-programme-programmed-processing-operations-order, the operation-operation-operation-operate-operating-operating-operate_process.
+
+> The main idea is to create unique words. 
+
+> This is the provided word.
+
+ + 're-programmers-programming-programmed-programs-programmer-programs-programs-program. I think of this word of the first word for = processor-processor-programme-program-programme-programming => programm-program-programmer-programmer-program-programmer-program-program-program-programmatically-programmed-programmed-programmed-programmed-programed-programer-processor-procession. This is the word of provided words. The idea is this => program => programmer-programs-processing  
+> The purpose is to produce a lot of those words. The purpose of the pattern to put together the pattern to use *programmer-program-programmers this words. The purpose is to find patterns of the purpose is to combine this pattern to produce text or other ways of program, and/ program-procedure to create and pattern that program/programmed, process and the => => re-organized the purpose is to show a pattern-rephrase: the purpose is to program-programs-rephrase-processing
+
+> After all the pattern, or patterns-program the pattern of different patterns in order to form pattern to produce patterns
+	
+	
+### =>

@@ -1,0 +1,848 @@
+{
+  "model": "QwQ-32B-Preview:latest",
+  "label": "2025-05-17 02:39:53",
+  "total_sentences": 38,
+  "perfect_sentences": 1,
+  "score_percentage": 2.631578947368421,
+  "word_count_failures": 18,
+  "format_failures": 35,
+  "common_word_failures": 35,
+  "word_reuse_failures": 28,
+  "raw_output_file": "Results/Task_First_500_Rand/SOLO_bench_raw_QwQ-32B-Preview_latest_1747436925.txt",
+  "formatted_output_file": "Results/Task_First_500_Rand/SOLO_bench_QwQ-32B-Preview_latest_1747436925.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Categorize Words:** Begin by organizing the word list into categories based on parts of speech: verbs, adjectives, nouns. This manual sorting is essential for ensuring that each sentence adheres to the required structure.",
+      "uncommon_words": [
+        "**categorize",
+        "words**",
+        "organizing",
+        "categories",
+        "based",
+        "parts",
+        "verbs",
+        "adjectives",
+        "nouns",
+        "sorting",
+        "is",
+        "ensuring",
+        "adheres"
+      ],
+      "previously_used_words": [],
+      "word_count": 33,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Prioritize Uniqueness:** Since each word can only be used once, keep track of which words have been used in previous sentences to avoid repetition.",
+      "uncommon_words": [
+        "**prioritize",
+        "uniqueness**",
+        "can",
+        "words",
+        "been",
+        "sentences",
+        "repetition"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "of",
+        "to"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Construct Sentences Logically:** While creativity isn't a requirement, constructing logically coherent sentences might make the task easier and reduce the likelihood of errors.",
+      "uncommon_words": [
+        "**construct",
+        "sentences",
+        "logically**",
+        "isn't",
+        "constructing",
+        "logically",
+        "coherent",
+        "sentences",
+        "easier",
+        "errors"
+      ],
+      "previously_used_words": [
+        "sentences",
+        "sentences",
+        "the",
+        "the",
+        "of"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Use a Checklist or Table:** To manage the usage of words effectively, consider creating a table with columns for verbs, adjectives, nouns, and another set of nouns. This visual aid can help in tracking which words have been assigned to which sentence.",
+      "uncommon_words": [
+        "**use",
+        "checklist",
+        "table**",
+        "usage",
+        "words",
+        "creating",
+        "columns",
+        "verbs",
+        "adjectives",
+        "nouns",
+        "nouns",
+        "can",
+        "tracking",
+        "words",
+        "been",
+        "assigned"
+      ],
+      "previously_used_words": [
+        "a",
+        "to",
+        "the",
+        "of",
+        "words",
+        "a",
+        "for",
+        "verbs",
+        "adjectives",
+        "nouns",
+        "and",
+        "of",
+        "nouns",
+        "this",
+        "can",
+        "in",
+        "which",
+        "words",
+        "have",
+        "been",
+        "to",
+        "which",
+        "sentence"
+      ],
+      "word_count": 42,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "**Iterate Through the List:** Start by selecting a verb, followed by an adjective, then two nouns, ensuring none of these words have been used in previous sentences.",
+      "uncommon_words": [
+        "**iterate",
+        "list**",
+        "selecting",
+        "verb",
+        "followed",
+        "an",
+        "adjective",
+        "nouns",
+        "ensuring",
+        "words",
+        "been",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "the",
+        "by",
+        "a",
+        "by",
+        "nouns",
+        "ensuring",
+        "of",
+        "words",
+        "have",
+        "been",
+        "used",
+        "in",
+        "previous",
+        "sentences"
+      ],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "**Double-Check for Uniqueness:** After constructing each sentence, verify that none of the four words have been used before.",
+      "uncommon_words": [
+        "**double-check",
+        "uniqueness**",
+        "constructing",
+        "verify",
+        "words",
+        "been"
+      ],
+      "previously_used_words": [
+        "for",
+        "uniqueness**",
+        "constructing",
+        "each",
+        "sentence",
+        "that",
+        "none",
+        "of",
+        "the",
+        "words",
+        "have",
+        "been",
+        "used"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Pollinate rich orchids garden.",
+      "uncommon_words": [
+        "pollinate",
+        "orchids"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'pollinate' is not a verb",
+        "Third word 'orchids' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Strengthen wooden furniture design.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Educate talented adolescents curriculum.",
+      "uncommon_words": [
+        "adolescents"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'adolescents' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Assemble portable instruments toolkit.",
+      "uncommon_words": [
+        "portable",
+        "instruments",
+        "toolkit"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'portable' is not an adjective",
+        "Third word 'instruments' is not a noun",
+        "Fourth word 'toolkit' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Capture elusive butterflies specimens.",
+      "uncommon_words": [
+        "elusive",
+        "butterflies",
+        "specimens"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'elusive' is not an adjective",
+        "Third word 'butterflies' is not a noun",
+        "Fourth word 'specimens' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Categorization:**",
+      "uncommon_words": [
+        "**categorization**"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Tracking Usage:**",
+      "uncommon_words": [
+        "**tracking",
+        "usage**"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Sentence Construction:**",
+      "uncommon_words": [
+        "**sentence",
+        "construction**"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Validation:**",
+      "uncommon_words": [
+        "**validation**"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Educate talented adolescents curriculum.",
+      "uncommon_words": [
+        "adolescents"
+      ],
+      "previously_used_words": [
+        "educate",
+        "talented",
+        "adolescents",
+        "curriculum"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'adolescents' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Assemble portable instruments toolkit.",
+      "uncommon_words": [
+        "portable",
+        "instruments",
+        "toolkit"
+      ],
+      "previously_used_words": [
+        "assemble",
+        "portable",
+        "instruments",
+        "toolkit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'portable' is not an adjective",
+        "Third word 'instruments' is not a noun",
+        "Fourth word 'toolkit' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Capture elusive butterflies specimens.",
+      "uncommon_words": [
+        "elusive",
+        "butterflies",
+        "specimens"
+      ],
+      "previously_used_words": [
+        "capture",
+        "elusive",
+        "butterflies",
+        "specimens"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'elusive' is not an adjective",
+        "Third word 'butterflies' is not a noun",
+        "Fourth word 'specimens' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Strengthen wooden furniture design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strengthen",
+        "wooden",
+        "furniture",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Pollinate rich orchids garden.",
+      "uncommon_words": [
+        "pollinate",
+        "orchids"
+      ],
+      "previously_used_words": [
+        "pollinate",
+        "rich",
+        "orchids",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'pollinate' is not a verb",
+        "Third word 'orchids' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "**Categorization:**",
+      "uncommon_words": [
+        "**categorization**"
+      ],
+      "previously_used_words": [
+        "**categorization**"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "**Tracking Usage:**",
+      "uncommon_words": [
+        "**tracking",
+        "usage**"
+      ],
+      "previously_used_words": [
+        "**tracking",
+        "usage**"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "**Sentence Construction:**",
+      "uncommon_words": [
+        "**sentence",
+        "construction**"
+      ],
+      "previously_used_words": [
+        "**sentence",
+        "construction**"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "**Validation:**",
+      "uncommon_words": [
+        "**validation**"
+      ],
+      "previously_used_words": [
+        "**validation**"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Educate talented adolescents curriculum.",
+      "uncommon_words": [
+        "adolescents"
+      ],
+      "previously_used_words": [
+        "educate",
+        "talented",
+        "adolescents",
+        "curriculum"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'adolescents' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Assemble portable instruments toolkit.",
+      "uncommon_words": [
+        "portable",
+        "instruments",
+        "toolkit"
+      ],
+      "previously_used_words": [
+        "assemble",
+        "portable",
+        "instruments",
+        "toolkit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'portable' is not an adjective",
+        "Third word 'instruments' is not a noun",
+        "Fourth word 'toolkit' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Capture elusive butterflies specimens.",
+      "uncommon_words": [
+        "elusive",
+        "butterflies",
+        "specimens"
+      ],
+      "previously_used_words": [
+        "capture",
+        "elusive",
+        "butterflies",
+        "specimens"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'elusive' is not an adjective",
+        "Third word 'butterflies' is not a noun",
+        "Fourth word 'specimens' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Strengthen wooden furniture design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strengthen",
+        "wooden",
+        "furniture",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Pollinate rich orchids garden.",
+      "uncommon_words": [
+        "pollinate",
+        "orchids"
+      ],
+      "previously_used_words": [
+        "pollinate",
+        "rich",
+        "orchids",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'pollinate' is not a verb",
+        "Third word 'orchids' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "**Categorize Words:** Separate the words into verbs, adjectives, and nouns.",
+      "uncommon_words": [
+        "**categorize",
+        "words**",
+        "words",
+        "verbs",
+        "adjectives",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "**categorize",
+        "words**",
+        "the",
+        "words",
+        "into",
+        "verbs",
+        "adjectives",
+        "and",
+        "nouns"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "**Track Usage:** Ensure that no word is repeated across sentences.",
+      "uncommon_words": [
+        "**track",
+        "usage**",
+        "is",
+        "repeated",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "usage**",
+        "that",
+        "word",
+        "is",
+        "sentences"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "**Construct Sentences:** Form sentences following the structure Verb + Adjective + Noun + Noun.",
+      "uncommon_words": [
+        "**construct",
+        "sentences**",
+        "sentences",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "**construct",
+        "sentences",
+        "the",
+        "structure",
+        "verb",
+        "adjective"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "**Validate Uniqueness:** Make sure each word in a sentence is unique and hasn't been used before.",
+      "uncommon_words": [
+        "**validate",
+        "uniqueness**",
+        "is",
+        "hasn't",
+        "been"
+      ],
+      "previously_used_words": [
+        "uniqueness**",
+        "make",
+        "each",
+        "word",
+        "in",
+        "a",
+        "sentence",
+        "is",
+        "and",
+        "been",
+        "used",
+        "before"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "**Educate talented adolescents curriculum.**",
+      "uncommon_words": [
+        "**educate",
+        "adolescents",
+        "curriculum**"
+      ],
+      "previously_used_words": [
+        "talented",
+        "adolescents"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**educate' is not a verb",
+        "Third word 'adolescents' is not a noun",
+        "Fourth word 'curriculum**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "**Assemble portable instruments toolkit.**",
+      "uncommon_words": [
+        "**assemble",
+        "portable",
+        "instruments",
+        "toolkit**"
+      ],
+      "previously_used_words": [
+        "portable",
+        "instruments"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**assemble' is not a verb",
+        "Second word 'portable' is not an adjective",
+        "Third word 'instruments' is not a noun",
+        "Fourth word 'toolkit**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "**Capture elusive butterflies specimens.**",
+      "uncommon_words": [
+        "**capture",
+        "elusive",
+        "butterflies",
+        "specimens**"
+      ],
+      "previously_used_words": [
+        "elusive",
+        "butterflies"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**capture' is not a verb",
+        "Second word 'elusive' is not an adjective",
+        "Third word 'butterflies' is not a noun",
+        "Fourth word 'specimens**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "**Strengthen wooden furniture design.**",
+      "uncommon_words": [
+        "**strengthen",
+        "design**"
+      ],
+      "previously_used_words": [
+        "wooden",
+        "furniture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**strengthen' is not a verb",
+        "Fourth word 'design**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "**Pollinate rich orchids garden.**",
+      "uncommon_words": [
+        "**pollinate",
+        "orchids",
+        "garden**"
+      ],
+      "previously_used_words": [
+        "rich",
+        "orchids"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**pollinate' is not a verb",
+        "Third word 'orchids' is not a noun",
+        "Fourth word 'garden**' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

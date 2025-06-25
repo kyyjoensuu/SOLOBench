@@ -1,0 +1,79 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-15 22:09:39",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_First_4k/SOLO_bench_raw_Falcon3-1B-Base_latest_1747335845.txt",
+  "formatted_output_file": "Results/Task_First_4k/SOLO_bench_Falcon3-1B-Base_latest_1747335845.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Probability of selecting a specific word first:",
+      "uncommon_words": [
+        "probability",
+        "selecting"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "After removing the chosen word, the remaining number of unique words to select is \\( N-1 \\):",
+      "uncommon_words": [
+        "removing",
+        "chosen",
+        "words",
+        "is",
+        "\\(",
+        "n-1",
+        "\\)"
+      ],
+      "previously_used_words": [
+        "word",
+        "of"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "After removing both the chosen and the second word, the remaining number of unique words:",
+      "uncommon_words": [
+        "removing",
+        "chosen",
+        "words"
+      ],
+      "previously_used_words": [
+        "after",
+        "removing",
+        "the",
+        "chosen",
+        "the",
+        "word",
+        "the",
+        "remaining",
+        "number",
+        "of",
+        "unique",
+        "words"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

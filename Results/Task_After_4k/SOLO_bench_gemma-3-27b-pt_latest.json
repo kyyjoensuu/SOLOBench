@@ -1,0 +1,58 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-14 13:58:10",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 1,
+  "format_failures": 3,
+  "common_word_failures": 2,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Alt_Input/SOLO_bench_raw_gemma-3-27b-pt_latest.txt",
+  "formatted_output_file": "Results/Alt_Input/SOLO_bench_gemma-3-27b-pt_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The blue cat runs.",
+      "uncommon_words": [
+        "runs"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'the' is not a verb",
+        "Fourth word 'runs' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Big white tree stands.",
+      "uncommon_words": [
+        "stands"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'big' is not a verb",
+        "Fourth word 'stands' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "...",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 0,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-15 21:23:12",
+  "total_sentences": 60,
+  "perfect_sentences": 2,
+  "score_percentage": 3.3333333333333335,
+  "word_count_failures": 30,
+  "format_failures": 58,
+  "common_word_failures": 3,
+  "word_reuse_failures": 30,
+  "raw_output_file": "Results/Task_After_250/SOLO_bench_raw_gemma-3-27b-pt_latest_1747332577.txt",
+  "formatted_output_file": "Results/Task_After_250/SOLO_bench_gemma-3-27b-pt_latest_1747332577.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not write anything else in your reply other than the 100 sentences, not even an introduction or a disclaimer.",
+      "uncommon_words": [
+        "100",
+        "sentences",
+        "an",
+        "disclaimer"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "in",
+        "your",
+        "the",
+        "not"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Once you create a sentence, do not repeat the same sentence structure again, even if the words being substituted into it differ from the first time it was used.",
+      "uncommon_words": [
+        "words",
+        "substituted",
+        "was"
+      ],
+      "previously_used_words": [
+        "you",
+        "a",
+        "do",
+        "not",
+        "the",
+        "even",
+        "the",
+        "it",
+        "the",
+        "it"
+      ],
+      "word_count": 29,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Actively academic accounting advertising",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'actively' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Agency aircraft alliance ambassador",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'agency' is not a verb",
+        "Second word 'aircraft' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Anger any appearance area",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Arrow assemble assure attraction",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'arrow' is not a verb",
+        "Second word 'assemble' is not an adjective",
+        "Third word 'assure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Average bag barely battery",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'bag' is not an adjective",
+        "Third word 'barely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Bedroom bell bias bite",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bedroom' is not a verb",
+        "Second word 'bell' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Bloody boom bowl breathing",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'boom' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Brown bunch button camp",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'bunch' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Car case celebration championship",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'car' is not a verb",
+        "Second word 'case' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Cheap chin citizen clearly",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cheap' is not a verb",
+        "Second word 'chin' is not an adjective",
+        "Fourth word 'clearly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Closer coat colonial commander",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'closer' is not a verb",
+        "Second word 'coat' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Comparable compliance conception confirm",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'comparable' is not a verb",
+        "Second word 'compliance' is not an adjective",
+        "Fourth word 'confirm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Consequently constraint context convention",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'consequently' is not a verb",
+        "Second word 'constraint' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Cooperative corridor country crazy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cooperative' is not a verb",
+        "Second word 'corridor' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Criticism culture cycle database",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'criticism' is not a verb",
+        "Second word 'culture' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Decade defendant democracy depict",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'decade' is not a verb",
+        "Second word 'defendant' is not an adjective",
+        "Fourth word 'depict' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Desk developer differ diplomatic",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "differ"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'desk' is not a verb",
+        "Second word 'developer' is not an adjective",
+        "Third word 'differ' is not a noun",
+        "Fourth word 'diplomatic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Disclose dissolve divide donate",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dissolve' is not an adjective",
+        "Fourth word 'donate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Dragon driver duty eastern",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dragon' is not a verb",
+        "Second word 'driver' is not an adjective",
+        "Fourth word 'eastern' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Educate elaborate eleven emphasize",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'emphasize' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Enemy enterprise equal establish",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'enemy' is not a verb",
+        "Second word 'enterprise' is not an adjective",
+        "Fourth word 'establish' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Every example executive expense",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'every' is not a verb",
+        "Second word 'example' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Export eyebrow faith fast",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'eyebrow' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Feed fifteen finding fix",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Floor football former fragile",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'football' is not an adjective",
+        "Fourth word 'fragile' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Friend fun game gene",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'friend' is not a verb",
+        "Second word 'fun' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Giant glove graduation great",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'giant' is not a verb",
+        "Second word 'glove' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Guarantee habitat harassment headache",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'habitat' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Height hey his honest",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'height' is not a verb",
+        "Second word 'hey' is not an adjective",
+        "Third word 'his' is not a noun",
+        "Fourth word 'honest' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Hostile hunger identify immediately",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hostile' is not a verb",
+        "Second word 'hunger' is not an adjective",
+        "Third word 'identify' is not a noun",
+        "Fourth word 'immediately' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Actively",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "actively"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Academic",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "academic"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Accounting",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "accounting"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Advertising",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "advertising"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Agency",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "agency"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Aircraft",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aircraft"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Alliance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "alliance"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Ambassador",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ambassador"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Anger",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "anger"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Any",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "any"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Appearance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "appearance"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Area",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "area"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Arrow",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "arrow"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Assemble",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Assure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assure"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Attraction",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attraction"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Average",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "average"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Bag",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bag"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Barely",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "barely"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Battery",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "battery"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Bedroom",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bedroom"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Bell",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bell"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Bias",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bias"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Bite",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bite"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Bloody",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bloody"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Boom",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "boom"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Bowl",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

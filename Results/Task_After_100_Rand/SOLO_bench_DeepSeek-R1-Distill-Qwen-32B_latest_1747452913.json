@@ -1,0 +1,226 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-17 06:56:58",
+  "total_sentences": 14,
+  "perfect_sentences": 3,
+  "score_percentage": 21.428571428571427,
+  "word_count_failures": 3,
+  "format_failures": 7,
+  "common_word_failures": 5,
+  "word_reuse_failures": 8,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747452913.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747452913.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Relieve unexpected pressure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Divide equal parts room.",
+      "uncommon_words": [
+        "parts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'parts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Relieve unexpected stress situation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "unexpected"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Sustain giant ship ocean.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Wrap brown desk chair.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Modify average policy change.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Hostile cooperate group member.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hostile' is not a verb",
+        "Second word 'cooperate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Wrap brown desk chair. - wrap(V), brown(A), desk(N), chair(N).",
+      "uncommon_words": [
+        "-",
+        "wrap(v)",
+        "brown(a)",
+        "desk(n)",
+        "chair(n)"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "brown",
+        "desk",
+        "chair"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Adjust average plan budget. - adjust(V), average(A), plan(N?), but plan not on the word list? Wait going through word list again.",
+      "uncommon_words": [
+        "-",
+        "adjust(v)",
+        "average(a)",
+        "plan(n)",
+        "going"
+      ],
+      "previously_used_words": [
+        "average",
+        "-"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Sustain giant ship ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sustain",
+        "giant",
+        "ship",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Wrap brown desk chair",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "brown",
+        "desk",
+        "chair"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Modify average policy change)",
+      "uncommon_words": [
+        "change)"
+      ],
+      "previously_used_words": [
+        "modify",
+        "average",
+        "policy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'change)' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Treat unexpected injury kindness",
+      "uncommon_words": [
+        "kindness"
+      ],
+      "previously_used_words": [
+        "unexpected"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'kindness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Adjust substantial budget deficit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "budget"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

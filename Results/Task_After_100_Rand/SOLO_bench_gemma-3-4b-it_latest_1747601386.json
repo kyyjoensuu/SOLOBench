@@ -1,0 +1,149 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-18 23:55:20",
+  "total_sentences": 11,
+  "perfect_sentences": 1,
+  "score_percentage": 9.090909090909092,
+  "word_count_failures": 8,
+  "format_failures": 10,
+  "common_word_failures": 4,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-4b-it_latest_1747601386.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-4b-it_latest_1747601386.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Move  substantial  citizen  country",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Inspecter  average  tall  friend",
+      "uncommon_words": [
+        "inspecter"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspecter' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Export  bow lly  right",
+      "uncommon_words": [
+        "lly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'bow' is not an adjective",
+        "Third word 'lly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Sustain  guest",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Modify  tenant",
+      "uncommon_words": [
+        "tenant"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Ensure  weapon",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Treat  cycle",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Threat",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Package",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Iraffle",
+      "uncommon_words": [
+        "iraffle"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Trust",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

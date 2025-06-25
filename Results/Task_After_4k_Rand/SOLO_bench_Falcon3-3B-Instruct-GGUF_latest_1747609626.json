@@ -1,0 +1,1007 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-19 02:13:45",
+  "total_sentences": 50,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 18,
+  "format_failures": 50,
+  "common_word_failures": 50,
+  "word_reuse_failures": 37,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747609626.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747609626.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Singing melodies passionately.",
+      "uncommon_words": [
+        "singing",
+        "melodies",
+        "passionately"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Swimming gracefully swiftly.",
+      "uncommon_words": [
+        "gracefully",
+        "swiftly"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Knitting scarves slowly steadily.",
+      "uncommon_words": [
+        "knitting",
+        "scarves"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knitting' is not a verb",
+        "Second word 'scarves' is not an adjective",
+        "Third word 'slowly' is not a noun",
+        "Fourth word 'steadily' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Dancing energetically vigorously.",
+      "uncommon_words": [
+        "energetically",
+        "vigorously"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Painting vibrant colors freely.",
+      "uncommon_words": [
+        "vibrant",
+        "colors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective",
+        "Third word 'colors' is not a noun",
+        "Fourth word 'freely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Reading voraciously avidly.",
+      "uncommon_words": [
+        "voraciously",
+        "avidly"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Hiking briskly confidently.",
+      "uncommon_words": [
+        "hiking",
+        "briskly",
+        "confidently"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Cooking hearty meals rapidly.",
+      "uncommon_words": [
+        "hearty",
+        "meals"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'hearty' is not an adjective",
+        "Third word 'meals' is not a noun",
+        "Fourth word 'rapidly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Gardening tenderly lovingly.",
+      "uncommon_words": [
+        "gardening",
+        "tenderly",
+        "lovingly"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Writing essays carefully meticulously.",
+      "uncommon_words": [
+        "essays",
+        "meticulously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'essays' is not an adjective",
+        "Third word 'carefully' is not a noun",
+        "Fourth word 'meticulously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Running marathons persistently tirelessly.",
+      "uncommon_words": [
+        "marathons",
+        "persistently",
+        "tirelessly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'marathons' is not an adjective",
+        "Third word 'persistently' is not a noun",
+        "Fourth word 'tirelessly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Building structures boldly ingeniously.",
+      "uncommon_words": [
+        "structures",
+        "boldly",
+        "ingeniously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'structures' is not an adjective",
+        "Third word 'boldly' is not a noun",
+        "Fourth word 'ingeniously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Dancing ecstatically frenetically.",
+      "uncommon_words": [
+        "ecstatically",
+        "frenetically"
+      ],
+      "previously_used_words": [
+        "dancing"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Gardening bountiful abundantly.",
+      "uncommon_words": [
+        "gardening",
+        "bountiful",
+        "abundantly"
+      ],
+      "previously_used_words": [
+        "gardening"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Painting abstractly dynamically.",
+      "uncommon_words": [
+        "abstractly",
+        "dynamically"
+      ],
+      "previously_used_words": [
+        "painting"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Singing hauntingly sincerely.",
+      "uncommon_words": [
+        "singing",
+        "hauntingly",
+        "sincerely"
+      ],
+      "previously_used_words": [
+        "singing"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Knitting sweaters swiftly merrily.",
+      "uncommon_words": [
+        "knitting",
+        "sweaters",
+        "swiftly",
+        "merrily"
+      ],
+      "previously_used_words": [
+        "knitting",
+        "swiftly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knitting' is not a verb",
+        "Second word 'sweaters' is not an adjective",
+        "Third word 'swiftly' is not a noun",
+        "Fourth word 'merrily' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Cooking exotic dishes creatively.",
+      "uncommon_words": [
+        "dishes",
+        "creatively"
+      ],
+      "previously_used_words": [
+        "cooking"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dishes' is not a noun",
+        "Fourth word 'creatively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Swimming laps diligently steadily.",
+      "uncommon_words": [
+        "laps",
+        "diligently"
+      ],
+      "previously_used_words": [
+        "swimming",
+        "steadily"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'laps' is not an adjective",
+        "Third word 'diligently' is not a noun",
+        "Fourth word 'steadily' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Writing articles deeply thoughtfully.",
+      "uncommon_words": [
+        "articles",
+        "thoughtfully"
+      ],
+      "previously_used_words": [
+        "writing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'articles' is not an adjective",
+        "Third word 'deeply' is not a noun",
+        "Fourth word 'thoughtfully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Dancing rhythmically energetically.",
+      "uncommon_words": [
+        "rhythmically",
+        "energetically"
+      ],
+      "previously_used_words": [
+        "dancing",
+        "energetically"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Hiking uphill swiftly confidently.",
+      "uncommon_words": [
+        "hiking",
+        "uphill",
+        "swiftly",
+        "confidently"
+      ],
+      "previously_used_words": [
+        "hiking",
+        "swiftly",
+        "confidently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hiking' is not a verb",
+        "Second word 'uphill' is not an adjective",
+        "Third word 'swiftly' is not a noun",
+        "Fourth word 'confidently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Painting landscapes vividly beautifully.",
+      "uncommon_words": [
+        "landscapes",
+        "vividly",
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'landscapes' is not an adjective",
+        "Third word 'vividly' is not a noun",
+        "Fourth word 'beautifully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Singing lullabies caringly lovingly.",
+      "uncommon_words": [
+        "singing",
+        "lullabies",
+        "caringly",
+        "lovingly"
+      ],
+      "previously_used_words": [
+        "singing",
+        "lovingly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'singing' is not a verb",
+        "Second word 'lullabies' is not an adjective",
+        "Third word 'caringly' is not a noun",
+        "Fourth word 'lovingly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Gardening seeds tenderly lovingly.",
+      "uncommon_words": [
+        "gardening",
+        "seeds",
+        "tenderly",
+        "lovingly"
+      ],
+      "previously_used_words": [
+        "gardening",
+        "tenderly",
+        "lovingly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'gardening' is not a verb",
+        "Second word 'seeds' is not an adjective",
+        "Third word 'tenderly' is not a noun",
+        "Fourth word 'lovingly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Reading books passionately intently.",
+      "uncommon_words": [
+        "books",
+        "passionately",
+        "intently"
+      ],
+      "previously_used_words": [
+        "reading",
+        "passionately"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'books' is not an adjective",
+        "Third word 'passionately' is not a noun",
+        "Fourth word 'intently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Cooking traditional dishes eagerly enthusiastically.",
+      "uncommon_words": [
+        "dishes",
+        "eagerly",
+        "enthusiastically"
+      ],
+      "previously_used_words": [
+        "cooking",
+        "dishes"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Running sprints enthusiastically powerfully.",
+      "uncommon_words": [
+        "sprints",
+        "enthusiastically",
+        "powerfully"
+      ],
+      "previously_used_words": [
+        "running",
+        "enthusiastically"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sprints' is not an adjective",
+        "Third word 'enthusiastically' is not a noun",
+        "Fourth word 'powerfully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Building shelters securely safely.",
+      "uncommon_words": [
+        "shelters",
+        "securely"
+      ],
+      "previously_used_words": [
+        "building"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'shelters' is not an adjective",
+        "Third word 'securely' is not a noun",
+        "Fourth word 'safely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Painting cityscapes dramatically vividly.",
+      "uncommon_words": [
+        "cityscapes",
+        "vividly"
+      ],
+      "previously_used_words": [
+        "painting",
+        "vividly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cityscapes' is not an adjective",
+        "Third word 'dramatically' is not a noun",
+        "Fourth word 'vividly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Singing love songs sweetly charmingly.",
+      "uncommon_words": [
+        "singing",
+        "songs",
+        "sweetly",
+        "charmingly"
+      ],
+      "previously_used_words": [
+        "singing"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Knitting hats swiftly merrily.",
+      "uncommon_words": [
+        "knitting",
+        "hats",
+        "swiftly",
+        "merrily"
+      ],
+      "previously_used_words": [
+        "knitting",
+        "swiftly",
+        "merrily"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knitting' is not a verb",
+        "Second word 'hats' is not an adjective",
+        "Third word 'swiftly' is not a noun",
+        "Fourth word 'merrily' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Cooking gourmet meals passionately fervently.",
+      "uncommon_words": [
+        "gourmet",
+        "meals",
+        "passionately",
+        "fervently"
+      ],
+      "previously_used_words": [
+        "cooking",
+        "meals",
+        "passionately"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Swimming laps diligently joyfully.",
+      "uncommon_words": [
+        "laps",
+        "diligently",
+        "joyfully"
+      ],
+      "previously_used_words": [
+        "swimming",
+        "laps",
+        "diligently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'laps' is not an adjective",
+        "Third word 'diligently' is not a noun",
+        "Fourth word 'joyfully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Writing stories creatively intriguingly.",
+      "uncommon_words": [
+        "stories",
+        "creatively",
+        "intriguingly"
+      ],
+      "previously_used_words": [
+        "writing",
+        "creatively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stories' is not an adjective",
+        "Third word 'creatively' is not a noun",
+        "Fourth word 'intriguingly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Dancing steps traditionally gracefully.",
+      "uncommon_words": [
+        "steps",
+        "gracefully"
+      ],
+      "previously_used_words": [
+        "dancing",
+        "gracefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steps' is not an adjective",
+        "Third word 'traditionally' is not a noun",
+        "Fourth word 'gracefully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Gardening flowers bountifully abundantly.",
+      "uncommon_words": [
+        "gardening",
+        "flowers",
+        "bountifully",
+        "abundantly"
+      ],
+      "previously_used_words": [
+        "gardening",
+        "abundantly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'gardening' is not a verb",
+        "Second word 'flowers' is not an adjective",
+        "Third word 'bountifully' is not a noun",
+        "Fourth word 'abundantly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Painting portraits deeply earnestly.",
+      "uncommon_words": [
+        "portraits",
+        "earnestly"
+      ],
+      "previously_used_words": [
+        "painting",
+        "deeply"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'portraits' is not an adjective",
+        "Third word 'deeply' is not a noun",
+        "Fourth word 'earnestly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Singing folk songs cheerfully joyously.",
+      "uncommon_words": [
+        "singing",
+        "songs",
+        "cheerfully",
+        "joyously"
+      ],
+      "previously_used_words": [
+        "singing",
+        "songs"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Hiking paths effortlessly confidently.",
+      "uncommon_words": [
+        "hiking",
+        "paths",
+        "effortlessly",
+        "confidently"
+      ],
+      "previously_used_words": [
+        "hiking",
+        "confidently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hiking' is not a verb",
+        "Second word 'paths' is not an adjective",
+        "Third word 'effortlessly' is not a noun",
+        "Fourth word 'confidently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Cooking healthy meals nutritious sustainably.",
+      "uncommon_words": [
+        "meals",
+        "nutritious",
+        "sustainably"
+      ],
+      "previously_used_words": [
+        "cooking",
+        "meals"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Reading books avidly eagerly.",
+      "uncommon_words": [
+        "books",
+        "avidly",
+        "eagerly"
+      ],
+      "previously_used_words": [
+        "reading",
+        "books",
+        "avidly",
+        "eagerly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'books' is not an adjective",
+        "Third word 'avidly' is not a noun",
+        "Fourth word 'eagerly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Dancing spins rapidly swiftly.",
+      "uncommon_words": [
+        "spins",
+        "swiftly"
+      ],
+      "previously_used_words": [
+        "dancing",
+        "rapidly",
+        "swiftly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'spins' is not an adjective",
+        "Third word 'rapidly' is not a noun",
+        "Fourth word 'swiftly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Crafting instruments skillfully expertly.",
+      "uncommon_words": [
+        "crafting",
+        "instruments",
+        "skillfully",
+        "expertly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'crafting' is not a verb",
+        "Second word 'instruments' is not an adjective",
+        "Third word 'skillfully' is not a noun",
+        "Fourth word 'expertly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Gardening vegetables abundantly healthily.",
+      "uncommon_words": [
+        "gardening",
+        "vegetables",
+        "abundantly",
+        "healthily"
+      ],
+      "previously_used_words": [
+        "gardening",
+        "abundantly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'gardening' is not a verb",
+        "Second word 'vegetables' is not an adjective",
+        "Third word 'abundantly' is not a noun",
+        "Fourth word 'healthily' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Painting murals creatively significantly.",
+      "uncommon_words": [
+        "murals",
+        "creatively"
+      ],
+      "previously_used_words": [
+        "painting",
+        "creatively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'murals' is not an adjective",
+        "Third word 'creatively' is not a noun",
+        "Fourth word 'significantly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Singing spiritual songs heartfelt genuinely.",
+      "uncommon_words": [
+        "singing",
+        "songs",
+        "heartfelt",
+        "genuinely"
+      ],
+      "previously_used_words": [
+        "singing",
+        "songs"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Climbing mountains steadily perseveringly.",
+      "uncommon_words": [
+        "climbing",
+        "mountains",
+        "perseveringly"
+      ],
+      "previously_used_words": [
+        "steadily"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'climbing' is not a verb",
+        "Second word 'mountains' is not an adjective",
+        "Third word 'steadily' is not a noun",
+        "Fourth word 'perseveringly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Cooking fresh ingredients al fresco.",
+      "uncommon_words": [
+        "ingredients",
+        "al",
+        "fresco"
+      ],
+      "previously_used_words": [
+        "cooking"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Swimming laps joyously fervently.",
+      "uncommon_words": [
+        "laps",
+        "joyously",
+        "fervently"
+      ],
+      "previously_used_words": [
+        "swimming",
+        "laps",
+        "joyously",
+        "fervently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'laps' is not an adjective",
+        "Third word 'joyously' is not a noun",
+        "Fourth word 'fervently' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

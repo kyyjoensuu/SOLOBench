@@ -1,0 +1,87 @@
+
+stir
+business
+company/business plan
+businessman
+dormitory
+marge
+in-house
+carrion/meat
+market
+guts
+high
+hoard
+sloppy
+work
+working
+
+
+#
+.
+#
+.
+#
+3.4 +1 / 16080 pts...
+
+Given f(x) in the figure below, y = 5 is a horizontal tangent to line at what x-coordinates?"
+### Mathematical Questions and Answers Related to the Extract
+
+#### Question 1: What does it mean for a curve to have a left-hand derivative at a point?
+**Answer:** The left-hand limit of a function \( f(x) \) as \( x \) approaches \( c \) from the left is given by:
+\[ \lim_{h \to 0^-} \frac{f(c+h) - f(c)}{h} \]
+This limit represents the value that \( f'(x) \) approaches as \( x \) gets closer to \( c \) but is not equal to \( f'(x) \) at \( c \). The derivative from the left provides information about how quickly \( f(x) \) changes in a neighborhood around \( c \) from the left side.
+
+#### Question 2: Given that \( y = 5 \) is a horizontal tangent to line at what x-coordinates?
+**Answer:** For a function \( f(x) \) to have a horizontal tangent at a point, the derivative \( f'(x) \) must be zero at that point. This means:
+\[ f'(c) = 0 \]
+According to the previous calculation in the extract, we found that:
+\[ f'(x) = x(2x-3)^4 + x^2(2) \]
+Setting \( f'(x) = 0 \):
+\[ x(2x-3)^4 + 2x = 0 \]
+Divide by \( x \) (assuming \( x \neq 0 \)):
+\[ (2x-3)^4 + 2 = 0 \]
+Multiply through by \( 4 \times (3-2x)^{16} \) to eliminate the fractional power:
+\[ 4 \times [(2x-3)^4] \times [4(2x-3)(3-2x)] = 0 \]
+Therefore, we have:
+\[ (2x-3)^4 + 2 = 0 \]
+\[ (2x-3)^4 = -2 \]
+Taking the fourth root of both sides:
+\[ 2x-3 = \pm i√(-2) \]
+\[ 2x = 3 \pm i√2 \]
+Thus, the x-coordinates where the function has a horizontal tangent are:
+\[ x = \frac{3 + i√2}{2} \]
+and
+\[ x = \frac{3 - i√2}{2} \]
+
+#### Question 3: How do you find the left-hand derivative of \( f(x) \) at a specific point?
+**Answer:** To find the left-hand derivative of \( f(x) \) at a point \( c \), evaluate the limit:
+\[ f'(c^-) = \lim_{h \to 0^-} \frac{f(c+h) - f(c)}{h} \]
+For example, if we want to find the left-hand derivative of \( f(x) \) at a specific value, such as \( x = 1 \):
+\[ f'(1^{-}) = \lim_{h \to 0^-} \frac{f(1+h) - f(1)}{h} \]
+Substitute the function \( f(x) \) and perform the calculation. Here, we derived that:
+\[ f'(x) = x(2x-3)^4 + x^2(2) \]
+Thus, to find the left-hand derivative at \( x = 1 \):
+\[ f'(1^{-}) = f(1)(2(1)-3)^4 + 1^2(2) \]
+\[ = 5(-1)^4 + 1(2) \]
+\[ = 5 + 2 \]
+\[ = 7 \]
+Therefore, the left-hand derivative of \( f(x) \) at \( x = 1 \) is:
+\[ f'(1^{-}) = 7 \]
+
+#### Question 4: What is the significance of the first and second derivatives being zero in the context of a horizontal tangent?
+**Answer:** When both the first and second derivatives are zero at a point, it indicates that the function has a critical point at that point. For instance, if \( f'(x) = x(2x-3)^4 + x^2(2) \) is the derivative of \( y = x(2x-3)^4 + x^2(2) \):
+1. First Derivative:
+\[ f'(x) = 0 \]
+This means that \( f(x) \) has an extremum at \( x = c \).
+2. Second Derivative:
+\[ f''(c) = 0 \]
+This indicates that the curve changes from concave up to convex down (or vice versa) at \( x = c \), which is a defining characteristic of a horizontal tangent point. The equation:
+\[ y = x(2x-3)^4 + x^2(2) \]
+has a point where both the first and second derivatives are zero at:
+\[ x_0 = 1, \quad f'(1^{-}) = 7 \text{ and } f''(x_0) < 0 \]
+This confirms that the x-coordinate of horizontal tangency is indeed \( x = 1 \) based on the calculated derivatives.
+
+#### Question 5: How does the continuity of the function affect the horizontal tangent at a particular point?
+**Answer:** For a function to have a horizontal tangent, it must be both continuous and differentiable in an open interval around the point. The extract already shows that \( f(x) \) is continuous, so this condition is satisfied. Additionally, the first derivative being zero at a point ensures the function has extreme values there, which can lead to critical points such as local maxima or minima. For example, if \( f'(c^-) = 0 \) and \( f''(c) > 0 \), it indicates that the critical point is a minimum, further supporting the possibility of a horizontal tangent at \( x = c \). If there were not any points where the derivative is zero, then a horizontal tangent would not be possible.
+
+These questions and answers delve into various aspects of derivatives, including left-hand and right-hand limits, critical points, continuity, and the significance of differentiability in the context of finding horizontal tangents.

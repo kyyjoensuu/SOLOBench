@@ -1,0 +1,1546 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-17 14:29:18",
+  "total_sentences": 79,
+  "perfect_sentences": 17,
+  "score_percentage": 21.518987341772153,
+  "word_count_failures": 8,
+  "format_failures": 60,
+  "common_word_failures": 60,
+  "word_reuse_failures": 47,
+  "raw_output_file": "Results/Task_First_500_Rand/SOLO_bench_raw_reka-flash-3_latest_1747479464.txt",
+  "formatted_output_file": "Results/Task_First_500_Rand/SOLO_bench_reka-flash-3_latest_1747479464.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Only use words from the provided list**: Every word in each sentence must be exactly as it appears in the WORD LIST. Case sensitivity might matter; for example, \"Iraqi\" and \"iraqi\" would be considered different if present, but since the given list has \"Iraqi\" capitalized, I should use that exact form.",
+      "uncommon_words": [
+        "**only",
+        "words",
+        "list**",
+        "appears",
+        "\"iraqi\"",
+        "\"iraqi\"",
+        "considered",
+        "has",
+        "\"iraqi\"",
+        "capitalized",
+        "should"
+      ],
+      "previously_used_words": [],
+      "word_count": 51,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Each word can only be used once**: Once a word is used in a sentence, it's removed from the available pool. This means I need to track which words have been used already to prevent repetition. Since there are many nouns and adjectives but fewer verbs, this could lead to running out of certain parts of speech quickly.",
+      "uncommon_words": [
+        "**each",
+        "can",
+        "once**",
+        "is",
+        "it's",
+        "removed",
+        "means",
+        "words",
+        "been",
+        "repetition",
+        "are",
+        "nouns",
+        "adjectives",
+        "verbs",
+        "could",
+        "parts"
+      ],
+      "previously_used_words": [
+        "word",
+        "be",
+        "word",
+        "in",
+        "sentence",
+        "from",
+        "the",
+        "i",
+        "words",
+        "since",
+        "and",
+        "but"
+      ],
+      "word_count": 58,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Each sentence must follow Verb + Adjective + Noun + Noun**: The structure is strict. Let's confirm the order: first a verb, then an adjective, followed by two nouns. For example, \"Make Joyful Steak Rice\" (though I need to check if all words are in the list and unused).",
+      "uncommon_words": [
+        "**each",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun**",
+        "is",
+        "let's",
+        "verb",
+        "an",
+        "adjective",
+        "followed",
+        "nouns",
+        "\"make",
+        "joyful",
+        "rice\"",
+        "(though",
+        "words",
+        "are",
+        "unused)"
+      ],
+      "previously_used_words": [
+        "**each",
+        "sentence",
+        "must",
+        "the",
+        "is",
+        "the",
+        "a",
+        "nouns",
+        "for",
+        "example",
+        "i",
+        "need",
+        "to",
+        "if",
+        "words",
+        "are",
+        "in",
+        "the",
+        "list",
+        "and"
+      ],
+      "word_count": 49,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Exactly four words per sentence**: No extras, no omissions.",
+      "uncommon_words": [
+        "**exactly",
+        "words",
+        "sentence**",
+        "extras",
+        "omissions"
+      ],
+      "previously_used_words": [
+        "words"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "**Manual creation without tools**: I can't look up word categories or use any programming to generate this; it has to be done manually. That's challenging but doable by carefully selecting words from the list as I go.",
+      "uncommon_words": [
+        "**manual",
+        "tools**",
+        "can't",
+        "categories",
+        "has",
+        "done",
+        "manually",
+        "that's",
+        "challenging",
+        "doable",
+        "selecting",
+        "words"
+      ],
+      "previously_used_words": [
+        "i",
+        "word",
+        "use",
+        "to",
+        "this",
+        "it",
+        "has",
+        "to",
+        "be",
+        "but",
+        "by",
+        "words",
+        "from",
+        "the",
+        "list",
+        "as",
+        "i"
+      ],
+      "word_count": 37,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "**Avoid outputting the entire word list in thinking**: The user mentioned not to list all the words while planning, which helps save tokens and avoid errors. Instead, I need to remember parts of the list or group them into verbs, adjectives, nouns, etc., mentally.",
+      "uncommon_words": [
+        "**avoid",
+        "outputting",
+        "thinking**",
+        "mentioned",
+        "words",
+        "helps",
+        "tokens",
+        "errors",
+        "parts",
+        "verbs",
+        "adjectives",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "the",
+        "word",
+        "list",
+        "in",
+        "the",
+        "to",
+        "list",
+        "all",
+        "the",
+        "words",
+        "which",
+        "and",
+        "i",
+        "need",
+        "to",
+        "parts",
+        "of",
+        "the",
+        "list",
+        "or",
+        "verbs",
+        "adjectives",
+        "nouns"
+      ],
+      "word_count": 44,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "**Return a numbered list of 200 sentences**: Each sentence on its own line, starting from 1 to 200.",
+      "uncommon_words": [
+        "**return",
+        "numbered",
+        "200",
+        "sentences**",
+        "1",
+        "200"
+      ],
+      "previously_used_words": [
+        "a",
+        "list",
+        "of",
+        "each",
+        "sentence",
+        "from",
+        "to"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Make Joyful Steak Rice",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [
+        "joyful",
+        "steak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Fix Broken Window Glass",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Make Joyful Steak Rice",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [
+        "make",
+        "joyful",
+        "steak",
+        "rice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Fix Broken Window Glass",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fix",
+        "broken",
+        "window",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Cook Fresh Vegetable Salad",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Read Interesting Book Chapter",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Write Creative Story Draft",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Build Strong House Foundation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Drive Fast Car Highway",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Bake Sweet Cake Dessert",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Design Elegant Dress Fabric",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Clean Dirty Room Floor",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Program Efficient Software Code",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Paint Beautiful Landscape Canvas",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Sing Melodic Tune Note",
+      "uncommon_words": [
+        "melodic"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'melodic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Play Musical Instrument Music",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Swim Fast Lane Pool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast",
+        "pool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Fly High Bird Sky",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Grow Tall Tree Garden",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Study Complex Math Problem",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Solve Difficult Puzzle Challenge",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Create Original Art Piece",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "**Make** Joyful **Steak** Rice",
+      "uncommon_words": [
+        "**make**",
+        "joyful",
+        "**steak**"
+      ],
+      "previously_used_words": [
+        "joyful",
+        "rice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**make**' is not a verb",
+        "Second word 'joyful' is not an adjective",
+        "Third word '**steak**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "**Fix** Broken **Window** Glass",
+      "uncommon_words": [
+        "**fix**",
+        "**window**"
+      ],
+      "previously_used_words": [
+        "broken",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**fix**' is not a verb",
+        "Third word '**window**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "**Cook** Fresh **Vegetable** Salad",
+      "uncommon_words": [
+        "**cook**",
+        "**vegetable**"
+      ],
+      "previously_used_words": [
+        "fresh",
+        "salad"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**cook**' is not a verb",
+        "Third word '**vegetable**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "**Read** Interesting **Book** Chapter",
+      "uncommon_words": [
+        "**read**",
+        "**book**"
+      ],
+      "previously_used_words": [
+        "interesting",
+        "chapter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**read**' is not a verb",
+        "Third word '**book**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "**Write** Creative **Story** Draft",
+      "uncommon_words": [
+        "**write**",
+        "**story**"
+      ],
+      "previously_used_words": [
+        "creative",
+        "draft"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**write**' is not a verb",
+        "Third word '**story**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "**Build** Strong **House** Foundation",
+      "uncommon_words": [
+        "**build**",
+        "**house**"
+      ],
+      "previously_used_words": [
+        "strong",
+        "foundation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**build**' is not a verb",
+        "Third word '**house**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "**Drive** Fast **Car** Highway",
+      "uncommon_words": [
+        "**drive**",
+        "**car**"
+      ],
+      "previously_used_words": [
+        "fast",
+        "highway"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**drive**' is not a verb",
+        "Third word '**car**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "**Bake** Sweet **Cake** Dessert",
+      "uncommon_words": [
+        "**bake**",
+        "**cake**"
+      ],
+      "previously_used_words": [
+        "sweet",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**bake**' is not a verb",
+        "Third word '**cake**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "**Design** Elegant **Dress** Fabric",
+      "uncommon_words": [
+        "**design**",
+        "**dress**"
+      ],
+      "previously_used_words": [
+        "elegant",
+        "fabric"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**design**' is not a verb",
+        "Third word '**dress**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "**Clean** Dirty **Room** Floor",
+      "uncommon_words": [
+        "**clean**",
+        "**room**"
+      ],
+      "previously_used_words": [
+        "dirty",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**clean**' is not a verb",
+        "Third word '**room**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "**Program** Efficient **Software** Code",
+      "uncommon_words": [
+        "**program**",
+        "**software**"
+      ],
+      "previously_used_words": [
+        "efficient",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**program**' is not a verb",
+        "Third word '**software**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "**Paint** Beautiful **Landscape** Canvas",
+      "uncommon_words": [
+        "**paint**",
+        "**landscape**"
+      ],
+      "previously_used_words": [
+        "beautiful",
+        "canvas"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**paint**' is not a verb",
+        "Third word '**landscape**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "**Sing** Melodic **Tune** Note",
+      "uncommon_words": [
+        "**sing**",
+        "melodic",
+        "**tune**"
+      ],
+      "previously_used_words": [
+        "melodic",
+        "note"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sing**' is not a verb",
+        "Second word 'melodic' is not an adjective",
+        "Third word '**tune**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "**Play** Musical **Instrument** Music",
+      "uncommon_words": [
+        "**play**",
+        "**instrument**"
+      ],
+      "previously_used_words": [
+        "musical",
+        "music"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**play**' is not a verb",
+        "Third word '**instrument**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "**Swim** Fast **Lane** Pool",
+      "uncommon_words": [
+        "**swim**",
+        "**lane**"
+      ],
+      "previously_used_words": [
+        "fast",
+        "pool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**swim**' is not a verb",
+        "Third word '**lane**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "**Fly** High **Bird** Sky",
+      "uncommon_words": [
+        "**fly**",
+        "**bird**"
+      ],
+      "previously_used_words": [
+        "high",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**fly**' is not a verb",
+        "Third word '**bird**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "**Grow** Tall **Tree** Garden",
+      "uncommon_words": [
+        "**grow**",
+        "**tree**"
+      ],
+      "previously_used_words": [
+        "tall",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**grow**' is not a verb",
+        "Third word '**tree**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "**Study** Complex **Math** Problem",
+      "uncommon_words": [
+        "**study**",
+        "**math**"
+      ],
+      "previously_used_words": [
+        "complex",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**study**' is not a verb",
+        "Third word '**math**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "**Solve** Difficult **Puzzle** Challenge",
+      "uncommon_words": [
+        "**solve**",
+        "**puzzle**"
+      ],
+      "previously_used_words": [
+        "difficult",
+        "challenge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**solve**' is not a verb",
+        "Third word '**puzzle**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "**Create** Original **Art** Piece",
+      "uncommon_words": [
+        "**create**",
+        "**art**"
+      ],
+      "previously_used_words": [
+        "original",
+        "piece"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**create**' is not a verb",
+        "Third word '**art**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "**Run** Swiftly **Race** Track",
+      "uncommon_words": [
+        "**run**",
+        "swiftly",
+        "**race**"
+      ],
+      "previously_used_words": [
+        "track"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**run**' is not a verb",
+        "Second word 'swiftly' is not an adjective",
+        "Third word '**race**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "**Gardern** Vibrant **Flower** Bed",
+      "uncommon_words": [
+        "**gardern**",
+        "vibrant",
+        "**flower**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**gardern**' is not a verb",
+        "Second word 'vibrant' is not an adjective",
+        "Third word '**flower**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "**Craft** Delicate **Pottery** Kiln",
+      "uncommon_words": [
+        "**craft**",
+        "**pottery**",
+        "kiln"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**craft**' is not a verb",
+        "Third word '**pottery**' is not a noun",
+        "Fourth word 'kiln' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "**Relax** Calmly **Beach** Sand",
+      "uncommon_words": [
+        "**relax**",
+        "calmly",
+        "**beach**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**relax**' is not a verb",
+        "Second word 'calmly' is not an adjective",
+        "Third word '**beach**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "**Explore** Mysterious **Cave** Entrance",
+      "uncommon_words": [
+        "**explore**",
+        "**cave**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**explore**' is not a verb",
+        "Third word '**cave**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "**Paint** Bold **Sky** Watercolor",
+      "uncommon_words": [
+        "**paint**",
+        "**sky**",
+        "watercolor"
+      ],
+      "previously_used_words": [
+        "**paint**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**paint**' is not a verb",
+        "Third word '**sky**' is not a noun",
+        "Fourth word 'watercolor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "**Fix** Rusty **Door** Handle",
+      "uncommon_words": [
+        "**fix**",
+        "rusty",
+        "**door**"
+      ],
+      "previously_used_words": [
+        "**fix**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**fix**' is not a verb",
+        "Second word 'rusty' is not an adjective",
+        "Third word '**door**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "**Compose** Harmonious **Symphony** Orchestra",
+      "uncommon_words": [
+        "**compose**",
+        "harmonious",
+        "**symphony**",
+        "orchestra"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**compose**' is not a verb",
+        "Second word 'harmonious' is not an adjective",
+        "Third word '**symphony**' is not a noun",
+        "Fourth word 'orchestra' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "**Sketch** Whimsical **Character** Portrait",
+      "uncommon_words": [
+        "**sketch**",
+        "whimsical",
+        "**character**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sketch**' is not a verb",
+        "Second word 'whimsical' is not an adjective",
+        "Third word '**character**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "**Solve** Ingenious **Machine** Gears",
+      "uncommon_words": [
+        "**solve**",
+        "ingenious",
+        "**machine**",
+        "gears"
+      ],
+      "previously_used_words": [
+        "**solve**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**solve**' is not a verb",
+        "Second word 'ingenious' is not an adjective",
+        "Third word '**machine**' is not a noun",
+        "Fourth word 'gears' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "**Plan** Strategic **Game** Move",
+      "uncommon_words": [
+        "**plan**",
+        "**game**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**plan**' is not a verb",
+        "Third word '**game**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "**Brew** Fragrant **Coffee** Beans",
+      "uncommon_words": [
+        "**brew**",
+        "fragrant",
+        "**coffee**",
+        "beans"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**brew**' is not a verb",
+        "Second word 'fragrant' is not an adjective",
+        "Third word '**coffee**' is not a noun",
+        "Fourth word 'beans' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "**Decorate** Festive **Table** Centerpiece",
+      "uncommon_words": [
+        "**decorate**",
+        "festive",
+        "**table**",
+        "centerpiece"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**decorate**' is not a verb",
+        "Second word 'festive' is not an adjective",
+        "Third word '**table**' is not a noun",
+        "Fourth word 'centerpiece' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "**Build** Robust **Bridge** Stones",
+      "uncommon_words": [
+        "**build**",
+        "robust",
+        "**bridge**",
+        "stones"
+      ],
+      "previously_used_words": [
+        "**build**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**build**' is not a verb",
+        "Second word 'robust' is not an adjective",
+        "Third word '**bridge**' is not a noun",
+        "Fourth word 'stones' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "** Photograph** Serene **Mountain** Peak",
+      "uncommon_words": [
+        "**",
+        "photograph**",
+        "serene",
+        "**mountain**"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "**Develop** Innovative **App** Design",
+      "uncommon_words": [
+        "**develop**",
+        "**app**"
+      ],
+      "previously_used_words": [
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**develop**' is not a verb",
+        "Third word '**app**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "**Whittle** Smooth **Wooden** Bowl",
+      "uncommon_words": [
+        "**whittle**",
+        "**wooden**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**whittle**' is not a verb",
+        "Third word '**wooden**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "**Gather** Fresh **Herb** Garden",
+      "uncommon_words": [
+        "**gather**",
+        "**herb**"
+      ],
+      "previously_used_words": [
+        "fresh",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**gather**' is not a verb",
+        "Third word '**herb**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "**Write** Poetic **Sonnet** Rhyme",
+      "uncommon_words": [
+        "**write**",
+        "poetic",
+        "**sonnet**",
+        "rhyme"
+      ],
+      "previously_used_words": [
+        "**write**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**write**' is not a verb",
+        "Second word 'poetic' is not an adjective",
+        "Third word '**sonnet**' is not a noun",
+        "Fourth word 'rhyme' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "**Mend** Torn **Cloth** Stitch",
+      "uncommon_words": [
+        "**mend**",
+        "torn",
+        "**cloth**",
+        "stitch"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**mend**' is not a verb",
+        "Second word 'torn' is not an adjective",
+        "Third word '**cloth**' is not a noun",
+        "Fourth word 'stitch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "**Drive** Carefully **Child** School",
+      "uncommon_words": [
+        "**drive**",
+        "**child**"
+      ],
+      "previously_used_words": [
+        "**drive**",
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**drive**' is not a verb",
+        "Second word 'carefully' is not an adjective",
+        "Third word '**child**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "**Bake** Spiced **Pumpkin** Pie",
+      "uncommon_words": [
+        "**bake**",
+        "spiced",
+        "**pumpkin**"
+      ],
+      "previously_used_words": [
+        "**bake**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**bake**' is not a verb",
+        "Second word 'spiced' is not an adjective",
+        "Third word '**pumpkin**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "**Program** Automated **Robot** Task",
+      "uncommon_words": [
+        "**program**",
+        "automated",
+        "**robot**"
+      ],
+      "previously_used_words": [
+        "**program**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**program**' is not a verb",
+        "Second word 'automated' is not an adjective",
+        "Third word '**robot**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "**Sketch** Detailed **Map** Landscape",
+      "uncommon_words": [
+        "**sketch**",
+        "**map**"
+      ],
+      "previously_used_words": [
+        "**sketch**",
+        "landscape"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sketch**' is not a verb",
+        "Third word '**map**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "**Sculpt** Elegant **Statue** Marble",
+      "uncommon_words": [
+        "**sculpt**",
+        "**statue**"
+      ],
+      "previously_used_words": [
+        "elegant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sculpt**' is not a verb",
+        "Third word '**statue**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "**Fix** Leaky **Pipe** Faucet",
+      "uncommon_words": [
+        "**fix**",
+        "leaky",
+        "**pipe**",
+        "faucet"
+      ],
+      "previously_used_words": [
+        "**fix**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**fix**' is not a verb",
+        "Second word 'leaky' is not an adjective",
+        "Third word '**pipe**' is not a noun",
+        "Fourth word 'faucet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "**Design** Modern **Furniture** Wood",
+      "uncommon_words": [
+        "**design**",
+        "**furniture**"
+      ],
+      "previously_used_words": [
+        "**design**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**design**' is not a verb",
+        "Third word '**furniture**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "**Read** Thrilling **Mystery** Novel",
+      "uncommon_words": [
+        "**read**",
+        "thrilling",
+        "**mystery**"
+      ],
+      "previously_used_words": [
+        "**read**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**read**' is not a verb",
+        "Second word 'thrilling' is not an adjective",
+        "Third word '**mystery**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "**Catch** Swift **Fish** River",
+      "uncommon_words": [
+        "**catch**",
+        "swift",
+        "**fish**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**catch**' is not a verb",
+        "Second word 'swift' is not an adjective",
+        "Third word '**fish**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "**Create** Magical **RPG** Quest",
+      "uncommon_words": [
+        "**create**",
+        "magical",
+        "**rpg**"
+      ],
+      "previously_used_words": [
+        "**create**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**create**' is not a verb",
+        "Second word 'magical' is not an adjective",
+        "Third word '**rpg**' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

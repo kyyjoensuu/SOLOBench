@@ -1,0 +1,95 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-18 13:03:38",
+  "total_sentences": 5,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 5,
+  "common_word_failures": 4,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747562223.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747562223.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The government must protect taxpayers.",
+      "uncommon_words": [
+        "taxpayers"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "The taxpayers must organize a giant rally.",
+      "uncommon_words": [
+        "taxpayers"
+      ],
+      "previously_used_words": [
+        "the",
+        "taxpayers",
+        "must"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "The organizers must explain the government's mistake.",
+      "uncommon_words": [
+        "organizers",
+        "government's"
+      ],
+      "previously_used_words": [
+        "the",
+        "must",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "The mistake must be resolved quickly.",
+      "uncommon_words": [
+        "resolved"
+      ],
+      "previously_used_words": [
+        "the",
+        "mistake",
+        "must"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "The solution must satisfy the majority.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "must",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

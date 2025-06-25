@@ -1,0 +1,2995 @@
+{
+  "model": "Athene-V2-Chat:latest",
+  "label": "2025-05-16 05:56:47",
+  "total_sentences": 204,
+  "perfect_sentences": 47,
+  "score_percentage": 23.03921568627451,
+  "word_count_failures": 8,
+  "format_failures": 116,
+  "common_word_failures": 108,
+  "word_reuse_failures": 91,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_Athene-V2-Chat_latest_1747354248.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_Athene-V2-Chat_latest_1747354248.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Verb**: attack (action)",
+      "uncommon_words": [
+        "**verb**",
+        "(action)"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Adjective**: brave (describing a person or action)",
+      "uncommon_words": [
+        "**adjective**",
+        "(describing",
+        "action)"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Noun 1**: soldier (person who can be brave)",
+      "uncommon_words": [
+        "**noun",
+        "1**",
+        "(person",
+        "can",
+        "brave)"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Noun 2**: battlefield (place where soldiers fight)",
+      "uncommon_words": [
+        "**noun",
+        "2**",
+        "battlefield",
+        "(place",
+        "soldiers",
+        "fight)"
+      ],
+      "previously_used_words": [
+        "**noun"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Attack brave soldier battlefield",
+      "uncommon_words": [
+        "battlefield"
+      ],
+      "previously_used_words": [
+        "attack",
+        "brave",
+        "soldier",
+        "battlefield"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'battlefield' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Accomplish tremendous goal victory",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Announce exciting news headline",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Assess critical situation challenge",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Achieve outstanding performance level-up",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'level-up' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Adapt skillful athlete sport",
+      "uncommon_words": [
+        "skillful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'skillful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Approve stringent regulation compliance",
+      "uncommon_words": [
+        "stringent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stringent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Actuate automatic system device",
+      "uncommon_words": [
+        "actuate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'actuate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Allocate sufficient budget project",
+      "uncommon_words": [
+        "allocate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'allocate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Align strategic vision mission",
+      "uncommon_words": [
+        "align"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'align' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Analyze complex data algorithm",
+      "uncommon_words": [
+        "algorithm"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'algorithm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Authorize crucial decision policy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Balance economic growth stability",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Breathe deeply forest oxygen",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Break powerful wave shore",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Build sustainable future generation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Cultivate fertile land crop",
+      "uncommon_words": [
+        "cultivate",
+        "fertile"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'fertile' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Celebrate joyful occasion holiday",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Combine diverse talent team",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Compose beautiful music symphony",
+      "uncommon_words": [
+        "symphony"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'symphony' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Compute accurate result analysis",
+      "uncommon_words": [
+        "compute"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'compute' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Condition optimal health wellness",
+      "uncommon_words": [
+        "optimal",
+        "wellness"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'optimal' is not an adjective",
+        "Fourth word 'wellness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Confirm true statement fact",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Construct sturdy building structure",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Contain vast ocean continent",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Cook delicious meal dinner",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Convey sincere message letter",
+      "uncommon_words": [
+        "sincere"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sincere' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Craft intricate jewelry ornament",
+      "uncommon_words": [
+        "intricate",
+        "ornament"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Fourth word 'ornament' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Create innovative technology gadget",
+      "uncommon_words": [
+        "gadget"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'gadget' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Cultivate rich soil garden",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Cure deadly disease medicine",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Defend secure border territory",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Deliver urgent mail envelope",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'urgent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Demolish old building wreck",
+      "uncommon_words": [
+        "demolish",
+        "wreck"
+      ],
+      "previously_used_words": [
+        "building"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'demolish' is not a verb",
+        "Fourth word 'wreck' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Demonstrate advanced skill technique",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Design elegant dress gown",
+      "uncommon_words": [
+        "gown"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'gown' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Develop robust software application",
+      "uncommon_words": [
+        "robust"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'robust' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Diagnose serious illness condition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "condition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Direct complex film production",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Display artistic talent exhibition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "talent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Distribute essential food supplies",
+      "uncommon_words": [
+        "supplies"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'supplies' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Dominate global market share",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Draft clear policy guideline",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "policy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Drag heavy load cart",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Draw detailed map atlas",
+      "uncommon_words": [
+        "atlas"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'atlas' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Dream vivid future imagination",
+      "uncommon_words": [
+        "vivid"
+      ],
+      "previously_used_words": [
+        "future"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vivid' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Dress elegant woman gown",
+      "uncommon_words": [
+        "gown"
+      ],
+      "previously_used_words": [
+        "dress",
+        "elegant",
+        "gown"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'gown' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Drive fast car highway",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Drown small rodent trap",
+      "uncommon_words": [
+        "rodent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'rodent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Educate young student classroom",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Embrace diverse culture community",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diverse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Encourage determined spirit motivation",
+      "uncommon_words": [
+        "determined"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'determined' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Engage active audience crowd",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Ensure effective communication strategy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Evaluate potential risk assessment",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Expand extensive network infrastructure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Explain complex theory concept",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Explore vast universe space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "vast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Express deep emotion feeling",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Extend warm welcome guest",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Facilitate smooth transition process",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Foster collaborative relationship partnership",
+      "uncommon_words": [
+        "collaborative"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'collaborative' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Gain valuable insight experience",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Generate renewable energy source",
+      "uncommon_words": [
+        "renewable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'renewable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Govern equitable society democracy",
+      "uncommon_words": [
+        "equitable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'equitable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Grasp abstract idea philosophy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Guarantee fair treatment justice",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Halt rapid spread epidemic",
+      "uncommon_words": [
+        "halt"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'halt' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Heal broken heart wound",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Highlight significant achievement milestone",
+      "uncommon_words": [
+        "milestone"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'milestone' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Hire competent employee workforce",
+      "uncommon_words": [
+        "competent",
+        "workforce"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'competent' is not an adjective",
+        "Fourth word 'workforce' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Hold constructive meeting discussion",
+      "uncommon_words": [
+        "constructive"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'constructive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Hunt agile prey forest",
+      "uncommon_words": [
+        "agile",
+        "prey"
+      ],
+      "previously_used_words": [
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'agile' is not an adjective",
+        "Third word 'prey' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Implement effective solution problem",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "effective"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Improve poor living conditions",
+      "uncommon_words": [
+        "conditions"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'conditions' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Inform critical policy changes",
+      "uncommon_words": [
+        "changes"
+      ],
+      "previously_used_words": [
+        "critical",
+        "policy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'changes' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Initiate groundbreaking research project",
+      "uncommon_words": [
+        "groundbreaking"
+      ],
+      "previously_used_words": [
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'groundbreaking' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Inspire creative mind imagination",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "imagination"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Integrate diverse community neighborhood",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diverse",
+        "community"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Invest wisely financial resources",
+      "uncommon_words": [
+        "wisely",
+        "resources"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'financial' is not a noun",
+        "Fourth word 'resources' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Invite distinguished guest speaker",
+      "uncommon_words": [
+        "distinguished"
+      ],
+      "previously_used_words": [
+        "guest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'distinguished' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Juggle multiple task responsibilities",
+      "uncommon_words": [
+        "juggle",
+        "responsibilities"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'juggle' is not a verb",
+        "Fourth word 'responsibilities' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Jump over high hurdle fence",
+      "uncommon_words": [
+        "hurdle"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Keep strict confidentiality document",
+      "uncommon_words": [
+        "confidentiality"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'confidentiality' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Kill harmful insect pest",
+      "uncommon_words": [
+        "harmful",
+        "pest"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'harmful' is not an adjective",
+        "Fourth word 'pest' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Laugh heartily funny joke comedy",
+      "uncommon_words": [
+        "heartily"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Launch successful marketing campaign",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Lead strong team leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Learn essential life skills",
+      "uncommon_words": [
+        "skills"
+      ],
+      "previously_used_words": [
+        "essential"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'skills' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Listen carefully speaker audience",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "speaker",
+        "audience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Locate hidden treasure map",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "map"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Maintain clean environment sustainability",
+      "uncommon_words": [
+        "sustainability"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'sustainability' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Manage complex project timeline",
+      "uncommon_words": [
+        "timeline"
+      ],
+      "previously_used_words": [
+        "complex",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'timeline' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Manipulate delicate surgical instrument",
+      "uncommon_words": [
+        "surgical"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'surgical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Marinate tasty chicken sauce",
+      "uncommon_words": [
+        "marinate",
+        "tasty"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'marinate' is not a verb",
+        "Second word 'tasty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Measure precise scientific data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Melt ice cream dessert",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ice' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Mentor young professional mentorship",
+      "uncommon_words": [
+        "mentorship"
+      ],
+      "previously_used_words": [
+        "young"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mentorship' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Monitor constant temperature thermostat",
+      "uncommon_words": [
+        "thermostat"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'thermostat' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Navigate treacherous river rapids",
+      "uncommon_words": [
+        "navigate",
+        "treacherous",
+        "rapids"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'navigate' is not a verb",
+        "Second word 'treacherous' is not an adjective",
+        "Fourth word 'rapids' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Negotiate fair trade agreement contract",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fair"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Operate sophisticated machinery factory",
+      "uncommon_words": [
+        "machinery"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'machinery' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Optimize efficient energy consumption",
+      "uncommon_words": [
+        "optimize"
+      ],
+      "previously_used_words": [
+        "energy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'optimize' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Order favorite dish restaurant",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Organize annual festival celebration",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Overcome major obstacle challenge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "challenge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Paint vivid landscape picture",
+      "uncommon_words": [
+        "vivid"
+      ],
+      "previously_used_words": [
+        "vivid"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vivid' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Perform dramatic role play",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Pick ripe fruit orchard",
+      "uncommon_words": [
+        "ripe",
+        "orchard"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective",
+        "Fourth word 'orchard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Plan elaborate wedding event",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Plant healthy seed garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Pray devoutly sacred church",
+      "uncommon_words": [
+        "devoutly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'devoutly' is not an adjective",
+        "Third word 'sacred' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Present compelling argument case",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Prepare delicious meal kitchen",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "delicious",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Preserve natural habitat wildlife",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Protect vulnerable community safety",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "community"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Publish groundbreaking research paper",
+      "uncommon_words": [
+        "groundbreaking"
+      ],
+      "previously_used_words": [
+        "groundbreaking",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'groundbreaking' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Purify polluted water filtration",
+      "uncommon_words": [
+        "purify",
+        "polluted",
+        "filtration"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'purify' is not a verb",
+        "Second word 'polluted' is not an adjective",
+        "Fourth word 'filtration' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Question unethical practice behavior",
+      "uncommon_words": [
+        "unethical"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unethical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Quiet restless child lullaby",
+      "uncommon_words": [
+        "restless",
+        "lullaby"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'restless' is not an adjective",
+        "Fourth word 'lullaby' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Reduce harmful waste recycling",
+      "uncommon_words": [
+        "harmful",
+        "recycling"
+      ],
+      "previously_used_words": [
+        "harmful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'harmful' is not an adjective",
+        "Fourth word 'recycling' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Reflect calm lake mirror",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Reform outdated law statute",
+      "uncommon_words": [
+        "outdated"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outdated' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Remove dangerous obstacle path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "obstacle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Replace outdated equipment model",
+      "uncommon_words": [
+        "outdated"
+      ],
+      "previously_used_words": [
+        "outdated"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outdated' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Report accurate news article",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "accurate",
+        "news"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Research extensive topic dissertation",
+      "uncommon_words": [
+        "dissertation"
+      ],
+      "previously_used_words": [
+        "research",
+        "extensive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'dissertation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Rescue injured animal sanctuary",
+      "uncommon_words": [
+        "injured",
+        "sanctuary"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'injured' is not an adjective",
+        "Fourth word 'sanctuary' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Respond quickly emergency situation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "situation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Restore ancient artifact museum",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Retrieve lost item locker",
+      "uncommon_words": [
+        "retrieve",
+        "locker"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'retrieve' is not a verb",
+        "Fourth word 'locker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Review critical feedback evaluation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "critical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Satisfy urgent need market",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [
+        "urgent",
+        "market"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'urgent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Save precious resource conservation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Scale steep mountain summit",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Secure safe environment refuge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "environment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Seek valuable information knowledge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "valuable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Sell high-quality product store",
+      "uncommon_words": [
+        "high-quality"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'high-quality' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Send timely message communication",
+      "uncommon_words": [
+        "timely"
+      ],
+      "previously_used_words": [
+        "message",
+        "communication"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'timely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Separate mixed chemical solution",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Serve delicious meal restaurant",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "delicious",
+        "meal",
+        "restaurant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Set bold vision goal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "vision",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Sharpen dull knife tool",
+      "uncommon_words": [
+        "sharpen",
+        "dull"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sharpen' is not a verb",
+        "Second word 'dull' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Share valuable information data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "valuable",
+        "information",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Simplify complex process workflow",
+      "uncommon_words": [
+        "simplify",
+        "workflow"
+      ],
+      "previously_used_words": [
+        "complex",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'simplify' is not a verb",
+        "Fourth word 'workflow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Solve challenging puzzle riddle",
+      "uncommon_words": [
+        "challenging",
+        "riddle"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective",
+        "Fourth word 'riddle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Spare precious time leisure",
+      "uncommon_words": [
+        "leisure"
+      ],
+      "previously_used_words": [
+        "precious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'leisure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Start successful business venture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "successful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Strengthen weak structure foundation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Stretch tight muscle exercise",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Study obscure historical event",
+      "uncommon_words": [
+        "obscure"
+      ],
+      "previously_used_words": [
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'obscure' is not an adjective",
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Support struggling community initiative",
+      "uncommon_words": [
+        "struggling"
+      ],
+      "previously_used_words": [
+        "community"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'struggling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Sustain healthy ecosystem environment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "healthy",
+        "environment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Take proactive approach strategy",
+      "uncommon_words": [
+        "proactive"
+      ],
+      "previously_used_words": [
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'proactive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Teach valuable lesson classroom",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "valuable",
+        "classroom"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Test effective treatment drug",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "effective",
+        "treatment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Thank helpful person colleague",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "person"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Think critically complex problem",
+      "uncommon_words": [
+        "critically"
+      ],
+      "previously_used_words": [
+        "complex",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'critically' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Touch soft furry rabbit",
+      "uncommon_words": [
+        "furry"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'furry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Train skilled technician workshop",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Transform raw material product",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Translate foreign language document",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "document"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Travel far distance journey",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Treat serious illness hospital",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "serious",
+        "illness"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Troubleshoot complex system network",
+      "uncommon_words": [
+        "troubleshoot"
+      ],
+      "previously_used_words": [
+        "complex",
+        "system",
+        "network"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'troubleshoot' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Trust reliable friend ally",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Turn rough wood furniture",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Uncover hidden truth mystery",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hidden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Undergo intense training regimen",
+      "uncommon_words": [
+        "regimen"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'regimen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Understand diverse culture world",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diverse",
+        "culture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Unite divided community peace",
+      "uncommon_words": [
+        "divided"
+      ],
+      "previously_used_words": [
+        "community"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'divided' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Use efficient tool resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "efficient",
+        "tool",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Validate critical information data",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "critical",
+        "information",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Validate scientific hypothesis experiment",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "scientific"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Vary diverse plant species garden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diverse",
+        "plant",
+        "garden"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "View stunning artwork gallery",
+      "uncommon_words": [
+        "stunning",
+        "artwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective",
+        "Third word 'artwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Vote responsible citizen election",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Waken sleeping child bed",
+      "uncommon_words": [
+        "waken",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "child"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'waken' is not a verb",
+        "Second word 'sleeping' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Wash dirty laundry machine",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Water abundant crop field",
+      "uncommon_words": [
+        "abundant"
+      ],
+      "previously_used_words": [
+        "water",
+        "crop"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'abundant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Weave intricate pattern tapestry",
+      "uncommon_words": [
+        "intricate",
+        "tapestry"
+      ],
+      "previously_used_words": [
+        "intricate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Fourth word 'tapestry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Witness historic event moment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Write compelling story novel",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "compelling"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Worship holy deity temple",
+      "uncommon_words": [
+        "worship",
+        "deity"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'worship' is not a verb",
+        "Third word 'deity' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "X-ray internal body structure",
+      "uncommon_words": [
+        "x-ray"
+      ],
+      "previously_used_words": [
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'x-ray' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Yield high-quality harvest farm",
+      "uncommon_words": [
+        "high-quality"
+      ],
+      "previously_used_words": [
+        "high-quality"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'high-quality' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Zoom fast car race",
+      "uncommon_words": [
+        "zoom"
+      ],
+      "previously_used_words": [
+        "fast",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'zoom' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Accept generous gift donation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Access crucial information database",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "crucial",
+        "information"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Admire stunning sunset beach",
+      "uncommon_words": [
+        "stunning",
+        "sunset"
+      ],
+      "previously_used_words": [
+        "stunning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective",
+        "Third word 'sunset' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Adopt innovative technology solution",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "innovative",
+        "technology",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Advise wise council leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "leader"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Affirm positive self belief",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Align personal goal objective",
+      "uncommon_words": [
+        "align"
+      ],
+      "previously_used_words": [
+        "align",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'align' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Allocate scarce resource budget",
+      "uncommon_words": [
+        "allocate",
+        "scarce"
+      ],
+      "previously_used_words": [
+        "allocate",
+        "resource",
+        "budget"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'allocate' is not a verb",
+        "Second word 'scarce' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Analyze complex data pattern",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "complex",
+        "data",
+        "pattern"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 201,
+      "sentence": "Apologize sincerely for mistake",
+      "uncommon_words": [
+        "sincerely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sincerely' is not an adjective",
+        "Third word 'for' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 202,
+      "sentence": "Arrange beautiful flower bouquet",
+      "uncommon_words": [
+        "bouquet"
+      ],
+      "previously_used_words": [
+        "beautiful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'bouquet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 203,
+      "sentence": "Assemble intricate toy puzzle",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "intricate",
+        "puzzle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 204,
+      "sentence": "Assess rigorous quality control",
+      "uncommon_words": [
+        "rigorous"
+      ],
+      "previously_used_words": [
+        "assess"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rigorous' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}

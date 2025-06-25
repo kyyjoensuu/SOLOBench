@@ -1,0 +1,55 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-18 18:35:47",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747581849.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747581849.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The word list is not case sensitive. For example, do not use \"the\", \"tHe\", or \"therE\". Use all lower case letters instead.",
+      "uncommon_words": [
+        "is",
+        "\"the\"",
+        "\"the\"",
+        "\"there\"",
+        "letters"
+      ],
+      "previously_used_words": [],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Words such as \"is\", \"will\", and the like shall not be used for any of the sentences. Try to write in the present future tense.",
+      "uncommon_words": [
+        "words",
+        "\"is\"",
+        "\"will\"",
+        "sentences",
+        "tense"
+      ],
+      "previously_used_words": [
+        "the",
+        "not",
+        "for",
+        "the",
+        "the"
+      ],
+      "word_count": 25,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-18 06:07:01",
+  "total_sentences": 8,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 8,
+  "format_failures": 8,
+  "common_word_failures": 6,
+  "word_reuse_failures": 5,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747536985.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747536985.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Must return a numbered list exactly as formatted below",
+      "uncommon_words": [
+        "numbered",
+        "formatted"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each item needs to be exactly 165 characters long, this is to ensure the model has no opportunity to generate text which goes beyond this length",
+      "uncommon_words": [
+        "needs",
+        "165",
+        "characters",
+        "is",
+        "has",
+        "goes"
+      ],
+      "previously_used_words": [
+        "exactly"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Can use any tools to accomplish this task",
+      "uncommon_words": [
+        "can",
+        "tools"
+      ],
+      "previously_used_words": [
+        "to",
+        "this"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Return only a numbered list with one item on each line",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "return",
+        "a",
+        "numbered",
+        "list",
+        "item",
+        "each"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Sentence",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sentence"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

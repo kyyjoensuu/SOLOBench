@@ -1,0 +1,95 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-19 09:55:11",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-27b-pt_latest_1747636979.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-27b-pt_latest_1747636979.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Your output MUST follow the above rules exactly, do not alter the number scheme, the spacing, or punctuation.",
+      "uncommon_words": [
+        "rules",
+        "spacing",
+        "punctuation"
+      ],
+      "previously_used_words": [],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Your output list MUST not be a repeating set of sentences, and only the sentences in the output are to be counted",
+      "uncommon_words": [
+        "repeating",
+        "sentences",
+        "sentences",
+        "are",
+        "counted"
+      ],
+      "previously_used_words": [
+        "your",
+        "output",
+        "must",
+        "not",
+        "the",
+        "the",
+        "output"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "For every 100 sentences create a sublist of sentences (sentences 5-7 and sentences 73-75) and list those on a new line, starting with the word Sublist and the sentence number (example: 4 Sublist 4.3. Sentence 4)",
+      "uncommon_words": [
+        "100",
+        "sentences",
+        "sublist",
+        "sentences",
+        "(sentences",
+        "5-7",
+        "sentences",
+        "73-75)",
+        "sublist",
+        "(example",
+        "4",
+        "sublist",
+        "43",
+        "4)"
+      ],
+      "previously_used_words": [
+        "sentences",
+        "a",
+        "of",
+        "sentences",
+        "and",
+        "sentences",
+        "and",
+        "list",
+        "a",
+        "the",
+        "and",
+        "the",
+        "number"
+      ],
+      "word_count": 36,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

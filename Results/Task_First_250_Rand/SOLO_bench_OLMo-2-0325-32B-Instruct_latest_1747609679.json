@@ -1,0 +1,3284 @@
+{
+  "model": "OLMo-2-0325-32B-Instruct:latest",
+  "label": "2025-05-19 02:21:49",
+  "total_sentences": 200,
+  "perfect_sentences": 13,
+  "score_percentage": 6.5,
+  "word_count_failures": 13,
+  "format_failures": 142,
+  "common_word_failures": 94,
+  "word_reuse_failures": 171,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_OLMo-2-0325-32B-Instruct_latest_1747609679.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_OLMo-2-0325-32B-Instruct_latest_1747609679.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "bite impressive steak slice",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "assemble substantial property bag",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "educate average student textbook",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "recommend increasing democracy game",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "confirm unexpectedly friend message",
+      "uncommon_words": [
+        "unexpectedly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unexpectedly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "resist fragile gene mutation",
+      "uncommon_words": [
+        "mutation"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mutation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "observe giant ship harbor",
+      "uncommon_words": [
+        "harbor"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'harbor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "loan sizable processor database",
+      "uncommon_words": [
+        "sizable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sizable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "practice patience trading car",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'patience' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "establish cooperative law firm",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "guarantee strong executive agency",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "bowl warm rabbit stew",
+      "uncommon_words": [
+        "stew"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "snap thin carrot stick",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "affirm equal property rights",
+      "uncommon_words": [
+        "affirm",
+        "rights"
+      ],
+      "previously_used_words": [
+        "property"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Fourth word 'rights' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "emphasize clear accounting message",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "message"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "dissolve regulatory framework",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "restrict entry booth admission",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'entry' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "loan sizable developer building",
+      "uncommon_words": [
+        "sizable"
+      ],
+      "previously_used_words": [
+        "loan",
+        "sizable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sizable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "confirm former lawmaker promise",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "establish democracy convention",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "establish",
+        "democracy"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "observe civil citizen protest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "ensure international alliance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "rekindle shared spirit warmth",
+      "uncommon_words": [
+        "rekindle"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rekindle' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "acknowledge crazy idea proposal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "adjust variable software processor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "processor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "convey honest recommendation paper",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "manufacture quality consumer good",
+      "uncommon_words": [
+        "manufacture"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'manufacture' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "borrow giant tool handle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "giant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "assess increasing risk game",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increasing",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "resist temptation loot bag",
+      "uncommon_words": [
+        "temptation"
+      ],
+      "previously_used_words": [
+        "resist",
+        "bag"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'temptation' is not an adjective",
+        "Third word 'loot' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "critique harsh literature review",
+      "uncommon_words": [
+        "critique"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "cultivate patience academic journey",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "patience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'patience' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "share philosophy life purpose",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'philosophy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "soften harsh criticism remark",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "harsh"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "confirm defendant guilty charge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'defendant' is not an adjective",
+        "Third word 'guilty' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "dissolve regulatory barrier",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dissolve",
+        "regulatory"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "restrict entry refugee camp",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "restrict",
+        "entry"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'entry' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "emphasize quality service culture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emphasize",
+        "quality"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "affirm mutual understanding contract",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "secure loan property settlement",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loan",
+        "property"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loan' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "borrow substantial capital venture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "borrow",
+        "substantial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "guarantee political stability promise",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "guarantee",
+        "promise"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "assess candidate qualification election",
+      "uncommon_words": [
+        "qualification"
+      ],
+      "previously_used_words": [
+        "assess"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'candidate' is not an adjective",
+        "Third word 'qualification' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "loan traditional old-fashioned home",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'old-fashioned' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "invite cultural celebration town",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "affirm republican legislative proposal",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "proposal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Third word 'legislative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "critique literary critical analysis",
+      "uncommon_words": [
+        "critique"
+      ],
+      "previously_used_words": [
+        "critique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "tolerate hostile workplace environment",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "acknowledge gradual transformation process",
+      "uncommon_words": [
+        "gradual"
+      ],
+      "previously_used_words": [
+        "acknowledge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gradual' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "confirm championship final game",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'championship' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "provide simple solution answer",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "embrace unexpected opportunity chance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "identify variable key element",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "variable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "establish order chaos organization",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "establish"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'order' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "review quality accounting report",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "quality",
+        "accounting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "sustain increasing hunger drive",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increasing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "loan tall athlete scholarship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "wrap careful Thanksgiving gifts",
+      "uncommon_words": [
+        "gifts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'gifts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "acknowledge slight disappointment result",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "acknowledge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "assure mutual respect partnership",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mutual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "dissolve monopoly market control",
+      "uncommon_words": [
+        "monopoly"
+      ],
+      "previously_used_words": [
+        "dissolve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'monopoly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "emphasize clear policy document",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emphasize",
+        "clear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "evaluate variable consumer behavior",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "variable",
+        "consumer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "assess cultural political context",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "cultural",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "recommend warm jacket winter",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "cultivate patience learning skill",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "patience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'patience' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "reposition corporate strategic initiative",
+      "uncommon_words": [
+        "reposition"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reposition' is not a verb",
+        "Third word 'strategic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "confirm substantial growth progress",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "substantial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "critique literature piece analysis",
+      "uncommon_words": [
+        "critique"
+      ],
+      "previously_used_words": [
+        "critique",
+        "literature",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'literature' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "restrict entry visa requirement",
+      "uncommon_words": [
+        "visa"
+      ],
+      "previously_used_words": [
+        "restrict",
+        "entry"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'entry' is not an adjective",
+        "Third word 'visa' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "loan traditional old-fashioned car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loan",
+        "traditional",
+        "old-fashioned",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'old-fashioned' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "identify mutual language translator",
+      "uncommon_words": [
+        "translator"
+      ],
+      "previously_used_words": [
+        "identify",
+        "mutual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'translator' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "assure customer satisfaction service",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assure",
+        "service"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'customer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "tolerate cultural diversity workplace",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tolerate",
+        "cultural",
+        "workplace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "observe national political convention",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "political",
+        "convention"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "affirm democracy legislative framework",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "democracy",
+        "legislative",
+        "framework"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Second word 'democracy' is not an adjective",
+        "Third word 'legislative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "embrace international cooperation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "embrace",
+        "international"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "modify elaborate regulatory legislation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "regulatory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'regulatory' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "cultivate patience difficult journey",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "patience",
+        "journey"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'patience' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "convey clear communication policy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convey",
+        "clear",
+        "policy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "assess unexpected result experiment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "unexpected",
+        "result"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "secure loan commercial realty",
+      "uncommon_words": [
+        "realty"
+      ],
+      "previously_used_words": [
+        "secure",
+        "loan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loan' is not an adjective",
+        "Fourth word 'realty' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "evaluate potential candidate role",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "candidate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "enhance academic institution reputation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "academic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "confirm mutual trading agreement",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "mutual",
+        "trading"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "acknowledge societal cultural divide",
+      "uncommon_words": [
+        "societal"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'societal' is not an adjective",
+        "Third word 'cultural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "promote global educational equity",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'educational' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "affirm shared environmental goal",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "shared"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Third word 'environmental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "tolerate hostile political climate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tolerate",
+        "hostile",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "ensure compliance regulation mandate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ensure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'compliance' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "acknowledge gradual growth progress",
+      "uncommon_words": [
+        "gradual"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "gradual",
+        "growth",
+        "progress"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gradual' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "analyze variable economic indicator",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "variable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "review annual accounting records",
+      "uncommon_words": [
+        "records"
+      ],
+      "previously_used_words": [
+        "review",
+        "accounting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'records' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "restrict entry unauthorized personnel",
+      "uncommon_words": [
+        "unauthorized"
+      ],
+      "previously_used_words": [
+        "restrict",
+        "entry"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'entry' is not an adjective",
+        "Third word 'unauthorized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "cultivate patience technical support",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "patience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'patience' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "assess candidate qualification interview",
+      "uncommon_words": [
+        "qualification"
+      ],
+      "previously_used_words": [
+        "assess",
+        "candidate",
+        "qualification"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'candidate' is not an adjective",
+        "Third word 'qualification' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "observe population demographic shift",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'population' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "emphasize clear legal contract",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emphasize",
+        "clear",
+        "contract"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'legal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "affirm global peace initiative",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "global",
+        "initiative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "ensure loan repayment regularity",
+      "uncommon_words": [
+        "repayment",
+        "regularity"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "loan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loan' is not an adjective",
+        "Third word 'repayment' is not a noun",
+        "Fourth word 'regularity' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "evaluate cultural impact media",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "promote healthy lifestyle habits",
+      "uncommon_words": [
+        "habits"
+      ],
+      "previously_used_words": [
+        "promote"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'habits' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "acknowledge scientific technological breakthrough",
+      "uncommon_words": [
+        "breakthrough"
+      ],
+      "previously_used_words": [
+        "acknowledge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'technological' is not a noun",
+        "Fourth word 'breakthrough' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "analyze political legislative process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "political",
+        "legislative",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'legislative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "guarantee consumer product safety",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "guarantee",
+        "consumer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'consumer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "restrict export certain goods",
+      "uncommon_words": [
+        "goods"
+      ],
+      "previously_used_words": [
+        "restrict"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'export' is not an adjective",
+        "Third word 'certain' is not a noun",
+        "Fourth word 'goods' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "embrace diversity cultural richness",
+      "uncommon_words": [
+        "richness"
+      ],
+      "previously_used_words": [
+        "embrace",
+        "diversity",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diversity' is not an adjective",
+        "Third word 'cultural' is not a noun",
+        "Fourth word 'richness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "confirm fair judicial outcome",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'judicial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "provide useful educational resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "educational"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'educational' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "prioritize environmental sustainability",
+      "uncommon_words": [
+        "prioritize",
+        "sustainability"
+      ],
+      "previously_used_words": [
+        "environmental"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "establish democratic political system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "establish",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "assess substantial economic impact",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "substantial",
+        "economic",
+        "impact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "cultivate international understanding",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "international",
+        "understanding"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "promote academic research progress",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "promote",
+        "academic",
+        "progress"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "ensure voting system integrity",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ensure",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'voting' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "affirm peace national interest",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "peace",
+        "national"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Second word 'peace' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "acknowledge citizen civil rights",
+      "uncommon_words": [
+        "rights"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "citizen",
+        "civil",
+        "rights"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'citizen' is not an adjective",
+        "Third word 'civil' is not a noun",
+        "Fourth word 'rights' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "confirm trading agreement mutual",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "trading",
+        "agreement",
+        "mutual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'trading' is not an adjective",
+        "Fourth word 'mutual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "guarantee policy stability assurance",
+      "uncommon_words": [
+        "assurance"
+      ],
+      "previously_used_words": [
+        "guarantee",
+        "policy",
+        "stability"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'policy' is not an adjective",
+        "Fourth word 'assurance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "enhance educational facility quality",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enhance",
+        "educational",
+        "quality"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "prioritize patient health well-being",
+      "uncommon_words": [
+        "prioritize"
+      ],
+      "previously_used_words": [
+        "prioritize"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prioritize' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "assess financial regulatory framework",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "regulatory",
+        "framework"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'regulatory' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "restrict access confidential data",
+      "uncommon_words": [
+        "confidential"
+      ],
+      "previously_used_words": [
+        "restrict"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'access' is not an adjective",
+        "Third word 'confidential' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "cultivate international cooperation",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "international",
+        "cooperation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "validate substantial evidence science",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "substantial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "ensure safe aircraft operation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ensure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "affirm life sacred value",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "life"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Second word 'life' is not an adjective",
+        "Third word 'sacred' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "cultivate patience administrative tasks",
+      "uncommon_words": [
+        "cultivate",
+        "tasks"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "patience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'patience' is not an adjective",
+        "Third word 'administrative' is not a noun",
+        "Fourth word 'tasks' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "evaluate business competitive position",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'business' is not an adjective",
+        "Third word 'competitive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "assure loan applicant approval",
+      "uncommon_words": [
+        "applicant"
+      ],
+      "previously_used_words": [
+        "assure",
+        "loan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loan' is not an adjective",
+        "Third word 'applicant' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "prioritize national security safety",
+      "uncommon_words": [
+        "prioritize"
+      ],
+      "previously_used_words": [
+        "prioritize",
+        "national",
+        "safety"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prioritize' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "embrace sustainable living practices",
+      "uncommon_words": [
+        "practices"
+      ],
+      "previously_used_words": [
+        "embrace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'practices' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "confirm academic research validity",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "academic",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "acknowledge global climate change",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "acknowledge",
+        "global",
+        "climate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "modify substantial regulatory burden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "substantial",
+        "regulatory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'regulatory' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "tolerate cultural social change",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tolerate",
+        "cultural",
+        "change"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "observe political party alignment",
+      "uncommon_words": [
+        "alignment"
+      ],
+      "previously_used_words": [
+        "observe",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'alignment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "review budget financial structure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "financial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'budget' is not an adjective",
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "emphasize clear business strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emphasize",
+        "clear",
+        "business"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "ensure safe food handling",
+      "uncommon_words": [
+        "handling"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "safe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'handling' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "guarantee fair employment opportunity",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "guarantee",
+        "fair",
+        "opportunity"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "assess candidate skillset interview",
+      "uncommon_words": [
+        "skillset"
+      ],
+      "previously_used_words": [
+        "assess",
+        "candidate",
+        "interview"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'candidate' is not an adjective",
+        "Third word 'skillset' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "promote technological innovation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "promote",
+        "technological"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "prioritize public health response",
+      "uncommon_words": [
+        "prioritize"
+      ],
+      "previously_used_words": [
+        "prioritize",
+        "health"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prioritize' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "acknowledge societal evolution",
+      "uncommon_words": [
+        "societal"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "societal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "validate democratic electoral process",
+      "uncommon_words": [
+        "validate",
+        "electoral"
+      ],
+      "previously_used_words": [
+        "validate",
+        "democratic",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'electoral' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "establish stable trading partnership",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "establish",
+        "trading",
+        "partnership"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "restrict alcohol consumption license",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "restrict"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'alcohol' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "cultivate environmental consciousness",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "environmental"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "ensure academic accreditation standards",
+      "uncommon_words": [
+        "accreditation",
+        "standards"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "academic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'accreditation' is not a noun",
+        "Fourth word 'standards' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "critique artistic creative concept",
+      "uncommon_words": [
+        "critique"
+      ],
+      "previously_used_words": [
+        "critique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Third word 'creative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "affirm social justice movement",
+      "uncommon_words": [
+        "affirm"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "social"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "evaluate economic development strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "economic",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "invite foreign cultural exchange",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "invite",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cultural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "acknowledge cultural adaptation",
+      "uncommon_words": [
+        "adaptation"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "cultural"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "resist temptation immediate gain",
+      "uncommon_words": [
+        "temptation"
+      ],
+      "previously_used_words": [
+        "resist",
+        "temptation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'temptation' is not an adjective",
+        "Third word 'immediate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "promote renewable energy adoption",
+      "uncommon_words": [
+        "renewable"
+      ],
+      "previously_used_words": [
+        "promote"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'renewable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "assure consumer purchasing confidence",
+      "uncommon_words": [
+        "purchasing"
+      ],
+      "previously_used_words": [
+        "assure",
+        "consumer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'consumer' is not an adjective",
+        "Third word 'purchasing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "restrict tobacco public places",
+      "uncommon_words": [
+        "places"
+      ],
+      "previously_used_words": [
+        "restrict",
+        "public"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tobacco' is not an adjective",
+        "Fourth word 'places' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "enhance digital security protocols",
+      "uncommon_words": [
+        "protocols"
+      ],
+      "previously_used_words": [
+        "enhance",
+        "security"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'protocols' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "review global economic trends",
+      "uncommon_words": [
+        "trends"
+      ],
+      "previously_used_words": [
+        "review",
+        "global",
+        "economic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun",
+        "Fourth word 'trends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "confirm financial transaction integrity",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "financial",
+        "integrity"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "modify traditional marketing methods",
+      "uncommon_words": [
+        "methods"
+      ],
+      "previously_used_words": [
+        "modify",
+        "traditional"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'methods' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "cultivate international student exchange",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "international",
+        "student",
+        "exchange"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "prioritize youth educational enrichment",
+      "uncommon_words": [
+        "prioritize",
+        "enrichment"
+      ],
+      "previously_used_words": [
+        "prioritize",
+        "educational"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prioritize' is not a verb",
+        "Second word 'youth' is not an adjective",
+        "Third word 'educational' is not a noun",
+        "Fourth word 'enrichment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "acknowledge scientific discovery impact",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "acknowledge",
+        "scientific",
+        "impact"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "emphasize clear communication team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emphasize",
+        "clear",
+        "communication"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "ensure timely project delivery",
+      "uncommon_words": [
+        "timely"
+      ],
+      "previously_used_words": [
+        "ensure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'timely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "validate substantial historical data",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "substantial",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "restrict media political influence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "restrict",
+        "media",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'media' is not an adjective",
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "promote technological literacy society",
+      "uncommon_words": [
+        "literacy"
+      ],
+      "previously_used_words": [
+        "promote",
+        "technological"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'literacy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "ensure equal access justice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ensure",
+        "equal",
+        "access",
+        "justice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "acknowledge corporate social responsibility",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "acknowledge",
+        "corporate",
+        "social"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "modify complex regulatory landscape",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "regulatory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'regulatory' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "promote mental health awareness",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "promote",
+        "health"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "assess potential partnership viability",
+      "uncommon_words": [
+        "viability"
+      ],
+      "previously_used_words": [
+        "assess",
+        "potential",
+        "partnership"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'viability' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "emphasize quality healthcare services",
+      "uncommon_words": [
+        "healthcare",
+        "services"
+      ],
+      "previously_used_words": [
+        "emphasize",
+        "quality"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'healthcare' is not a noun",
+        "Fourth word 'services' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "confirm democratic electoral procedure",
+      "uncommon_words": [
+        "electoral"
+      ],
+      "previously_used_words": [
+        "confirm",
+        "democratic",
+        "electoral"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'electoral' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "educate consumer financial literacy",
+      "uncommon_words": [
+        "literacy"
+      ],
+      "previously_used_words": [
+        "educate",
+        "consumer",
+        "financial",
+        "literacy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'consumer' is not an adjective",
+        "Third word 'financial' is not a noun",
+        "Fourth word 'literacy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "ensure ethical business practice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ensure",
+        "business",
+        "practice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "observe global economic cycle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "global",
+        "economic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "guarantee environmental protection measures",
+      "uncommon_words": [
+        "measures"
+      ],
+      "previously_used_words": [
+        "guarantee",
+        "environmental"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'measures' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "cultivate community cultural integration",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'community' is not an adjective",
+        "Third word 'cultural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "modify outdated technology infrastructure",
+      "uncommon_words": [
+        "outdated"
+      ],
+      "previously_used_words": [
+        "modify"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outdated' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "prioritize child education development",
+      "uncommon_words": [
+        "prioritize"
+      ],
+      "previously_used_words": [
+        "prioritize",
+        "development"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prioritize' is not a verb",
+        "Second word 'child' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "acknowledge technological dependency",
+      "uncommon_words": [
+        "dependency"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "technological"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "affirm sustainable development goals",
+      "uncommon_words": [
+        "affirm",
+        "goals"
+      ],
+      "previously_used_words": [
+        "affirm",
+        "sustainable",
+        "development"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'affirm' is not a verb",
+        "Fourth word 'goals' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "evaluate energy resource efficiency",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "energy",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'energy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "enhance consumer product safety",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enhance",
+        "consumer",
+        "product",
+        "safety"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'consumer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "ensure fair labor compensation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ensure",
+        "fair"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "emphasize clear regulatory criteria",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emphasize",
+        "clear",
+        "regulatory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'regulatory' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "restrict foreign political intervention",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "restrict",
+        "foreign",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "establish democratic governance structure",
+      "uncommon_words": [
+        "governance"
+      ],
+      "previously_used_words": [
+        "establish",
+        "democratic",
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'governance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "critique national development policy",
+      "uncommon_words": [
+        "critique"
+      ],
+      "previously_used_words": [
+        "critique",
+        "national",
+        "development",
+        "policy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "cultivate societal welfare initiative",
+      "uncommon_words": [
+        "cultivate",
+        "societal"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "societal",
+        "initiative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cultivate' is not a verb",
+        "Second word 'societal' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "prioritize environmental conservation efforts",
+      "uncommon_words": [
+        "prioritize",
+        "efforts"
+      ],
+      "previously_used_words": [
+        "prioritize",
+        "environmental"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prioritize' is not a verb",
+        "Fourth word 'efforts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "observe financial market trends",
+      "uncommon_words": [
+        "trends"
+      ],
+      "previously_used_words": [
+        "observe",
+        "financial",
+        "market",
+        "trends"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'trends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "review educational institutional success",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "educational"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'institutional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "acknowledge human rights enforcement",
+      "uncommon_words": [
+        "rights"
+      ],
+      "previously_used_words": [
+        "acknowledge",
+        "rights"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'rights' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "ensure democratic voting standards",
+      "uncommon_words": [
+        "standards"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "democratic",
+        "voting",
+        "standards"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'standards' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+
+8. If possible return an ordered list so that the words appear in dictionary order (dictionary ordering is case-insensitive)
+9. As more than half of sentences contain some of your input keywords, you will have better results if you do not output “None” after the lists returned for these types of tasks.
+
+# Example:
+1. noun, noun, noun
+2. adjective, noun, verb
+3. adjective, noun, adjective, noun
+4. noun, adjective, verb
+5. noun, noun, noun, noun
+6. adjective, noun, noun
+7. noun, adjective, adverb
+8. noun, adjective, topic
+9. (all input are keyword)
+10. noun, adjective, preposition, noun or noun, verb, adverb and noun
+
+
+Your script will receive a sentence in the following format that contains at least one word from the provided list. It should also return a list of words, sorted in dictionary order or if it doesn't contain any input keywords, "None".
+
+# Example:
+Sentence: Some **are** good for eating like ham**.
+
+Output: None
+
+# Examples:
+Sentence 1: The **new** **law** was drafted.
+Output: None
+
+Sentence 2: The *most* delicious pastry we made is this **cake''.
+Output: cake, most, delicious
+
+# Note: You should avoid using punctuation marks while parsing the answer.
+
+import re
+import string
+
+words = ['decade', 'straw', 'line', 'equal', 'infant', 'duty', 'hostile', 'wire', 'relieve', 'eleven', 'refugee', 'square', 'superior', 'guarantee', 'bias', 'comparable', 'cooperative',
+  'turn', 'size', 'harassment', 'native', 'friend', 'ten', 'joy', 'specify', 'self', 'unexpected',
+  'identify', 'novel', 'philosophy', 'graduation', 'bedroom', 'anger', 'place', 'enemy', 'bowl', 'scream', 'Thanksgiving', 'former', 'arrow', 'lawmaker', 'tolerate', 'package', 'progress',
+  'sustain', 'giant', 'celebration', 'executive', 'restrict', 'right', 'useful', 'off', 'vessel', 'height', 'ship', 'operation', 'appearance', 'colonial', 'Iraqi', 'penalty', 'wherever', 'cycle',
+  'agency', 'interaction', 'loot', 'desk', 'threshold', 'car', 'wrap', 'partly':'accounting', '!', '', '.', '!', '#', '[', ']', '\t', '\n', '?', '_', '~', '(', ')', '*', '&', '=', '<', '>',
+  '~+', '+#', '@', '%', '%s', '=', '=, '<>', '>'
+
+def check\_sentence(sent):
+
+    for w in sentences:
+        if w.split() in words: return sorted([w[0], w[1], w[2] for w in sentences])
+
+# Check Sentence from given sentence with same words
+check_sentence('some \*\**are\*\**good', words)
+
+Sentence List with unique words
+
+# Output:
+Sentence Number (A-F):  [7, 48, 51]
+
+word list: ['decade, straw, line, equal, infant, duty, hostile, wire, relieve, eleven, refugee, square, superior, guarantee, bias, comparative, cooperative', 'turn, size, harassments, native, friend, ten, joy, specify, self, unexpected, identify, novel, philosophy, graduation, bedroom, anger, place, enemy, bowl, scream, Thanksgiving, former, arrow, lawmaker, tolerate', 'package, progress, sustain, giant, celebration, executive, restrict, right, useful, off, ship', 'height, vessel, operation, appearance, colonial, Iraqi, penalty, wherever, cycle, agency, interaction, loot, desk, threshold, car wrap partsially accounting, brown country demo...
+
+
+# Tokenize the sentence as you see fit
+
+def word\_tokenize(s):
+    return [w for w in s.lower().split() if len(w) > 0]
+
+sentences = ['the new law was drafted.', 'some of us are good for eating like ham', 'The most delicious pastry we made is this cake.', 'and they don't like to be around me,']
+token_list = word\_tokenize(sentences)
+
+# Join the words into a single string
+token\_str = ''.join(token\_list)
+```scss
+print('List of tokens with their counts:', token_count(token_str))
+
+sentence list(split by n words):
+[['new law', count, 1], ['were drafted', count, 1],
+ ['good', count, 2], ['like', count, 3], ['ham'], ['cakes'], ['the most delicious',
+ 'best tasty pastry], ['I will always be loyal to ...'], ['us']]```
+
+List of unique words: `['decade', 'straw', 'line', 'equal', 'infant', 'duty', 'hostile'', 'wire'', 'relieve'''11, ''refugee'', 'square'', 'superior', 'guarantee'', 'bias,'
+ 'comparable', 'cooperative'', 'turn'', 'size'', 'harassment'', 'native'', 'friend'',
+ 'ten'', 'joy'', 'specify'', 'self'', 'unexpected'', 'identify'', 'novel'', 'philosophy'',
+ 'graduation'', 'bedroom', 'anger']`,
+count: 319,
+token\_str: "the new law were drafted some of us are good for eating like ham the most delicious pastry we made is this cake&hellip. It will always be loyal to us and they don't like to be around me."
+
+# Convert word ids into a list of sentence tokens
+sent_tokens = []
+for token in token\_str:
+    idx, tok = token.find(w)
+    if idx == len(word\_tokenize(sentences)): continue ## if there will be no unique value in the dictionary, skip to next item
+    
+    word_ids = list(tokenizer().infer_ids([tok]))[0].split()
+    # Remove spaces
+    text = f"The {word_ids[0]} was {sentence\_to\_text(index)}. #{string.join(sentence\_word, sentence\_items)}."
+    sent_tokens.append(text)
+```scss
+sorted_sent_list = sorted(sent_tokens, key=len, reverse=True)
+
+# Extract the sentences in their order and display them with unique words
+for idx, sentence in enumerate(sent_sent):
+    print(f"Sentences before position: {idx+1}, number of words : {sentence\_count(sentence)}")
+
+for idx, tokens in enumerate(token\_list):
+    print(f"   Word:   \tLength: {len(\*tokens)}")
+    for token in tokens:
+        print(f"{token}\tLength: {len(token)}", end="")
+```scss
+1 Sentences before position (A-F):  [('the new law', len, 3), ('were drafted'), ('good', len, 2), ('like', len, 3), ('ham'), ('cakes'), ('the most delicious', len, 6)]
+     Word:   \nLength: 9
+Word:   \tLength: 10684
+Word:   \tLength: 9
+Word:   \tLength: 573
+Word:   \tLength: 19
+Word:   \tLength: 20
+Word:   \tLength: 95
+Word:  ['decade', len, 1], ['straw', len, 1], ['line', len, 1], ['equal', len, 1], ['infant', len,
+  1], ['duty', len,
+  2], ['hostile', len, 1], ['wire', len, 1], ['-10955864575203440331894'])
+     Word:   \tLength:
+Word:  'relieve', len,
+Word:  'eleven', len,
+Word:  'refugee', len,
+Word:  ['square', len,
+  2], ['superior', len, 1], ['guarantee', len,
+  7], ['bias', len, 1]
+     Word:   \tLength: 9764856
+        Sentence:      Sentence:      Sentence:      Number of words (in sentence): 2
+                ...
+```
+```python
+# Generate a list of unique sentences in the original order of the token list
+sentence_list_unique = [s for sent, token_list in enumerate(token_list)
+    if not any(w not in token_list.keys() for w in token_list)]
+```
+
+Output:
+1 Sentences before position (A-F):  [('the new law', len, 3), ('were drafted'), ('good', len, 2), ('like', len, 3), ('ham'), ('cakes'), ('the most delicious', len, 6)]
+ Word:   \nLength: 9
+Word:   '\tLength: 10684
+Word:   'The 'len,' Word:   'wrote,' Word:  [word\_ids, len, 2], ['date','len', 7]])
+2 Sentences before position (A-F):  [('the new law', len, 3), ('were drafted'), ('good', len, 2), ('like', len, 3), ('ham'), ('cakes'), ('the most delicious', len, 6)]
+ Word:   \nLength: 9764856
+ Word:  ['decade',len, 1], ['straw',len, 1], ['line',len, 1], ['equal',len, 1], ['infant',len,
+  1], ['duty', len,
+  2], ['hostile',len, 1], ['-972368409681436215', Len,   '11', 'refugee', len, [word\_ids, len,
+  2]])
+3 Sentences before position (A-F):  ['The ['len, Word: Sentence: len], ['-972368409681436215', Len, 
+  11] Word:  ['decade', len, 1], ['straw', len, 1], ['line', len, 1], ['equal', len, 1], ['infant', len,
+  1], ['duty', len,
+  2], ['hostile',len, 1], ['-972368409681436215', Len, 2], '10684'])]
+ Sentence List with unique words:
+  [('the new law', 3), ('were drafted', 3), ('good', 6), ('like', 3), ('ham', 9), ('cakes', 3), ('the most delicious', 5), ('I will always be loyal to them', 10980), ['us']
+  ]
+Token list:
+[['the','decade'],['straw'],['line'],['equal'],['infant'],['duty','hostile'],[-972368409681436215],[11],['refugee', len, 1],['square','superior'],[-972368409681436215]]
+```
+```python
+# Remove spaces from the sentence list to make it more readable and format it for display
+sentences_formatted = [s.lower() for s in sentences if len(s) > 0]
+
+# Print the tokenized and sorted lists of sentences with their lengths
+print("List of sentence tokens:", token_count(token_str))
+print("")
+
+def print\_sentence\_list(\*sentences):
+    print('\n'.join(('{}{}'.format('{}{}'.format(len(s))) for k, s in enumerate(sentences) if s)))
+```
+Output:
+1 Sentences before position (A-F):  [('the new law', 3), ('were drafted', 3), ('good', 6), ('like', 3), ('ham'), ('cakes', 3), ('the most delicious', 5), ('I will always be loyal to them', 10980), ['us']
+
+Word list:  ['decade', 'straw', 'line', 'equal', 'infant', 'duty', 'hostile', 'wire', 'relieve', 'eleven', 'refugee', 'square', 'superior', 'guarantee', 'bias', 'comparable', 'cooperative',
+ 'turn', 'size', 'harassment', 'native', 'friend', 'ten', 'joy', 'specify', 'self', 'unexpected', 'identify', 'novel', 'philosophy', 'graduation', 'bedroom', 'anger']
+
+## Tokenized Sentences with Their Counts, Lengths, and Unique Values
+print("Text in sentence list:", string.join(sent_tokens))
+
+Token List:  [5, ('the new law', 4), ('were drafted', 3), ('good', 6), ('like', 3), ('ham'), ('cakes', 2), ('the most delicious', 7)])
+ Token ID Length Sentence: 1 Word length (characters): 9 ['decade', 4] The name of the new law being drafted. ['were'] Words in the document: 'were drafted' are the words present in the sentence. There is one unique word ('drafted'), whose value comes at index 3. It contains the number of words within it as 5.
+ Token ID Length Sentence: 2 Words in the document: ['good', 6], ['like', 3] The most delicious pastry being made by this recipe. ['the'] Additional two unique values, which come at index (4) and (5), both containing length = 3. [ham]
+ Token ID Length Sentence:
+ 3 Words in the document: ['like', 3], ['the'], ['most delicious', 7] Some of us are good for eating like ham, which is a sweet dessert prepared by this recipe. ['the'] Additional two unique values, which come at index (4) and (5), both containing length = 6.
+ The most delicious pastry being made is this cake."

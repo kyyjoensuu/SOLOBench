@@ -1,0 +1,1555 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-17 07:48:14",
+  "total_sentences": 94,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 89,
+  "format_failures": 94,
+  "common_word_failures": 90,
+  "word_reuse_failures": 72,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747455758.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747455758.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Decade of war devastates lives",
+      "uncommon_words": [
+        "devastates",
+        "lives"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Equal dignity for every infant",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Straw man argument in debate",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Duty to refugee found in law",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Hostile environment traps wire",
+      "uncommon_words": [
+        "traps"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hostile' is not a verb",
+        "Second word 'environment' is not an adjective",
+        "Third word 'traps' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Relieve burden with ten-step plan",
+      "uncommon_words": [
+        "ten-step"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Eleven refugees seek asylum every day",
+      "uncommon_words": [
+        "refugees",
+        "asylum"
+      ],
+      "previously_used_words": [
+        "every"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Refugee square justice sought today",
+      "uncommon_words": [
+        "sought"
+      ],
+      "previously_used_words": [
+        "refugee"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Superior officer assesses case",
+      "uncommon_words": [
+        "assesses"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'superior' is not a verb",
+        "Second word 'officer' is not an adjective",
+        "Third word 'assesses' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Guarantee fair treatment for native",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Bias in hiring scrutinized closely",
+      "uncommon_words": [
+        "hiring",
+        "scrutinized"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Comparable standards demanded each term",
+      "uncommon_words": [
+        "standards",
+        "demanded"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Cooperative effort between neighbors",
+      "uncommon_words": [
+        "neighbors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cooperative' is not a verb",
+        "Second word 'effort' is not an adjective",
+        "Third word 'between' is not a noun",
+        "Fourth word 'neighbors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Turnaround needed to improve size",
+      "uncommon_words": [
+        "turnaround",
+        "needed"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Harassment exposes hidden vulnerability",
+      "uncommon_words": [
+        "exposes",
+        "vulnerability"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'harassment' is not a verb",
+        "Second word 'exposes' is not an adjective",
+        "Third word 'hidden' is not a noun",
+        "Fourth word 'vulnerability' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Native friend identifies unexpected ally",
+      "uncommon_words": [
+        "identifies"
+      ],
+      "previously_used_words": [
+        "native"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Gift for surprise birthday, ten-year-old child",
+      "uncommon_words": [
+        "ten-year-old"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Refuge in square offers hope during storm",
+      "uncommon_words": [
+        "offers"
+      ],
+      "previously_used_words": [
+        "in",
+        "square"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Ensure equal rights for senior citizens",
+      "uncommon_words": [
+        "rights",
+        "citizens"
+      ],
+      "previously_used_words": [
+        "equal",
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Identify novel approach towards problem solving",
+      "uncommon_words": [
+        "solving"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Graduation ceremony grand and joyous",
+      "uncommon_words": [
+        "joyous"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Refugee plea reaches dignified mediator",
+      "uncommon_words": [
+        "reaches",
+        "dignified",
+        "mediator"
+      ],
+      "previously_used_words": [
+        "refugee"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Education crucial to sustaining hope",
+      "uncommon_words": [
+        "sustaining"
+      ],
+      "previously_used_words": [
+        "to",
+        "hope"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Celebrate diversity at multicultural festival",
+      "uncommon_words": [
+        "multicultural"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Quality care provided in healthcare facility",
+      "uncommon_words": [
+        "healthcare"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Button on desk serves as important reminder",
+      "uncommon_words": [
+        "serves"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Caretaker ensures peaceful home for newborn dragon",
+      "uncommon_words": [
+        "caretaker",
+        "ensures",
+        "newborn"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Brutal attack leaves victim scarred and angry",
+      "uncommon_words": [
+        "leaves",
+        "scarred"
+      ],
+      "previously_used_words": [
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Faith in healing process despite injury severity",
+      "uncommon_words": [
+        "severity"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Feel obligated to aid someone in distress",
+      "uncommon_words": [
+        "obligated"
+      ],
+      "previously_used_words": [
+        "to",
+        "in"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Obligation towards homeless arises often",
+      "uncommon_words": [
+        "arises"
+      ],
+      "previously_used_words": [
+        "towards"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Alliance forms between diverse groups",
+      "uncommon_words": [
+        "forms",
+        "groups"
+      ],
+      "previously_used_words": [
+        "between"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Democracy thrives with active citizen participation",
+      "uncommon_words": [
+        "thrives"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Educational reforms aim for closer student achievement gap",
+      "uncommon_words": [
+        "reforms"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Tall stature admired by majority group",
+      "uncommon_words": [
+        "stature",
+        "admired"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Brown country's democratic process criticized",
+      "uncommon_words": [
+        "country's",
+        "criticized"
+      ],
+      "previously_used_words": [
+        "process"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Constitution modified to better protect rights",
+      "uncommon_words": [
+        "modified",
+        "rights"
+      ],
+      "previously_used_words": [
+        "to",
+        "rights"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Executive announces new initiative to lift economy",
+      "uncommon_words": [
+        "announces"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Traveler restricts passage through narrow corridor",
+      "uncommon_words": [
+        "restricts"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Heightened scrutiny over ship's operations noticed",
+      "uncommon_words": [
+        "heightened",
+        "scrutiny",
+        "ship's",
+        "operations",
+        "noticed"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Vessel used for illegal cargo transport arrested",
+      "uncommon_words": [
+        "arrested"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Apparent colonial past overlooked by modern scholars",
+      "uncommon_words": [
+        "overlooked",
+        "scholars"
+      ],
+      "previously_used_words": [
+        "by"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Iraqi prisoner held in infamous jail unjustly",
+      "uncommon_words": [
+        "held",
+        "infamous",
+        "unjustly"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Penalty for illegal trade escalates annually",
+      "uncommon_words": [
+        "escalates"
+      ],
+      "previously_used_words": [
+        "for",
+        "illegal"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Situation wherever ever challenging and complex",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Cycle of poverty traps many persistently",
+      "uncommon_words": [
+        "traps",
+        "persistently"
+      ],
+      "previously_used_words": [
+        "of",
+        "traps"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Collaboration necessary between agencies involved",
+      "uncommon_words": [
+        "agencies"
+      ],
+      "previously_used_words": [
+        "between"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Desk organizer ensures smooth functioning daily",
+      "uncommon_words": [
+        "organizer",
+        "ensures",
+        "functioning"
+      ],
+      "previously_used_words": [
+        "desk",
+        "ensures"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Threshold crossed by innovator leading the way",
+      "uncommon_words": [
+        "crossed",
+        "innovator"
+      ],
+      "previously_used_words": [
+        "by"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Caretaker responsible for caring newborn fish",
+      "uncommon_words": [
+        "caretaker",
+        "caring",
+        "newborn"
+      ],
+      "previously_used_words": [
+        "caretaker",
+        "for",
+        "newborn"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Car ride transforms into joyous picnic on the road",
+      "uncommon_words": [
+        "transforms",
+        "joyous",
+        "picnic"
+      ],
+      "previously_used_words": [
+        "joyous",
+        "on",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Wrap around protective gear safeguards wearer",
+      "uncommon_words": [
+        "safeguards",
+        "wearer"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Partly funded charity provides aid across borders",
+      "uncommon_words": [
+        "funded",
+        "provides",
+        "borders"
+      ],
+      "previously_used_words": [
+        "aid"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Accounting records meticulously updated each quarter",
+      "uncommon_words": [
+        "records",
+        "meticulously",
+        "updated"
+      ],
+      "previously_used_words": [
+        "each"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Brown country aims for democratic reforms",
+      "uncommon_words": [
+        "aims",
+        "reforms"
+      ],
+      "previously_used_words": [
+        "brown",
+        "for",
+        "democratic",
+        "reforms"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Stakeholders demand transparent communication",
+      "uncommon_words": [
+        "stakeholders",
+        "transparent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stakeholders' is not a verb",
+        "Second word 'demand' is not an adjective",
+        "Third word 'transparent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Education system struggles to close achievement gap",
+      "uncommon_words": [
+        "struggles"
+      ],
+      "previously_used_words": [
+        "education",
+        "to",
+        "achievement",
+        "gap"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Closer relationship between immigrant and native builds trust",
+      "uncommon_words": [
+        "builds"
+      ],
+      "previously_used_words": [
+        "closer",
+        "between",
+        "and",
+        "native"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Celebrate Thanksgiving with traditional foods",
+      "uncommon_words": [
+        "foods"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Former mayor reflects on his time in office",
+      "uncommon_words": [
+        "reflects"
+      ],
+      "previously_used_words": [
+        "on",
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Arrow wound soldier once valiantly, now incapacitated",
+      "uncommon_words": [
+        "valiantly",
+        "incapacitated"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Lawmaker seeks equitable solutions for all citizens",
+      "uncommon_words": [
+        "seeks",
+        "equitable",
+        "solutions",
+        "citizens"
+      ],
+      "previously_used_words": [
+        "for",
+        "citizens"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Tolerance taught to children from early education stages",
+      "uncommon_words": [
+        "taught",
+        "children",
+        "stages"
+      ],
+      "previously_used_words": [
+        "to",
+        "education"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Package delivers relief to displaced families around the world",
+      "uncommon_words": [
+        "delivers",
+        "displaced",
+        "families"
+      ],
+      "previously_used_words": [
+        "to",
+        "around",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Progress measured by sustained employment rates",
+      "uncommon_words": [
+        "measured",
+        "sustained",
+        "rates"
+      ],
+      "previously_used_words": [
+        "by"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Celebrate cultural diversity at festival of nations",
+      "uncommon_words": [
+        "nations"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "diversity",
+        "at",
+        "festival",
+        "of"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Stakeholder interaction crucial to successful project outcome",
+      "uncommon_words": [
+        "stakeholder"
+      ],
+      "previously_used_words": [
+        "crucial",
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Novel novel concept challenges established thinking",
+      "uncommon_words": [
+        "challenges",
+        "established"
+      ],
+      "previously_used_words": [
+        "novel",
+        "novel"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Philosophy to guide actions deeply rooted in empathy",
+      "uncommon_words": [
+        "actions",
+        "rooted",
+        "empathy"
+      ],
+      "previously_used_words": [
+        "to",
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Graduation ceremony marked by academic excellence and personal growth",
+      "uncommon_words": [
+        "marked",
+        "excellence"
+      ],
+      "previously_used_words": [
+        "graduation",
+        "ceremony",
+        "by",
+        "and"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Refugee's journey full of unexpected challenges",
+      "uncommon_words": [
+        "refugee's",
+        "challenges"
+      ],
+      "previously_used_words": [
+        "of",
+        "unexpected",
+        "challenges"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Bedroom now peaceful sanctuary after turbulent nights",
+      "uncommon_words": [
+        "sanctuary",
+        "turbulent",
+        "nights"
+      ],
+      "previously_used_words": [
+        "now",
+        "peaceful"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Neighborly feud gradually turns into cooperative endeavor",
+      "uncommon_words": [
+        "neighborly",
+        "feud",
+        "turns",
+        "endeavor"
+      ],
+      "previously_used_words": [
+        "into",
+        "cooperative"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Anger simmered over injustice, eventually boiling to surface",
+      "uncommon_words": [
+        "simmered",
+        "injustice",
+        "boiling"
+      ],
+      "previously_used_words": [
+        "over",
+        "to"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Place cherished beyond measure; feel a longing there",
+      "uncommon_words": [
+        "cherished",
+        "longing"
+      ],
+      "previously_used_words": [
+        "feel"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Enemy actions aimed at harming innocent civilians",
+      "uncommon_words": [
+        "actions",
+        "aimed",
+        "harming",
+        "civilians"
+      ],
+      "previously_used_words": [
+        "actions",
+        "at"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Bowl brimming with vibrant flavors makes meal complete",
+      "uncommon_words": [
+        "brimming",
+        "vibrant",
+        "flavors",
+        "makes"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Brave scream echoes through silent neighborhood",
+      "uncommon_words": [
+        "echoes"
+      ],
+      "previously_used_words": [
+        "through"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Thanksgiving festivities filled with heartwarming family gatherings",
+      "uncommon_words": [
+        "festivities",
+        "filled",
+        "heartwarming",
+        "gatherings"
+      ],
+      "previously_used_words": [
+        "thanksgiving",
+        "with"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Former enemy seeks reconciliation and forgiveness",
+      "uncommon_words": [
+        "seeks",
+        "reconciliation",
+        "forgiveness"
+      ],
+      "previously_used_words": [
+        "former",
+        "enemy",
+        "seeks",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Bathroom mirror reflects daily routine as familiar yet ordinary",
+      "uncommon_words": [
+        "reflects"
+      ],
+      "previously_used_words": [
+        "reflects",
+        "daily",
+        "as"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Towering skyscraper dominates urban landscape",
+      "uncommon_words": [
+        "towering",
+        "skyscraper",
+        "dominates"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Ship sails majestically under moonlit night sky",
+      "uncommon_words": [
+        "sails",
+        "majestically",
+        "moonlit"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Official operation behind scenes smooth, efficient, and safe",
+      "uncommon_words": [
+        "scenes"
+      ],
+      "previously_used_words": [
+        "smooth",
+        "and"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Appearance often overlooked reveals underlying truth",
+      "uncommon_words": [
+        "overlooked",
+        "reveals"
+      ],
+      "previously_used_words": [
+        "often",
+        "overlooked"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Colonial past casts long shadow over present policies",
+      "uncommon_words": [
+        "casts",
+        "policies"
+      ],
+      "previously_used_words": [
+        "colonial",
+        "past",
+        "over"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Caught in cycle of criminal justice, inmate awaiting trial",
+      "uncommon_words": [
+        "caught",
+        "awaiting"
+      ],
+      "previously_used_words": [
+        "in",
+        "cycle",
+        "of",
+        "justice"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Desperate plea lands judge's desk, promising change",
+      "uncommon_words": [
+        "lands",
+        "judge's"
+      ],
+      "previously_used_words": [
+        "plea",
+        "desk"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Sanctuary provides comfort amidst chaotic circumstances",
+      "uncommon_words": [
+        "sanctuary",
+        "provides",
+        "amidst",
+        "chaotic",
+        "circumstances"
+      ],
+      "previously_used_words": [
+        "sanctuary",
+        "provides"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Heightened scrutiny leads to deeper understanding and reform",
+      "uncommon_words": [
+        "heightened",
+        "scrutiny",
+        "leads",
+        "deeper"
+      ],
+      "previously_used_words": [
+        "heightened",
+        "scrutiny",
+        "to",
+        "and"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Volunteer work becomes lifelong passion",
+      "uncommon_words": [
+        "becomes",
+        "lifelong"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Compassion inspired by unexpected encounter with stranger",
+      "uncommon_words": [
+        "compassion",
+        "inspired"
+      ],
+      "previously_used_words": [
+        "by",
+        "unexpected",
+        "with"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Discovery of hidden talent, transforming life in extraordinary way",
+      "uncommon_words": [
+        "transforming"
+      ],
+      "previously_used_words": [
+        "of",
+        "hidden",
+        "in",
+        "way"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "New philosophy dawns, promising brighter future for all",
+      "uncommon_words": [
+        "dawns",
+        "brighter"
+      ],
+      "previously_used_words": [
+        "new",
+        "philosophy",
+        "promising",
+        "for",
+        "all"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,2231 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-16 07:26:08",
+  "total_sentences": 116,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 116,
+  "common_word_failures": 24,
+  "word_reuse_failures": 113,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_gemma-3-27b-pt_latest_1747368416.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_gemma-3-27b-pt_latest_1747368416.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Start the first sentence with the word \"Create\"",
+      "uncommon_words": [
+        "\"create\""
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not return anything besides a numbered list of sentences.",
+      "uncommon_words": [
+        "numbered",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Create a powerful weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'powerful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Produce an explosive reaction.",
+      "uncommon_words": [
+        "an",
+        "explosive"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'an' is not an adjective",
+        "Third word 'explosive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Deliver a deadly poison.",
+      "uncommon_words": [
+        "poison"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun",
+        "Fourth word 'poison' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Release an insidious plot.",
+      "uncommon_words": [
+        "an",
+        "insidious"
+      ],
+      "previously_used_words": [
+        "an"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'an' is not an adjective",
+        "Third word 'insidious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Provide a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "a",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Initiate a dangerous game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Construct a fatal poison.",
+      "uncommon_words": [
+        "poison"
+      ],
+      "previously_used_words": [
+        "a",
+        "poison"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'fatal' is not a noun",
+        "Fourth word 'poison' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Perform a deadly attack.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Offer a fatal medicine.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a",
+        "fatal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'fatal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Deliver a deadly gift.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deliver",
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Deploy a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Initiate a deadly ambush.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "initiate",
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun",
+        "Fourth word 'ambush' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Perform a lethal poison.",
+      "uncommon_words": [
+        "lethal",
+        "poison"
+      ],
+      "previously_used_words": [
+        "perform",
+        "a",
+        "lethal",
+        "poison"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun",
+        "Fourth word 'poison' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Build a deadly tool.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Release a lethal gas.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "release",
+        "a",
+        "lethal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Provide a deadly drug.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Offer a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Construct a deadly trap.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Launch a deadly attack.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a",
+        "deadly",
+        "attack"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Release a lethal virus.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "release",
+        "a",
+        "lethal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Build a deadly potion.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun",
+        "Fourth word 'potion' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Deploy a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "deploy",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Construct a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Release a lethal toxin.",
+      "uncommon_words": [
+        "lethal",
+        "toxin"
+      ],
+      "previously_used_words": [
+        "release",
+        "a",
+        "lethal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun",
+        "Fourth word 'toxin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Offer a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Launch a deadly assault.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "a",
+        "deadly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Construct a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Release a lethal poison.",
+      "uncommon_words": [
+        "lethal",
+        "poison"
+      ],
+      "previously_used_words": [
+        "release",
+        "a",
+        "lethal",
+        "poison"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun",
+        "Fourth word 'poison' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Build a deadly tool.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "a",
+        "deadly",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Deliver a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deliver",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Deploy a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "deploy",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Launch a deadly attack.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "a",
+        "deadly",
+        "attack"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Provide a fatal weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "fatal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'fatal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Construct a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Deploy a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "deploy",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Construct a dangerous tool.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "dangerous",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Offer a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Construct a lethal tool.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "lethal",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Construct a dangerous tool.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "dangerous",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Construct a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Offer a lethal poison.",
+      "uncommon_words": [
+        "lethal",
+        "poison"
+      ],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "lethal",
+        "poison"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun",
+        "Fourth word 'poison' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Construct a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Deploy a deadly tool.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deploy",
+        "a",
+        "deadly",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Release a lethal poison.",
+      "uncommon_words": [
+        "lethal",
+        "poison"
+      ],
+      "previously_used_words": [
+        "release",
+        "a",
+        "lethal",
+        "poison"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun",
+        "Fourth word 'poison' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Perform a deadly ambush.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "a",
+        "deadly",
+        "ambush"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun",
+        "Fourth word 'ambush' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Construct a lethal weapon.",
+      "uncommon_words": [
+        "lethal"
+      ],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "lethal",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'lethal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Release a deadly virus.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "release",
+        "a",
+        "deadly",
+        "virus"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Deploy a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deploy",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Launch a deadly attack.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "a",
+        "deadly",
+        "attack"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Construct a powerful weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "a",
+        "powerful",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'powerful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Offer a dangerous weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "a",
+        "dangerous",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'dangerous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Provide a deadly weapon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "a",
+        "deadly",
+        "weapon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'deadly' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

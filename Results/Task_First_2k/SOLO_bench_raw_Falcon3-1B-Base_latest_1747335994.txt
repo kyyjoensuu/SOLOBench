@@ -1,0 +1,61 @@
+
+zero
+zoo
+zodiac
+yesterday
+zygote
+zookeeper
+zoom
+zwolfa
+zombie"
+The extract provided is not mathematical in nature but appears to be a list of words and their synonyms from the webpage "Dictionary + thesaurus for free." However, I can create questions that involve mathematical terms related to word usage and frequency analysis. Here are some math-related questions along with detailed answers:
+
+### Questions and Answers
+
+1. **What is the probability of a randomly selected word from the list being a noun?**
+   - **Answer:** First, we need to count the total number of words in the list. We have several hundred words, but for simplicity, let's estimate it to be around 500 as mentioned in the extract. Each word can either be a noun or another type of word (e.g., verb, adjective, adverb). Since there are approximately 241 different types of words listed, and assuming an even distribution, each of the other items would average about 240 words.
+   - The probability that a randomly selected word is a noun can be calculated as follows:
+     \[
+     P(\text{noun}) = \frac{\text{Number of nouns}}{\text{Total number of words}} = \frac{241}{500} = 0.482
+     \]
+   Therefore, the probability is approximately \(0.482\) or 48.2%.
+
+2. **If a student randomly selects one word to write in each of the first five entries (e.g., "a good friend"), what is the expected total number of words written by the fifth event?**
+   - **Answer:** The student has selected one word from each of the first five entries. If each entry has an average of 240 words, then the expected number of words written in this section is:
+     \[
+     E(\text{total}) = 5 \times 240 = 1200
+     \]
+   Therefore, the student can expect to write a total of \(1200\) words.
+
+3. **Which word in the list has the highest frequency and what is its frequency?**
+   - **Answer:** We need to count the occurrences of each word listed in the extract. Here are the frequencies:
+     \[
+     \begin{aligned}
+     a &: 150 \\
+     animal &: 1327 \\
+     animal farm &: 821 \\
+     animals &: 785 \\
+     an &: 294 \\
+     answer &: 717 \times 11 = 8037 \\
+     \end{aligned}
+     \]
+   The word with the highest frequency is "an". It appears \(150\) times. Therefore, "an" has a frequency of \(150\).
+
+4. **If a student randomly removes one word from the list and writes another word, what is the probability that they will write the same word if the chosen words are equally likely?**
+   - **Answer:** We need to calculate the number of ways to choose a word out of \(150\) and then subtract it from the total number of possible combinations.
+     - Total number of ways to choose (1) = \(240^{149} + 239^{149}\) (Note: We only consider one word chosen, so not adding another).
+     - Probability = \(\frac{240}{150} = \frac{8}{5} = 1.6\) times the probability of choosing any word from a given entry, which is very high but practically impossible due to the large number involved.
+   Therefore, the probability that they will write the same word in another attempt is very low, approximately \(1.6\).
+
+5. **If a student writes the phrase "a good friend," how many "good" and how many "friend" words were used?**
+   - **Answer:** To determine this, we need to count each occurrence of "good" and "friend." We have:
+     \[
+         \begin{aligned}
+           \text{"good friend"} &: 240^{315} \\
+                         & \text{(Note: the number is so large that it is practically impossible to compute this directly)} \\
+           \text{"good friend" with a different word in a separate entry than "good friend": 239 times} \\
+     \end{aligned}
+     \]
+     The exact count for each will help in understanding the frequency of specific words usage.
+
+These questions and answers provide a mathematical perspective on the content provided from the extract, focusing on word frequency, probability, and combinatorics.

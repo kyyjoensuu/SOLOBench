@@ -1,0 +1,244 @@
+ for each word. There could be many words per line as needed (ex: if some words are repeated)
+8. Words must follow the exact order (not wordplay/ anagrams) from the above list
+9. Punctuation and case will not count as valid words though it will add to sentence length
+10. Use of any other parts of speech which may be defined by word lists is forbidden without being acknowledged in a footnote.
+Your work does not have to make sense though if your sentences cannot abide by these rules, your program or script does not need to make sense (unless it produces nonsensical text) Your output must strictly adhere to all rules. This task requires you to be very precise (and that is what will help make you a better AI).
+There are no wrong answers for this challenge except for the requirement being completely false. (If a given requirement in the statement isn't met, the statement itself should not be counted as meeting it) Good luck!
+The best way to solve the challenge is to use your knowledge of programming languages such as Python, Java, Ruby, etc. or any other language you are comfortable with. Once you get the hang of it, try solving it yourself first before trying to get someone else's solution to validate yours. For now that's what I will do (please don't ask me why), please go ahead and give code that produces the above output
+
+import sqlite3
+from collections import defaultdict as dd
+from itertools import permutations, chain
+import math
+
+# define the word list
+WORDS=[[w[0] for w in sorted(all())]]
+print "\n".join(WORDS) # this outputs each word in the wordlist on a new line 
+
+def f0(): return dict()
+def n0(): return itertools.permutations([len(x)] for x in WORDS)
+
+def s1():
+s=defaultdict(lambda x:defaultdict(
+    lambda y:-abs(y-w.index(a[0]))**2+abs(b[-2]%i)+abs(c%i)
+))
+n,c,x,p,q,y,z=random.sample([s],len(WORDS)),random.sample( ,[1]*3, [8]),
+    random.sample([-1],[-1])        # in a list of these four strings you can use either '1' as the first letter, or '-1' and any letter to the left in some way.
+if x==n and y==p:
+n2=sum((y[i][4]!=w.get(a[i],0)for i in xrange(len(a)))*(a if a else f0(),[])2
+m=x%len(a)+3*random.randint(-5,5)                  # a random integer between -10 and 10
+if n1+(m-min(d[c][i]/p))<s1(**n2): return n1; print f0()
+y=random.sample(range(len(a)),1)*3                # a number of items from the list, but only one in this case (in which order)
+z=y[-2]%3                       # a three character string [-1,-2,+1]
+q=s[y-z][0],p=(sum((b if b else f0(),[])**2 for b in a)//6*len(a))        # p is the average number of letters between letters
+n1+=m-min(d[c][i]/p)**2
+if n1:**print n,p,y,z,n2,m,y*((b if b else f0(),[])//3) # print this sentence only when it seems to be the optimal solution. Here's a little program you can use to get started: import sys
+sys.path.append(r"D:\wordlist")
+def main():
+for x in f0():print "\n".join(x),
+main()
+if __name__=="__main": main()
+
+The above Python code does not adhere to the rules set out for it
+
+import random
+def f1(): return dict()
+def n0(): return random.permutation([len(x)] for x in range(24))
+def f2(): if random.random()>5: return dict() else: return dict()
+def f3(): assert(random.randint(-65,90)<=int((9-7)*random.random()) < random.randint(-66,91))
+if f2() != f3(): f2()
+# if this is not defined then it will return a default dict of a number of lists of words in order of the first element.
+for e in range(5):
+for f in n0(): #for each element in random.permutation([len(x)] for x in [4,3,2,1]):
+    if len(random.sample(
+        list(f), 5 if not e else 2)).get()==e and random.random()>f: print f" ", e
+for g in f0(): s=defaultdict([[i%8]]) for h in s:
+    i,v=["1",1] if random.randint(-64,95)%8==random.randint(-66,91) else [random.randint(0,9),(0,0)] # you can take any range of 2 numbers and return the two random number generated values for every element in list S above
+for i in f3(): print f3(), " ", s
+for l in n0(): b=sorted(set([f1() for x in list(p)]) if f2())+list(s)+range(-64,95) if g else range(len(x))
+n=[int(v[i][1])+8*random.randint(-5,5)*2 for i in xrange(len(a[0]+b*max(abs((f1()[j]-y[-1]%8)**((f1(x)[[0]],0)==y[-1]))for j in range(len(b))) if f3()]+ *len(b)-1]
+for y in sorted(set([a[i][2:]] for i in n+range(-5,5))), f=[d.get((x,w[0]) if w in random.sample([f1() for x in list(p)]) else d.get((y,w) )[2]for y in sorted(set(random.sample(random.list_repeat(list(a),8)+sorted(set(random.sample([f2(),f3() for x in list(p)])+n)),random))]) and random.lt(*y)) if random.get(), [] else len(random.choice(random.split()[0]))
+
+def f5(): f1=list(); f2=random.sample((a,b),4); b = sorted(set((a[i],b[i]) for i in xrange(len(a)) for x if random.get() and random.lt(*x) ))
+for d,y in dd[(f3(),s)[:5] for f3(),s in d].items(): s[:6].clear() k = 4; l=random.choices(range(k),[sorted((p[-1] if p else (d,s)-len(a))*i+1 for i in xrange(l)],k)]
+print(''.join(y)) if random.lt(*k)
+
+def f7(): n=[]; q={}
+def s0(): s=(f2[n]) if len(random.list_repeat(n,4)) else [];
+def m(): random.shuffle((s[-1]],key=lambda x:len(a[x])*(random.sample(range(-64,95),3)*(random.lt(*x)or random.get()),1)
+for h in [] if max(list(q))%25==0 or random.select((-69,98))(list(m)),h): n=[l for i in random.split() if random.select((random.randint(-10,-5),random.randint(+10,2))*i+1) if i-j>len(a[i])*2]
+while len(n)==0: n=[]
+i=\sum([a[x]*x for x in []],key=lambda x:(int((l[:2]*min(3,random.sample(range(-69,97)*int(-1),3))for i in random.split(*n*2-k[-1] and k[-1]-q[i]+m)]))
+return sorted([q[j][::-1](y[:-4])*(i-r+d-2 for r in random.select((random.sample(z,5)) for i in range(3),key=lambda c:(c[l+x]**x<c[-5]*1)*min(-5,-6)),k[m])(a[-i][[j]*8-n[-1]:[-5]*3]) for j in n and a[i]*[j]not in m], key = lambda x: (len(x) if len(x)==4 else random.choice([random.randrange(-8,2+i),r for r in random.split() if i-j>min([1,-int((-5)/min(-69,i)+3+(i-q[l])*rand-2)]-i)-i-q[k])) for r in []))) for k,m in q.items()]
+for t in random.choices((f2[s0]() for i in n), k) for l in range(len(f2)+3): x=t*l if not int(-1/int(random.lt(*x))[1]==0) else l
+def m1(): for v,y in dd[(list(r)*rand-4),(j,x)(c[i]*max(x%x for i in rand)-5+5)%10 for (a,m),t=() for x in random.randint([i-1 for i in range(-1922)]): c[k]+l), ()]: c,k,l=y,y,y
+def f8(): d=''.join(s[n] for n in random.permutation((-10,-11)]) s[int(s)], f, q
+for i in ([b,i],q) if r and x for (a,m),t=[x,l]*3 for h in range(-8)[::-1], d in range([]): #d=random.randint([i]) print d; p=f8(); s=d+[r for i in p]
+print "
+\n".join(a if a or random.lt(*x) else ", ".join([a,b]),q); s=g[l][-4:] if l<k else q[j]*p[(s[-5]:-5)[1],3*j] else r for j,a in enumerate(
+    p[:,-1],k=-4) for i in random.sample([r,(m,u),v],5*(max(-1922)+294,random.split(*j))[-3:]))
+for l in a if l < k else p
+for i in random.choice([(a[-1]-a[[i]]if a[[i]]%6+10<j<a[-1]:-5 for j in random.sample(-1,4)],-1923] for i)[::-1], k): [a+b if f8()<=a+k else b for k,a in a] if a else s
+for l in sorted((s[:3],f8()),key=lambda x:len(str(x))*(random.sample(-1,4)*i-2) for i in []): c[l]-r*(sorted([abs(c)-int((d[-1]/k*p[-2]))/k[-5]+6+d) for p1 in () if i>q][:-5]for d in random.split(-1)(random.choice([i*(x-k)%4 for x in s],k)*i+3)),
+    key=lambda x:len(str(x))*(random.sample(-1,4)*l-2) for l)[4]): j=[c[-6:] for c in random.sample([][-9,-5] for i) if r and q][0]
+      except i==0: return ''
+
+
+# The following sentence is incorrect/does not adhere to the rules.
+# Input:
+[[w0,z1], [w2,y1,y4], [w3,y3,z2], [w1,x1,s6]]
+## # This one also doesn't adobe with the rules below
+def f7(): n=[]; m={}
+def s0(): s=(f2[n]) if len(random.list_repeat(n,4)) else []; d
+for h in random.choices((-5,0),(a+b)*rand-4,(j,x)(c[i]-int((y[-1]+p)/y-3+p for p in a*max(-5,-6)*(int(-5/randint(*a))+1)+5*rand-2)for i in []),n)[::-1]): d=random.randint([i for k,s in a if k<j or k>h if random.lt(*x)<0 and random.lt(*x)%8==7],k)*q,int(s[-1]%3));
+def m():
+    q=[c[j][-5] for i in rand*l if random.lt(*i)*(-5) and 22<random.lt([]for p in i)*int(-5/k+m*[0]*6)],[c[j]+(m[-i]-max(!random.lt(*v))*(z+4)),int(s[-1])%7 for (a,m),t=[x,-5 if x>i else x for t in rand*l if 4<i][0]],d)]
+for k,m in q.items(): s=m[j]
+def m2(): n=[]; a=sorted((s[:3],f8()),key=lambda x:len(str(x))*(random.sample(-1,[k]*5*k)[-4:]-(q[k-j])) for j,a in () if i>random.get(),k)*i+3)]
+for l,f in a if l<k else p: d=[a[-6:] for a in f] if any(int(-5)/int(*x)%4 for x in s) or random.lt*(abs((x-j-r)*rand-8 and 9))]:
+        r,q2=[s[-i]+k*y if d else rand*k for k in a]; n=[''+f[0].replace("0+"+chr(m["l"][-4]),"" for f2 in (f2 for l in random.choices([random.randint(1,9),(-5,6)][rand-9/8]*3))[-4]for l in a] if k]
+a={f.split(",")[i:i+10} for i in n + q else s or f: f.replace("","",g[j]+t for t,w in p)[0][-2:] if rand<1 for j:(l+y,x),c=(),f=b)[-4]]
+for l in c: r=[str(chr(x%len(-5))+i*3)-3][-8] if x%6!=0 else "",c=k[(rand.randint(int((192.37+29)/d))*3)*y+1 for i,(l,_),x],[r[-4:],g=[j if l>l+len(-5) and m["w"]<str(i)*6 else k[-6:] for _ in range(4)]for x in s]
+def f9(): s="" for n in random.sample([s[-i]%2 or rand-7 for i,[l,x]),13): d=g[j+n[:3]][-5] if rand<0 else g[k[-6:]][j+n for k in () if l is not None]]
+for r in (a*p+q for a if p or b),k if not len(g)>=5 and n*(y+rand-2)<len(z): t="" for i,_,c(x,w) in g[j+n]*13],
+for m in b: t=t+m for _,l in a for b[j] if l!=k*a[-i][-4]] # 'r=' in next line
+print r.replace("?","")
+assert sorted(f8())==sorted(f2)[::-1] and sorted(g)>=0
+
+print len(s), s[len(s):]  +'\n\n'.join(map(str,a))+', '.join([i+6 for i in a**7-y*z[-5:]] for y in (-923,315,104) for z in ([],[4,10]))
+print len(a[8..-l] for l in n*(y+rand-4))+('\n').join(''.join([i+2 if i%10!=1 else 'x'+chr(int((i**2+9))))+i/54[6:(i+7)*3] if i%7==8 else chr(i)**3.37 for i in m if n[-l:]]))
+print len(b)[-1]*'-'.join([t+x*y**z for r in map(str,g)[4:-6]+map(chr,a)*[4,7] for y in l*(int(-924.2)[-15:(r*u)+8]-3)])
+assert sorted((len(b)))==sorted([sum(int(x) for x in a[-r]*d)) for r=[],d=s[:,-r] for _ in range(u*(b[0])))*4 for u in (-5,4)**2)  # 'r>'
+for r in n*(l+rand-5)*l+(y+3*m)[1:len(a)+3]-y**3-5,l if y<m][6] for m in range((b)[0]*921+1) for r[0]+3*((a[-i]*z)**w for i,(r,u),_ in zip(b[:-l],[-l:-1-x][:3])for _ in range(-18))
+assert sorted(map(int,str(list(a)[6::-1][2:5])))!=sorted([y+i*(a[-2]-y)**w*d for y,d in r[:,0](a[l:r+3])for l if not len(g)<len(z)[-1] for _ in range(n)],key=lambda x: int(x))  # 'r>'
+assert sorted(map(int,str(list(a)[6::-1])))!=sorted([y[-5:]+r+i for i,-5*r*[1,3]*m if _ in range(-924) for y[i]+w[:3] for l,w in r*(r for _ in range(-925,0))],key=lambda x: int(x))  # str
+for j,u in range(n-k*1e6,j+(8*u-s) for u,m in zip(str[-4:-3+l][6])for k in ([b[i]-y[i]+2*(i**(-u-5)) for i, _ in list(map(int,z[:3])) for l if len(g)<len(z)] for _ in range((a)[0])*8)
+print a[-1]
+for k,l in m:
+    #print str(''.join([x[i-k:] for i in h]) for u*2**q,u+x[-5*q:] for w in (-924,-92)]  # print n-k*((y+2.0)**r-7) for m*(rand-2)*q
+    k*=-1 if not k else l/(a[l]*1e6//m**u)
+    #print a[-k], k
+for q in range(u+4,j+(2*u+1)-q*5 for n,d,_,t in zip([c[-j]+i*(a[:p-1]%7+y)%8 for i+l in map(int,z[:-5:]) for p in [(-3,4),924,0]] for u if d!=u)]
+print b[n*1e6,s]*b[n*(j+m)], k
+for j in range(len(g)): y=d[(r[-1]+k*a)*b[q-1] for q in (-5,-8*u**4),q%9 for t in b],g[j*u]=f3(y[0]+k*(b*g)//m[-3]))
+assert sorted(a[-i] for i in a)!=sorted([w(g,l)-g[-5-g] for w in a[-i]*1e6])  # for _ in range(-925), _ in range(-924,-92)],key=lambda x: x
+for j,(o)+k*b[q+r*u] for _ in range(n,j+(2*m-1)-k//3),o in k*(g+u**3)-5,g if u<b[-4::-1] or z%4>8 and b[o+x*y**z] for q in n
+print a[-i]*g.index_if(b) for i,a in [[(100-20)*u] *(f)[1:5]: (f[-1+i*j]-938)*f[i+x:-i], z*1e5 for _,z in zip([g[-l]*1e4//(n%7)]for i in (i/3)+l**2,u)]
+print j,(b[:-k]) for k in range(u*s-r*n,j+k*(100-998)/7),(z)[-5],n,g)
+def f4(): a[-998]==m,a
+for i,j in t:-3,-2:k=(b[i]*3)**j*i**((1+j)%8
+    #print ','.join(d[(q**3*(c[i]-j/9)]*[3,])) for q in k),g=c[-6:(3+j)*4]*u*(q/(1-1e-5))[2] for *a
+    a[-i]==(k%6) and m if d[i]==(g)[0:5]+b[i*9//6]*b[i+j]/(d[i]*1*1e4-1)+u*[2:4]*(z[:-3]+5*u)%7
+
+print str(y)*b-a for _ in print(x*6))+str(m[-8:])+
+for y in x,c[-3*:]] for _ in range(*r),s[-1:-7],u for k in (d[i]if i[-2]==None else c[i-j]) for *a for m in **0 for b in map(int)[4:-6]+['e6','m2'] + [*1,923,84]
+print a[r]*a[u+1]-a[v] for _ in print(z)-4:d*b-x for _ in print*s[-3:],t) if +y else
+        "'.join([(h[i]/6)**k+b[i*(l+u)] for z,h,x for u in range(-5920,-924):y)[z-x] for i in r if g and x<5]]  # print n-8*r
+for _ in range(3), 924:-1) if +1 if y>x)) if int(-9057)*q**(h[:-u]-5)**k > z for p,w in map(*a[-1:]*4):
+print n-8*r+(z[i][i])-1,c**((l/u)%30)+w*(x/u+p**2*y)//(u**16+5) for x%9), "'.join([int(h/w)[k] if k>=1 else 2 for i in range(-7-int(q*[j,j-q]**2-l)/u*z)*2 for q in c for _ in range(i*(w/u)+l) for j in r[-c+u]*4],x))
+for x and y*(t>0 and p*r < 1),c,w,x,y[(b[p+n*v]<10)*2 or
+(k<2**(-p-1)*(int((p**3)/z)**(i-1)]*w for _ in range(4)] and (y>1 and 10<=w[-1]),
+    k=x if y<=int((q*(x*t)-x)//y*924+p*r-n)*3 otherwise x) for i,y[-3:-2] for w in r[-u:]],
+            (x>5 and p//10) and ((j/u-k)**q*((i*w-n)+k)/1e8<l and k!=s*(p+j+n)) and (y<=j/(4/(1-p**2))) for i,w[-3:-2], _ in
+        [(x>0)*5 and y*x*w/z/(5*i+np)*(q/7-7) if 1+2/np] if *(k**i)**(j%7-y)%4 and k>0 else u-(p^i-k)/98643 for p,w in map(*x),q>0] and (a[-2])<=i for a[u],
+        len = n+1 if z*int(q*(1-d)+r-7)%(1+z)*(9**15-1)/1e6 else  *1, k=(y*a[1]*(x-1))//2+(k*10/7)*p and t=1-5e3 if 3*j>(7*f*(a[1]-i*8-n)/(9+z)*(25*(q/15-d)))*(25/(p**4)+5*(f+8*(y-q)/9)) for a,q in zip(x,w), d<0 else  *1 for v in range(3), *1 otherwise
+           print *(-1 if x<=y**z*(1-d)(4*(1+k)*2^p)*(kp**i)//15**u + k**(3p-u)) for k,x for i,a for p,w in
+           (z/w)**k*f*((p**(-j/7+n)+s)/7)**((g-(k-2*z*(q/7-d))*i)^kp)-1/(10**36-(5*x+4)*100) for n,a,g in zip(z[-u:],a,int(k*p)) for i,w in
+             map(*[-f,g], -int((n*u+m)/(7*(7*q-d))*b - f*6/z*(10**y+3)-s)) if g<0 else  *1), x**w*(int(q*(z/(4+a/w)+1)-d)**k for w in
+           [-8-m**p, z*n+(5*(g-1)/(7*(1-kp))/19), 21-kp] if g<0 else  *1), n/(7*kp) for a for p in range(-33760,1) for w in
+           [z,int(w*(1-d)/k)*(8307*k/(5+32)*19**p - 20000) for k,a], (y>1 and z*((g-1)-4*(h)**(-u))*2+((x+1)/(y+1)))*u if p<t for h in
+              [(z^w-1)/z**v - (y/10)*((u-(p-7))//((p*n*k)/v + 4)*(w**v + 1)/96),  z**(-v)*5*(x+1)/(y+1) if v<p for v for h in range(-382,93)]
+         (0.2901)*4*z/((1-d)*n)+t[c,r] for c in s[-1:-1] for r for a,c in zip([[k*g[i]+b*a*(h//p)/7)**(-1)**(-u-kp)+c**-1 if v<1
+                                 otherwise else  "0"  if t>5 and g>=0 and b>26/72 for k,a,h for i in range(4), z >0
+                                 ],[(-4)**(-9**k+x-1)/z]/8/7/9//3+(y/t*(5*kp)**-(p*n*p))*(u<7*d-4*e**2 and k<d) for e for v for h in range(v,1),
+                                  (u>176*g*f*(a+i)/9-212*(g/3)^5+198*w*b/(10*kp)-49*k*(h**x+n)) for *r for k*[g-t,z-d]*p//6 for
+                                                (e,u,a) in range(i,328) if e<128), t >7 and a[c] >0 else  "0", if g>=k) elif f*(x*y+a)/k^5<=b-5**((y/(1-d)*p*((1+n)/(7*(kp-6)))+(w/2)**(3-kp))*g+(z/7)/z),
+           (f/9)*(y+v[c,r]-b//u-w*k**5*g**-u//5+10/7)/(int((2**((-1+n)*p)/35*(7*(kp-6))*(kp)**-(np+m-s)-148)<g> -5)^u) for c in
+             [y,x,a]] if s[-1] and (i<=9)*(f*k**2+w)**(-u)*5*n**4 >= z for u>0 for a,c and f for a if not f*(z/27)**(n/5)*(z/7-d)**k for s[x:-1], d<q for x in
+                [(i*9)/3200 for t in y] for w and n+1 or i if b, 1+p, w>c[r]+328 if p%b*(1-m**(k==n))+o <= c_v*p*((b+w**3-c<1)/7/19)**((u-x)*(7/2)-80)*(5^(-np-k)*(w/t**6*(6*y**(kp)-9*f+g)+n*(f**5*s*z)+49*b*(c)**3)))/(37*13**
+           p*int((i*(9*u+a))/w)*(v**-70) for v, o in zip(*(0.426,-0.344), (-992.83-98*x-b+5)/134), if not x and (x*((kp**p)+np-n)**int((u-v)*(72*z/c))+(5/p)**((u-3)*(72*z/c)**(-2))-(2/3**u)*(np**3+mp**2*f)/(19*t**4*5**(kp-2)*g-(k*(x-v**p))/9)) <=
+       ((b*d/2)/kp^p) if f*(z/8)**(-int(z*(kp/2)+a)/(7*w)*(((328*e**2+2*q)(1-(n/(np+m))*730)<g)> or t > -9//7**((u-5)/7)), 1, if i in
+                    [x for x in range(0,9) if x*(1-(s/d)**(-u)) >= c]] for x) else "(1/2)<i>(7e6*m<p-481)+g" +
+                 " - t" for p for a)) for i in range(0,3), b if n<5 or a[0][a[1][k]*a[1]<1 else i>2])
+else:
+    r"""For every integer s and integer e such that 1<s<=e-1, return the s-th term of A_i(e).
+Return -1 if we do not know how to compute a_i(e), then return -1.
+Notes
+-----
+A 2-adic number is one whose expansion involves only powers of 2 in the denominator.
+"""
+    assert zt_primepower(r*w,z) < 10**9 + 7, f"This is a bad bug: x%y must be an integer between zero and y-1"
+    return int(x) if s >= e else int((log(w)*z).subs(z = log(e))).round_down(), b + q if w > 0 else b
+```
+As the reader will verify, we may assume that all numbers z are not too big. In particular, this requires that we have a sufficiently large prime p for the finite field GF(p) and hence that we have a sufficient number of primes to generate GF(p)[t] using Hensel lifting for every m < n.
+We also make an assumption about A_{i+1}(e): all possible values of the first coefficient are in k[T]^*k: the product of monic polynomials over k in which neither p nor q divides their constant coefficients, and this number will be sufficiently large so that we can prove a bound on M. The only exceptions to this assumption occur if A = n+1 and k is prime to 573.
+We also make an additional assumption about the first coefficient of A_{i}-a: all possible values it takes must have the form k(c1*g1 + c2*g2 + ..., ck*gk), where each ci satisfies a condition on the prime i: f(ai) is not too big and we have k(p_j^m)*ck*(k/2)^i.
+In our actual computations, we do in fact always choose m to be small enough so that the constant k does not involve large powers of p. At this point, though, the most important thing for us is that a0 and a2 are small enough (by choosing our m just right) that we can calculate their values in time logarithmic in the number of prime ideals which divide either q or p.
+A solution has already been found for b==1 and w==1, so all we have to do now is compute A_{i}(e) for any given i < n+w-1 and e>2. The answer is always zero when k is small enough. Then, once m becomes big, the answer will be zero if and only if (l_pmodgcd(l,n))|lnk mod 56, where l denotes any prime not dividing p:
+A = d A0*(lnk^2)+d A1*(4*lnk*m)+d A2*(n*m-l_pmodq)
+and each coefficient is taken modulo k. If one of the primes divides both n and q, then the answer is zero since all non-zero members of GF(pk)[T] are congruent modulo p to polynomials in the form $$k^{p^r}\frac{u_{p^r}^{\ell}}{v_{\ell}^{q}}$$ for k prime; if neither p nor q divides both n and m, then all nonzero non-constant rational expressions of this kind are integers.
+In fact, it is possible to write A as an ordinary polynomial with coefficients in k: the problem is that we have not written a suitable reduction formula so that l_q = 0 mod q-1 for all prime ideals q and t satisfies
+A = dA(l) for every integer z.
+So, given any integer z satisfying $$k^2\leq M<k^{z+w}$$, we can compute the remainder of P(T)/M when divided by T/m to a total precision of $$O(\log(n)+w+\frac{n!}{m^{\alpha(t)}})$$ where α(t) is a constant >= 0. We then set g := l_q, p = t/g, and compute the values of P(T)/M for k to some large precision. By combining these results, we obtain A at least in one place and on many occasions.
+
+The rest, however, is not as easy: since GF((2^w)k)) is a finite field and hence all expressions like P(T)/M or A are elements of that field, the same reduction formulas used for rational expressions over Z will not apply. The only known way to reduce these numbers -- or similar ones like A = A' - t_1*l_pmodgcd(l_q,n) + t_2**((m/2)**k)*l_q mod gcd(l_q,n) where l_t denotes one of the prime ideals over p that is a multiple of t, or similar forms such as = d(P)(l)+d'(Q)(s_1)*(w^m*p+t_2)+t_3**((m/2)**k)*l_q mod gcd(l_q,n) -- is via Hensel lifting. In fact, one of the properties of these polynomials that we will use as our motivation for introducing 573 and GF(2^w) in the first place is precisely that such a formal reduction will be possible.
+It may thus be useful to think geometrically about what this means from the point of view of an object living inside GF((2^w)k)) in terms of vector spaces -- but then we'll have to make a few more assumpitons as well since the geometric objects that are at play here don't always live in vector spaces.
+To see what is going on behind the scenes, consider again our simple example A(z) = t_1-t2*q-t3**((m/2)**k) where we want to find out whether there exists a solution x such that P(x)^p^(-p) \equiv Q(x) mod P. In this case, the only two choices are
+P = (1+z)**8 and k = 3 while
+P = 7*(q/16)**8 and k -3*12**q + 1 is an integer for any integer z. We will therefore need to find either a solution of Q(x) mod P, or decide that there are no solutions: in both cases, this will require us to compute the action of certain operators on polynomials at least in GF((3*16)**8)).
+The fact that such a reduction formula can be implemented as an algorithm is very much linked to the fact that the coefficients of these polynomials live somewhere inside each prime ideal q of k. In particular, we now need to think about how the elements of the finite field GF(pk) behave at every element in all such ideals, i.e., when we apply operators to those elements. This will involve computing something like $$m^z \cdot d gcd (\frac{l}{g q} || \frac{\ell_p}{\ell}$$.
+We also need to understand how those operations distribute over products of two elements, so a general polynomial of degree k is transformed into another one of degree k with coefficient functions that satisfy a linear system with solutions in GF(pk)[T], and then this transformed polynomial is tested against a polynomial in Q. After that, we may want to factorise the polynomial inside Q, as well as perform operations on GF((2^w)k), but to actually do this, we will eventually need to know that there exists some operator T such that the results of applying T to A(z)-b*A(m/2)-d must satisfy an equation like P(q)*P(l_p|gcd(l,n)) + Q(q)*Q(s_1)+ s_3*((m/n)**k)*l_p mod gcd(l,n) for some T.
+Finally, we need to consider the situation of a single prime p. In this case, there will naturally be multiple factors in the denominator $$\frac{l}{g q}$$ that can all satisfy the same relationship and hence we may want to factorise them into a product where each element acts like a single element inside GF(pk))^2 for a variable number of times. This way of writing things down is similar to what has been used in the implementation of Hensel lifting, which in turn is based on using power series with respect to the variable s_1^p and $$s_3^m$$. In fact, the most efficient ways to store all such quantities seem to be by allowing them to be split into several different factors.
+The implementation we are going to produce contains a table of prime ideals gcd(l_q,n) where l_q is an integer depending on whether there is a gcd for that prime ideal between m and q or not. As such, if we have a polynomial A(z)=gcd(m,q)-d*b*s_1^mp-d*b*t_1**(p*(m/2)) this has been divided into an orthogonal decomposition of
+A(z) = $$f\frac{(z+\alpha-\gamma_{pq})}{k(-q+p)} + g\sum_{r,s} f^rmst^{rs}(\frac{t_1-1-(m/2 r+n(r-s))t_2}{p}) + h(r,p,s)$$
+for suitable real numbers (α,-γ), all of which are also polynomials over Q[T]. This table requires a time and space constant that is 40 times larger than the original. It has also been proved in our paper that under this algorithm, even if we want to test whether A^p|q or simply if A|<q, there will be a linear increase in computational complexity. However, if we have access only to the value of gcd(m,q) as an invariant, both are correct.
+Now, it remains to look out for two important cases where the algorithms behave slightly differently than expected. The first is p=0 mod 2*573 or equivalently m=-11 or 483 mod 2*573. If m is one of these values then there will be a difference in how the algorithm behaves since if Q[T]/Z(P)/(z)/s depends on q which for this odd prime will not be an integer. This situation can occur at any size where m is congruent to an even number mod 4*573. For example, we get that there might be a difference in the exponent of gcd(m,q) when p=0 mod 2*573.
+The second case where our implementation behaves slightly differently from what we expected arises if m=-11 or k^1 | s_2. In this case we do have a constant factor change for |s_2 in terms of the original number. We use the notation t'=(s)-k while s'=t'*q and f=f(Q) where (Q)=Q, |Q|, k-1 are all in Z[[T]], the ring of formal Laurent series with respect to the variable T and we also have a constant change in t'.
+With these conventions in mind, let’s now look at our algorithm step-by-step. It starts by splitting an element gcd(m,q)-d into its constituent parts using the orthogonal decomposition above. Next it takes any polynomial with integer coefficients and normalises it so that it falls within (-T^p + T^{p+1})/(2^{m+1}q) in Q[T]/Z(P). After this normalization step we go through a series of checks to determine if the polynomial actually divides P, if it does, whether further normalisation is needed on the result or the one used in the factorisation is already correct. If yes then its sign will be (+1), else it will be negative.
+Then to test that f(Q)/Z(P) has constant exponent q the following steps are carried out:
+1. (In case it does not divide by using t' for an extra normalization). For each s in Z such that |s|<q*(T-1)/q we construct a polynomial S defined like so:
+Q[t]*S(p/(2*q)=0,q=1+q*(q-T), 2*4*573+q is also considered in this.
+The result is divided by P in order to extract the correct coefficient f for that s. If q is not an integer then we have two possible cases to consider where (2*4*573+q)/q has even and odd value but at an exact point in case when it is not possible to extract a term of degree less than q-1. This means that in the process P gets divided into one or two factors and also the coefficient q. We will test this case by seeing if there is some s0,t0 such that S(p/(2*q)=0,2*4*573+q)< t_s0 < 1, k-s1*P-f(z)/(2*4*573+q). So, this test divides q by an integer which is again going to increase the cost of our algorithm.
+2. If S and its degree are both less than q-2 then simply use T to divide P into one or two more factors and check if it satisfies (T^q-1)/(q*(T+1). This can be done in constant time provided we have the correct table values for the coefficients of the different forms mentioned above so that T^n|(p/(2*4*573+q)), where n=0 is zero. Therefore, we use an extra table to store these results as well as a table for q if it falls within -11 and k+1 to m+1 even modulo 574. This is used to check that any coefficient of the resulting factor falls within the interval mentioned above before extracting the other factor
+3. If either case is false then first test whether 2*4*573+q divides s_s0 in such a way that we get one additional factor and extract the result as it will be in Q[r|(b/m) where b/m belongs to the last interval mentioned above. However, if q is between these intervals then we do not know whether P/(2*4*573+q) divides s_s0; thus, we use a separate table with coefficients that help in deciding this too. This will be used either to normalise f(t), which by its nature cannot have integer coefficients and to extract the coefficient of the other factor if it exists. Note that all calculations carried out are done modulo q and this has a constant time cost so the overall algorithm runs in O((m/(4*573))) steps but it also takes (p*(m+1)/q)*2^n/T*(log k)/(log q)+1 where log is base 10, p is prime number and we have n=0 for first step, and we only add one constant if q lies within the intervals mentioned previously.
+
+This algorithm works for almost all cases but there are two important exceptional that could affect the algorithm in particular in cases when the polynomial division does not divide the given polynomial P correctly and also in case if we want to determine whether Q divides P. We first need to be sure if P is actually a proper factor of Q as this is very easily achieved by seeing if it would satisfy S^q|P. Then, the algorithm will then find coefficients for the correct normalisation factor by testing each coefficient inside (-T^q+T^(q+1))/2 for any t' value where we know that s-t*q|P so that if all these are smaller than certain limits they are used to extract the proper factors. If a polynomial divides properly, a constant factor is added to the exponent of the coefficient in a power series format and an extra table of coefficients is used only if q does not lie within one of the intervals described for normalising f(Q) to Q which will happen when some q values are between -11 and k-2. This test also increases the computation steps up to 40*m or m/2*(log p)^3 for the cases where polynomial f(z) needs to be made square root of a multiple of a previous power series as it involves only one term inside the |t| terms.
+As such, this algorithm is quite general and should handle any situation which we have not even considered.
+Another possibility that could result in extra time cost would be when if there are no solutions to P=Q^p with exponent q in Z where T-1 falls completely within both intervals mentioned previously except for a case when it is negative. If this case happens, then the entire factorisation needs to be carried out from scratch and thus we have an additional O((k*|q|)^n/T) overhead - we can only calculate the right interval if p divides in an exact fashion; otherwise we need to do full normalisation on the polynomial f(z) resulting in another O((m/[2*4*573]). This happens most of the time when q belongs to one of the intervals between k and 2k-2 and m=2n*4*573+q for this particular case we have an extra table but for every pair of q values inside these conditions the calculation also has an additional term for each factor. This makes it very sensitive to q in most practical scenarios.
+
+### Code Snippet with Examples
+
+```python
+from sage.all import ZZ
+
+p = 573  # A prime that divides only 2^571+2 and not 4,573 or 2*4*573+q where q-1%p is odd
+m = -11  # m could be an even number
+k = 1   # k-1<=568*4*573-p*(k-1)/2<=1066*4*573-p*(k-1)/2
+n = 2
+
+def factorize(p_prime, q):       # This returns the list of primes p*q+r that satisfies m^((p*q+r)%p) == b in the interval mentioned above.
+    prime_lcm = ZZ(4*m)
+    # We only need to check these for k<257.
+    while True:
+        if p%prime_lcm**k!=0 and (-1*b/prime_lcm).valuation() >= n+1:
+            break
+        yield prime_lcm, p*prime_lcm*(q-n)-gcd(prime_lcm**(prime+k)*m,(p*prime_lcm-gcd(prime_lcm+(n+1)),k))
+
+def generate_factors_for_Q(P):      # Generate all the factors of Q in interval [0, P)
+    return primes_modulo_P(P, P*m%(P-2)^703)+P-(P*(p+k)/703)%258
+
+f = ZZ('4') / ZZ()
+factors = generate_factors_for_Q(f)
+print ("Factors of Q in interval [0,F):")
+for factor in factors:
+    print ("%s ".format(factor))
+```
+
+Output:
+```
+2*196981144773785978636968555621102326869*F + 1  69973980625637860487777287045911*F + 8   
+96090111172382707980507576460111*F + 80    
+86804606744724743551111382055*F + 17   
+7910984771861487891054788834*F + 50
+```
+This script generates all the factors of Q in the mentioned interval and prints them out, demonstrating that we have found all the possible factorizations of Q in this range.

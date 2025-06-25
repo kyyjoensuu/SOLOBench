@@ -1,0 +1,381 @@
+{
+  "model": "falcon-40b:latest",
+  "label": "2025-05-16 03:59:06",
+  "total_sentences": 12,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 11,
+  "format_failures": 12,
+  "common_word_failures": 11,
+  "word_reuse_failures": 11,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_falcon-40b_latest_1747353712.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_falcon-40b_latest_1747353712.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "I do not know what he is doing here.",
+      "uncommon_words": [
+        "is",
+        "doing"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "I am going to say this one to him.",
+      "uncommon_words": [
+        "going"
+      ],
+      "previously_used_words": [
+        "i"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "I\u2019m going to take you there in that sense. 4. I am taking her to do, in the sense of him taking a look; in this way, if I take this for that.",
+      "uncommon_words": [
+        "i\u2019m",
+        "going",
+        "4",
+        "taking",
+        "taking"
+      ],
+      "previously_used_words": [
+        "going",
+        "to",
+        "i",
+        "am",
+        "to",
+        "do",
+        "him",
+        "this",
+        "i",
+        "this"
+      ],
+      "word_count": 33,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "I do not know what he should do with him. Do you know?",
+      "uncommon_words": [
+        "should"
+      ],
+      "previously_used_words": [
+        "i",
+        "do",
+        "not",
+        "know",
+        "what",
+        "he",
+        "do",
+        "him",
+        "do",
+        "you",
+        "know"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "What do you think?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "what",
+        "do",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'what' is not a verb",
+        "Second word 'do' is not an adjective",
+        "Third word 'you' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "1 How do you do it? (2.) Is he doing what he did? ;",
+      "uncommon_words": [
+        "1",
+        "(2)",
+        "is",
+        "doing",
+        "did"
+      ],
+      "previously_used_words": [
+        "do",
+        "you",
+        "do",
+        "is",
+        "he",
+        "doing",
+        "what",
+        "he"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "I am going this to do it, by; I am do it.",
+      "uncommon_words": [
+        "going"
+      ],
+      "previously_used_words": [
+        "i",
+        "am",
+        "going",
+        "this",
+        "to",
+        "do",
+        "it",
+        "i",
+        "am",
+        "do",
+        "it"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "2 1.1 It is. The first one has made a joke: the second one is; and; I don\u2019t think I should go take the next one, because I don\u2019t think you are going to take him for me; we are going to take him off; there that way I want to do, if I am taking you to do, and what we all we are doing is the same; what is, I have come to do; and I\u2019m going to do, \u201cit\u201d 2. It doesn\u2019t happen the way to go \u2014 it\u2019s going to do that!",
+      "uncommon_words": [
+        "2",
+        "11",
+        "is",
+        "has",
+        "made",
+        "is",
+        "don\u2019t",
+        "should",
+        "don\u2019t",
+        "are",
+        "going",
+        "are",
+        "going",
+        "taking",
+        "are",
+        "doing",
+        "is",
+        "is",
+        "i\u2019m",
+        "going",
+        "\u201cit\u201d",
+        "2",
+        "doesn\u2019t",
+        "\u2014",
+        "it\u2019s",
+        "going"
+      ],
+      "previously_used_words": [
+        "it",
+        "is",
+        "the",
+        "one",
+        "a",
+        "the",
+        "one",
+        "is",
+        "i",
+        "think",
+        "i",
+        "should",
+        "take",
+        "the",
+        "one",
+        "i",
+        "think",
+        "you",
+        "going",
+        "to",
+        "take",
+        "him",
+        "for",
+        "going",
+        "to",
+        "take",
+        "him",
+        "there",
+        "that",
+        "way",
+        "i",
+        "to",
+        "do",
+        "if",
+        "i",
+        "am",
+        "taking",
+        "you",
+        "to",
+        "do",
+        "what",
+        "doing",
+        "is",
+        "the",
+        "what",
+        "is",
+        "i",
+        "to",
+        "do",
+        "i\u2019m",
+        "going",
+        "to",
+        "do",
+        "it",
+        "the",
+        "way",
+        "to",
+        "going",
+        "to",
+        "do",
+        "that"
+      ],
+      "word_count": 96,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Verb in the subject of the subject of your choice words as an adjective. This sentence, it has an adjective to do you want to show the 1st 1. 3.",
+      "uncommon_words": [
+        "verb",
+        "words",
+        "an",
+        "adjective",
+        "has",
+        "an",
+        "adjective",
+        "1st",
+        "1",
+        "3"
+      ],
+      "previously_used_words": [
+        "in",
+        "the",
+        "of",
+        "the",
+        "of",
+        "this",
+        "it",
+        "has",
+        "to",
+        "do",
+        "you",
+        "want",
+        "to",
+        "the",
+        "1"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "4. I believe in the pronoun is plural 2nd person in this paragraph, it makes you\u2019ll also known for a paper",
+      "uncommon_words": [
+        "4",
+        "pronoun",
+        "is",
+        "plural",
+        "2nd",
+        "paragraph",
+        "makes",
+        "you\u2019ll"
+      ],
+      "previously_used_words": [
+        "4",
+        "i",
+        "in",
+        "the",
+        "is",
+        "in",
+        "this",
+        "it",
+        "for",
+        "a"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "And if \u201cit\u201d \u201cSubject line it;",
+      "uncommon_words": [
+        "\u201cit\u201d",
+        "\u201csubject"
+      ],
+      "previously_used_words": [
+        "and",
+        "if",
+        "\u201cit\u201d",
+        "it"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "If. \u201cit means and where to have used to the subject of the \u201cthe subject.",
+      "uncommon_words": [
+        "\u201cit",
+        "means",
+        "\u201cthe"
+      ],
+      "previously_used_words": [
+        "if",
+        "and",
+        "to",
+        "have",
+        "to",
+        "the",
+        "subject",
+        "of",
+        "the",
+        "subject"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-16 01:59:48",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_250/SOLO_bench_raw_Falcon3-1B-Base_latest_1747349274.txt",
+  "formatted_output_file": "Results/Task_After_250/SOLO_bench_Falcon3-1B-Base_latest_1747349274.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Each verb must be used exactly as found in the list. You cannot replace it with any other verb and still meet the criteria.",
+      "uncommon_words": [
+        "verb",
+        "cannot",
+        "verb"
+      ],
+      "previously_used_words": [],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Nouns can either be proper nouns or common nouns. Nouns must not be in capital letters anywhere in your output but they may be in the first sentence of a group 'group of sentences'. These are words that make groups. For example, you cannot write: 2nd week of November is coming which contains the noun Tuesday",
+      "uncommon_words": [
+        "nouns",
+        "can",
+        "nouns",
+        "nouns",
+        "nouns",
+        "letters",
+        "'group",
+        "sentences'",
+        "are",
+        "words",
+        "groups",
+        "cannot",
+        "2nd",
+        "november",
+        "is",
+        "contains",
+        "noun",
+        "tuesday"
+      ],
+      "previously_used_words": [
+        "be",
+        "must",
+        "be",
+        "in",
+        "in",
+        "be",
+        "in",
+        "the",
+        "you",
+        "cannot",
+        "the"
+      ],
+      "word_count": 56,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "The word order is important to achieve a natural sounding language. If 'a train left ____ _____ soon after it ran out' is not considered valid output by the judge, your answer must also be correct. This guideline works perfectly for proper nouns too so that you keep your answer accurate but still make sense in English",
+      "uncommon_words": [
+        "is",
+        "sounding",
+        "'a",
+        "____",
+        "_____",
+        "ran",
+        "out'",
+        "is",
+        "considered",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "the",
+        "is",
+        "a",
+        "it",
+        "is",
+        "not",
+        "output",
+        "the",
+        "your",
+        "must",
+        "be",
+        "for",
+        "proper",
+        "nouns",
+        "that",
+        "you",
+        "your",
+        "but",
+        "still",
+        "make",
+        "in"
+      ],
+      "word_count": 57,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "2 months",
+      "uncommon_words": [
+        "2",
+        "months"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

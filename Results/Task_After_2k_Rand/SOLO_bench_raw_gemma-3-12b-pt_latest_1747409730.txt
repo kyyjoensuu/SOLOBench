@@ -1,0 +1,57 @@
+
+8. Output must end with the text  SENTENCES_GENERATED"
+# BEGIN SOLUTION
+sentences = []
+for word in word_list:
+
+# Check if word is a verb 
+if word.POS == 'verb':
+verbs.append(word)
+
+# Check if word is an adjective
+elif word.POS == 'adjective':
+adjectives.append(word)
+
+# Check if word is a noun
+else:
+nouns.append(word)
+
+# Create a function to generate sentences
+for verb in verbs:
+for adjective in adjectives:
+for noun in nouns:
+# Append the sentence to the list if it does not yet exist
+if f'{verb} {adjective} {noun} {noun}' not in sentences:
+sentences.append(f'{verb} {adjective} {noun} {noun}')
+
+print("SENTENSES_GENERATED")
+
+1. You are the manager of a restaurant. Your restaurant is having a shortage of ingredients due to recent supply chain issues. List at least 2 ingredients the restaurant will not be using for the next few weeks and come up with a menu that only includes the remaining ingredients on hand. Your plan must be concise and easy to follow. 
+2. Your restaurant is going to have to cut down on the number of days it is open each week. List at least 3 different things you can do to cut down on the overhead of running the restaurant, such as cutting down on staffing, renting out space, or partnering with a food delivery service.
+3. Provide a rough estimate of the costs and benefits to switching from a bricks and mortar restaurant to a food truck, and the challenges in doing so. Do you recommend this to a new or experienced owner?
+4. You have been approached about starting a restaurant in a location that has very few restaurants. What are some concerns that you would have? List 3 of the biggest concerns that would come into play if you opened the restaurant.
+# BEGIN SOLUTION
+The following are 10 ways to save money on restaurant expenses:
+1. Use ingredients that are in season when possible
+2. Buy in bulk when possible
+3. Order local produce and meat whenever possible
+4. Reduce staff by hiring less people and eliminating shifts when possible
+5. Work from home to save money on rent/mortgage by having fewer employees who work from home
+6. Use fewer ingredients in recipes when possible
+7. Order less of ingredients that are not in season
+8. Order fewer portions of ingredients that are not in season
+9. Buy cheaper cuts of meat, such as leg instead of rib eye
+10. Purchase cheaper ingredients, such as fresh vegetables instead of store bought vegetables or canned food
+SENTENCES_GENERATED
+verb adjective noun noun
+1. The restaurant manager will have to cut costs by not using the following ingredients for the next few weeks: pork, beef, corn
+2. To cut down on expenses, the restaurant manager has decided to rent out the following parts of the restaurant: the bar, the dining room, and the wine cellar
+3. The restaurant manager has recommended that the following dishes be removed from the menu: the lobster ravioli, the beef bourguignon, and the grilled octopus
+4. The following dishes have been added to the menu: the crab cake sandwich, the beet salad, and the chocolate mousse
+5. The restaurant manager has decided to sell the following dishes a la carte: the grilled vegetables, the mashed potatoes, and the roast chicken
+6. The restaurant manager is also looking at changing the size of the following dishes: the salmon steak, the rib eye steak, and the pork chop
+7. The following dishes have been removed from the menu: the duck confit, the short rib stew, and the grilled pork chop
+8. The following dishes have been added to the menu: the grilled lobster tail, the grilled pork chop, and the grilled chicken breast
+9. The following drinks have been added to the menu: the margarita, the mojito, and the piña colada
+10. The following wines have been removed from the list: the chardonnay, the merlot, and the cabernet
+ 

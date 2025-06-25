@@ -1,0 +1,3184 @@
+{
+  "model": "gemma-3-4b-it-50k:latest",
+  "label": "2025-05-15 10:51:24",
+  "total_sentences": 200,
+  "perfect_sentences": 14,
+  "score_percentage": 7.000000000000001,
+  "word_count_failures": 3,
+  "format_failures": 66,
+  "common_word_failures": 66,
+  "word_reuse_failures": 185,
+  "raw_output_file": "Results/Task_After_250/SOLO_bench_raw_gemma-3-4b-it-50k_latest.txt",
+  "formatted_output_file": "Results/Task_After_250/SOLO_bench_gemma-3-4b-it-50k_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Observe  pleasant  area  country",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Agree  empty  bag  item",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Assume  certain  weapon  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Assess  serious  case  problem",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Attack  terrible  enemy  region",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Believe  useful  key  device",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Confirm  immediate  order  instruction",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Create  complex  database  system",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Declare  partial  alliance  state",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Develop  steady  pilot  vehicle",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Disclose  secret  weapon  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "weapon",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Employ  skilled  worker  company",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Examine  broken  gear  machine",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Explain  partial  process  stage",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "partial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Fabricate  false  report  issue",
+      "uncommon_words": [
+        "fabricate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Guarantee  certain  warranty  product",
+      "uncommon_words": [
+        "warranty"
+      ],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'warranty' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Identify  broken  system  reason",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "broken",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Inspect  minor  damage  vehicle",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "vehicle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Launch  massive  attack  target",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attack"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Modify  broken  circuit  device",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "broken",
+        "device"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Negotiate  major  deal  business",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Observe  happy  citizen  city",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Perform  steady  surgery  patient",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steady"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Provide  major  loan  business",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "major",
+        "business"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Recommend  partial  strategy  plan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "partial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Resist  violent  attack  force",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attack"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Review  current  report  analysis",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Share  basic  knowledge  lesson",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Specify  unique  criteria  design",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Sustain  steady  effort  project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steady"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Transform  broken  technology  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "broken",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Verify  partial  data  system",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [
+        "partial",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Waste  serious  resource  plan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "serious",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Warrant  certain  product  brand",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "certain",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Yield  serious  result  outcome",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "serious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Adjust  steady  system  process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steady",
+        "system",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Explain  certain  process  reason",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explain",
+        "certain",
+        "process",
+        "reason"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Fabricate  partial  story  event",
+      "uncommon_words": [
+        "fabricate"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "partial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Launch  certain  attack  force",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "certain",
+        "attack",
+        "force"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Modify  partial  design  plan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "partial",
+        "design",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Observe  certain  data  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "certain",
+        "data",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Perform  steady  surgery  region",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "steady",
+        "surgery",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Provide  certain  service  client",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Recommend  partial  strategy  project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "partial",
+        "strategy",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Resist  violent  threat  nation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resist",
+        "violent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Review  latest  report  study",
+      "uncommon_words": [
+        "latest"
+      ],
+      "previously_used_words": [
+        "review",
+        "report"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'latest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Share  basic  knowledge  lesson",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "basic",
+        "knowledge",
+        "lesson"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Specify  certain  criteria  design",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "specify",
+        "certain",
+        "criteria",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Transform  certain  system  machine",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "certain",
+        "system",
+        "machine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Verify  latest  data  system",
+      "uncommon_words": [
+        "verify",
+        "latest"
+      ],
+      "previously_used_words": [
+        "verify",
+        "latest",
+        "data",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb",
+        "Second word 'latest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Waste  certain  resource  plan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "waste",
+        "certain",
+        "resource",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Warrant  certain  product  brand",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "warrant",
+        "certain",
+        "product",
+        "brand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Yield  certain  result  outcome",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "yield",
+        "certain",
+        "result",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Adjust  steady  pilot  vehicle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "steady",
+        "pilot",
+        "vehicle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Confirm  immediate  command  leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "immediate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Create  certain  database  record",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "certain",
+        "database"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Declare  partial  agreement  party",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "declare",
+        "partial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Develop  certain  instruction  program",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "certain",
+        "instruction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Disclose  partial  insight  analysis",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "disclose",
+        "partial",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Employ  skilled  worker  group",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "skilled",
+        "worker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Examine  broken  mechanism  tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "broken"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Explain  complex  mathematics  topic",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explain",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Fabricate  partial  narrative  story",
+      "uncommon_words": [
+        "fabricate"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "partial",
+        "story"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Launch  certain  attack  objective",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "certain",
+        "attack"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Modify  substantial  structure  building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Observe  certain  data  source",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "certain",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Perform  steady  assistance  person",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "steady"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Provide  certain  benefit  customer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Recommend  partial  research  project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "partial",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Resist  violent  challenge  individual",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resist",
+        "violent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Review  recent  study  research",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "study",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Share  basic  learning  skill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "basic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Specify  unique  parameter  model",
+      "uncommon_words": [
+        "parameter"
+      ],
+      "previously_used_words": [
+        "specify",
+        "unique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'parameter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Transform  modern  technology  device",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "technology",
+        "device"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Verify  recent  report  assessment",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [
+        "verify",
+        "recent",
+        "report"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Waste  significant  resource  initiative",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "waste",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Warrant  exclusive  product  line",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "warrant",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Yield  positive  impact  strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "yield",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Adjust steady strategy initiative",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "steady",
+        "strategy",
+        "initiative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Confirm important command leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "command",
+        "leader"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Create relevant data system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "data",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Declare partial agreement group",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "declare",
+        "partial",
+        "agreement",
+        "group"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Develop precise instruction guide",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "instruction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Disclose detailed insight analysis",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "disclose",
+        "insight",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Employ talented worker team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "worker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Examine flawed mechanism instrument",
+      "uncommon_words": [
+        "flawed"
+      ],
+      "previously_used_words": [
+        "examine",
+        "mechanism"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'flawed' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Explain intricate mathematics topic",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "explain",
+        "mathematics",
+        "topic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Fabricate partial narrative case",
+      "uncommon_words": [
+        "fabricate"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "partial",
+        "narrative",
+        "case"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Launch strategic attack target",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "attack",
+        "target"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Modify extensive building design",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "building",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Observe relevant data record",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "relevant",
+        "data",
+        "record"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Perform consistent assistance individual",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "assistance",
+        "individual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Provide valuable service customer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "service",
+        "customer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Recommend detailed research project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "detailed",
+        "research",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Resist daunting challenge individual",
+      "uncommon_words": [
+        "daunting"
+      ],
+      "previously_used_words": [
+        "resist",
+        "challenge",
+        "individual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'daunting' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Review current study research",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "current",
+        "study",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Share simple learning skill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "learning",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Specify rare parameter model",
+      "uncommon_words": [
+        "parameter"
+      ],
+      "previously_used_words": [
+        "specify",
+        "parameter",
+        "model"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'parameter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Transform modern technology tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "modern",
+        "technology",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Verify recent report analysis",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [
+        "verify",
+        "recent",
+        "report",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Waste sufficient resource program",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "waste",
+        "resource",
+        "program"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Warrant superior product line",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "warrant",
+        "product",
+        "line"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Yield favorable outcome strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "yield",
+        "outcome",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Adjust steady program initiative",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "steady",
+        "program",
+        "initiative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Confirm vital leadership role",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Create detailed data record",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "detailed",
+        "data",
+        "record"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Declare partial settlement party",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "declare",
+        "partial",
+        "party"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Develop accurate instruction manual",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "instruction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Disclose crucial insight assessment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "disclose",
+        "insight",
+        "assessment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Employ expert worker cohort",
+      "uncommon_words": [
+        "cohort"
+      ],
+      "previously_used_words": [
+        "employ",
+        "worker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'cohort' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Examine broken hardware component",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "broken"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Explain complex physics theory",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explain",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Fabricate compelling narrative book",
+      "uncommon_words": [
+        "fabricate"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "narrative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Launch impactful offensive action",
+      "uncommon_words": [
+        "impactful"
+      ],
+      "previously_used_words": [
+        "launch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impactful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Modify large structure system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "structure",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Observe relevant system data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "relevant",
+        "system",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Perform consistent support person",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "consistent",
+        "person"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Provide beneficial service client",
+      "uncommon_words": [
+        "beneficial"
+      ],
+      "previously_used_words": [
+        "provide",
+        "service",
+        "client"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beneficial' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Recommend thorough research project",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "recommend",
+        "research",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Resist fierce challenge student",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resist",
+        "challenge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Review insightful study research",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "review",
+        "study",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'insightful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Share basic learning strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "basic",
+        "learning",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Specify unusual parameter design",
+      "uncommon_words": [
+        "parameter"
+      ],
+      "previously_used_words": [
+        "specify",
+        "parameter",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'parameter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Transform advanced technology device",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "technology",
+        "device"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Verify thorough report judgment",
+      "uncommon_words": [
+        "verify",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "verify",
+        "thorough",
+        "report"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Waste enormous resource goal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "waste",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Warrant premium product suite",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "warrant",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Yield impressive outcome campaign",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "yield",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Adjust sturdy campaign project",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "campaign",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Confirm critical leadership team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "leadership",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Create comprehensive data base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Declare partial alliance state",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "declare",
+        "partial",
+        "alliance",
+        "state"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Develop precise guidance system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "precise",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Disclose insightful investigation",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "disclose",
+        "insightful"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Employ skillful worker crew",
+      "uncommon_words": [
+        "skillful"
+      ],
+      "previously_used_words": [
+        "employ",
+        "worker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'skillful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Examine problematic equipment tool",
+      "uncommon_words": [
+        "problematic"
+      ],
+      "previously_used_words": [
+        "examine",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'problematic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Explain sophisticated mathematics lesson",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explain",
+        "mathematics",
+        "lesson"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Fabricate imaginative narrative tale",
+      "uncommon_words": [
+        "fabricate",
+        "imaginative"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "narrative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb",
+        "Second word 'imaginative' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Launch aggressive approach target",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "target"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Modify expansive structure plot",
+      "uncommon_words": [
+        "expansive"
+      ],
+      "previously_used_words": [
+        "modify",
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'expansive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Observe pertinent data system",
+      "uncommon_words": [
+        "pertinent"
+      ],
+      "previously_used_words": [
+        "observe",
+        "data",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'pertinent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Perform diligent assistance operator",
+      "uncommon_words": [
+        "diligent"
+      ],
+      "previously_used_words": [
+        "perform",
+        "assistance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diligent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Provide valuable service manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "valuable",
+        "service"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Recommend in-depth research project",
+      "uncommon_words": [
+        "in-depth"
+      ],
+      "previously_used_words": [
+        "recommend",
+        "research",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'in-depth' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Resist serious challenge employee",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resist",
+        "serious",
+        "challenge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Review detailed study outcome",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "review",
+        "detailed",
+        "study",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Share fundamental learning aspect",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "learning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Specify unique criterion concept",
+      "uncommon_words": [
+        "criterion"
+      ],
+      "previously_used_words": [
+        "specify",
+        "unique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'criterion' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Transform futuristic technology gadget",
+      "uncommon_words": [
+        "futuristic",
+        "gadget"
+      ],
+      "previously_used_words": [
+        "transform",
+        "technology"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'futuristic' is not an adjective",
+        "Fourth word 'gadget' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Verify precise report overview",
+      "uncommon_words": [
+        "verify",
+        "overview"
+      ],
+      "previously_used_words": [
+        "verify",
+        "precise",
+        "report"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb",
+        "Fourth word 'overview' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Waste substantial resource venture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "waste",
+        "substantial",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Warrant exclusive product brand",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "warrant",
+        "exclusive",
+        "product",
+        "brand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Yield satisfying end result method",
+      "uncommon_words": [
+        "satisfying"
+      ],
+      "previously_used_words": [
+        "yield",
+        "result"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Adjust agile process framework",
+      "uncommon_words": [
+        "agile"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'agile' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Confirm dominant leadership post",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "leadership"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Create detailed database model",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "detailed",
+        "database",
+        "model"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Declare partial agreement team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "declare",
+        "partial",
+        "agreement",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Develop accurate instruction module",
+      "uncommon_words": [
+        "module"
+      ],
+      "previously_used_words": [
+        "develop",
+        "accurate",
+        "instruction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'module' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Disclose insightful observation research",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "disclose",
+        "insightful",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'insightful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Employ competent worker group",
+      "uncommon_words": [
+        "competent"
+      ],
+      "previously_used_words": [
+        "employ",
+        "worker",
+        "group"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'competent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Examine distorted equipment machine",
+      "uncommon_words": [
+        "distorted"
+      ],
+      "previously_used_words": [
+        "examine",
+        "equipment",
+        "machine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'distorted' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Explain elaborate physics theory",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explain",
+        "physics",
+        "theory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Fabricate captivating narrative novel",
+      "uncommon_words": [
+        "fabricate",
+        "captivating"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "narrative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb",
+        "Second word 'captivating' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Launch decisive attack objective",
+      "uncommon_words": [
+        "decisive"
+      ],
+      "previously_used_words": [
+        "launch",
+        "attack",
+        "objective"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'decisive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Modify prominent building plan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "building",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Observe precise data record",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "precise",
+        "data",
+        "record"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Perform steady assistance specialist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "steady",
+        "assistance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Provide valuable service consultant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "valuable",
+        "service"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Recommend detailed study assessment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "detailed",
+        "study",
+        "assessment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Resist potent challenge scholar",
+      "uncommon_words": [
+        "potent"
+      ],
+      "previously_used_words": [
+        "resist",
+        "challenge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'potent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Review intricate study outcome",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "review",
+        "intricate",
+        "study",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Share essential learning skill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "learning",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Specify rare parameter factor",
+      "uncommon_words": [
+        "parameter"
+      ],
+      "previously_used_words": [
+        "specify",
+        "rare",
+        "parameter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'parameter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Transform classic technology device",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "technology",
+        "device"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Verify complete report overview",
+      "uncommon_words": [
+        "verify",
+        "overview"
+      ],
+      "previously_used_words": [
+        "verify",
+        "report",
+        "overview"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb",
+        "Fourth word 'overview' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Waste significant resource scheme",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "waste",
+        "significant",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Warrant unique product collection",
+      "uncommon_words": [
+        "warrant"
+      ],
+      "previously_used_words": [
+        "warrant",
+        "unique",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'warrant' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Yield exceptional end outcome strategy",
+      "uncommon_words": [
+        "exceptional"
+      ],
+      "previously_used_words": [
+        "yield",
+        "end",
+        "outcome",
+        "strategy"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Adjust efficient process format",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Confirm supreme leadership title",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "leadership"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Create remarkable data network",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Declare partial settlement nation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "declare",
+        "partial",
+        "settlement",
+        "nation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Develop relevant instruction protocol",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "relevant",
+        "instruction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Disclose substantial insight research",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "disclose",
+        "substantial",
+        "insight",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Employ creative worker assembly",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "worker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Examine faulty hardware module",
+      "uncommon_words": [
+        "faulty",
+        "module"
+      ],
+      "previously_used_words": [
+        "examine",
+        "hardware",
+        "module"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'faulty' is not an adjective",
+        "Fourth word 'module' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Explain advanced physics concept",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explain",
+        "advanced",
+        "physics",
+        "concept"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Fabricate compelling narrative report",
+      "uncommon_words": [
+        "fabricate"
+      ],
+      "previously_used_words": [
+        "fabricate",
+        "compelling",
+        "narrative",
+        "report"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Launch strategic offensive mission",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "strategic",
+        "offensive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Modify imposing building design",
+      "uncommon_words": [
+        "imposing"
+      ],
+      "previously_used_words": [
+        "modify",
+        "building",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'imposing' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Observe vital data source",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "vital",
+        "data",
+        "source"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Perform consistent support unit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform",
+        "consistent",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Provide beneficial service vendor",
+      "uncommon_words": [
+        "beneficial"
+      ],
+      "previously_used_words": [
+        "provide",
+        "beneficial",
+        "service"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beneficial' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Recommend thorough study insight",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "recommend",
+        "thorough",
+        "study",
+        "insight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Resist formidable challenge director",
+      "uncommon_words": [
+        "formidable"
+      ],
+      "previously_used_words": [
+        "resist",
+        "challenge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'formidable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Review pertinent study outcome",
+      "uncommon_words": [
+        "pertinent"
+      ],
+      "previously_used_words": [
+        "review",
+        "pertinent",
+        "study",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'pertinent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Share basic learning principle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "basic",
+        "learning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Specify unusual parameter element",
+      "uncommon_words": [
+        "parameter"
+      ],
+      "previously_used_words": [
+        "specify",
+        "unusual",
+        "parameter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'parameter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Transform innovative technology console",
+      "uncommon_words": [
+        "console"
+      ],
+      "previously_used_words": [
+        "transform",
+        "technology"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'console' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Verify comprehensive report analysis",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [
+        "verify",
+        "comprehensive",
+        "report",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb"
+      ],
+      "passes_all": false
+    }
+  ]
+}

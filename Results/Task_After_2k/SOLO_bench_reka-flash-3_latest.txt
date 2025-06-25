@@ -1,0 +1,20 @@
+1. Ensure that sentences are unique even if they repeat words – use other conjugations or tenses where possible. However, remember rule #2 which prohibits reusing the same word.
+2. Use different parts of speech as needed but strictly follow the structure.
+3. Run happy cat dog
+4. Walk blue house tree
+5. Preprocess the word list into three separate lists: verbs (V), adjectives (A), nouns (N).
+6. Shuffle each list to randomize selection.
+7. Iterate 200 times:
+8. Categorize all words into verbs, adjectives, nouns.
+9. Shuffle each category to randomize.
+10. Initialize used_V, used_A, used_N as sets.
+11. For i in 0 to 199:
+12. Not enough verbs, adjectives, or nouns.
+13. Words being used in multiple categories (though I tried to avoid that).
+14. Separate the word lists into verbs, adjectives, nouns.
+15. For each sentence:
+16. Combine them into "VERB ADJECTIVE Noun1 Noun2".
+17. **Word Lists**: We are provided with three lists of words: verbs, adjectives, and nouns.
+18. **Sentence Structure**: Each sentence follows the structure "VERB ADJECTIVE NOUN1 NOUN2", where:
+19. **Random Selection**: For each of the 200 sentences, we randomly select a verb, an adjective, and two distinct nouns from their respective lists.
+20. **Distinct Nouns**: Ensure that the two selected nouns are different to avoid repetition within a single sentence.

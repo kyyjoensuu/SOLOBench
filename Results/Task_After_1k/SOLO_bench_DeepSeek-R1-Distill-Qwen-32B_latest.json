@@ -1,0 +1,781 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-15 12:11:55",
+  "total_sentences": 41,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 8,
+  "format_failures": 41,
+  "common_word_failures": 38,
+  "word_reuse_failures": 28,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Verb + Adjective + Noun + Noun:** Each sentence starts with a verb, followed by an adjective, then two nouns.",
+      "uncommon_words": [
+        "**verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun**",
+        "starts",
+        "verb",
+        "followed",
+        "an",
+        "adjective",
+        "nouns"
+      ],
+      "previously_used_words": [],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Four words per sentence:** No more, no less.",
+      "uncommon_words": [
+        "**four",
+        "words",
+        "sentence**"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Use each word exactly once across all sentences:** This is important because I can't reuse any word in another sentence.",
+      "uncommon_words": [
+        "**use",
+        "sentences**",
+        "is",
+        "can't",
+        "reuse"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "[verb] [adjective] [noun1] [noun2].",
+      "uncommon_words": [
+        "[verb]",
+        "[adjective]",
+        "[noun1]",
+        "[noun2]"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '[verb]' is not a verb",
+        "Second word '[adjective]' is not an adjective",
+        "Third word '[noun1]' is not a noun",
+        "Fourth word '[noun2]' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "From the WORD_LIST, identify all possible verbs and adjectives.",
+      "uncommon_words": [
+        "word_list",
+        "verbs",
+        "adjectives"
+      ],
+      "previously_used_words": [
+        "all"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Assign each verb to one sentence.",
+      "uncommon_words": [
+        "verb"
+      ],
+      "previously_used_words": [
+        "each",
+        "verb",
+        "sentence"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Pair with an adjective from another section.",
+      "uncommon_words": [
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "with",
+        "an",
+        "adjective",
+        "from",
+        "another"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Follow by two nouns from remaining words.",
+      "uncommon_words": [
+        "nouns",
+        "words"
+      ],
+      "previously_used_words": [
+        "by",
+        "two",
+        "nouns",
+        "from",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "act absurdly active athlete",
+      "uncommon_words": [
+        "absurdly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'absurdly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "act confidently creative person.",
+      "uncommon_words": [
+        "confidently"
+      ],
+      "previously_used_words": [
+        "act"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confidently' is not an adjective",
+        "Third word 'creative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "act absurdly active",
+      "uncommon_words": [
+        "absurdly"
+      ],
+      "previously_used_words": [
+        "act",
+        "absurdly",
+        "active"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "act confidently academic achievement",
+      "uncommon_words": [
+        "confidently"
+      ],
+      "previously_used_words": [
+        "act",
+        "confidently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confidently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "adapt creatively complex solution",
+      "uncommon_words": [
+        "creatively"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creatively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "accomplish heroically difficult mission",
+      "uncommon_words": [
+        "heroically"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heroically' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "achieve honorably noble goal",
+      "uncommon_words": [
+        "honorably",
+        "noble"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'honorably' is not an adjective",
+        "Third word 'noble' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "analyze critically comprehensive data",
+      "uncommon_words": [
+        "critically"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'critically' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "apply effectively necessary strategy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "arrange cohesively organized system",
+      "uncommon_words": [
+        "cohesively"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cohesively' is not an adjective",
+        "Third word 'organized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "build efficiently modern infrastructure",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'efficiently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "campaign convincingly political platform",
+      "uncommon_words": [
+        "convincingly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'convincingly' is not an adjective",
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "celebrate joyously annual tradition",
+      "uncommon_words": [
+        "joyously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "act confidently academic achievement",
+      "uncommon_words": [
+        "confidently"
+      ],
+      "previously_used_words": [
+        "act",
+        "confidently",
+        "academic",
+        "achievement"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confidently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "adapt creatively complex situation",
+      "uncommon_words": [
+        "creatively"
+      ],
+      "previously_used_words": [
+        "adapt",
+        "creatively",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creatively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "accomplish heroically difficult mission",
+      "uncommon_words": [
+        "heroically"
+      ],
+      "previously_used_words": [
+        "accomplish",
+        "heroically",
+        "difficult",
+        "mission"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heroically' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "achieve honorably noble goal",
+      "uncommon_words": [
+        "honorably",
+        "noble"
+      ],
+      "previously_used_words": [
+        "achieve",
+        "honorably",
+        "noble",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'honorably' is not an adjective",
+        "Third word 'noble' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "analyze critically comprehensive data",
+      "uncommon_words": [
+        "critically"
+      ],
+      "previously_used_words": [
+        "analyze",
+        "critically",
+        "comprehensive",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'critically' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "apply effectively necessary strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "apply",
+        "effectively",
+        "necessary",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "arrange cohesively organized system",
+      "uncommon_words": [
+        "cohesively"
+      ],
+      "previously_used_words": [
+        "arrange",
+        "cohesively",
+        "organized",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cohesively' is not an adjective",
+        "Third word 'organized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "build efficiently modern infrastructure",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "build",
+        "efficiently",
+        "modern",
+        "infrastructure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'efficiently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "campaign convincingly political platform",
+      "uncommon_words": [
+        "convincingly"
+      ],
+      "previously_used_words": [
+        "campaign",
+        "convincingly",
+        "political",
+        "platform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'convincingly' is not an adjective",
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "celebrate joyously annual tradition",
+      "uncommon_words": [
+        "joyously"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "joyously",
+        "annual",
+        "tradition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "act confidently academic achievement",
+      "uncommon_words": [
+        "confidently"
+      ],
+      "previously_used_words": [
+        "act",
+        "confidently",
+        "academic",
+        "achievement"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confidently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "adapt creatively complex solution",
+      "uncommon_words": [
+        "creatively"
+      ],
+      "previously_used_words": [
+        "adapt",
+        "creatively",
+        "complex",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creatively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "accomplish heroically difficult mission",
+      "uncommon_words": [
+        "heroically"
+      ],
+      "previously_used_words": [
+        "accomplish",
+        "heroically",
+        "difficult",
+        "mission"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heroically' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "achieve honorably noble goal",
+      "uncommon_words": [
+        "honorably",
+        "noble"
+      ],
+      "previously_used_words": [
+        "achieve",
+        "honorably",
+        "noble",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'honorably' is not an adjective",
+        "Third word 'noble' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "analyze critically comprehensive data",
+      "uncommon_words": [
+        "critically"
+      ],
+      "previously_used_words": [
+        "analyze",
+        "critically",
+        "comprehensive",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'critically' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "apply effectively necessary strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "apply",
+        "effectively",
+        "necessary",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "arrange cohesively organized system",
+      "uncommon_words": [
+        "cohesively"
+      ],
+      "previously_used_words": [
+        "arrange",
+        "cohesively",
+        "organized",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cohesively' is not an adjective",
+        "Third word 'organized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "build efficiently modern infrastructure",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "build",
+        "efficiently",
+        "modern",
+        "infrastructure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'efficiently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "campaign convincingly political platform",
+      "uncommon_words": [
+        "convincingly"
+      ],
+      "previously_used_words": [
+        "campaign",
+        "convincingly",
+        "political",
+        "platform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'convincingly' is not an adjective",
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "celebrate joyously annual tradition",
+      "uncommon_words": [
+        "joyously"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "joyously",
+        "annual",
+        "tradition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyously' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}

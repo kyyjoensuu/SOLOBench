@@ -1,0 +1,15 @@
+1. The list must be generated automatically from the word set above by Python ( do not generate a string or write to any file)
+2. The most common sentence generator in python: nltk.sent_tokenize() and nltk.word_tokenize function. This is to ensure that we only use words exactly as they appear in our list
+3. As for the above rules I also have created a template which is to generate 200 sentences following these rules with a 4 word sentence structure. Each line then contains the above constructed list of sentences
+4. The sentences may not be written in a way that a 5th grade student will be able to understand as I am doing it at a high school level
+5. The vocabulary is limited between 10-20 words per sentence as most sentences are about daily life and thus have short vocabularies as well.
+6. Each word used for the 4 sentences may not appear more than once in any of the four sentences as we need to meet the rules of this list generation task
+7. Do not add any punctuation to any of the sentences or replace any words with abbreviations or contractions to make it shorter
+8. The numbers are the sentence number, so your output will look like 1,2,3,4
+9. You do not need to explain how we made nltk.sent_tokenize() and nltk.word_tokenize function use above rules as they have already been used in sentences, just copy and paste the above python templates using them alongwith your own sentence generation ->
+10. How does this Python program ensure it only uses exact words from the given word list and not any other text?
+11. Can you modify this Python code to generate sentences with different lengths? For example, is there any way to make it return only five or ten sentences instead of twenty-five? If so, how would we do that and what changes should be made to the code?
+12. Can you explain what are the following functions doing in this code: nlpk.tokenize.word_tokenize(), nlpk.sent_tokenize() and other methods used like ?
+13. Is it possible to modify the given sample sentence generator in this code to accept an additional list of words? For example, if I have another list of desired words like {"the","a","dog","jump","over"} which should also be considered as valid inputs then can you do a modification to the code to allow it to accept them? Please modify the code to accept the input with the above two list of words.
+14. Can you explain the code segment between lines 9-21 and line 21-24 of the above modified code? What does that do and what is being generated there? How can we remove spaces in a list with different lengths but varying word counts from it, for example, [1048576,214852,56489]?
+15. The code you used to generate text was modified from: “sentence[2].” to something else like that. Can you explain what do those operations mean in context of language generation? Why this is necessary in some cases?

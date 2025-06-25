@@ -1,0 +1,141 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-19 06:19:55",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_First_2k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747623762.txt",
+  "formatted_output_file": "Results/Task_First_2k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747623762.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Question:** If you randomly select an emotion from the list, what is the probability that it will be \"joyful\"?",
+      "uncommon_words": [
+        "**question**",
+        "randomly",
+        "an",
+        "is",
+        "probability",
+        "will",
+        "\"joyful\""
+      ],
+      "previously_used_words": [],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Question:** If you choose a random emotion from the list, what is the expected value (mean) of the chosen emotion?",
+      "uncommon_words": [
+        "**question**",
+        "is",
+        "(mean)",
+        "chosen"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "if",
+        "you",
+        "emotion",
+        "from",
+        "the",
+        "list",
+        "what",
+        "is",
+        "the",
+        "the",
+        "emotion"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Question:** What is the standard deviation of the emotions chosen if you were to select one emotion at random from the list 50 times?",
+      "uncommon_words": [
+        "**question**",
+        "is",
+        "deviation",
+        "emotions",
+        "chosen",
+        "were",
+        "50",
+        "times"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "what",
+        "is",
+        "the",
+        "of",
+        "the",
+        "chosen",
+        "if",
+        "you",
+        "select",
+        "emotion",
+        "random",
+        "from",
+        "the",
+        "list"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Question:** If you randomly select one emotion from the list and it is chosen three times in succession without replacement, what is the probability that each selection is different?",
+      "uncommon_words": [
+        "**question**",
+        "randomly",
+        "is",
+        "chosen",
+        "times",
+        "succession",
+        "is",
+        "probability",
+        "is"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "if",
+        "you",
+        "randomly",
+        "select",
+        "one",
+        "emotion",
+        "from",
+        "the",
+        "list",
+        "it",
+        "is",
+        "chosen",
+        "times",
+        "what",
+        "is",
+        "the",
+        "probability",
+        "that",
+        "is"
+      ],
+      "word_count": 29,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

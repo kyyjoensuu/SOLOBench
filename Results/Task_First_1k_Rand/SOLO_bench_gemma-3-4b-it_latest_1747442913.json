@@ -1,0 +1,3678 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-17 04:02:05",
+  "total_sentences": 200,
+  "perfect_sentences": 3,
+  "score_percentage": 1.5,
+  "word_count_failures": 0,
+  "format_failures": 194,
+  "common_word_failures": 9,
+  "word_reuse_failures": 193,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_gemma-3-4b-it_latest_1747442913.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_gemma-3-4b-it_latest_1747442913.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Offer exciting ocean map.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Post unusual French flower.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Descend historic Eastern mountain.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'eastern' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Clue complete model system.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Alone witness upper traffic.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alone' is not a verb",
+        "Second word 'witness' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Home connect inner road.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'connect' is not an adjective",
+        "Third word 'inner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Contact strange upper village.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "upper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Convey weak leader\u2019s argument.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Blame guilty model action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "model"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Illegal witness upper event.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "upper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'illegal' is not a verb",
+        "Second word 'witness' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Inner admire upper system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "inner",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inner' is not a verb",
+        "Second word 'admire' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Upper challenge leader's policy.",
+      "uncommon_words": [
+        "leader's"
+      ],
+      "previously_used_words": [
+        "upper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'upper' is not a verb",
+        "Second word 'challenge' is not an adjective",
+        "Third word 'leader's' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Traffic confuse leader\u2019s schedule.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "traffic",
+        "leader\u2019s"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confuse' is not an adjective",
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Exit witness unusual leader.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unusual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Clue examine model system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "model",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'examine' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Alone consider leader\u2019s plan.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "alone",
+        "leader\u2019s"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alone' is not a verb",
+        "Second word 'consider' is not an adjective",
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Home deliver eastern warning.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "home",
+        "eastern"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deliver' is not an adjective",
+        "Third word 'eastern' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Offer witness unusual village.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "witness",
+        "unusual",
+        "village"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Capacity observe upper system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'capacity' is not a verb",
+        "Second word 'observe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Historically judge leader\u2019s action.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "leader\u2019s",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'historically' is not a verb",
+        "Second word 'judge' is not an adjective",
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Want witness unique system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Weak admire unique village.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "weak",
+        "admire",
+        "unique",
+        "village"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'weak' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Convince leader\u2019s unusual message.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "leader\u2019s",
+        "unusual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'leader\u2019s' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Model witness unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "model",
+        "witness",
+        "unique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Post unusual leader\u2019s policy.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "post",
+        "unusual",
+        "leader\u2019s",
+        "policy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Descend historic village event.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "descend",
+        "historic",
+        "village",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "French admire leader\u2019s schedule.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "french",
+        "admire",
+        "leader\u2019s",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Plunge witness unusual scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unusual",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Above note leader\u2019s action.",
+      "uncommon_words": [
+        "leader\u2019s"
+      ],
+      "previously_used_words": [
+        "leader\u2019s",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'above' is not a verb",
+        "Second word 'note' is not an adjective",
+        "Third word 'leader\u2019s' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Proof judge unusual scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "unusual",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'judge' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Testing observe unusual schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unusual",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Lately witness unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'lately' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "You admire unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Vessel judge unusual schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "unusual",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'vessel' is not a verb",
+        "Second word 'judge' is not an adjective",
+        "Third word 'unusual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Suddenly witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'suddenly' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Star admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "System judge strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "system",
+        "judge",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'system' is not a verb",
+        "Second word 'judge' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Fun witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fun' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Afford witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Eastern admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "eastern",
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'eastern' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Ocean witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ocean",
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ocean' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Marble admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Mutual witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mutual' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Word judge strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'judge' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Contact observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "contact",
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Engage witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Laughter judge strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'laughter' is not a verb",
+        "Second word 'judge' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Associated admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Never witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'never' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Left admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Breakfast witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Match judge strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'judge' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Tighten observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Collapse witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Emerge observe strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Crucial judge strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'crucial' is not a verb",
+        "Second word 'judge' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Intensity witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'intensity' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Aggressive admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'aggressive' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Bulb observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bulb' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Floor witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Least admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'least' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Violent witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'violent' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Sock admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Romantic witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'romantic' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Undergo admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Handful observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'handful' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Cage witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Bell observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Exhibition witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'exhibition' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Dining admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Order witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Native admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'native' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Document observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "E-mail witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Overwhelming judge strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'judge' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Complete admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complete",
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Camp notice unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Director observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'director' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Evil witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'evil' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Coal admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Catch notice unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Interpret observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Grandfather witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grandfather' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Seriously admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'seriously' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Preach notice unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Pat witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Priest notice unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'priest' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Pan witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Protest observe strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Banana notice unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'banana' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Third admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'third' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Economics witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economics' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Mixture observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mixture' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Appearance notice strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'appearance' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Imply witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Steel observe unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "But notice strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'but' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Number witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Schedule observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "schedule",
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Organized witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Timber notice strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'timber' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Interfere observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Annual witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'annual' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Just observe unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'just' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Tourist notice strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'tourist' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Fluid admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fluid' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Shrug observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Fighter witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fighter' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Hunting admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Initiative observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'initiative' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Sexual admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sexual' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Conception notice unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'conception' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Educate witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Attack observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Distress admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'distress' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Desk witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'desk' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Audience observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'audience' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Platform witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'platform' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Regional admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'regional' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Hay notice unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Originally observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'originally' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Practitioner witness unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'practitioner' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "TRUE admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "His observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'his' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Scope witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'scope' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Disappointment admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'disappointment' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Spokesman notice unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'spokesman' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Fragile observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fragile' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Painful witness unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'painful' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Drill admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Retired observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Vitamin witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'vitamin' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Possession admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'possession' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Early notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'early' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Obvious witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'obvious' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Spot admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Basically observe unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'basically' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Publicly witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'publicly' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Dragon admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dragon' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Developer notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'developer' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Physically witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'physically' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Wherever observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wherever' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Weave admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Quality witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quality' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Whip observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Attraction admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'attraction' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Tremendous notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'tremendous' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Human witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'human' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Consultant admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'consultant' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Location observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'location' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Procedure witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'procedure' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Rain admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Move observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Juice notice strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'juice' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Emphasize witness unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Student admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'student' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Fist observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fist' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Provision witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Hook admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Limb observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'limb' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Tell witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Promising admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Rhetoric observe unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rhetoric' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Failure witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'failure' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Adapt observe unique schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Attention admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'attention' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Dry notice unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Sharply observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sharply' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Cousin witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cousin' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Travel admire unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Loot observe strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'loot' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Spend notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Emotion witness strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emotion' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Fellow admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fellow' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Somewhere observe unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'somewhere' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Slave witness strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Powerful admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'powerful' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Sheer notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Grit observe strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grit' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Ball witness unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Corn observe strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Pillow admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Poll witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Village notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "village",
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'village' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Former admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'former' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Toy observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Extensive admire strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'extensive' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Athletic notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'athletic' is not a verb",
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Decade observe strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'decade' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Deck admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Kingdom witness unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'kingdom' is not a verb",
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Unhappy observe strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unhappy' is not a verb",
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Relevant admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'relevant' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Theme notice unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "notice",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notice' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Differ witness strange scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "strange",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Engineering observe unique action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unique",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Theology admire strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'theology' is not a verb",
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Fire witness unique scheme.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "witness",
+        "unique",
+        "scheme"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'witness' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Horse admire strange action.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "admire",
+        "strange",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'admire' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Resort observe strange schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "strange",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'observe' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

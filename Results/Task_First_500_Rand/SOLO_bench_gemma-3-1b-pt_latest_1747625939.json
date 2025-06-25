@@ -1,0 +1,64 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-19 06:43:52",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_First_500_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747625939.txt",
+  "formatted_output_file": "Results/Task_First_500_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747625939.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do you think that climate change is a serious problem or a myth?",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Explain how you have learnt to be kind to your body and to your fellow-humans.",
+      "uncommon_words": [
+        "learnt",
+        "fellow-humans"
+      ],
+      "previously_used_words": [
+        "you"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Describe a game you have played recently and give your thoughts on the topic.",
+      "uncommon_words": [
+        "played",
+        "thoughts"
+      ],
+      "previously_used_words": [
+        "a",
+        "you",
+        "have",
+        "and",
+        "your"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

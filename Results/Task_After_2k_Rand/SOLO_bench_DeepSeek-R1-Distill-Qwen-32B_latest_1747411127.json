@@ -1,0 +1,2284 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-16 19:23:17",
+  "total_sentences": 128,
+  "perfect_sentences": 5,
+  "score_percentage": 3.90625,
+  "word_count_failures": 17,
+  "format_failures": 82,
+  "common_word_failures": 79,
+  "word_reuse_failures": 114,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747411127.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747411127.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Verbs**: action words like run, eat, jump, etc.",
+      "uncommon_words": [
+        "**verbs**",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Adjectives**: descriptive words like happy, blue, sharp, etc.",
+      "uncommon_words": [
+        "**adjectives**",
+        "descriptive",
+        "words"
+      ],
+      "previously_used_words": [
+        "words",
+        "like",
+        "etc"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Nouns**: objects or entities like dog, park, tree, etc.",
+      "uncommon_words": [
+        "**nouns**",
+        "objects",
+        "entities"
+      ],
+      "previously_used_words": [
+        "like",
+        "etc"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Run happy dog park.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "run",
+        "happy",
+        "dog",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Jump tall horse fence.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Climb steep mountain trail.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Dive deep ocean shark.",
+      "uncommon_words": [
+        "dive"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Fly strong eagle sky.",
+      "uncommon_words": [
+        "eagle"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'eagle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Sing sweet bird morning.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Dance graceful butterfly garden.",
+      "uncommon_words": [
+        "graceful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'graceful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Write clear teacher paper.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Paint bright artist canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Cook delicious chef meal.",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Must only use words exactly as they appear in the word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "words"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences.",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "word",
+        "only",
+        "word",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Each sentence has four words: Verb (V) + Adjective (Adj) + Noun (N1) + Noun (N2)",
+      "uncommon_words": [
+        "has",
+        "words",
+        "verb",
+        "(v)",
+        "+",
+        "adjective",
+        "(adj)",
+        "+",
+        "noun",
+        "(n1)",
+        "+",
+        "noun",
+        "(n2)"
+      ],
+      "previously_used_words": [
+        "each",
+        "words"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "**Identify Verbs**: Go through the list and pull out 200 unique verbs.",
+      "uncommon_words": [
+        "**identify",
+        "verbs**",
+        "200",
+        "verbs"
+      ],
+      "previously_used_words": [
+        "the",
+        "list"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "**Identify Adjectives**: Similarly, extract 200 adjectives (these are descriptive words).",
+      "uncommon_words": [
+        "**identify",
+        "adjectives**",
+        "extract",
+        "200",
+        "adjectives",
+        "(these",
+        "are",
+        "descriptive",
+        "words)"
+      ],
+      "previously_used_words": [
+        "**identify",
+        "200",
+        "descriptive"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "**Identify Nouns**: Extract at least 400 nouns since each sentence needs two.",
+      "uncommon_words": [
+        "**identify",
+        "nouns**",
+        "extract",
+        "400",
+        "nouns",
+        "needs"
+      ],
+      "previously_used_words": [
+        "**identify",
+        "extract",
+        "each",
+        "sentence"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Select the first unused verb.",
+      "uncommon_words": [
+        "unused",
+        "verb"
+      ],
+      "previously_used_words": [
+        "the",
+        "verb"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Select an adjective not used yet.",
+      "uncommon_words": [
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "select",
+        "adjective",
+        "used"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Choose two nouns that are available.",
+      "uncommon_words": [
+        "nouns",
+        "are"
+      ],
+      "previously_used_words": [
+        "two",
+        "nouns",
+        "are"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Ensure it makes sense grammatically.",
+      "uncommon_words": [
+        "makes",
+        "grammatically"
+      ],
+      "previously_used_words": [
+        "it"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Write down the sentence.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "the",
+        "sentence"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'the' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Repeat for 200 sentences.",
+      "uncommon_words": [
+        "200",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "200",
+        "sentences"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'for' is not an adjective",
+        "Third word '200' is not a noun",
+        "Fourth word 'sentences' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Dance graceful butterfly garden.",
+      "uncommon_words": [
+        "graceful"
+      ],
+      "previously_used_words": [
+        "dance",
+        "graceful",
+        "butterfly",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'graceful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Assign each sentence four unique words as per parts.",
+      "uncommon_words": [
+        "words",
+        "parts"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "four",
+        "unique",
+        "words",
+        "as"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Ensure that each used word isn't reused anywhere else.",
+      "uncommon_words": [
+        "isn't",
+        "reused"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "that",
+        "each",
+        "used",
+        "word"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Climb steep mountain trail.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "climb",
+        "steep",
+        "mountain",
+        "trail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Dive deep ocean shark.",
+      "uncommon_words": [
+        "dive"
+      ],
+      "previously_used_words": [
+        "dive",
+        "deep",
+        "ocean",
+        "shark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Fly strong eagle sky.",
+      "uncommon_words": [
+        "eagle"
+      ],
+      "previously_used_words": [
+        "fly",
+        "strong",
+        "eagle",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'eagle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Sing sweet bird morning.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sing",
+        "sweet",
+        "bird",
+        "morning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Dance graceful butterfly garden.",
+      "uncommon_words": [
+        "graceful"
+      ],
+      "previously_used_words": [
+        "dance",
+        "graceful",
+        "butterfly",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'graceful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Write clear teacher paper.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "clear",
+        "teacher",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Paint bright artist canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "artist",
+        "canvas"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Cook delicious chef meal.",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "cook",
+        "delicious",
+        "chef",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Run happy dog park.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "run",
+        "happy",
+        "dog",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Jump tall horse fence.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "tall",
+        "horse",
+        "fence"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Hike adventurous trail backpacker.",
+      "uncommon_words": [
+        "adventurous",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "trail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'adventurous' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Swim fast dolphin ocean.",
+      "uncommon_words": [
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Play joyful child playground.",
+      "uncommon_words": [
+        "joyful",
+        "playground"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Fourth word 'playground' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Bake perfect amateur cake.",
+      "uncommon_words": [
+        "amateur"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'amateur' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Build strong architect house.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Explore vast explorer jungle.",
+      "uncommon_words": [
+        "explorer"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'explorer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Capture stunning photographer sunset.",
+      "uncommon_words": [
+        "stunning",
+        "sunset"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective",
+        "Fourth word 'sunset' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Train hard athlete stadium.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Grow tall farmer tree.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tall",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Ride wild cowboy horse.",
+      "uncommon_words": [
+        "cowboy"
+      ],
+      "previously_used_words": [
+        "horse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cowboy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Paint vibrant artist Palette.",
+      "uncommon_words": [
+        "vibrant",
+        "palette"
+      ],
+      "previously_used_words": [
+        "paint",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective",
+        "Fourth word 'palette' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Sing loud band stage.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Cook tasty chef Soup.",
+      "uncommon_words": [
+        "tasty"
+      ],
+      "previously_used_words": [
+        "cook",
+        "chef"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tasty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Write amazing author Novel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Play excited kid Video game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Train dedicated coach Team.",
+      "uncommon_words": [
+        "dedicated"
+      ],
+      "previously_used_words": [
+        "train"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dedicated' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Explore curious scientist Lab.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explore"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Capture creative photographer Mountain.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "photographer",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Hike challenging trail Backpacker.",
+      "uncommon_words": [
+        "challenging",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "hike",
+        "trail",
+        "backpacker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Swim gracefully Dolphin Ocean.",
+      "uncommon_words": [
+        "gracefully",
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "swim",
+        "dolphin",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gracefully' is not an adjective",
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Play joyful Child Playground.",
+      "uncommon_words": [
+        "joyful",
+        "playground"
+      ],
+      "previously_used_words": [
+        "play",
+        "joyful",
+        "child",
+        "playground"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Fourth word 'playground' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Bake delicious Baker Bread.",
+      "uncommon_words": [
+        "delicious",
+        "baker"
+      ],
+      "previously_used_words": [
+        "bake",
+        "delicious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective",
+        "Third word 'baker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Build magnificent Architect Skyscraper.",
+      "uncommon_words": [
+        "magnificent",
+        "skyscraper"
+      ],
+      "previously_used_words": [
+        "build",
+        "architect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'magnificent' is not an adjective",
+        "Fourth word 'skyscraper' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Run swiftly Athlete Track.",
+      "uncommon_words": [
+        "swiftly"
+      ],
+      "previously_used_words": [
+        "run",
+        "athlete"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swiftly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Jump high Gymnast Beam.",
+      "uncommon_words": [
+        "gymnast"
+      ],
+      "previously_used_words": [
+        "jump"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'gymnast' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Dive deep Diver Pool.",
+      "uncommon_words": [
+        "dive",
+        "diver"
+      ],
+      "previously_used_words": [
+        "dive",
+        "deep"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Third word 'diver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Fly gracefully Bird Sky.",
+      "uncommon_words": [
+        "gracefully"
+      ],
+      "previously_used_words": [
+        "fly",
+        "gracefully",
+        "bird",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gracefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Sing melodious Singer Stage.",
+      "uncommon_words": [
+        "melodious"
+      ],
+      "previously_used_words": [
+        "sing",
+        "stage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'melodious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Write fluent Author Book.",
+      "uncommon_words": [
+        "fluent"
+      ],
+      "previously_used_words": [
+        "write",
+        "author"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Paint colorful Artist Canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "artist",
+        "canvas"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Cook elaborate Chef Dish.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cook",
+        "chef"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Explore vast Explorer Jungle.",
+      "uncommon_words": [
+        "explorer"
+      ],
+      "previously_used_words": [
+        "explore",
+        "vast",
+        "explorer",
+        "jungle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'explorer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Capture perfect Photographer Scene.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "perfect",
+        "photographer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Train intense Coach Team.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "train",
+        "coach",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Grow healthy Farmer Vegetables.",
+      "uncommon_words": [
+        "vegetables"
+      ],
+      "previously_used_words": [
+        "grow",
+        "farmer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'vegetables' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Ride powerful Cowboy Horse.",
+      "uncommon_words": [
+        "cowboy"
+      ],
+      "previously_used_words": [
+        "ride",
+        "cowboy",
+        "horse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cowboy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Play excited Child Game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play",
+        "excited",
+        "child",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Hike scenic Trail Backpacker.",
+      "uncommon_words": [
+        "scenic",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "hike",
+        "trail",
+        "backpacker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'scenic' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Swim fast Dolphin Ocean.",
+      "uncommon_words": [
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "swim",
+        "fast",
+        "dolphin",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Sing lively Band Concert.",
+      "uncommon_words": [
+        "lively"
+      ],
+      "previously_used_words": [
+        "sing",
+        "band"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Write creative Author Story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "creative",
+        "author"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Paint bright Artist Picture.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Cook delicious Chef Meal.",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "cook",
+        "delicious",
+        "chef",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Explore mysterious Scientist Lab.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explore",
+        "scientist",
+        "lab"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Capture stunning Photographer Sunset.",
+      "uncommon_words": [
+        "stunning",
+        "sunset"
+      ],
+      "previously_used_words": [
+        "capture",
+        "stunning",
+        "photographer",
+        "sunset"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective",
+        "Fourth word 'sunset' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Train hard Athlete Gym.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "train",
+        "hard",
+        "athlete"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Grow tall Farmer Tree.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "grow",
+        "tall",
+        "farmer",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Ride wild Cowboy Horse.",
+      "uncommon_words": [
+        "cowboy"
+      ],
+      "previously_used_words": [
+        "ride",
+        "wild",
+        "cowboy",
+        "horse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cowboy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Play joyful Child Playground.",
+      "uncommon_words": [
+        "joyful",
+        "playground"
+      ],
+      "previously_used_words": [
+        "play",
+        "joyful",
+        "child",
+        "playground"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Fourth word 'playground' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Hike challenging Trail Backpacker.",
+      "uncommon_words": [
+        "challenging",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "hike",
+        "challenging",
+        "trail",
+        "backpacker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Dive deep Diver Pool.",
+      "uncommon_words": [
+        "dive",
+        "diver"
+      ],
+      "previously_used_words": [
+        "dive",
+        "deep",
+        "diver",
+        "pool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Third word 'diver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Fly fast Bird Sky.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly",
+        "fast",
+        "bird",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Sing sweet Singer Stage.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sing",
+        "sweet",
+        "singer",
+        "stage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Write clear Author Paper.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "clear",
+        "author",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Paint beautiful Artist Picture.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "artist",
+        "picture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Cook tasty Chef Soup.",
+      "uncommon_words": [
+        "tasty"
+      ],
+      "previously_used_words": [
+        "cook",
+        "tasty",
+        "chef",
+        "soup"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tasty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Explore vast Explorer Jungle.",
+      "uncommon_words": [
+        "explorer"
+      ],
+      "previously_used_words": [
+        "explore",
+        "vast",
+        "explorer",
+        "jungle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'explorer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Capture creative Photographer Mountain.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "creative",
+        "photographer",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Train dedicated Coach Team.",
+      "uncommon_words": [
+        "dedicated"
+      ],
+      "previously_used_words": [
+        "train",
+        "dedicated",
+        "coach",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dedicated' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Grow healthy Farmer Vegetables.",
+      "uncommon_words": [
+        "vegetables"
+      ],
+      "previously_used_words": [
+        "grow",
+        "healthy",
+        "farmer",
+        "vegetables"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'vegetables' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Ride strong Cowboy Horse.",
+      "uncommon_words": [
+        "cowboy"
+      ],
+      "previously_used_words": [
+        "ride",
+        "strong",
+        "cowboy",
+        "horse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cowboy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Play excited Child Video Game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play",
+        "excited",
+        "child",
+        "video",
+        "game"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Hike adventurous Trail Backpacker.",
+      "uncommon_words": [
+        "adventurous",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "hike",
+        "adventurous",
+        "trail",
+        "backpacker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'adventurous' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Swim gracefully Dolphin Ocean.",
+      "uncommon_words": [
+        "gracefully",
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "swim",
+        "gracefully",
+        "dolphin",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gracefully' is not an adjective",
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Sing joyful Singer Stage.",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [
+        "sing",
+        "joyful",
+        "singer",
+        "stage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Write amazing Author Novel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "amazing",
+        "author",
+        "novel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Paint vibrant Artist Palette.",
+      "uncommon_words": [
+        "vibrant",
+        "palette"
+      ],
+      "previously_used_words": [
+        "paint",
+        "vibrant",
+        "artist",
+        "palette"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective",
+        "Fourth word 'palette' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Cook perfect Chef Dish.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cook",
+        "perfect",
+        "chef",
+        "dish"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Explore curious Scientist Lab.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explore",
+        "curious",
+        "scientist",
+        "lab"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Capture stunning Photographer Scene.",
+      "uncommon_words": [
+        "stunning"
+      ],
+      "previously_used_words": [
+        "capture",
+        "stunning",
+        "photographer",
+        "scene"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Train hard Athlete Stadium.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "train",
+        "hard",
+        "athlete",
+        "stadium"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Grow tall Farmer Tree.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "grow",
+        "tall",
+        "farmer",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Ride wild Cowboy Horse.",
+      "uncommon_words": [
+        "cowboy"
+      ],
+      "previously_used_words": [
+        "ride",
+        "wild",
+        "cowboy",
+        "horse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cowboy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Play joyful Child Playground.",
+      "uncommon_words": [
+        "joyful",
+        "playground"
+      ],
+      "previously_used_words": [
+        "play",
+        "joyful",
+        "child",
+        "playground"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Fourth word 'playground' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Hike challenging Trail Backpacker.",
+      "uncommon_words": [
+        "challenging",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "hike",
+        "challenging",
+        "trail",
+        "backpacker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Dive deep Diver Pool.",
+      "uncommon_words": [
+        "dive",
+        "diver"
+      ],
+      "previously_used_words": [
+        "dive",
+        "deep",
+        "diver",
+        "pool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Third word 'diver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Fly strong Bird Sky.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly",
+        "strong",
+        "bird",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Sing sweet Singer Stage.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sing",
+        "sweet",
+        "singer",
+        "stage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Write clear Author Paper.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "clear",
+        "author",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Paint bright Artist Canvas.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "artist",
+        "canvas"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Cook tasty Chef Meal.",
+      "uncommon_words": [
+        "tasty"
+      ],
+      "previously_used_words": [
+        "cook",
+        "tasty",
+        "chef",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tasty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Explore vast Explorer Jungle.",
+      "uncommon_words": [
+        "explorer"
+      ],
+      "previously_used_words": [
+        "explore",
+        "vast",
+        "explorer",
+        "jungle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'explorer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Capture creative Photographer Mountain.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "creative",
+        "photographer",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Train intense Coach Team.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "train",
+        "intense",
+        "coach",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Grow healthy Farmer Vegetables.",
+      "uncommon_words": [
+        "vegetables"
+      ],
+      "previously_used_words": [
+        "grow",
+        "healthy",
+        "farmer",
+        "vegetables"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'vegetables' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Ride powerful Cowboy Horse.",
+      "uncommon_words": [
+        "cowboy"
+      ],
+      "previously_used_words": [
+        "ride",
+        "powerful",
+        "cowboy",
+        "horse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cowboy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Play excited Child Game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play",
+        "excited",
+        "child",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Hike scenic Trail Backpacker.",
+      "uncommon_words": [
+        "scenic",
+        "backpacker"
+      ],
+      "previously_used_words": [
+        "hike",
+        "scenic",
+        "trail",
+        "backpacker"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'scenic' is not an adjective",
+        "Fourth word 'backpacker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Swim fast Dolphin Ocean.",
+      "uncommon_words": [
+        "dolphin"
+      ],
+      "previously_used_words": [
+        "swim",
+        "fast",
+        "dolphin",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'dolphin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Sing lively Band Concert.",
+      "uncommon_words": [
+        "lively"
+      ],
+      "previously_used_words": [
+        "sing",
+        "lively",
+        "band",
+        "concert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lively' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}

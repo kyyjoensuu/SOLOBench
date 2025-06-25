@@ -1,0 +1,92 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-15 14:14:46",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_Falcon3-1B-Base_latest_1747307635.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_Falcon3-1B-Base_latest_1747307635.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Each answer must follow the structure: Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not output any irrelevant words that do not pertain to the activity at all. (For example, if we were doing a task about people having jobs, we would not want our output to also include information like \"He's a doctor!\" or \"She loves math.\")",
+      "uncommon_words": [
+        "irrelevant",
+        "words",
+        "pertain",
+        "(for",
+        "were",
+        "doing",
+        "having",
+        "jobs",
+        "\"he's",
+        "doctor\"",
+        "\"she",
+        "loves",
+        "math\")"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 45,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "If there is more than one answer you must generate ten unique sentences (e.g., instead of listing \"I love writing stories and novels\", generate a list including \"A: I Love Writing Stories, Novels!\", \"B: I really enjoy to write short stories.\", etc.)",
+      "uncommon_words": [
+        "is",
+        "sentences",
+        "(eg",
+        "listing",
+        "\"i",
+        "stories",
+        "novels\"",
+        "\"a",
+        "stories",
+        "novels\"",
+        "\"b",
+        "stories\"",
+        "etc)"
+      ],
+      "previously_used_words": [
+        "if",
+        "answer",
+        "must",
+        "a",
+        "to"
+      ],
+      "word_count": 42,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

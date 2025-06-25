@@ -1,0 +1,46 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-17 01:34:21",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747432422.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747432422.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Each poem must be exactly 330 words",
+      "uncommon_words": [
+        "330",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "In this poetry, every single line ending of every sentence  MUST adhere to the following rules:",
+      "uncommon_words": [
+        "ending",
+        "adhere",
+        "rules"
+      ],
+      "previously_used_words": [
+        "must"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

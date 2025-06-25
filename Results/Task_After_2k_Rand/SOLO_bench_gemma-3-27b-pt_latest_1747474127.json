@@ -1,0 +1,165 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-17 12:39:57",
+  "total_sentences": 6,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 6,
+  "format_failures": 6,
+  "common_word_failures": 6,
+  "word_reuse_failures": 5,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_gemma-3-27b-pt_latest_1747474127.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_gemma-3-27b-pt_latest_1747474127.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Verb + AnotherVerb + YetAnotherVerb + YetAnotherYetAnotherVerb",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "anotherverb",
+        "+",
+        "yetanotherverb",
+        "+",
+        "yetanotheryetanotherverb"
+      ],
+      "previously_used_words": [
+        "verb",
+        "+",
+        "+",
+        "+"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Verb + AnotherVerb + AnotherVerb + YetAnotherVerb",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "anotherverb",
+        "+",
+        "anotherverb",
+        "+",
+        "yetanotherverb"
+      ],
+      "previously_used_words": [
+        "verb",
+        "+",
+        "anotherverb",
+        "+",
+        "anotherverb",
+        "+",
+        "yetanotherverb"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Verb + AnotherVerb + Adjective + AnotherAdjective",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "anotherverb",
+        "+",
+        "adjective",
+        "+",
+        "anotheradjective"
+      ],
+      "previously_used_words": [
+        "verb",
+        "+",
+        "anotherverb",
+        "+",
+        "adjective",
+        "+"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "AnotherVerb + YetAnotherVerb + YetAnotherYetAnotherVerb + YetAnotherVerb",
+      "uncommon_words": [
+        "anotherverb",
+        "+",
+        "yetanotherverb",
+        "+",
+        "yetanotheryetanotherverb",
+        "+",
+        "yetanotherverb"
+      ],
+      "previously_used_words": [
+        "anotherverb",
+        "+",
+        "yetanotherverb",
+        "+",
+        "yetanotheryetanotherverb",
+        "+",
+        "yetanotherverb"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

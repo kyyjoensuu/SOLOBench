@@ -1,0 +1,134 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-17 20:36:37",
+  "total_sentences": 5,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 5,
+  "common_word_failures": 5,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_After_250_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747502590.txt",
+  "formatted_output_file": "Results/Task_After_250_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747502590.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "If you are stuck on a sentence, move onto the next and ask a coach",
+      "uncommon_words": [
+        "are",
+        "stuck"
+      ],
+      "previously_used_words": [],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "If you are stuck on a sentence again, move onto the next and ask a coach",
+      "uncommon_words": [
+        "are",
+        "stuck"
+      ],
+      "previously_used_words": [
+        "if",
+        "you",
+        "are",
+        "stuck",
+        "on",
+        "a",
+        "sentence",
+        "move",
+        "onto",
+        "the",
+        "next",
+        "and",
+        "ask",
+        "a",
+        "coach"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "If you are still stuck, move onto the next and explain why",
+      "uncommon_words": [
+        "are",
+        "stuck"
+      ],
+      "previously_used_words": [
+        "if",
+        "you",
+        "are",
+        "stuck",
+        "move",
+        "onto",
+        "the",
+        "next",
+        "and"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "If you are still stumped, then your best guess is to just use each word exactly as it appears at the top of the word list",
+      "uncommon_words": [
+        "are",
+        "stumped",
+        "is",
+        "appears"
+      ],
+      "previously_used_words": [
+        "if",
+        "you",
+        "are",
+        "still",
+        "the",
+        "the"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Once all sentences are returned, you need to edit your code and remove all the words that are not in the word list",
+      "uncommon_words": [
+        "sentences",
+        "are",
+        "returned",
+        "words",
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "to",
+        "your",
+        "and",
+        "the",
+        "are",
+        "the",
+        "word",
+        "list"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

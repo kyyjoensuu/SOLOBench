@@ -1,0 +1,738 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-16 18:48:55",
+  "total_sentences": 44,
+  "perfect_sentences": 1,
+  "score_percentage": 2.272727272727273,
+  "word_count_failures": 6,
+  "format_failures": 35,
+  "common_word_failures": 34,
+  "word_reuse_failures": 31,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747409862.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747409862.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Singing loudly guitar folk",
+      "uncommon_words": [
+        "singing",
+        "loudly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'singing' is not a verb",
+        "Second word 'loudly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Reading quickly book story",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Running swiftly hill breeze",
+      "uncommon_words": [
+        "swiftly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swiftly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Eating sweet cookies dessert",
+      "uncommon_words": [
+        "cookies"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cookies' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Jumping high ball basketball",
+      "uncommon_words": [
+        "jumping"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'jumping' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Dancing slow sway",
+      "uncommon_words": [
+        "sway"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Painting bright colors artwork",
+      "uncommon_words": [
+        "colors",
+        "artwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'colors' is not a noun",
+        "Fourth word 'artwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Listening quiet whisper",
+      "uncommon_words": [
+        "listening"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Sleeping cozy blanket rest",
+      "uncommon_words": [
+        "sleeping",
+        "cozy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sleeping' is not a verb",
+        "Second word 'cozy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Swimming fast ocean water",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Writing fast code computer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Climbing steep ladder wall",
+      "uncommon_words": [
+        "climbing"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'climbing' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Laughing big joke friends",
+      "uncommon_words": [
+        "laughing",
+        "friends"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'laughing' is not a verb",
+        "Fourth word 'friends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Playing piano melody music",
+      "uncommon_words": [
+        "playing",
+        "melody"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'playing' is not a verb",
+        "Third word 'melody' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Dancing quick ballet dance",
+      "uncommon_words": [
+        "ballet"
+      ],
+      "previously_used_words": [
+        "dancing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ballet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Painting detailed landscape scenery",
+      "uncommon_words": [
+        "scenery"
+      ],
+      "previously_used_words": [
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'scenery' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Singing high tenor choir",
+      "uncommon_words": [
+        "singing",
+        "tenor",
+        "choir"
+      ],
+      "previously_used_words": [
+        "singing",
+        "high"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'singing' is not a verb",
+        "Third word 'tenor' is not a noun",
+        "Fourth word 'choir' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Listening calm peace sound",
+      "uncommon_words": [
+        "listening"
+      ],
+      "previously_used_words": [
+        "listening"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'listening' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Running hard race track",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "running"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Eating dessert cake sweets",
+      "uncommon_words": [
+        "sweets"
+      ],
+      "previously_used_words": [
+        "eating",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dessert' is not an adjective",
+        "Fourth word 'sweets' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Jumping soft trampoline bounce",
+      "uncommon_words": [
+        "jumping",
+        "trampoline"
+      ],
+      "previously_used_words": [
+        "jumping"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'jumping' is not a verb",
+        "Third word 'trampoline' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Painting bright summer sky",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "painting",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Reading quickly chapter pages",
+      "uncommon_words": [
+        "pages"
+      ],
+      "previously_used_words": [
+        "reading",
+        "quickly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Fourth word 'pages' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Jumping low ball kick",
+      "uncommon_words": [
+        "jumping"
+      ],
+      "previously_used_words": [
+        "jumping",
+        "ball"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'jumping' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Dancing graceful waltz",
+      "uncommon_words": [
+        "graceful",
+        "waltz"
+      ],
+      "previously_used_words": [
+        "dancing"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Swimming slow lap pool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "swimming",
+        "slow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Writing fast essay paragraph",
+      "uncommon_words": [
+        "paragraph"
+      ],
+      "previously_used_words": [
+        "writing",
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'paragraph' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Climbing steep stairs bedroom",
+      "uncommon_words": [
+        "climbing",
+        "stairs"
+      ],
+      "previously_used_words": [
+        "climbing",
+        "steep"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'climbing' is not a verb",
+        "Third word 'stairs' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Laughing loud chuckle people",
+      "uncommon_words": [
+        "laughing",
+        "chuckle"
+      ],
+      "previously_used_words": [
+        "laughing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'laughing' is not a verb",
+        "Third word 'chuckle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Singing soft lullaby",
+      "uncommon_words": [
+        "singing",
+        "lullaby"
+      ],
+      "previously_used_words": [
+        "singing",
+        "soft"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Listening quiet library books",
+      "uncommon_words": [
+        "listening",
+        "books"
+      ],
+      "previously_used_words": [
+        "listening",
+        "quiet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'listening' is not a verb",
+        "Fourth word 'books' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Running fast marathon route",
+      "uncommon_words": [
+        "marathon"
+      ],
+      "previously_used_words": [
+        "running",
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'marathon' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Eating spicy tacos food",
+      "uncommon_words": [
+        "spicy",
+        "tacos"
+      ],
+      "previously_used_words": [
+        "eating"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'spicy' is not an adjective",
+        "Third word 'tacos' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Jumping vertical ladder ceiling",
+      "uncommon_words": [
+        "jumping"
+      ],
+      "previously_used_words": [
+        "jumping",
+        "ladder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'jumping' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Painting subtle shadow details",
+      "uncommon_words": [
+        "details"
+      ],
+      "previously_used_words": [
+        "painting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'details' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Singing low female voice",
+      "uncommon_words": [
+        "singing"
+      ],
+      "previously_used_words": [
+        "singing",
+        "low"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'singing' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Dancing slow polka step",
+      "uncommon_words": [
+        "polka"
+      ],
+      "previously_used_words": [
+        "dancing",
+        "slow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'polka' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Swimming slow shallow stream",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "swimming",
+        "slow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Writing fast story passage",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "writing",
+        "fast",
+        "story"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Climb hard rock face",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Laughing silly jokes family",
+      "uncommon_words": [
+        "laughing",
+        "jokes"
+      ],
+      "previously_used_words": [
+        "laughing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'laughing' is not a verb",
+        "Third word 'jokes' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Painting dark night stars sky",
+      "uncommon_words": [
+        "stars"
+      ],
+      "previously_used_words": [
+        "painting",
+        "sky"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Reading fast mystery novel",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reading",
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Eating sour gummy bear yogurt",
+      "uncommon_words": [
+        "sour",
+        "gummy",
+        "yogurt"
+      ],
+      "previously_used_words": [
+        "eating"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

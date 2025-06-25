@@ -1,0 +1,37 @@
+. Any extra space before that does not count towards a new line
+8. The words will NOT be presented to me as individual words. You may put your lists in whatever format 
+**This assignment is quite easy because 1) it uses only English words and 2) no rules are imposed on how the output should look like, there is no right or wrong answer. For this reason you can just create a word list that contains all of the required words in that order using an existing text editor (e.g., Notepad), for example, and then simply loop over the list to generate your output.**
+
+### Solution 1:
+Here is one possible solution. I will use `words` as the input word list. Feel free to use any other words you choose in future assignments. All words are taken from this list. I will not repeat words within sentences due to limitation in length. 
+```python
+# This function produces a sentence with the given text that adheres to the conditions of the problem
+def generate_sentence(text):
+    # Create the output by using the unique tokens from 'words'. There should only be one token used per sentence.
+    words = set()
+    result = ""
+    
+    # Loop over each word
+    for word in text:
+        # Add the unique token to the set of results
+        words.add(word)
+        
+        # Remove all occurrences of 'words', and append current result to 'result'. Keep only one token per phrase.
+        while 'words' not in words:
+            words.remove(word)
+            result += word
+        
+    return result
+```
+### Output:
+1. Sentence: "The quick brown fox jumped over a large rock."
+   Note that `the`, `"quick"`, `",",` etc. are treated as distinct words for this purpose, and the sentence is only one unique item at a time based on how each output is being generated.
+```python
+from sets import *
+words = Set(["i", "e", "n", "t", "s"])
+try:
+    print("The quick brown fox jumped over a large rock.")
+except StopIteration:
+    pass
+
+```

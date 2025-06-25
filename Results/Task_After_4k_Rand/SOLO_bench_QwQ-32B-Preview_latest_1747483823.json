@@ -1,0 +1,284 @@
+{
+  "model": "QwQ-32B-Preview:latest",
+  "label": "2025-05-17 15:38:34",
+  "total_sentences": 14,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 14,
+  "common_word_failures": 14,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_QwQ-32B-Preview_latest_1747483823.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_QwQ-32B-Preview_latest_1747483823.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Must only use words exactly as they appear in the above word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "word",
+        "only",
+        "word",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Each sentence must follow this structure: Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "must"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each sentence must contain exactly 4 words",
+      "uncommon_words": [
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "exactly",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Writes eloquent poetry poets.",
+      "uncommon_words": [
+        "writes",
+        "eloquent",
+        "poets"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'writes' is not a verb",
+        "Second word 'eloquent' is not an adjective",
+        "Fourth word 'poets' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Paints vivid landscapes artists.",
+      "uncommon_words": [
+        "paints",
+        "vivid",
+        "landscapes",
+        "artists"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'paints' is not a verb",
+        "Second word 'vivid' is not an adjective",
+        "Third word 'landscapes' is not a noun",
+        "Fourth word 'artists' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "sings melodious songs musicians.",
+      "uncommon_words": [
+        "sings",
+        "melodious",
+        "songs",
+        "musicians"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sings' is not a verb",
+        "Second word 'melodious' is not an adjective",
+        "Third word 'songs' is not a noun",
+        "Fourth word 'musicians' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "plays skillful piano pianists.",
+      "uncommon_words": [
+        "plays",
+        "skillful",
+        "pianists"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'plays' is not a verb",
+        "Second word 'skillful' is not an adjective",
+        "Fourth word 'pianists' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "dances graceful ballet dancers.",
+      "uncommon_words": [
+        "dances",
+        "graceful",
+        "ballet",
+        "dancers"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dances' is not a verb",
+        "Second word 'graceful' is not an adjective",
+        "Third word 'ballet' is not a noun",
+        "Fourth word 'dancers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "creates innovative art geniuses.",
+      "uncommon_words": [
+        "creates",
+        "geniuses"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'creates' is not a verb",
+        "Fourth word 'geniuses' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "composes classical music composers.",
+      "uncommon_words": [
+        "composes",
+        "composers"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'composes' is not a verb",
+        "Fourth word 'composers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "directs successful movies directors.",
+      "uncommon_words": [
+        "directs",
+        "movies",
+        "directors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'directs' is not a verb",
+        "Third word 'movies' is not a noun",
+        "Fourth word 'directors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "acts dramatic roles actors.",
+      "uncommon_words": [
+        "acts",
+        "roles",
+        "actors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'acts' is not a verb",
+        "Third word 'roles' is not a noun",
+        "Fourth word 'actors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "scores high points athletes.",
+      "uncommon_words": [
+        "scores",
+        "points",
+        "athletes"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'scores' is not a verb",
+        "Third word 'points' is not a noun",
+        "Fourth word 'athletes' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

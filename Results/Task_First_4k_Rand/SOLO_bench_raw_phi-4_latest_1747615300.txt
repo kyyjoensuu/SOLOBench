@@ -1,0 +1,27 @@
+To calculate the difference between the longest word and the 30th longest in the list, we first need to determine their lengths.
+
+1. **Longest Word:**
+   - The longest word in the provided list is "interact" with a length of 9 characters.
+
+2. **30th Longest Word:**
+   - We must sort all unique words by length and find the 30th longest.
+   - Here are the lengths for a few of the longest words for context:
+
+     | Rank | Word        | Length |
+     | ---- | ----------- | ------ |
+     | 1    | interact    | 9      |
+     | ...  | ...         | ...    |
+     | 28   | cooperation | 12     |
+     | 29   | technology  | 10     |
+     | 30   | discussion  | 11     |
+
+3. **Calculate the Difference:**
+   - The longest word has a length of 9.
+   - The 30th longest word "discussion" has a length of 11.
+
+4. **Difference Calculation:**
+   \[
+   \text{Difference} = 11 - 9 = 2
+   \]
+
+Therefore, the difference between the number of letters in the longest word and the number in the 30th-longest word is 2.

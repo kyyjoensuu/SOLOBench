@@ -1,0 +1,493 @@
+
+8. Write the words you are going to use in between the <START> and <END> tags and only return the numbered list of sentences at the bottom of your answer
+example:
+"apple orange"
+1. apple tree
+2. orange peel
+
+
+<START>
+apple, orange,
+<END>
+
+<START>
+apple, orange,
+<END>
+
+
+WORD LIST:
+100%
+a.m.
+aboard
+about
+above
+abstain
+accessible
+account
+accusations
+accuse
+accustomed
+acquire
+acts
+additional
+address
+admit
+advance
+advertise
+advice
+affordable
+after
+against
+age
+agency
+aimed
+all
+allow
+almost
+alone
+along
+alongside
+already
+also
+alternative
+always
+am
+amazing
+amongst
+amount
+an
+angel
+analysis
+analyze
+and
+announce
+anxious
+apparently
+appear
+apples
+apply
+appropriate
+areas
+arise
+arrive
+as
+at
+attention
+attract
+attracted
+attractive
+authority
+automobile
+automatically
+avoid
+avoided
+avoiding
+aware
+away
+award
+awards
+axes
+b.p.m.
+back
+backroom
+background
+baking
+baker
+be
+bellingham
+being
+believe
+below
+benefit
+beneficiary
+best
+better
+beware
+bias
+bill
+black
+blond
+blonde
+blood
+bloodshot
+blues
+body
+borderlands
+borrow
+bottom
+bottom-rung
+boy
+brand
+bribe
+buildings
+bush
+by
+can
+cancer
+cannot
+care
+car
+celebration
+celebratory
+charge
+charges
+cheers
+choice
+choose
+christian
+christmastime
+circle
+city
+claim
+clean
+clear
+climate
+closely
+could
+count
+council
+country
+couple
+creative
+cringe
+crickets
+crime
+criticized
+culture
+current
+cyber
+days
+dead
+declare
+deemed
+despite
+desired
+destruction
+determined
+devices
+did
+dinner
+direct
+district
+district
+district
+divide
+diverse
+do
+dollars
+donate
+donations
+drinking
+drunk
+due
+early
+east
+early
+easier
+easy
+education
+education
+education
+education
+edition
+educated
+educated
+educational
+electricity
+enables
+enemies
+enjoy
+enable
+encouraging
+enemy
+enough
+entire
+entirely
+enthusiasm
+enthusiastic
+enthused
+environment
+episode
+equal
+equally
+equipment
+equal
+erotic
+essayist
+everyone
+evidence
+evict
+exact
+extremely
+exotic
+exotic
+expand
+experience
+experience
+explained
+explanation
+expect
+experience
+expensive
+expensive
+expect
+expected
+expression
+extended
+external
+extravagant
+extremely
+exotic
+exotic
+exotic
+exotic
+exotic
+extrude
+f.m.r.
+fair
+faith
+fair
+faith
+far
+far
+favored
+favor
+flavor
+flourished
+focus
+for
+forbidden
+forced
+force
+forever
+forgo
+forgotten
+forgive
+forger
+forth
+forward
+frameworks
+fuel
+fun
+funny
+gain
+gang
+gear
+gift
+gifts
+glorious
+glory
+god
+godfather
+goal
+golden
+good
+godparent
+god
+gold
+governor
+govern
+growth
+guy
+gained
+goal
+good
+gone
+gained
+gained
+gains
+gains
+gang
+gagging
+garlic
+garbage
+gaudy
+gay men
+gay
+geared
+gears
+gender
+gentle
+genuine
+girls
+girls
+give
+give
+goal
+gained
+gain
+gain
+garlic
+gasoline
+gas
+gained
+gas
+gear
+gear
+gear
+gear
+gear
+gear
+gear
+goal
+goal
+goals
+good
+good
+good
+good
+good
+god
+god
+godfather
+god
+
+
+The word for the month in which a specific birthday falls
+
+The season associated with a holiday that can be associated with a specific age.
+
+A year of 1-13.
+
+The year a specific person was born.
+
+Example:
+
+If Joe was born in May, then May would be the <u>Month</u> value and 2009 would be the <u>Year</u> value.
+
+If Joe was also 5 years old on Thanksgiving that year, then Thanksgiving would be the <u>Season</u> value, and 5 would be the <u>Age</u> value.
+
+The word for the month in which a specific birthdate falls, the holiday season (e.g., Christmas, Hanukkah, etc.), or the holiday season name (in English, not in the language of the person of interest). (E.g. if Bob was born in January, then January is the month for Bob. If Bob was 8 years old on Thanksgiving, then Thanksgiving is the month for Bob. If Bob has a birthday in June and he is 6 days old on New Year's Day, then New Year's Day is the month for Bob)
+
+The age (in months) of the person of interest at the beginning of the season specified by the month_
+
+Example:
+
+Month   Age
+
+January   3
+
+March   7
+
+June   27
+
+
+For each month, identify:
+
+* the age in months of the person of interest (integer)
+* the month (string). Valid Strings are listed below.
+
+* January
+* February
+* March
+* April
+* May
+* June
+* July
+* August
+* September
+* October
+* November
+* December
+
+Example:
+
+Month   Age
+
+January   1
+
+March   3
+
+June   6
+
+
+For each month, identify:
+
+* the age in months of the person of interest (integer)
+* the season (string). Valid Strings are listed below.
+
+* winter,
+* spring,
+* summer,
+* autumn,
+
+* the month (string). Valid Strings are listed below.
+
+* January
+* February
+* March
+* April
+* May
+* June
+* July
+* August
+* September
+* October
+* November
+* December
+
+Example:
+
+Month   Season  Age
+
+January   winter   1
+
+March   spring   3
+
+June   summer   6
+
+
+For each month, identify:
+
+* the age in months of the person of interest (integer)
+* the season (string). Valid Strings are listed below.
+
+* winter,
+* spring,
+* summer,
+* autumn,
+
+* the month (string). Valid Strings are listed below.
+
+* January
+* February
+* March
+* April
+* May
+* June
+* July
+* August
+* September
+* October
+* November
+* December
+
+Example:
+
+Month   Season  Age
+
+January   winter   1
+
+March   spring   3
+
+June   summer   6
+
+
+The day of the month in which a specific birthdate falls.
+
+Given a series of birthdays, create one series of unique ages for those persons. Create ages from 1 month to 200 years.
+
+The word for the day of the month in which a specific birthdate falls.
+
+Given the wordlist "months, days, years, years", create a number that contains all the words from the wordlist. Repeat this for each month of the year, e.g.:
+
+[January, December, February, March]
+
+[August, October, October, February, March, December]
+
+
+Example:
+
+Create a list from the following months:
+
+[January, December, February, March, and August]

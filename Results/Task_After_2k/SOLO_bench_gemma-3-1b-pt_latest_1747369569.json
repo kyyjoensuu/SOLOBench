@@ -1,0 +1,92 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-16 07:31:52",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 3,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_gemma-3-1b-pt_latest_1747369569.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_gemma-3-1b-pt_latest_1747369569.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not use any tools other than the provided word list in the writing stage",
+      "uncommon_words": [
+        "tools"
+      ],
+      "previously_used_words": [],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not write in the writing stage with the word count displayed",
+      "uncommon_words": [
+        "displayed"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "in",
+        "the",
+        "writing",
+        "stage",
+        "the",
+        "word"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Do not write in the writing stage with any extra tokens",
+      "uncommon_words": [
+        "tokens"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "write",
+        "in",
+        "the",
+        "writing",
+        "stage",
+        "with",
+        "any"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Do not use the same word in more than one sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use",
+        "the",
+        "word",
+        "in",
+        "than"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

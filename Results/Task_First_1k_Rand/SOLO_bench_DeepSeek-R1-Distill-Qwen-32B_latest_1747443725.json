@@ -1,0 +1,2744 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-17 04:41:52",
+  "total_sentences": 174,
+  "perfect_sentences": 23,
+  "score_percentage": 13.218390804597702,
+  "word_count_failures": 10,
+  "format_failures": 120,
+  "common_word_failures": 63,
+  "word_reuse_failures": 129,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747443725.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747443725.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Toss inner outfit home.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Toss inner outfit exit.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "inner",
+        "outfit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Convince weak model proof.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Blame illegal traffic clue.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Offer above capacity historically.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'historically' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Catch fragrant e-mail schedule.",
+      "uncommon_words": [
+        "fragrant"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fragrant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Toss inner outfit exit.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "inner",
+        "outfit",
+        "exit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Convince weak model proof.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince",
+        "weak",
+        "model",
+        "proof"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Blame illegal traffic clue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "illegal",
+        "traffic",
+        "clue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Offer above capacity historically.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "above",
+        "capacity",
+        "historically"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'historically' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Catch fragrant e-mail schedule. (Wait 'fragrant' isn't in the list, discard.)",
+      "uncommon_words": [
+        "fragrant",
+        "(wait",
+        "'fragrant'",
+        "isn't",
+        "discard)"
+      ],
+      "previously_used_words": [
+        "catch",
+        "fragrant",
+        "e-mail",
+        "schedule"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Catch fragile e-mail schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "catch",
+        "e-mail",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Catch fun model e-mail. So verb: catch; adjective:fun; noun:model; noun:e-mail.",
+      "uncommon_words": [
+        "verb",
+        "adjectivefun",
+        "nounmodel",
+        "noune-mail"
+      ],
+      "previously_used_words": [
+        "catch",
+        "model",
+        "e-mail",
+        "catch"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Match bright color home.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "home"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Toss inner outfit exit.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "inner",
+        "outfit",
+        "exit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Convince weak model proof.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince",
+        "weak",
+        "model",
+        "proof"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Blame illegal traffic clue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "illegal",
+        "traffic",
+        "clue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Offer above capacity historically.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "above",
+        "capacity",
+        "historically"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'historically' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Catch fragile model e-mail.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "catch",
+        "fragile",
+        "model",
+        "e-mail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Convince affordable color home.",
+      "uncommon_words": [
+        "affordable"
+      ],
+      "previously_used_words": [
+        "convince",
+        "color",
+        "home"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'affordable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Match bright color traffic.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "match",
+        "bright",
+        "color",
+        "traffic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Assist active construction location.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Adapt appropriate solution problem.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Provide adequate resource support.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Improve important infrastructure society.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Develop effective strategy approach.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Enhance efficient system performance.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Implement essential policy reform.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Increase necessary budget allocation.",
+      "uncommon_words": [
+        "allocation"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'allocation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Promote positive influence impact.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Encourage constructive feedback improvement.",
+      "uncommon_words": [
+        "constructive"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'constructive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Facilitate productive collaboration teamwork.",
+      "uncommon_words": [
+        "teamwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'teamwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Focus strategic direction priority.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Achieve desirable outcome goal.",
+      "uncommon_words": [
+        "desirable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'desirable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Expand global market economy.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Protect endangered species environment.",
+      "uncommon_words": [
+        "endangered"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'endangered' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Reduce negative emission carbon.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Increase renewable energy resource.",
+      "uncommon_words": [
+        "renewable"
+      ],
+      "previously_used_words": [
+        "increase",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'renewable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Develop sustainable development plan.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Analyze complex issue data.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Simplify complicated problem process.",
+      "uncommon_words": [
+        "simplify"
+      ],
+      "previously_used_words": [
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'simplify' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Address critical challenge solution.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Solve urgent problem timely.",
+      "uncommon_words": [
+        "urgent",
+        "timely"
+      ],
+      "previously_used_words": [
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'urgent' is not an adjective",
+        "Fourth word 'timely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Create innovative idea product.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Generate creative concept design.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Explore exciting opportunity future.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Discover hidden potential value.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Utilize available resource efficiently.",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'efficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Optimize limited time management.",
+      "uncommon_words": [
+        "optimize"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'optimize' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Balance work-life harmony schedule.",
+      "uncommon_words": [
+        "work-life"
+      ],
+      "previously_used_words": [
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'work-life' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Manage stress effectively health.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stress' is not an adjective",
+        "Third word 'effectively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Improve productivity techniques efficiency.",
+      "uncommon_words": [
+        "techniques"
+      ],
+      "previously_used_words": [
+        "improve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'productivity' is not an adjective",
+        "Third word 'techniques' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Develop personal growth skill.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Enhance communication skill relationship.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enhance",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'communication' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Strengthen team collaboration trust.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collaboration"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'team' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Build strong leadership foundation.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Inspire motivation teamwork success.",
+      "uncommon_words": [
+        "teamwork"
+      ],
+      "previously_used_words": [
+        "teamwork"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'motivation' is not an adjective",
+        "Third word 'teamwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Encourage creativity innovation idea.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "encourage",
+        "idea"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creativity' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Train professional staff development.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "development"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Prepare emergency plan precaution.",
+      "uncommon_words": [
+        "precaution"
+      ],
+      "previously_used_words": [
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'emergency' is not an adjective",
+        "Fourth word 'precaution' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Prevent potential risk measure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "potential"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Respond crisis situation effectively.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "effectively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crisis' is not an adjective",
+        "Fourth word 'effectively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Handle unexpected event flexibility.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Ensure safety security environment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "environment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safety' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Maintain system function properly.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'system' is not an adjective",
+        "Fourth word 'properly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Repair broken equipment timely.",
+      "uncommon_words": [
+        "timely"
+      ],
+      "previously_used_words": [
+        "timely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'timely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Update software version latest.",
+      "uncommon_words": [
+        "latest"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'software' is not an adjective",
+        "Fourth word 'latest' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Implement technical support solution.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "implement",
+        "support",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Troubleshoot complex issue problem.",
+      "uncommon_words": [
+        "troubleshoot"
+      ],
+      "previously_used_words": [
+        "complex",
+        "issue",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'troubleshoot' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Evaluate business performance growth.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "performance",
+        "growth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'business' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Assess financial status stability.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Analyze market trend behavior.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "market"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'market' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Optimize investment portfolio return.",
+      "uncommon_words": [
+        "optimize"
+      ],
+      "previously_used_words": [
+        "optimize"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'optimize' is not a verb",
+        "Second word 'investment' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Plan budget allocation efficiently.",
+      "uncommon_words": [
+        "allocation",
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "plan",
+        "budget",
+        "allocation",
+        "efficiently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'budget' is not an adjective",
+        "Third word 'allocation' is not a noun",
+        "Fourth word 'efficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Develop brand identity strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'brand' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Create marketing campaign promotion.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'marketing' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Increase customer engagement interaction.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increase"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'customer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Improve product quality satisfaction.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "improve",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'product' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Expand service coverage range.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'service' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Innovate technology industry disrupt.",
+      "uncommon_words": [
+        "innovate",
+        "disrupt"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'innovate' is not a verb",
+        "Second word 'technology' is not an adjective",
+        "Fourth word 'disrupt' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Introduce smart solution automation.",
+      "uncommon_words": [
+        "automation"
+      ],
+      "previously_used_words": [
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'automation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Implement digital transformation project.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "implement"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Embrace change trend innovation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "trend",
+        "innovation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'change' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Invest emerging field potential.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "potential"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Focus consumer need market.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "focus",
+        "market"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'consumer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Understand user behavior preference.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "behavior"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'user' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Deliver value product service.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "value",
+        "product",
+        "service"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'value' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Improve customer experience satisfaction.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "improve",
+        "customer",
+        "satisfaction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'customer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Maintain loyal customer base.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "maintain",
+        "customer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Evaluate project progress performance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate",
+        "project",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'project' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Monitor workflow efficiency process.",
+      "uncommon_words": [
+        "workflow"
+      ],
+      "previously_used_words": [
+        "efficiency",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'workflow' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Track goal achievement result.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'goal' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Measure impact success outcome.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "measure",
+        "impact",
+        "success",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impact' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Review feedback improve adjustment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "feedback",
+        "improve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'feedback' is not an adjective",
+        "Third word 'improve' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Plan retirement finance strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plan",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'retirement' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Save emergency fund precaution.",
+      "uncommon_words": [
+        "precaution"
+      ],
+      "previously_used_words": [
+        "emergency",
+        "precaution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'emergency' is not an adjective",
+        "Fourth word 'precaution' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Invest wisely portfolio growth.",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [
+        "invest",
+        "portfolio",
+        "growth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Diversify risk secure asset.",
+      "uncommon_words": [
+        "diversify"
+      ],
+      "previously_used_words": [
+        "risk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diversify' is not a verb",
+        "Second word 'risk' is not an adjective",
+        "Third word 'secure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Manage debt responsible management.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "manage",
+        "management"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'debt' is not an adjective",
+        "Third word 'responsible' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Create financial budget plan.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "financial",
+        "budget",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Track expenditure spending control.",
+      "uncommon_words": [
+        "expenditure"
+      ],
+      "previously_used_words": [
+        "track"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'expenditure' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Increase income source revenue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increase"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'income' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Reduce unnecessary expense saving.",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reduce"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Secure stability future planning.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "stability",
+        "future"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stability' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Develop personal finance management.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "personal",
+        "finance",
+        "management"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Learn investment technique skill.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "investment",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'investment' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Avoid financial trap mistake.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "financial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Plan long-term retirement goal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plan",
+        "retirement",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Maintain credit score health.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "maintain",
+        "health"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'credit' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Follow healthy diet nutrition.",
+      "uncommon_words": [
+        "nutrition"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'nutrition' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Exercise regularly habit fitness.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'regularly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Manage stress mental balance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "manage",
+        "stress",
+        "balance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stress' is not an adjective",
+        "Third word 'mental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Get enough sleep rest.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Maintain overall wellness lifestyle.",
+      "uncommon_words": [
+        "wellness"
+      ],
+      "previously_used_words": [
+        "maintain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'wellness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Improve study technique efficiency.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "improve",
+        "technique",
+        "efficiency"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'study' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Develop critical thinking skill problem-solving.",
+      "uncommon_words": [
+        "problem-solving"
+      ],
+      "previously_used_words": [
+        "develop",
+        "critical",
+        "skill"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Practice time management study schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "time",
+        "management",
+        "study",
+        "schedule"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Focus concentration learning focus.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "focus",
+        "focus"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'concentration' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Enhance memorization ability retention.",
+      "uncommon_words": [
+        "memorization",
+        "retention"
+      ],
+      "previously_used_words": [
+        "enhance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'memorization' is not an adjective",
+        "Fourth word 'retention' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Follow teacher expert instruction.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "follow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'teacher' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Participate actively classroom discussion.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'actively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Study consistent regular routine.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Prepare exam adequate revision.",
+      "uncommon_words": [
+        "revision"
+      ],
+      "previously_used_words": [
+        "prepare",
+        "adequate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'exam' is not an adjective",
+        "Third word 'adequate' is not a noun",
+        "Fourth word 'revision' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Seek help needed support.",
+      "uncommon_words": [
+        "needed"
+      ],
+      "previously_used_words": [
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'help' is not an adjective",
+        "Third word 'needed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Develop social skill communication.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "skill",
+        "communication"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Build personal relationship trust.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "personal",
+        "relationship",
+        "trust"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Manage conflict negotiation resolution.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "manage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'conflict' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Show empathy understanding others.",
+      "uncommon_words": [
+        "empathy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'empathy' is not an adjective",
+        "Fourth word 'others' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Express emotion clarity effectively.",
+      "uncommon_words": [
+        "clarity"
+      ],
+      "previously_used_words": [
+        "effectively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'emotion' is not an adjective",
+        "Third word 'clarity' is not a noun",
+        "Fourth word 'effectively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Improve listening skill conversation.",
+      "uncommon_words": [
+        "listening"
+      ],
+      "previously_used_words": [
+        "improve",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'listening' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Practice speaking language fluency.",
+      "uncommon_words": [
+        "speaking",
+        "fluency"
+      ],
+      "previously_used_words": [
+        "practice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'speaking' is not an adjective",
+        "Fourth word 'fluency' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Develop cultural awareness diversity.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Expand social network acquaintance.",
+      "uncommon_words": [
+        "acquaintance"
+      ],
+      "previously_used_words": [
+        "expand",
+        "social"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'acquaintance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Maintain healthy relationship boundaries.",
+      "uncommon_words": [
+        "boundaries"
+      ],
+      "previously_used_words": [
+        "maintain",
+        "healthy",
+        "relationship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'boundaries' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Plan vacation travel destination.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vacation' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Book flight ticket schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'flight' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Pack necessary luggage essentials.",
+      "uncommon_words": [
+        "luggage",
+        "essentials"
+      ],
+      "previously_used_words": [
+        "necessary"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'luggage' is not a noun",
+        "Fourth word 'essentials' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Explore local culture experience.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "explore",
+        "experience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Enjoy adventure journey fun.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'adventure' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Choose scenic beauty nature spot.",
+      "uncommon_words": [
+        "scenic"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Discover history museum tour.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'history' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Learn new language travel opportunity.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "learn",
+        "language",
+        "travel",
+        "opportunity"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Experience different cuisine\u7f8e\u98df taste.",
+      "uncommon_words": [
+        "cuisine\u7f8e\u98df"
+      ],
+      "previously_used_words": [
+        "experience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cuisine\u7f8e\u98df' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Capture memorable moment photography.",
+      "uncommon_words": [
+        "memorable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'memorable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Develop cooking skill recipe.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cooking' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Follow ingredient instruction precisely.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "follow",
+        "instruction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ingredient' is not an adjective",
+        "Fourth word 'precisely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Experiment flavor combination tasty.",
+      "uncommon_words": [
+        "tasty"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'flavor' is not an adjective",
+        "Fourth word 'tasty' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Plan menu balanced diet.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plan",
+        "diet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'menu' is not an adjective",
+        "Third word 'balanced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Clean kitchen hygiene after-cooking.",
+      "uncommon_words": [
+        "hygiene",
+        "after-cooking"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'kitchen' is not an adjective",
+        "Third word 'hygiene' is not a noun",
+        "Fourth word 'after-cooking' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Use appliance properly method.",
+      "uncommon_words": [
+        "appliance"
+      ],
+      "previously_used_words": [
+        "properly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'appliance' is not an adjective",
+        "Third word 'properly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Practice safety cooking measure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "practice",
+        "safety",
+        "cooking",
+        "measure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safety' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Store food fresh preservation.",
+      "uncommon_words": [
+        "preservation"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'food' is not an adjective",
+        "Third word 'fresh' is not a noun",
+        "Fourth word 'preservation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Recycle material responsible disposal.",
+      "uncommon_words": [
+        "recycle",
+        "disposal"
+      ],
+      "previously_used_words": [
+        "responsible"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'recycle' is not a verb",
+        "Third word 'responsible' is not a noun",
+        "Fourth word 'disposal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Share recipe family friend.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recipe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'recipe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Decorate home aesthetic style.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "home"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Organize space efficient planning.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "efficient",
+        "planning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'space' is not an adjective",
+        "Third word 'efficient' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Update furniture trendy design.",
+      "uncommon_words": [
+        "trendy"
+      ],
+      "previously_used_words": [
+        "update",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'furniture' is not an adjective",
+        "Third word 'trendy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Clean regularly maintenance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clean",
+        "regularly"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "personalize details unique touch.",
+      "uncommon_words": [
+        "personalize",
+        "details"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'personalize' is not a verb",
+        "Second word 'details' is not an adjective",
+        "Third word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Plan party event schedule.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plan",
+        "event",
+        "schedule"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'party' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Prepare food beverage hosting.",
+      "uncommon_words": [
+        "beverage",
+        "hosting"
+      ],
+      "previously_used_words": [
+        "prepare",
+        "food"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'food' is not an adjective",
+        "Third word 'beverage' is not a noun",
+        "Fourth word 'hosting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Arrange seating guest comfort.",
+      "uncommon_words": [
+        "seating"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'seating' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Create joyful atmosphere entertainment.",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [
+        "create"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Manage cleanup post-event.",
+      "uncommon_words": [
+        "cleanup",
+        "post-event"
+      ],
+      "previously_used_words": [
+        "manage"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Develop budget financial plan.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "budget",
+        "financial",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'budget' is not an adjective",
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Track expense income statement.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "track",
+        "expense",
+        "income"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'expense' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Invest wisely portfolio growth.",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [
+        "invest",
+        "wisely",
+        "portfolio",
+        "growth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Avoid unnecessary debt management.",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "avoid",
+        "unnecessary",
+        "debt",
+        "management"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Emergency fund precautionary saving.",
+      "uncommon_words": [
+        "precautionary"
+      ],
+      "previously_used_words": [
+        "emergency",
+        "fund",
+        "saving"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emergency' is not a verb",
+        "Second word 'fund' is not an adjective",
+        "Third word 'precautionary' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Save money efficiently goal.",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "save",
+        "efficiently",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'money' is not an adjective",
+        "Third word 'efficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Avoid impulse purchase spending.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "avoid",
+        "spending"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impulse' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Use credit card responsibly limit.",
+      "uncommon_words": [
+        "responsibly"
+      ],
+      "previously_used_words": [
+        "use",
+        "credit"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Plan long-term investment future.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plan",
+        "long-term",
+        "investment",
+        "future"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Seek financial advice professional consult.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "seek",
+        "financial",
+        "professional"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

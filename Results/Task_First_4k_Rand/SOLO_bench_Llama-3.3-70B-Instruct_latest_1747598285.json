@@ -1,0 +1,97 @@
+{
+  "model": "Llama-3.3-70B-Instruct:latest",
+  "label": "2025-05-18 23:27:26",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_First_4k_Rand/SOLO_bench_raw_Llama-3.3-70B-Instruct_latest_1747598285.txt",
+  "formatted_output_file": "Results/Task_First_4k_Rand/SOLO_bench_Llama-3.3-70B-Instruct_latest_1747598285.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Generate text**: Would you like me to create a story or paragraph using these words?",
+      "uncommon_words": [
+        "**generate",
+        "text**",
+        "paragraph",
+        "using",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Analyze the list**: I could help you identify patterns, categorize the words, or provide statistics about the list.",
+      "uncommon_words": [
+        "**analyze",
+        "list**",
+        "could",
+        "patterns",
+        "categorize",
+        "words"
+      ],
+      "previously_used_words": [
+        "you",
+        "words",
+        "or"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Play word games**: We could play Hangman, Word Association, or Word Scramble using the words on this list.",
+      "uncommon_words": [
+        "**play",
+        "games**",
+        "could",
+        "hangman",
+        "using",
+        "words"
+      ],
+      "previously_used_words": [
+        "could",
+        "or",
+        "using",
+        "the",
+        "words",
+        "list"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Something else**: Please let me know if there's something specific on your mind!",
+      "uncommon_words": [
+        "**something",
+        "else**",
+        "there's"
+      ],
+      "previously_used_words": [
+        "me",
+        "on"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

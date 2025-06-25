@@ -1,0 +1,117 @@
+{
+  "model": "Athene-V2-Chat:latest",
+  "label": "2025-05-16 04:36:44",
+  "total_sentences": 6,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 6,
+  "common_word_failures": 6,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_First_4k/SOLO_bench_raw_Athene-V2-Chat_latest_1747349006.txt",
+  "formatted_output_file": "Results/Task_First_4k/SOLO_bench_Athene-V2-Chat_latest_1747349006.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Modify `createTable` to initially show only the first few letters:**",
+      "uncommon_words": [
+        "**modify",
+        "`createtable`",
+        "letters**"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Update `startGame` to reveal the full word after user input:**",
+      "uncommon_words": [
+        "**update",
+        "`startgame`",
+        "input**"
+      ],
+      "previously_used_words": [
+        "to",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Handle keydown events for Enter press:**",
+      "uncommon_words": [
+        "**handle",
+        "keydown",
+        "events",
+        "press**"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Initial Word Display:**",
+      "uncommon_words": [
+        "**initial",
+        "display**"
+      ],
+      "previously_used_words": [
+        "word"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "**Revealing Full Words:**",
+      "uncommon_words": [
+        "**revealing",
+        "words**"
+      ],
+      "previously_used_words": [
+        "full"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "**Handling Enter Key Press:**",
+      "uncommon_words": [
+        "**handling",
+        "press**"
+      ],
+      "previously_used_words": [
+        "enter",
+        "press**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**handling' is not a verb",
+        "Second word 'enter' is not an adjective",
+        "Fourth word 'press**' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+
+zero
+zip
+zzz
+'''
+
+stop_words = stop_words
+
+def preprocess_text(text):
+    # Convert to lowercase
+    text_lower = text.lower()
+    
+    # Remove URLs and mentions
+    url_pattern = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+' 
+        mention_pattern = r'@\w+'
+        text_no_urls_mentions = re.sub(url_pattern, '', re.sub(mention_pattern, '', text_lower))
+    
+    # Remove punctuation and special characters
+    text_no_punct = re.sub(r'[^\w\s]', '', text_no_urls_mentions)
+    
+    # Tokenize the text
+    words = word_tokenize(text_no_punct)
+    
+    # Remove stop words
+        filtered_words = [word for word in words if not(word in stop_words)]
+    
+    # Lemmatize and stem (we'll assume these are already handled by LDAvis or other libraries, but in practice you might want to do this)
+        # For example, using NLTK's WordNetLemmatizer
+        
+        return ' '.join(filtered_words)
+
+# Assuming the data is read from a CSV file
+df = pd.read_csv('your_data.csv', encoding='latin1')
+
+# Preprocess all texts in the dataframe
+df['Processed Tweets'] = df['Tweets'].apply(preprocess_text)
+
+print(df['Processed Tweets'].head())
+
+if __name__ == "__main__":
+    preprocess_text("This is a test tweet with #hashtags and @mentions, also https://www.example.com for more info.")
+```
+
+### Explanation:
+
+1. **Stop Words List:** A predefined list of stop words is used to filter out common words that do not carry significant meaning.
+
+2. **Text Preprocessing:**
+   - Convert text to lowercase.
+   - Remove URLs and mentions using regular expressions.
+   - Remove punctuation and special characters.
+   - Tokenize the text into individual words.
+   - Remove stop words from the list of tokens.
+   
+3. **Assumptions:**
+   - Lemmatization and stemming are not performed in this code but might be necessary depending on your NLP pipeline requirements.
+
+4. **Reading Data:** Assuming data is loaded from a CSV file using `pd.read_csv`.
+
+5. **Applying Preprocessing:** The preprocessing function is applied to the 'Tweets' column of the DataFrame, and results are stored in a new column 'Processed Tweets'.
+
+6. **Printing Sample Output:** Prints the first few processed tweets to verify correctness.
+
+This code provides a basic starting point for cleaning and preparing Twitter data for further analysis such as topic modeling with LDAvis. Depending on specific needs, additional preprocessing steps like handling emojis, normalizing text, or dealing with slang might be required.

@@ -1,0 +1,60 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-18 14:04:53",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_gemma-3-27b-pt_latest_1747565808.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_gemma-3-27b-pt_latest_1747565808.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The words.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Of words \u201cwith your. Of the words with",
+      "uncommon_words": [
+        "words",
+        "\u201cwith",
+        "words"
+      ],
+      "previously_used_words": [
+        "words",
+        "the",
+        "words"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Stop 197.",
+      "uncommon_words": [
+        "197"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

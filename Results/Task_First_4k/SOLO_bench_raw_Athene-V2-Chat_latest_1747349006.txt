@@ -1,0 +1,300 @@
+
+zoo`
+
+
+  // Split the string into an array of words.
+  const words = longString.split(" ");
+
+
+
+  
+
+  let randomWords = [];
+for (let i = 0; i < 30; i++) {
+    const word = getRandomWord(words);
+  
+    // If word is not already in randomWords, add it to the list
+    if (!randomWords.includes(word)) {
+      randomWords.push(word);
+    } else {
+       // If word is already in randomWords, select another word until a new one is found
+     while (randomWords.includes(word) && words.length > 10 ) { // If there are less than 10 words left, stop trying to find a unique one and just add the duplicate.
+        word = getRandomWord(words);
+      }
+  
+      randomWords.push(word);
+    }
+}
+//console.log(randomWords);
+createTable(randomWords);
+  
+
+
+
+
+
+
+
+
+
+}
+
+function getRandomWord(words){
+    const randomIndex = Math.floor(Math.random() * 80994); 
+     // Select a random word. We need to subtract the index by one because indexing starts at zero.
+const word = words[randomIndex];
+return word;
+}
+// Function to add a new row with input boxes
+function createTable(randomWords) {
+    let tableBody = document.getElementById('table-body');
+    const tbody = document.createElement("tbody");
+    
+
+
+    // Clear any existing rows in the table body
+    tbody.innerHTML = '';
+   
+  let rowIndex = 0;
+while (rowIndex < randomWords.length && rowIndex <=9){
+// Create a new row for every fourth element
+const newRow = document.createElement('tr');
+
+for (let i = 0; i < 3 && rowIndex < randomWords.length; i++) {
+    const word = randomWords[rowIndex + i];
+   
+   //console.log(randomWords[rowIndex] );
+    
+       
+    
+    
+
+// Create a new data cell for the word and input box
+const cell = document.createElement('td');
+//console.log(cell);
+cell.classList.add("align-left");
+
+
+const wordSpan = document.createElement('span');
+
+wordSpan.textContent = word;
+//console.log(wordSpan);
+
+// Append the word to the cell
+  // Make sure each row has its own unique id for the input box so it can be found later using this ID. 
+const randomId= Math.random().toString(36).slice(-8); // Generates a random (usually) id of length 8 characters.
+const inputBox = document.createElement('input');
+inputBox.type = 'text';
+inputBox.className = "align-right";
+inputBox.id='letter_input' + rowIndex; // The rowIndex is used here for generating unique ids
+console.log('letter_input' + rowIndex);
+// cell.appendChild(wordSpan);
+cell.innerHTML = `<span style="display: flex;">${word}</span>`;
+// Append the input box to the cell
+// cell.appendChild(inputBox);
+cell.innerHTML += `<input type="text" id='${randomId}' class='align-right'>`;
+  // Add the cell to the row
+newRow.appendChild(cell); 
+}
+rowIndex +=3; // Move to the next index of the words array.
+tableBody.appendChild(newRow);
+}
+
+    // Append the new row to the table body, otherwise you would need to call createTable again just for the one new row.
+    
+} /*createTable*/
+//Function to check if user input (from input box) matches initial letters of the words on the page. 
+ //This function should be called when the button is clicked or when the user presses enter in the keydown method. In order for this function to work, you need unique ids on each input.
+function startGame(){
+  const submitButton = document.getElementById("submit");
+  submitButton.addEventListener("click", function(event) {
+    // When a key (such as the Enter key) is pressed, an event object containing details about the key and element that triggered it is automatically passed to this function
+    event.preventDefault(); // Prevents default form submission behavior because we are handling the form ourselves in this function.
+
+    // Get all input elements on the page with a specific class name (these should be your letter input boxes)
+    const inputs = document.querySelectorAll('input.align-right');
+
+    // Iterate over each of these inputs:
+    let correctAnswersCount = 0;
+for (const input of inputs) { // The key thing to note here is that this is what allows us to find the specific id for each input, and therefore be able to match it with a specific word. We can then check if the user entered letter(s) in the input box matches the first letter(s) of the word (in this case).  
+       const wordCell = input.parentElement.querySelector('span');
+  const inputLetter= input.value;
+   console.log(inputLetter);
+    let matchingWord;
+// Check adjacent cells to find a <span> element containing the word
+    if (wordCell){
+        // Extract and store the word from its cell.
+        matchingWord = wordCell.textContent.trim();
+        
+       // Check if user's input matches the initial letters of matching words in that cell.  
+       const startingLettersOfMatchingWord = matchingWord.slice(0,2);
+
+       console.log(`word: ${matchingWord}  starting Letters Of Word :${startingLettersOfMatchingWord}`);
+        if (inputLetter.toUpperCase() === startingLettersOfMatchingWord){
+            input.style.backgroundColor = 'green';
+            correctAnswersCount++;
+          // Do something else here when the letters match
+        }else{
+         input.style.backgroundColor="red";
+        }
+    }
+
+  
+}
+const feedbackElement= document.getElementById('feedback');
+if(correctAnswersCount === inputs.length){feedbackElement.textContent='Correct'};
+   });
+}
+
+loadWords();
+startGame();
+});
+})();
+
+
+
+I believe your function startGame() already checks for the initial two-letter match. However, if I want to have it so that when the page loads only part of the words are initially displayed (for example, just the first two letters) and then after a user enters their input, the rest of the word is revealed on click of submit or keydown Enter for feedback, how would I modify this code?
+To achieve the functionality where only the initial few letters of each word are shown at page load, and the full words are revealed after user input (either by clicking the submit button or pressing Enter), you can make several modifications to your existing code. Here’s a step-by-step guide:
+
+1. **Modify `createTable` to initially show only the first few letters:**
+   - Change the content of the `<span>` element to display only the first two letters.
+   - Store the full word in a data attribute for later use.
+
+2. **Update `startGame` to reveal the full word after user input:**
+   - Check if the user's input matches the initial letters.
+   - If it matches, reveal the full word by updating the content of the `<span>` element using the stored full word from the data attribute.
+
+3. **Handle keydown events for Enter press:**
+   - Add an event listener to the input fields to handle the Enter key and trigger the same check as the submit button click.
+
+Here’s the updated code:
+
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+    const longString = `... [your long string of words] ...`;
+
+    // Split the string into an array of words.
+    const words = longString.split(" ");
+
+    let randomWords = [];
+    for (let i = 0; i < 30; i++) {
+        const word = getRandomWord(words);
+
+        // If word is not already in randomWords, add it to the list
+        if (!randomWords.includes(word)) {
+            randomWords.push(word);
+        } else {
+            while (randomWords.includes(word) && words.length > 10) {
+                word = getRandomWord(words);
+            }
+            randomWords.push(word);
+        }
+    }
+
+    createTable(randomWords);
+
+    function getRandomWord(words) {
+        const randomIndex = Math.floor(Math.random() * words.length); 
+        return words[randomIndex];
+    }
+
+    // Function to add a new row with input boxes
+    function createTable(randomWords) {
+        let tableBody = document.getElementById('table-body');
+        tableBody.innerHTML = ''; // Clear any existing rows in the table body
+
+        let rowIndex = 0;
+        while (rowIndex < randomWords.length && rowIndex <= 9) {
+            const newRow = document.createElement('tr');
+
+            for (let i = 0; i < 3 && rowIndex < randomWords.length; i++) {
+                const word = randomWords[rowIndex + i];
+                const cell = document.createElement('td');
+                cell.classList.add("align-left");
+
+                // Create a new data cell for the word and input box
+                const wordSpan = document.createElement('span');
+                wordSpan.textContent = word.slice(0, 2); // Display only the first two letters initially
+                wordSpan.dataset.fullWord = word; // Store the full word in a data attribute
+
+                cell.appendChild(wordSpan);
+
+                // Create an input box for the user to enter their guess
+                const randomId = Math.random().toString(36).slice(-8);
+                const inputBox = document.createElement('input');
+                inputBox.type = 'text';
+                inputBox.className = "align-right";
+                inputBox.id = 'letter_input' + rowIndex;
+                cell.appendChild(inputBox);
+
+                newRow.appendChild(cell);
+            }
+            rowIndex += 3; // Move to the next index of the words array.
+            tableBody.appendChild(newRow);
+        }
+    }
+
+    // Function to check user input and reveal full words
+    function startGame() {
+        const submitButton = document.getElementById("submit");
+        submitButton.addEventListener("click", checkInputs);
+
+        // Add keydown event listener for Enter key
+        document.querySelectorAll('input.align-right').forEach(input => {
+            input.addEventListener('keydown', function (event) {
+                if (event.key === 'Enter') {
+                    checkInputs();
+                }
+            });
+        });
+
+        function checkInputs(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const inputs = document.querySelectorAll('input.align-right');
+            let correctAnswersCount = 0;
+
+            for (const input of inputs) {
+                const wordCell = input.parentElement.querySelector('span');
+                const inputLetter = input.value.toUpperCase();
+                const fullWord = wordCell.dataset.fullWord;
+
+                if (fullWord && inputLetter === fullWord.slice(0, 2)) {
+                    input.style.backgroundColor = 'green';
+                    correctAnswersCount++;
+                    wordCell.textContent = fullWord; // Reveal the full word
+                } else {
+                    input.style.backgroundColor = "red";
+                }
+            }
+
+            const feedbackElement = document.getElementById('feedback');
+            if (correctAnswersCount === inputs.length) {
+                feedbackElement.textContent = 'Correct';
+            } else {
+                feedbackElement.textContent = ''; // Clear feedback if not all answers are correct
+            }
+        }
+    }
+
+    loadWords();
+    startGame();
+
+    function loadWords() {
+        createTable(randomWords);
+    }
+});
+```
+
+### Explanation of Changes:
+1. **Initial Word Display:**
+   - In `createTable`, the `<span>` element is created to display only the first two letters of each word using `word.slice(0, 2)`.
+   - The full word is stored in a data attribute (`data-full-word`) for later use.
+
+2. **Revealing Full Words:**
+   - In `checkInputs`, if the user's input matches the first two letters of the word, the full word is revealed by updating the text content of the `<span>` element with the value from `data-full-word`.
+
+3. **Handling Enter Key Press:**
+   - Added a keydown event listener to each input field to trigger the `checkInputs` function when the Enter key is pressed.
+
+This approach ensures that only the first two letters are shown initially, and the full words are revealed after the user enters their input and submits it either by clicking the submit button or pressing Enter.

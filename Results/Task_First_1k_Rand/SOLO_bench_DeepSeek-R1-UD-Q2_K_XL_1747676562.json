@@ -1,0 +1,5738 @@
+{
+  "model": "DeepSeek-R1-UD-Q2_K_XL",
+  "label": "2025-05-19 21:02:46",
+  "total_sentences": 297,
+  "perfect_sentences": 10,
+  "score_percentage": 3.3670033670033668,
+  "word_count_failures": 17,
+  "format_failures": 133,
+  "common_word_failures": 113,
+  "word_reuse_failures": 280,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_DeepSeek-R1-UD-Q2_K_XL_1747676562.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_DeepSeek-R1-UD-Q2_K_XL_1747676562.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Toss illegal traffic vessel.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Convince mutual star system.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Plunge French ocean marble.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Engage crucial breakfast match.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Post weak home clue.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Preach aggressive inner peace.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'inner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Persist violent soccer protest.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Greet overwhelming Christmas joy.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Dissolve annual coal camp.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Emerge romantic dinner exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Capture curious naval mystery. (Wait, \"capture\" isn't in the verb list. Let me check. The verbs include \"catch,\" so maybe \"Catch curious naval mystery.\" But \"catch\" is a verb. Okay.",
+      "uncommon_words": [
+        "(wait",
+        "\"capture\"",
+        "isn't",
+        "verb",
+        "verbs",
+        "\"catch\"",
+        "\"catch",
+        "mystery\"",
+        "\"catch\"",
+        "is",
+        "verb"
+      ],
+      "previously_used_words": [],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Diagnose mental health crisis. (But \"mental\" isn't an adjective here. The adjectives include \"mentally,\" but that's an adverb. Hmm. Maybe \"Diagnose mental health crisis\" isn't valid. Need to check adjectives. The adjectives list includes \"violent,\" \"weak,\" \"French,\" \"aggressive,\" etc. So maybe \"Diagnose weak health crisis.\" But \"health\" isn't in the nouns. Wait, the nouns include \"crisis,\" \"health\" isn't there. Let me check. The nouns are like \"crisis,\" \"clue,\" \"home,\" etc. So maybe \"Diagnose weak lung cancer.\" But \"lung\" isn't in the list. Hmm, this is tricky.",
+      "uncommon_words": [
+        "(but",
+        "\"mental\"",
+        "isn't",
+        "an",
+        "adjective",
+        "adjectives",
+        "\"mentally\"",
+        "that's",
+        "an",
+        "adverb",
+        "hmm",
+        "\"diagnose",
+        "crisis\"",
+        "isn't",
+        "adjectives",
+        "adjectives",
+        "includes",
+        "\"violent\"",
+        "\"weak\"",
+        "\"french\"",
+        "\"aggressive\"",
+        "\"diagnose",
+        "crisis\"",
+        "\"health\"",
+        "isn't",
+        "nouns",
+        "nouns",
+        "\"crisis\"",
+        "\"health\"",
+        "isn't",
+        "nouns",
+        "are",
+        "\"crisis\"",
+        "\"clue\"",
+        "\"home\"",
+        "\"diagnose",
+        "cancer\"",
+        "\"lung\"",
+        "isn't",
+        "hmm",
+        "is",
+        "tricky"
+      ],
+      "previously_used_words": [
+        "isn't",
+        "the",
+        "include",
+        "but",
+        "maybe",
+        "isn't",
+        "check",
+        "the",
+        "list",
+        "so",
+        "maybe",
+        "weak",
+        "but",
+        "isn't",
+        "in",
+        "the",
+        "the",
+        "include",
+        "isn't",
+        "let",
+        "me",
+        "check",
+        "the",
+        "so",
+        "maybe",
+        "weak",
+        "but",
+        "isn't",
+        "in",
+        "the",
+        "list",
+        "is"
+      ],
+      "word_count": 86,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Toss illegal traffic vessel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "illegal",
+        "traffic",
+        "vessel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Convince mutual star system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince",
+        "mutual",
+        "star",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Plunge French ocean marble.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plunge",
+        "french",
+        "ocean",
+        "marble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Engage crucial breakfast match.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "engage",
+        "crucial",
+        "breakfast",
+        "match"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Post weak home clue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "post",
+        "weak",
+        "home",
+        "clue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Preach aggressive inner peace.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "preach",
+        "aggressive",
+        "inner",
+        "peace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'inner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Persist violent soccer protest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "persist",
+        "violent",
+        "soccer",
+        "protest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Greet overwhelming Christmas joy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "greet",
+        "overwhelming",
+        "christmas",
+        "joy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Dissolve annual coal camp.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dissolve",
+        "annual",
+        "coal",
+        "camp"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Emerge romantic dining exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "romantic",
+        "exhibition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Capture curious naval mystery.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "curious",
+        "naval",
+        "mystery"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'naval' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Diagnose weak lung crisis.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diagnose",
+        "weak",
+        "lung",
+        "crisis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Submit crucial political proposal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "crucial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Whip aggressive silver pillow.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Blend creative solar panel.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Sustain tropical bamboo growth.",
+      "uncommon_words": [
+        "bamboo"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bamboo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Reflect considerable mental effort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mental"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'mental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Arrange historical ceramic artifacts.",
+      "uncommon_words": [
+        "ceramic",
+        "artifacts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ceramic' is not a noun",
+        "Fourth word 'artifacts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Quilt delicate feather blanket.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Toss illegal traffic vessel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "illegal",
+        "traffic",
+        "vessel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Convince mutual star system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince",
+        "mutual",
+        "star",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Plunge French ocean marble.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plunge",
+        "french",
+        "ocean",
+        "marble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Engage crucial breakfast match.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "engage",
+        "crucial",
+        "breakfast",
+        "match"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Post weak home clue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "post",
+        "weak",
+        "home",
+        "clue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Preach aggressive inner peace.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "preach",
+        "aggressive",
+        "inner",
+        "peace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'inner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Persist violent soccer protest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "persist",
+        "violent",
+        "soccer",
+        "protest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Greet overwhelming Christmas joy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "greet",
+        "overwhelming",
+        "christmas",
+        "joy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Dissolve annual coal camp.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dissolve",
+        "annual",
+        "coal",
+        "camp"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Emerge romantic dining exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "romantic",
+        "dining",
+        "exhibition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Capture curious naval mystery.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "curious",
+        "naval",
+        "mystery"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'naval' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Diagnose weak lung crisis.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diagnose",
+        "weak",
+        "lung",
+        "crisis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Submit crucial political proposal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "submit",
+        "crucial",
+        "political",
+        "proposal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Whip aggressive silver pillow.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "whip",
+        "aggressive",
+        "silver",
+        "pillow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Blend creative feather pillow.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blend",
+        "creative",
+        "feather",
+        "pillow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Sustain tropical bamboo growth.",
+      "uncommon_words": [
+        "bamboo"
+      ],
+      "previously_used_words": [
+        "sustain",
+        "tropical",
+        "bamboo",
+        "growth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bamboo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Reflect considerable mental effort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "considerable",
+        "mental",
+        "effort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'mental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Arrange historical ceramic artifacts.",
+      "uncommon_words": [
+        "ceramic",
+        "artifacts"
+      ],
+      "previously_used_words": [
+        "arrange",
+        "historical",
+        "ceramic",
+        "artifacts"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ceramic' is not a noun",
+        "Fourth word 'artifacts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Quilt delicate solar light.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Toss illegal traffic vessel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "illegal",
+        "traffic",
+        "vessel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Convince mutual star system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince",
+        "mutual",
+        "star",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Plunge French ocean marble.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plunge",
+        "french",
+        "ocean",
+        "marble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Engage crucial breakfast match.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "engage",
+        "crucial",
+        "breakfast",
+        "match"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Post weak home clue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "post",
+        "weak",
+        "home",
+        "clue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Preach aggressive inner peace.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "preach",
+        "aggressive",
+        "inner",
+        "peace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'inner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Persist violent soccer protest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "persist",
+        "violent",
+        "soccer",
+        "protest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Greet overwhelming Christmas joy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "greet",
+        "overwhelming",
+        "christmas",
+        "joy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Dissolve annual coal camp.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dissolve",
+        "annual",
+        "coal",
+        "camp"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Emerge romantic dining exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "romantic",
+        "dining",
+        "exhibition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Capture curious naval mystery.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "curious",
+        "naval",
+        "mystery"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'naval' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Diagnose weak lung crisis.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diagnose",
+        "weak",
+        "lung",
+        "crisis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Submit crucial political proposal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "submit",
+        "crucial",
+        "political",
+        "proposal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Whip aggressive silver pillow.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "whip",
+        "aggressive",
+        "silver",
+        "pillow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Blend creative solar light.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blend",
+        "creative",
+        "solar",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Sustain tropical bamboo growth. (But \"bamboo\" not in list)",
+      "uncommon_words": [
+        "bamboo",
+        "(but",
+        "\"bamboo\"",
+        "list)"
+      ],
+      "previously_used_words": [
+        "sustain",
+        "tropical",
+        "bamboo",
+        "growth",
+        "(but",
+        "in"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Sustain tropical fruit growth.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sustain",
+        "tropical",
+        "growth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Reflect considerable mental effort. (\"mental\" not an adjective)",
+      "uncommon_words": [
+        "(\"mental\"",
+        "an",
+        "adjective)"
+      ],
+      "previously_used_words": [
+        "reflect",
+        "considerable",
+        "mental",
+        "effort",
+        "not",
+        "an"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Reflect considerable effort progress.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "considerable",
+        "effort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Arrange historical ceramic artifacts. (\"ceramic\" not in list)",
+      "uncommon_words": [
+        "ceramic",
+        "artifacts",
+        "(\"ceramic\"",
+        "list)"
+      ],
+      "previously_used_words": [
+        "arrange",
+        "historical",
+        "ceramic",
+        "artifacts",
+        "not",
+        "in",
+        "list)"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Arrange historical artifact exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "arrange",
+        "historical",
+        "exhibition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Quilt delicate solar light. (\"quilt\" not a verb here; \"quilt\" is a noun. The verbs include \"quilt\"? Let me check. The verb list: \"quilt\" isn't present. So invalid.",
+      "uncommon_words": [
+        "quilt",
+        "(\"quilt\"",
+        "verb",
+        "\"quilt\"",
+        "is",
+        "noun",
+        "verbs",
+        "\"quilt\"",
+        "verb",
+        "\"quilt\"",
+        "isn't",
+        "invalid"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "light",
+        "not",
+        "a",
+        "verb",
+        "here",
+        "is",
+        "a",
+        "the",
+        "verbs",
+        "include",
+        "let",
+        "me",
+        "check",
+        "the",
+        "verb",
+        "list",
+        "isn't",
+        "so"
+      ],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Weave delicate solar light.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "delicate",
+        "solar",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Harvest ripe wheat field. (\"harvest\" not a verb in the list. The verbs include \"harvest\"? No, check the word list. The verbs include \"toss\", \"convince\", etc. \"Harvest\" isn't there. So invalid.",
+      "uncommon_words": [
+        "ripe",
+        "(\"harvest\"",
+        "verb",
+        "verbs",
+        "\"harvest\"",
+        "verbs",
+        "\"toss\"",
+        "\"convince\"",
+        "\"harvest\"",
+        "isn't",
+        "invalid"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field",
+        "not",
+        "a",
+        "verb",
+        "in",
+        "the",
+        "list",
+        "the",
+        "verbs",
+        "include",
+        "check",
+        "the",
+        "list",
+        "the",
+        "verbs",
+        "include",
+        "etc",
+        "isn't",
+        "there",
+        "so",
+        "invalid"
+      ],
+      "word_count": 31,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Scan digital library archive. (\"Scan\" not a verb in the list)",
+      "uncommon_words": [
+        "archive",
+        "(\"scan\"",
+        "verb",
+        "list)"
+      ],
+      "previously_used_words": [
+        "not",
+        "a",
+        "verb",
+        "in",
+        "the",
+        "list)"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Scan isn't available. Next: \"Bake fresh bread loaf.\" But \"bake\" not in verbs. Use \"Bake\" isn't present. Next verb: \"Blink\". \"Blink\" is a verb. So \"Blink rapid eye movement.\" \"Rapid\" is an adjective, \"eye\" and \"movement\" \u2013 but \"eye\" isn't in the nouns. The nouns include \"eyebrow\", \"eye\" isn't there. So adjust: \"Blink rapid eyelid movement.\" Not in the list. Maybe \"Blink rapid light pulse.\" \"Light\" and \"pulse\" are nouns. \"Rapid\" is an adjective.",
+      "uncommon_words": [
+        "isn't",
+        "\"bake",
+        "loaf\"",
+        "\"bake\"",
+        "verbs",
+        "\"bake\"",
+        "isn't",
+        "verb",
+        "\"blink\"",
+        "\"blink\"",
+        "is",
+        "verb",
+        "\"blink",
+        "movement\"",
+        "\"rapid\"",
+        "is",
+        "an",
+        "adjective",
+        "\"eye\"",
+        "\"movement\"",
+        "\u2013",
+        "\"eye\"",
+        "isn't",
+        "nouns",
+        "nouns",
+        "\"eyebrow\"",
+        "\"eye\"",
+        "isn't",
+        "\"blink",
+        "eyelid",
+        "movement\"",
+        "\"blink",
+        "pulse\"",
+        "\"light\"",
+        "\"pulse\"",
+        "are",
+        "nouns",
+        "\"rapid\"",
+        "is",
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "scan",
+        "isn't",
+        "but",
+        "not",
+        "in",
+        "verbs",
+        "isn't",
+        "present",
+        "verb",
+        "is",
+        "a",
+        "verb",
+        "so",
+        "is",
+        "an",
+        "adjective",
+        "but",
+        "isn't",
+        "in",
+        "the",
+        "nouns",
+        "the",
+        "nouns",
+        "include",
+        "isn't",
+        "there",
+        "so",
+        "not",
+        "in",
+        "the",
+        "list",
+        "maybe",
+        "light",
+        "are",
+        "nouns",
+        "is",
+        "an",
+        "adjective"
+      ],
+      "word_count": 74,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Blink rapid light pulse.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "rapid",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Spin spiritual solar panel. \"Spin\" is a verb, \"spiritual\" adjective, \"solar\" and \"panel\" \u2013 but \"panel\" not in list. Replace: \"Spin spiritual solar energy.\" \"Energy\" not present. Alternative: \"Spin spiritual light beam.\" No. Maybe \"Spin spiritual light show.\" Not in list. Hmm. Let's try another combination: \"Spin spiritual light wave.\" \"Wave\" is a noun.",
+      "uncommon_words": [
+        "\"spin\"",
+        "is",
+        "verb",
+        "\"spiritual\"",
+        "adjective",
+        "\"solar\"",
+        "\"panel\"",
+        "\u2013",
+        "\"panel\"",
+        "\"spin",
+        "energy\"",
+        "\"energy\"",
+        "\"spin",
+        "beam\"",
+        "\"spin",
+        "show\"",
+        "hmm",
+        "let's",
+        "\"spin",
+        "wave\"",
+        "\"wave\"",
+        "is",
+        "noun"
+      ],
+      "previously_used_words": [
+        "solar",
+        "panel",
+        "is",
+        "a",
+        "verb",
+        "adjective",
+        "and",
+        "\u2013",
+        "but",
+        "not",
+        "in",
+        "list",
+        "solar",
+        "not",
+        "present",
+        "light",
+        "no",
+        "maybe",
+        "light",
+        "not",
+        "in",
+        "list",
+        "hmm",
+        "light",
+        "is",
+        "a",
+        "noun"
+      ],
+      "word_count": 54,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Fold neat paper crane. \"Fold\" is a verb? Not in the list. Use \"Fold\" isn't present. Next verb: \"Fold\" not available. Use \"Weave\" again, but already used. Alternatively, \"Print neat paper document.\" \"Print\" isn't a verb. The verbs include \"print\"? No. Next verb: \"Press\". \"Press\" is a verb. \"Press neat paper document.\" \"Neat\" is an adjective, \"paper\" and \"document\" are nouns.",
+      "uncommon_words": [
+        "crane",
+        "\"fold\"",
+        "is",
+        "verb",
+        "\"fold\"",
+        "isn't",
+        "verb",
+        "\"fold\"",
+        "\"weave\"",
+        "alternatively",
+        "\"print",
+        "document\"",
+        "\"print\"",
+        "isn't",
+        "verb",
+        "verbs",
+        "\"print\"",
+        "verb",
+        "\"press\"",
+        "\"press\"",
+        "is",
+        "verb",
+        "\"press",
+        "document\"",
+        "\"neat\"",
+        "is",
+        "an",
+        "adjective",
+        "\"paper\"",
+        "\"document\"",
+        "are",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "is",
+        "a",
+        "verb",
+        "not",
+        "in",
+        "the",
+        "list",
+        "use",
+        "isn't",
+        "present",
+        "next",
+        "verb",
+        "not",
+        "available",
+        "use",
+        "but",
+        "isn't",
+        "a",
+        "verb",
+        "the",
+        "verbs",
+        "include",
+        "no",
+        "next",
+        "verb",
+        "is",
+        "a",
+        "verb",
+        "is",
+        "an",
+        "adjective",
+        "and",
+        "are",
+        "nouns"
+      ],
+      "word_count": 61,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Press neat paper document.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "neat",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Sail calm ocean breeze. \"Sail\" isn't a verb. Use \"Sail\" not in the list. Next verb: \"Sail\" not present. Use \"Navigate\". Not in list. Alternative: \"Row calm ocean wave.\" \"Row\" is a verb, \"calm\" adjective, \"ocean\" and \"wave\" nouns.",
+      "uncommon_words": [
+        "\"sail\"",
+        "isn't",
+        "verb",
+        "\"sail\"",
+        "verb",
+        "\"sail\"",
+        "\"navigate\"",
+        "\"row",
+        "wave\"",
+        "\"row\"",
+        "is",
+        "verb",
+        "\"calm\"",
+        "adjective",
+        "\"ocean\"",
+        "\"wave\"",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "ocean",
+        "isn't",
+        "a",
+        "verb",
+        "use",
+        "not",
+        "in",
+        "the",
+        "list",
+        "next",
+        "verb",
+        "not",
+        "present",
+        "use",
+        "not",
+        "in",
+        "list",
+        "alternative",
+        "ocean",
+        "wave\"",
+        "is",
+        "a",
+        "verb",
+        "adjective",
+        "and",
+        "\"wave\"",
+        "nouns"
+      ],
+      "word_count": 39,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Row calm ocean wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "calm",
+        "ocean",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Jump high mountain peak. \"Jump\" not a verb. Use \"Jump\" not in list. Next verb: \"Jump\" not available. Use \"Leap\". Not present. Alternative: \"Climb high mountain peak.\" \"Climb\" not in verbs. Use \"Ascend\". Not in list. Next verb: \"Mount\". \"Mount\" is a verb. \"Mount high mountain peak.\" \"High\" is adjective, \"mountain\" and \"peak\" \u2013 \"peak\" not in list. Maybe \"Mount high mountain slope.\" \"Slope\" not present. Alternative: \"Mount high mountain bike.\" \"Bike\" is a noun.",
+      "uncommon_words": [
+        "\"jump\"",
+        "verb",
+        "\"jump\"",
+        "verb",
+        "\"jump\"",
+        "\"leap\"",
+        "\"climb",
+        "peak\"",
+        "\"climb\"",
+        "verbs",
+        "\"ascend\"",
+        "verb",
+        "\"mount\"",
+        "\"mount\"",
+        "is",
+        "verb",
+        "\"mount",
+        "peak\"",
+        "\"high\"",
+        "is",
+        "adjective",
+        "\"mountain\"",
+        "\"peak\"",
+        "\u2013",
+        "\"peak\"",
+        "\"mount",
+        "slope\"",
+        "\"slope\"",
+        "\"mount",
+        "bike\"",
+        "\"bike\"",
+        "is",
+        "noun"
+      ],
+      "previously_used_words": [
+        "not",
+        "a",
+        "verb",
+        "use",
+        "not",
+        "in",
+        "list",
+        "next",
+        "verb",
+        "not",
+        "available",
+        "use",
+        "not",
+        "present",
+        "alternative",
+        "not",
+        "in",
+        "verbs",
+        "use",
+        "not",
+        "in",
+        "list",
+        "next",
+        "verb",
+        "is",
+        "a",
+        "verb",
+        "is",
+        "adjective",
+        "and",
+        "\u2013",
+        "not",
+        "in",
+        "list",
+        "maybe",
+        "not",
+        "present",
+        "alternative",
+        "is",
+        "a",
+        "noun"
+      ],
+      "word_count": 75,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Mount high mountain bike.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "high",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Drink cold water bottle. \"Drink\" not a verb. Use \"Drink\" not in list. Next verb: \"Sip\". Not present. Use \"Pour\". \"Pour\" is a verb. \"Pour cold water bottle.\" \"Cold\" is adjective, \"water\" and \"bottle\" are nouns.",
+      "uncommon_words": [
+        "\"drink\"",
+        "verb",
+        "\"drink\"",
+        "verb",
+        "\"sip\"",
+        "\"pour\"",
+        "\"pour\"",
+        "is",
+        "verb",
+        "\"pour",
+        "bottle\"",
+        "\"cold\"",
+        "is",
+        "adjective",
+        "\"water\"",
+        "\"bottle\"",
+        "are",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "not",
+        "a",
+        "verb",
+        "use",
+        "not",
+        "in",
+        "list",
+        "next",
+        "verb",
+        "not",
+        "present",
+        "use",
+        "is",
+        "a",
+        "verb",
+        "is",
+        "adjective",
+        "and",
+        "are",
+        "nouns"
+      ],
+      "word_count": 36,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Pour cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Drive fast car race. \"Drive\" not a verb. Use \"Drive\" not in list. Use \"Ride\". Not present. Use \"Operate\". Not in list. Use \"Steer\". Not present. Alternative: \"Race fast car event.\" \"Race\" is a verb, \"fast\" adjective, \"car\" and \"event\" nouns. But \"event\" isn't in the list. Replace: \"Race fast car track.\" \"Track\" not present. Alternative: \"Race fast car speed.\" \"Speed\" is a noun.",
+      "uncommon_words": [
+        "\"drive\"",
+        "verb",
+        "\"drive\"",
+        "\"ride\"",
+        "\"operate\"",
+        "\"steer\"",
+        "\"race",
+        "event\"",
+        "\"race\"",
+        "is",
+        "verb",
+        "\"fast\"",
+        "adjective",
+        "\"car\"",
+        "\"event\"",
+        "nouns",
+        "\"event\"",
+        "isn't",
+        "\"race",
+        "track\"",
+        "\"track\"",
+        "\"race",
+        "speed\"",
+        "\"speed\"",
+        "is",
+        "noun"
+      ],
+      "previously_used_words": [
+        "not",
+        "a",
+        "verb",
+        "use",
+        "not",
+        "in",
+        "list",
+        "use",
+        "not",
+        "present",
+        "use",
+        "not",
+        "in",
+        "list",
+        "use",
+        "not",
+        "present",
+        "alternative",
+        "is",
+        "a",
+        "verb",
+        "adjective",
+        "and",
+        "nouns",
+        "but",
+        "isn't",
+        "in",
+        "the",
+        "list",
+        "replace",
+        "not",
+        "present",
+        "alternative",
+        "is",
+        "a",
+        "noun"
+      ],
+      "word_count": 64,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Race fast car speed.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "race",
+        "fast",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Paint bright color mural. \"Paint\" not a verb. Use \"Paint\" not in list. Use \"Draw\". Not present. Use \"Sketch\". Not available. Use \"Create\". \"Create\" is a verb. \"Create bright color mural.\" \"Bright\" is adjective, \"color\" and \"mural\" nouns. \"Color\" is a noun.",
+      "uncommon_words": [
+        "mural",
+        "\"paint\"",
+        "verb",
+        "\"paint\"",
+        "\"draw\"",
+        "\"sketch\"",
+        "\"create\"",
+        "\"create\"",
+        "is",
+        "verb",
+        "\"create",
+        "mural\"",
+        "\"bright\"",
+        "is",
+        "adjective",
+        "\"color\"",
+        "\"mural\"",
+        "nouns",
+        "\"color\"",
+        "is",
+        "noun"
+      ],
+      "previously_used_words": [
+        "not",
+        "a",
+        "verb",
+        "use",
+        "not",
+        "in",
+        "list",
+        "use",
+        "not",
+        "present",
+        "use",
+        "not",
+        "available",
+        "use",
+        "is",
+        "a",
+        "verb",
+        "is",
+        "adjective",
+        "and",
+        "nouns",
+        "is",
+        "a",
+        "noun"
+      ],
+      "word_count": 42,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Create bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Solve complex math problem. \"Solve\" not a verb. Use \"Solve\" not present. Use \"Resolve\". Not in list. Use \"Interpret\". \"Interpret\" is a verb. \"Interpret complex math problem.\" \"Complex\" is adjective, \"math\" and \"problem\" nouns. \"Math\" is short for \"mathematics\", which is in the list.",
+      "uncommon_words": [
+        "\"solve\"",
+        "verb",
+        "\"solve\"",
+        "\"resolve\"",
+        "\"interpret\"",
+        "\"interpret\"",
+        "is",
+        "verb",
+        "\"interpret",
+        "problem\"",
+        "\"complex\"",
+        "is",
+        "adjective",
+        "\"math\"",
+        "\"problem\"",
+        "nouns",
+        "\"math\"",
+        "is",
+        "\"mathematics\"",
+        "is"
+      ],
+      "previously_used_words": [
+        "not",
+        "a",
+        "verb",
+        "use",
+        "not",
+        "present",
+        "use",
+        "not",
+        "in",
+        "list",
+        "use",
+        "is",
+        "a",
+        "verb",
+        "is",
+        "adjective",
+        "and",
+        "nouns",
+        "is",
+        "is",
+        "in",
+        "the",
+        "list"
+      ],
+      "word_count": 44,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Interpret complex mathematics problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Toss illegal traffic vessel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss",
+        "illegal",
+        "traffic",
+        "vessel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Convince mutual star system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince",
+        "mutual",
+        "star",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Plunge French ocean marble.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plunge",
+        "french",
+        "ocean",
+        "marble"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Engage crucial breakfast match.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "engage",
+        "crucial",
+        "breakfast",
+        "match"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Post weak home clue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "post",
+        "weak",
+        "home",
+        "clue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Preach aggressive inner peace.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "preach",
+        "aggressive",
+        "inner",
+        "peace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'inner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Persist violent soccer protest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "persist",
+        "violent",
+        "soccer",
+        "protest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Greet overwhelming Christmas joy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "greet",
+        "overwhelming",
+        "christmas",
+        "joy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Dissolve annual coal camp.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dissolve",
+        "annual",
+        "coal",
+        "camp"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Emerge romantic dining exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "romantic",
+        "dining",
+        "exhibition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Capture curious naval mystery.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "capture",
+        "curious",
+        "naval",
+        "mystery"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'naval' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Diagnose weak lung crisis.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diagnose",
+        "weak",
+        "lung",
+        "crisis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Submit crucial political proposal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "submit",
+        "crucial",
+        "political",
+        "proposal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Whip aggressive silver pillow.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "whip",
+        "aggressive",
+        "silver",
+        "pillow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Blend creative solar light.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blend",
+        "creative",
+        "solar",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Sustain tropical fruit growth.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sustain",
+        "tropical",
+        "fruit",
+        "growth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Reflect considerable effort progress.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reflect",
+        "considerable",
+        "effort",
+        "progress"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Arrange historical artifact exhibition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "arrange",
+        "historical",
+        "artifact",
+        "exhibition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Weave delicate solar beam.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "weave",
+        "delicate",
+        "solar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Press neat paper document.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "press",
+        "neat",
+        "paper",
+        "document"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Row calm ocean wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "row",
+        "calm",
+        "ocean",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Mount high mountain bike.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mount",
+        "high",
+        "mountain",
+        "bike"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Pour cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "pour",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Race fast car speed.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "race",
+        "fast",
+        "car",
+        "speed"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Create bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "create",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Interpret complex mathematics problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "interpret",
+        "complex",
+        "mathematics",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "fresh",
+        "bread"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 201,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 202,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 203,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 204,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 205,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 206,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 207,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 208,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 209,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 210,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 211,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 212,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 213,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 214,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 215,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 216,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 217,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 218,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 219,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 220,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 221,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 222,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 223,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 224,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 225,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 226,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 227,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 228,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 229,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 230,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 231,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 232,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 233,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 234,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 235,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 236,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 237,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 238,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 239,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 240,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 241,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 242,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 243,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 244,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 245,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 246,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 247,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 248,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 249,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 250,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 251,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 252,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 253,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 254,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 255,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 256,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 257,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 258,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 259,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 260,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 261,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 262,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 263,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 264,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 265,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 266,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 267,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 268,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 269,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 270,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 271,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 272,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 273,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 274,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 275,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 276,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 277,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 278,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 279,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 280,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 281,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 282,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 283,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 284,
+      "sentence": "Paint bright color mural.",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "bright",
+        "color",
+        "mural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 285,
+      "sentence": "Solve complex math problem.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "math",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 286,
+      "sentence": "Spin spiritual light wave.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spin",
+        "spiritual",
+        "light",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 287,
+      "sentence": "Bake fresh bread loaf.",
+      "uncommon_words": [
+        "loaf"
+      ],
+      "previously_used_words": [
+        "bake",
+        "fresh",
+        "bread",
+        "loaf"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'loaf' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 288,
+      "sentence": "Plant ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "plant",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 289,
+      "sentence": "Quilt delicate solar panel.",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "quilt",
+        "delicate",
+        "solar",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quilt' is not a verb",
+        "Third word 'solar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 290,
+      "sentence": "Harvest ripe wheat field.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "harvest",
+        "ripe",
+        "wheat",
+        "field"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 291,
+      "sentence": "Wrap warm mineral dessert.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "warm",
+        "mineral",
+        "dessert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 292,
+      "sentence": "Scan digital library archive.",
+      "uncommon_words": [
+        "archive"
+      ],
+      "previously_used_words": [
+        "scan",
+        "digital",
+        "library",
+        "archive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 293,
+      "sentence": "Fold neat paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold",
+        "neat",
+        "paper",
+        "crane"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 294,
+      "sentence": "Sail calm ocean breeze.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sail",
+        "calm",
+        "ocean",
+        "breeze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 295,
+      "sentence": "Jump high mountain peak.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "high",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 296,
+      "sentence": "Drink cold water bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "cold",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 297,
+      "sentence": "Drive fast car race.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "fast",
+        "car",
+        "race"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

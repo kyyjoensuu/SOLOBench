@@ -1,0 +1,349 @@
+{
+  "model": "QVQ-72B-Preview:latest",
+  "label": "2025-05-17 07:41:55",
+  "total_sentences": 17,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 13,
+  "format_failures": 17,
+  "common_word_failures": 16,
+  "word_reuse_failures": 13,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_QVQ-72B-Preview_latest_1747455017.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_QVQ-72B-Preview_latest_1747455017.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Verb Adjective Noun A",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verb' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Verb Adjective Noun B",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "noun",
+        "b"
+      ],
+      "previously_used_words": [
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verb' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word 'noun' is not a noun",
+        "Fourth word 'b' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Verb Adjective Noun Z",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "noun",
+        "z"
+      ],
+      "previously_used_words": [
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verb' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word 'noun' is not a noun",
+        "Fourth word 'z' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Use words exactly as they appear in the list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Each word can only be used once.",
+      "uncommon_words": [
+        "can"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Each sentence must follow the structure: verb + adjective + noun A + noun B.",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "b"
+      ],
+      "previously_used_words": [
+        "each",
+        "the",
+        "verb",
+        "adjective",
+        "noun",
+        "a",
+        "noun",
+        "b"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Only 4 words per sentence.",
+      "uncommon_words": [
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "only",
+        "words",
+        "sentence"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "No tools or code allowed.",
+      "uncommon_words": [
+        "tools",
+        "allowed"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Do not output the entire word list.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "word",
+        "list"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Choose a verb: \"reveal\"",
+      "uncommon_words": [
+        "verb",
+        "\"reveal\""
+      ],
+      "previously_used_words": [
+        "a",
+        "verb"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective",
+        "Third word 'verb' is not a noun",
+        "Fourth word '\"reveal\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Choose an adjective that complements the verb: \"hidden\"",
+      "uncommon_words": [
+        "an",
+        "adjective",
+        "complements",
+        "verb",
+        "\"hidden\""
+      ],
+      "previously_used_words": [
+        "choose",
+        "adjective",
+        "the",
+        "verb"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Choose a noun A related to both the verb and adjective: \"treasure\"",
+      "uncommon_words": [
+        "noun",
+        "verb",
+        "adjective",
+        "\"treasure\""
+      ],
+      "previously_used_words": [
+        "choose",
+        "a",
+        "noun",
+        "a",
+        "the",
+        "verb",
+        "adjective"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Choose a noun B that relates to noun A or completes the thought: \"map\"",
+      "uncommon_words": [
+        "noun",
+        "b",
+        "relates",
+        "noun",
+        "completes",
+        "\"map\""
+      ],
+      "previously_used_words": [
+        "choose",
+        "a",
+        "noun",
+        "b",
+        "that",
+        "to",
+        "noun",
+        "a",
+        "or",
+        "the"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Verb: \"explore\"",
+      "uncommon_words": [
+        "verb",
+        "\"explore\""
+      ],
+      "previously_used_words": [
+        "verb"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Adjective: \"ancient\"",
+      "uncommon_words": [
+        "adjective",
+        "\"ancient\""
+      ],
+      "previously_used_words": [
+        "adjective"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Noun A: \"ruins\"",
+      "uncommon_words": [
+        "noun",
+        "\"ruins\""
+      ],
+      "previously_used_words": [
+        "noun",
+        "a"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Noun B: \"secrets\"",
+      "uncommon_words": [
+        "noun",
+        "b",
+        "\"secrets\""
+      ],
+      "previously_used_words": [
+        "noun",
+        "b"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

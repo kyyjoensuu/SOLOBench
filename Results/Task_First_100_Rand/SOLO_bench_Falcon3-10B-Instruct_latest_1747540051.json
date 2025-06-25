@@ -1,0 +1,2280 @@
+{
+  "model": "Falcon3-10B-Instruct:latest",
+  "label": "2025-05-18 07:05:34",
+  "total_sentences": 137,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 89,
+  "format_failures": 137,
+  "common_word_failures": 129,
+  "word_reuse_failures": 87,
+  "raw_output_file": "Results/Task_First_100_Rand/SOLO_bench_raw_Falcon3-10B-Instruct_latest_1747540051.txt",
+  "formatted_output_file": "Results/Task_First_100_Rand/SOLO_bench_Falcon3-10B-Instruct_latest_1747540051.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Relief arrives quickly when the storm passes.",
+      "uncommon_words": [
+        "arrives",
+        "passes"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Random colors blend well in the painting.",
+      "uncommon_words": [
+        "colors"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "News influences public opinion daily.",
+      "uncommon_words": [
+        "influences"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Threshold marks the end of the race.",
+      "uncommon_words": [
+        "marks"
+      ],
+      "previously_used_words": [
+        "the",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Inspector examines clues with care.",
+      "uncommon_words": [
+        "examines",
+        "clues"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Cooperative animals thrive in a pack.",
+      "uncommon_words": [
+        "animals"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Accounting principles require precision.",
+      "uncommon_words": [
+        "principles",
+        "precision"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'principles' is not an adjective",
+        "Third word 'require' is not a noun",
+        "Fourth word 'precision' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Ship sails through calm seas swiftly.",
+      "uncommon_words": [
+        "sails",
+        "seas",
+        "swiftly"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Impression lasts longer than expected.",
+      "uncommon_words": [
+        "lasts",
+        "longer"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Average temperatures fluctuate yearly.",
+      "uncommon_words": [
+        "temperatures",
+        "fluctuate",
+        "yearly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'temperatures' is not an adjective",
+        "Third word 'fluctuate' is not a noun",
+        "Fourth word 'yearly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Differ in taste, yet complement flavors.",
+      "uncommon_words": [
+        "complement",
+        "flavors"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Brown sugar adds depth to baked goods.",
+      "uncommon_words": [
+        "adds",
+        "baked",
+        "goods"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Game features exciting storylines.",
+      "uncommon_words": [
+        "features",
+        "storylines"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'features' is not an adjective",
+        "Third word 'exciting' is not a noun",
+        "Fourth word 'storylines' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Reason justifies the action taken.",
+      "uncommon_words": [
+        "justifies",
+        "taken"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Sanction is imposed for violation.",
+      "uncommon_words": [
+        "is",
+        "imposed"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Giant sequoias dominate the forest.",
+      "uncommon_words": [
+        "sequoias"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Unexpected guests arrive at the party.",
+      "uncommon_words": [
+        "guests"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Theme park captivates visitors.",
+      "uncommon_words": [
+        "captivates",
+        "visitors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'park' is not an adjective",
+        "Third word 'captivates' is not a noun",
+        "Fourth word 'visitors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Post office processes mail efficiently.",
+      "uncommon_words": [
+        "processes",
+        "efficiently"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Move quickly before opportunity disappears.",
+      "uncommon_words": [
+        "disappears"
+      ],
+      "previously_used_words": [
+        "quickly"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Cheap deal attracts many customers.",
+      "uncommon_words": [
+        "attracts",
+        "customers"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Eleven-year-old children explore creatively.",
+      "uncommon_words": [
+        "eleven-year-old",
+        "children",
+        "creatively"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'eleven-year-old' is not a verb",
+        "Second word 'children' is not an adjective",
+        "Third word 'explore' is not a noun",
+        "Fourth word 'creatively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Off-road vehicles traverse rugged terrain.",
+      "uncommon_words": [
+        "off-road",
+        "vehicles",
+        "traverse",
+        "rugged"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Car accident leaves people shaken.",
+      "uncommon_words": [
+        "leaves",
+        "shaken"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Bias affects fair decision-making.",
+      "uncommon_words": [
+        "affects",
+        "decision-making"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'affects' is not an adjective",
+        "Fourth word 'decision-making' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Sustain effort to achieve goals.",
+      "uncommon_words": [
+        "goals"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Tolerate noise during construction.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'noise' is not an adjective",
+        "Third word 'during' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Context is crucial for understanding.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "is",
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Invite strangers warmly to the event.",
+      "uncommon_words": [
+        "strangers",
+        "warmly"
+      ],
+      "previously_used_words": [
+        "to",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Arrow hit its target perfectly.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Guarantee satisfaction with the product.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "with",
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Novel idea sparks excitement.",
+      "uncommon_words": [
+        "sparks"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'novel' is not a verb",
+        "Second word 'idea' is not an adjective",
+        "Third word 'sparks' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Partly cloudy skies prevail today.",
+      "uncommon_words": [
+        "cloudy",
+        "skies"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Height of the building is impressive.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "of",
+        "the",
+        "is"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Bloody nose results from the fall.",
+      "uncommon_words": [
+        "results"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Tall trees block the skyline view.",
+      "uncommon_words": [
+        "trees",
+        "skyline"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Former student excels in exams.",
+      "uncommon_words": [
+        "excels",
+        "exams"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Wherever you go, take memories.",
+      "uncommon_words": [
+        "memories"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Penalty is imposed for misconduct.",
+      "uncommon_words": [
+        "is",
+        "imposed",
+        "misconduct"
+      ],
+      "previously_used_words": [
+        "is",
+        "imposed",
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Iraqi cuisine is rich and flavorful.",
+      "uncommon_words": [
+        "cuisine",
+        "is",
+        "flavorful"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Know the rules for winning.",
+      "uncommon_words": [
+        "rules",
+        "winning"
+      ],
+      "previously_used_words": [
+        "the",
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Voting rights are essential freedoms.",
+      "uncommon_words": [
+        "rights",
+        "are",
+        "freedoms"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Lend a hand to those in need.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a",
+        "to",
+        "in"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Criticism of art can be insightful.",
+      "uncommon_words": [
+        "can",
+        "insightful"
+      ],
+      "previously_used_words": [
+        "of"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Size matters in fitting clothes.",
+      "uncommon_words": [
+        "matters",
+        "fitting"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Substantial earnings improve lives.",
+      "uncommon_words": [
+        "lives"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'substantial' is not a verb",
+        "Second word 'earnings' is not an adjective",
+        "Third word 'improve' is not a noun",
+        "Fourth word 'lives' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Something unexpected happened suddenly.",
+      "uncommon_words": [
+        "happened"
+      ],
+      "previously_used_words": [
+        "unexpected"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'something' is not a verb",
+        "Third word 'happened' is not a noun",
+        "Fourth word 'suddenly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Finding treasures is fun.",
+      "uncommon_words": [
+        "treasures",
+        "is"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'treasures' is not an adjective",
+        "Third word 'is' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Hostile forces invade the land.",
+      "uncommon_words": [
+        "forces"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Lawmaker drafts new legislation.",
+      "uncommon_words": [
+        "drafts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'lawmaker' is not a verb",
+        "Second word 'drafts' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Ought to respect all people.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "to",
+        "people"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Feed hungry strays at the park.",
+      "uncommon_words": [
+        "strays"
+      ],
+      "previously_used_words": [
+        "at",
+        "the",
+        "park"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Citizen duty is to uphold laws.",
+      "uncommon_words": [
+        "is",
+        "uphold",
+        "laws"
+      ],
+      "previously_used_words": [
+        "is",
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Friend provides unwavering support.",
+      "uncommon_words": [
+        "provides",
+        "unwavering"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'friend' is not a verb",
+        "Second word 'provides' is not an adjective",
+        "Third word 'unwavering' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Consequently, plans change.",
+      "uncommon_words": [
+        "plans"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Decade of peace is cherished.",
+      "uncommon_words": [
+        "is",
+        "cherished"
+      ],
+      "previously_used_words": [
+        "of",
+        "is"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Agency coordinates rescue efforts.",
+      "uncommon_words": [
+        "coordinates",
+        "efforts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'agency' is not a verb",
+        "Second word 'coordinates' is not an adjective",
+        "Fourth word 'efforts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Assure team members their safety.",
+      "uncommon_words": [
+        "members"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Colonial influence shaped the country.",
+      "uncommon_words": [
+        "shaped"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Modify plans based on feedback.",
+      "uncommon_words": [
+        "plans",
+        "based"
+      ],
+      "previously_used_words": [
+        "plans"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Every participant has a role.",
+      "uncommon_words": [
+        "has"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Medium offers comfort to viewers.",
+      "uncommon_words": [
+        "offers",
+        "viewers"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Comparable strategies ensure success.",
+      "uncommon_words": [
+        "strategies"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'comparable' is not a verb",
+        "Second word 'strategies' is not an adjective",
+        "Third word 'ensure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Infant learns through play.",
+      "uncommon_words": [
+        "learns"
+      ],
+      "previously_used_words": [
+        "through"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'infant' is not a verb",
+        "Second word 'learns' is not an adjective",
+        "Third word 'through' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Educate students with passion.",
+      "uncommon_words": [
+        "students"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'students' is not an adjective",
+        "Third word 'with' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Celebration marks the end of year.",
+      "uncommon_words": [
+        "marks"
+      ],
+      "previously_used_words": [
+        "marks",
+        "the",
+        "end",
+        "of"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Line of sight is clear and wide.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "of",
+        "is",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Superior athlete dominates the competition.",
+      "uncommon_words": [
+        "dominates"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Floor is polished to perfection.",
+      "uncommon_words": [
+        "is",
+        "polished",
+        "perfection"
+      ],
+      "previously_used_words": [
+        "is",
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Treat guests with utmost respect.",
+      "uncommon_words": [
+        "guests",
+        "utmost"
+      ],
+      "previously_used_words": [
+        "guests",
+        "with",
+        "respect"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Identify potential risks.",
+      "uncommon_words": [
+        "risks"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Duty calls during crisis.",
+      "uncommon_words": [
+        "calls"
+      ],
+      "previously_used_words": [
+        "duty",
+        "during"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'duty' is not a verb",
+        "Second word 'calls' is not an adjective",
+        "Third word 'during' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Ten warriors stand ready for battle.",
+      "uncommon_words": [
+        "warriors"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Adjustment of strategy is needed.",
+      "uncommon_words": [
+        "is",
+        "needed"
+      ],
+      "previously_used_words": [
+        "of",
+        "is"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Harassment is never tolerated.",
+      "uncommon_words": [
+        "is",
+        "tolerated"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'harassment' is not a verb",
+        "Second word 'is' is not an adjective",
+        "Third word 'never' is not a noun",
+        "Fourth word 'tolerated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Graduation ceremony is grand.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'graduation' is not a verb",
+        "Second word 'ceremony' is not an adjective",
+        "Third word 'is' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Alliance strengthens bonds.",
+      "uncommon_words": [
+        "strengthens",
+        "bonds"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Useful tools enhance work.",
+      "uncommon_words": [
+        "tools"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'useful' is not a verb",
+        "Second word 'tools' is not an adjective",
+        "Third word 'enhance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Quality products gain loyalty.",
+      "uncommon_words": [
+        "products"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quality' is not a verb",
+        "Second word 'products' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Thanksgiving feast is enjoyed.",
+      "uncommon_words": [
+        "feast",
+        "is",
+        "enjoyed"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'thanksgiving' is not a verb",
+        "Second word 'feast' is not an adjective",
+        "Third word 'is' is not a noun",
+        "Fourth word 'enjoyed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Straw helps livestock thrive.",
+      "uncommon_words": [
+        "helps",
+        "livestock"
+      ],
+      "previously_used_words": [
+        "thrive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'helps' is not an adjective",
+        "Third word 'livestock' is not a noun",
+        "Fourth word 'thrive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Self-assessment reveals strengths.",
+      "uncommon_words": [
+        "self-assessment",
+        "reveals",
+        "strengths"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Equal pay for equal work is fair.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "for",
+        "work",
+        "is",
+        "fair"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Democracy values every voice.",
+      "uncommon_words": [
+        "values"
+      ],
+      "previously_used_words": [
+        "every"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'democracy' is not a verb",
+        "Second word 'values' is not an adjective",
+        "Third word 'every' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Desk cluttered with papers.",
+      "uncommon_words": [
+        "cluttered",
+        "papers"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'desk' is not a verb",
+        "Second word 'cluttered' is not an adjective",
+        "Third word 'with' is not a noun",
+        "Fourth word 'papers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Closer examination reveals details.",
+      "uncommon_words": [
+        "reveals",
+        "details"
+      ],
+      "previously_used_words": [
+        "reveals"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'closer' is not a verb",
+        "Second word 'examination' is not an adjective",
+        "Third word 'reveals' is not a noun",
+        "Fourth word 'details' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Looters plunder the city.",
+      "uncommon_words": [
+        "looters",
+        "plunder"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'looters' is not a verb",
+        "Second word 'plunder' is not an adjective",
+        "Third word 'the' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Refugee faces uncertain future.",
+      "uncommon_words": [
+        "faces"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'refugee' is not a verb",
+        "Second word 'faces' is not an adjective",
+        "Third word 'uncertain' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Bedroom is a sanctuary of rest.",
+      "uncommon_words": [
+        "is",
+        "sanctuary"
+      ],
+      "previously_used_words": [
+        "is",
+        "a",
+        "of"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Sigh of relief is audible.",
+      "uncommon_words": [
+        "is",
+        "audible"
+      ],
+      "previously_used_words": [
+        "of",
+        "relief",
+        "is"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Mask to conceal the identity.",
+      "uncommon_words": [
+        "conceal"
+      ],
+      "previously_used_words": [
+        "to",
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Place for peaceful retreat found.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Provide necessary resources.",
+      "uncommon_words": [
+        "resources"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Package contains surprises.",
+      "uncommon_words": [
+        "contains",
+        "surprises"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Interaction between art and science.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "art",
+        "and"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Specify precise instructions.",
+      "uncommon_words": [
+        "instructions"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Snap decision saves the day.",
+      "uncommon_words": [
+        "saves"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Trading involves risk and reward.",
+      "uncommon_words": [
+        "involves"
+      ],
+      "previously_used_words": [
+        "and"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Enemy attacks with fury.",
+      "uncommon_words": [
+        "attacks",
+        "fury"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'enemy' is not a verb",
+        "Second word 'attacks' is not an adjective",
+        "Third word 'with' is not a noun",
+        "Fourth word 'fury' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Square room provides perfect space.",
+      "uncommon_words": [
+        "provides"
+      ],
+      "previously_used_words": [
+        "provides"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Republican policies are scrutinized.",
+      "uncommon_words": [
+        "policies",
+        "are",
+        "scrutinized"
+      ],
+      "previously_used_words": [
+        "are"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'republican' is not a verb",
+        "Second word 'policies' is not an adjective",
+        "Third word 'are' is not a noun",
+        "Fourth word 'scrutinized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Right to vote is fundamental.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "to",
+        "is"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Conception of the idea sparks innovation.",
+      "uncommon_words": [
+        "sparks"
+      ],
+      "previously_used_words": [
+        "of",
+        "the",
+        "idea",
+        "sparks"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Priority is given to urgent tasks.",
+      "uncommon_words": [
+        "is",
+        "urgent",
+        "tasks"
+      ],
+      "previously_used_words": [
+        "is",
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Divide spoils among crew.",
+      "uncommon_words": [
+        "spoils"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'spoils' is not an adjective",
+        "Third word 'among' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Native traditions are preserved.",
+      "uncommon_words": [
+        "traditions",
+        "are",
+        "preserved"
+      ],
+      "previously_used_words": [
+        "are"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'native' is not a verb",
+        "Second word 'traditions' is not an adjective",
+        "Third word 'are' is not a noun",
+        "Fourth word 'preserved' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Scream of joy rings out loud.",
+      "uncommon_words": [
+        "rings"
+      ],
+      "previously_used_words": [
+        "of"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Appearance matters in interviews.",
+      "uncommon_words": [
+        "matters",
+        "interviews"
+      ],
+      "previously_used_words": [
+        "matters",
+        "in"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'appearance' is not a verb",
+        "Second word 'matters' is not an adjective",
+        "Fourth word 'interviews' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Wealthy patron supports arts.",
+      "uncommon_words": [
+        "supports",
+        "arts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wealthy' is not a verb",
+        "Second word 'patron' is not an adjective",
+        "Third word 'supports' is not a noun",
+        "Fourth word 'arts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Rowboat navigates narrow stream.",
+      "uncommon_words": [
+        "rowboat",
+        "navigates"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rowboat' is not a verb",
+        "Second word 'navigates' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Cycle through options.",
+      "uncommon_words": [
+        "options"
+      ],
+      "previously_used_words": [
+        "through"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Philosophy enlightens the mind.",
+      "uncommon_words": [
+        "enlightens"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'philosophy' is not a verb",
+        "Second word 'enlightens' is not an adjective",
+        "Third word 'the' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Dragon breathes fire fiercely.",
+      "uncommon_words": [
+        "breathes",
+        "fiercely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dragon' is not a verb",
+        "Second word 'breathes' is not an adjective",
+        "Fourth word 'fiercely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Premise of the argument rests on facts.",
+      "uncommon_words": [
+        "rests",
+        "facts"
+      ],
+      "previously_used_words": [
+        "of",
+        "the",
+        "on"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Restrict access to secure areas.",
+      "uncommon_words": [
+        "areas"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Bowl holds favorite soup.",
+      "uncommon_words": [
+        "holds"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'holds' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Executive briefs team members.",
+      "uncommon_words": [
+        "briefs",
+        "members"
+      ],
+      "previously_used_words": [
+        "team",
+        "members"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'executive' is not a verb",
+        "Second word 'briefs' is not an adjective",
+        "Fourth word 'members' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Steak dinner is delicious.",
+      "uncommon_words": [
+        "is",
+        "delicious"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'steak' is not a verb",
+        "Second word 'dinner' is not an adjective",
+        "Third word 'is' is not a noun",
+        "Fourth word 'delicious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Faith guides actions.",
+      "uncommon_words": [
+        "guides",
+        "actions"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "His determination inspires all.",
+      "uncommon_words": [
+        "inspires"
+      ],
+      "previously_used_words": [
+        "all"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'his' is not a verb",
+        "Second word 'determination' is not an adjective",
+        "Third word 'inspires' is not a noun",
+        "Fourth word 'all' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Button falls off from shirt.",
+      "uncommon_words": [
+        "falls"
+      ],
+      "previously_used_words": [
+        "from"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Country boasts scenic landscapes.",
+      "uncommon_words": [
+        "boasts",
+        "scenic",
+        "landscapes"
+      ],
+      "previously_used_words": [
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'country' is not a verb",
+        "Second word 'boasts' is not an adjective",
+        "Third word 'scenic' is not a noun",
+        "Fourth word 'landscapes' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Anger flares at slight provocation.",
+      "uncommon_words": [
+        "flares",
+        "provocation"
+      ],
+      "previously_used_words": [
+        "at"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Progress brings hope.",
+      "uncommon_words": [
+        "brings"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Joy fills hearts in celebration.",
+      "uncommon_words": [
+        "fills",
+        "hearts"
+      ],
+      "previously_used_words": [
+        "joy",
+        "in",
+        "celebration"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Wire carries vital information.",
+      "uncommon_words": [
+        "carries"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carries' is not an adjective",
+        "Third word 'vital' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Export goods to neighboring nations.",
+      "uncommon_words": [
+        "goods",
+        "nations"
+      ],
+      "previously_used_words": [
+        "goods",
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Operation proceeds smoothly.",
+      "uncommon_words": [
+        "proceeds",
+        "smoothly"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Mill produces flour efficiently.",
+      "uncommon_words": [
+        "produces",
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "efficiently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'produces' is not an adjective",
+        "Fourth word 'efficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Disclose secret findings.",
+      "uncommon_words": [
+        "findings"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Barely able to lift weight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Turn the corner cautiously.",
+      "uncommon_words": [
+        "cautiously"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'the' is not an adjective",
+        "Fourth word 'cautiously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Make the presentation engaging.",
+      "uncommon_words": [
+        "engaging"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'the' is not an adjective",
+        "Fourth word 'engaging' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Vessel sails afar.",
+      "uncommon_words": [
+        "sails",
+        "afar"
+      ],
+      "previously_used_words": [
+        "sails"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Pole stands tall in the field.",
+      "uncommon_words": [
+        "stands"
+      ],
+      "previously_used_words": [
+        "tall",
+        "in",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Several paths lead to the destination.",
+      "uncommon_words": [
+        "paths"
+      ],
+      "previously_used_words": [
+        "to",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Wrap warm scarf tightly.",
+      "uncommon_words": [
+        "scarf"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'scarf' is not a noun",
+        "Fourth word 'tightly' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

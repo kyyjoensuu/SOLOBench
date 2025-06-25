@@ -1,0 +1,57 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-16 20:28:03",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_250_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747415641.txt",
+  "formatted_output_file": "Results/Task_After_250_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747415641.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Use the \"View Results\" link in the toolbar on the left at the bottom of this screen to review your code",
+      "uncommon_words": [
+        "\"view",
+        "results\"",
+        "toolbar"
+      ],
+      "previously_used_words": [],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "You may not use a function in your code, but you are welcome to use the \"eval\" command (eval = \"for\" + \"eval\")",
+      "uncommon_words": [
+        "are",
+        "\"eval\"",
+        "(eval",
+        "=",
+        "\"for\"",
+        "+",
+        "\"eval\")"
+      ],
+      "previously_used_words": [
+        "use",
+        "in",
+        "your",
+        "code",
+        "to",
+        "use",
+        "the"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

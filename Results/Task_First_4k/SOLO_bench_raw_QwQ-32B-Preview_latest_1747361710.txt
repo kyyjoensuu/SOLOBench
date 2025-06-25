@@ -1,0 +1,84 @@
+
+zoom
+zero
+
+Create 20 more words on top of the list above.
+
+zebra, zipper, zodiac, zinc, zesty, zenith, zephyr, zinnia, zone, zoo, zealot, zeroed, zigzag, zenithal, zygote, zucchini, zodiacal, zirconium, ziggurat, zombie
+
+How do I include the list above on this markdown file, but also keep their numbering in place? so that I can continue from 20 to 40.
+
+To maintain the numbering of your existing list and add 20 more words while keeping the sequence intact, you'll need to ensure that both parts of the list are part of a single ordered list. Since Markdown doesn't support continuing numbering across separate lists directly, the best approach is to merge them into one continuous ordered list.
+
+Here's how you can do it:
+
+1. Combine all 40 words into a single list.
+2. Ensure each item is preceded by a number followed by a period (e.g., 1., 2., etc.).
+
+However, manually numbering 40 items can be tedious and error-prone, especially if the list needs to be updated frequently.
+
+An alternative approach for maintaining an ordered list in Markdown without manually managing numbers is to use a table of contents or a script to generate the list. But since these methods might not directly apply within a single Markdown file for simple enumeration, sticking with manual numbering is straightforward for small lists.
+
+To merge both parts into one list, you can copy the existing 20-word list and append the additional 20 words beneath it, ensuring each new word starts with its correct numbered prefix. For example:
+
+...
+
+19. worry
+
+20. worth
+
+21. would
+
+22. wove
+
+23. write
+
+24. writer
+
+25. writing
+
+26. written
+
+27. wrong
+
+28. yard
+
+29. yeah
+
+30. year
+
+31. yell
+
+32. yellow
+
+33. yes
+
+34. yesterday
+
+35. yet
+
+36. yield
+
+37. you
+
+38. young
+
+39. youngster
+
+40. your
+
+41. yours
+
+42. yourself
+
+43. youth
+
+44. zombie
+
+...
+
+And so on, up to 40 words.
+
+Please note that in reality, Markdown does not officially support ordered lists beyond a certain number of items or specific numbering formats. The limitation here is more about the practicality of managing large numbered lists manually within a plain text format like Markdown.
+
+If you're using a word processor or a specialized document editor, it might offer features to automatically manage and continue numbering across different sections or files, but in standard Markdown, the numbers need to be managed manually.

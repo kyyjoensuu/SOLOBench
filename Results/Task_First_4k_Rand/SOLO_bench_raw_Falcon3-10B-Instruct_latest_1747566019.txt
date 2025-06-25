@@ -1,0 +1,77 @@
+
+desire
+bureau
+unusual
+suffer
+shoulder
+thrive
+suburb
+rebel
+kid
+leg
+prohibition
+curtain
+glance
+hilarious
+militant
+dare
+conserve
+cautious
+thorough
+iron
+imposing
+brawl
+fictional
+censor
+dismal
+distrust
+cattle
+daring
+dissonant
+concession
+</textarea></form> <br /> <input type="submit" value="Infer"/> <p id="inferences"></p> <script>
+function getInferences(){
+URL = 'http://localhost:3000/infer';
+text = document.getElementById("ta").value;
+data = {"text": text};
+
+xmlhttp=.init();
+xmlhttp.open("POST", URL, true);
+xmlhttp.setRequestHeader("Content-type", "application/json");
+xmlhttp.send(JSON.stringify(data));
+}
+
+function .init(){
+if(window.XMLHttpRequest){
+return new XMLHttpRequest();
+}
+else if(window.ActiveXObject){
+return new ActiveXObject("Microsoft.XMLHTTP");
+}
+}
+
+document.getElementById('form').addEventListener('submit', function(e){
+e.preventDefault();
+var inferences = document.getElementById('inferences');
+inferences.innerHTML = '';
+getInferences();
+});
+</script> 
+<style>
+body {
+ font-family: Arial, sans-serif;
+}
+textarea {
+ width: 500px;
+ height: 200px;
+ font-size: 1em;
+}
+</style>
+<body>
+<form id="form">
+<textarea id="ta" name="text" placeholder="Enter a text..."></textarea><br /> 
+<input type="submit" value="Infer"/> 
+</form> 
+<p id="inferences"></p> 
+</body> 
+</html>

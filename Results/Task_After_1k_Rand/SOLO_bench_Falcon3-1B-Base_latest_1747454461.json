@@ -1,0 +1,89 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-17 07:10:17",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747454461.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747454461.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Your responses can only contain English sentences without any modification or alterations. They do not need to be written by humans.",
+      "uncommon_words": [
+        "responses",
+        "can",
+        "sentences",
+        "modification",
+        "alterations",
+        "humans"
+      ],
+      "previously_used_words": [],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not use contractions, do not use abbreviations, and avoid excessive punctuation. For example: instead of \"They're Going To Have A Baby\", write just \"They are going to have a baby\". The words in between should be proper nouns. For example: if the input is the word \"Apple\", your output should also be \"Apples\".",
+      "uncommon_words": [
+        "contractions",
+        "abbreviations",
+        "punctuation",
+        "\"they're",
+        "going",
+        "baby\"",
+        "\"they",
+        "are",
+        "going",
+        "baby\"",
+        "words",
+        "should",
+        "nouns",
+        "is",
+        "\"apple\"",
+        "should",
+        "\"apples\""
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "do",
+        "not",
+        "to",
+        "to",
+        "be",
+        "your",
+        "be"
+      ],
+      "word_count": 54,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Make sure that every sentence has a verb in it.",
+      "uncommon_words": [
+        "has",
+        "verb"
+      ],
+      "previously_used_words": [
+        "a",
+        "in"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

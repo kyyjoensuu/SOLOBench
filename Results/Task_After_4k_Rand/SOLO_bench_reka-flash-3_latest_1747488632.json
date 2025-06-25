@@ -1,0 +1,3845 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-17 16:58:18",
+  "total_sentences": 214,
+  "perfect_sentences": 17,
+  "score_percentage": 7.943925233644859,
+  "word_count_failures": 12,
+  "format_failures": 139,
+  "common_word_failures": 139,
+  "word_reuse_failures": 192,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_reka-flash-3_latest_1747488632.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_reka-flash-3_latest_1747488632.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "run blue dog park",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "jump green cat tree",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "run blue dog park \u2013 that's valid.",
+      "uncommon_words": [
+        "\u2013",
+        "that's"
+      ],
+      "previously_used_words": [
+        "run",
+        "blue",
+        "dog",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "jump green cat tree \u2013 also valid.",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "jump",
+        "green",
+        "cat",
+        "tree",
+        "\u2013",
+        "valid"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "run blue dog park \u2013 used: run, blue, dog, park",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "run",
+        "blue",
+        "dog",
+        "park",
+        "\u2013",
+        "run",
+        "blue",
+        "dog",
+        "park"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "jump green cat tree \u2013 used: jump, green, cat, tree",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "jump",
+        "green",
+        "cat",
+        "tree",
+        "\u2013",
+        "used",
+        "jump",
+        "green",
+        "cat",
+        "tree"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "create happy sun zone \u2013 wait, \"sun\" isn't in the list. Correct to \"create happy zone car\" (assuming \"car\" is a noun). But need to check if \"zone\" and \"car\" are available. Yes.",
+      "uncommon_words": [
+        "\u2013",
+        "\"sun\"",
+        "isn't",
+        "\"create",
+        "car\"",
+        "(assuming",
+        "\"car\"",
+        "is",
+        "noun)",
+        "\"zone\"",
+        "\"car\"",
+        "are"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 33,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "solve big problem room \u2013 used: solve, big, problem, room",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013",
+        "used"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "start small fire earth \u2013 start, small, fire, earth",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "build calm house rock \u2013 build, calm, house, rock",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "make quiet ball paper \u2013 make, quiet, ball, paper",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "take loud book car \u2013 take, loud, book, car",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "use bright pen silk \u2013 use, bright, pen, silk",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "find dark star sand \u2013 find, dark, star, sand",
+      "uncommon_words": [
+        "\u2013"
+      ],
+      "previously_used_words": [
+        "\u2013"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "run blue dog park",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "run",
+        "blue",
+        "dog",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "jump green cat tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "green",
+        "cat",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "create happy sun zone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "happy",
+        "sun",
+        "zone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "solve big problem room",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "big",
+        "problem",
+        "room"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "start small fire earth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "start",
+        "small",
+        "fire",
+        "earth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "build calm house rock",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "calm",
+        "house",
+        "rock"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "make quiet ball paper",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "make",
+        "quiet",
+        "ball",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "take loud book car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "take",
+        "loud",
+        "book",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "use bright pen silk",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "use",
+        "bright",
+        "pen",
+        "silk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "find dark star sand",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "find",
+        "dark",
+        "star",
+        "sand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "write fast note water",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "beat strong drum metal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "open wide door glass",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "turn soft rope cloth",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "keep cold milk wool",
+      "uncommon_words": [
+        "wool"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'wool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "add warm light cotton",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "break sharp stone wood",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "fix loose thread leather",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "hide quick shadow night",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "dive deep cave ocean",
+      "uncommon_words": [
+        "dive"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "fly bright kite sky",
+      "uncommon_words": [
+        "kite"
+      ],
+      "previously_used_words": [
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'kite' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "grow tall tree forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "pour hot tea cup",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "sweep dirty floor dust",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "swim fast fish river",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "dance wild wind grass",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "climb high mountain peak",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "shout loud song air",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loud"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "hide small rock sand",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hide",
+        "small",
+        "rock",
+        "sand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "peel ripe fruit bowl",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "mix cold milk cheese",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cold",
+        "milk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "grind rough salt paper",
+      "uncommon_words": [
+        "grind"
+      ],
+      "previously_used_words": [
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "spin soft yarn thread",
+      "uncommon_words": [
+        "yarn"
+      ],
+      "previously_used_words": [
+        "soft",
+        "thread"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'yarn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "melt warm wax bottle",
+      "uncommon_words": [
+        "wax"
+      ],
+      "previously_used_words": [
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'wax' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "fold neat cloth shelf",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "tear old map book",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "book"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "stir slow soup pot",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "press heavy stone floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stone",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "sweep bright tile floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweep",
+        "bright",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "grind dry spice jar",
+      "uncommon_words": [
+        "grind",
+        "spice"
+      ],
+      "previously_used_words": [
+        "grind"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Third word 'spice' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "bake sweet bread oven",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "mend torn shirt needle",
+      "uncommon_words": [
+        "mend",
+        "torn"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'torn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "hang blue curtain wall",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "carve deep groove wood",
+      "uncommon_words": [
+        "groove"
+      ],
+      "previously_used_words": [
+        "deep",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "steam fresh egg pan",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "polish dark shoe leather",
+      "uncommon_words": [
+        "polish"
+      ],
+      "previously_used_words": [
+        "dark",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "split thick log axe",
+      "uncommon_words": [
+        "axe"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'axe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "boil hot water kettle",
+      "uncommon_words": [
+        "kettle"
+      ],
+      "previously_used_words": [
+        "hot",
+        "water"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'kettle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "brush soft fur rug",
+      "uncommon_words": [
+        "rug"
+      ],
+      "previously_used_words": [
+        "soft"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "thread thin needle cloth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thread",
+        "needle",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "dip cold spoon ice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "trim sharp thorn stem",
+      "uncommon_words": [
+        "thorn"
+      ],
+      "previously_used_words": [
+        "sharp"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'thorn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "peel green onion knife",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "peel",
+        "green"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "wrap soft ribbon gift",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "soft"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "stir bright paint tube",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stir",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "crack old walnut wall",
+      "uncommon_words": [
+        "walnut"
+      ],
+      "previously_used_words": [
+        "old",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'walnut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "knead dough bowl table",
+      "uncommon_words": [
+        "knead"
+      ],
+      "previously_used_words": [
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb",
+        "Second word 'dough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "layer thick cake plate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thick"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "twist thin rope ladder",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thin",
+        "rope"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "pour cold juice glass",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "pour",
+        "cold",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "slice ripe tomato board",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [
+        "ripe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "wind tight clock spool",
+      "uncommon_words": [
+        "spool"
+      ],
+      "previously_used_words": [
+        "wind"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "peel rough bark log",
+      "uncommon_words": [
+        "bark"
+      ],
+      "previously_used_words": [
+        "peel",
+        "rough",
+        "log"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "stir slow stew pot",
+      "uncommon_words": [
+        "stew"
+      ],
+      "previously_used_words": [
+        "stir",
+        "slow",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "sweep dusty shelf floor",
+      "uncommon_words": [
+        "dusty"
+      ],
+      "previously_used_words": [
+        "sweep",
+        "shelf",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dusty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "grind coarse salt mortar",
+      "uncommon_words": [
+        "grind",
+        "coarse",
+        "mortar"
+      ],
+      "previously_used_words": [
+        "grind",
+        "salt"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Second word 'coarse' is not an adjective",
+        "Fourth word 'mortar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "bake crisp bread oven",
+      "uncommon_words": [
+        "crisp"
+      ],
+      "previously_used_words": [
+        "bake",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crisp' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "mend ratty coat thread",
+      "uncommon_words": [
+        "mend",
+        "ratty"
+      ],
+      "previously_used_words": [
+        "mend",
+        "thread"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'ratty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "hang red curtain wall",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hang",
+        "curtain",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "carve sharp groove wood",
+      "uncommon_words": [
+        "groove"
+      ],
+      "previously_used_words": [
+        "carve",
+        "sharp",
+        "groove",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "steam cloudy egg pan",
+      "uncommon_words": [
+        "cloudy"
+      ],
+      "previously_used_words": [
+        "steam",
+        "egg",
+        "pan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cloudy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "polish bright shoe leather",
+      "uncommon_words": [
+        "polish"
+      ],
+      "previously_used_words": [
+        "polish",
+        "bright",
+        "shoe",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "split rough log axe",
+      "uncommon_words": [
+        "axe"
+      ],
+      "previously_used_words": [
+        "split",
+        "rough",
+        "log",
+        "axe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'axe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "boil hot water kettle",
+      "uncommon_words": [
+        "kettle"
+      ],
+      "previously_used_words": [
+        "boil",
+        "hot",
+        "water",
+        "kettle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'kettle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "brush sleek fur rug",
+      "uncommon_words": [
+        "sleek",
+        "rug"
+      ],
+      "previously_used_words": [
+        "brush",
+        "fur",
+        "rug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sleek' is not an adjective",
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "thread blunt needle cloth",
+      "uncommon_words": [
+        "blunt"
+      ],
+      "previously_used_words": [
+        "thread",
+        "needle",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'blunt' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "dip warm spoon sauce",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dip",
+        "warm",
+        "spoon"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "trim dull thorn stem",
+      "uncommon_words": [
+        "dull",
+        "thorn"
+      ],
+      "previously_used_words": [
+        "trim",
+        "thorn",
+        "stem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dull' is not an adjective",
+        "Third word 'thorn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "peel tender onion knife",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "peel",
+        "onion",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "wrap shiny ribbon gift",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "ribbon",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'shiny' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "stir vibrant paint tube",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [
+        "stir",
+        "paint",
+        "tube"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "crack fresh walnut wall",
+      "uncommon_words": [
+        "walnut"
+      ],
+      "previously_used_words": [
+        "crack",
+        "fresh",
+        "walnut",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'walnut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "knead elastic dough bowl",
+      "uncommon_words": [
+        "knead",
+        "elastic"
+      ],
+      "previously_used_words": [
+        "knead",
+        "dough",
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb",
+        "Second word 'elastic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "layer fluffy cake plate",
+      "uncommon_words": [
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "layer",
+        "cake",
+        "plate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluffy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "twist sturdy rope ladder",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "twist",
+        "rope",
+        "ladder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "pour icy juice glass",
+      "uncommon_words": [
+        "icy"
+      ],
+      "previously_used_words": [
+        "pour",
+        "juice",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'icy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "slice juicy tomato board",
+      "uncommon_words": [
+        "juicy"
+      ],
+      "previously_used_words": [
+        "slice",
+        "tomato",
+        "board"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'juicy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "wind loose clock spool",
+      "uncommon_words": [
+        "spool"
+      ],
+      "previously_used_words": [
+        "wind",
+        "loose",
+        "clock",
+        "spool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "peel crispy bark log",
+      "uncommon_words": [
+        "crispy",
+        "bark"
+      ],
+      "previously_used_words": [
+        "peel",
+        "bark",
+        "log"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crispy' is not an adjective",
+        "Third word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "stir hearty stew pot",
+      "uncommon_words": [
+        "hearty",
+        "stew"
+      ],
+      "previously_used_words": [
+        "stir",
+        "stew",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'hearty' is not an adjective",
+        "Third word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "sweep smooth shelf floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweep",
+        "shelf",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "grind fine salt mortar",
+      "uncommon_words": [
+        "grind",
+        "mortar"
+      ],
+      "previously_used_words": [
+        "grind",
+        "salt",
+        "mortar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Fourth word 'mortar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "bake golden bread oven",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bake",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "mend torn coat needle",
+      "uncommon_words": [
+        "mend",
+        "torn"
+      ],
+      "previously_used_words": [
+        "mend",
+        "torn",
+        "coat",
+        "needle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'torn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "hang yellow curtain wall",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hang",
+        "curtain",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "carve deep groove wood",
+      "uncommon_words": [
+        "groove"
+      ],
+      "previously_used_words": [
+        "carve",
+        "deep",
+        "groove",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "steam tender egg pan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steam",
+        "tender",
+        "egg",
+        "pan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "polish sleek shoe leather",
+      "uncommon_words": [
+        "polish",
+        "sleek"
+      ],
+      "previously_used_words": [
+        "polish",
+        "sleek",
+        "shoe",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Second word 'sleek' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "split thick log axe",
+      "uncommon_words": [
+        "axe"
+      ],
+      "previously_used_words": [
+        "split",
+        "thick",
+        "log",
+        "axe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'axe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "boil bubbling water kettle",
+      "uncommon_words": [
+        "bubbling",
+        "kettle"
+      ],
+      "previously_used_words": [
+        "boil",
+        "water",
+        "kettle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'bubbling' is not an adjective",
+        "Fourth word 'kettle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "brush soft fur rug",
+      "uncommon_words": [
+        "rug"
+      ],
+      "previously_used_words": [
+        "brush",
+        "soft",
+        "fur",
+        "rug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "thread sharp needle cloth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thread",
+        "sharp",
+        "needle",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "dip cold spoon ice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dip",
+        "cold",
+        "spoon",
+        "ice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "trim brittle thorn stem",
+      "uncommon_words": [
+        "brittle",
+        "thorn"
+      ],
+      "previously_used_words": [
+        "trim",
+        "thorn",
+        "stem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'brittle' is not an adjective",
+        "Third word 'thorn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "peel juicy onion knife",
+      "uncommon_words": [
+        "juicy"
+      ],
+      "previously_used_words": [
+        "peel",
+        "juicy",
+        "onion",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'juicy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "wrap colorful ribbon gift",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "ribbon",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "stir lively paint tube",
+      "uncommon_words": [
+        "lively"
+      ],
+      "previously_used_words": [
+        "stir",
+        "paint",
+        "tube"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "crack hard walnut wall",
+      "uncommon_words": [
+        "walnut"
+      ],
+      "previously_used_words": [
+        "crack",
+        "walnut",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'walnut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "knead fluffy dough bowl",
+      "uncommon_words": [
+        "knead",
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "knead",
+        "fluffy",
+        "dough",
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb",
+        "Second word 'fluffy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "layer moist cake plate",
+      "uncommon_words": [
+        "moist"
+      ],
+      "previously_used_words": [
+        "layer",
+        "cake",
+        "plate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'moist' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "twist strong rope ladder",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "twist",
+        "strong",
+        "rope",
+        "ladder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "pour icy tea glass",
+      "uncommon_words": [
+        "icy"
+      ],
+      "previously_used_words": [
+        "pour",
+        "icy",
+        "tea",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'icy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "slice ripe avocado board",
+      "uncommon_words": [
+        "ripe",
+        "avocado"
+      ],
+      "previously_used_words": [
+        "slice",
+        "ripe",
+        "board"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective",
+        "Third word 'avocado' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "wind tight clock spool",
+      "uncommon_words": [
+        "spool"
+      ],
+      "previously_used_words": [
+        "wind",
+        "tight",
+        "clock",
+        "spool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "peel rough bark log",
+      "uncommon_words": [
+        "bark"
+      ],
+      "previously_used_words": [
+        "peel",
+        "rough",
+        "bark",
+        "log"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "stir creamy stew pot",
+      "uncommon_words": [
+        "creamy",
+        "stew"
+      ],
+      "previously_used_words": [
+        "stir",
+        "stew",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creamy' is not an adjective",
+        "Third word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "sweep clean shelf floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweep",
+        "shelf",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "grind coarse salt mortar",
+      "uncommon_words": [
+        "grind",
+        "coarse",
+        "mortar"
+      ],
+      "previously_used_words": [
+        "grind",
+        "coarse",
+        "salt",
+        "mortar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Second word 'coarse' is not an adjective",
+        "Fourth word 'mortar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "bake crispy bread oven",
+      "uncommon_words": [
+        "crispy"
+      ],
+      "previously_used_words": [
+        "bake",
+        "crispy",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crispy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "mend frayed coat thread",
+      "uncommon_words": [
+        "mend",
+        "frayed"
+      ],
+      "previously_used_words": [
+        "mend",
+        "coat",
+        "thread"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'frayed' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "hang floral curtain wall",
+      "uncommon_words": [
+        "floral"
+      ],
+      "previously_used_words": [
+        "hang",
+        "curtain",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'floral' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "carve intricate groove wood",
+      "uncommon_words": [
+        "intricate",
+        "groove"
+      ],
+      "previously_used_words": [
+        "carve",
+        "groove",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "steam delicate egg pan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steam",
+        "egg",
+        "pan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "polish dull shoe leather",
+      "uncommon_words": [
+        "polish",
+        "dull"
+      ],
+      "previously_used_words": [
+        "polish",
+        "dull",
+        "shoe",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Second word 'dull' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "split splintered log axe",
+      "uncommon_words": [
+        "splintered",
+        "axe"
+      ],
+      "previously_used_words": [
+        "split",
+        "log",
+        "axe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'splintered' is not an adjective",
+        "Fourth word 'axe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "boil boiling water kettle",
+      "uncommon_words": [
+        "boiling",
+        "kettle"
+      ],
+      "previously_used_words": [
+        "boil",
+        "water",
+        "kettle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'boiling' is not an adjective",
+        "Fourth word 'kettle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "brush glossy fur rug",
+      "uncommon_words": [
+        "glossy",
+        "rug"
+      ],
+      "previously_used_words": [
+        "brush",
+        "fur",
+        "rug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'glossy' is not an adjective",
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "thread thin needle cloth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thread",
+        "thin",
+        "needle",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "dip warm spoon sauce",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dip",
+        "warm",
+        "spoon",
+        "sauce"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "trim wiry thorn stem",
+      "uncommon_words": [
+        "wiry",
+        "thorn"
+      ],
+      "previously_used_words": [
+        "trim",
+        "thorn",
+        "stem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wiry' is not an adjective",
+        "Third word 'thorn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "peel papery onion knife",
+      "uncommon_words": [
+        "papery"
+      ],
+      "previously_used_words": [
+        "peel",
+        "onion",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'papery' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "wrap intricate ribbon gift",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "intricate",
+        "ribbon",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "stir vibrant paint tube",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [
+        "stir",
+        "vibrant",
+        "paint",
+        "tube"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "crack hard walnut wall",
+      "uncommon_words": [
+        "walnut"
+      ],
+      "previously_used_words": [
+        "crack",
+        "hard",
+        "walnut",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'walnut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "knead elastic dough bowl",
+      "uncommon_words": [
+        "knead",
+        "elastic"
+      ],
+      "previously_used_words": [
+        "knead",
+        "elastic",
+        "dough",
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb",
+        "Second word 'elastic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "layer fluffy cake plate",
+      "uncommon_words": [
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "layer",
+        "fluffy",
+        "cake",
+        "plate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluffy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "twist sturdy rope ladder",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "twist",
+        "sturdy",
+        "rope",
+        "ladder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "pour icy juice glass",
+      "uncommon_words": [
+        "icy"
+      ],
+      "previously_used_words": [
+        "pour",
+        "icy",
+        "juice",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'icy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "slice juicy tomato board",
+      "uncommon_words": [
+        "juicy"
+      ],
+      "previously_used_words": [
+        "slice",
+        "juicy",
+        "tomato",
+        "board"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'juicy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "wind loose clock spool",
+      "uncommon_words": [
+        "spool"
+      ],
+      "previously_used_words": [
+        "wind",
+        "loose",
+        "clock",
+        "spool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "peel crispy bark log",
+      "uncommon_words": [
+        "crispy",
+        "bark"
+      ],
+      "previously_used_words": [
+        "peel",
+        "crispy",
+        "bark",
+        "log"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crispy' is not an adjective",
+        "Third word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "stir hearty stew pot",
+      "uncommon_words": [
+        "hearty",
+        "stew"
+      ],
+      "previously_used_words": [
+        "stir",
+        "hearty",
+        "stew",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'hearty' is not an adjective",
+        "Third word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "sweep smooth shelf floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweep",
+        "smooth",
+        "shelf",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "grind fine salt mortar",
+      "uncommon_words": [
+        "grind",
+        "mortar"
+      ],
+      "previously_used_words": [
+        "grind",
+        "fine",
+        "salt",
+        "mortar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Fourth word 'mortar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "bake golden bread oven",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bake",
+        "golden",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "mend torn coat needle",
+      "uncommon_words": [
+        "mend",
+        "torn"
+      ],
+      "previously_used_words": [
+        "mend",
+        "torn",
+        "coat",
+        "needle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'torn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "hang yellow curtain wall",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hang",
+        "yellow",
+        "curtain",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "carve deep groove wood",
+      "uncommon_words": [
+        "groove"
+      ],
+      "previously_used_words": [
+        "carve",
+        "deep",
+        "groove",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "steam tender egg pan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steam",
+        "tender",
+        "egg",
+        "pan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "polish sleek shoe leather",
+      "uncommon_words": [
+        "polish",
+        "sleek"
+      ],
+      "previously_used_words": [
+        "polish",
+        "sleek",
+        "shoe",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Second word 'sleek' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "split thick log axe",
+      "uncommon_words": [
+        "axe"
+      ],
+      "previously_used_words": [
+        "split",
+        "thick",
+        "log",
+        "axe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'axe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "boil bubbling water kettle",
+      "uncommon_words": [
+        "bubbling",
+        "kettle"
+      ],
+      "previously_used_words": [
+        "boil",
+        "bubbling",
+        "water",
+        "kettle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'bubbling' is not an adjective",
+        "Fourth word 'kettle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "brush soft fur rug",
+      "uncommon_words": [
+        "rug"
+      ],
+      "previously_used_words": [
+        "brush",
+        "soft",
+        "fur",
+        "rug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "thread sharp needle cloth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thread",
+        "sharp",
+        "needle",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "dip cold spoon ice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dip",
+        "cold",
+        "spoon",
+        "ice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "trim brittle thorn stem",
+      "uncommon_words": [
+        "brittle",
+        "thorn"
+      ],
+      "previously_used_words": [
+        "trim",
+        "brittle",
+        "thorn",
+        "stem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'brittle' is not an adjective",
+        "Third word 'thorn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "peel juicy onion knife",
+      "uncommon_words": [
+        "juicy"
+      ],
+      "previously_used_words": [
+        "peel",
+        "juicy",
+        "onion",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'juicy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "wrap colorful ribbon gift",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "colorful",
+        "ribbon",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "stir lively paint tube",
+      "uncommon_words": [
+        "lively"
+      ],
+      "previously_used_words": [
+        "stir",
+        "lively",
+        "paint",
+        "tube"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "crack hard walnut wall",
+      "uncommon_words": [
+        "walnut"
+      ],
+      "previously_used_words": [
+        "crack",
+        "hard",
+        "walnut",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'walnut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "knead fluffy dough bowl",
+      "uncommon_words": [
+        "knead",
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "knead",
+        "fluffy",
+        "dough",
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb",
+        "Second word 'fluffy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "layer moist cake plate",
+      "uncommon_words": [
+        "moist"
+      ],
+      "previously_used_words": [
+        "layer",
+        "moist",
+        "cake",
+        "plate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'moist' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "twist strong rope ladder",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "twist",
+        "strong",
+        "rope",
+        "ladder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "pour icy tea glass",
+      "uncommon_words": [
+        "icy"
+      ],
+      "previously_used_words": [
+        "pour",
+        "icy",
+        "tea",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'icy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "slice ripe avocado board",
+      "uncommon_words": [
+        "ripe",
+        "avocado"
+      ],
+      "previously_used_words": [
+        "slice",
+        "ripe",
+        "avocado",
+        "board"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective",
+        "Third word 'avocado' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "wind tight clock spool",
+      "uncommon_words": [
+        "spool"
+      ],
+      "previously_used_words": [
+        "wind",
+        "tight",
+        "clock",
+        "spool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "peel rough bark log",
+      "uncommon_words": [
+        "bark"
+      ],
+      "previously_used_words": [
+        "peel",
+        "rough",
+        "bark",
+        "log"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "stir creamy stew pot",
+      "uncommon_words": [
+        "creamy",
+        "stew"
+      ],
+      "previously_used_words": [
+        "stir",
+        "creamy",
+        "stew",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creamy' is not an adjective",
+        "Third word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "sweep clean shelf floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweep",
+        "clean",
+        "shelf",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "grind coarse salt mortar",
+      "uncommon_words": [
+        "grind",
+        "coarse",
+        "mortar"
+      ],
+      "previously_used_words": [
+        "grind",
+        "coarse",
+        "salt",
+        "mortar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Second word 'coarse' is not an adjective",
+        "Fourth word 'mortar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "bake crispy bread oven",
+      "uncommon_words": [
+        "crispy"
+      ],
+      "previously_used_words": [
+        "bake",
+        "crispy",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crispy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "mend frayed coat thread",
+      "uncommon_words": [
+        "mend",
+        "frayed"
+      ],
+      "previously_used_words": [
+        "mend",
+        "frayed",
+        "coat",
+        "thread"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'frayed' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "hang floral curtain wall",
+      "uncommon_words": [
+        "floral"
+      ],
+      "previously_used_words": [
+        "hang",
+        "floral",
+        "curtain",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'floral' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "carve intricate groove wood",
+      "uncommon_words": [
+        "intricate",
+        "groove"
+      ],
+      "previously_used_words": [
+        "carve",
+        "intricate",
+        "groove",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "steam delicate egg pan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "steam",
+        "delicate",
+        "egg",
+        "pan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "polish dull shoe leather",
+      "uncommon_words": [
+        "polish",
+        "dull"
+      ],
+      "previously_used_words": [
+        "polish",
+        "dull",
+        "shoe",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Second word 'dull' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "split splintered log axe",
+      "uncommon_words": [
+        "splintered",
+        "axe"
+      ],
+      "previously_used_words": [
+        "split",
+        "splintered",
+        "log",
+        "axe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'splintered' is not an adjective",
+        "Fourth word 'axe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "boil boiling water kettle",
+      "uncommon_words": [
+        "boiling",
+        "kettle"
+      ],
+      "previously_used_words": [
+        "boil",
+        "boiling",
+        "water",
+        "kettle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'boiling' is not an adjective",
+        "Fourth word 'kettle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "brush glossy fur rug",
+      "uncommon_words": [
+        "glossy",
+        "rug"
+      ],
+      "previously_used_words": [
+        "brush",
+        "glossy",
+        "fur",
+        "rug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'glossy' is not an adjective",
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "thread thin needle cloth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thread",
+        "thin",
+        "needle",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "dip warm spoon sauce",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dip",
+        "warm",
+        "spoon",
+        "sauce"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "trim wiry thorn stem",
+      "uncommon_words": [
+        "wiry",
+        "thorn"
+      ],
+      "previously_used_words": [
+        "trim",
+        "wiry",
+        "thorn",
+        "stem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wiry' is not an adjective",
+        "Third word 'thorn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "peel papery onion knife",
+      "uncommon_words": [
+        "papery"
+      ],
+      "previously_used_words": [
+        "peel",
+        "papery",
+        "onion",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'papery' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "wrap intricate ribbon gift",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "intricate",
+        "ribbon",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "stir vibrant paint tube",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [
+        "stir",
+        "vibrant",
+        "paint",
+        "tube"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "crack hard walnut wall",
+      "uncommon_words": [
+        "walnut"
+      ],
+      "previously_used_words": [
+        "crack",
+        "hard",
+        "walnut",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'walnut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 201,
+      "sentence": "knead elastic dough bowl",
+      "uncommon_words": [
+        "knead",
+        "elastic"
+      ],
+      "previously_used_words": [
+        "knead",
+        "elastic",
+        "dough",
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb",
+        "Second word 'elastic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 202,
+      "sentence": "layer fluffy cake plate",
+      "uncommon_words": [
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "layer",
+        "fluffy",
+        "cake",
+        "plate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluffy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 203,
+      "sentence": "twist sturdy rope ladder",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "twist",
+        "sturdy",
+        "rope",
+        "ladder"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 204,
+      "sentence": "pour icy juice glass",
+      "uncommon_words": [
+        "icy"
+      ],
+      "previously_used_words": [
+        "pour",
+        "icy",
+        "juice",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'icy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 205,
+      "sentence": "slice juicy tomato board",
+      "uncommon_words": [
+        "juicy"
+      ],
+      "previously_used_words": [
+        "slice",
+        "juicy",
+        "tomato",
+        "board"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'juicy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 206,
+      "sentence": "wind loose clock spool",
+      "uncommon_words": [
+        "spool"
+      ],
+      "previously_used_words": [
+        "wind",
+        "loose",
+        "clock",
+        "spool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'spool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 207,
+      "sentence": "peel crispy bark log",
+      "uncommon_words": [
+        "crispy",
+        "bark"
+      ],
+      "previously_used_words": [
+        "peel",
+        "crispy",
+        "bark",
+        "log"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crispy' is not an adjective",
+        "Third word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 208,
+      "sentence": "stir hearty stew pot",
+      "uncommon_words": [
+        "hearty",
+        "stew"
+      ],
+      "previously_used_words": [
+        "stir",
+        "hearty",
+        "stew",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'hearty' is not an adjective",
+        "Third word 'stew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 209,
+      "sentence": "sweep smooth shelf floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweep",
+        "smooth",
+        "shelf",
+        "floor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 210,
+      "sentence": "grind fine salt mortar",
+      "uncommon_words": [
+        "grind",
+        "mortar"
+      ],
+      "previously_used_words": [
+        "grind",
+        "fine",
+        "salt",
+        "mortar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Fourth word 'mortar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 211,
+      "sentence": "bake golden bread oven",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bake",
+        "golden",
+        "bread",
+        "oven"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 212,
+      "sentence": "mend torn coat needle",
+      "uncommon_words": [
+        "mend",
+        "torn"
+      ],
+      "previously_used_words": [
+        "mend",
+        "torn",
+        "coat",
+        "needle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'torn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 213,
+      "sentence": "hang yellow curtain wall",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hang",
+        "yellow",
+        "curtain",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 214,
+      "sentence": "carve deep groove wood",
+      "uncommon_words": [
+        "groove"
+      ],
+      "previously_used_words": [
+        "carve",
+        "deep",
+        "groove",
+        "wood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'groove' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

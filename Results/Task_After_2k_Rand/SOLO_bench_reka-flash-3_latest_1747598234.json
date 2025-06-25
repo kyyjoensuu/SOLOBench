@@ -1,0 +1,278 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-18 23:24:58",
+  "total_sentences": 10,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 10,
+  "format_failures": 10,
+  "common_word_failures": 10,
+  "word_reuse_failures": 9,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_reka-flash-3_latest_1747598234.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_reka-flash-3_latest_1747598234.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Process active ability computer (Verb: process, Adjective: active, Noun1: ability, Noun2: computer)",
+      "uncommon_words": [
+        "(verb",
+        "adjective",
+        "noun1",
+        "noun2",
+        "computer)"
+      ],
+      "previously_used_words": [],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Create clear process system (Create (V), clear (A), process (N), system (N))",
+      "uncommon_words": [
+        "(create",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))"
+      ],
+      "previously_used_words": [
+        "process",
+        "process"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Analyze complex design process (Analyze (V), complex (A), design (N), process (N)) - but \"process\" is already used here, which is a problem because each word can only be used once.",
+      "uncommon_words": [
+        "(analyze",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))",
+        "-",
+        "\"process\"",
+        "is",
+        "is",
+        "can"
+      ],
+      "previously_used_words": [
+        "process",
+        "(v)",
+        "(a)",
+        "(n)",
+        "process",
+        "(n))"
+      ],
+      "word_count": 31,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Process efficient machine system (Process (V), efficient (A), machine (N), system (N))",
+      "uncommon_words": [
+        "(process",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))"
+      ],
+      "previously_used_words": [
+        "process",
+        "system",
+        "(v)",
+        "(a)",
+        "(n)",
+        "system",
+        "(n))"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Create new software application (Create (V), new (A), software (N), application (N))",
+      "uncommon_words": [
+        "(create",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))"
+      ],
+      "previously_used_words": [
+        "create",
+        "(create",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Analyze current market trend (Analyze (V), current (A), market (N), trend (N)) - but \"trend\" might not be in the list. Let me check the noun list: yes, \"trend\" is there.",
+      "uncommon_words": [
+        "(analyze",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))",
+        "-",
+        "\"trend\"",
+        "noun",
+        "\"trend\"",
+        "is"
+      ],
+      "previously_used_words": [
+        "analyze",
+        "(analyze",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))",
+        "-",
+        "but",
+        "be",
+        "is"
+      ],
+      "word_count": 31,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Check major problem solution (Check (V), major (A), problem (N), solution (N))",
+      "uncommon_words": [
+        "(check",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))"
+      ],
+      "previously_used_words": [
+        "check",
+        "problem",
+        "(v)",
+        "(a)",
+        "problem",
+        "(n)",
+        "(n))"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Develop advanced technology system (Develop (V), advanced (A), technology (N), system (N)) - \"system\" already used in sentence 1. Oops, need to avoid that.",
+      "uncommon_words": [
+        "(develop",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))",
+        "-",
+        "\"system\"",
+        "1",
+        "oops"
+      ],
+      "previously_used_words": [
+        "system",
+        "(v)",
+        "(a)",
+        "(n)",
+        "system",
+        "(n))",
+        "-",
+        "already",
+        "used",
+        "in"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Develop advanced computer network (Develop (V), advanced (A), computer (N), network (N))",
+      "uncommon_words": [
+        "(develop",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))"
+      ],
+      "previously_used_words": [
+        "develop",
+        "advanced",
+        "computer",
+        "(develop",
+        "(v)",
+        "advanced",
+        "(a)",
+        "computer",
+        "(n)",
+        "(n))"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Consider possible risk factor (Consider (V), possible (A), risk (N), factor (N)) - \"factor\" is a noun.",
+      "uncommon_words": [
+        "(consider",
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))",
+        "-",
+        "\"factor\"",
+        "is",
+        "noun"
+      ],
+      "previously_used_words": [
+        "(v)",
+        "(a)",
+        "(n)",
+        "(n))",
+        "-",
+        "is",
+        "a",
+        "noun"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

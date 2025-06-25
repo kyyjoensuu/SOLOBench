@@ -1,0 +1,82 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-15 12:32:47",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_100/SOLO_bench_raw_Falcon3-1B-Base_latest_1747301454.txt",
+  "formatted_output_file": "Results/Task_After_100/SOLO_bench_Falcon3-1B-Base_latest_1747301454.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Only words from the above word list can be used. However you are encouraged to use as much as possible, there are no hard word usage requirements",
+      "uncommon_words": [
+        "words",
+        "can",
+        "are",
+        "encouraged",
+        "are",
+        "usage",
+        "requirements"
+      ],
+      "previously_used_words": [],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Make each sentence in increasing order of difficulty. Easy sentences can get full credit without them counting towards your limit. Also easier words, can also deserve credits. The harder a sentence is, the more points it should count for.",
+      "uncommon_words": [
+        "sentences",
+        "can",
+        "counting",
+        "easier",
+        "words",
+        "can",
+        "credits",
+        "harder",
+        "is",
+        "points",
+        "should"
+      ],
+      "previously_used_words": [
+        "can",
+        "words",
+        "can",
+        "the",
+        "the"
+      ],
+      "word_count": 39,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "If a word has less than 5 letters, that does not matter",
+      "uncommon_words": [
+        "has",
+        "5",
+        "letters",
+        "does"
+      ],
+      "previously_used_words": [
+        "a",
+        "word"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

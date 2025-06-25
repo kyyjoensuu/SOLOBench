@@ -1,0 +1,187 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-18 13:53:49",
+  "total_sentences": 6,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 6,
+  "format_failures": 6,
+  "common_word_failures": 6,
+  "word_reuse_failures": 5,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747565574.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747565574.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The list should be sorted by -Length descending order from top to bottom. Length denotes the total number of words in the list including spaces, punctuation and capitalization",
+      "uncommon_words": [
+        "should",
+        "sorted",
+        "-length",
+        "descending",
+        "denotes",
+        "words",
+        "spaces",
+        "punctuation",
+        "capitalization"
+      ],
+      "previously_used_words": [],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each sentence must contain valid English words. Avoid using constructed phrases unless there is absolutely no other choice. Do not repeat any word already used in a previous sentence. Your language processing capabilities could help you to ensure this condition.",
+      "uncommon_words": [
+        "words",
+        "using",
+        "constructed",
+        "phrases",
+        "is",
+        "capabilities",
+        "could"
+      ],
+      "previously_used_words": [
+        "words",
+        "in",
+        "to"
+      ],
+      "word_count": 40,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "This task does not require you to use any external tools or libraries.",
+      "uncommon_words": [
+        "does",
+        "tools",
+        "libraries"
+      ],
+      "previously_used_words": [
+        "this",
+        "not",
+        "you",
+        "to",
+        "any"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Do not make your first output word list include the start of sentences, such as \"do\",\"or\"\",\"is.\", because they must be included in each sentence.",
+      "uncommon_words": [
+        "sentences",
+        "\"do\"\"or\"\"\"is\"",
+        "included"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "your",
+        "word",
+        "list",
+        "the",
+        "of",
+        "must",
+        "be",
+        "in",
+        "each",
+        "sentence"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Do not repeat a single word with different spellings, and avoid multiple words in a single sentence. For example this should be avoided:  \"**the** dog ran**round** and **ran**** the other dogs\" instead of \"`the dog\" ran\"",
+      "uncommon_words": [
+        "spellings",
+        "words",
+        "should",
+        "avoided",
+        "\"**the**",
+        "ran**round**",
+        "**ran****",
+        "dogs\"",
+        "\"`the",
+        "dog\"",
+        "ran\""
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "repeat",
+        "a",
+        "word",
+        "and",
+        "avoid",
+        "words",
+        "in",
+        "a",
+        "sentence",
+        "this",
+        "should",
+        "be",
+        "and",
+        "the",
+        "other",
+        "of"
+      ],
+      "word_count": 36,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Do not combine words with spaces or punctuation in a single sentence if it means that those words are likely to be used elsewhere across multiple sentences",
+      "uncommon_words": [
+        "words",
+        "spaces",
+        "punctuation",
+        "means",
+        "words",
+        "are",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "words",
+        "with",
+        "spaces",
+        "or",
+        "punctuation",
+        "in",
+        "a",
+        "single",
+        "sentence",
+        "words",
+        "to",
+        "be",
+        "used",
+        "multiple",
+        "sentences"
+      ],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

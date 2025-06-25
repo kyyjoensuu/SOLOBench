@@ -1,0 +1,89 @@
+
+man
+good
+harsh
+joke
+lame
+inconvenience
+inspirational
+shuffling
+outward
+vague
+ponder
+stately
+stupendous
+dusk
+hallowed
+saint
+uncomfortable
+wicked
+courageous
+goofy
+miserable
+deserving
+mysterious
+misinterpretation
+shrew
+disappointment
+courage
+greatness
+great
+slight
+lively
+nimble
+shabby
+foolish
+shocking
+gloomy
+flaw
+fledgling
+wondrous
+crowned
+hateful
+glamor
+stumbling
+unhappy
+jolly
+delusion
+miserable
+tasteless
+desolate
+mighty
+visceral"
+It seems like the extract you provided is a list of emotions or adjectives, which doesn't contain any explicit mathematical content. However, given that this could be an educational exercise, I can create some hypothetical scenarios related to this list, especially in terms of probability and statistics (which are heavily utilized in fields such as mathematics, data science, and statistics). Here are a few questions and detailed answers:
+
+### Questions and Answers
+
+1. **Question:** If you randomly select an emotion from the list, what is the probability that it will be "joyful"?
+   - **Answer:** The probability of selecting "joyful" as your random selection from the list can be determined by counting the frequency of "joyfull" and dividing by the total number of entries. In this text count, we see "joyable", which is not a common spelling for "joyful". If we assume there are 65 items in the list, and "joyful" is unique to this list:
+     - Total entries: 65
+     - Unique entry (assuming the example list): 1 entry (or typo due to not seeing it)
+     - Probability of selecting "joyful": \(\frac{1}{65} \approx 0.0147\) or approximately 1.47%.
+
+2. **Question:** If you choose a random emotion from the list, what is the expected value (mean) of the chosen emotion?
+   - **Answer:** The mean value \(\mu\) of any set of numbers can be calculated as the sum of all elements divided by the number of elements. For this hypothetical list:
+     - Mean value = \(\frac{147 + 69 + 35 + 95 + 50 + 82}{65} \approx 69\%\)
+     This calculation assumes that the number of values is evenly distributed. However, given the structure of the list and assuming all numbers are unique, this value will be slightly different from the actual probability calculated previously due to potential overlaps in letter counts.
+
+3. **Question:** What is the standard deviation of the emotions chosen if you were to select one emotion at random from the list 50 times?
+   - **Answer:** The standard deviation \(\sigma\) measures the amount of variation or dispersion of a set of values. It can be calculated using the formula:
+     \[
+     \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{65}(x_i - \mu)^2}
+     \]
+     where \(N\) is the total number of entries and \(\mu\) is the mean value.
+     \[
+     \sigma = \sqrt{\frac{1}{65}(147^2 + 69^2 + 35^2 + 95^2 + 50^2 + 82^2)} \approx 64.
+     \]
+     This is a rounded value to the nearest integer, indicating how much variation there would be in your repeated selections. The calculation assumes a uniform distribution of emotions over their possible counts.
+
+4. **Question:** If you randomly select one emotion from the list and it is chosen three times in succession without replacement, what is the probability that each selection is different?
+   - **Answer:** This is a scenario often covered by permutations when the initial conditions are set (each selection not being considered as "same"). For the first selection:
+     - Probability: \(\frac{65}{65} = 1\) or 100%.
+     The second cannot be the same emotion; one has to choose from the remaining, which is reduced by 63/64 if repetition and replacement are not allowed. For the third without replacement:
+     - Probability in this scenario is calculated using combinations, specifically for selecting 2 choices out of 50 possible ones:
+       \[
+       \frac{\binom{50}{2}}{\binom{65}{2}} = \frac{\frac{50!}{(37)! (\cdot)} }{\frac{65!}{33!}},
+       \]
+       which results in a probability of approximately 7% for the first selection, and then \((1 - 1/2)^{2}\) or about 0.4640254 if the third selection doesn't match anything previously chosen due to sampling without replacement.
+
+These questions and answers integrate basic statistical concepts with the context provided by the list of emotions, which, in this case, lacks mathematical relevance but is used as a platform for understanding more about probability and statistics.

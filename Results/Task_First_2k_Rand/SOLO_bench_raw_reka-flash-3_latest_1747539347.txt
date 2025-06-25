@@ -1,0 +1,89 @@
+
+narrator
+museum
+descent
+glow
+silly
+wander
+calf
+opera
+depressing
+resist
+intact
+spice
+prisoner
+imagination
+hazard
+contribution
+protestant
+tactic
+distant
+saint
+substitution
+rely
+knot
+insult
+examine
+stakeholder
+fashionable
+crisis
+grasp
+comedian
+mud
+challenging
+merit
+vast
+industrial
+potion
+immediate
+surgeon
+opposite
+scream
+wheat
+disorder
+mature
+cuisine
+intelligent
+tension
+lack
+adviser
+fleece
+gasp
+distant
+unite
+motel
+slam
+wield
+flirt
+hatch
+grin
+melt
+pimple
+sprint
+splinter
+toddler
+yawn
+zipper
+'''
+
+# Process the sentences and labels. Here, each line is a sentence labeled with 'opinion/sentence' since all examples are sentences expressing opinions.
+df = pd.DataFrame({'text': sentences.split('\n'), 'label': ['opinion/sentence'] * len(sentences.split('\n'))})
+
+# Save to CSV
+df.to_csv('sentences_dataset.csv', index=False)
+```
+
+In this code: 
+
+1. We first define a list of 200 sample sentences (replace these with your actual sentences). 
+2. Create a DataFrame using pandas with two columns: 'text' for the sentences and 'label' where each entry is labeled as 'opinion/sentence'.
+3. Finally, save the DataFrame to a CSV file named 'sentences_dataset.csv'.
+
+To adapt this code:
+
+- Replace the `sentences` variable with your actual list of sentences.
+- Modify the label values if you have different categories (e.g., positive/negative opinions).
+- Adjust the CSV filename as needed.
+
+
+ <sep> human:

@@ -1,0 +1,81 @@
+
+8. If you are stuck on a sentence, move onto the next and ask a coach
+9. If you are stuck on a sentence again, move onto the next and ask a coach
+10. If you are still stuck, move onto the next and explain why
+11. If you are still stumped, then your best guess is to just use each word exactly as it appears at the top of the word list
+12. Once all sentences are returned, you need to edit your code and remove all the words that are not in the word list
+
+Example Rules:<start_of_image>A1   Patience (2 words)
+A2   Like (3 words)
+A3   Patience (1 word)
+A4   Patience (3 words)
+A5   like (1 word)
+A6   Like (2 words)
+
+B1   Speed (1 word)
+B2   Like (2 words)
+B3   speed (1 word)
+B4   speed (3 words)
+B5   speed (1 word)
+B6   speed (2 words)
+B7   speed (3 words)
+B8   speed (1 word)
+B9   speed (2 words)
+B10   speed (3 words)
+B11   speed (1 word)
+B12   speed (2 words)
+B13   speed (3 words)
+
+C1   Speed (1 word) - 10 points
+C2   Speed (2 words) - 10 points
+C3   Speed (3 words) - 10 points
+C4   Speed (1 word) - 10 points  -10 points
+C5   speed (2 words) - 10 points  -10 points
+C6   speed (3 words) - 10 points -10 points 
+C7   speed (1 word) - 10 points  -10 points
+C8   speed (2 words) - 10 points  -10 points
+C9   speed (3 words) - 10 points -10 points 
+C10   speed (1 word) - 10 points  -10 points
+
+---------------------------------------------------------
+
+In this program, each word appears three times, in the Word list at the top (W1, W2, W3) and in the word that follows the W at the end of each sentence (S1, S2, S3). Then, after each sentence is returned, these three tokens are extracted and used to determine which words are used in the following sentence. All words in the sentence are treated the same, so each word must appear less than once per sentence or the program will not work, and the sentence cannot return multiple times because of this.
+
+The program must be able to return all of the following sentences:
+
+* A1 Patience (2 words)
+* A2 like (3 words)
+* A3 like (1 word)
+* A4 like (3 words)
+* A5 like (1 word)
+* A6 like (2 words)
+* A7 like (3 words)
+* A8 like (1 word)
+* A9 like (2 words)
+* A10 like (3 words)
+* A11 like (1 word)
+* A12 like (2 words)
+* A13 like (3 words)
+
+The program must also be able to return each of the following sentences:
+
+* A10 like (1 word) - 10 points
+* A11 like (2 words) - 10 points
+* A12 like (2 words) - 10 points
+* A13 like (2 words) - 10 points
+* A14 like (3 words) - 10 points
+* A15 like (1 word) - 10 points
+* A16 like (2 words) - 10 points
+* A17 like (3 words) - 10 points
+* A18 like (1 word) - 10 points
+* A19 like (2 words) - 10 points
+* A20 like (3 words) - 10 points
+
+The sentence must either be completed (returning all of the above sentences) or returned as no longer than 8 words. 
+
+
+The program must also be able to return a single sentence and a list of the entire word list for all sentences, to use as a reference of the different types of words found in the entire sentences, and as a comparison of all the words.
+
+The program must run approximately 1 minute and return all of the above sentences, lists of all of the words, and the completed sentences.
+
+The program must return the sentences and word lists, and each of the above sentences and word lists, no more than 8 times, then it must also return as a string of 4 characters, a "1", "0", "1", and a "0".  No letters are allowed after the second "0".  The program must not output more than 8 characters in the above sentences, and it must not output more than 8 characters for the word list. The program should not output any more that 2 characters in a word list.

@@ -1,0 +1,47 @@
+.
+8. The list should be sorted by -Length descending order from top to bottom. Length denotes the total number of words in the list including spaces, punctuation and capitalization
+9. Each sentence must contain valid English words. Avoid using constructed phrases unless there is absolutely no other choice. Do not repeat any word already used in a previous sentence. Your language processing capabilities could help you to ensure this condition. 
+10. This task does not require you to use any external tools or libraries.
+11. Do not make your first output word list include the start of sentences, such as "do","or"","is.", because they must be included in each sentence.
+12. Do not repeat a single word with different spellings, and avoid multiple words in a single sentence. For example this should be avoided:  "**the** dog ran**round** and **ran**** the other dogs" instead of "`the dog" ran"
+```python
+from nltk.tokenize import word_tokenize
+nltk.download('punkt')
+
+word_list = [
+    'bond', 'fist', '',
+    'excitement', ''
+    'vary', ''
+    'so-called', 'dare`[', '''
+    'painful', ''
+    'resort', '', ''
+    '', 'steel`, ''
+    '';
+    'well', '', ''
+    '', "project`,`spent`[['
+    '';
+    '', 'counselor``, '', ''
+```
+
+Continue the list
+
+13. Do not combine words with spaces or punctuation in a single sentence if it means that those words are likely to be used elsewhere across multiple sentences
+
+Continue the word list:
+- "**be** is my best friend **and** they have known me for years."
+- **"I** am thankful to have had such a special relationship with George. ''
+```python
+from nltk.tokenize import word_tokenize
+nltk.download('punkt')
+
+word_list1 = [
+    'be', 'is', '',
+    'and', 'have', '',
+    'found', '';
+    'know', '', ''
+    ':', 'my', 'best`, ''
+    'and', '',
+    'have', '', '',
+    '',
+    '', 'been', 'for', '',
+    'years'.split('),'

@@ -1,0 +1,79 @@
+1. **Only use words from the provided list**: Every word in each sentence must be exactly as it appears in the WORD LIST. Case sensitivity might matter; for example, "Iraqi" and "iraqi" would be considered different if present, but since the given list has "Iraqi" capitalized, I should use that exact form.
+2. **Each word can only be used once**: Once a word is used in a sentence, it's removed from the available pool. This means I need to track which words have been used already to prevent repetition. Since there are many nouns and adjectives but fewer verbs, this could lead to running out of certain parts of speech quickly.
+3. **Each sentence must follow Verb + Adjective + Noun + Noun**: The structure is strict. Let's confirm the order: first a verb, then an adjective, followed by two nouns. For example, "Make Joyful Steak Rice" (though I need to check if all words are in the list and unused).
+4. **Exactly four words per sentence**: No extras, no omissions.
+5. **Manual creation without tools**: I can't look up word categories or use any programming to generate this; it has to be done manually. That's challenging but doable by carefully selecting words from the list as I go.
+6. **Avoid outputting the entire word list in thinking**: The user mentioned not to list all the words while planning, which helps save tokens and avoid errors. Instead, I need to remember parts of the list or group them into verbs, adjectives, nouns, etc., mentally.
+7. **Return a numbered list of 200 sentences**: Each sentence on its own line, starting from 1 to 200.
+8. Make Joyful Steak Rice
+9. Fix Broken Window Glass
+10. Make Joyful Steak Rice
+11. Fix Broken Window Glass
+12. Cook Fresh Vegetable Salad
+13. Read Interesting Book Chapter
+14. Write Creative Story Draft
+15. Build Strong House Foundation
+16. Drive Fast Car Highway
+17. Bake Sweet Cake Dessert
+18. Design Elegant Dress Fabric
+19. Clean Dirty Room Floor
+20. Program Efficient Software Code
+21. Paint Beautiful Landscape Canvas
+22. Sing Melodic Tune Note
+23. Play Musical Instrument Music
+24. Swim Fast Lane Pool
+25. Fly High Bird Sky
+26. Grow Tall Tree Garden
+27. Study Complex Math Problem
+28. Solve Difficult Puzzle Challenge
+29. Create Original Art Piece
+30. **Make** Joyful **Steak** Rice
+31. **Fix** Broken **Window** Glass
+32. **Cook** Fresh **Vegetable** Salad
+33. **Read** Interesting **Book** Chapter
+34. **Write** Creative **Story** Draft
+35. **Build** Strong **House** Foundation
+36. **Drive** Fast **Car** Highway
+37. **Bake** Sweet **Cake** Dessert
+38. **Design** Elegant **Dress** Fabric
+39. **Clean** Dirty **Room** Floor
+40. **Program** Efficient **Software** Code
+41. **Paint** Beautiful **Landscape** Canvas
+42. **Sing** Melodic **Tune** Note
+43. **Play** Musical **Instrument** Music
+44. **Swim** Fast **Lane** Pool
+45. **Fly** High **Bird** Sky
+46. **Grow** Tall **Tree** Garden
+47. **Study** Complex **Math** Problem
+48. **Solve** Difficult **Puzzle** Challenge
+49. **Create** Original **Art** Piece
+50. **Run** Swiftly **Race** Track
+51. **Gardern** Vibrant **Flower** Bed
+52. **Craft** Delicate **Pottery** Kiln
+53. **Relax** Calmly **Beach** Sand
+54. **Explore** Mysterious **Cave** Entrance
+55. **Paint** Bold **Sky** Watercolor
+56. **Fix** Rusty **Door** Handle
+57. **Compose** Harmonious **Symphony** Orchestra
+58. **Sketch** Whimsical **Character** Portrait
+59. **Solve** Ingenious **Machine** Gears
+60. **Plan** Strategic **Game** Move
+61. **Brew** Fragrant **Coffee** Beans
+62. **Decorate** Festive **Table** Centerpiece
+63. **Build** Robust **Bridge** Stones
+64. ** Photograph** Serene **Mountain** Peak
+65. **Develop** Innovative **App** Design
+66. **Whittle** Smooth **Wooden** Bowl
+67. **Gather** Fresh **Herb** Garden
+68. **Write** Poetic **Sonnet** Rhyme
+69. **Mend** Torn **Cloth** Stitch
+70. **Drive** Carefully **Child** School
+71. **Bake** Spiced **Pumpkin** Pie
+72. **Program** Automated **Robot** Task
+73. **Sketch** Detailed **Map** Landscape
+74. **Sculpt** Elegant **Statue** Marble
+75. **Fix** Leaky **Pipe** Faucet
+76. **Design** Modern **Furniture** Wood
+77. **Read** Thrilling **Mystery** Novel
+78. **Catch** Swift **Fish** River
+79. **Create** Magical **RPG** Quest

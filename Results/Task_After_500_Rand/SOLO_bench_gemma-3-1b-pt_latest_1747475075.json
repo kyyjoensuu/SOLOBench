@@ -1,0 +1,320 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-17 12:45:04",
+  "total_sentences": 14,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 14,
+  "format_failures": 14,
+  "common_word_failures": 14,
+  "word_reuse_failures": 11,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747475075.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747475075.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "You must use sentences only and avoid code and tools. If you use tools then you are cheating and you will automatically receive a wrong score",
+      "uncommon_words": [
+        "sentences",
+        "tools",
+        "tools",
+        "are",
+        "cheating",
+        "will"
+      ],
+      "previously_used_words": [],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "<b>Code that reads <u>Word List</u></b>",
+      "uncommon_words": [
+        "<b>code",
+        "reads",
+        "<u>word",
+        "list</u></b>"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "<b>Code that read <u>Word List</u>  and <u>Word List</u></b>",
+      "uncommon_words": [
+        "<b>code",
+        "<u>word",
+        "list</u>",
+        "<u>word",
+        "list</u></b>"
+      ],
+      "previously_used_words": [
+        "<b>code",
+        "that",
+        "<u>word",
+        "and",
+        "<u>word",
+        "list</u></b>"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "<b>Code that reads <u>Word List</u></b>",
+      "uncommon_words": [
+        "<b>code",
+        "reads",
+        "<u>word",
+        "list</u></b>"
+      ],
+      "previously_used_words": [
+        "<b>code",
+        "that",
+        "reads",
+        "<u>word",
+        "list</u></b>"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "<b>Code that reads <u>Word List </u></b>",
+      "uncommon_words": [
+        "<b>code",
+        "reads",
+        "<u>word",
+        "</u></b>"
+      ],
+      "previously_used_words": [
+        "<b>code",
+        "that",
+        "reads",
+        "<u>word"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "<b>A list that reads only <u>Word List</u>, <u>Word List</u> and <u>Word List</u> on one line</b>",
+      "uncommon_words": [
+        "<b>a",
+        "reads",
+        "<u>word",
+        "list</u>",
+        "<u>word",
+        "list</u>",
+        "<u>word",
+        "list</u>",
+        "line</b>"
+      ],
+      "previously_used_words": [
+        "list",
+        "that",
+        "reads",
+        "only",
+        "<u>word",
+        "list</u>",
+        "<u>word",
+        "list</u>",
+        "and",
+        "<u>word",
+        "list</u>"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "<b>A command prompt</b>",
+      "uncommon_words": [
+        "<b>a",
+        "prompt</b>"
+      ],
+      "previously_used_words": [
+        "<b>a"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "<b>Another word list</b>",
+      "uncommon_words": [
+        "<b>another",
+        "list</b>"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "<b>Word List without a specific command</b>",
+      "uncommon_words": [
+        "<b>word",
+        "command</b>"
+      ],
+      "previously_used_words": [
+        "list",
+        "a"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "<u>Using words exactly as you see them in the list.</u>",
+      "uncommon_words": [
+        "<u>using",
+        "words",
+        "list</u>"
+      ],
+      "previously_used_words": [
+        "you",
+        "list</u>"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "<u>Using words exactly as you see them in the first list.</u>",
+      "uncommon_words": [
+        "<u>using",
+        "words",
+        "list</u>"
+      ],
+      "previously_used_words": [
+        "<u>using",
+        "words",
+        "exactly",
+        "as",
+        "you",
+        "see",
+        "them",
+        "in",
+        "the",
+        "list</u>"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "<u>Using words exactly as you see them in the first list.</u>",
+      "uncommon_words": [
+        "<u>using",
+        "words",
+        "list</u>"
+      ],
+      "previously_used_words": [
+        "<u>using",
+        "words",
+        "exactly",
+        "as",
+        "you",
+        "see",
+        "them",
+        "in",
+        "the",
+        "first",
+        "list</u>"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "<u>Using words exactly as you see them in the list.</u>",
+      "uncommon_words": [
+        "<u>using",
+        "words",
+        "list</u>"
+      ],
+      "previously_used_words": [
+        "<u>using",
+        "words",
+        "exactly",
+        "as",
+        "you",
+        "see",
+        "them",
+        "in",
+        "the",
+        "list</u>"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "<u>Using words exactly as you see them in the first list.</u>",
+      "uncommon_words": [
+        "<u>using",
+        "words",
+        "list</u>"
+      ],
+      "previously_used_words": [
+        "<u>using",
+        "words",
+        "exactly",
+        "as",
+        "you",
+        "see",
+        "them",
+        "in",
+        "the",
+        "first",
+        "list</u>"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

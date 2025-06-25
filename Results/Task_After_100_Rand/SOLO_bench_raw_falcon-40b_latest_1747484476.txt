@@ -1,0 +1,118 @@
+
+8. Return the sentences in random order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+"use strict";
+
+var str = "decade straw line equal infant duty hostile wire relieve eleven refugee square superior guarantee bias comparable cooperative turn size harassment native friend ten joy specify self unexpected identify novel graduation bedroom anger bowl scream thanksgiving former arrow lawmaker tolerate package progress sustain giant celebration executive restrict right useful off vessel height ship operation appearance colonial Iraqi penalty wherevr cycle agency interaction loot desk wrap partly account premis brn country democri premise modif game closr tall quality button drgn row barely diffr finding consequently make feed theme snap bloody faith ought substntl sumthng allianc flr citzn educat asur avg adjustmt inspctr invit move republi concpt nws sigh mill provid random chp provid post critisim imprstion his critism reson impression trait meduim sever several mask ctual contcx";
+
+function run_input(input) {
+	if (!input) return;
+	var output = solve(input);
+	var res = "0x"+output.toString(16).toUpperCase();
+//	res = "0x" + (new Buffer(output)).toString("hex");
+	return {out:output, res:res};
+};
+
+
+
+function solve(inputArr) {
+	
+	var wordlist = str.split(" ")
+	var output = [];
+	var outputArr=[""]
+	var nw,x;
+	
+	
+	while(output.length<200){
+		nw = wordlist[Math.floor(Math.random()*wordlist.length)];
+		var temp=inputArr;
+		
+		for(x=0;x<temp.length-1;++x){
+			if (temp[x].endsWith(" "+nw+",("+inputArr[x].split(",")[0]+"), \"")===false){
+				continue; 
+			}else{
+				var temp1 =temp[x].slice(0,temp[x].length-19);
+				var temp2 =inputArr[x];
+				var temp3 = inputArr.slice(x+1,inputArr.length-1);
+				temp[x]=temp1+" "+nw+",("+temp[x].split(",")[0]+"),\""+temp2+"\""+"}"+inputArr[x].slice(temp[x].length+19)+"}"+inputArr[x+1].slice(0,temp3[0].length-3);
+				break;
+			}
+			
+		}
+		
+		var temp_arr_split = temp[x];
+		var arr=temp_arr_split.split(",");
+		
+		x=parseInt(temp_arr_split[6])+1;
+		if (nw=="adj"||nw=="\'adj\"") {
+			switch (arr[0]) {
+				case "noun":
+					var cmp="verb";
+					var nouns=inputArr.slice(x,x+3);
+					x+=nouns.length;
+					break;
+				case "adj":
+					var cmp="noun";
+					var nouns=inputArr.slice(x,x+3);
+					x+=nouns.length;
+					break;
+				default:
+					var cmp="noun";
+					var nouns=inputArr.slice(x,x+3);
+					x+=nouns.length;
+					break;
+			}
+			switch (arr[1]) {
+				case "noun":
+					var cmp="verb";
+					var nouns=inputArr.slice(x,x+4);
+					output.push([cmp ,cmp,nouns ,nouns ].join(' '));
+					nouns.pop();
+					x+=nouns.length;
+					break;
+				case "adj":
+					var cmp="noun";
+					var nouns=inputArr.slice(x,x+4);
+					output.push([cmp ,cmp,nouns ,nouns ].join(' '));
+					nouns.pop();
+					x+=nouns.length;
+					break;
+				default:
+					var cmp="noun";
+					var nouns=inputArr.slice(x,x+4);
+					output.push([cmp ,cmp,nouns ,nouns ].join(' '));
+					nouns.pop();
+					x+=nouns.length;
+					break;
+			}
+		}
+	}
+	output = output.toString();
+	return output;
+	
+}
+

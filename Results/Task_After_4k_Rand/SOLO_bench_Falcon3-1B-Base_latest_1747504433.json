@@ -1,0 +1,104 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-17 21:06:00",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747504433.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747504433.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not use the word 'you' as part of your output (do not type in or mention how you typed). For example, do not print something like \"You can get to work by bus.\" rather say, print \"you get to work by bus\".",
+      "uncommon_words": [
+        "'you'",
+        "(do",
+        "typed)",
+        "\"you",
+        "can",
+        "bus\"",
+        "\"you",
+        "bus\""
+      ],
+      "previously_used_words": [],
+      "word_count": 43,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Only use words from the word list exactly as we typed them above or you will earn a zero.",
+      "uncommon_words": [
+        "words",
+        "typed",
+        "will",
+        "zero"
+      ],
+      "previously_used_words": [
+        "use",
+        "the",
+        "word",
+        "as",
+        "or",
+        "you"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Use only a single word per line. Each line of code should be printed on its own line",
+      "uncommon_words": [
+        "should",
+        "printed"
+      ],
+      "previously_used_words": [
+        "use",
+        "only",
+        "a",
+        "word",
+        "of"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": ") We want each output sentence to have a different number so we will print out numbers on separate lines.",
+      "uncommon_words": [
+        ")",
+        "will",
+        "numbers",
+        "lines"
+      ],
+      "previously_used_words": [
+        "we",
+        "each",
+        "output",
+        "to",
+        "a",
+        "we",
+        "will",
+        "print",
+        "on"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -30,7 +30,7 @@ def read_word_list(filepath):
     return set(words)
 
 
-def read_input_sentences(filepath):
+def read_input_sentences(filepath, after_think_tag=False):
     """Read the input sentences file and return a list of lines, handling numbered format"""
     try:
         # Try with UTF-8 encoding first
@@ -43,9 +43,15 @@ def read_input_sentences(filepath):
 
     # Process lines to handle numbered format (e.g., "1. Can I win now?")
     processed_lines = []
+    after_tag = False
     for line in lines:
         line = line.strip()
         if not line:
+            continue
+
+        if after_think_tag and not after_tag:
+            if line == '</think>':
+                after_tag = True
             continue
 
         # Check if line starts with a number and period (e.g., "1.", "42.")
@@ -166,7 +172,13 @@ def call_openrouter_api(prompt: str, api_key: str, model: str) -> Tuple[str, boo
         Tuple of (response_text, success_flag)
     """
     # url = "https://openrouter.ai/api/v1/chat/completions"
-    url = "http://localhost:11434/v1/chat/completions"
+    ollama_url = "http://localhost:11434/v1/chat/completions"
+    llama_url = "http://localhost:8090/v1/chat/completions"
+    
+    if "deepseek" in model.lower():
+        url = llama_url
+    else:
+        url = ollama_url
 
     headers = {
         # "Authorization": f"Bearer {api_key}",

@@ -1,0 +1,213 @@
+; do not use markdown to number the list, just return a numbered list
+8. Return a numbered list that does not have punctuation marks or the names of each sentence at the end of each sentence. Just return the numbers and the sentences. Do not use markdown to number the list, just return a numbered list
+9. Return the sentences in the order required by the instructions: number the sentences, follow your instructions.
+10. Do not use markdown to number the list, just return a numbered list. Do not return the list in markdown format.
+11. Write a numbered list for all the sentences.
+12. Return a numbered list of the sentences, do not return the entire word list in any form.
+13. Return the numbered list of the sentences do not return the entire word list in any form.
+14. Do not include the entire word list in the body of the message.
+15. Do not return the entire word list in your thinking stage, it is too long and you will run out of thinking tokens.
+16. Do not return the list in markdown format.
+17. Each sentence must be short, no more than 10+ words of the text
+18. You do not have to worry about grammar in these sentences
+19. Each sentence should be relatively short.
+20. You only have 200 tokens to use, make the sentences as short as possible.
+
+Return only a numbered list with one sentence on each line; do not name the sentences, leave them un-named.
+
+I have given you a word list.
+
+This word list is as follows:
+
+{{word-list}}"""
+
+"""
+
+## Task: Write 100+ word stories about the following topics, write very short stories
+
+## Story Topics:
+
+1. A new beginning
+2. A new job
+3. A friend who is leaving
+4. A new town
+5. Summer love
+6. A long journey by boat
+7. A long journey by plane
+8. A long journey by car
+9. Winter wonderland
+10. A new book
+11. A new toy
+12. A new home
+13. A new pet
+14. A baby girl
+15. A baby boy
+16. Graduation
+17. A trip to the beach
+18. A trip to the mountains
+19. A wedding
+20. A funeral
+21. A birthday
+22. Moving
+{{...etc...}}
+
+Write short stories on each of these topics, do not write one story for all of them.
+
+Return ONLY stories in a markdown format, not a numbered list
+
+Follow my instructions.
+
+Return ONLY short fiction that focuses on a single theme from above, nothing else.
+
+Return the stories in a numbered markdown list.
+
+Give these stories interesting and catchy names.
+
+Return only short stories, do not return long paragraphs like a novel.
+
+Each story should have a descriptive title.
+
+"""
+
+"""
+
+## Task: Write 50+ short paragraphs on the following topics, each paragraph should have a 4 - 10 word descriptive title that is also the first sentence of each paragraph
+
+## Topics:
+1. I was not born this way
+2. My journey
+3. What have you learned
+4. What I have done
+5. My journey
+4. My life
+5. My journey as a professional
+6. My journey is long
+7. My journey as a new graduate
+8. My journey is far from over 
+9. What I have done today
+10. What I have done so far
+11. My greatest achievement
+12. My greatest success
+13. My journey as a professional athlete
+14. My journey as a new professional
+15. What I have learned so far
+16. What I plan to do
+17. What I plan to do tomorrow
+18. What I plan to do in the future
+19. What I am going to do next
+20. What I am doing now
+21. How am I now doing
+22. What I am passionate about
+23. What I am doing today
+24. What am I doing now
+25. My job
+26. My life as a professional
+27. My life
+28. How have I come this far
+29. How have I arrived
+30. How have I been
+{{...etc...}}"""
+
+"""
+
+## Task: Write 100+ long paragraphs about the below topics, one paragraph for each of these things, this is a big list so you will need to save this as a big text file using the following structure:
+
+1. The weather of the place
+2. The food of the place
+3. My life so far
+4. The life of the people
+5. The life of the local people
+6. My job so far
+7. The way of life of the people
+8. The life of the poor
+9. How I have got here
+10. The journey to get here
+11. My job so far
+12. What I have learnt
+13. The way of life of the people
+14. My job so far
+15. My education
+16. How I arrived
+17. My job so far
+18. What I have learnt
+19. How I have arrived
+20. The way of life of the people
+21. The food of the place
+22. My job
+23. How I have arrived
+24. What I have learnt
+25. My job so far
+[[...etc...]]
+
+Follow instructions and write all of these sentences as paragraphs and include the name of each paragraph at the start of each paragraph, return the whole list of paragraphs.
+
+Return them in this format:
+
+[The name of the topic - the paragraph on that topic]
+
+Each paragraph should use 30 - 200 words, and each paragraph should be about one of the topics.
+
+Do this and only do this, nothing else.
+
+"""
+
+"""
+
+## Task: Return 10+ very short fiction paragraphs on this topic
+## Topic 
+
+{topic}
+
+Follow the instructions and only write on the topic, nothing else.
+
+Write exactly one fiction paragraph on this topic, and name the paragraph with a descriptive title, put the title of the paragraph inside of markdown parentheses on its own line
+
+Return this and nothing else.
+
+"""
+
+"""
+
+## I have a list of 500+ words below, they are verbs from a vocabulary list. You are going to write sentences on these verbs, and return all the sentences, do not send them back individually, send them all back at once, this list is very long, but do this
+
+This is the list
+
+{{word-list}}
+
+Now, you must return the entire list of sentences back
+
+Do this and only this.
+
+"""
+
+"""
+
+I have a vocabulary list of thousands of words below. Do not show me the entire list, but only show me a random set in a new markdown list, only do this so I can see a small set of the actual long list
+
+Write me a small set of sentences that follows this format.
+The set must be from one of these three languages of origin
+
+English
+
+Spanish
+
+Portuguese
+
+French
+
+Russian
+
+German
+
+Italian
+
+Write me only three paragraphs on these verbs and no more
+
+Do not use markdown to format the sentences
+
+Return them in a list like the word list
+
+Now, return the sentences
+
+"""
+<unused63>

@@ -1,0 +1,183 @@
+{
+  "model": "EXAONE-3.5-2.4B-Instruct:latest",
+  "label": "2025-05-15 12:38:54",
+  "total_sentences": 10,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 8,
+  "format_failures": 10,
+  "common_word_failures": 10,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_EXAONE-3.5-2.4B-Instruct_latest_1747301394.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_EXAONE-3.5-2.4B-Instruct_latest_1747301394.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "suddenly awoke",
+      "uncommon_words": [
+        "awoke"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "rose towering wildly.",
+      "uncommon_words": [
+        "towering",
+        "wildly"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "dreamt vivid fantastical adventures.",
+      "uncommon_words": [
+        "dreamt",
+        "vivid",
+        "fantastical",
+        "adventures"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dreamt' is not a verb",
+        "Second word 'vivid' is not an adjective",
+        "Third word 'fantastical' is not a noun",
+        "Fourth word 'adventures' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "huddled shivering inside.",
+      "uncommon_words": [
+        "huddled",
+        "shivering"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "awakened startled morning sunbeams streaming through shutters.",
+      "uncommon_words": [
+        "awakened",
+        "startled",
+        "sunbeams",
+        "streaming",
+        "shutters"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "pensive thoughtfully reflecting silently.",
+      "uncommon_words": [
+        "pensive",
+        "thoughtfully",
+        "reflecting",
+        "silently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'pensive' is not a verb",
+        "Second word 'thoughtfully' is not an adjective",
+        "Third word 'reflecting' is not a noun",
+        "Fourth word 'silently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "giggled delightedly bubbling with laughter.",
+      "uncommon_words": [
+        "giggled",
+        "delightedly",
+        "bubbling"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "looked upon gleaming precious stones admired admiringly.",
+      "uncommon_words": [
+        "looked",
+        "gleaming",
+        "stones",
+        "admired",
+        "admiringly"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "flew northward swiftly accelerating velocity speeding past dawn.",
+      "uncommon_words": [
+        "flew",
+        "northward",
+        "swiftly",
+        "accelerating",
+        "velocity",
+        "speeding"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "perched majestically perched high hovering gracefully overhead.",
+      "uncommon_words": [
+        "perched",
+        "majestically",
+        "perched",
+        "hovering",
+        "gracefully",
+        "overhead"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

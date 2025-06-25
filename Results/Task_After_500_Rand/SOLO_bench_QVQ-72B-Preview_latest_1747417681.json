@@ -1,0 +1,73 @@
+{
+  "model": "QVQ-72B-Preview:latest",
+  "label": "2025-05-16 21:35:00",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_QVQ-72B-Preview_latest_1747417681.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_QVQ-72B-Preview_latest_1747417681.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Words List**: Only use the words from this specific list.",
+      "uncommon_words": [
+        "**words",
+        "list**",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**No Reuse**: Each word can only be used once in all 200 sentences combined.",
+      "uncommon_words": [
+        "**no",
+        "reuse**",
+        "can",
+        "200",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "only"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Structure**: Sentences must follow the pattern: Verb + Adjective + Noun + Noun.",
+      "uncommon_words": [
+        "**structure**",
+        "sentences",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "sentences",
+        "the"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

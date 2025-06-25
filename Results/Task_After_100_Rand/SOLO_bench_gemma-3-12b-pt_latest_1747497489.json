@@ -1,0 +1,123 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-17 19:19:55",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747497489.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747497489.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Make sure the word count in a sentence matches 4 words and nothing more, nothing less exactly",
+      "uncommon_words": [
+        "matches",
+        "4",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "When generating the words, you may not use punctuation marks such as a period, comma, etc. and you may not use hyphens such as in the word two-hundred-and-twenty-third, as the words must be exactly as in this list",
+      "uncommon_words": [
+        "generating",
+        "words",
+        "punctuation",
+        "marks",
+        "comma",
+        "hyphens",
+        "two-hundred-and-twenty-third",
+        "words"
+      ],
+      "previously_used_words": [
+        "the",
+        "words",
+        "a",
+        "and",
+        "in",
+        "the",
+        "word",
+        "the",
+        "words",
+        "exactly",
+        "in"
+      ],
+      "word_count": 38,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "You may not remove a dash in a word, as in the word third-world nation, which is one word and counts as one word and should be rendered as \"third\" followed by a dash, without any spaces",
+      "uncommon_words": [
+        "dash",
+        "third-world",
+        "is",
+        "counts",
+        "should",
+        "rendered",
+        "\"third\"",
+        "followed",
+        "dash",
+        "spaces"
+      ],
+      "previously_used_words": [
+        "you",
+        "may",
+        "not",
+        "a",
+        "in",
+        "a",
+        "word",
+        "as",
+        "in",
+        "the",
+        "word",
+        "word",
+        "and",
+        "as",
+        "word",
+        "and",
+        "be",
+        "as",
+        "a"
+      ],
+      "word_count": 37,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "You may not add anything but a space between words",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "you",
+        "may",
+        "not",
+        "a",
+        "words"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

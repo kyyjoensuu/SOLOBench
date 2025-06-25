@@ -1,0 +1,3608 @@
+{
+  "model": "Llama-3.3-70B-Instruct:latest",
+  "label": "2025-05-15 11:14:34",
+  "total_sentences": 200,
+  "perfect_sentences": 5,
+  "score_percentage": 2.5,
+  "word_count_failures": 6,
+  "format_failures": 194,
+  "common_word_failures": 85,
+  "word_reuse_failures": 185,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_Llama-3.3-70B-Instruct_latest.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_Llama-3.3-70B-Instruct_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Make brilliant brown bug",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Eat cheap bare banana",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bare' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Hold strong brown bush",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "brown"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "See awful alien army",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Create beautiful native bag",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Feel happy naked nut",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'naked' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Walk slowly old-fashioned bell",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Third word 'old-fashioned' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Run quickly mutual mill",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'mutual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Jump high pink pole",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Sit quietly neat nest",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quietly' is not an adjective",
+        "Third word 'neat' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Stand tall lovely lane",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Read carefully clear clue",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Write slowly certain chunk",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Third word 'certain' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Hear loudly strong brown",
+      "uncommon_words": [
+        "loudly"
+      ],
+      "previously_used_words": [
+        "strong",
+        "brown"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loudly' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Speak clearly happy chin",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "happy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'happy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Touch gently soft sofa",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective",
+        "Third word 'soft' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Move rapidly crazy coach",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Lift heavy big battery",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Open widely big bowl",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'widely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Close tightly small bunch",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Push strongly big ban",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Pull slowly small bag",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "small",
+        "bag"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Kick hard big ball",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Hit strongly big bat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Pass quickly small bag",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly",
+        "small",
+        "bag"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Throw far big bug",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big",
+        "bug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Catch easily small bag",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "small",
+        "bag"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'easily' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Pick gently small nut",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "gently",
+        "small",
+        "nut"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Drop heavily big rock",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Raise highly big flag",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Lower slowly small pole",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "small",
+        "pole"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Hang loosely big rope",
+      "uncommon_words": [
+        "loosely"
+      ],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loosely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Slip slowly small rug",
+      "uncommon_words": [
+        "rug"
+      ],
+      "previously_used_words": [
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Slide quickly big hill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Climb steeply big mountain",
+      "uncommon_words": [
+        "steeply"
+      ],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steeply' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Descend slowly small stair",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Enter quietly big house",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quietly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quietly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Exit rapidly small door",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "rapidly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Open widely big gate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "open",
+        "widely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'widely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Close tightly small fence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "close",
+        "tightly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Lock securely big lock",
+      "uncommon_words": [
+        "securely"
+      ],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'securely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Unlock quickly small key",
+      "uncommon_words": [
+        "unlock"
+      ],
+      "previously_used_words": [
+        "quickly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unlock' is not a verb",
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Break heavily big stick",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "heavily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Fix carefully small toy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Make beautifully big craft",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "make",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Create cleverly small art",
+      "uncommon_words": [
+        "cleverly"
+      ],
+      "previously_used_words": [
+        "create",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cleverly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Build strongly big house",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly",
+        "big",
+        "house"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Destroy completely big city",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'completely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Paint colorful big picture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Draw neatly small line",
+      "uncommon_words": [
+        "neatly"
+      ],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'neatly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Write clearly big book",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "clearly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Read slowly small story",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "read",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Speak loudly big voice",
+      "uncommon_words": [
+        "loudly"
+      ],
+      "previously_used_words": [
+        "speak",
+        "loudly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loudly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Listen carefully small sound",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Hear softly big music",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hear",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "See clearly big view",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "see",
+        "clearly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Look closely small object",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'closely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Touch gently big pet",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "touch",
+        "gently",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Feel warmly small heart",
+      "uncommon_words": [
+        "warmly"
+      ],
+      "previously_used_words": [
+        "feel",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Taste sweetly big cake",
+      "uncommon_words": [
+        "sweetly"
+      ],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sweetly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Smell freshly big flower",
+      "uncommon_words": [
+        "freshly"
+      ],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'freshly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Hold tightly big hand",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hold",
+        "tightly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Shake firmly small fist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'firmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Hug warmly big bear",
+      "uncommon_words": [
+        "warmly"
+      ],
+      "previously_used_words": [
+        "warmly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Kiss softly small lips",
+      "uncommon_words": [
+        "lips"
+      ],
+      "previously_used_words": [
+        "softly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective",
+        "Fourth word 'lips' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Laugh happily big joke",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'happily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Cry sadly small tear",
+      "uncommon_words": [
+        "sadly"
+      ],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sadly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Sing beautifully big song",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Dance quickly small step",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Jump highly big hurdle",
+      "uncommon_words": [
+        "hurdle"
+      ],
+      "previously_used_words": [
+        "jump",
+        "highly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'hurdle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Run rapidly big race",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "run",
+        "rapidly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Walk slowly small walk",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "walk",
+        "slowly",
+        "small",
+        "walk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Stand steadily big ground",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stand",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steadily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Sit comfortably big chair",
+      "uncommon_words": [
+        "comfortably"
+      ],
+      "previously_used_words": [
+        "sit",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'comfortably' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Lie down slowly small bed",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "small"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Sleep peacefully big night",
+      "uncommon_words": [
+        "peacefully"
+      ],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Dream beautifully big dream",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Wake up quickly small morning",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly",
+        "small"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Eat heavily big meal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "eat",
+        "heavily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Drink deeply big glass",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Drive safely big car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Ride smoothly small bike",
+      "uncommon_words": [
+        "smoothly"
+      ],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'smoothly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Fly rapidly big plane",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "rapidly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Sail slowly small boat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Swim strongly big wave",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Dive deeply small pool",
+      "uncommon_words": [
+        "dive"
+      ],
+      "previously_used_words": [
+        "deeply",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Second word 'deeply' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Jump highly big cliff",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "highly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Climb steeply big mountain",
+      "uncommon_words": [
+        "steeply"
+      ],
+      "previously_used_words": [
+        "climb",
+        "steeply",
+        "big",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steeply' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Descend slowly small hill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "descend",
+        "slowly",
+        "small",
+        "hill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Enter quietly big room",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enter",
+        "quietly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quietly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Exit rapidly small door",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "exit",
+        "rapidly",
+        "small",
+        "door"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Open widely big window",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "open",
+        "widely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'widely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Close tightly small curtain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "close",
+        "tightly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Lock securely big safe",
+      "uncommon_words": [
+        "securely"
+      ],
+      "previously_used_words": [
+        "lock",
+        "securely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'securely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Unlock quickly small box",
+      "uncommon_words": [
+        "unlock"
+      ],
+      "previously_used_words": [
+        "unlock",
+        "quickly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unlock' is not a verb",
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Break heavily big chain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "break",
+        "heavily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Fix carefully small machine",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fix",
+        "carefully",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Make beautifully big picture",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "make",
+        "beautifully",
+        "big",
+        "picture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Create cleverly small model",
+      "uncommon_words": [
+        "cleverly"
+      ],
+      "previously_used_words": [
+        "create",
+        "cleverly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cleverly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Build strongly big bridge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "build",
+        "strongly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Destroy completely big building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "destroy",
+        "completely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'completely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Paint colorful big mural",
+      "uncommon_words": [
+        "mural"
+      ],
+      "previously_used_words": [
+        "paint",
+        "colorful",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun",
+        "Fourth word 'mural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Draw neatly small sketch",
+      "uncommon_words": [
+        "neatly",
+        "sketch"
+      ],
+      "previously_used_words": [
+        "draw",
+        "neatly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'neatly' is not an adjective",
+        "Fourth word 'sketch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Write clearly big letter",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "clearly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Read slowly small note",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "read",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Speak loudly big speech",
+      "uncommon_words": [
+        "loudly"
+      ],
+      "previously_used_words": [
+        "speak",
+        "loudly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loudly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Listen carefully small voice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "listen",
+        "carefully",
+        "small",
+        "voice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Hear softly big whisper",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hear",
+        "softly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "See clearly big scene",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "see",
+        "clearly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Look closely small detail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "look",
+        "closely",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'closely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Touch gently big fabric",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "touch",
+        "gently",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Feel warmly small texture",
+      "uncommon_words": [
+        "warmly"
+      ],
+      "previously_used_words": [
+        "feel",
+        "warmly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Taste sweetly big dessert",
+      "uncommon_words": [
+        "sweetly"
+      ],
+      "previously_used_words": [
+        "taste",
+        "sweetly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sweetly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Smell freshly big aroma",
+      "uncommon_words": [
+        "freshly",
+        "aroma"
+      ],
+      "previously_used_words": [
+        "smell",
+        "freshly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'freshly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'aroma' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Hold tightly big grip",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hold",
+        "tightly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Shake firmly small fist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "shake",
+        "firmly",
+        "small",
+        "fist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'firmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Hug warmly big pillow",
+      "uncommon_words": [
+        "warmly"
+      ],
+      "previously_used_words": [
+        "hug",
+        "warmly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Kiss softly small cheek",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "kiss",
+        "softly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Laugh happily big comedy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "laugh",
+        "happily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'happily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Cry sadly small tragedy",
+      "uncommon_words": [
+        "sadly"
+      ],
+      "previously_used_words": [
+        "cry",
+        "sadly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sadly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Sing beautifully big opera",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "sing",
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Dance quickly small ballet",
+      "uncommon_words": [
+        "ballet"
+      ],
+      "previously_used_words": [
+        "dance",
+        "quickly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Fourth word 'ballet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Jump highly big trampoline",
+      "uncommon_words": [
+        "trampoline"
+      ],
+      "previously_used_words": [
+        "jump",
+        "highly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'trampoline' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Run rapidly big marathon",
+      "uncommon_words": [
+        "marathon"
+      ],
+      "previously_used_words": [
+        "run",
+        "rapidly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'marathon' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Walk slowly small promenade",
+      "uncommon_words": [
+        "promenade"
+      ],
+      "previously_used_words": [
+        "walk",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'promenade' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Stand steadily big stage",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stand",
+        "steadily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steadily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Sit comfortably big sofa",
+      "uncommon_words": [
+        "comfortably"
+      ],
+      "previously_used_words": [
+        "sit",
+        "comfortably",
+        "big",
+        "sofa"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'comfortably' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Lie down slowly small mattress",
+      "uncommon_words": [
+        "mattress"
+      ],
+      "previously_used_words": [
+        "lie",
+        "down",
+        "slowly",
+        "small"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Sleep peacefully big slumber",
+      "uncommon_words": [
+        "peacefully",
+        "slumber"
+      ],
+      "previously_used_words": [
+        "sleep",
+        "peacefully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'slumber' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Dream beautifully big fantasy",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "dream",
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Wake up quickly small dawn",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wake",
+        "up",
+        "quickly",
+        "small"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Eat heavily big buffet",
+      "uncommon_words": [
+        "buffet"
+      ],
+      "previously_used_words": [
+        "eat",
+        "heavily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'buffet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Drink deeply big bottle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "deeply",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Drive safely big highway",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "safely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Ride smoothly small scooter",
+      "uncommon_words": [
+        "smoothly",
+        "scooter"
+      ],
+      "previously_used_words": [
+        "ride",
+        "smoothly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'smoothly' is not an adjective",
+        "Fourth word 'scooter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Fly rapidly big jet",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly",
+        "rapidly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Sail slowly small yacht",
+      "uncommon_words": [
+        "yacht"
+      ],
+      "previously_used_words": [
+        "sail",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'yacht' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Swim strongly big ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "swim",
+        "strongly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Dive deeply small lake",
+      "uncommon_words": [
+        "dive"
+      ],
+      "previously_used_words": [
+        "dive",
+        "deeply",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Second word 'deeply' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Jump highly big waterfall",
+      "uncommon_words": [
+        "waterfall"
+      ],
+      "previously_used_words": [
+        "jump",
+        "highly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'waterfall' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Climb steeply big summit",
+      "uncommon_words": [
+        "steeply"
+      ],
+      "previously_used_words": [
+        "climb",
+        "steeply",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steeply' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Descend slowly small valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "descend",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Enter quietly big lobby",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enter",
+        "quietly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quietly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Exit rapidly small exit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "exit",
+        "rapidly",
+        "small",
+        "exit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Open widely big entrance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "open",
+        "widely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'widely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Close tightly small gateway",
+      "uncommon_words": [
+        "gateway"
+      ],
+      "previously_used_words": [
+        "close",
+        "tightly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective",
+        "Fourth word 'gateway' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Lock securely big vault",
+      "uncommon_words": [
+        "securely",
+        "vault"
+      ],
+      "previously_used_words": [
+        "lock",
+        "securely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'securely' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'vault' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Unlock quickly small latch",
+      "uncommon_words": [
+        "unlock",
+        "latch"
+      ],
+      "previously_used_words": [
+        "unlock",
+        "quickly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unlock' is not a verb",
+        "Second word 'quickly' is not an adjective",
+        "Fourth word 'latch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Break heavily big seal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "break",
+        "heavily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Fix carefully small crack",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fix",
+        "carefully",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Make beautifully big sculpture",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "make",
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Create cleverly small design",
+      "uncommon_words": [
+        "cleverly"
+      ],
+      "previously_used_words": [
+        "create",
+        "cleverly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cleverly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Build strongly big fortress",
+      "uncommon_words": [
+        "fortress"
+      ],
+      "previously_used_words": [
+        "build",
+        "strongly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'fortress' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Destroy completely big city",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "destroy",
+        "completely",
+        "big",
+        "city"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'completely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Paint colorful big landscape",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "colorful",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Draw neatly small portrait",
+      "uncommon_words": [
+        "neatly"
+      ],
+      "previously_used_words": [
+        "draw",
+        "neatly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'neatly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Write clearly big manuscript",
+      "uncommon_words": [
+        "manuscript"
+      ],
+      "previously_used_words": [
+        "write",
+        "clearly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'manuscript' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Read slowly small poem",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "read",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Speak loudly big announcement",
+      "uncommon_words": [
+        "loudly"
+      ],
+      "previously_used_words": [
+        "speak",
+        "loudly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loudly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Listen carefully small whisper",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "listen",
+        "carefully",
+        "small",
+        "whisper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Hear softly big echo",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hear",
+        "softly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "See clearly big panorama",
+      "uncommon_words": [
+        "panorama"
+      ],
+      "previously_used_words": [
+        "see",
+        "clearly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'panorama' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Look closely small specimen",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [
+        "look",
+        "closely",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'closely' is not an adjective",
+        "Fourth word 'specimen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Touch gently big surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "touch",
+        "gently",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Feel warmly small pulse",
+      "uncommon_words": [
+        "warmly"
+      ],
+      "previously_used_words": [
+        "feel",
+        "warmly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Taste sweetly big candy",
+      "uncommon_words": [
+        "sweetly"
+      ],
+      "previously_used_words": [
+        "taste",
+        "sweetly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sweetly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Smell freshly big perfume",
+      "uncommon_words": [
+        "freshly",
+        "perfume"
+      ],
+      "previously_used_words": [
+        "smell",
+        "freshly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'freshly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'perfume' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Hold tightly big handle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hold",
+        "tightly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Shake firmly small bottle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "shake",
+        "firmly",
+        "small",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'firmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Hug warmly big teddy",
+      "uncommon_words": [
+        "warmly",
+        "teddy"
+      ],
+      "previously_used_words": [
+        "hug",
+        "warmly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'teddy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Kiss softly small baby",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "kiss",
+        "softly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Laugh happily big joke",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "laugh",
+        "happily",
+        "big",
+        "joke"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'happily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Cry sadly small sorrow",
+      "uncommon_words": [
+        "sadly",
+        "sorrow"
+      ],
+      "previously_used_words": [
+        "cry",
+        "sadly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sadly' is not an adjective",
+        "Fourth word 'sorrow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Sing beautifully big hymn",
+      "uncommon_words": [
+        "beautifully",
+        "hymn"
+      ],
+      "previously_used_words": [
+        "sing",
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'hymn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Dance quickly small jig",
+      "uncommon_words": [
+        "jig"
+      ],
+      "previously_used_words": [
+        "dance",
+        "quickly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Fourth word 'jig' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Jump highly big spring",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "highly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Run rapidly big sprint",
+      "uncommon_words": [
+        "sprint"
+      ],
+      "previously_used_words": [
+        "run",
+        "rapidly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'sprint' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Walk slowly small stroll",
+      "uncommon_words": [
+        "stroll"
+      ],
+      "previously_used_words": [
+        "walk",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'stroll' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Stand steadily big base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stand",
+        "steadily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steadily' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Sit comfortably big cushion",
+      "uncommon_words": [
+        "comfortably",
+        "cushion"
+      ],
+      "previously_used_words": [
+        "sit",
+        "comfortably",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'comfortably' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'cushion' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Lie down slowly small bedspread",
+      "uncommon_words": [
+        "bedspread"
+      ],
+      "previously_used_words": [
+        "lie",
+        "down",
+        "slowly",
+        "small"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Sleep peacefully big rest",
+      "uncommon_words": [
+        "peacefully"
+      ],
+      "previously_used_words": [
+        "sleep",
+        "peacefully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Dream beautifully big vision",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "dream",
+        "beautifully",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Wake up quickly small alarm",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wake",
+        "up",
+        "quickly",
+        "small"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Eat heavily big feast",
+      "uncommon_words": [
+        "feast"
+      ],
+      "previously_used_words": [
+        "eat",
+        "heavily",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'feast' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Drink deeply big mug",
+      "uncommon_words": [
+        "mug"
+      ],
+      "previously_used_words": [
+        "drink",
+        "deeply",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'mug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Drive safely big vehicle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drive",
+        "safely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safely' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Ride smoothly small cycle",
+      "uncommon_words": [
+        "smoothly"
+      ],
+      "previously_used_words": [
+        "ride",
+        "smoothly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'smoothly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Fly rapidly big airplane",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly",
+        "rapidly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Sail slowly small sailboat",
+      "uncommon_words": [
+        "sailboat"
+      ],
+      "previously_used_words": [
+        "sail",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'sailboat' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Swim strongly big tide",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "swim",
+        "strongly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Dive deeply small well",
+      "uncommon_words": [
+        "dive"
+      ],
+      "previously_used_words": [
+        "dive",
+        "deeply",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Second word 'deeply' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Jump highly big leap",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "jump",
+        "highly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Climb steeply big ascent",
+      "uncommon_words": [
+        "steeply",
+        "ascent"
+      ],
+      "previously_used_words": [
+        "climb",
+        "steeply",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steeply' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'ascent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Descend slowly small descent",
+      "uncommon_words": [
+        "descent"
+      ],
+      "previously_used_words": [
+        "descend",
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'descent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Enter quietly big doorway",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enter",
+        "quietly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quietly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Exit rapidly small passage",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "exit",
+        "rapidly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Open widely big aperture",
+      "uncommon_words": [
+        "aperture"
+      ],
+      "previously_used_words": [
+        "open",
+        "widely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'widely' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'aperture' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Close tightly small shutter",
+      "uncommon_words": [
+        "shutter"
+      ],
+      "previously_used_words": [
+        "close",
+        "tightly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective",
+        "Fourth word 'shutter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Lock securely big padlock",
+      "uncommon_words": [
+        "securely",
+        "padlock"
+      ],
+      "previously_used_words": [
+        "lock",
+        "securely",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'securely' is not an adjective",
+        "Third word 'big' is not a noun",
+        "Fourth word 'padlock' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

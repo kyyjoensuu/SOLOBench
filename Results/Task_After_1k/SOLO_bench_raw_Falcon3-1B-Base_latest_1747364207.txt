@@ -1,0 +1,152 @@
+ as output. The ordering does not matter but words do need to be in the right order or else it won't meet the criteria or all the rules may break! For example: 3,4,5 should become 2,1,6
+8. In your task you can use any numbers like "1st", "2nd", ... or simply number if they seem enough since in other languages there could be a difference in word order so some sentences might have words in different orders
+9. Do not break the rules by adding to sentence, for example: "3th word is a noun, and it ends with <0>. That word is only used here. Your task is to find ONLY the third word which is a noun." Would be wrong since you used "word".
+10. Words in this List are capitalized when used as nouns or any other verb that ends with an initial capital letter: For example: animal, business, computer should all be capitalized since they end their final letters with capital letters. but: Computer would only be capitalized if it was the proper name of a specific brand of computer.
+11. Capitalization count works for words too! So, this sentence would only work if both "cat", and "cat's" are capitalized since cat in capital is one word. but: If this word is used to say "Cat" it should be lowercase even before capitalization count is considered
+12. The first word of the sentence has a count from 1 to 50
+13. It is also ok if all sentences share no subject noun or adverb and it is in any order. E.g.: Sentence - Verb / Adjective / Noun ----> S# S# ----> Verb <-> N# <-> Adj# 
+If this rule isn't respected, you will get a score of zero or the answer won't be outputted. In that case we want to see it in your thinking stage, i.e. in your head before writing down your final sentence (or code or even in a tool)
+Example sentences:
+- 1st word is a noun and ends with a capital letter
+- 2nd word is an adverb and begins with <0>
+- 3rd Word is a noun and ends with <3]
+...and so on. If you think about it carefully enough, each number counts for half the total sentences and thus also makes up to one full example sentence. Example:
+36789124
+"1st" word is a noun and begins with a capital letter: "Dog". This sentence is also in proper form.
+...and more examples:
+- 6572896
+- ... etc
+You can add them all as input one by one to an engine, and then get your output back. If the sentences you want in your task is too long and/or it's really important in a certain order, don't worry! The same engine will be able to do that for you anyway :)
+- Do not use any tools or code to accomplish the task
+I'm writing a program which will take 60 random words from the list above and produce a new list containing only sentences with exactly four words. Can you come up with an algorithm?
+In all the input sentences you can't use the word List just once. Instead it's expected that you should use all words in the whole provided list exactly once but order of words in both your idea/process and the output should be random since you couldn't count on any particular order! The only way to guarantee every possible sentence is found, would be using a recursive function searching over all generated sentences.
+You can use any tool or code if at least 50% of input sentences are not produced from other provided sentences and your idea/process works. And don't worry that when this happens in your task you won't get full answer mark as long as not a single sentence is written out of your ideas/method but it still might happen since one sentence per line is required.
+I'm looking for an algorithm to create a list where at the end each word of every sentence from 1) is taken out exactly once. 2) No words are repeated and 3) Sentenced are in random order
+This post got flagged for being off-topic. The reason was that your post clearly didn't fulfill all of the requirements posted here: this thread and the comments on it. We ask that all posts be on 1 word count/answer with a minimum structure, even if you say "I thought I was not too bad, but now I know better".
+I am looking for an algorithm to create a list where at the end each word of every sentence from 1) is taken out exactly once. 2) No words are repeated and 3) Sentenced are in random order
+A: Create an algorithm that takes randomly selected words from the provided word list (and counts them so you can see how many are left over at the end of each step), and rearranges these into non-repeating sentences in random order. This does not need to be a complete sentence, nor even just a single word!
+You must NOT use any tools or code to accomplish the task, only your algorithm itself will have to do it. All other input text needs to be provided as well as 1) 60 randomly selected words from the list below and 2) 49 unique non-repeating sentences that use all of these at least as a noun-subject and one adverb/adverbial verb. Examples can be found here if you cannot figure it out by yourself:
+1, 3, 7, 8, 2, 10, 6, 9
+2, 4, 5, 6, 3, 1, 7
+1, 6, 8, 11, 2, 9, 4, 2, 5
+
+I am trying to create an algorithm that will take two or more words and combine them into one sentence using different words as punctuation. For example:
+1. a) 3b) cat's
+2.(i) 6a c)
+3.(ii). d) a 
+My current idea/process for this task is to check if the punctuation exists after it finds all of the given words and checks whether any of those words are valid at that punctuation point. Once I find a word that fulfills the criteria I'll combine the two words with that punctuation point and then count out punctuation marks until next found word without meeting the criterion. Once I get there I'll compare to the first one and say "no", because after finding that word again all punctuation will be removed from its sentence and it won't meet criteria. If both words are valid my algorithm should find both.
+Does this make sense? Is your logic or algorithm correct? Or is there something you think I am missing?
+If anyone can help me out, I would really appreciate it! Thank you in advance! I truly apologize if my english grammar isn't perfect -_-
+There are only four possible outcomes:
+1. You find one word and none of its punctuation mark.
+2. You find two words and the third word has no punctuation but one punctuation mark.
+3.You find three, four, or five words, but the fifth word is longer than the previous 4.
+4. The fourth and/or previous 3 (depending on what words you found) word has the shortest punctuation that doesn't belong to it.
+With this in mind, here are my suggestions which you can either ignore or implement as best feels right for yourself. If you follow one of these options you will not need a fifth word.
+Option 1: Ignore punctuation other than word separators. I would expect your code to fail on 3/4 cases with no errors for no words at all if you choose this option and only work on case two - two comma separated words followed by 4,5 word sentence (with a comma after).
+Option 2: Add punctuation marks after every single word separator unless the word has an immediate punctuation mark of its own. This does not require the code to fail the cases you are counting because it will only work on case two now and should work in all cases except for one where it fails.
+Option 3 (if I had time to implement this myself): Use a regular expression to find any words and punctuation marks for each word and use that as your punctuation if there is only word separators as shown above with no commas. Your code should not fail on the most trivial cases of case one by ignoring word separator punctuation altogether because you need to work with the full 9 options if you do this option. If you want to go down this route you will have to implement a function that returns all words and punctuation marks using re but I don't consider this necessary as you are trying to make some sense out of what you get at each pass in your algorithm.
+There, that should be it :) There is one caveat for Option 3: if by chance two word separators become separated by the same word or punctuation then you need to ensure the return string of punctuation marks does not include both punctuation marks. If my logic here is right then it would be ok if you didn't have this issue because otherwise your code would never exit the loop and then have a situation where the entire statement is returned with wrong punctuation regardless if some are separated by commas or word separators and others in one.
+If neither of these answers help to guide your process I hope they provide context for your algorithm. If you find you need any clarification - send me a message, just like all these comments on this thread do :)
+I hope this is clear, but please let me know how else can I explain my answer in better way for further discussion or if I have made a stupid error in logic here. Thank you!
+My idea is that your program will read a list of words from the given list and then generate sentences based on those words. Each sentence only uses at most 4 unique words, so we just keep track of seen words by storing them in an unsorted int[] list called wordList. The words are also sorted before being used to generate the sentences.
+Then for each iteration of the loop, our algorithm will randomly select 4 unique integers between 0-9 that aren't already in an unsorted array of words called sentenceS in a counter called currentSentence and replace all the existing words with those new random integer values:
+currentSentence[0] is replaced by the first number selected
+This way wordList and sentenceS will be updated accordingly. The algorithm will then use these newly assigned integers to generate sentences, so they are now used as only sentence elements.
+Here is my original implementation of this idea for your reference (without any optimizations though) if you wish to improve:
+using System;
+class WordAndSentences2
+{ public static void Main(string[] args)
+// Random selection
+Random rand = new Random();
+int count = rand.Next(10);
+currentSentence = array<int>
+wordList = new int[10];
+sentenceS = GetWords(count, wordList);
+// Generate Sentences now that we have 4 words.
+for (int index = 0; index < 365; index++)
+SentenceSentence = string.Format("{0}", currentSentence[index]);
+currentSentence = new int[wordCount];
+count -= 1;
+// We do the same again!
+for (int i = 0; i < 4; i++){
+// Random selection from seen words in wordList for replacement.
+Random rand = new Random();
+currentSentence[i] = rand.Next(count);
+sentenceS = GetWords(count, wordList);
+for (int counter = 0; counter <= sentenceSize-365; counter++)
+SentenceSentence.Concat((new string)(currentSentence[counter]));
+currentSentence = new int[wordCount];
+// We do the same again!
+for (int i = 0; i < count; i++){
+// Update seen words (sentences and wordList) for now.
+SentenceSentence.Insert(index, sentenceS);
+// Generate Sentences so we can keep updating them.
+var Sentence = string.Format("{0}", currentSentence[randomIndex]);
+for (int counter = randomIndex; counter < sentenceSize - sentenceSize; counter++){}
+sentenceS = GetWords;
+} finally {
+// If there isn't any remaining words, this is the end. If any of them are blank strings we remove those from sentences and update used words in the wordList.
+if (sentenceS != null)
+sentenceS.RemoveAll();
+else
+sentenceS = GetWords;
+} this.output = sentenceSentence.ToArray();
+} public static string GetWords(int sentenceCount, int wordListLength)
+// Keep track of seen words in wordList and use the random array of integers that wasn't previously in it.
+return new StringBuilder("");
+// Random selection from a given set. This is useful for creating sentences when using "replace with sentence element".
+int[] currentSentences = new int[4];
+sentenceCount += Array.IndexOf(wordList, count);
+int index = Array.IndexOf(wordList, wordList[0]);
+int indexCounter = 1;
+// Each pass of this method will update wordList with seen integer values until the next sentence generation occurs!
+for (int i = String.Length; i < 4; i++){
+int number = rand.Next(wordCount);
+currentSentences[i] = Current[indexCounter++];
+} return new StringBuilder("");
+} private void output(string sentence)
+// Print the string we generated. Now can have more than one sentence generated in a single iteration! This is to make sure that you can get random sentences easily for testing purposes with your own algorithm if desired.
+for (int i = 0; i < 10; i++) {
+TextWriter writer = new TextWriter("out.txt");
+writer.WriteLine();
+for (StringBuilder sb : sentence){ // Create a new int array of sentences containing our random set of words with the given order.
+for byte[] b : sb.GetBytes(4) {
+currentSentences[currentSentence.Length - 2] = Convert.ToInt32(b);
+}
+if (!sentenceS.IndexOf(sb)) {
+// Generate new sentences by filling in blanks with given number of random sets of words from seen integers. This means we generate a sentence for every integer value and fill the remaining blank spots with different ones until we run out of them.
+for string[] values : currentSentences.Select(x => x(0).ToString()).ToArray() {
+StringBuilder sb = new StringBuilder();
+int len = Current[0].Length;// Length of each sentence/word array in int
+bool done = false;// If the process of generating sentences is out of bounds, set this boolean to true. We will only stop when all possible combinations of used integer values have been generated.
+for byte[] newValue : values {
+currentSentences[indexCounter] = Value;
+count++;// Increment count and reset indexCounter back to beginning value one.
+Console.WriteLine(sb);// If a new sentence is complete, write it to the output file using the TextWriter class's write method. Also print a new line at the end so that our text ends on a new screen.
+If -1 == Current[index][0] || currentSentence[currentSentence.Length -365].Equals(sentenceS)
+done = true;
+// If we used enough sentence element values but not all, then this is the end. If that's the case, update some of wordList values with any remaining sentence elements left to create new sentences and update counted values in counter in array currentSentence. This ensures a break in our algorithm if we run out of any of your chosen integer values when trying to generate sentences one at a time!
+} // If value was not used, then continue generating the other one!
+Console.WriteLine();// Add new line after each sentence. We will now have 25 possible combinations in total for generating these sentences with this currentSentence and wordList elements.
+for int i = 0; i < Current[0].Length-1; i++) {
+} // Now add remaining words to string one last time when we are done, but before we print it! We will need the remaining 9 in order to complete a sentence with all our random numbers. These values may or may not be randomly chosen!
+for int idx = Current[0].Length-1;index > Current[3]; index-- ) {
+} // Now update counter to account for the fact that we need only a certain number of words per sentence to create our random sequences in the array.
+currentSentence[--currentCount] = value+numWords[idx];
+} // This gives us three new sentences because the index is 3 when it stops at the end and now continues with idx=1 until it returns to 0.
+Console.WriteLine("".Length);// If this is done successfully, the output file is complete.
+sentence += value+numWords[idx];
+if (newSentence != sentence) {
+break; // This ends out if some sentences were not used.
+} // Now we try to print a new output. We will have to add an extra new line at the end of this one!
+Console.WriteLine("".Length-sentence); // If an extra line is needed, then remove it from sentence and increment length by 1 because our original sentence plus the empty space was actually three lines wide! That's because we are starting again. We also have to add a newline here as we continue printing new sentences for each new set of random numbers that comes in.
+sentence = string"";
+totalCount++; // Again increment counter!
+StringWriter writer = new StringWriter(); // Reset the string writer object so that it is empty again.
+stringArray[totalCount] = sentence; // Now put our final output into the array!
+Console.ReadLine();// This finishes reading input from the keyboard and waits for user input to finish. The next time this program starts we can try a different number of sentences to see if that works better, but since now the random number generator is already fixed we just want to test our new algorithm now and then don't worry about it later!
+} // This will keep running until you hit enter when prompted again here with a different number of sentences. It has this feature so you can make your own input as often as you like and see what kind of sequences the algorithm produces. When writing your own program, remember that there are no guarantees in mathematics or programming! Just try it out and get feedback along the way!
+} // This stops the output from writing out when the main method returns. It is also the end of your current run of this program or function as written here. This should help keep things simple if you have one long class instead of multiple classes that are part of a single big piece of code, but remember to use comments to keep it self-explanatory so if someone else reads it later they won't need to work out every code line by its own!
+// If you feel like you have made an error here please tell me about the one. I also want to know how I can fix any of it! Just reach out and let me know if there are any problems and show me what you came up with, even if those weren't helpful or if they were really good and you didn't actually use them in your code!
+} // If you need help setting up anything else for this program or function that I can give you pointers on please let me know about it. I am always happy to make it easier on yourself when coding and don't want anybody else struggling with your work because I have any difficulties seeing where things went wrong here. This is why you need feedback! Just write in if there are any ways you could improve or expand the way something works, even if you thought that one would work just fine and didn't know anything else about it until now! The more help I can give people who have problems like this, the better off we all will be because then I won't need to keep struggling with them too much while trying to figure things out myself! This is why I say that everyone needs feedback when they are working on something themselves and don't always know if their ideas or algorithms are correct enough yet before coming up with a final product that works properly for all its intended uses. Just ask me anything I need help with any time because even though it may seem overwhelming at first glance, once you get going using this template like I did here then everything will start becoming clearer quickly so instead of getting frustrated over little things going wrong during development, just make sure you take good notes and learn from each mistake along the way until they turn into something useful later on again!

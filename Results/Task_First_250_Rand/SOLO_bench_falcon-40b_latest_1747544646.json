@@ -1,0 +1,166 @@
+{
+  "model": "falcon-40b:latest",
+  "label": "2025-05-18 08:21:30",
+  "total_sentences": 7,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 7,
+  "format_failures": 7,
+  "common_word_failures": 7,
+  "word_reuse_failures": 6,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_falcon-40b_latest_1747544646.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_falcon-40b_latest_1747544646.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Use only words that appear in the word list. You must not add, remove, or modify any words in the list",
+      "uncommon_words": [
+        "words",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "All sentences must use the entire word list exactly once",
+      "uncommon_words": [
+        "sentences"
+      ],
+      "previously_used_words": [
+        "must",
+        "use",
+        "the",
+        "word",
+        "list"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Once a word is used, it cannot be repeated for other sentences",
+      "uncommon_words": [
+        "is",
+        "cannot",
+        "repeated",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "once",
+        "word",
+        "sentences"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "All sentences must contain 'all' the words",
+      "uncommon_words": [
+        "sentences",
+        "'all'",
+        "words"
+      ],
+      "previously_used_words": [
+        "all",
+        "sentences",
+        "must",
+        "the",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "No word with prefix, root prefix, or 're' prefix can be used more than the maximum number of reoccurence as specified in the word list.",
+      "uncommon_words": [
+        "prefix",
+        "prefix",
+        "'re'",
+        "prefix",
+        "can",
+        "reoccurence",
+        "specified"
+      ],
+      "previously_used_words": [
+        "word",
+        "or",
+        "be",
+        "used",
+        "the",
+        "in",
+        "the",
+        "word",
+        "list"
+      ],
+      "word_count": 25,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "The order does not matter",
+      "uncommon_words": [
+        "does"
+      ],
+      "previously_used_words": [
+        "the",
+        "not"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Do not create sentences for the purpose of satisfying any specific constraints and avoid repetition of sentences that are a logical consequence of other constraints",
+      "uncommon_words": [
+        "sentences",
+        "satisfying",
+        "constraints",
+        "repetition",
+        "sentences",
+        "are",
+        "constraints"
+      ],
+      "previously_used_words": [
+        "not",
+        "sentences",
+        "for",
+        "the",
+        "of",
+        "any",
+        "of",
+        "sentences",
+        "that",
+        "a",
+        "of",
+        "other"
+      ],
+      "word_count": 25,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

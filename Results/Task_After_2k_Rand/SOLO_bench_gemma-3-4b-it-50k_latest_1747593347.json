@@ -1,0 +1,3242 @@
+{
+  "model": "gemma-3-4b-it-50k:latest",
+  "label": "2025-05-18 22:23:45",
+  "total_sentences": 200,
+  "perfect_sentences": 18,
+  "score_percentage": 9.0,
+  "word_count_failures": 0,
+  "format_failures": 86,
+  "common_word_failures": 85,
+  "word_reuse_failures": 159,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_gemma-3-4b-it-50k_latest_1747593347.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_gemma-3-4b-it-50k_latest_1747593347.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Rush  athletic  darkness  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Assert  significant  portrait  field",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Explore  abandoned  photo  forest",
+      "uncommon_words": [
+        "abandoned"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'abandoned' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Assist  damaged  vehicle  street",
+      "uncommon_words": [
+        "damaged"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'damaged' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Believe  modern  tablet  desk",
+      "uncommon_words": [
+        "tablet"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'tablet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Check  broken  mirror  wall",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Control  violent  storm  night",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Create  detailed  painting  canvas",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Define  complex  theory  science",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Direct  specific  instructions  employee",
+      "uncommon_words": [
+        "instructions"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'instructions' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Develop  new  software  system",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Examine  damaged  report  officer",
+      "uncommon_words": [
+        "damaged"
+      ],
+      "previously_used_words": [
+        "damaged"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'damaged' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Execute  precise  procedure  surgeon",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Follow  strict  guidelines  instructor",
+      "uncommon_words": [
+        "guidelines"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'guidelines' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Ignore  obvious  warning  pilot",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Judge  carefully  evidence  detective",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Launch  successful  mission  astronaut",
+      "uncommon_words": [
+        "astronaut"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'astronaut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Observe  patient  behavior  doctor",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Perform  complex  surgery  physician",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Predict  future  outcome  analyst",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Qualify  reliable  candidate  officer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "officer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Reject  flawed  proposal  business",
+      "uncommon_words": [
+        "flawed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'flawed' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Reveal  darkest  secret  investigator",
+      "uncommon_words": [
+        "darkest"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'darkest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Secure  valuable  artwork  museum",
+      "uncommon_words": [
+        "artwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'artwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Solve  challenging  puzzle  scientist",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Transform  raw  materials  factory",
+      "uncommon_words": [
+        "materials"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'materials' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Validate  accurate  data  statistician",
+      "uncommon_words": [
+        "validate",
+        "statistician"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'statistician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Verify  effective  protocol  manager",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Witness  horrific  attack  soldier",
+      "uncommon_words": [
+        "horrific"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'horrific' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Yield  positive  result  experiment",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Provide  helpful  advice  mentor",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Confirm  urgent  schedule  director",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'urgent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Monitor  constant  signal  engineer",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Manage  critical  project  leader",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Protect  rare  collection  curator",
+      "uncommon_words": [
+        "curator"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'curator' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Repair  faulty  mechanism  mechanic",
+      "uncommon_words": [
+        "faulty"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'faulty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Restore  old  building  architect",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Sustain  steady  growth  economy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Track  slow  movement  tracker",
+      "uncommon_words": [
+        "tracker"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'tracker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Understand  crucial  aspects  expert",
+      "uncommon_words": [
+        "aspects"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'aspects' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Analyze  logical  argument  philosopher",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Capture  vibrant  image  photographer",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vibrant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Control  delicate  balance  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "control"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Design  innovative  device  engineer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "engineer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Develop  effective  strategy  planner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "effective"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Evaluate  potential  outcome  forecaster",
+      "uncommon_words": [
+        "forecaster"
+      ],
+      "previously_used_words": [
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'forecaster' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Generate  detailed  report  analyst",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "detailed",
+        "report",
+        "analyst"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Guarantee  safe  journey  traveler",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Highlight  important  details  reader",
+      "uncommon_words": [
+        "details"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'details' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Illustrate  realistic  scenario  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Interpret  complex  symbols  scholar",
+      "uncommon_words": [
+        "symbols"
+      ],
+      "previously_used_words": [
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'symbols' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Maintain  constant  pressure  coach",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "constant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Measure  precise  distance  surveyor",
+      "uncommon_words": [
+        "surveyor"
+      ],
+      "previously_used_words": [
+        "precise"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'surveyor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Monitor  steady  progress  scientist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "monitor",
+        "steady",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Predict  certain  outcome  analyst",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "predict",
+        "outcome",
+        "analyst"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Qualify  reliable  supplier  buyer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "qualify",
+        "reliable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Reject  questionable  practice  doctor",
+      "uncommon_words": [
+        "questionable"
+      ],
+      "previously_used_words": [
+        "reject",
+        "doctor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'questionable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Reveal  hidden  danger  investigator",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "investigator"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Secure  valuable  patent  inventor",
+      "uncommon_words": [
+        "inventor"
+      ],
+      "previously_used_words": [
+        "secure",
+        "valuable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'inventor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Solve  complex  mystery  detective",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "detective"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Transform  unclear  concept  teacher",
+      "uncommon_words": [
+        "unclear"
+      ],
+      "previously_used_words": [
+        "transform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unclear' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Validate  logical  reasoning  logician",
+      "uncommon_words": [
+        "validate",
+        "reasoning",
+        "logician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "logical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'reasoning' is not a noun",
+        "Fourth word 'logician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Reject  unfair  treatment  employee",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject",
+        "employee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Reveal  secret  knowledge  scholar",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "secret",
+        "scholar"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Secure  rare  artifact  collector",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "rare"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Solve  difficult  problem  mathematician",
+      "uncommon_words": [
+        "mathematician"
+      ],
+      "previously_used_words": [
+        "solve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mathematician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Transform  abstract  idea  philosopher",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "transform",
+        "philosopher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Validate  consistent  data  scientist",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "data",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Reject  ineffective  method  manager",
+      "uncommon_words": [
+        "ineffective"
+      ],
+      "previously_used_words": [
+        "reject",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ineffective' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Reveal  hidden  truth  investigator",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "hidden",
+        "investigator"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Secure  ancient  treasure  archeologist",
+      "uncommon_words": [
+        "archeologist"
+      ],
+      "previously_used_words": [
+        "secure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'archeologist' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Solve  complicated  crisis  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Transform  raw  material  manufacturer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "raw"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Validate  consistent  principle  scientist",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Reject  harmful  influence  critic",
+      "uncommon_words": [
+        "harmful"
+      ],
+      "previously_used_words": [
+        "reject"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'harmful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Reveal  hidden  connection  journalist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "hidden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Secure  historic  document  historian",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Solve  complex  situation  negotiator",
+      "uncommon_words": [
+        "negotiator"
+      ],
+      "previously_used_words": [
+        "solve",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'negotiator' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Transform  basic  ingredient  chef",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Validate  reliable  evidence  lawyer",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "reliable",
+        "evidence"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Reject  illegal  activity  police",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Reveal  deep  insight  psychologist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Secure  protected  information  security",
+      "uncommon_words": [
+        "protected"
+      ],
+      "previously_used_words": [
+        "secure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'protected' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Solve  critical  defect  engineer",
+      "uncommon_words": [
+        "defect"
+      ],
+      "previously_used_words": [
+        "solve",
+        "critical",
+        "engineer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'defect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Transform  simple  concept  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "concept",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Validate  consistent  pattern  statistician",
+      "uncommon_words": [
+        "validate",
+        "statistician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "statistician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'statistician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Reject  unethical  behavior  professor",
+      "uncommon_words": [
+        "unethical"
+      ],
+      "previously_used_words": [
+        "reject",
+        "behavior"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unethical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Reveal  important  lesson  mentor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "mentor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Secure  strategic  advantage  leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "leader"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Solve  urgent  emergency  doctor",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [
+        "solve",
+        "urgent",
+        "doctor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'urgent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Transform  basic  element  chemist",
+      "uncommon_words": [
+        "chemist"
+      ],
+      "previously_used_words": [
+        "transform",
+        "basic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'chemist' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Validate  accurate  assessment  expert",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "accurate",
+        "expert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Reject  improper  procedure  supervisor",
+      "uncommon_words": [
+        "improper"
+      ],
+      "previously_used_words": [
+        "reject",
+        "procedure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'improper' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Reveal  significant  impact  analyst",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "significant",
+        "analyst"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Secure  powerful  position  executive",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Solve  challenging  challenge  athlete",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "solve",
+        "challenging"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Transform  simple  form  writer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "simple"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Validate  logical  conclusion  logician",
+      "uncommon_words": [
+        "validate",
+        "logician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "logical",
+        "logician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'logician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Reject  biased  judgment  judge",
+      "uncommon_words": [
+        "biased"
+      ],
+      "previously_used_words": [
+        "reject",
+        "judge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'biased' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Reveal  essential  detail  reporter",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Secure  vital  resource  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Solve  complicated  issue  consultant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Transform  basic  structure  architect",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "architect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Validate  consistent  report  analyst",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "report",
+        "analyst"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Reject  flawed  argument  critic",
+      "uncommon_words": [
+        "flawed"
+      ],
+      "previously_used_words": [
+        "reject",
+        "flawed",
+        "argument",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'flawed' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Reveal  crucial  factor  expert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "crucial",
+        "expert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Secure  stable  foundation  builder",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Solve  critical  shortage  planner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "critical",
+        "planner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Validate  consistent  result  scientist",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "result",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Reject  unpredictable  outcome  forecaster",
+      "uncommon_words": [
+        "unpredictable",
+        "forecaster"
+      ],
+      "previously_used_words": [
+        "reject",
+        "outcome",
+        "forecaster"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unpredictable' is not an adjective",
+        "Fourth word 'forecaster' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Reveal  important  reminder  journalist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "journalist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Secure  protected  property  manager",
+      "uncommon_words": [
+        "protected"
+      ],
+      "previously_used_words": [
+        "secure",
+        "protected",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'protected' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Solve  complicated  problem  consultant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "problem",
+        "consultant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Transform  simple  instruction  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "simple",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Validate  consistent  formula  statistician",
+      "uncommon_words": [
+        "validate",
+        "statistician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "statistician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'statistician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Reveal  important  principle  expert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "principle",
+        "expert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Secure  strategic  advantage  leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "strategic",
+        "advantage",
+        "leader"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Solve  critical  deficiency  planner",
+      "uncommon_words": [
+        "deficiency"
+      ],
+      "previously_used_words": [
+        "solve",
+        "critical",
+        "planner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'deficiency' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Transform  basic  concept  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "concept",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Validate  consistent  data  scientist",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "data",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Reject  harmful  practice  critic",
+      "uncommon_words": [
+        "harmful"
+      ],
+      "previously_used_words": [
+        "reject",
+        "harmful",
+        "practice",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'harmful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Reveal  crucial  factor  expert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "crucial",
+        "factor",
+        "expert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Secure  strategic  influence  leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "strategic",
+        "influence",
+        "leader"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Solve  critical  obstacle  planner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "critical",
+        "planner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Transform  basic  element  chef",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "element",
+        "chef"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Validate  consistent  result  scientist",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "result",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Reject  unfair  treatment  critic",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reject",
+        "unfair",
+        "treatment",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Reveal  important  lesson  mentor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "lesson",
+        "mentor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Solve  complex  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Transform  common  aspect  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Reject  improper  procedure  supervisor",
+      "uncommon_words": [
+        "improper"
+      ],
+      "previously_used_words": [
+        "reject",
+        "improper",
+        "procedure",
+        "supervisor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'improper' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Reveal  essential  insight  expert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "insight",
+        "expert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Secure  protected  information  manager",
+      "uncommon_words": [
+        "protected"
+      ],
+      "previously_used_words": [
+        "secure",
+        "protected",
+        "information",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'protected' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Solve  critical  shortage  planner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "critical",
+        "shortage",
+        "planner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Transform  simple  design  architect",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "simple",
+        "design",
+        "architect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Validate  consistent  pattern  statistician",
+      "uncommon_words": [
+        "validate",
+        "statistician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "pattern",
+        "statistician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'statistician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Reveal  important  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Secure  valuable  resource  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "resource",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Solve  complex  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complex",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Transform  basic  element  chef",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "element",
+        "chef"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Validate  consistent  data  statistician",
+      "uncommon_words": [
+        "validate",
+        "statistician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "data",
+        "statistician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'statistician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Reveal  important  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Secure  valuable  resource  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "resource",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Solve  complicated  problem  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "problem",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Transform  simple  design  architect",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "simple",
+        "design",
+        "architect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Validate  consistent  data  statistician",
+      "uncommon_words": [
+        "validate",
+        "statistician"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "data",
+        "statistician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Fourth word 'statistician' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Reveal  important  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "important",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Secure  valuable  resource  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "resource",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Solve  complicated  problem  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "problem",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Validate  consistent  data  scientist",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "consistent",
+        "data",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Reveal  crucial  factor  expert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "crucial",
+        "factor",
+        "expert"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Secure  strategic  advantage  leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "strategic",
+        "advantage",
+        "leader"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Solve  critical  challenge  planner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "critical",
+        "challenge",
+        "planner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Transform  simple  concept  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "simple",
+        "concept",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Reveal  essential  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "asset",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Solve  complicated  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Reveal  essential  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "asset",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Solve  complicated  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Reveal  essential  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "asset",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Solve  complicated  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Reveal  essential  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "asset",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Solve  complicated  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Reveal  essential  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "asset",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Solve  complicated  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Reject  unnecessary  risk  critic",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [
+        "reject",
+        "unnecessary",
+        "risk",
+        "critic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unnecessary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Reveal  essential  lesson  teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reveal",
+        "essential",
+        "lesson",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Secure  valuable  asset  manager",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secure",
+        "valuable",
+        "asset",
+        "manager"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Solve  complicated  situation  diplomat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "complicated",
+        "situation",
+        "diplomat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Transform  basic  design  artist",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transform",
+        "basic",
+        "design",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Validate  precise  measurements  scientist",
+      "uncommon_words": [
+        "validate",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "validate",
+        "precise",
+        "measurements",
+        "scientist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'measurements' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

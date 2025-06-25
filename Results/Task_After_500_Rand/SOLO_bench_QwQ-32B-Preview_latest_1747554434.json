@@ -1,0 +1,68 @@
+{
+  "model": "QwQ-32B-Preview:latest",
+  "label": "2025-05-18 10:50:24",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_QwQ-32B-Preview_latest_1747554434.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_QwQ-32B-Preview_latest_1747554434.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not include explanations for how you arrived at the sentences",
+      "uncommon_words": [
+        "explanations",
+        "arrived",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Only use words from the above list when forming sentences",
+      "uncommon_words": [
+        "words",
+        "forming",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "the",
+        "sentences"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Make sure there are no duplicates in your final list, as some words may be similar but not exact matches.",
+      "uncommon_words": [
+        "are",
+        "duplicates",
+        "words",
+        "matches"
+      ],
+      "previously_used_words": [
+        "list",
+        "words",
+        "not"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

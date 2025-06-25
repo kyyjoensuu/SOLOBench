@@ -1,0 +1,25 @@
+
+"""
+
+
+
+def part1(data):
+	results = []
+	for x in range(0, 2000):
+		try:
+			res = gen_sentences(x)
+			# print(res)
+			results.append(res)
+		except:
+			pass
+
+	return results
+
+
+def part2(data):
+	for x in range(0, 2000):
+		res = gen_sentences(x)
+		try:
+			print(res)
+		except:
+			pass

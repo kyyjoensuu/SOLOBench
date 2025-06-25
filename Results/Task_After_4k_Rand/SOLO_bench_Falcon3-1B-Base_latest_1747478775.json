@@ -1,0 +1,48 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-17 13:46:33",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747478775.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747478775.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "You must start each new sentence with [NEW.] and end each sentence with [STOP]",
+      "uncommon_words": [
+        "[new]",
+        "[stop]"
+      ],
+      "previously_used_words": [],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "If you get stuck or don't understand what's possible or what you want to do, go back to the beginning of this question and try again",
+      "uncommon_words": [
+        "stuck",
+        "don't",
+        "what's"
+      ],
+      "previously_used_words": [
+        "you",
+        "you",
+        "and"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

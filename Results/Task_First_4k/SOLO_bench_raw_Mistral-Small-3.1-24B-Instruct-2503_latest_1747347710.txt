@@ -1,0 +1,197 @@
+
+
+"""
+
+# Function to display available levels and let the user select one.
+def select_level():
+    print("Please choose a difficulty level:")
+    print("1. Easy")
+    print("2. Medium")
+    print("3. Hard")
+
+    try:
+        choice = int(input("Enter your selection (1/2/3): ").strip())
+        if 1 <= choice <= 3:
+            return choice
+        else:
+            print("Invalid selection. Defaulting to easy.")
+            return 1  # Easy level as the default option.
+    except ValueError:
+        print("Invalid input. Please enter a number between 1 and 3. Defaulting to easy.")
+        return 1  # Easy level as the default option.
+
+def get_words(difficulty):
+    words_list = []
+    if difficulty == '1':
+        words_list = [
+            "cat",
+            "dog",
+            "bat",
+            "rat",
+            "sat",
+            "mat"
+        ]
+    elif difficulty == '2':
+        words_list = [
+            "apple",
+            "banana",
+            "grapefruit",
+            "kiwi",
+            "lemon",
+            "orange",
+            "pear",
+            "strawberry"],
+    else:
+        words_list = ["antidote", "parallelogram","perpendicular" ]
+
+    return random.sample(words_list, 3 if difficulty == '1' else 5)
+
+def create_blank_word_display(word):
+    display = ['_' for _ in word]
+    return ' '.join(display)
+
+
+def update_letters_in_word(word, guessed_letter):
+    word_list = list(word)
+    for i, letter in enumerate(word_list):
+        if letter == guessed_letter:
+            word_list[i] = guessed_letter
+    return ''.join(word_list)
+
+def remove_char_from_large_string(string_to_search, char_to_remove):
+    new_string = string_to_search.replace(char_to_remove,'')
+    return new_string
+
+def reveal_word(selected_random_words, guessed_letters):
+
+    for i in range(len(selected_random_words)):
+        print(f"Word {i+1}: ")
+        selected_word = selected_random_words[i]
+        result=[]
+        for letter in selected_word:
+            if letter in guessed_letters:
+                result.append(letter)
+            else:
+                result.append('_')
+        print(' '.join(result), end='\n')
+    print("---------------------------------------")
+def hangman(game):
+    if game =='1':
+        lives = 6
+        max_wrong_guesses = 4 # Easy level
+        number_of_blanks_allowed=30
+
+    elif game== '2':
+         lives = 7 # Hard level has increased number of tries
+         max_wrong_guesses=7     # Medium level limit for wrong guesses
+         number_of_blanks_allowed=18
+
+
+    else:
+        lives=6
+        number_of_blanks_allowed = 9
+        #max_wrong_guesses = 4
+
+    print(lives)
+    random_words = get_words(game)  # Get the random words based on selected difficulty.
+    #random_words=['apple','banana']
+
+
+
+    guessed_missing_lrters=[]#to track what lretts are guessed in a round and then
+                              #show user missed letters at end of a round
+    number_of_right_guesses = 0
+    wrong_choice_made=False
+
+    hangman_states=[
+"-------",
+"+--|-----+ ",
+"   |     \n   O " ,
+"   9      |\n\n   8 \n   *O*" ,
+"\n   +-----+" ,#hangman_states[6]: #head
+"       ",
+"      /" ,
+"\n  ///|\ \ "
+]
+
+    all_characters = available_letters
+
+
+
+
+    while number_of_right_guesses < len(all_characters) and lives > 0:
+        # Display the current state of each word.
+        print("The words to guess are: ")
+        for index,word in enumerate(random_words):
+            new_word_without=remove_char_from_large_string(all_characters[random.sample(range(len(all_characters)),1)[0]],word)
+            reveal_word(new_word_without,index)
+
+
+
+        # Ask the user to input a letter.
+        print("Available letters to choose are = " + all_characters)
+        guessed_letter = input("\nEnter your guess (a single lowercase or uppercase letter): ")
+        if len(guessed_letter) != 1:
+            print("Please enter exactly one letter.")
+            number_of_right_guesses=number_of_right_guesses-1
+            continue
+
+
+
+
+
+        # Check if the guessed letter is in any of the words.
+        for i, word in enumerate(random_words):
+            if guessed_letter in word and number_of_blanks_allowed>=0:
+                updated_word = update_letters_in_word(word,guessed_letter)
+                number_of_right_guesses += 1
+
+
+            elif guessed_letter not in set(word):
+                print(f"Sorry, the letter '{guessed_letter}' is not in any of the words.")
+                guessed_missing_lrters.append(guessed_letter)
+
+
+        # Check if the player has used too many wrong guesses.
+        if number_of_right_guesses - lives >= max_wrong_guesses:
+            print(f"You have run out of chances! The words are: {', '.join(random_words)}.")
+            break;
+
+     # Reduce the remaining life based on whether it was wrong or right.
+
+        number_of_blanks_allowed=number_of_blanks_allowed-1
+        if guessed_letter in set(word) and number_of_right_guesses - lives >= max_wrong_guesses:
+            print(f"Letter '{guessed_letter}' did not fit into any of the word")
+            number_of_blanks_allowed = number_of_blanks_allowed - 1
+
+    else:
+
+        print("Congratulations! You've successfully guessed all the letters!")
+         # Update guessed_missing_lrters
+         guessed_missing_lrters.append(guessed_letter)
+         print('Guessed wrongly', ','.join(set(guessed_missing_lrters)))
+
+
+# Run the game with appropriate input handling and logic.
+if __name__ == "__main__":
+    level = select_level()
+    play_or_end=input("Select p for play or q to quit game: ")
+    while (play_or_end!='q'):
+        hangman(str(level))
+    # Get random words based on selected difficulty.
+
+
+
+
+         # Run the loop and handle user actions
+    print(f"Selected Difficulty level is {level}")
+    play_game = True  # Control variable for playing the game.
+    if play_game:
+            hangman()
+     else:
+
+            print("Thank you for playing Hangman! See you next time!")
+      # Play or end based on input.
+
+    else:#for any thing other than p q
+                play_or_end=input("Select  p for play or q to quit: ")

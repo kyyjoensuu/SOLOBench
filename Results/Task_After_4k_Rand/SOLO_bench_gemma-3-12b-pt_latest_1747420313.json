@@ -1,0 +1,41 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-16 21:32:18",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747420313.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747420313.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Each sentence must be unique and not be duplicated",
+      "uncommon_words": [
+        "duplicated"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Use only four English sentences.",
+      "uncommon_words": [
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

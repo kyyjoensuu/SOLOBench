@@ -1,0 +1,1359 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-19 00:34:30",
+  "total_sentences": 55,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 55,
+  "format_failures": 55,
+  "common_word_failures": 51,
+  "word_reuse_failures": 53,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747602810.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747602810.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not provide any help during testing",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "There is only one correct answer (or answer) which means there is only one correct list.",
+      "uncommon_words": [
+        "is",
+        "(or",
+        "answer)",
+        "means",
+        "is"
+      ],
+      "previously_used_words": [],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "You can have more than 1 answer.",
+      "uncommon_words": [
+        "can",
+        "1"
+      ],
+      "previously_used_words": [
+        "answer"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "only",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "word",
+        "can",
+        "only",
+        "word",
+        "is",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Each sentence must follow this structure: Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "must"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Each sentence must contain exactly 2 words",
+      "uncommon_words": [
+        "2",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "exactly",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Do not use any tools or code to accomplish the task",
+      "uncommon_words": [
+        "tools"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use",
+        "any",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "the",
+        "word",
+        "list",
+        "in",
+        "it",
+        "is",
+        "you"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Return only a numbered list with one sentence on each line, including the correct answer",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "only",
+        "a",
+        "list",
+        "one",
+        "sentence",
+        "each",
+        "the",
+        "correct",
+        "answer"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Do not provide any help during testing",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "do",
+        "not",
+        "provide",
+        "any",
+        "help",
+        "during",
+        "testing"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "There is only one correct answer (or answer) which means there is only one correct list.",
+      "uncommon_words": [
+        "is",
+        "(or",
+        "answer)",
+        "means",
+        "is"
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "only",
+        "one",
+        "correct",
+        "answer",
+        "(or",
+        "answer)",
+        "which",
+        "means",
+        "there",
+        "is",
+        "only",
+        "one",
+        "correct",
+        "list"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "You can have more than 1 answer.",
+      "uncommon_words": [
+        "can",
+        "1"
+      ],
+      "previously_used_words": [
+        "you",
+        "can",
+        "have",
+        "more",
+        "than",
+        "1",
+        "answer"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "I will not be providing code or tools for writing your test. I can provide sample sentences for you to use as a guide. I am only asking that you use English words as you normally would.",
+      "uncommon_words": [
+        "will",
+        "providing",
+        "tools",
+        "can",
+        "sentences",
+        "asking",
+        "words"
+      ],
+      "previously_used_words": [
+        "will",
+        "not",
+        "be",
+        "code",
+        "or",
+        "tools",
+        "your",
+        "can",
+        "provide",
+        "sentences",
+        "you",
+        "to",
+        "use",
+        "as",
+        "a",
+        "only",
+        "you",
+        "use",
+        "words",
+        "as",
+        "you"
+      ],
+      "word_count": 37,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Each sentence must follow this structure: Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "follow",
+        "this",
+        "structure",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Each sentence must contain exactly 3 words",
+      "uncommon_words": [
+        "3",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "contain",
+        "exactly",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Do not use any tools or code to accomplish the task",
+      "uncommon_words": [
+        "tools"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use",
+        "any",
+        "tools",
+        "or",
+        "code",
+        "to",
+        "accomplish",
+        "the",
+        "task"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "output",
+        "the",
+        "entire",
+        "word",
+        "list",
+        "in",
+        "your",
+        "thinking",
+        "stage",
+        "it",
+        "is",
+        "too",
+        "long",
+        "and",
+        "you",
+        "will",
+        "run",
+        "out",
+        "of",
+        "thinking",
+        "tokens"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Return only a set of sentences that have a matching answer, or at least one that matches and one that does not.",
+      "uncommon_words": [
+        "sentences",
+        "matching",
+        "matches",
+        "does"
+      ],
+      "previously_used_words": [
+        "return",
+        "only",
+        "a",
+        "of",
+        "sentences",
+        "that",
+        "have",
+        "a",
+        "answer",
+        "or",
+        "one",
+        "that",
+        "and",
+        "one",
+        "that",
+        "not"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "There is one correct answer (or answer) which means there is one correct list.",
+      "uncommon_words": [
+        "is",
+        "(or",
+        "answer)",
+        "means",
+        "is"
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "one",
+        "correct",
+        "answer",
+        "(or",
+        "answer)",
+        "which",
+        "means",
+        "there",
+        "is",
+        "one",
+        "correct",
+        "list"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "There is one \"correct\" answer. All the sentences are either correct or have a matching answer, but they all have to appear in the same order.",
+      "uncommon_words": [
+        "is",
+        "\"correct\"",
+        "sentences",
+        "are",
+        "matching"
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "one",
+        "answer",
+        "the",
+        "sentences",
+        "correct",
+        "or",
+        "have",
+        "a",
+        "matching",
+        "answer",
+        "they",
+        "have",
+        "to",
+        "appear",
+        "in",
+        "the"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "You can have more than 1 answer.",
+      "uncommon_words": [
+        "can",
+        "1"
+      ],
+      "previously_used_words": [
+        "you",
+        "can",
+        "have",
+        "more",
+        "than",
+        "1",
+        "answer"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Each second sentence must end in a sentence (verb + noun)",
+      "uncommon_words": [
+        "(verb",
+        "+",
+        "noun)"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "in",
+        "a",
+        "sentence",
+        "+"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Each first sentence must end in a noun (or a verb + noun)",
+      "uncommon_words": [
+        "noun",
+        "(or",
+        "verb",
+        "+",
+        "noun)"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "end",
+        "in",
+        "a",
+        "noun",
+        "(or",
+        "a",
+        "verb",
+        "+",
+        "noun)"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "There are a total of 200 sentences (words that fit in one sentence, no more, no less)",
+      "uncommon_words": [
+        "are",
+        "200",
+        "sentences",
+        "(words",
+        "less)"
+      ],
+      "previously_used_words": [
+        "there",
+        "are",
+        "a",
+        "of",
+        "sentences",
+        "that",
+        "in",
+        "one",
+        "sentence",
+        "more"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Every word should appear at least twice in each sentence.",
+      "uncommon_words": [
+        "should"
+      ],
+      "previously_used_words": [
+        "word",
+        "appear",
+        "at",
+        "least",
+        "in",
+        "each",
+        "sentence"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "There is one correct answer which means there is one correct list.",
+      "uncommon_words": [
+        "is",
+        "means",
+        "is"
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "one",
+        "correct",
+        "answer",
+        "which",
+        "means",
+        "there",
+        "is",
+        "one",
+        "correct",
+        "list"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "There is one correct answer (or answer).",
+      "uncommon_words": [
+        "is",
+        "(or",
+        "answer)"
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "one",
+        "correct",
+        "answer",
+        "(or",
+        "answer)"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "All of the words come from the word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "all",
+        "of",
+        "the",
+        "words",
+        "the",
+        "word",
+        "list"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "There is only one sentence on each line; the complete sentence starts with a noun.",
+      "uncommon_words": [
+        "is",
+        "starts",
+        "noun"
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "only",
+        "one",
+        "sentence",
+        "on",
+        "each",
+        "line",
+        "the",
+        "sentence",
+        "with",
+        "a",
+        "noun"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "There are no punctuation marks or special characters in words (only letters).",
+      "uncommon_words": [
+        "are",
+        "punctuation",
+        "marks",
+        "characters",
+        "words",
+        "(only",
+        "letters)"
+      ],
+      "previously_used_words": [
+        "there",
+        "are",
+        "no",
+        "or",
+        "in",
+        "words"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "There are no special characters or punctuation marks at the start or end of any sentences.",
+      "uncommon_words": [
+        "are",
+        "characters",
+        "punctuation",
+        "marks",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "there",
+        "are",
+        "no",
+        "special",
+        "characters",
+        "or",
+        "punctuation",
+        "marks",
+        "at",
+        "the",
+        "or",
+        "end",
+        "of",
+        "any",
+        "sentences"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "There is no special character or punctuation mark outside of the word \"now\".",
+      "uncommon_words": [
+        "is",
+        "punctuation",
+        "\"now\""
+      ],
+      "previously_used_words": [
+        "there",
+        "is",
+        "no",
+        "special",
+        "or",
+        "punctuation",
+        "of",
+        "the",
+        "word"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "You can have more than 1 answer",
+      "uncommon_words": [
+        "can",
+        "1"
+      ],
+      "previously_used_words": [
+        "you",
+        "can",
+        "have",
+        "more",
+        "than",
+        "1",
+        "answer"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "The bird flew to the tree",
+      "uncommon_words": [
+        "flew"
+      ],
+      "previously_used_words": [
+        "the",
+        "to",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "The duck chased the bird",
+      "uncommon_words": [
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "the",
+        "bird"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "The bird was chased by the duck",
+      "uncommon_words": [
+        "was",
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "chased",
+        "the",
+        "duck"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "The bird chased the duck and the duck was chased by the duck",
+      "uncommon_words": [
+        "chased",
+        "was",
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "chased",
+        "the",
+        "duck",
+        "and",
+        "the",
+        "duck",
+        "was",
+        "chased",
+        "by",
+        "the",
+        "duck"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "I love to fly to the tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "to",
+        "to",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "I am chased by the duck",
+      "uncommon_words": [
+        "chased"
+      ],
+      "previously_used_words": [
+        "i",
+        "am",
+        "chased",
+        "by",
+        "the",
+        "duck"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "The duck chases the bird and the bird chases the duck",
+      "uncommon_words": [
+        "chases",
+        "chases"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "the",
+        "bird",
+        "and",
+        "the",
+        "bird",
+        "the",
+        "duck"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "The duck was chased by the duck",
+      "uncommon_words": [
+        "was",
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "was",
+        "chased",
+        "by",
+        "the",
+        "duck"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "The duck is chased by the duck",
+      "uncommon_words": [
+        "is",
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "is",
+        "chased",
+        "by",
+        "the",
+        "duck"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "The bird was chased by the duck",
+      "uncommon_words": [
+        "was",
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "chased",
+        "by",
+        "the",
+        "duck"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "I love to fly to the tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "love",
+        "to",
+        "fly",
+        "to",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "The duck chased the bird",
+      "uncommon_words": [
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "chased",
+        "the",
+        "bird"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "The duck chased the duck and the duck chased the duck",
+      "uncommon_words": [
+        "chased",
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "chased",
+        "the",
+        "duck",
+        "and",
+        "the",
+        "duck",
+        "chased",
+        "the",
+        "duck"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "The duck chased the bird",
+      "uncommon_words": [
+        "chased"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "chased",
+        "the",
+        "bird"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "The duck chases the duck",
+      "uncommon_words": [
+        "chases"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "chases",
+        "the",
+        "duck"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "The bird chases the duck",
+      "uncommon_words": [
+        "chases"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "chases",
+        "the",
+        "duck"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "The duck chases the duck and the duck chases the duck",
+      "uncommon_words": [
+        "chases",
+        "chases"
+      ],
+      "previously_used_words": [
+        "the",
+        "duck",
+        "chases",
+        "the",
+        "duck",
+        "and",
+        "the",
+        "duck",
+        "chases",
+        "the",
+        "duck"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

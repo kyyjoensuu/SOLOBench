@@ -1,0 +1,3451 @@
+{
+  "model": "Llama-3.3-70B-Instruct:latest",
+  "label": "2025-05-18 13:05:23",
+  "total_sentences": 200,
+  "perfect_sentences": 4,
+  "score_percentage": 2.0,
+  "word_count_failures": 2,
+  "format_failures": 196,
+  "common_word_failures": 119,
+  "word_reuse_failures": 144,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_Llama-3.3-70B-Instruct_latest_1747560329.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_Llama-3.3-70B-Instruct_latest_1747560329.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Create beautiful house garden",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Run quickly happy dog",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'happy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Eat delicious sweet cake",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Drive slowly big car",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Jump high tall mountain",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Read interesting old book",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Write clearly white paper",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Sing loudly sad song",
+      "uncommon_words": [
+        "loudly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loudly' is not an adjective",
+        "Third word 'sad' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Dance elegantly pretty woman",
+      "uncommon_words": [
+        "elegantly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'elegantly' is not an adjective",
+        "Third word 'pretty' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Play carefully little kid",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Learn easily new language",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'easily' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Speak fluently foreign tongue",
+      "uncommon_words": [
+        "fluently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluently' is not an adjective",
+        "Third word 'foreign' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Hear softly quiet music",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'softly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "See clearly bright light",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clearly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'bright' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Feel deeply strong emotion",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Think critically sharp mind",
+      "uncommon_words": [
+        "critically"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'critically' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Work diligently hard job",
+      "uncommon_words": [
+        "diligently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diligently' is not an adjective",
+        "Third word 'hard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Rest peacefully warm bed",
+      "uncommon_words": [
+        "peacefully"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'warm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Dream vividly strange dream",
+      "uncommon_words": [
+        "vividly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vividly' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Wake suddenly cold water",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'suddenly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Open wide heavy door",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Close tightly small window",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Build strongly high bridge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "high"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Destroy completely old building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'completely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Paint beautifully colorful picture",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'colorful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Draw precisely straight line",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'precisely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Cut sharply dull knife",
+      "uncommon_words": [
+        "dull"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sharply' is not an adjective",
+        "Third word 'dull' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Sew carefully torn cloth",
+      "uncommon_words": [
+        "sew",
+        "torn"
+      ],
+      "previously_used_words": [
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sew' is not a verb",
+        "Second word 'carefully' is not an adjective",
+        "Third word 'torn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Weed gently young plant",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Water thoroughly dry soil",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "water"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Harvest ripe fresh fruit",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective",
+        "Third word 'fresh' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Sow slowly small seed",
+      "uncommon_words": [
+        "sow"
+      ],
+      "previously_used_words": [
+        "slowly",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sow' is not a verb",
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Reap quickly big crop",
+      "uncommon_words": [
+        "reap"
+      ],
+      "previously_used_words": [
+        "quickly",
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reap' is not a verb",
+        "Second word 'quickly' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Plant deeply strong tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "plant",
+        "deeply",
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Grow steadily healthy leaf",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steadily' is not an adjective",
+        "Third word 'healthy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Prune carefully dead branch",
+      "uncommon_words": [
+        "prune"
+      ],
+      "previously_used_words": [
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prune' is not a verb",
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Fade slowly old flower",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "old"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Wilt quickly young stem",
+      "uncommon_words": [
+        "wilt"
+      ],
+      "previously_used_words": [
+        "quickly",
+        "young"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wilt' is not a verb",
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Blossom beautifully bright bloom",
+      "uncommon_words": [
+        "blossom",
+        "beautifully",
+        "bloom"
+      ],
+      "previously_used_words": [
+        "beautifully",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'blossom' is not a verb",
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'bright' is not a noun",
+        "Fourth word 'bloom' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Shine brightly warm sun",
+      "uncommon_words": [
+        "brightly"
+      ],
+      "previously_used_words": [
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'brightly' is not an adjective",
+        "Third word 'warm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Set rapidly rising moon",
+      "uncommon_words": [
+        "rising"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'rising' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Rise highly tall wave",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Fall gently soft snow",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "gently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective",
+        "Third word 'soft' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Blow strongly cold wind",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly",
+        "cold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Rain heavily dark cloud",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heavily' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Thunder loudly loud clap",
+      "uncommon_words": [
+        "thunder",
+        "loudly",
+        "clap"
+      ],
+      "previously_used_words": [
+        "loudly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'thunder' is not a verb",
+        "Second word 'loudly' is not an adjective",
+        "Third word 'loud' is not a noun",
+        "Fourth word 'clap' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Lightning flash brightly electric",
+      "uncommon_words": [
+        "brightly"
+      ],
+      "previously_used_words": [
+        "brightly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'lightning' is not a verb",
+        "Third word 'brightly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Freeze solidly hard ice",
+      "uncommon_words": [
+        "solidly"
+      ],
+      "previously_used_words": [
+        "hard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'solidly' is not an adjective",
+        "Third word 'hard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Melt slowly warm wax",
+      "uncommon_words": [
+        "wax"
+      ],
+      "previously_used_words": [
+        "slowly",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Third word 'warm' is not a noun",
+        "Fourth word 'wax' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Evaporate quickly hot steam",
+      "uncommon_words": [
+        "evaporate"
+      ],
+      "previously_used_words": [
+        "quickly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'evaporate' is not a verb",
+        "Second word 'quickly' is not an adjective",
+        "Third word 'hot' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Gather rapidly growing crowd",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "rapidly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Disperse slowly thin fog",
+      "uncommon_words": [
+        "disperse"
+      ],
+      "previously_used_words": [
+        "slowly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'disperse' is not a verb",
+        "Second word 'slowly' is not an adjective",
+        "Third word 'thin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Meet happily old friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'happily' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Part sadly new stranger",
+      "uncommon_words": [
+        "sadly"
+      ],
+      "previously_used_words": [
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sadly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Find easily lost key",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "easily"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'easily' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Lose carefully small coin",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Keep safely valuable treasure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Give generously free gift",
+      "uncommon_words": [
+        "generously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'generously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Receive gratefully warm welcome",
+      "uncommon_words": [
+        "gratefully"
+      ],
+      "previously_used_words": [
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gratefully' is not an adjective",
+        "Third word 'warm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Return quickly borrowed book",
+      "uncommon_words": [
+        "borrowed"
+      ],
+      "previously_used_words": [
+        "quickly",
+        "book"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'borrowed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Begin freshly new chapter",
+      "uncommon_words": [
+        "freshly"
+      ],
+      "previously_used_words": [
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'freshly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "End finally old story",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'finally' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Start strongly bold journey",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Finish weakly tired traveler",
+      "uncommon_words": [
+        "weakly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'weakly' is not an adjective",
+        "Third word 'tired' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Climb steeply high mountain",
+      "uncommon_words": [
+        "steeply"
+      ],
+      "previously_used_words": [
+        "high",
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steeply' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Descend slowly low valley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Explore curiously unknown land",
+      "uncommon_words": [
+        "curiously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'curiously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Discover surprisingly hidden treasure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'surprisingly' is not an adjective",
+        "Third word 'hidden' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Wander aimlessly lost tourist",
+      "uncommon_words": [
+        "aimlessly"
+      ],
+      "previously_used_words": [
+        "lost"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'aimlessly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Arrive safely home destination",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "safely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Sail smoothly calm sea",
+      "uncommon_words": [
+        "smoothly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'smoothly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Navigate carefully rocky shore",
+      "uncommon_words": [
+        "navigate",
+        "rocky"
+      ],
+      "previously_used_words": [
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'navigate' is not a verb",
+        "Second word 'carefully' is not an adjective",
+        "Third word 'rocky' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Anchor firmly stable ground",
+      "uncommon_words": [
+        "anchor"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'anchor' is not a verb",
+        "Second word 'firmly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Launch rapidly moving boat",
+      "uncommon_words": [
+        "moving"
+      ],
+      "previously_used_words": [
+        "rapidly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'moving' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Dock slowly quiet harbor",
+      "uncommon_words": [
+        "harbor"
+      ],
+      "previously_used_words": [
+        "slowly",
+        "quiet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Fourth word 'harbor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Fish patiently waiting fisherman",
+      "uncommon_words": [
+        "patiently",
+        "waiting"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'patiently' is not an adjective",
+        "Third word 'waiting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Swim strongly healthy athlete",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly",
+        "healthy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'healthy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Dive deeply brave diver",
+      "uncommon_words": [
+        "dive",
+        "diver"
+      ],
+      "previously_used_words": [
+        "deeply"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dive' is not a verb",
+        "Second word 'deeply' is not an adjective",
+        "Fourth word 'diver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Surf skillfully big wave",
+      "uncommon_words": [
+        "surf",
+        "skillfully"
+      ],
+      "previously_used_words": [
+        "big",
+        "wave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'surf' is not a verb",
+        "Second word 'skillfully' is not an adjective",
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Paddle gently small canoe",
+      "uncommon_words": [
+        "paddle",
+        "canoe"
+      ],
+      "previously_used_words": [
+        "gently",
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'paddle' is not a verb",
+        "Second word 'gently' is not an adjective",
+        "Fourth word 'canoe' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Ride quickly fast horse",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Drive recklessly wild car",
+      "uncommon_words": [
+        "recklessly"
+      ],
+      "previously_used_words": [
+        "drive",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'recklessly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Fly smoothly soaring airplane",
+      "uncommon_words": [
+        "smoothly",
+        "soaring"
+      ],
+      "previously_used_words": [
+        "smoothly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'smoothly' is not an adjective",
+        "Third word 'soaring' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Walk slowly tired feet",
+      "uncommon_words": [
+        "feet"
+      ],
+      "previously_used_words": [
+        "slowly",
+        "tired"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Third word 'tired' is not a noun",
+        "Fourth word 'feet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Run rapidly moving train",
+      "uncommon_words": [
+        "moving"
+      ],
+      "previously_used_words": [
+        "run",
+        "rapidly",
+        "moving"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rapidly' is not an adjective",
+        "Third word 'moving' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Jump highly trampolinist",
+      "uncommon_words": [
+        "trampolinist"
+      ],
+      "previously_used_words": [
+        "jump",
+        "highly"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Skip happily little girl",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "happily",
+        "little"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'happily' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Hop quickly one foot",
+      "uncommon_words": [
+        "hop"
+      ],
+      "previously_used_words": [
+        "quickly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hop' is not a verb",
+        "Second word 'quickly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Leap strongly athletic runner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'athletic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Bound freely wild animal",
+      "uncommon_words": [
+        "bound"
+      ],
+      "previously_used_words": [
+        "wild"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bound' is not a verb",
+        "Second word 'freely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Create original artistic painting",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'artistic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Compose beautifully musical melody",
+      "uncommon_words": [
+        "beautifully",
+        "melody"
+      ],
+      "previously_used_words": [
+        "beautifully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Fourth word 'melody' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Write thoughtfully deep poem",
+      "uncommon_words": [
+        "thoughtfully"
+      ],
+      "previously_used_words": [
+        "write"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoughtfully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Dance energetically lively performance",
+      "uncommon_words": [
+        "energetically",
+        "lively"
+      ],
+      "previously_used_words": [
+        "dance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'energetically' is not an adjective",
+        "Third word 'lively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Sing melodiously sweet harmony",
+      "uncommon_words": [
+        "melodiously"
+      ],
+      "previously_used_words": [
+        "sing",
+        "sweet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'melodiously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Play skillfully complex instrument",
+      "uncommon_words": [
+        "skillfully"
+      ],
+      "previously_used_words": [
+        "play",
+        "skillfully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'skillfully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Act convincingly realistic character",
+      "uncommon_words": [
+        "convincingly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'convincingly' is not an adjective",
+        "Third word 'realistic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Direct creatively imaginative scene",
+      "uncommon_words": [
+        "creatively",
+        "imaginative"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creatively' is not an adjective",
+        "Third word 'imaginative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Produce highly successful show",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "highly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'successful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Perform amazingly talented artist",
+      "uncommon_words": [
+        "amazingly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'amazingly' is not an adjective",
+        "Third word 'talented' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Investigate carefully crime scene",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully",
+        "scene"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Analyze thoroughly complex data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thoroughly",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Solve cleverly difficult puzzle",
+      "uncommon_words": [
+        "cleverly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cleverly' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Discover surprisingly new clue",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "surprisingly",
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'surprisingly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Uncover slowly hidden truth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "slowly",
+        "hidden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'slowly' is not an adjective",
+        "Third word 'hidden' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Reveal shocking unexpected twist",
+      "uncommon_words": [
+        "shocking"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'shocking' is not an adjective",
+        "Third word 'unexpected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Explain clearly confusing concept",
+      "uncommon_words": [
+        "confusing"
+      ],
+      "previously_used_words": [
+        "clearly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'confusing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Understand deeply profound idea",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deeply"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'profound' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Learn quickly new skill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "learn",
+        "quickly",
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Master highly advanced technique",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "highly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'advanced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Develop innovative technological product",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'technological' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Design beautifully functional machine",
+      "uncommon_words": [
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "beautifully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'functional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Build strongly sturdy structure",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "build",
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'sturdy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Engineer cleverly efficient system",
+      "uncommon_words": [
+        "cleverly"
+      ],
+      "previously_used_words": [
+        "cleverly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cleverly' is not an adjective",
+        "Third word 'efficient' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Manufacture precisely high-quality part",
+      "uncommon_words": [
+        "manufacture",
+        "high-quality"
+      ],
+      "previously_used_words": [
+        "precisely",
+        "part"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'manufacture' is not a verb",
+        "Second word 'precisely' is not an adjective",
+        "Third word 'high-quality' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Assemble carefully complex device",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Test thoroughly reliable prototype",
+      "uncommon_words": [
+        "prototype"
+      ],
+      "previously_used_words": [
+        "thoroughly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective",
+        "Third word 'reliable' is not a noun",
+        "Fourth word 'prototype' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Launch successfully new project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'successfully' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Market effectively attractive brand",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective",
+        "Third word 'attractive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Sell quickly popular product",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'popular' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Provide kindly generous service",
+      "uncommon_words": [
+        "kindly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'kindly' is not an adjective",
+        "Third word 'generous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Offer helpful useful advice",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'useful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Support strongly loyal customer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'loyal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Assist carefully needy person",
+      "uncommon_words": [
+        "needy"
+      ],
+      "previously_used_words": [
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective",
+        "Third word 'needy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Guide wisely experienced leader",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'experienced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Mentor patiently young student",
+      "uncommon_words": [
+        "patiently"
+      ],
+      "previously_used_words": [
+        "patiently",
+        "young"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'patiently' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Counsel thoughtfully troubled mind",
+      "uncommon_words": [
+        "thoughtfully"
+      ],
+      "previously_used_words": [
+        "thoughtfully",
+        "mind"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoughtfully' is not an adjective",
+        "Third word 'troubled' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Heal gently hurting body",
+      "uncommon_words": [
+        "hurting"
+      ],
+      "previously_used_words": [
+        "gently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gently' is not an adjective",
+        "Third word 'hurting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Comfort sorrowfully grieving heart",
+      "uncommon_words": [
+        "sorrowfully",
+        "grieving"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sorrowfully' is not an adjective",
+        "Third word 'grieving' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Protect safely vulnerable child",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "safely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safely' is not an adjective",
+        "Third word 'vulnerable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Celebrate joyfully happy occasion",
+      "uncommon_words": [
+        "joyfully"
+      ],
+      "previously_used_words": [
+        "happy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyfully' is not an adjective",
+        "Third word 'happy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Commemorate solemnly important event",
+      "uncommon_words": [
+        "commemorate",
+        "solemnly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'commemorate' is not a verb",
+        "Second word 'solemnly' is not an adjective",
+        "Third word 'important' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Honor highly respected achievement",
+      "uncommon_words": [
+        "respected"
+      ],
+      "previously_used_words": [
+        "highly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'respected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Recognize gratefully generous donation",
+      "uncommon_words": [
+        "gratefully"
+      ],
+      "previously_used_words": [
+        "gratefully",
+        "generous"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gratefully' is not an adjective",
+        "Third word 'generous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Appreciate deeply heartfelt gift",
+      "uncommon_words": [
+        "heartfelt"
+      ],
+      "previously_used_words": [
+        "deeply",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'heartfelt' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Thank sincerely kind gesture",
+      "uncommon_words": [
+        "sincerely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sincerely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Praise loudly outstanding performance",
+      "uncommon_words": [
+        "loudly"
+      ],
+      "previously_used_words": [
+        "loudly",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loudly' is not an adjective",
+        "Third word 'outstanding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Reward generously excellent work",
+      "uncommon_words": [
+        "generously"
+      ],
+      "previously_used_words": [
+        "generously",
+        "work"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'generously' is not an adjective",
+        "Third word 'excellent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Congratulate warmly newlywed couple",
+      "uncommon_words": [
+        "congratulate",
+        "warmly",
+        "newlywed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'congratulate' is not a verb",
+        "Second word 'warmly' is not an adjective",
+        "Third word 'newlywed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Welcome warmly new member",
+      "uncommon_words": [
+        "warmly"
+      ],
+      "previously_used_words": [
+        "welcome",
+        "warmly",
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Debate intensely controversial topic",
+      "uncommon_words": [
+        "intensely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intensely' is not an adjective",
+        "Third word 'controversial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Discuss thoughtfully complex issue",
+      "uncommon_words": [
+        "thoughtfully"
+      ],
+      "previously_used_words": [
+        "thoughtfully",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoughtfully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Argue persuasively strong point",
+      "uncommon_words": [
+        "persuasively"
+      ],
+      "previously_used_words": [
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'persuasively' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Negotiate carefully sensitive deal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Mediate impartially conflicting parties",
+      "uncommon_words": [
+        "mediate",
+        "impartially",
+        "conflicting",
+        "parties"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mediate' is not a verb",
+        "Second word 'impartially' is not an adjective",
+        "Third word 'conflicting' is not a noun",
+        "Fourth word 'parties' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Resolve peacefully difficult dispute",
+      "uncommon_words": [
+        "peacefully"
+      ],
+      "previously_used_words": [
+        "peacefully",
+        "difficult"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Settle amicably bitter feud",
+      "uncommon_words": [
+        "amicably",
+        "feud"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'amicably' is not an adjective",
+        "Fourth word 'feud' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Compromise wisely mutually beneficial",
+      "uncommon_words": [
+        "wisely",
+        "mutually",
+        "beneficial"
+      ],
+      "previously_used_words": [
+        "wisely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'mutually' is not a noun",
+        "Fourth word 'beneficial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Agree unanimously collective decision",
+      "uncommon_words": [
+        "unanimously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unanimously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Disagree strongly opposing view",
+      "uncommon_words": [
+        "opposing"
+      ],
+      "previously_used_words": [
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'opposing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Explore curiously mysterious phenomenon",
+      "uncommon_words": [
+        "curiously"
+      ],
+      "previously_used_words": [
+        "explore",
+        "curiously"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'curiously' is not an adjective",
+        "Third word 'mysterious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Investigate thoroughly unexplained event",
+      "uncommon_words": [
+        "unexplained"
+      ],
+      "previously_used_words": [
+        "investigate",
+        "thoroughly",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective",
+        "Third word 'unexplained' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Examine carefully unusual specimen",
+      "uncommon_words": [
+        "specimen"
+      ],
+      "previously_used_words": [
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective",
+        "Third word 'unusual' is not a noun",
+        "Fourth word 'specimen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Analyze thoroughly complex pattern",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "thoroughly",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Understand deeply profound principle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "understand",
+        "deeply",
+        "profound"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'profound' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Discover surprisingly new species",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "surprisingly",
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'surprisingly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Classify accurately strange object",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strange"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'accurately' is not an adjective",
+        "Third word 'strange' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Identify uniquely distinctive feature",
+      "uncommon_words": [
+        "uniquely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'uniquely' is not an adjective",
+        "Third word 'distinctive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Describe vividly imaginative scenario",
+      "uncommon_words": [
+        "vividly",
+        "imaginative"
+      ],
+      "previously_used_words": [
+        "vividly",
+        "imaginative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vividly' is not an adjective",
+        "Third word 'imaginative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Imagine creatively innovative solution",
+      "uncommon_words": [
+        "creatively"
+      ],
+      "previously_used_words": [
+        "creatively",
+        "innovative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creatively' is not an adjective",
+        "Third word 'innovative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Realize suddenly unexpected truth",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "suddenly",
+        "unexpected",
+        "truth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'suddenly' is not an adjective",
+        "Third word 'unexpected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Recognize instantly familiar face",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recognize"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'instantly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Recall vividly memorable experience",
+      "uncommon_words": [
+        "vividly",
+        "memorable"
+      ],
+      "previously_used_words": [
+        "vividly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vividly' is not an adjective",
+        "Third word 'memorable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Remember fondly happy memory",
+      "uncommon_words": [
+        "fondly"
+      ],
+      "previously_used_words": [
+        "happy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fondly' is not an adjective",
+        "Third word 'happy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Forget unintentionally important detail",
+      "uncommon_words": [
+        "unintentionally"
+      ],
+      "previously_used_words": [
+        "important"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unintentionally' is not an adjective",
+        "Third word 'important' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Misremember incorrectly past event",
+      "uncommon_words": [
+        "misremember",
+        "incorrectly"
+      ],
+      "previously_used_words": [
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'misremember' is not a verb",
+        "Second word 'incorrectly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Regret deeply painful mistake",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deeply"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'painful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Learn valuable lesson from failure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "learn",
+        "valuable"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Apply wisely gained knowledge",
+      "uncommon_words": [
+        "wisely",
+        "gained"
+      ],
+      "previously_used_words": [
+        "wisely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'gained' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Utilize effectively available resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "effectively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective",
+        "Third word 'available' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Create imaginatively new world",
+      "uncommon_words": [
+        "imaginatively"
+      ],
+      "previously_used_words": [
+        "create",
+        "new"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'imaginatively' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Design beautifully intricate landscape",
+      "uncommon_words": [
+        "beautifully",
+        "intricate"
+      ],
+      "previously_used_words": [
+        "design",
+        "beautifully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'intricate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Build strongly fortified castle",
+      "uncommon_words": [
+        "fortified",
+        "castle"
+      ],
+      "previously_used_words": [
+        "build",
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'fortified' is not a noun",
+        "Fourth word 'castle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Engineer cleverly functional machine",
+      "uncommon_words": [
+        "cleverly"
+      ],
+      "previously_used_words": [
+        "engineer",
+        "cleverly",
+        "functional",
+        "machine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cleverly' is not an adjective",
+        "Third word 'functional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Invent creatively innovative device",
+      "uncommon_words": [
+        "creatively"
+      ],
+      "previously_used_words": [
+        "creatively",
+        "innovative",
+        "device"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'creatively' is not an adjective",
+        "Third word 'innovative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Develop highly advanced technology",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "highly",
+        "advanced"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'advanced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Manufacture precisely high-quality product",
+      "uncommon_words": [
+        "manufacture",
+        "high-quality"
+      ],
+      "previously_used_words": [
+        "manufacture",
+        "precisely",
+        "high-quality",
+        "product"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'manufacture' is not a verb",
+        "Second word 'precisely' is not an adjective",
+        "Third word 'high-quality' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Assemble carefully complex system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "carefully",
+        "complex",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Test thoroughly reliable prototype",
+      "uncommon_words": [
+        "prototype"
+      ],
+      "previously_used_words": [
+        "test",
+        "thoroughly",
+        "reliable",
+        "prototype"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective",
+        "Third word 'reliable' is not a noun",
+        "Fourth word 'prototype' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Launch successfully new project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "successfully",
+        "new",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'successfully' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Form strongly united team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strongly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'united' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Lead wisely experienced group",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [
+        "wisely",
+        "experienced"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'experienced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Manage effectively large organization",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "effectively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Coordinate carefully complex effort",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "carefully",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Communicate clearly important message",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clearly",
+        "important"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'important' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Collaborate closely mutual partner",
+      "uncommon_words": [
+        "collaborate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'collaborate' is not a verb",
+        "Second word 'closely' is not an adjective",
+        "Third word 'mutual' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Support strongly loyal ally",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "support",
+        "strongly",
+        "loyal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'loyal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Defend bravely vulnerable position",
+      "uncommon_words": [
+        "bravely"
+      ],
+      "previously_used_words": [
+        "vulnerable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'bravely' is not an adjective",
+        "Third word 'vulnerable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Negotiate skillfully difficult deal",
+      "uncommon_words": [
+        "skillfully"
+      ],
+      "previously_used_words": [
+        "negotiate",
+        "skillfully",
+        "difficult",
+        "deal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'skillfully' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Resolve peacefully conflicting interest",
+      "uncommon_words": [
+        "peacefully",
+        "conflicting"
+      ],
+      "previously_used_words": [
+        "resolve",
+        "peacefully",
+        "conflicting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'conflicting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Grow steadily healthy plant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "grow",
+        "steadily",
+        "healthy",
+        "plant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'steadily' is not an adjective",
+        "Third word 'healthy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Nurture carefully young animal",
+      "uncommon_words": [
+        "nurture"
+      ],
+      "previously_used_words": [
+        "carefully",
+        "young",
+        "animal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'nurture' is not a verb",
+        "Second word 'carefully' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Develop highly advanced skill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "highly",
+        "advanced",
+        "skill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'advanced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Master complex difficult technique",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "master",
+        "complex",
+        "difficult",
+        "technique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Learn quickly new language",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "learn",
+        "quickly",
+        "new",
+        "language"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Understand deeply profound concept",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "understand",
+        "deeply",
+        "profound",
+        "concept"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'profound' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Apply wisely gained knowledge",
+      "uncommon_words": [
+        "wisely",
+        "gained"
+      ],
+      "previously_used_words": [
+        "apply",
+        "wisely",
+        "gained",
+        "knowledge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'gained' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Utilize effectively available resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "utilize",
+        "effectively",
+        "available",
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'effectively' is not an adjective",
+        "Third word 'available' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Create imaginatively new solution",
+      "uncommon_words": [
+        "imaginatively"
+      ],
+      "previously_used_words": [
+        "create",
+        "imaginatively",
+        "new",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'imaginatively' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Innovate cleverly original idea",
+      "uncommon_words": [
+        "innovate",
+        "cleverly"
+      ],
+      "previously_used_words": [
+        "cleverly",
+        "original",
+        "idea"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'innovate' is not a verb",
+        "Second word 'cleverly' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}

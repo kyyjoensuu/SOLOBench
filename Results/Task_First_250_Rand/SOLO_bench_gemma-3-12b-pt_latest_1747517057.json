@@ -1,0 +1,3882 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-18 01:38:37",
+  "total_sentences": 203,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 173,
+  "format_failures": 203,
+  "common_word_failures": 163,
+  "word_reuse_failures": 195,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747517057.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747517057.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "We're sorry.",
+      "uncommon_words": [
+        "we're"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "It's ok, sir.",
+      "uncommon_words": [
+        "it's"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "But are you ok?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "ok"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'but' is not a verb",
+        "Second word 'are' is not an adjective",
+        "Third word 'you' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "You might get hurt, sir.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "sir"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "I thought so.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Where's your hand?",
+      "uncommon_words": [
+        "where's"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Here?",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "It is not safe to come out.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "I cannot help it.",
+      "uncommon_words": [
+        "cannot"
+      ],
+      "previously_used_words": [
+        "i",
+        "it"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'i' is not a verb",
+        "Second word 'cannot' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Please don't hurt my baby.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "hurt"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "I was hurt badly here.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "i",
+        "hurt",
+        "here"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Oh, please take care of it, my lady.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "it",
+        "my"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "It's getting worse now, don't hurt it now.",
+      "uncommon_words": [
+        "it's",
+        "getting",
+        "worse",
+        "don't"
+      ],
+      "previously_used_words": [
+        "it's",
+        "don't",
+        "hurt",
+        "it"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "You must take care of this one.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "take",
+        "care",
+        "of"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Please don't be angry with him.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "please",
+        "don't"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Come here.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "come",
+        "here"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Don't worry, it's going to be ok.",
+      "uncommon_words": [
+        "don't",
+        "it's",
+        "going"
+      ],
+      "previously_used_words": [
+        "don't",
+        "it's",
+        "to",
+        "be",
+        "ok"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Are you fine?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Please have a seat.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'have' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Don't bother me.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "I know you're not well.",
+      "uncommon_words": [
+        "you're"
+      ],
+      "previously_used_words": [
+        "i",
+        "not"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "You have to wait for the surgery to take place.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "have",
+        "to",
+        "to",
+        "take"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "No one is here but me and you.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "one",
+        "is",
+        "here",
+        "but",
+        "me",
+        "you"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Please wait for me.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "wait",
+        "for",
+        "me"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wait' is not an adjective",
+        "Third word 'for' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "I will tell him not to come.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "him",
+        "not",
+        "to",
+        "come"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "You are my dear friend.",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "you",
+        "are",
+        "my"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "This will be over soon.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "this",
+        "will",
+        "be"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Don't fight.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "I'll tell him to go home.",
+      "uncommon_words": [
+        "i'll"
+      ],
+      "previously_used_words": [
+        "tell",
+        "him",
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Please stay in your room.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "your"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "That's true.",
+      "uncommon_words": [
+        "that's"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "What are you doing?",
+      "uncommon_words": [
+        "are",
+        "doing"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'what' is not a verb",
+        "Second word 'are' is not an adjective",
+        "Third word 'you' is not a noun",
+        "Fourth word 'doing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "I'd like you to sit in there for a while.",
+      "uncommon_words": [
+        "i'd"
+      ],
+      "previously_used_words": [
+        "you",
+        "to",
+        "in",
+        "for",
+        "a"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Is there a problem here?",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "is",
+        "there",
+        "a",
+        "here"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "You can go home.",
+      "uncommon_words": [
+        "can"
+      ],
+      "previously_used_words": [
+        "you",
+        "go",
+        "home"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you' is not a verb",
+        "Second word 'can' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Take a deep breath.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "take",
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'a' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "This is going to be painful.",
+      "uncommon_words": [
+        "is",
+        "going"
+      ],
+      "previously_used_words": [
+        "this",
+        "is",
+        "going",
+        "to",
+        "be"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "You won't be here long.",
+      "uncommon_words": [
+        "won't"
+      ],
+      "previously_used_words": [
+        "you",
+        "be",
+        "here"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "I don't usually do that.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "i",
+        "don't"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "It's no fun being here by myself.",
+      "uncommon_words": [
+        "it's"
+      ],
+      "previously_used_words": [
+        "it's",
+        "no",
+        "here"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "I will take care of it.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "will",
+        "take",
+        "care",
+        "of",
+        "it"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "I don't have time for you.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "i",
+        "don't",
+        "have",
+        "for",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Don't worry; I will be here.",
+      "uncommon_words": [
+        "don't",
+        "will"
+      ],
+      "previously_used_words": [
+        "don't",
+        "worry",
+        "i",
+        "will",
+        "be",
+        "here"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "I'm sorry I'm so slow.",
+      "uncommon_words": [
+        "i'm",
+        "i'm"
+      ],
+      "previously_used_words": [
+        "sorry",
+        "so"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Take some tea.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "take"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "My job is to help you.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "my",
+        "is",
+        "to",
+        "help",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Take a sip of water.",
+      "uncommon_words": [
+        "sip"
+      ],
+      "previously_used_words": [
+        "take",
+        "a",
+        "of"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "What's wrong with you?",
+      "uncommon_words": [
+        "what's"
+      ],
+      "previously_used_words": [
+        "with",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'what's' is not a verb",
+        "Third word 'with' is not a noun",
+        "Fourth word 'you' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Are you hungry?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Don't fight.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "fight"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "I know what you're scared of.",
+      "uncommon_words": [
+        "you're"
+      ],
+      "previously_used_words": [
+        "i",
+        "know",
+        "what",
+        "you're",
+        "of"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "I'm trying to help you.",
+      "uncommon_words": [
+        "i'm",
+        "trying"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "to",
+        "help",
+        "you"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "You can't get any help from me.",
+      "uncommon_words": [
+        "can't"
+      ],
+      "previously_used_words": [
+        "you",
+        "get",
+        "help",
+        "me"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "I have something else to do.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "have",
+        "to",
+        "do"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Please do not touch me.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "do",
+        "not",
+        "me"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Stay calm.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stay"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "He's gone.",
+      "uncommon_words": [
+        "he's",
+        "gone"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Please take back your words.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "please",
+        "take",
+        "your"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Don't worry.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "worry"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Don't bother.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "bother"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Are you ready?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Are you hungry?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "hungry"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "I'll have something else for you.",
+      "uncommon_words": [
+        "i'll"
+      ],
+      "previously_used_words": [
+        "i'll",
+        "have",
+        "something",
+        "else",
+        "for",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Take care.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "take",
+        "care"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Are you ok now?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "ok",
+        "now"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'are' is not a verb",
+        "Second word 'you' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "You may be right.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "be"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you' is not a verb",
+        "Second word 'may' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Are you feeling better?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'are' is not a verb",
+        "Second word 'you' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "There's someone to talk to you.",
+      "uncommon_words": [
+        "there's"
+      ],
+      "previously_used_words": [
+        "to",
+        "to",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "I will be with you.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "will",
+        "be",
+        "with",
+        "you"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Will you leave tomorrow night?",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "will",
+        "you"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "I am fine now.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "fine",
+        "now"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'i' is not a verb",
+        "Second word 'am' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Don't worry, I'm ok.",
+      "uncommon_words": [
+        "don't",
+        "i'm"
+      ],
+      "previously_used_words": [
+        "don't",
+        "worry",
+        "i'm",
+        "ok"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'don't' is not a verb",
+        "Second word 'worry' is not an adjective",
+        "Third word 'i'm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Do not worry.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "do",
+        "not",
+        "worry"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "What did you want from me?",
+      "uncommon_words": [
+        "did"
+      ],
+      "previously_used_words": [
+        "what",
+        "you",
+        "from",
+        "me"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Have you gotten any help?",
+      "uncommon_words": [
+        "gotten"
+      ],
+      "previously_used_words": [
+        "have",
+        "you",
+        "any",
+        "help"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "What's wrong with you?",
+      "uncommon_words": [
+        "what's"
+      ],
+      "previously_used_words": [
+        "what's",
+        "wrong",
+        "with",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'what's' is not a verb",
+        "Third word 'with' is not a noun",
+        "Fourth word 'you' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "There's some good news.",
+      "uncommon_words": [
+        "there's"
+      ],
+      "previously_used_words": [
+        "there's",
+        "some"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'there's' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "You are not in danger.",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "you",
+        "are",
+        "not",
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Is she a friend of yours?",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "is",
+        "a",
+        "friend",
+        "of"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Are you coming?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Don't be too sad.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "be"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'don't' is not a verb",
+        "Second word 'be' is not an adjective",
+        "Third word 'too' is not a noun",
+        "Fourth word 'sad' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "You're not my friend.",
+      "uncommon_words": [
+        "you're"
+      ],
+      "previously_used_words": [
+        "you're",
+        "not",
+        "my",
+        "friend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you're' is not a verb",
+        "Second word 'not' is not an adjective",
+        "Third word 'my' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Don't be too upset by this.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "be",
+        "too",
+        "by",
+        "this"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "What happened?",
+      "uncommon_words": [
+        "happened"
+      ],
+      "previously_used_words": [
+        "what"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "My son is fine.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "my",
+        "is",
+        "fine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'my' is not a verb",
+        "Second word 'son' is not an adjective",
+        "Third word 'is' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "He's still alive.",
+      "uncommon_words": [
+        "he's"
+      ],
+      "previously_used_words": [
+        "he's"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Are you all right?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "right"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'are' is not a verb",
+        "Second word 'you' is not an adjective",
+        "Third word 'all' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "You're not feeling well, aren't you?",
+      "uncommon_words": [
+        "you're",
+        "aren't"
+      ],
+      "previously_used_words": [
+        "you're",
+        "not",
+        "feeling",
+        "well",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "What did she say?",
+      "uncommon_words": [
+        "did"
+      ],
+      "previously_used_words": [
+        "what",
+        "did",
+        "she"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'what' is not a verb",
+        "Second word 'did' is not an adjective",
+        "Third word 'she' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Are you ready?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "ready"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "You are too scared.",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "you",
+        "are",
+        "too",
+        "scared"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you' is not a verb",
+        "Second word 'are' is not an adjective",
+        "Third word 'too' is not a noun",
+        "Fourth word 'scared' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "You are better.",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "you",
+        "are",
+        "better"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "My mother will return soon.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "my",
+        "will",
+        "soon"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "I can't believe this.",
+      "uncommon_words": [
+        "can't"
+      ],
+      "previously_used_words": [
+        "i",
+        "can't",
+        "this"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'i' is not a verb",
+        "Second word 'can't' is not an adjective",
+        "Third word 'believe' is not a noun",
+        "Fourth word 'this' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Why are you doing this?",
+      "uncommon_words": [
+        "are",
+        "doing"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "doing",
+        "this"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "He is alive, why don't you tell me?",
+      "uncommon_words": [
+        "is",
+        "don't"
+      ],
+      "previously_used_words": [
+        "is",
+        "alive",
+        "why",
+        "don't",
+        "you",
+        "tell",
+        "me"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Don't worry, my son is here.",
+      "uncommon_words": [
+        "don't",
+        "is"
+      ],
+      "previously_used_words": [
+        "don't",
+        "worry",
+        "my",
+        "son",
+        "is",
+        "here"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "What do you want me to do?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "what",
+        "do",
+        "you",
+        "want",
+        "me",
+        "to",
+        "do"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Do you really need help?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "do",
+        "you",
+        "help"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "I'm not feeling well.",
+      "uncommon_words": [
+        "i'm"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "not",
+        "feeling",
+        "well"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'i'm' is not a verb",
+        "Second word 'not' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "He's still breathing.",
+      "uncommon_words": [
+        "he's"
+      ],
+      "previously_used_words": [
+        "he's",
+        "still"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "I can help you.",
+      "uncommon_words": [
+        "can"
+      ],
+      "previously_used_words": [
+        "i",
+        "can",
+        "help",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'i' is not a verb",
+        "Second word 'can' is not an adjective",
+        "Fourth word 'you' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Are you tired?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Are you fine?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "fine"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "What are you going to do now?",
+      "uncommon_words": [
+        "are",
+        "going"
+      ],
+      "previously_used_words": [
+        "what",
+        "are",
+        "you",
+        "going",
+        "to",
+        "do",
+        "now"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "There may be something wrong.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "there",
+        "may",
+        "be",
+        "something",
+        "wrong"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "I have heard of you.",
+      "uncommon_words": [
+        "heard"
+      ],
+      "previously_used_words": [
+        "i",
+        "have",
+        "of",
+        "you"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "You must be very tired.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "must",
+        "be",
+        "tired"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "You are too sleepy.",
+      "uncommon_words": [
+        "are",
+        "sleepy"
+      ],
+      "previously_used_words": [
+        "you",
+        "are",
+        "too"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you' is not a verb",
+        "Second word 'are' is not an adjective",
+        "Third word 'too' is not a noun",
+        "Fourth word 'sleepy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "What are you so tired for?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "what",
+        "are",
+        "you",
+        "so",
+        "tired",
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "There are some people you should see.",
+      "uncommon_words": [
+        "are",
+        "should"
+      ],
+      "previously_used_words": [
+        "there",
+        "are",
+        "some",
+        "you"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "I'm sorry, but you can't be here.",
+      "uncommon_words": [
+        "i'm",
+        "can't"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "sorry",
+        "but",
+        "you",
+        "can't",
+        "be",
+        "here"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Are you feeling worse?",
+      "uncommon_words": [
+        "are",
+        "worse"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "feeling",
+        "worse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'are' is not a verb",
+        "Second word 'you' is not an adjective",
+        "Fourth word 'worse' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "It's a blessing to have someone like you, son.",
+      "uncommon_words": [
+        "it's"
+      ],
+      "previously_used_words": [
+        "it's",
+        "a",
+        "to",
+        "have",
+        "someone",
+        "like",
+        "you",
+        "son"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "I cannot do this, mother.",
+      "uncommon_words": [
+        "cannot"
+      ],
+      "previously_used_words": [
+        "i",
+        "cannot",
+        "do",
+        "this",
+        "mother"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "It's a small blessing to have your presence.",
+      "uncommon_words": [
+        "it's"
+      ],
+      "previously_used_words": [
+        "it's",
+        "a",
+        "blessing",
+        "to",
+        "have",
+        "your"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Come and visit my children.",
+      "uncommon_words": [
+        "children"
+      ],
+      "previously_used_words": [
+        "come",
+        "and",
+        "my"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "I will take your message as soon as I come back.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "will",
+        "take",
+        "your",
+        "soon",
+        "i",
+        "come",
+        "back"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Please take care of my son, mother.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "take",
+        "care",
+        "of",
+        "my",
+        "son",
+        "mother"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "What is the reason you won't talk to me?",
+      "uncommon_words": [
+        "is",
+        "won't"
+      ],
+      "previously_used_words": [
+        "what",
+        "is",
+        "the",
+        "you",
+        "won't",
+        "talk",
+        "to",
+        "me"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "I do not think it is a good idea to do anything.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "i",
+        "do",
+        "not",
+        "it",
+        "is",
+        "a",
+        "good",
+        "to",
+        "do"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "You have been a good man to me, my son.",
+      "uncommon_words": [
+        "been"
+      ],
+      "previously_used_words": [
+        "you",
+        "have",
+        "a",
+        "good",
+        "to",
+        "me",
+        "my",
+        "son"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "The time is right for you to come now.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "time",
+        "is",
+        "right",
+        "for",
+        "you",
+        "to",
+        "come",
+        "now"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Who are you, my son?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "my",
+        "son"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Are you okay, son?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "son"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'are' is not a verb",
+        "Second word 'you' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "I'm your mother, I cannot understand you.",
+      "uncommon_words": [
+        "i'm",
+        "cannot"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "your",
+        "mother",
+        "i",
+        "cannot",
+        "you"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Why are you going, son?",
+      "uncommon_words": [
+        "are",
+        "going"
+      ],
+      "previously_used_words": [
+        "why",
+        "are",
+        "you",
+        "going",
+        "son"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Please take care of my children soon, mother.",
+      "uncommon_words": [
+        "children"
+      ],
+      "previously_used_words": [
+        "please",
+        "take",
+        "care",
+        "of",
+        "my",
+        "children",
+        "soon",
+        "mother"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "My son, you are a kind man, but why don't you come today?",
+      "uncommon_words": [
+        "are",
+        "don't"
+      ],
+      "previously_used_words": [
+        "my",
+        "son",
+        "you",
+        "are",
+        "a",
+        "man",
+        "but",
+        "why",
+        "don't",
+        "you",
+        "come"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "I am going to the temple with the help of a friend.",
+      "uncommon_words": [
+        "going"
+      ],
+      "previously_used_words": [
+        "i",
+        "am",
+        "going",
+        "to",
+        "the",
+        "with",
+        "the",
+        "help",
+        "of",
+        "a",
+        "friend"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "I have a headache, son.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "have",
+        "a",
+        "son"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Please, dear son, stay with me.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "dear",
+        "son",
+        "stay",
+        "with",
+        "me"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Please keep me informed of any news you have.",
+      "uncommon_words": [
+        "informed"
+      ],
+      "previously_used_words": [
+        "please",
+        "me",
+        "of",
+        "any",
+        "news",
+        "you",
+        "have"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Is my son still alive?",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "is",
+        "my",
+        "son",
+        "still",
+        "alive"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Please, my son, talk to me.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "my",
+        "son",
+        "talk",
+        "to",
+        "me"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "I will not leave, my son.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "will",
+        "not",
+        "leave",
+        "my",
+        "son"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "My mother is sick and you are the only person she can rely on.",
+      "uncommon_words": [
+        "is",
+        "are",
+        "can"
+      ],
+      "previously_used_words": [
+        "my",
+        "mother",
+        "is",
+        "and",
+        "you",
+        "are",
+        "the",
+        "she",
+        "can"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "You don't understand what I've gone through.",
+      "uncommon_words": [
+        "don't",
+        "i've",
+        "gone"
+      ],
+      "previously_used_words": [
+        "you",
+        "don't",
+        "understand",
+        "what",
+        "gone"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Your message will be delivered soon.",
+      "uncommon_words": [
+        "will",
+        "delivered"
+      ],
+      "previously_used_words": [
+        "your",
+        "message",
+        "will",
+        "be",
+        "soon"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Have you come to listen or to give me the truth?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "have",
+        "you",
+        "come",
+        "to",
+        "to",
+        "me",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "I do not want to leave, my son.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "do",
+        "not",
+        "want",
+        "to",
+        "leave",
+        "my",
+        "son"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Don't leave me alone, mother, please.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "leave",
+        "me",
+        "mother",
+        "please"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "I will come as soon as possible, mother.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "will",
+        "come",
+        "as",
+        "soon",
+        "as",
+        "mother"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "You should take care of my children soon, mother.",
+      "uncommon_words": [
+        "should",
+        "children"
+      ],
+      "previously_used_words": [
+        "you",
+        "should",
+        "take",
+        "care",
+        "of",
+        "my",
+        "children",
+        "soon",
+        "mother"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "I have some good news for you.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "i",
+        "have",
+        "some",
+        "good",
+        "news",
+        "for",
+        "you"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Please, my son.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "my",
+        "son"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Why do you keep away from me?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "why",
+        "do",
+        "you",
+        "keep",
+        "from",
+        "me"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Mother will always find you.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "mother",
+        "will",
+        "you"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "How are you feeling, son?",
+      "uncommon_words": [
+        "are"
+      ],
+      "previously_used_words": [
+        "are",
+        "you",
+        "feeling",
+        "son"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "My son does not understand, he won't ever come to me today.",
+      "uncommon_words": [
+        "does",
+        "won't"
+      ],
+      "previously_used_words": [
+        "my",
+        "son",
+        "not",
+        "understand",
+        "he",
+        "won't",
+        "come",
+        "to",
+        "me",
+        "today"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "You can't stay away from me, my son.",
+      "uncommon_words": [
+        "can't"
+      ],
+      "previously_used_words": [
+        "you",
+        "can't",
+        "stay",
+        "away",
+        "from",
+        "me",
+        "my",
+        "son"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Would you please come here and talk to me?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "please",
+        "come",
+        "here",
+        "and",
+        "talk",
+        "to",
+        "me"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "I will be here, dear mother.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "i",
+        "will",
+        "be",
+        "here",
+        "dear",
+        "mother"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Your mother wants to see you.",
+      "uncommon_words": [
+        "wants"
+      ],
+      "previously_used_words": [
+        "your",
+        "mother",
+        "to",
+        "see",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "I'm worried about my son.",
+      "uncommon_words": [
+        "i'm"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "my",
+        "son"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Please have a rest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "have",
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'have' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "My mother has a bad temper, and you should take care of me.",
+      "uncommon_words": [
+        "has",
+        "temper",
+        "should"
+      ],
+      "previously_used_words": [
+        "my",
+        "mother",
+        "a",
+        "and",
+        "you",
+        "should",
+        "take",
+        "care",
+        "of",
+        "me"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "You cannot stay away from me, dear son.",
+      "uncommon_words": [
+        "cannot"
+      ],
+      "previously_used_words": [
+        "you",
+        "cannot",
+        "stay",
+        "away",
+        "from",
+        "me",
+        "dear",
+        "son"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Dear mother, please don't leave me alone.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "dear",
+        "mother",
+        "please",
+        "don't",
+        "leave",
+        "me",
+        "alone"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "My son needs time with you, dear mother.",
+      "uncommon_words": [
+        "needs"
+      ],
+      "previously_used_words": [
+        "my",
+        "son",
+        "time",
+        "with",
+        "you",
+        "dear",
+        "mother"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Don't leave me, dear mother.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "don't",
+        "leave",
+        "me",
+        "dear",
+        "mother"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Will you come today, dear mother?",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "will",
+        "you",
+        "come",
+        "today",
+        "dear",
+        "mother"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Come and see me, mother.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "come",
+        "and",
+        "see",
+        "me",
+        "mother"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "You want me to see my child?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "you",
+        "want",
+        "me",
+        "to",
+        "see",
+        "my"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "My mother wants to see me.",
+      "uncommon_words": [
+        "wants"
+      ],
+      "previously_used_words": [
+        "my",
+        "mother",
+        "wants",
+        "to",
+        "see",
+        "me"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Please, dear son.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "dear",
+        "son"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Will you come home soon, son?",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "will",
+        "you",
+        "come",
+        "home",
+        "soon",
+        "son"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "You have a bad temper, please keep me informed of anything.",
+      "uncommon_words": [
+        "temper",
+        "informed"
+      ],
+      "previously_used_words": [
+        "you",
+        "have",
+        "a",
+        "bad",
+        "temper",
+        "please",
+        "keep",
+        "me",
+        "informed",
+        "of",
+        "anything"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "I think there is something wrong here, my son.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "i",
+        "think",
+        "there",
+        "is",
+        "something",
+        "wrong",
+        "here",
+        "my",
+        "son"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "I have been told that you don't talk to your child.",
+      "uncommon_words": [
+        "been",
+        "told",
+        "don't"
+      ],
+      "previously_used_words": [
+        "i",
+        "have",
+        "been",
+        "that",
+        "you",
+        "don't",
+        "talk",
+        "to",
+        "your",
+        "child"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "I don't think it's a good idea to go to the park today, son.",
+      "uncommon_words": [
+        "don't",
+        "it's"
+      ],
+      "previously_used_words": [
+        "i",
+        "don't",
+        "think",
+        "it's",
+        "a",
+        "good",
+        "idea",
+        "to",
+        "go",
+        "to",
+        "the",
+        "today",
+        "son"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "There's something wrong with you, son.",
+      "uncommon_words": [
+        "there's"
+      ],
+      "previously_used_words": [
+        "there's",
+        "something",
+        "wrong",
+        "with",
+        "you",
+        "son"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "What have you done?",
+      "uncommon_words": [
+        "done"
+      ],
+      "previously_used_words": [
+        "what",
+        "have",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'what' is not a verb",
+        "Second word 'have' is not an adjective",
+        "Third word 'you' is not a noun",
+        "Fourth word 'done' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "I think we should talk about it.",
+      "uncommon_words": [
+        "should"
+      ],
+      "previously_used_words": [
+        "i",
+        "think",
+        "should",
+        "talk",
+        "about",
+        "it"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "I don't know what's wrong with me.",
+      "uncommon_words": [
+        "don't",
+        "what's"
+      ],
+      "previously_used_words": [
+        "i",
+        "don't",
+        "know",
+        "what's",
+        "wrong",
+        "with",
+        "me"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "I'm worried about you.",
+      "uncommon_words": [
+        "i'm"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "worried",
+        "about",
+        "you"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'i'm' is not a verb",
+        "Third word 'about' is not a noun",
+        "Fourth word 'you' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "I think you should talk to your son.",
+      "uncommon_words": [
+        "should"
+      ],
+      "previously_used_words": [
+        "i",
+        "think",
+        "you",
+        "should",
+        "talk",
+        "to",
+        "your",
+        "son"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "My son, please tell me who hurt you.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "my",
+        "son",
+        "please",
+        "tell",
+        "me",
+        "who",
+        "hurt",
+        "you"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Please tell me why you don't come to work.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "please",
+        "tell",
+        "me",
+        "why",
+        "you",
+        "don't",
+        "come",
+        "to"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "How does your mother feel now?",
+      "uncommon_words": [
+        "does"
+      ],
+      "previously_used_words": [
+        "how",
+        "does",
+        "your",
+        "mother",
+        "now"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Please tell me how your mother feels.",
+      "uncommon_words": [
+        "feels"
+      ],
+      "previously_used_words": [
+        "please",
+        "tell",
+        "me",
+        "how",
+        "your",
+        "mother"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "My mother is sick, son.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "my",
+        "mother",
+        "is",
+        "sick",
+        "son"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Have you come to tell me your problem?",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "have",
+        "you",
+        "come",
+        "to",
+        "tell",
+        "me",
+        "your",
+        "problem"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "What does this mean to you?",
+      "uncommon_words": [
+        "does"
+      ],
+      "previously_used_words": [
+        "what",
+        "does",
+        "this",
+        "to",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Your mother has a headache, son.",
+      "uncommon_words": [
+        "has"
+      ],
+      "previously_used_words": [
+        "your",
+        "mother",
+        "has",
+        "a",
+        "headache",
+        "son"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Is there anything we can do for you, son?",
+      "uncommon_words": [
+        "is",
+        "can"
+      ],
+      "previously_used_words": [
+        "is",
+        "there",
+        "anything",
+        "we",
+        "can",
+        "do",
+        "for",
+        "you",
+        "son"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "It will take some time to bring back the medicine.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "it",
+        "will",
+        "take",
+        "some",
+        "time",
+        "to",
+        "back",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Has my son come to you today?",
+      "uncommon_words": [
+        "has"
+      ],
+      "previously_used_words": [
+        "has",
+        "my",
+        "son",
+        "come",
+        "to",
+        "you",
+        "today"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "I'm not sure why you don't come to work, son.",
+      "uncommon_words": [
+        "i'm",
+        "don't"
+      ],
+      "previously_used_words": [
+        "i'm",
+        "not",
+        "why",
+        "you",
+        "don't",
+        "come",
+        "to",
+        "work",
+        "son"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "What has been done for you?",
+      "uncommon_words": [
+        "has",
+        "been",
+        "done"
+      ],
+      "previously_used_words": [
+        "what",
+        "has",
+        "been",
+        "done",
+        "for",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "My son, who is this woman who hurt you?",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "my",
+        "son",
+        "who",
+        "is",
+        "this",
+        "who",
+        "hurt",
+        "you"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Please tell me why you don't talk to me.",
+      "uncommon_words": [
+        "don't"
+      ],
+      "previously_used_words": [
+        "please",
+        "tell",
+        "me",
+        "why",
+        "you",
+        "don't",
+        "talk",
+        "to",
+        "me"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Mother won't wait long for her son.",
+      "uncommon_words": [
+        "won't"
+      ],
+      "previously_used_words": [
+        "mother",
+        "won't",
+        "wait",
+        "long",
+        "for",
+        "son"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Who told you not to come home?",
+      "uncommon_words": [
+        "told"
+      ],
+      "previously_used_words": [
+        "who",
+        "told",
+        "you",
+        "not",
+        "to",
+        "come",
+        "home"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "I was going to meet with a friend.",
+      "uncommon_words": [
+        "was",
+        "going"
+      ],
+      "previously_used_words": [
+        "i",
+        "was",
+        "going",
+        "to",
+        "with",
+        "a",
+        "friend"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "What has been done for you?",
+      "uncommon_words": [
+        "has",
+        "been",
+        "done"
+      ],
+      "previously_used_words": [
+        "what",
+        "has",
+        "been",
+        "done",
+        "for",
+        "you"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Please tell me about the woman who hurt you.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "please",
+        "tell",
+        "me",
+        "about",
+        "the",
+        "woman",
+        "who",
+        "hurt",
+        "you"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "It will take me some time to find the best medicine.",
+      "uncommon_words": [
+        "will"
+      ],
+      "previously_used_words": [
+        "it",
+        "will",
+        "take",
+        "me",
+        "some",
+        "time",
+        "to",
+        "find",
+        "the",
+        "medicine"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "My son, when do you think it's a good idea to meet with your friend?",
+      "uncommon_words": [
+        "it's"
+      ],
+      "previously_used_words": [
+        "my",
+        "son",
+        "do",
+        "you",
+        "think",
+        "it's",
+        "a",
+        "good",
+        "idea",
+        "to",
+        "meet",
+        "with",
+        "your",
+        "friend"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Open the command line (e.g. windows cmd) and type c15a191.",
+      "uncommon_words": [
+        "(eg",
+        "windows",
+        "cmd)",
+        "c15a191"
+      ],
+      "previously_used_words": [
+        "the",
+        "and"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 201,
+      "sentence": "Navigate to the new project.",
+      "uncommon_words": [
+        "navigate"
+      ],
+      "previously_used_words": [
+        "to",
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 202,
+      "sentence": "Create a template using the 'create' command.",
+      "uncommon_words": [
+        "template",
+        "using",
+        "'create'"
+      ],
+      "previously_used_words": [
+        "a",
+        "the",
+        "command"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 203,
+      "sentence": "Follow the instructions to create a new template.",
+      "uncommon_words": [
+        "instructions",
+        "template"
+      ],
+      "previously_used_words": [
+        "the",
+        "to",
+        "create",
+        "a",
+        "new",
+        "template"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

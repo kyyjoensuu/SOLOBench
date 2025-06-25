@@ -1,0 +1,450 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-15 11:45:10",
+  "total_sentences": 30,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 24,
+  "format_failures": 30,
+  "common_word_failures": 22,
+  "word_reuse_failures": 12,
+  "raw_output_file": "Results/Task_After_250/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747298692.txt",
+  "formatted_output_file": "Results/Task_After_250/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747298692.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Christmas Iraqi celebration",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Thanksgiving academic budget",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Prayer air conditioner beautifully",
+      "uncommon_words": [
+        "conditioner",
+        "beautifully"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prayer' is not a verb",
+        "Second word 'air' is not an adjective",
+        "Third word 'conditioner' is not a noun",
+        "Fourth word 'beautifully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Dragon accountant profession",
+      "uncommon_words": [
+        "accountant"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Manager salary raise negotiation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'manager' is not a verb",
+        "Second word 'salary' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Ambassador travel cultural experiences",
+      "uncommon_words": [
+        "experiences"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ambassador' is not a verb",
+        "Second word 'travel' is not an adjective",
+        "Third word 'cultural' is not a noun",
+        "Fourth word 'experiences' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Prayer health wellness concern",
+      "uncommon_words": [
+        "wellness"
+      ],
+      "previously_used_words": [
+        "prayer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prayer' is not a verb",
+        "Second word 'health' is not an adjective",
+        "Third word 'wellness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Elephant farming livelihood sustainability",
+      "uncommon_words": [
+        "farming",
+        "livelihood",
+        "sustainability"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'elephant' is not a verb",
+        "Second word 'farming' is not an adjective",
+        "Third word 'livelihood' is not a noun",
+        "Fourth word 'sustainability' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Refugee resettlement peace global harmony",
+      "uncommon_words": [
+        "resettlement"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Activist charity relief poverty alleviation",
+      "uncommon_words": [
+        "alleviation"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Scientist technology impact society advancements",
+      "uncommon_words": [
+        "advancements"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Soldier healthcare valor service",
+      "uncommon_words": [
+        "healthcare",
+        "valor"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'healthcare' is not an adjective",
+        "Third word 'valor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Athlete training discipline competitive spirit",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Farmer sustainable agriculture crops biofuel",
+      "uncommon_words": [
+        "crops",
+        "biofuel"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Teacher language knowledge education enlightenment",
+      "uncommon_words": [
+        "enlightenment"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Refugee camp survivor strength resilience",
+      "uncommon_words": [
+        "resilience"
+      ],
+      "previously_used_words": [
+        "refugee"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Chef culinary innovation restaurant fame",
+      "uncommon_words": [
+        "culinary"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Artist landscape painting emotion reality",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Engineer bridge construction project feasibility",
+      "uncommon_words": [
+        "feasibility"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Soldier bravery heroism unwavering courage",
+      "uncommon_words": [
+        "bravery",
+        "heroism",
+        "unwavering"
+      ],
+      "previously_used_words": [
+        "soldier"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Scientist discovery breakthrough medical advancement",
+      "uncommon_words": [
+        "breakthrough",
+        "advancement"
+      ],
+      "previously_used_words": [
+        "scientist"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Immigrant job interview optimism opportunity",
+      "uncommon_words": [
+        "optimism"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Refugee community support compassion solidarity",
+      "uncommon_words": [
+        "compassion",
+        "solidarity"
+      ],
+      "previously_used_words": [
+        "refugee"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Entrepreneur business growth network innovation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "innovation"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Teacher students attention engagement interactive learning",
+      "uncommon_words": [
+        "students",
+        "interactive"
+      ],
+      "previously_used_words": [
+        "teacher"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Activist peaceful protest civil rights awareness",
+      "uncommon_words": [
+        "rights"
+      ],
+      "previously_used_words": [
+        "activist"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Farmer organic produce demand environmental consciousness",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "farmer"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Scientist genetic research breakthrough biological understanding",
+      "uncommon_words": [
+        "breakthrough"
+      ],
+      "previously_used_words": [
+        "scientist",
+        "breakthrough"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Refugee resettlement agency partnership success",
+      "uncommon_words": [
+        "resettlement"
+      ],
+      "previously_used_words": [
+        "refugee",
+        "resettlement"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Mayor community election participation civic duty",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "community"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

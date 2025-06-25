@@ -1,0 +1,65 @@
+
+
+You may feel free to use an IDE to store your output from thinking. We will provide a sample input file.
+Sample Output:
+1. The native is patient with me. 
+2. The politician's package isn't cheap. 
+3. My sister and I both need therapy to move forward. 
+4. If we were able to donate a large sum of money to the charity football league we would. 
+5. Her strong practice of meditation makes her an asset to the team. 
+Instructions
+Input
+You will read a sentence from standard input in form: word1 word2 .... word_last
+The task is simply to convert this sentence from an array of strings to an array of tokens. Each word is tokenized as it's own object, and the array is returned as the output of the solution
+
+Output
+The output is a single string array of sentences.
+For example if you convert "Hello World" to tokens: ["word1", "word2"] as an array of strings
+
+Sample Input
+(The output below is an example of one correct method of inputting this data)
+
+This is my first line
+This is my second line
+This is my third line
+This is my Fourth line
+This is my Fifth line
+This is my Sixth line
+This is my Seventh line
+This is my Eighth line
+This is my Ninth line
+This is my Tenth line
+This is my Eleventh line
+
+The native is patient with me. 
+The politician's package isn't cheap. 
+My sister and I both need therapy to move forward. 
+If we were able to donate a large sum of money to the charity football league we would. 
+Her strong practice of meditation makes her an asset to the team. 
+Sample Output
+1. The native is patient with me. 
+2. The politician's package isn't cheap. 
+3. My sister and I both need therapy to move forward. 
+4. If we were able to donate a large sum of money to the charity football league we would. 
+5. Her strong practice of meditation makes her an asset to the team. 
+Sample Solution (JS)
+
+let words = input().split(" ").map(word => word.toLowerCase());
+function tokenize(array){
+    let result = [];
+    for (word of array){
+        result.push({word})
+    }
+    return result;
+}
+console.log(tokenize(words));
+
+
+
+
+// 1 2 3 4 ..... 200  
+// The native is patient with me.
+// The politician's package isn't cheap. 
+// I need therapy to move forward. 
+// If we were able to donate a large sum of money to the charity football league we would. //I would 
+// Her strong practice of meditation makes her an asset to the team. //Her strong practice 

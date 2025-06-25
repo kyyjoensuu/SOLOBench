@@ -1,0 +1,283 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-19 03:40:49",
+  "total_sentences": 13,
+  "perfect_sentences": 1,
+  "score_percentage": 7.6923076923076925,
+  "word_count_failures": 9,
+  "format_failures": 12,
+  "common_word_failures": 10,
+  "word_reuse_failures": 8,
+  "raw_output_file": "Results/Task_First_100_Rand/SOLO_bench_raw_reka-flash-3_latest_1747611576.txt",
+  "formatted_output_file": "Results/Task_First_100_Rand/SOLO_bench_reka-flash-3_latest_1747611576.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Relieve random news threshold.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Know hostile lawmaker something.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'something' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Voting substantial size critical? Wait, no. Need adjective after voting. Next word after \"voting\" is \"lend\", which is a verb. So \"Voting [adjective]...\". Available adjectives: Let's see between \"voting\" and the next verbs. The words after \"voting\" in the list are \"lend\" (verb), \"criticism\" (noun), \"size\" (noun), \"substantial\" (adjective). So \"substantial\" is the adjective here.",
+      "uncommon_words": [
+        "adjective",
+        "\"voting\"",
+        "is",
+        "\"lend\"",
+        "is",
+        "verb",
+        "\"voting",
+        "[adjective]\"",
+        "adjectives",
+        "let's",
+        "\"voting\"",
+        "verbs",
+        "words",
+        "\"voting\"",
+        "are",
+        "\"lend\"",
+        "(verb)",
+        "\"criticism\"",
+        "(noun)",
+        "\"size\"",
+        "(noun)",
+        "\"substantial\"",
+        "(adjective)",
+        "\"substantial\"",
+        "is",
+        "adjective"
+      ],
+      "previously_used_words": [],
+      "word_count": 55,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Lend criticism solution agency.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'criticism' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Assure comparative analysis report.",
+      "uncommon_words": [
+        "comparative"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'comparative' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "The **elephant** cautiously approached the **pond**, splashing water with its trunk.",
+      "uncommon_words": [
+        "**elephant**",
+        "cautiously",
+        "approached",
+        "**pond**",
+        "splashing"
+      ],
+      "previously_used_words": [
+        "the",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "A flock of **geese** migrated southward, their honking echoing across the sky.",
+      "uncommon_words": [
+        "flock",
+        "**geese**",
+        "migrated",
+        "southward",
+        "honking",
+        "echoing"
+      ],
+      "previously_used_words": [
+        "a",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "She carefully placed the **book** on the **shelf**, ensuring it was in order.",
+      "uncommon_words": [
+        "placed",
+        "**book**",
+        "**shelf**",
+        "ensuring",
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "the",
+        "in"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "The **kitchen** was filled with the aroma of freshly **baked bread** and **steamed vegetables**.",
+      "uncommon_words": [
+        "**kitchen**",
+        "was",
+        "filled",
+        "aroma",
+        "freshly",
+        "**baked",
+        "bread**",
+        "**steamed",
+        "vegetables**"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "with",
+        "the",
+        "of",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "His **disappointment** was evident when he didn't receive the **gift** he desired.",
+      "uncommon_words": [
+        "**disappointment**",
+        "was",
+        "didn't",
+        "**gift**",
+        "desired"
+      ],
+      "previously_used_words": [
+        "was",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Sarah felt a surge of **excitement** as she prepared for her long-awaited trip.",
+      "uncommon_words": [
+        "sarah",
+        "felt",
+        "**excitement**",
+        "prepared",
+        "long-awaited"
+      ],
+      "previously_used_words": [
+        "a",
+        "of",
+        "she"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "The **forest** was alive with the sounds of rustling **leaves** and chirping **birds**.",
+      "uncommon_words": [
+        "**forest**",
+        "was",
+        "sounds",
+        "rustling",
+        "**leaves**",
+        "chirping",
+        "**birds**"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "with",
+        "the",
+        "of",
+        "and"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "A sudden **storm** flooded the streets, causing chaos in the city.",
+      "uncommon_words": [
+        "**storm**",
+        "flooded",
+        "streets",
+        "causing"
+      ],
+      "previously_used_words": [
+        "a",
+        "the",
+        "in",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

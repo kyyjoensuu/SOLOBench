@@ -1,0 +1,96 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-15 22:24:24",
+  "total_sentences": 5,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 5,
+  "common_word_failures": 5,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_Falcon3-1B-Base_latest_1747336971.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_Falcon3-1B-Base_latest_1747336971.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The sentences should follow standard English grammar rules",
+      "uncommon_words": [
+        "sentences",
+        "should",
+        "grammar",
+        "rules"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Please note that all sentences must be grammatically correct.",
+      "uncommon_words": [
+        "sentences",
+        "grammatically"
+      ],
+      "previously_used_words": [
+        "sentences"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "No extra or unnecessary information may appear.",
+      "uncommon_words": [
+        "unnecessary"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "All words must appear in order and none may appear out of order as this is a word list",
+      "uncommon_words": [
+        "words",
+        "is"
+      ],
+      "previously_used_words": [
+        "all",
+        "must",
+        "appear",
+        "may",
+        "appear"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Do not insert commas around any sentence but use one long comma at the end;",
+      "uncommon_words": [
+        "commas",
+        "comma"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,2804 @@
+{
+  "model": "OLMo-2-0325-32B-Instruct:latest",
+  "label": "2025-05-19 07:32:11",
+  "total_sentences": 150,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 6,
+  "format_failures": 150,
+  "common_word_failures": 122,
+  "word_reuse_failures": 96,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_OLMo-2-0325-32B-Instruct_latest_1747628068.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_OLMo-2-0325-32B-Instruct_latest_1747628068.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Perform intense workout",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Tighten leather belt",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Warm sweater embrace warmth",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sweater' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Bright bulb illuminate space",
+      "uncommon_words": [
+        "illuminate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bright' is not a verb",
+        "Second word 'bulb' is not an adjective",
+        "Third word 'illuminate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Strong priest preach gospel",
+      "uncommon_words": [
+        "gospel"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strong' is not a verb",
+        "Second word 'priest' is not an adjective",
+        "Third word 'preach' is not a noun",
+        "Fourth word 'gospel' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Gentle breeze rustle leaves",
+      "uncommon_words": [
+        "rustle",
+        "leaves"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'breeze' is not an adjective",
+        "Third word 'rustle' is not a noun",
+        "Fourth word 'leaves' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Violent storm wreck havoc",
+      "uncommon_words": [
+        "wreck",
+        "havoc"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'violent' is not a verb",
+        "Second word 'storm' is not an adjective",
+        "Third word 'wreck' is not a noun",
+        "Fourth word 'havoc' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Massive ship cross ocean",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'massive' is not a verb",
+        "Second word 'ship' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Creative artist paint masterpiece",
+      "uncommon_words": [
+        "masterpiece"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'creative' is not a verb",
+        "Second word 'artist' is not an adjective",
+        "Fourth word 'masterpiece' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Sudden silence startle guest",
+      "uncommon_words": [
+        "startle"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sudden' is not a verb",
+        "Second word 'silence' is not an adjective",
+        "Third word 'startle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Narrow alley conceal thief",
+      "uncommon_words": [
+        "conceal",
+        "thief"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'alley' is not an adjective",
+        "Third word 'conceal' is not a noun",
+        "Fourth word 'thief' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Soft towel dry skin",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'soft' is not a verb",
+        "Second word 'towel' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Shivering man seek warmth",
+      "uncommon_words": [
+        "shivering"
+      ],
+      "previously_used_words": [
+        "warmth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'shivering' is not a verb",
+        "Second word 'man' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Angry woman protest law",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'angry' is not a verb",
+        "Second word 'woman' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Elegant dancer perform routine",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'elegant' is not a verb",
+        "Second word 'dancer' is not an adjective",
+        "Third word 'perform' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Persistent salesman close deal",
+      "uncommon_words": [
+        "persistent",
+        "salesman"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'persistent' is not a verb",
+        "Second word 'salesman' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Lonely individual find solace",
+      "uncommon_words": [
+        "solace"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'lonely' is not a verb",
+        "Fourth word 'solace' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Fierce tiger attack prey",
+      "uncommon_words": [
+        "tiger",
+        "prey"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fierce' is not a verb",
+        "Second word 'tiger' is not an adjective",
+        "Fourth word 'prey' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Talented artist sketch portrait",
+      "uncommon_words": [
+        "sketch"
+      ],
+      "previously_used_words": [
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'talented' is not a verb",
+        "Second word 'artist' is not an adjective",
+        "Third word 'sketch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Brave knight confront dragon",
+      "uncommon_words": [
+        "knight"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'knight' is not an adjective",
+        "Third word 'confront' is not a noun",
+        "Fourth word 'dragon' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Wild horse gallop freely",
+      "uncommon_words": [
+        "gallop"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wild' is not a verb",
+        "Second word 'horse' is not an adjective",
+        "Third word 'gallop' is not a noun",
+        "Fourth word 'freely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Diligent researcher conduct study",
+      "uncommon_words": [
+        "diligent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diligent' is not a verb",
+        "Second word 'researcher' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Confused student ask question",
+      "uncommon_words": [
+        "confused"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'confused' is not a verb",
+        "Second word 'student' is not an adjective",
+        "Third word 'ask' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Curious cat inspect surroundings",
+      "uncommon_words": [
+        "inspect",
+        "surroundings"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'curious' is not a verb",
+        "Second word 'cat' is not an adjective",
+        "Third word 'inspect' is not a noun",
+        "Fourth word 'surroundings' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Strongman lift heavy weight",
+      "uncommon_words": [
+        "strongman"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strongman' is not a verb",
+        "Second word 'lift' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Passionate chef cook meal",
+      "uncommon_words": [
+        "passionate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'passionate' is not a verb",
+        "Second word 'chef' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Graceful ballerina perform dance",
+      "uncommon_words": [
+        "graceful",
+        "ballerina"
+      ],
+      "previously_used_words": [
+        "perform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'graceful' is not a verb",
+        "Second word 'ballerina' is not an adjective",
+        "Third word 'perform' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Daring stuntman attempt trick",
+      "uncommon_words": [
+        "daring",
+        "stuntman"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'daring' is not a verb",
+        "Second word 'stuntman' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Fearless explorer chart territory",
+      "uncommon_words": [
+        "fearless",
+        "explorer"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fearless' is not a verb",
+        "Second word 'explorer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Clever detective solve mystery",
+      "uncommon_words": [
+        "clever"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'clever' is not a verb",
+        "Second word 'detective' is not an adjective",
+        "Third word 'solve' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Focused writer pen novel",
+      "uncommon_words": [
+        "focused"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'writer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Patient entrepreneur await success",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'patient' is not a verb",
+        "Second word 'entrepreneur' is not an adjective",
+        "Third word 'await' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Dedicated teacher educate students",
+      "uncommon_words": [
+        "dedicated",
+        "students"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dedicated' is not a verb",
+        "Second word 'teacher' is not an adjective",
+        "Third word 'educate' is not a noun",
+        "Fourth word 'students' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Artistic photographer capture image",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'artistic' is not a verb",
+        "Second word 'photographer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Innovative architect design building",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'innovative' is not a verb",
+        "Second word 'architect' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Reliable courier deliver package",
+      "uncommon_words": [
+        "courier"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reliable' is not a verb",
+        "Second word 'courier' is not an adjective",
+        "Third word 'deliver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Compassionate doctor treat patient",
+      "uncommon_words": [
+        "compassionate"
+      ],
+      "previously_used_words": [
+        "patient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'compassionate' is not a verb",
+        "Second word 'doctor' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Ambitious team win championship",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ambitious' is not a verb",
+        "Second word 'team' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Efficient machine perform task",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'efficient' is not a verb",
+        "Second word 'machine' is not an adjective",
+        "Third word 'perform' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Gentle wind blow leaves",
+      "uncommon_words": [
+        "leaves"
+      ],
+      "previously_used_words": [
+        "gentle",
+        "leaves"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wind' is not an adjective",
+        "Fourth word 'leaves' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Humble poet write verse",
+      "uncommon_words": [
+        "humble",
+        "verse"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'humble' is not a verb",
+        "Second word 'poet' is not an adjective",
+        "Third word 'write' is not a noun",
+        "Fourth word 'verse' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Thoughtful leader make decision",
+      "uncommon_words": [
+        "thoughtful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'thoughtful' is not a verb",
+        "Second word 'leader' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Unyielding protester demand justice",
+      "uncommon_words": [
+        "unyielding",
+        "protester"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unyielding' is not a verb",
+        "Second word 'protester' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Grateful tourist admire artwork",
+      "uncommon_words": [
+        "artwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grateful' is not a verb",
+        "Second word 'tourist' is not an adjective",
+        "Third word 'admire' is not a noun",
+        "Fourth word 'artwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Reluctant swimmer enter water",
+      "uncommon_words": [
+        "swimmer"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reluctant' is not a verb",
+        "Second word 'swimmer' is not an adjective",
+        "Third word 'enter' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Punctual train arrive station",
+      "uncommon_words": [
+        "punctual"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'punctual' is not a verb",
+        "Second word 'train' is not an adjective",
+        "Third word 'arrive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Energetic athlete complete race",
+      "uncommon_words": [
+        "energetic"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'energetic' is not a verb",
+        "Second word 'athlete' is not an adjective",
+        "Third word 'complete' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Wise elder impart wisdom",
+      "uncommon_words": [
+        "impart"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wise' is not a verb",
+        "Third word 'impart' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Determined runner set record",
+      "uncommon_words": [
+        "determined"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'determined' is not a verb",
+        "Second word 'runner' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Diverse city boast culture",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diverse' is not a verb",
+        "Second word 'city' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Athletic coach lead team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'athletic' is not a verb",
+        "Second word 'coach' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Dedicated worker meet deadline",
+      "uncommon_words": [
+        "dedicated"
+      ],
+      "previously_used_words": [
+        "dedicated"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dedicated' is not a verb",
+        "Second word 'worker' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Responsible pet owner feed dog",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Careful driver follow rules",
+      "uncommon_words": [
+        "rules"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'careful' is not a verb",
+        "Second word 'driver' is not an adjective",
+        "Third word 'follow' is not a noun",
+        "Fourth word 'rules' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Concerned parent protect child",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'parent' is not an adjective",
+        "Third word 'protect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Hopeful writer submit manuscript",
+      "uncommon_words": [
+        "hopeful",
+        "manuscript"
+      ],
+      "previously_used_words": [
+        "writer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hopeful' is not a verb",
+        "Second word 'writer' is not an adjective",
+        "Third word 'submit' is not a noun",
+        "Fourth word 'manuscript' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Courageous firefighter rescue victim",
+      "uncommon_words": [
+        "courageous",
+        "firefighter"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'courageous' is not a verb",
+        "Second word 'firefighter' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Respectful student greet teacher",
+      "uncommon_words": [
+        "respectful"
+      ],
+      "previously_used_words": [
+        "student",
+        "teacher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'respectful' is not a verb",
+        "Second word 'student' is not an adjective",
+        "Third word 'greet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Daring artist create art",
+      "uncommon_words": [
+        "daring"
+      ],
+      "previously_used_words": [
+        "daring",
+        "artist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'daring' is not a verb",
+        "Second word 'artist' is not an adjective",
+        "Third word 'create' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Humorous comedian deliver punchline",
+      "uncommon_words": [
+        "humorous",
+        "comedian",
+        "punchline"
+      ],
+      "previously_used_words": [
+        "deliver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'humorous' is not a verb",
+        "Second word 'comedian' is not an adjective",
+        "Third word 'deliver' is not a noun",
+        "Fourth word 'punchline' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Innovative engineer solve problem",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "innovative",
+        "solve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'innovative' is not a verb",
+        "Second word 'engineer' is not an adjective",
+        "Third word 'solve' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Talented musician play masterpiece",
+      "uncommon_words": [
+        "masterpiece"
+      ],
+      "previously_used_words": [
+        "talented",
+        "masterpiece"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'talented' is not a verb",
+        "Second word 'musician' is not an adjective",
+        "Fourth word 'masterpiece' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Creative chef invent dish",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "creative",
+        "chef"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'creative' is not a verb",
+        "Second word 'chef' is not an adjective",
+        "Third word 'invent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Persistent inventor refine device",
+      "uncommon_words": [
+        "persistent",
+        "inventor",
+        "refine"
+      ],
+      "previously_used_words": [
+        "persistent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'persistent' is not a verb",
+        "Second word 'inventor' is not an adjective",
+        "Third word 'refine' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Eloquent speaker deliver speech",
+      "uncommon_words": [
+        "eloquent"
+      ],
+      "previously_used_words": [
+        "deliver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'eloquent' is not a verb",
+        "Second word 'speaker' is not an adjective",
+        "Third word 'deliver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Resourceful explorer find treasure",
+      "uncommon_words": [
+        "resourceful",
+        "explorer"
+      ],
+      "previously_used_words": [
+        "explorer",
+        "find"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resourceful' is not a verb",
+        "Second word 'explorer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Observant biologist study organism",
+      "uncommon_words": [
+        "observant",
+        "biologist"
+      ],
+      "previously_used_words": [
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'observant' is not a verb",
+        "Second word 'biologist' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Skillful mechanic fix engine",
+      "uncommon_words": [
+        "skillful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'skillful' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Diligent accountant balance books",
+      "uncommon_words": [
+        "diligent",
+        "accountant",
+        "books"
+      ],
+      "previously_used_words": [
+        "diligent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diligent' is not a verb",
+        "Second word 'accountant' is not an adjective",
+        "Fourth word 'books' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Gracious host welcome guests",
+      "uncommon_words": [
+        "gracious",
+        "guests"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'gracious' is not a verb",
+        "Second word 'host' is not an adjective",
+        "Fourth word 'guests' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Kind caregiver comfort patient",
+      "uncommon_words": [
+        "caregiver"
+      ],
+      "previously_used_words": [
+        "patient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'kind' is not a verb",
+        "Second word 'caregiver' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Athletic captain inspire team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "athletic",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'athletic' is not a verb",
+        "Second word 'captain' is not an adjective",
+        "Third word 'inspire' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Dedicated activist promote change",
+      "uncommon_words": [
+        "dedicated"
+      ],
+      "previously_used_words": [
+        "dedicated"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dedicated' is not a verb",
+        "Third word 'promote' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Resilient survivor endure crisis",
+      "uncommon_words": [
+        "resilient"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resilient' is not a verb",
+        "Second word 'survivor' is not an adjective",
+        "Third word 'endure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Determined student ace exam",
+      "uncommon_words": [
+        "determined",
+        "ace"
+      ],
+      "previously_used_words": [
+        "determined",
+        "student"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'determined' is not a verb",
+        "Second word 'student' is not an adjective",
+        "Third word 'ace' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Patient fisherman catch fish",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "patient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'patient' is not a verb",
+        "Second word 'fisherman' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Vigilant security guard patrol area",
+      "uncommon_words": [
+        "vigilant"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Thoughtful philosopher contemplate existence",
+      "uncommon_words": [
+        "thoughtful",
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "thoughtful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'thoughtful' is not a verb",
+        "Second word 'philosopher' is not an adjective",
+        "Third word 'contemplate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Skillful tailor stitch garment",
+      "uncommon_words": [
+        "skillful",
+        "tailor",
+        "stitch",
+        "garment"
+      ],
+      "previously_used_words": [
+        "skillful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'skillful' is not a verb",
+        "Second word 'tailor' is not an adjective",
+        "Third word 'stitch' is not a noun",
+        "Fourth word 'garment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Brave soldier defend nation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "brave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'soldier' is not an adjective",
+        "Third word 'defend' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Caring parent guide child",
+      "uncommon_words": [
+        "caring"
+      ],
+      "previously_used_words": [
+        "parent",
+        "child"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'caring' is not a verb",
+        "Second word 'parent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Focused editor revise text",
+      "uncommon_words": [
+        "focused",
+        "revise"
+      ],
+      "previously_used_words": [
+        "focused"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'editor' is not an adjective",
+        "Third word 'revise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Creative graphic designer innovate",
+      "uncommon_words": [
+        "innovate"
+      ],
+      "previously_used_words": [
+        "creative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'creative' is not a verb",
+        "Second word 'graphic' is not an adjective",
+        "Fourth word 'innovate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Curious child ask questions",
+      "uncommon_words": [
+        "questions"
+      ],
+      "previously_used_words": [
+        "curious",
+        "child",
+        "ask"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'curious' is not a verb",
+        "Second word 'child' is not an adjective",
+        "Third word 'ask' is not a noun",
+        "Fourth word 'questions' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Talented musician compose melody",
+      "uncommon_words": [
+        "melody"
+      ],
+      "previously_used_words": [
+        "talented",
+        "musician"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'talented' is not a verb",
+        "Second word 'musician' is not an adjective",
+        "Third word 'compose' is not a noun",
+        "Fourth word 'melody' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Resolute entrepreneur launch startup",
+      "uncommon_words": [
+        "resolute",
+        "startup"
+      ],
+      "previously_used_words": [
+        "entrepreneur"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resolute' is not a verb",
+        "Second word 'entrepreneur' is not an adjective",
+        "Fourth word 'startup' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Compassionate nurse assist patient",
+      "uncommon_words": [
+        "compassionate"
+      ],
+      "previously_used_words": [
+        "compassionate",
+        "patient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'compassionate' is not a verb",
+        "Second word 'nurse' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Distinguished scholar publish paper",
+      "uncommon_words": [
+        "distinguished"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'distinguished' is not a verb",
+        "Second word 'scholar' is not an adjective",
+        "Third word 'publish' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Determined athlete train rigorously",
+      "uncommon_words": [
+        "determined",
+        "rigorously"
+      ],
+      "previously_used_words": [
+        "determined",
+        "athlete",
+        "train"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'determined' is not a verb",
+        "Second word 'athlete' is not an adjective",
+        "Fourth word 'rigorously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Caring farmer nurture crop",
+      "uncommon_words": [
+        "caring",
+        "nurture"
+      ],
+      "previously_used_words": [
+        "caring"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'caring' is not a verb",
+        "Second word 'farmer' is not an adjective",
+        "Third word 'nurture' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Diligent librarian catalog books",
+      "uncommon_words": [
+        "diligent",
+        "librarian",
+        "books"
+      ],
+      "previously_used_words": [
+        "diligent",
+        "books"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diligent' is not a verb",
+        "Second word 'librarian' is not an adjective",
+        "Fourth word 'books' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Skilled carpenter craft furniture",
+      "uncommon_words": [
+        "carpenter"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'skilled' is not a verb",
+        "Second word 'carpenter' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Insightful philosopher discuss ethics",
+      "uncommon_words": [
+        "insightful",
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "philosopher"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'insightful' is not a verb",
+        "Second word 'philosopher' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Focused student study diligently",
+      "uncommon_words": [
+        "focused",
+        "diligently"
+      ],
+      "previously_used_words": [
+        "focused",
+        "student",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'student' is not an adjective",
+        "Fourth word 'diligently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Resourceful scavenger salvage items",
+      "uncommon_words": [
+        "resourceful",
+        "scavenger",
+        "salvage",
+        "items"
+      ],
+      "previously_used_words": [
+        "resourceful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resourceful' is not a verb",
+        "Second word 'scavenger' is not an adjective",
+        "Third word 'salvage' is not a noun",
+        "Fourth word 'items' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Artistic tailor stitch outfit",
+      "uncommon_words": [
+        "tailor",
+        "stitch"
+      ],
+      "previously_used_words": [
+        "artistic",
+        "tailor",
+        "stitch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'artistic' is not a verb",
+        "Second word 'tailor' is not an adjective",
+        "Third word 'stitch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Observant astronomer trace stars",
+      "uncommon_words": [
+        "observant",
+        "stars"
+      ],
+      "previously_used_words": [
+        "observant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'observant' is not a verb",
+        "Second word 'astronomer' is not an adjective",
+        "Fourth word 'stars' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Eloquent speaker deliver address",
+      "uncommon_words": [
+        "eloquent"
+      ],
+      "previously_used_words": [
+        "eloquent",
+        "speaker",
+        "deliver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'eloquent' is not a verb",
+        "Second word 'speaker' is not an adjective",
+        "Third word 'deliver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Crafty inventor patent device",
+      "uncommon_words": [
+        "crafty",
+        "inventor"
+      ],
+      "previously_used_words": [
+        "inventor",
+        "device"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'crafty' is not a verb",
+        "Second word 'inventor' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Passionate chef create menu",
+      "uncommon_words": [
+        "passionate"
+      ],
+      "previously_used_words": [
+        "passionate",
+        "chef",
+        "create"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'passionate' is not a verb",
+        "Second word 'chef' is not an adjective",
+        "Third word 'create' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Disciplined athlete perform feat",
+      "uncommon_words": [
+        "disciplined",
+        "feat"
+      ],
+      "previously_used_words": [
+        "athlete",
+        "perform"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'disciplined' is not a verb",
+        "Second word 'athlete' is not an adjective",
+        "Third word 'perform' is not a noun",
+        "Fourth word 'feat' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Attentive teacher educate youth",
+      "uncommon_words": [
+        "attentive"
+      ],
+      "previously_used_words": [
+        "teacher",
+        "educate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'attentive' is not a verb",
+        "Second word 'teacher' is not an adjective",
+        "Third word 'educate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Patient gardener cultivate plant",
+      "uncommon_words": [
+        "gardener",
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "patient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'patient' is not a verb",
+        "Second word 'gardener' is not an adjective",
+        "Third word 'cultivate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Diligent accountant audit books",
+      "uncommon_words": [
+        "diligent",
+        "accountant",
+        "audit",
+        "books"
+      ],
+      "previously_used_words": [
+        "diligent",
+        "accountant",
+        "books"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diligent' is not a verb",
+        "Second word 'accountant' is not an adjective",
+        "Third word 'audit' is not a noun",
+        "Fourth word 'books' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Insightful reporter cover event",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "insightful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'insightful' is not a verb",
+        "Second word 'reporter' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Creative writer author novel",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "creative",
+        "writer",
+        "novel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'creative' is not a verb",
+        "Second word 'writer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Focused artist complete painting",
+      "uncommon_words": [
+        "focused"
+      ],
+      "previously_used_words": [
+        "focused",
+        "artist",
+        "complete"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'artist' is not an adjective",
+        "Third word 'complete' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Innovative strategist devise plan",
+      "uncommon_words": [
+        "strategist",
+        "devise"
+      ],
+      "previously_used_words": [
+        "innovative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'innovative' is not a verb",
+        "Second word 'strategist' is not an adjective",
+        "Third word 'devise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Daring explorer chart territory",
+      "uncommon_words": [
+        "daring",
+        "explorer"
+      ],
+      "previously_used_words": [
+        "daring",
+        "explorer",
+        "chart",
+        "territory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'daring' is not a verb",
+        "Second word 'explorer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Efficient organizer manage project",
+      "uncommon_words": [
+        "organizer"
+      ],
+      "previously_used_words": [
+        "efficient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'efficient' is not a verb",
+        "Second word 'organizer' is not an adjective",
+        "Third word 'manage' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Talented seamstress sew dress",
+      "uncommon_words": [
+        "seamstress",
+        "sew"
+      ],
+      "previously_used_words": [
+        "talented"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'talented' is not a verb",
+        "Second word 'seamstress' is not an adjective",
+        "Third word 'sew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Vigilant watchdog protect home",
+      "uncommon_words": [
+        "vigilant",
+        "watchdog"
+      ],
+      "previously_used_words": [
+        "vigilant",
+        "protect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'vigilant' is not a verb",
+        "Second word 'watchdog' is not an adjective",
+        "Third word 'protect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Reluctant swimmer dive pool",
+      "uncommon_words": [
+        "swimmer",
+        "dive"
+      ],
+      "previously_used_words": [
+        "reluctant",
+        "swimmer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reluctant' is not a verb",
+        "Second word 'swimmer' is not an adjective",
+        "Third word 'dive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Cautious hiker climb mountain",
+      "uncommon_words": [
+        "cautious",
+        "hiker"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cautious' is not a verb",
+        "Second word 'hiker' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Compassionate veterinarian care animal",
+      "uncommon_words": [
+        "compassionate",
+        "veterinarian"
+      ],
+      "previously_used_words": [
+        "compassionate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'compassionate' is not a verb",
+        "Second word 'veterinarian' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Reliable courier deliver package",
+      "uncommon_words": [
+        "courier"
+      ],
+      "previously_used_words": [
+        "reliable",
+        "courier",
+        "deliver",
+        "package"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reliable' is not a verb",
+        "Second word 'courier' is not an adjective",
+        "Third word 'deliver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Ambitious architect design skyscraper",
+      "uncommon_words": [
+        "skyscraper"
+      ],
+      "previously_used_words": [
+        "ambitious",
+        "architect",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ambitious' is not a verb",
+        "Second word 'architect' is not an adjective",
+        "Fourth word 'skyscraper' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Skillful craftsman forge armor",
+      "uncommon_words": [
+        "skillful",
+        "craftsman",
+        "forge",
+        "armor"
+      ],
+      "previously_used_words": [
+        "skillful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'skillful' is not a verb",
+        "Second word 'craftsman' is not an adjective",
+        "Third word 'forge' is not a noun",
+        "Fourth word 'armor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Devoted parent nurture child",
+      "uncommon_words": [
+        "devoted",
+        "nurture"
+      ],
+      "previously_used_words": [
+        "parent",
+        "nurture",
+        "child"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'devoted' is not a verb",
+        "Second word 'parent' is not an adjective",
+        "Third word 'nurture' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Skilled chef prepare meal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "skilled",
+        "chef",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'skilled' is not a verb",
+        "Second word 'chef' is not an adjective",
+        "Third word 'prepare' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Focused scholar research paper",
+      "uncommon_words": [
+        "focused"
+      ],
+      "previously_used_words": [
+        "focused",
+        "scholar",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'scholar' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Artistic dancer choreograph routine",
+      "uncommon_words": [
+        "choreograph"
+      ],
+      "previously_used_words": [
+        "artistic",
+        "dancer",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'artistic' is not a verb",
+        "Second word 'dancer' is not an adjective",
+        "Third word 'choreograph' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Diligent gardener cultivate flowers",
+      "uncommon_words": [
+        "diligent",
+        "gardener",
+        "cultivate",
+        "flowers"
+      ],
+      "previously_used_words": [
+        "diligent",
+        "gardener",
+        "cultivate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diligent' is not a verb",
+        "Second word 'gardener' is not an adjective",
+        "Third word 'cultivate' is not a noun",
+        "Fourth word 'flowers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Daring mountaineer summit peak",
+      "uncommon_words": [
+        "daring",
+        "mountaineer"
+      ],
+      "previously_used_words": [
+        "daring"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'daring' is not a verb",
+        "Second word 'mountaineer' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Reliable police officer patrol street",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reliable",
+        "patrol"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Curious child discover insect",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "curious",
+        "child"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'curious' is not a verb",
+        "Second word 'child' is not an adjective",
+        "Third word 'discover' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Athletic gymnast perform feat",
+      "uncommon_words": [
+        "gymnast",
+        "feat"
+      ],
+      "previously_used_words": [
+        "athletic",
+        "perform",
+        "feat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'athletic' is not a verb",
+        "Second word 'gymnast' is not an adjective",
+        "Third word 'perform' is not a noun",
+        "Fourth word 'feat' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Compassionate counselor offer support",
+      "uncommon_words": [
+        "compassionate"
+      ],
+      "previously_used_words": [
+        "compassionate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'compassionate' is not a verb",
+        "Second word 'counselor' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Focused surgeon conduct operation",
+      "uncommon_words": [
+        "focused"
+      ],
+      "previously_used_words": [
+        "focused",
+        "conduct"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'surgeon' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Insightful librarian recommend books",
+      "uncommon_words": [
+        "insightful",
+        "librarian",
+        "books"
+      ],
+      "previously_used_words": [
+        "insightful",
+        "librarian",
+        "books"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'insightful' is not a verb",
+        "Second word 'librarian' is not an adjective",
+        "Third word 'recommend' is not a noun",
+        "Fourth word 'books' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Clever detective solve case",
+      "uncommon_words": [
+        "clever"
+      ],
+      "previously_used_words": [
+        "clever",
+        "detective",
+        "solve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'clever' is not a verb",
+        "Second word 'detective' is not an adjective",
+        "Third word 'solve' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Passionate activist advocate rights",
+      "uncommon_words": [
+        "passionate",
+        "rights"
+      ],
+      "previously_used_words": [
+        "passionate",
+        "activist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'passionate' is not a verb",
+        "Fourth word 'rights' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Skilled pilot fly plane",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "skilled"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'skilled' is not a verb",
+        "Second word 'pilot' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Daring fireman extinguish fire",
+      "uncommon_words": [
+        "daring",
+        "fireman",
+        "extinguish"
+      ],
+      "previously_used_words": [
+        "daring"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'daring' is not a verb",
+        "Second word 'fireman' is not an adjective",
+        "Third word 'extinguish' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Attentive farmer nurture crop",
+      "uncommon_words": [
+        "attentive",
+        "nurture"
+      ],
+      "previously_used_words": [
+        "attentive",
+        "farmer",
+        "nurture",
+        "crop"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'attentive' is not a verb",
+        "Second word 'farmer' is not an adjective",
+        "Third word 'nurture' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Creative composer write symphony",
+      "uncommon_words": [
+        "composer",
+        "symphony"
+      ],
+      "previously_used_words": [
+        "creative",
+        "write"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'creative' is not a verb",
+        "Second word 'composer' is not an adjective",
+        "Third word 'write' is not a noun",
+        "Fourth word 'symphony' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Eloquent politician deliver speech",
+      "uncommon_words": [
+        "eloquent"
+      ],
+      "previously_used_words": [
+        "eloquent",
+        "deliver",
+        "speech"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'eloquent' is not a verb",
+        "Second word 'politician' is not an adjective",
+        "Third word 'deliver' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Talented musician play concert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "talented",
+        "musician",
+        "play"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'talented' is not a verb",
+        "Second word 'musician' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Resourceful engineer solve problem",
+      "uncommon_words": [
+        "resourceful"
+      ],
+      "previously_used_words": [
+        "resourceful",
+        "engineer",
+        "solve",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resourceful' is not a verb",
+        "Second word 'engineer' is not an adjective",
+        "Third word 'solve' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Compassionate caregiver comfort patient",
+      "uncommon_words": [
+        "compassionate",
+        "caregiver"
+      ],
+      "previously_used_words": [
+        "compassionate",
+        "caregiver",
+        "comfort",
+        "patient"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'compassionate' is not a verb",
+        "Second word 'caregiver' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Diligent student study science",
+      "uncommon_words": [
+        "diligent"
+      ],
+      "previously_used_words": [
+        "diligent",
+        "student",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diligent' is not a verb",
+        "Second word 'student' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Innovative inventor discover technology",
+      "uncommon_words": [
+        "inventor"
+      ],
+      "previously_used_words": [
+        "innovative",
+        "inventor",
+        "discover"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'innovative' is not a verb",
+        "Second word 'inventor' is not an adjective",
+        "Third word 'discover' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Athletic coach lead training",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "athletic",
+        "coach",
+        "lead"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'athletic' is not a verb",
+        "Second word 'coach' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Artistic painter exhibit artwork",
+      "uncommon_words": [
+        "artwork"
+      ],
+      "previously_used_words": [
+        "artistic",
+        "artwork"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'artistic' is not a verb",
+        "Second word 'painter' is not an adjective",
+        "Fourth word 'artwork' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Clever chess player win match",
+      "uncommon_words": [
+        "clever",
+        "chess"
+      ],
+      "previously_used_words": [
+        "clever",
+        "win"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Kindhearted volunteer assist community",
+      "uncommon_words": [
+        "kindhearted"
+      ],
+      "previously_used_words": [
+        "assist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'kindhearted' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Resourceful entrepreneur found company",
+      "uncommon_words": [
+        "resourceful"
+      ],
+      "previously_used_words": [
+        "resourceful",
+        "entrepreneur"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resourceful' is not a verb",
+        "Second word 'entrepreneur' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Courageous adventurer conquer wilderness",
+      "uncommon_words": [
+        "courageous",
+        "adventurer",
+        "conquer"
+      ],
+      "previously_used_words": [
+        "courageous"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'courageous' is not a verb",
+        "Second word 'adventurer' is not an adjective",
+        "Third word 'conquer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Insightful psychologist analyze behavior",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "insightful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'insightful' is not a verb",
+        "Second word 'psychologist' is not an adjective",
+        "Third word 'analyze' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Focused athlete attain perfection",
+      "uncommon_words": [
+        "focused",
+        "attain",
+        "perfection"
+      ],
+      "previously_used_words": [
+        "focused",
+        "athlete"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'focused' is not a verb",
+        "Second word 'athlete' is not an adjective",
+        "Third word 'attain' is not a noun",
+        "Fourth word 'perfection' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

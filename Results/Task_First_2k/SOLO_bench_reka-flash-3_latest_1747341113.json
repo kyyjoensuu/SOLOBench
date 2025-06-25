@@ -1,0 +1,338 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-15 23:56:17",
+  "total_sentences": 16,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 15,
+  "format_failures": 16,
+  "common_word_failures": 15,
+  "word_reuse_failures": 14,
+  "raw_output_file": "Results/Task_First_2k/SOLO_bench_raw_reka-flash-3_latest_1747341113.txt",
+  "formatted_output_file": "Results/Task_First_2k/SOLO_bench_reka-flash-3_latest_1747341113.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Parse each sentence to find all time expressions, which can be either in HH:MM format (numerical) or in words (like \"twelve\", \"sixty-five\").",
+      "uncommon_words": [
+        "parse",
+        "expressions",
+        "can",
+        "hhmm",
+        "(numerical)",
+        "words",
+        "(like",
+        "\"twelve\"",
+        "\"sixty-five\")"
+      ],
+      "previously_used_words": [],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "For each identified time expression, extract all the letters present in those words or numerical parts (even though numerical parts don't have letters).",
+      "uncommon_words": [
+        "identified",
+        "extract",
+        "letters",
+        "words",
+        "numerical",
+        "parts",
+        "(even",
+        "numerical",
+        "parts",
+        "don't",
+        "letters)"
+      ],
+      "previously_used_words": [
+        "each",
+        "time",
+        "all",
+        "in",
+        "words",
+        "or"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Compile a list of all unique letters found in any part of these time expressions.",
+      "uncommon_words": [
+        "compile",
+        "letters",
+        "expressions"
+      ],
+      "previously_used_words": [
+        "all",
+        "letters",
+        "in",
+        "time",
+        "expressions"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "For each letter, list all instances where it appears in the time expressions.",
+      "uncommon_words": [
+        "instances",
+        "appears",
+        "expressions"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "list",
+        "all",
+        "in",
+        "the",
+        "time",
+        "expressions"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Numbers written as words (e.g., twelve, twenty-three).",
+      "uncommon_words": [
+        "numbers",
+        "words",
+        "(eg",
+        "twenty-three)"
+      ],
+      "previously_used_words": [
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Abbreviations like AM, PM.",
+      "uncommon_words": [
+        "abbreviations"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'abbreviations' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Any other components that are part of the time expression (e.g., quarter, past).",
+      "uncommon_words": [
+        "components",
+        "are",
+        "(eg",
+        "past)"
+      ],
+      "previously_used_words": [
+        "any",
+        "part",
+        "of",
+        "the",
+        "time",
+        "expression",
+        "(eg"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "A clock ticks twelve times at midnight.",
+      "uncommon_words": [
+        "ticks",
+        "times"
+      ],
+      "previously_used_words": [
+        "a",
+        "twelve"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "The sun rises at six AM and sets at eight PM.",
+      "uncommon_words": [
+        "rises",
+        "sets"
+      ],
+      "previously_used_words": [
+        "the",
+        "at",
+        "am",
+        "at",
+        "pm"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "They left at quarter past three.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "at",
+        "quarter"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "It's half past eleven in the evening.",
+      "uncommon_words": [
+        "it's"
+      ],
+      "previously_used_words": [
+        "past",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "She arrived at twenty-three hundred hours.",
+      "uncommon_words": [
+        "arrived",
+        "twenty-three",
+        "hours"
+      ],
+      "previously_used_words": [
+        "at"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "The alarm goes off at midnight twelve times a year.",
+      "uncommon_words": [
+        "goes",
+        "times"
+      ],
+      "previously_used_words": [
+        "the",
+        "at",
+        "midnight",
+        "twelve",
+        "times",
+        "a"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Identify all unique words and abbreviations related to times from the sentences.",
+      "uncommon_words": [
+        "words",
+        "abbreviations",
+        "times",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "all",
+        "unique",
+        "words",
+        "and",
+        "abbreviations",
+        "to",
+        "times",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "For each word/abbreviation, extract its letters.",
+      "uncommon_words": [
+        "word/abbreviation",
+        "extract",
+        "letters"
+      ],
+      "previously_used_words": [
+        "for",
+        "each",
+        "extract",
+        "letters"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Tally the occurrences of each letter.",
+      "uncommon_words": [
+        "tally",
+        "occurrences"
+      ],
+      "previously_used_words": [
+        "the",
+        "of",
+        "each",
+        "letter"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

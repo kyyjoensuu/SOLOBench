@@ -1,0 +1,139 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-19 00:01:47",
+  "total_sentences": 7,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 7,
+  "common_word_failures": 6,
+  "word_reuse_failures": 5,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747601720.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747601720.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Relieve infant duty hostilities.",
+      "uncommon_words": [
+        "hostilities"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'infant' is not an adjective",
+        "Fourth word 'hostilities' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Hostile wire straw relief.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'hostile' is not a verb",
+        "Second word 'wire' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Speculate infant duty hostilities.",
+      "uncommon_words": [
+        "hostilities"
+      ],
+      "previously_used_words": [
+        "infant",
+        "duty",
+        "hostilities"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'infant' is not an adjective",
+        "Fourth word 'hostilities' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Wire straw relieve duty hostility.",
+      "uncommon_words": [
+        "hostility"
+      ],
+      "previously_used_words": [
+        "wire",
+        "straw",
+        "relieve",
+        "duty"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Duty hostile wire relieves infants.",
+      "uncommon_words": [
+        "relieves",
+        "infants"
+      ],
+      "previously_used_words": [
+        "duty",
+        "hostile",
+        "wire"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Straw wire hostiles relieve duties.",
+      "uncommon_words": [
+        "hostiles",
+        "duties"
+      ],
+      "previously_used_words": [
+        "straw",
+        "wire",
+        "relieve"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Infants duty relieves hostile wires.",
+      "uncommon_words": [
+        "infants",
+        "relieves",
+        "wires"
+      ],
+      "previously_used_words": [
+        "infants",
+        "duty",
+        "relieves",
+        "hostile"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

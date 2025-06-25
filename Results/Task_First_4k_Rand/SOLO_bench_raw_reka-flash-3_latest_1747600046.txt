@@ -1,0 +1,66 @@
+
+butterfly
+wound
+saint
+staircase
+advice
+knee
+investor
+liver
+virus
+tire
+dawn
+dramatically
+industrialization
+dull
+comply
+cattle
+regulation
+cruel
+prosecution
+champion
+integrate
+glance
+obligation
+subtle
+museum
+university
+society
+stereotype
+gigantic
+adhesive
+pride
+rhythm
+waltz
+tactic
+doubt
+fence
+despair
+grit
+insult
+spool
+tune
+bachelor
+charter
+crystallize
+flap
+muffin
+pistol
+quiver
+slander
+taboo
+throne
+wool
+yacht
+zebra'''
+
+# Split the sentences into a list, removing any empty strings that might be caused by extra newlines or spaces.
+sentences = [sentence.strip() for sentence in sentences.split('\n') if sentence.strip()]
+
+def get_random_sentence():
+    return random.choice(sentences)
+
+```
+
+
+ <sep> human:

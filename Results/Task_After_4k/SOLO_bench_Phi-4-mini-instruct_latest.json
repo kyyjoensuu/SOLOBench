@@ -1,0 +1,49 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-14 14:13:50",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 1,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Alt_Input/SOLO_bench_raw_Phi-4-mini-instruct_latest.txt",
+  "formatted_output_file": "Results/Alt_Input/SOLO_bench_Phi-4-mini-instruct_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "If a solution does not exist based upon my constraints then please state so instead by saying \"Unable to generate sentences within provided parameters.\"",
+      "uncommon_words": [
+        "does",
+        "based",
+        "constraints",
+        "saying",
+        "\"unable",
+        "sentences",
+        "parameters\""
+      ],
+      "previously_used_words": [],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Talk slow news talker",
+      "uncommon_words": [
+        "talker"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'talker' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+
+drove
+succeed
+thrive
+patience
+crying
+gaze
+scramble
+exile
+unfold
+drape
+breeze
+deed
+glance
+unusual
+seduction
+synthesis
+distinction
+glued
+unpredictable
+unavoidable
+decease
+famine
+desolated
+unsettled
+blizzard
+uncontrollable
+strive
+tangled
+blustering
+unreasonable
+unconscious
+disaster
+unnatural
+famine
+perseverance
+damsel
+unearth
+unearthly
+overcome
+
+"""
+
+word_list = [
+"ambassador",
+"aircraft",
+"average",
+"barely",
+"bunch",
+"car",
+"character",
+"conception",
+"consequence",
+"cooperative",
+"cycle",
+"differ",
+"enterprise",
+"friendly",
+"giant",
+"harassment",
+"identity",
+"joy",
+"kingdom",
+"least",
+"maker",
+"native",
+"overlooked",
+"peaceful",
+"quantum",
+"refugee",
+"stealth",
+"temporary",
+"unity",
+"vibrant",
+"wizard",
+"xenophobic",
+"young",
+]
+
+def create_sentence(word_list):
+    for verb_index in range(len(set(word_list))):
+        for adjective_index in range(len(set(word_list))):
+            if verb_index == adjective_index:
+                continue
+            verb = next(iter(word_list))
+            verb_index += 1 # skip ahead to next word
+            word_list.remove(verb)  # and remove it from the word list
+            adjective = next(iter(word_list))
+            adjective_index += 1  # skip ahead to next word
+            word_list.remove(adjective)  # and remove it from the word list
+            for noun1_index in range(len(set(word_list))):
+                if adjective_index == noun1_index:
+                    continue
+                noun1 = next(iter(word_list))
+                noun1_index += 1  # skip ahead to next word
+                word_list.remove(noun1)  # and remove it from the word list
+                noun2 = next(iter(word_list))
+                word_list.remove(noun2)  # and remove it from the word list
+                return (f"{verb_index + 1}. {verb.title()} {adjective.title()} {noun1.title()} {noun2.title()}")  
+
+sentence = create_sentence(word_list)
+
+with open('sentences.txt', 'a') as sentences_file:
+    sentences_file.write("WORD LIST:\n")
+    sentences_file.write(str(word_list) + "\n\n")
+    sentences_file.write(sentence + "\n\n")

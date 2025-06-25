@@ -1,0 +1,465 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-18 10:38:45",
+  "total_sentences": 27,
+  "perfect_sentences": 5,
+  "score_percentage": 18.51851851851852,
+  "word_count_failures": 9,
+  "format_failures": 16,
+  "common_word_failures": 16,
+  "word_reuse_failures": 18,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747551239.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747551239.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "A verb (action word)",
+      "uncommon_words": [
+        "verb",
+        "(action",
+        "word)"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'a' is not a verb",
+        "Second word 'verb' is not an adjective",
+        "Third word '(action' is not a noun",
+        "Fourth word 'word)' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "An adjective (descriptive word)",
+      "uncommon_words": [
+        "an",
+        "adjective",
+        "(descriptive",
+        "word)"
+      ],
+      "previously_used_words": [
+        "word)"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'an' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word '(descriptive' is not a noun",
+        "Fourth word 'word)' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "A noun",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Another noun",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "noun"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Identify verbs: toss is present, descend(s?), offer, convince, collapse, etc.\u2014all action words in WORD_LIST.",
+      "uncommon_words": [
+        "verbs",
+        "is",
+        "descend(s)",
+        "etc\u2014all",
+        "words",
+        "word_list"
+      ],
+      "previously_used_words": [],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "For each verb, assign an adjective, then two nouns.",
+      "uncommon_words": [
+        "verb",
+        "an",
+        "adjective",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "verb",
+        "an",
+        "adjective"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "**Toss** (verb) **inner** (adjective) **stone** (noun) **path** (noun).",
+      "uncommon_words": [
+        "**toss**",
+        "(verb)",
+        "**inner**",
+        "(adjective)",
+        "**stone**",
+        "(noun)",
+        "**path**",
+        "(noun)"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "**Conduct** (verb)\u2026 Wait \"conduct\" not in list. Next verb: convince.",
+      "uncommon_words": [
+        "**conduct**",
+        "(verb)\u2026",
+        "\"conduct\"",
+        "verb"
+      ],
+      "previously_used_words": [
+        "in",
+        "verb",
+        "convince"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Conviction is noun, but \u201ccon\u201d verbs in list are \"convince.\"",
+      "uncommon_words": [
+        "is",
+        "noun",
+        "\u201ccon\u201d",
+        "verbs",
+        "are",
+        "\"convince\""
+      ],
+      "previously_used_words": [
+        "is",
+        "noun",
+        "verbs",
+        "in",
+        "list"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "So \"Convict\": nope. Not in list.",
+      "uncommon_words": [
+        "\"convict\"",
+        "nope"
+      ],
+      "previously_used_words": [
+        "not",
+        "in",
+        "list"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Let's pick other verbs:",
+      "uncommon_words": [
+        "let's",
+        "verbs"
+      ],
+      "previously_used_words": [
+        "verbs"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'let's' is not a verb",
+        "Second word 'pick' is not an adjective",
+        "Third word 'other' is not a noun",
+        "Fourth word 'verbs' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Offer: verb + early (adjective) + book (noun) store (noun).",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "(adjective)",
+        "+",
+        "(noun)",
+        "(noun)"
+      ],
+      "previously_used_words": [
+        "offer",
+        "verb",
+        "(adjective)",
+        "(noun)",
+        "(noun)"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Toss inner stone path.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "toss"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Convince small town issue.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "convince"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Collapse weak bridge structure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collapse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Emerge sudden storm region.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Match high score record.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Tighten strict rule enforcement.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Blame illegal drug sale.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Protect endangered species habitat.",
+      "uncommon_words": [
+        "endangered"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'endangered' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Offer free service community.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Teach advanced math course.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "**Toss** inner stone path.",
+      "uncommon_words": [
+        "**toss**"
+      ],
+      "previously_used_words": [
+        "**toss**",
+        "inner",
+        "stone",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**toss**' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "**Convince** small town issue.",
+      "uncommon_words": [
+        "**convince**"
+      ],
+      "previously_used_words": [
+        "small",
+        "town",
+        "issue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**convince**' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "**Collapse weak bridge structure.",
+      "uncommon_words": [
+        "**collapse"
+      ],
+      "previously_used_words": [
+        "weak",
+        "bridge",
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**collapse' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Emerge sudden storm region.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "sudden",
+        "storm",
+        "region"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Match high score record.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "match",
+        "high",
+        "score",
+        "record"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

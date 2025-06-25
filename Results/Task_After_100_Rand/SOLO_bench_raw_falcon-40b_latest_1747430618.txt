@@ -1,0 +1,28 @@
+ as your solution
+8. Your solution must be readable and comprehensible
+
+
+
+
+
+
+// @author: Shubham Pandey
+
+// First Step: Create a wordlist
+let word = List.of("decade", "straw", "line", "equal", "infant", "duty", "hostile", "wire", "relieve", "eleven", "refugee", "square", "superior",
+"guarantee", "bias", "comparable", "cooperative", "turn", "size", "harassment", "native", "friend", "ten", "joy", "specify", "self", "unexpected",
+"identify", "novel", "philosophy", "graduation", "bedroom", "anger", "place", "enemy", "bowl", "scream", "Thanksgiving", "former", "arrow",
+"lawmaker", "tolerate", "package", "progress", "sustain", "giant", "celebration", "executive", "restriction", "right", "useful", "in", "vessel",
+"height", "ship", "operation", "view", "colonial", "Iraqi", "penalty", "wherever", "cycle", "agency", "interaction", "loot", "desk",
+"threshold", "car", "wrap", "partly", "accounting", "brown", "nation", "democracy", "premise", "modification", "game", "closer",
+"quality", "button", "dragon", "row", "summit", "barely", "differ", "find", "substantial", "somewhat", "belief", "ought", "bloody", "faith",
+"alliance", "ground floor", "citizen", "education", "assurance", "average", "alliance", "ground floor", "citizen", "education", "assurance",
+"average", "substance", "know", "adjustment", "cable", "richness", "precedence", "disclosure", "investigator", "invitation", "move",
+"conception", "news", "signs", "republican", "distribution", "conception", "news", "sigh", "bar", "various", "mask",
+"context", "somebody", "criticism", "motive", "medium", "his", "criticism", "reason", "impression", "treatment", "post").take(15);
+
+for (int i = 0; i<200; i++) {
+    let words = pickRandom([word])
+    println("${words}")
+    // println(words?)
+}

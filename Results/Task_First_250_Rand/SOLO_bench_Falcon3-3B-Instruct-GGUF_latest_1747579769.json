@@ -1,0 +1,346 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-18 17:56:47",
+  "total_sentences": 20,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 11,
+  "format_failures": 20,
+  "common_word_failures": 9,
+  "word_reuse_failures": 18,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747579769.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747579769.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Refugee game desk.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Game role refugee.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "game",
+        "refugee"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Office refuge increasing environment.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'office' is not a verb",
+        "Second word 'refuge' is not an adjective",
+        "Third word 'increasing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Peaceable increase office peace.",
+      "uncommon_words": [
+        "peaceable"
+      ],
+      "previously_used_words": [
+        "office"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peaceable' is not a verb",
+        "Second word 'increase' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Efficient refugee philosophy profession.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "refugee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'efficient' is not a verb",
+        "Second word 'refugee' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Refuge increasingly paper profession.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "refuge",
+        "profession"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'refuge' is not a verb",
+        "Second word 'increasingly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Refuge promoting office work culture.",
+      "uncommon_words": [
+        "promoting"
+      ],
+      "previously_used_words": [
+        "refuge",
+        "office"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Increase property office economy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increase",
+        "office"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'property' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Asylum country profession ethics.",
+      "uncommon_words": [
+        "asylum"
+      ],
+      "previously_used_words": [
+        "profession"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'asylum' is not a verb",
+        "Second word 'country' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Refugee situation government progress.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "refugee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'refugee' is not a verb",
+        "Second word 'situation' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Safe refuge increasing refugee condition.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "refuge",
+        "increasing",
+        "refugee"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Sanctuary nation profession opportunity.",
+      "uncommon_words": [
+        "sanctuary"
+      ],
+      "previously_used_words": [
+        "profession"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sanctuary' is not a verb",
+        "Second word 'nation' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Refugee life job satisfaction environment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "refugee",
+        "environment"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Game role profession asylum experience.",
+      "uncommon_words": [
+        "asylum"
+      ],
+      "previously_used_words": [
+        "game",
+        "role",
+        "profession",
+        "asylum"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Office asylum profession increasingly.",
+      "uncommon_words": [
+        "asylum"
+      ],
+      "previously_used_words": [
+        "office",
+        "asylum",
+        "profession",
+        "increasingly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'office' is not a verb",
+        "Second word 'asylum' is not an adjective",
+        "Fourth word 'increasingly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Safety refugee environment ethics society.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "refugee",
+        "environment",
+        "ethics"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Refuge profession country asylum work.",
+      "uncommon_words": [
+        "asylum"
+      ],
+      "previously_used_words": [
+        "refuge",
+        "profession",
+        "country",
+        "asylum",
+        "work"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Office game asylum increasing refugees.",
+      "uncommon_words": [
+        "asylum",
+        "refugees"
+      ],
+      "previously_used_words": [
+        "office",
+        "game",
+        "asylum",
+        "increasing"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Safe refuge environment professional growth.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "safe",
+        "refuge",
+        "environment"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Asylum government progress profession life.",
+      "uncommon_words": [
+        "asylum"
+      ],
+      "previously_used_words": [
+        "asylum",
+        "government",
+        "progress",
+        "profession",
+        "life"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

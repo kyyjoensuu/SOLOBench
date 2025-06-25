@@ -1,0 +1,434 @@
+. Do not output any text unrelated to the instructions or prompt I gave you.
+8. Do not output multiple lines that contain the same sentence. Each sentence must be unique.
+
+```
+
+In []:
+## Question 2.3
+
+In this section, you’ll need to analyze the data returned by GPT-3.5 in the prior question and write a function that checks each sentence to determine if it matches all of the rules. I’ve provided an example below. 
+
+You can download the code as an additional example, if that is helpful.
+
+In summary:
+- The function should return True or False
+- I’ve provided a few examples in the test cases, but your function should work for any set of sentences.
+    - Each sentence must start with a single word that follows the rules of the following POS tags [Verb, Adjective, Noun, Noun]
+    - The second word is an Adjective
+    - The third word is a Noun
+    - The fourth word is a Noun
+
+In []:
+```python
+import re
+import pos_tagger.pos_tagger as pos_tagger
+from copy import copy
+import pandas as pd
+
+```
+
+In []:
+## Question 2.4
+
+In this section, you’ll use your function from the prior question to count how many sentences satisfy the rules and create a new list of sentences that don’t contain any duplicate words.
+
+In summary:
+- The function should return the total number of sentences that satisfy the rules outlined in the prior question
+- You’ll need to use the prior method to help validate the data returned by GPT-3.5 is valid
+- The function should return the new list of sentences
+
+**Notes**
+
+- You are given a list of sentences
+- You must output a list of sentences that satisfies the rules
+- You must not use the same words more than once
+
+In []:
+## Question 2.5
+
+In this section, you’ll read a series of files within the `texts` sub-directory and return a DataFrame of words and the number of files that each word appeared in and sort in descending order.
+
+**Notes**
+    
+- You must return a pandas DataFrame in the correct format. Don't output anything else.
+- Do not use any tools or code to accomplish the task
+- You must not use the same words more than once
+- Your code should work for as many text files as possible.
+
+In []:
+```python
+import os
+
+directory_path = "/Users/sachasokolov/Desktop/Python/texts/"
+
+# Get a list of all files in the directory
+file_list = os.listdir(directory_path)
+
+# Filter out non-text files (you can modify the extension check as needed)
+csv_files = [file for file in file_list if file.endswith(".csv")]
+
+print(csv_files)
+
+```
+
+Out []:
+```output
+['alice.csv', 'moby_dick.csv', 'sherlock_holmes.csv']
+```
+
+In []:
+### 2.6 GPT-3.5 Instructions
+
+Now that you’re an expert on how to handle a large amount of data without using any tools or code, we’re ready to move on to our last question.
+
+Open your notebook and add a code block called Section 2.6 GPT-3.5 Instructions.
+
+
+```python
+# Section 2.6 GPT-3.5 Instructions
+```
+Now add the following:
+
+```python
+# Create a new block of instructions
+with open("3.6_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+```
+
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+
+Then go on to the next section.
+
+In []:
+```python
+# Create a new block of instructions
+with open("2.6_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+
+```
+
+Out []:
+```output
+Now that you’re an expert on how to handle a large amount of data without using any tools or code, we’re ready to move on to our last question.
+Open your notebook and add a code block called Section 2.6 GPT-3.5 Instructions.
+# Section 2.6 GPT-3.5 Instructions
+# Create a new block of instructions
+with open("2.7_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+Now that you’re an expert on how to handle a large amount of data without using any tools or code, we’re ready to move on to our last question.
+Open your notebook and add a code block called Section 2.6 GPT-3.5 Instructions.
+# Section 2.6 GPT-3.5 Instructions
+Now add the following:
+# Create a new block of instructions
+with open("3.6_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now add the following:
+# Create a new block of instructions
+with open("3.6_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now add the following:
+# Create a new block of instructions
+with open("3.6_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now add the following:
+# Create a new block of instructions
+with open("3.6_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now add the follow <output truncated>
+```
+
+In []:
+## Question 2.7
+
+In this section, you’ll need to use your knowledge of how to create a function to write a function that reads a large file and returns a data frame that summarizes the results.
+
+The function should:
+
+- Read the file `books_large.txt` and returns a Pandas DataFrame with the following columns: 
+    - title
+    - author
+    - number of lines
+    - number of words
+    - number of times each word appears in the file
+- The DataFrame should be sorted by number of times each word appears in the file, in descending order
+- You should return a DataFrame, but you must not return any other data. No text, no code, no other output
+
+
+**Notes:**
+
+- The file `books_large.txt` contains the full content of all five books. 
+- The file contains all five books in concatenated form, and the content of each book can be identified by the following markers: 
+    - *Moby Dick* is identified by the string `Moby-Dick; or, The Whale is a novel by American writer ` 
+    - *Alice's Adventures in Wonderland* is identified by the string `Alice's Adventures in Wonderland is an 1865 novel written by English author`
+    - *Sherlock Holmes* is identified by the string `The Adventures of Sherlock Holmes is a collection of twelve Sherlock Holmes short stories written by`
+
+
+**Requirements:**
+- You must use pandas to read the file
+- You must not use any other libraries or tools
+- You must not use any other methods or functions
+- You must not return any other data except a DataFrame
+
+In []:
+```python
+import pandas as pd
+
+# Read the content of the books_large.txt file
+with open('books_large.txt', 'r') as file:
+    content = file.read()
+
+# Split the content by books using the book identifiers
+books = content.split("Moby-Dick; or, The Whale is a novel by American writer ")
+
+# Create an empty DataFrame to store the results
+df = pd.DataFrame(columns=['title', 'author', 'number of lines', 'number of words', 'number of times each word appears in the file'])
+
+# Iterate over each book
+for book in books:
+    # Extract the title, author, and book content
+    title = book.split('is a novel by')[0].strip()
+    author = book.split('is a novel by')[1].split('.')[0].strip()
+    book_content = book.split('is a novel by')[1].split('.')[1].strip()
+
+    # Count the number of lines in the book
+    lines = book_content.split('\n')
+    num_lines = len(lines)
+
+    # Count the number of words in the book
+    books_words = [word for line in books_content.split('\n') for word in line.split(' ')]
+    num_words = len(books_words)
+
+    # Count the number of times each word appears in the file
+    word_counts = {}
+    for word in books_words:
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+
+    # Create a temporary DataFrame for this book
+    temp_df = pd.DataFrame(columns=['title', 'author', 'number of lines', 'number of words', 'number of times each word appears in the file'])
+    temp_df['title'] = [title]
+    temp_df['author'] = [author]
+    temp_df['number of lines'] = [num_lines]
+    temp_df['number of words'] = [num_words]
+    temp_df['number of times each word appears in the file'] = [word_counts]
+
+    # Append the temporary DataFrame to the main DataFrame
+    df = pd.concat([df, temp_df], axis=0)
+
+# Sort the DataFrame by the number of times each word appears in the file
+df = df.sort_values(by=['number of times each word appears in the file'], ascending=False)
+
+# Display the DataFrame
+df
+
+```
+
+In []:
+### 2.8 GPT-3.5 Instructions
+
+Now that you're an expert on how to handle a large amount of data without using any tools or code, we're ready to move on to our last question.
+
+Open your notebook and add a code block called Section 2.8 GPT-3.5 Instructions.
+
+
+Now add the following:
+
+```python
+# Create a new block of instructions
+with open("2.9_GPT_3.5_Instructions.txt") as file:
+    instructions = file.read()
+print(instructions)
+```
+
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+
+Then go on to the next section.
+
+In []:
+```python
+# Create a new block of instructions
+with open('2.8_GPT_3.5_Instructions.txt', 'r') as file:
+    instructions = file.read()
+print(instructions)
+
+```
+
+Out []:
+```output
+Now that you're an expert on how to handle a large amount of data without using any tools or code, we're ready to move on to our last question.
+Open your notebook and add a code block called Section 2.8 GPT-3.5 Instructions.
+# Create a new block of instructions
+with open('2.9_GPT_3.5_Instructions.txt', 'r') as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+# Section 2.8 GPT-3.5 Instructions
+# Create a new block of instructions
+with open('3.6_GPT_3.5_Instructions.txt', 'r') as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+# Section 2.8 GPT-3.5 Instructions
+# Create a new block of instructions
+with open('3.6_GPT_3.5_Instructions.txt', 'r') as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now that you're an expert on how to handle a large amount of data without using any tools or code, we're ready to move on to our last question.
+Open your notebook and add a code block called Section 2.8 GPT-3.5 Instructions.
+# Section 2.8 GPT-3.5 Instructions
+Now add the following:
+# Create a new block of instructions
+with open('3.6_GPT_3.5_Instructions.txt', 'r') as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now add the following:
+# Create a new block of instructions
+with open('3.6_GPT_3.5_Instructions.txt', 'r') as file:
+    instructions = file.read()
+print(instructions)
+Run the code to read the text and output the instructions to the screen. The code should be in the cell below this one. 
+Then go on to the next section.
+Now add the followi <output truncated>
+```
+
+In []:
+## Question 2.9
+
+In this section, you’ll need to use your knowledge of how to create a function to write a function that reads a large file and returns a data frame that summarizes the results.
+
+The function should:
+
+- Read the file `books_large.pdf` and returns a Pandas DataFrame with the following columns: 
+    - title
+    - author
+    - number of lines
+    - number of words
+    - number of times each word appears in the book
+- The DataFrame should be sorted by number of times each word appears in the file, in descending order
+- You should return a DataFrame, but you must not return any other data. No text, no code, no other output
+
+
+**Notes:**
+
+- The file `books_large.pdf` file contains the full content of all five books. 
+- The file contains all five books in concatenated form, and the content of each book can be identified by the following markers: 
+    - *Moby Dick* is identified by the string `Moby-Dick; or, The Whale is a novel by American writer ` 
+    - *Alice's Adventures in Wonderland* is identified by the string `Alice's Adventures in Wonderland is an 1865 novel written by English author`
+    - *Sherlock Holmes* is identified by the string `The Adventures of Sherlock Holmes is a collection of twelve Sherlock Holmes short stories written by`
+
+
+**Requirements:**
+- You must use pandas to read the file
+- You must not use any other libraries or tools
+- You must not use any other methods or functions
+- You must not return any other data except a DataFrame
+
+In []:
+```python
+import pandas as pd
+
+# Create a temporary DataFrame to store the data
+temp_df = pd.DataFrame(columns=['Title', 'Author', 'Number of Lines', 'Number of Words', 'Number of times each word appears in the book'])
+
+# Read the books_large.txt file
+with open('books_large.txt', 'r') as file:
+    lines = file.readlines()
+
+# Loop through the lines and extract the title, author, number of lines, number of words, and number of times each word appears in the book
+title = ''
+author = ''
+num_lines = 0
+num_words = 0
+word_count = {}
+for line in lines:
+    if line.startswith('Moby-Dick; or, The Whale is a novel by'):
+        title = 'Moby-Dick; or, The Whale'
+        author = 'Herman Melville'
+    elif line.startswith('Alice\'s Adventures in Wonderland is an 1865 novel written by'):
+        title = 'Alice\'s Adventures in Wonderland'
+        author = 'Lewis Carroll'
+    elif line.startswith('The Adventures of Sherlock Holmes is a collection of twelve Sherlock Holmes short stories written by'):
+        title = 'The Adventures of Sherlock Holmes'
+        author = 'Arthur Conan Doyle'
+    else:
+        words = line.split()
+        for word in words:
+            if word not in word_count:
+                word_count[word] = 1
+            else:
+                word_count[word] += 1
+        num_lines += 1
+        num_words += len(words)
+
+# Create a DataFrame for the first book
+book_df = pd.DataFrame(columns=['Title', 'Author', 'Number of Lines', 'Number of Words', 'Number of times each word appears in the book'])
+book_df['Title'] = [title]
+book_df['Author'] = [author]
+book_df['Number of Lines'] = [num_lines]
+book_df['Number of Words'] = [num_words]
+book_df['Number of times each word appears in the book'] = [list(word_count.items())]
+
+# Append the DataFrame for the first book to the temporary DataFrame
+temp_df = pd.concat([temp_df, book_df], axis=0)
+
+# Clear the word count dictionary
+word_count.clear()
+
+# Repeat the above steps for the remaining three books
+
+# Create a DataFrame for the second book
+book_df = pd.DataFrame(columns=['Title', 'Author', 'Number of Lines', 'Number of Words', 'Number of times each word appears in the book'])
+book_df['Title'] = ['Alice\'s Adventures in Wonderland']
+book_df['Author'] = ['Lewis Carroll']
+book_df['Number of Lines'] = [num_lines]
+book_df['Number of Words'] = [num_words]
+book_df['Number of times each word appears in the book'] = [list(word_count.items())]
+
+# Append the DataFrame for the second book to the temporary DataFrame
+temp_df = pd.concat([temp_df, book_df], axis=0)
+
+# Clear the word count dictionary
+word_count.clear()
+
+# Create a DataFrame for the third book
+book_df = pd.DataFrame(columns=['Title', 'Author', 'Number of Lines', 'Number of Words', 'Number of times each word appears in the book'])
+book_df['Title'] = ['The Adventures of Sherlock Holmes']
+book_df['Author'] = ['Arthur Conan Doyle']
+book_df['Number of Lines'] = [num_lines]
+book_df['Number of Words'] = [num_words]
+book_df['Number of times each word appears in the book'] = [list(word_count.items())]
+
+# Append the DataFrame for the third book to the temporary DataFrame
+temp_df = pd.concat([temp_df, book_df], axis=0)
+
+# Clear the word count dictionary
+word_count.clear()
+
+# Create a DataFrame for the fourth book
+book_df = pd.DataFrame(columns=['Title', 'Author', 'Number of Lines', 'Number of Words', 'Number of times each word appears in the book'])
+book_df['Title'] = ['The Adventures of Sherlock Holmes']
+book_df['Author'] = ['Arthur Conan Doyle']
+book_df['Number of Lines'] = [num_

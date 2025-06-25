@@ -1,0 +1,3642 @@
+{
+  "model": "QVQ-72B-Preview:latest",
+  "label": "2025-05-16 04:52:01",
+  "total_sentences": 200,
+  "perfect_sentences": 2,
+  "score_percentage": 1.0,
+  "word_count_failures": 187,
+  "format_failures": 198,
+  "common_word_failures": 178,
+  "word_reuse_failures": 183,
+  "raw_output_file": "Results/Task_First_500/SOLO_bench_raw_QVQ-72B-Preview_latest_1747357468.txt",
+  "formatted_output_file": "Results/Task_First_500/SOLO_bench_QVQ-72B-Preview_latest_1747357468.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Adapt Jewish education curriculum.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Adjust Iraqi economic policy.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Assist French artistic movement.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'artistic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Authorize OK engineering project.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Combine Roman architectural techniques.",
+      "uncommon_words": [
+        "architectural",
+        "techniques"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'architectural' is not a noun",
+        "Fourth word 'techniques' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Confirm annual health check-up.",
+      "uncommon_words": [
+        "check-up"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'check-up' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Convince biographical research team.",
+      "uncommon_words": [
+        "biographical"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'biographical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Depict historical events in painting.",
+      "uncommon_words": [
+        "events"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Descend from ancestral lineage.",
+      "uncommon_words": [
+        "ancestral",
+        "lineage"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'from' is not an adjective",
+        "Third word 'ancestral' is not a noun",
+        "Fourth word 'lineage' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Educate young minds in school.",
+      "uncommon_words": [
+        "minds"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Establish diplomatic relations between countries.",
+      "uncommon_words": [
+        "relations",
+        "countries"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Express gratitude on Thanksgiving.",
+      "uncommon_words": [
+        "gratitude"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gratitude' is not an adjective",
+        "Third word 'on' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Highlight cultural diversity in society.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Illustrate scientific concepts clearly.",
+      "uncommon_words": [
+        "concepts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'concepts' is not a noun",
+        "Fourth word 'clearly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Implement environmental conservation plans.",
+      "uncommon_words": [
+        "plans"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'plans' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Inspire next generation of leaders.",
+      "uncommon_words": [
+        "leaders"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Lead by example in community service.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Manage resources efficiently for sustainability.",
+      "uncommon_words": [
+        "resources",
+        "efficiently",
+        "sustainability"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Navigate through complex situations with ease.",
+      "uncommon_words": [
+        "navigate",
+        "situations"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Overcome challenges with perseverance and resilience.",
+      "uncommon_words": [
+        "challenges",
+        "perseverance",
+        "resilience"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Promote peace through dialogue and understanding.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "through",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Recognize achievements in various fields.",
+      "uncommon_words": [
+        "achievements",
+        "fields"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Respect diverse opinions and perspectives.",
+      "uncommon_words": [
+        "opinions",
+        "perspectives"
+      ],
+      "previously_used_words": [
+        "and"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Secure a better future for all.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Support underprivileged sections of society.",
+      "uncommon_words": [
+        "underprivileged",
+        "sections"
+      ],
+      "previously_used_words": [
+        "of",
+        "society"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Transform ideas into reality through innovation.",
+      "uncommon_words": [
+        "ideas"
+      ],
+      "previously_used_words": [
+        "through"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Unite people towards a common goal.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Value education, health, and well-being.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "education",
+        "health",
+        "and"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Welcome new opportunities with open arms.",
+      "uncommon_words": [
+        "opportunities",
+        "arms"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Xerox documents for distribution.",
+      "uncommon_words": [
+        "xerox",
+        "documents"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'xerox' is not a verb",
+        "Second word 'documents' is not an adjective",
+        "Third word 'for' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Yeast ferments to produce alcohol in brewing.",
+      "uncommon_words": [
+        "yeast",
+        "ferments",
+        "brewing"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Zigzag patterns decorate the fabric of life.",
+      "uncommon_words": [
+        "zigzag",
+        "patterns"
+      ],
+      "previously_used_words": [
+        "of"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Combine mathematical theories to solve complex problems.",
+      "uncommon_words": [
+        "mathematical",
+        "theories",
+        "problems"
+      ],
+      "previously_used_words": [
+        "combine",
+        "to",
+        "complex"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Adapt modern technology to ancient practices.",
+      "uncommon_words": [
+        "practices"
+      ],
+      "previously_used_words": [
+        "adapt",
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Adjust educational systems to meet future needs.",
+      "uncommon_words": [
+        "systems",
+        "needs"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "to",
+        "future"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Assist in the development of renewable energy sources.",
+      "uncommon_words": [
+        "renewable",
+        "sources"
+      ],
+      "previously_used_words": [
+        "assist",
+        "in",
+        "the",
+        "of"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Authorize research on climate change impacts.",
+      "uncommon_words": [
+        "impacts"
+      ],
+      "previously_used_words": [
+        "authorize",
+        "research",
+        "on"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Celebrate cultural festivals to preserve heritage.",
+      "uncommon_words": [
+        "festivals"
+      ],
+      "previously_used_words": [
+        "cultural",
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Collaborate internationally to combat global issues.",
+      "uncommon_words": [
+        "collaborate",
+        "internationally",
+        "issues"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Communicate effectively for better understanding.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "for",
+        "better",
+        "understanding"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Compare different approaches to problem-solving.",
+      "uncommon_words": [
+        "approaches",
+        "problem-solving"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Comprehend the significance of historical events.",
+      "uncommon_words": [
+        "comprehend",
+        "events"
+      ],
+      "previously_used_words": [
+        "the",
+        "of",
+        "historical",
+        "events"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Construct bridges between different communities.",
+      "uncommon_words": [
+        "bridges",
+        "communities"
+      ],
+      "previously_used_words": [
+        "between",
+        "different"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Coordinate efforts in public health campaigns.",
+      "uncommon_words": [
+        "efforts",
+        "campaigns"
+      ],
+      "previously_used_words": [
+        "in",
+        "health"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Create art that reflects societal changes.",
+      "uncommon_words": [
+        "reflects",
+        "societal",
+        "changes"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Cultivate a garden of knowledge and wisdom.",
+      "uncommon_words": [
+        "cultivate"
+      ],
+      "previously_used_words": [
+        "a",
+        "of",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Demonstrate skills through practical application.",
+      "uncommon_words": [
+        "skills"
+      ],
+      "previously_used_words": [
+        "through"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Develop strategies for sustainable development.",
+      "uncommon_words": [
+        "strategies"
+      ],
+      "previously_used_words": [
+        "for",
+        "development"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Discuss ideas openly to foster innovation.",
+      "uncommon_words": [
+        "ideas"
+      ],
+      "previously_used_words": [
+        "ideas",
+        "to",
+        "innovation"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Educate oneself continuously throughout life.",
+      "uncommon_words": [
+        "oneself",
+        "continuously"
+      ],
+      "previously_used_words": [
+        "educate",
+        "life"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Embrace diversity in thoughts and actions.",
+      "uncommon_words": [
+        "thoughts",
+        "actions"
+      ],
+      "previously_used_words": [
+        "diversity",
+        "in",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Empower individuals with equal opportunities.",
+      "uncommon_words": [
+        "empower",
+        "individuals",
+        "opportunities"
+      ],
+      "previously_used_words": [
+        "with",
+        "opportunities"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Engage in meaningful conversations about change.",
+      "uncommon_words": [
+        "conversations"
+      ],
+      "previously_used_words": [
+        "in",
+        "change"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Enhance the quality of life through technology.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "of",
+        "life",
+        "through",
+        "technology"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Ensure justice and equality for all citizens.",
+      "uncommon_words": [
+        "citizens"
+      ],
+      "previously_used_words": [
+        "and",
+        "for",
+        "all"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Establish goals that align with personal values.",
+      "uncommon_words": [
+        "goals",
+        "align",
+        "values"
+      ],
+      "previously_used_words": [
+        "establish",
+        "that",
+        "with"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Excel in pursuits by setting high standards.",
+      "uncommon_words": [
+        "excel",
+        "pursuits",
+        "standards"
+      ],
+      "previously_used_words": [
+        "in",
+        "by"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Expand horizons through travel and exploration.",
+      "uncommon_words": [
+        "horizons"
+      ],
+      "previously_used_words": [
+        "through",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Express creativity in various artistic forms.",
+      "uncommon_words": [
+        "forms"
+      ],
+      "previously_used_words": [
+        "express",
+        "in",
+        "various",
+        "artistic"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Foster teamwork and collaboration in projects.",
+      "uncommon_words": [
+        "teamwork",
+        "projects"
+      ],
+      "previously_used_words": [
+        "foster",
+        "and",
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Generate innovative ideas to tackle challenges.",
+      "uncommon_words": [
+        "ideas",
+        "challenges"
+      ],
+      "previously_used_words": [
+        "ideas",
+        "to",
+        "challenges"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Guide decisions based on ethical principles.",
+      "uncommon_words": [
+        "decisions",
+        "based",
+        "principles"
+      ],
+      "previously_used_words": [
+        "on"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Harness renewable energy sources for sustainability.",
+      "uncommon_words": [
+        "harness",
+        "renewable",
+        "sources",
+        "sustainability"
+      ],
+      "previously_used_words": [
+        "renewable",
+        "energy",
+        "sources",
+        "for",
+        "sustainability"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Implement eco-friendly practices in daily life.",
+      "uncommon_words": [
+        "eco-friendly",
+        "practices"
+      ],
+      "previously_used_words": [
+        "implement",
+        "practices",
+        "in",
+        "life"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Inspire future generations with wisdom of the past.",
+      "uncommon_words": [
+        "generations"
+      ],
+      "previously_used_words": [
+        "inspire",
+        "future",
+        "with",
+        "wisdom",
+        "of",
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Integrate cultural diversity into social fabric.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cultural",
+        "diversity",
+        "into",
+        "fabric"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Invest time and effort in personal growth.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "and",
+        "in",
+        "personal"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Lead by setting a positive example in society.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lead",
+        "by",
+        "setting",
+        "a",
+        "example",
+        "in",
+        "society"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Learn from history to shape a better future.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "from",
+        "to",
+        "a",
+        "better",
+        "future"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Maintain balance between tradition and modernity.",
+      "uncommon_words": [
+        "modernity"
+      ],
+      "previously_used_words": [
+        "between",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Manage resources efficiently for optimal use.",
+      "uncommon_words": [
+        "resources",
+        "efficiently",
+        "optimal"
+      ],
+      "previously_used_words": [
+        "manage",
+        "resources",
+        "efficiently",
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Mentor others, sharing knowledge and skills.",
+      "uncommon_words": [
+        "sharing",
+        "skills"
+      ],
+      "previously_used_words": [
+        "knowledge",
+        "and",
+        "skills"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Navigate through challenges with resilience.",
+      "uncommon_words": [
+        "navigate",
+        "challenges",
+        "resilience"
+      ],
+      "previously_used_words": [
+        "navigate",
+        "through",
+        "challenges",
+        "with",
+        "resilience"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Nurture talent by providing supportive environments.",
+      "uncommon_words": [
+        "nurture",
+        "providing",
+        "environments"
+      ],
+      "previously_used_words": [
+        "by"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Observe societal trends to understand development.",
+      "uncommon_words": [
+        "societal",
+        "trends"
+      ],
+      "previously_used_words": [
+        "societal",
+        "to",
+        "development"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Overcome obstacles through perseverance and determination.",
+      "uncommon_words": [
+        "obstacles",
+        "perseverance"
+      ],
+      "previously_used_words": [
+        "overcome",
+        "through",
+        "perseverance",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Participate actively in community services.",
+      "uncommon_words": [
+        "services"
+      ],
+      "previously_used_words": [
+        "in",
+        "community"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Persuade others for positive societal changes.",
+      "uncommon_words": [
+        "societal",
+        "changes"
+      ],
+      "previously_used_words": [
+        "others",
+        "for",
+        "positive",
+        "societal",
+        "changes"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Plan strategically for long-term goals.",
+      "uncommon_words": [
+        "strategically",
+        "goals"
+      ],
+      "previously_used_words": [
+        "for",
+        "goals"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Practice empathy and compassion towards others.",
+      "uncommon_words": [
+        "empathy",
+        "compassion"
+      ],
+      "previously_used_words": [
+        "and",
+        "towards",
+        "others"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Prioritize health and well-being above all else.",
+      "uncommon_words": [
+        "prioritize"
+      ],
+      "previously_used_words": [
+        "health",
+        "and",
+        "well-being",
+        "all"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Promote cultural exchange through education.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "promote",
+        "cultural",
+        "through",
+        "education"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Pursue knowledge with curiosity and openness.",
+      "uncommon_words": [
+        "openness"
+      ],
+      "previously_used_words": [
+        "knowledge",
+        "with",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Quest for truth and honesty in personal dealings.",
+      "uncommon_words": [
+        "honesty",
+        "dealings"
+      ],
+      "previously_used_words": [
+        "for",
+        "and",
+        "in",
+        "personal"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Realize potentials by embracing opportunities.",
+      "uncommon_words": [
+        "potentials",
+        "embracing",
+        "opportunities"
+      ],
+      "previously_used_words": [
+        "by",
+        "opportunities"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Reflect on past experiences to learn lessons.",
+      "uncommon_words": [
+        "experiences",
+        "lessons"
+      ],
+      "previously_used_words": [
+        "on",
+        "past",
+        "to",
+        "learn"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Respect differences in opinions and actions.",
+      "uncommon_words": [
+        "differences",
+        "opinions",
+        "actions"
+      ],
+      "previously_used_words": [
+        "respect",
+        "in",
+        "opinions",
+        "and",
+        "actions"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Resolve conflicts amicably through dialogue.",
+      "uncommon_words": [
+        "conflicts",
+        "amicably"
+      ],
+      "previously_used_words": [
+        "through",
+        "dialogue"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Safeguard the environment for future generations.",
+      "uncommon_words": [
+        "safeguard",
+        "generations"
+      ],
+      "previously_used_words": [
+        "the",
+        "for",
+        "future",
+        "generations"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Seek continuous improvement in all endeavors.",
+      "uncommon_words": [
+        "endeavors"
+      ],
+      "previously_used_words": [
+        "in",
+        "all"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Smiling faces reflect happiness and contentment.",
+      "uncommon_words": [
+        "smiling",
+        "faces",
+        "contentment"
+      ],
+      "previously_used_words": [
+        "reflect",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Support local communities with social initiatives.",
+      "uncommon_words": [
+        "communities",
+        "initiatives"
+      ],
+      "previously_used_words": [
+        "support",
+        "communities",
+        "with",
+        "social"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Strive to achieve balance between work and life.",
+      "uncommon_words": [
+        "strive"
+      ],
+      "previously_used_words": [
+        "to",
+        "balance",
+        "between",
+        "and",
+        "life"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Sustain natural ecosystems through conservation efforts.",
+      "uncommon_words": [
+        "ecosystems",
+        "efforts"
+      ],
+      "previously_used_words": [
+        "through",
+        "conservation",
+        "efforts"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Teach valuable life skills to younger generations.",
+      "uncommon_words": [
+        "skills",
+        "younger",
+        "generations"
+      ],
+      "previously_used_words": [
+        "life",
+        "skills",
+        "to",
+        "generations"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Uphold ethical standards in professional life.",
+      "uncommon_words": [
+        "uphold",
+        "standards"
+      ],
+      "previously_used_words": [
+        "ethical",
+        "standards",
+        "in",
+        "life"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Unlock human potential with education.",
+      "uncommon_words": [
+        "unlock"
+      ],
+      "previously_used_words": [
+        "with",
+        "education"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Value time by utilizing it meaningfully.",
+      "uncommon_words": [
+        "utilizing",
+        "meaningfully"
+      ],
+      "previously_used_words": [
+        "value",
+        "time",
+        "by"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Welcome new technologies for progress.",
+      "uncommon_words": [
+        "technologies"
+      ],
+      "previously_used_words": [
+        "welcome",
+        "new",
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Work together as a team towards common objectives.",
+      "uncommon_words": [
+        "objectives"
+      ],
+      "previously_used_words": [
+        "work",
+        "a",
+        "team",
+        "towards",
+        "common"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "X-ray images reveal hidden truths of structures.",
+      "uncommon_words": [
+        "x-ray",
+        "images",
+        "truths",
+        "structures"
+      ],
+      "previously_used_words": [
+        "of"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Yearn for advancements in scientific research.",
+      "uncommon_words": [
+        "yearn",
+        "advancements"
+      ],
+      "previously_used_words": [
+        "for",
+        "in",
+        "scientific",
+        "research"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Zealously pursuit knowledge with passion and dedication.",
+      "uncommon_words": [
+        "zealously",
+        "dedication"
+      ],
+      "previously_used_words": [
+        "knowledge",
+        "with",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Adapt to new technologies seamlessly.",
+      "uncommon_words": [
+        "technologies",
+        "seamlessly"
+      ],
+      "previously_used_words": [
+        "adapt",
+        "to",
+        "new",
+        "technologies"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Adjust educational content to reflect current trends.",
+      "uncommon_words": [
+        "trends"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "educational",
+        "to",
+        "reflect",
+        "trends"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Assist in implementing green energy solutions.",
+      "uncommon_words": [
+        "implementing",
+        "solutions"
+      ],
+      "previously_used_words": [
+        "assist",
+        "in",
+        "energy"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Authorize research projects on renewable resources.",
+      "uncommon_words": [
+        "projects",
+        "renewable",
+        "resources"
+      ],
+      "previously_used_words": [
+        "authorize",
+        "research",
+        "projects",
+        "on",
+        "renewable",
+        "resources"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Combine interdisciplinary approaches for innovation.",
+      "uncommon_words": [
+        "interdisciplinary",
+        "approaches"
+      ],
+      "previously_used_words": [
+        "combine",
+        "approaches",
+        "for",
+        "innovation"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Celebrate human achievements and milestones.",
+      "uncommon_words": [
+        "achievements",
+        "milestones"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "human",
+        "achievements",
+        "and"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Communicate complex ideas simply and effectively.",
+      "uncommon_words": [
+        "ideas"
+      ],
+      "previously_used_words": [
+        "communicate",
+        "complex",
+        "ideas",
+        "and",
+        "effectively"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Compare different methodologies in problem-solving.",
+      "uncommon_words": [
+        "methodologies",
+        "problem-solving"
+      ],
+      "previously_used_words": [
+        "compare",
+        "different",
+        "in",
+        "problem-solving"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Comprehend the significance of global connectivity.",
+      "uncommon_words": [
+        "comprehend",
+        "connectivity"
+      ],
+      "previously_used_words": [
+        "comprehend",
+        "the",
+        "significance",
+        "of",
+        "global"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Construct networks that bridge distances.",
+      "uncommon_words": [
+        "networks",
+        "distances"
+      ],
+      "previously_used_words": [
+        "construct",
+        "that"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Coordinate international efforts for disaster relief.",
+      "uncommon_words": [
+        "efforts"
+      ],
+      "previously_used_words": [
+        "coordinate",
+        "efforts",
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Create awareness about environmental conservation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "about",
+        "environmental",
+        "conservation"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Cultivate a mindset of sustainability and reuse.",
+      "uncommon_words": [
+        "cultivate",
+        "mindset",
+        "sustainability",
+        "reuse"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "a",
+        "of",
+        "sustainability",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Demonstrate commitment towards ecological balance.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "demonstrate",
+        "towards",
+        "balance"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Develop renewable energy sources for a cleaner future.",
+      "uncommon_words": [
+        "renewable",
+        "sources",
+        "cleaner"
+      ],
+      "previously_used_words": [
+        "develop",
+        "renewable",
+        "energy",
+        "sources",
+        "for",
+        "a",
+        "future"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Discuss the impact of climate change on societies.",
+      "uncommon_words": [
+        "societies"
+      ],
+      "previously_used_words": [
+        "discuss",
+        "the",
+        "of",
+        "climate",
+        "change",
+        "on"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Educate communities about sustainable practices.",
+      "uncommon_words": [
+        "communities",
+        "practices"
+      ],
+      "previously_used_words": [
+        "educate",
+        "communities",
+        "about",
+        "sustainable",
+        "practices"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Embrace environmental responsibility in daily life.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "embrace",
+        "environmental",
+        "in",
+        "daily",
+        "life"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Empower individuals to make eco-friendly choices.",
+      "uncommon_words": [
+        "empower",
+        "individuals",
+        "eco-friendly",
+        "choices"
+      ],
+      "previously_used_words": [
+        "empower",
+        "individuals",
+        "to",
+        "eco-friendly"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Engage in actions that reduce carbon footprints.",
+      "uncommon_words": [
+        "actions",
+        "footprints"
+      ],
+      "previously_used_words": [
+        "engage",
+        "in",
+        "actions",
+        "that"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Enhance energy efficiency in buildings and homes.",
+      "uncommon_words": [
+        "buildings",
+        "homes"
+      ],
+      "previously_used_words": [
+        "enhance",
+        "energy",
+        "in",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Ensure equitable access to clean water and air.",
+      "uncommon_words": [
+        "equitable"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "to",
+        "and"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Establish green spaces for biodiversity.",
+      "uncommon_words": [
+        "spaces",
+        "biodiversity"
+      ],
+      "previously_used_words": [
+        "establish",
+        "green",
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Excel in recycling and waste management strategies.",
+      "uncommon_words": [
+        "excel",
+        "recycling",
+        "strategies"
+      ],
+      "previously_used_words": [
+        "excel",
+        "in",
+        "and",
+        "strategies"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Expand knowledge on renewable energy technologies.",
+      "uncommon_words": [
+        "renewable",
+        "technologies"
+      ],
+      "previously_used_words": [
+        "expand",
+        "knowledge",
+        "on",
+        "renewable",
+        "energy",
+        "technologies"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Express concern for the environment through advocacy.",
+      "uncommon_words": [
+        "advocacy"
+      ],
+      "previously_used_words": [
+        "express",
+        "for",
+        "the",
+        "environment",
+        "through"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Foster collaboration between environmental activists.",
+      "uncommon_words": [
+        "activists"
+      ],
+      "previously_used_words": [
+        "foster",
+        "collaboration",
+        "between",
+        "environmental"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Generate public support for environmental causes.",
+      "uncommon_words": [
+        "causes"
+      ],
+      "previously_used_words": [
+        "generate",
+        "public",
+        "support",
+        "for",
+        "environmental"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Guide policy makers towards sustainable development goals.",
+      "uncommon_words": [
+        "makers",
+        "goals"
+      ],
+      "previously_used_words": [
+        "guide",
+        "policy",
+        "towards",
+        "sustainable",
+        "development",
+        "goals"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Harness solar and wind power for electricity generation.",
+      "uncommon_words": [
+        "harness"
+      ],
+      "previously_used_words": [
+        "harness",
+        "and",
+        "for",
+        "generation"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Implement eco-friendly transportation solutions.",
+      "uncommon_words": [
+        "eco-friendly",
+        "solutions"
+      ],
+      "previously_used_words": [
+        "implement",
+        "eco-friendly",
+        "solutions"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'eco-friendly' is not an adjective",
+        "Fourth word 'solutions' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Inspire youth to become environmental stewards.",
+      "uncommon_words": [
+        "stewards"
+      ],
+      "previously_used_words": [
+        "inspire",
+        "to",
+        "environmental"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Integrate environmental education into school curriculums.",
+      "uncommon_words": [
+        "curriculums"
+      ],
+      "previously_used_words": [
+        "integrate",
+        "environmental",
+        "education",
+        "into",
+        "school"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Invest in research and development of green technologies.",
+      "uncommon_words": [
+        "technologies"
+      ],
+      "previously_used_words": [
+        "invest",
+        "in",
+        "research",
+        "and",
+        "development",
+        "of",
+        "green",
+        "technologies"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Lead by example in reducing personal environmental impact.",
+      "uncommon_words": [
+        "reducing"
+      ],
+      "previously_used_words": [
+        "lead",
+        "by",
+        "example",
+        "in",
+        "personal",
+        "environmental",
+        "impact"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Learn from nature's sustainable practices.",
+      "uncommon_words": [
+        "nature's",
+        "practices"
+      ],
+      "previously_used_words": [
+        "learn",
+        "from",
+        "sustainable",
+        "practices"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Maintain natural habitats for wildlife conservation.",
+      "uncommon_words": [
+        "habitats"
+      ],
+      "previously_used_words": [
+        "maintain",
+        "natural",
+        "for",
+        "conservation"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Manage natural resources sustainably to prevent depletion.",
+      "uncommon_words": [
+        "resources",
+        "sustainably",
+        "depletion"
+      ],
+      "previously_used_words": [
+        "manage",
+        "natural",
+        "resources",
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Mentor future leaders in environmental sustainability.",
+      "uncommon_words": [
+        "leaders",
+        "sustainability"
+      ],
+      "previously_used_words": [
+        "mentor",
+        "future",
+        "leaders",
+        "in",
+        "environmental",
+        "sustainability"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Navigate the path towards a greener and cleaner world.",
+      "uncommon_words": [
+        "navigate",
+        "greener",
+        "cleaner"
+      ],
+      "previously_used_words": [
+        "navigate",
+        "the",
+        "towards",
+        "a",
+        "and",
+        "cleaner"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Nurture young minds with environmental awareness.",
+      "uncommon_words": [
+        "nurture",
+        "minds"
+      ],
+      "previously_used_words": [
+        "nurture",
+        "young",
+        "minds",
+        "with",
+        "environmental",
+        "awareness"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Observe the wonders of nature and preserve them.",
+      "uncommon_words": [
+        "wonders"
+      ],
+      "previously_used_words": [
+        "observe",
+        "the",
+        "of",
+        "and",
+        "preserve"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Overcome challenges posed by climate change collectively.",
+      "uncommon_words": [
+        "challenges",
+        "posed",
+        "collectively"
+      ],
+      "previously_used_words": [
+        "overcome",
+        "challenges",
+        "by",
+        "climate",
+        "change"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Participate actively in community clean-up drives.",
+      "uncommon_words": [
+        "clean-up",
+        "drives"
+      ],
+      "previously_used_words": [
+        "participate",
+        "actively",
+        "in",
+        "community"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Persuade others to adopt environmentally friendly lifestyles.",
+      "uncommon_words": [
+        "environmentally",
+        "lifestyles"
+      ],
+      "previously_used_words": [
+        "persuade",
+        "others",
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Plan cities that are sustainable and livable.",
+      "uncommon_words": [
+        "cities",
+        "are",
+        "livable"
+      ],
+      "previously_used_words": [
+        "plan",
+        "that",
+        "sustainable",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Practice conservation of energy at home or office.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "practice",
+        "conservation",
+        "of",
+        "energy"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Prioritize environmental health over short-term gains.",
+      "uncommon_words": [
+        "prioritize",
+        "gains"
+      ],
+      "previously_used_words": [
+        "prioritize",
+        "environmental",
+        "health"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Promote the use of electric vehicles to reduce pollution.",
+      "uncommon_words": [
+        "vehicles"
+      ],
+      "previously_used_words": [
+        "promote",
+        "the",
+        "use",
+        "of",
+        "to",
+        "reduce"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Pursue careers in renewable energy sectors.",
+      "uncommon_words": [
+        "careers",
+        "renewable",
+        "sectors"
+      ],
+      "previously_used_words": [
+        "pursue",
+        "in",
+        "renewable",
+        "energy"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Quest for solutions to mitigate climate change effects.",
+      "uncommon_words": [
+        "solutions",
+        "mitigate",
+        "effects"
+      ],
+      "previously_used_words": [
+        "quest",
+        "for",
+        "solutions",
+        "to",
+        "climate",
+        "change"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Recycle materials to minimize waste and conserve resources.",
+      "uncommon_words": [
+        "recycle",
+        "materials",
+        "conserve",
+        "resources"
+      ],
+      "previously_used_words": [
+        "to",
+        "waste",
+        "and",
+        "resources"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Reduce, reuse, and recycle as a way of life.",
+      "uncommon_words": [
+        "reuse",
+        "recycle"
+      ],
+      "previously_used_words": [
+        "reduce",
+        "reuse",
+        "and",
+        "recycle",
+        "as",
+        "a",
+        "of",
+        "life"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Reflect on personal actions that affect the environment.",
+      "uncommon_words": [
+        "actions"
+      ],
+      "previously_used_words": [
+        "reflect",
+        "on",
+        "personal",
+        "actions",
+        "that",
+        "the",
+        "environment"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Respect the interdependence of all living beings.",
+      "uncommon_words": [
+        "interdependence",
+        "beings"
+      ],
+      "previously_used_words": [
+        "respect",
+        "the",
+        "of",
+        "all"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Resolve to make positive changes for the planet's health.",
+      "uncommon_words": [
+        "changes",
+        "planet's"
+      ],
+      "previously_used_words": [
+        "resolve",
+        "to",
+        "make",
+        "positive",
+        "changes",
+        "for",
+        "the",
+        "health"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Safeguard endangered species through conservation efforts.",
+      "uncommon_words": [
+        "safeguard",
+        "endangered",
+        "efforts"
+      ],
+      "previously_used_words": [
+        "safeguard",
+        "through",
+        "conservation",
+        "efforts"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Seek alternatives to single-use plastics in daily life.",
+      "uncommon_words": [
+        "alternatives",
+        "single-use",
+        "plastics"
+      ],
+      "previously_used_words": [
+        "seek",
+        "to",
+        "in",
+        "daily",
+        "life"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Smiling faces welcome a cleaner and healthier environment.",
+      "uncommon_words": [
+        "smiling",
+        "faces",
+        "cleaner",
+        "healthier"
+      ],
+      "previously_used_words": [
+        "smiling",
+        "faces",
+        "welcome",
+        "a",
+        "cleaner",
+        "and",
+        "environment"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Support legislation that protects natural resources.",
+      "uncommon_words": [
+        "protects",
+        "resources"
+      ],
+      "previously_used_words": [
+        "support",
+        "that",
+        "natural",
+        "resources"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Strive towards zero waste lifestyles.",
+      "uncommon_words": [
+        "strive",
+        "zero",
+        "lifestyles"
+      ],
+      "previously_used_words": [
+        "strive",
+        "towards",
+        "waste",
+        "lifestyles"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Sustain agriculture with organic farming methods.",
+      "uncommon_words": [
+        "farming",
+        "methods"
+      ],
+      "previously_used_words": [
+        "sustain",
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Teach children the importance of environmental care.",
+      "uncommon_words": [
+        "children"
+      ],
+      "previously_used_words": [
+        "teach",
+        "the",
+        "of",
+        "environmental"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Uphold ethical practices in environmental conservation.",
+      "uncommon_words": [
+        "uphold",
+        "practices"
+      ],
+      "previously_used_words": [
+        "uphold",
+        "ethical",
+        "practices",
+        "in",
+        "environmental",
+        "conservation"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Unlock the potential of green technologies for progress.",
+      "uncommon_words": [
+        "unlock",
+        "technologies"
+      ],
+      "previously_used_words": [
+        "unlock",
+        "the",
+        "potential",
+        "of",
+        "green",
+        "technologies",
+        "for",
+        "progress"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Value the beauty and bounty of nature.",
+      "uncommon_words": [
+        "bounty"
+      ],
+      "previously_used_words": [
+        "value",
+        "the",
+        "and",
+        "of",
+        "nature"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Welcome innovations that promote sustainability.",
+      "uncommon_words": [
+        "innovations",
+        "sustainability"
+      ],
+      "previously_used_words": [
+        "welcome",
+        "that",
+        "promote",
+        "sustainability"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Work collectively towards building a sustainable future.",
+      "uncommon_words": [
+        "collectively"
+      ],
+      "previously_used_words": [
+        "work",
+        "collectively",
+        "towards",
+        "a",
+        "sustainable",
+        "future"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "X-ray images offer insights into structural integrity.",
+      "uncommon_words": [
+        "x-ray",
+        "images",
+        "insights"
+      ],
+      "previously_used_words": [
+        "x-ray",
+        "images",
+        "into"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Yearn to explore uncharted territories in science.",
+      "uncommon_words": [
+        "yearn",
+        "uncharted",
+        "territories"
+      ],
+      "previously_used_words": [
+        "yearn",
+        "to",
+        "in"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Zealously pursue knowledge of the unknown.",
+      "uncommon_words": [
+        "zealously"
+      ],
+      "previously_used_words": [
+        "zealously",
+        "pursue",
+        "knowledge",
+        "of",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Adapt educational systems for digital age readiness.",
+      "uncommon_words": [
+        "systems",
+        "readiness"
+      ],
+      "previously_used_words": [
+        "adapt",
+        "educational",
+        "systems",
+        "for"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Adjust learning methods to cater diverse needs.",
+      "uncommon_words": [
+        "methods",
+        "cater",
+        "needs"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "methods",
+        "to",
+        "diverse",
+        "needs"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Assist students with personalized guidance.",
+      "uncommon_words": [
+        "students",
+        "personalized"
+      ],
+      "previously_used_words": [
+        "assist",
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Authorize policies that promote inclusive education.",
+      "uncommon_words": [
+        "policies",
+        "inclusive"
+      ],
+      "previously_used_words": [
+        "authorize",
+        "that",
+        "promote",
+        "education"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Celebrate academic achievements and excellence.",
+      "uncommon_words": [
+        "achievements",
+        "excellence"
+      ],
+      "previously_used_words": [
+        "celebrate",
+        "achievements",
+        "and"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Communicate effectively using multiple platforms.",
+      "uncommon_words": [
+        "using",
+        "platforms"
+      ],
+      "previously_used_words": [
+        "communicate",
+        "effectively"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Compare educational systems globally for insights.",
+      "uncommon_words": [
+        "systems",
+        "globally",
+        "insights"
+      ],
+      "previously_used_words": [
+        "compare",
+        "educational",
+        "systems",
+        "for",
+        "insights"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Comprehend the significance of life-long learning.",
+      "uncommon_words": [
+        "comprehend",
+        "life-long"
+      ],
+      "previously_used_words": [
+        "comprehend",
+        "the",
+        "significance",
+        "of",
+        "learning"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Construct knowledge with a foundation in critical thinking.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "construct",
+        "knowledge",
+        "with",
+        "a",
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Coordinate efforts to enhance education quality.",
+      "uncommon_words": [
+        "efforts"
+      ],
+      "previously_used_words": [
+        "coordinate",
+        "efforts",
+        "to",
+        "enhance",
+        "education",
+        "quality"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Create opportunities for collaborative learning.",
+      "uncommon_words": [
+        "opportunities",
+        "collaborative"
+      ],
+      "previously_used_words": [
+        "create",
+        "opportunities",
+        "for",
+        "learning"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Cultivate ethical values and global citizenship.",
+      "uncommon_words": [
+        "cultivate",
+        "values"
+      ],
+      "previously_used_words": [
+        "cultivate",
+        "ethical",
+        "values",
+        "and",
+        "global"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Define clear objectives for educational goals.",
+      "uncommon_words": [
+        "objectives",
+        "goals"
+      ],
+      "previously_used_words": [
+        "objectives",
+        "for",
+        "educational",
+        "goals"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Develop skills necessary for future careers.",
+      "uncommon_words": [
+        "skills",
+        "careers"
+      ],
+      "previously_used_words": [
+        "develop",
+        "skills",
+        "for",
+        "future",
+        "careers"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Discuss the role of technology in modern classrooms.",
+      "uncommon_words": [
+        "classrooms"
+      ],
+      "previously_used_words": [
+        "discuss",
+        "the",
+        "of",
+        "technology",
+        "in",
+        "modern"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Educate on cultural diversity for a harmonious society.",
+      "uncommon_words": [
+        "harmonious"
+      ],
+      "previously_used_words": [
+        "educate",
+        "on",
+        "cultural",
+        "diversity",
+        "for",
+        "a",
+        "society"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Embrace changes with flexibility and adaptability.",
+      "uncommon_words": [
+        "changes",
+        "adaptability"
+      ],
+      "previously_used_words": [
+        "embrace",
+        "changes",
+        "with",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Empower educators to innovate in teaching methods.",
+      "uncommon_words": [
+        "empower",
+        "educators",
+        "innovate",
+        "methods"
+      ],
+      "previously_used_words": [
+        "empower",
+        "to",
+        "in",
+        "methods"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Ensure accessibility of education to all, regardless of background.",
+      "uncommon_words": [
+        "accessibility"
+      ],
+      "previously_used_words": [
+        "ensure",
+        "of",
+        "education",
+        "to",
+        "all",
+        "of"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Equip students with problem-solving abilities.",
+      "uncommon_words": [
+        "students",
+        "problem-solving",
+        "abilities"
+      ],
+      "previously_used_words": [
+        "students",
+        "with",
+        "problem-solving"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Establish standards that promote excellence.",
+      "uncommon_words": [
+        "standards",
+        "excellence"
+      ],
+      "previously_used_words": [
+        "establish",
+        "standards",
+        "that",
+        "promote",
+        "excellence"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Excel through rigorous academic programs.",
+      "uncommon_words": [
+        "excel",
+        "rigorous",
+        "programs"
+      ],
+      "previously_used_words": [
+        "excel",
+        "through",
+        "academic"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Expose learners to a wide range of disciplines.",
+      "uncommon_words": [
+        "learners",
+        "disciplines"
+      ],
+      "previously_used_words": [
+        "to",
+        "a",
+        "of"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Explore new frontiers in knowledge and discovery.",
+      "uncommon_words": [
+        "frontiers"
+      ],
+      "previously_used_words": [
+        "explore",
+        "new",
+        "in",
+        "knowledge",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Foster creativity and independent thinking in children.",
+      "uncommon_words": [
+        "children"
+      ],
+      "previously_used_words": [
+        "foster",
+        "creativity",
+        "and",
+        "thinking",
+        "in",
+        "children"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Guide students towards personal growth and success.",
+      "uncommon_words": [
+        "students"
+      ],
+      "previously_used_words": [
+        "guide",
+        "students",
+        "towards",
+        "personal",
+        "growth",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

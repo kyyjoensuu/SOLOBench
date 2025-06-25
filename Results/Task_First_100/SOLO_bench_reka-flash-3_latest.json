@@ -1,0 +1,613 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-14 17:45:04",
+  "total_sentences": 33,
+  "perfect_sentences": 13,
+  "score_percentage": 39.39393939393939,
+  "word_count_failures": 9,
+  "format_failures": 12,
+  "common_word_failures": 12,
+  "word_reuse_failures": 15,
+  "raw_output_file": "Results/Task_First_100/SOLO_bench_raw_reka-flash-3_latest.txt",
+  "formatted_output_file": "Results/Task_First_100/SOLO_bench_reka-flash-3_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Words must be used exactly as they appear in the list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each word can only be used once, so I have to track which words I've already used.",
+      "uncommon_words": [
+        "can",
+        "words",
+        "i've"
+      ],
+      "previously_used_words": [
+        "be",
+        "used",
+        "words",
+        "used"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Each sentence follows the structure Verb + Adjective + Noun + Noun.",
+      "uncommon_words": [
+        "follows",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each sentence must have exactly four words.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "have",
+        "exactly",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "No tools or code; manual process.",
+      "uncommon_words": [
+        "tools"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Assure Iraqi agency alliance.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Educate brown ship vessel.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Modify cheap penalty sanction.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Disclose hostile treaty negotiation. Wait, \"treaty\" isn't in the list. Let's check the list again. The words after disclose might be \"divide\", \"dragon\", etc. Hmm. Maybe \"Disclose hostile operation mission.\" But \"mission\" isn't in the list. Let me look for another noun. \"Post\"? No. \"Trading\"? Not sure. Alternatively, \"Disclose hostile export trade.\" Export and trade are both nouns. So \"Disclose hostile export trade.\" That works.",
+      "uncommon_words": [
+        "\"treaty\"",
+        "isn't",
+        "let's",
+        "words",
+        "\"divide\"",
+        "\"dragon\"",
+        "hmm",
+        "\"disclose",
+        "mission\"",
+        "\"mission\"",
+        "isn't",
+        "noun",
+        "\"post\"",
+        "\"trading\"",
+        "alternatively",
+        "\"disclose",
+        "trade\"",
+        "are",
+        "nouns",
+        "\"disclose",
+        "trade\""
+      ],
+      "previously_used_words": [
+        "in",
+        "the",
+        "list",
+        "the",
+        "list",
+        "the",
+        "words",
+        "be",
+        "in",
+        "the",
+        "list",
+        "noun",
+        "no",
+        "so"
+      ],
+      "word_count": 65,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Divide democratic nation state. Wait, \"democratic\" isn't in the list; the adjective here is \"democracy\". Maybe \"Divide democracy entity group.\" But \"entity\" and \"group\" aren't in the word list. Let's check again. The available adjectives include \"colonial\", \"comparable\", etc. Let me try \"Divide colonial empire territory.\" Empire isn't in the list, but \"territory\" is. So \"Divide colonial territory property.\" Property isn't in the list. Hmm. Maybe \"Divide colonial mill factory.\" Mill and factory are both nouns? Mill is a noun, factory yes. So \"Divide colonial mill factory.\"",
+      "uncommon_words": [
+        "\"democratic\"",
+        "isn't",
+        "adjective",
+        "is",
+        "\"democracy\"",
+        "\"divide",
+        "group\"",
+        "\"entity\"",
+        "\"group\"",
+        "aren't",
+        "let's",
+        "adjectives",
+        "\"colonial\"",
+        "\"comparable\"",
+        "\"divide",
+        "territory\"",
+        "isn't",
+        "\"territory\"",
+        "is",
+        "\"divide",
+        "property\"",
+        "isn't",
+        "hmm",
+        "\"divide",
+        "factory\"",
+        "are",
+        "nouns",
+        "is",
+        "noun",
+        "\"divide",
+        "factory\""
+      ],
+      "previously_used_words": [
+        "wait",
+        "isn't",
+        "in",
+        "the",
+        "list",
+        "the",
+        "adjective",
+        "maybe",
+        "but",
+        "and",
+        "in",
+        "the",
+        "word",
+        "list",
+        "let's",
+        "check",
+        "again",
+        "the",
+        "etc",
+        "let",
+        "me",
+        "isn't",
+        "in",
+        "the",
+        "list",
+        "but",
+        "so",
+        "isn't",
+        "in",
+        "the",
+        "list",
+        "hmm",
+        "maybe",
+        "and",
+        "are",
+        "both",
+        "nouns",
+        "noun",
+        "so"
+      ],
+      "word_count": 87,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Sustain substantial energy resource. Substantial is an adjective here. Energy and resource are not in the list. Looking for other nouns: \"Sustain substantial export trade.\" Export and trade are both present. So \"Sustain substantial export trade.\"",
+      "uncommon_words": [
+        "is",
+        "an",
+        "adjective",
+        "are",
+        "looking",
+        "nouns",
+        "\"sustain",
+        "trade\"",
+        "are",
+        "\"sustain",
+        "trade\""
+      ],
+      "previously_used_words": [
+        "is",
+        "adjective",
+        "here",
+        "and",
+        "are",
+        "not",
+        "in",
+        "the",
+        "list",
+        "for",
+        "nouns",
+        "export",
+        "trade\"",
+        "export",
+        "and",
+        "trade",
+        "are",
+        "both",
+        "so",
+        "export",
+        "trade\""
+      ],
+      "word_count": 36,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Assure Iraqi agency alliance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assure",
+        "iraqi",
+        "agency",
+        "alliance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Educate brown ship vessel",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "educate",
+        "brown",
+        "ship",
+        "vessel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Modify cheap penalty sanction",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "cheap",
+        "penalty",
+        "sanction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Disclose hostile export trade",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "disclose",
+        "hostile",
+        "export",
+        "trade"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Divide colonial mill factory",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "colonial",
+        "mill",
+        "factory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Sustain substantial export trade",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sustain",
+        "substantial",
+        "export",
+        "trade"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Relieve tangible debt obligation (Note: \"tangible\" not in list\u2014corrected to \"substantial\")",
+      "uncommon_words": [
+        "tangible",
+        "(note",
+        "\"tangible\"",
+        "list\u2014corrected",
+        "\"substantial\")"
+      ],
+      "previously_used_words": [
+        "not",
+        "in",
+        "to"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Specify strategic plan action",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Guarantee equal opportunity access",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Educate democratic process system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "educate",
+        "democratic",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Adjust harsh policy measure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Verify critical infrastructure security",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Monitor daily activity progress",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Analyze financial record account",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Coordinate regional effort strategy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Implement strict law regulation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Promote ethical business practice",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Establish national identity standard",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Support vulnerable community resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Challenge existing doctrine principle",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Wrap final package securely",
+      "uncommon_words": [
+        "securely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'securely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Scream bloody mouth agony",
+      "uncommon_words": [
+        "agony"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'agony' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

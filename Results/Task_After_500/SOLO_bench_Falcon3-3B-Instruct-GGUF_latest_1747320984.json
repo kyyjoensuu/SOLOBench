@@ -1,0 +1,895 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-15 17:57:10",
+  "total_sentences": 50,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 49,
+  "format_failures": 50,
+  "common_word_failures": 39,
+  "word_reuse_failures": 34,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747320984.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747320984.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Bible Christmas Jewish OK",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bible' is not a verb",
+        "Second word 'christmas' is not an adjective",
+        "Third word 'jewish' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "New York Thanksgiving Passover Bible",
+      "uncommon_words": [
+        "york",
+        "passover"
+      ],
+      "previously_used_words": [
+        "bible"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Cultural Christmas Soviet Jewish Arabic Quran",
+      "uncommon_words": [
+        "arabic",
+        "quran"
+      ],
+      "previously_used_words": [
+        "christmas",
+        "jewish"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Conservative Republican French Iraqi Muslim Arab",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Biblical Christian Israeli American Chinese Buddhist Hindu",
+      "uncommon_words": [
+        "biblical",
+        "buddhist",
+        "hindu"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Activist Advocate Reform Democratic Republican",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "republican"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Science Chemistry Biology Art Literature Cinema English",
+      "uncommon_words": [
+        "cinema"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Soldier Pirate Astronaut Farmer Artist Engineer",
+      "uncommon_words": [
+        "pirate",
+        "astronaut"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Family Lover Friend Artist Student Historian Teacher",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "artist"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Wise Crazy Funny Sad Desperate Smart Evil",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Strong Weak Brave Afraid Happy Sadistic",
+      "uncommon_words": [
+        "sadistic"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Expensive Cheap Cheap Affordable Expensive",
+      "uncommon_words": [
+        "affordable"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Quiet Loud Soft Heavy Softly Swept",
+      "uncommon_words": [
+        "swept"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Beautiful Ugly Lovely Strange Pretty Terrifying",
+      "uncommon_words": [
+        "terrifying"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Early Late Morning Afternoon Dusk Evening Night",
+      "uncommon_words": [
+        "dusk"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Simple Complex Exciting Tragic Frightening Absurd Love",
+      "uncommon_words": [
+        "frightening",
+        "absurd"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Tall Short Average Big Small Skinny Huge",
+      "uncommon_words": [
+        "skinny"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Thick Thin Light Dark Warm Cold",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Wise Stupid Savvy Smart Ignorant Clever Dumb",
+      "uncommon_words": [
+        "savvy",
+        "ignorant",
+        "clever"
+      ],
+      "previously_used_words": [
+        "wise",
+        "smart"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Happy Sad Angry Cheerful Nostalgic Upset",
+      "uncommon_words": [
+        "cheerful",
+        "nostalgic"
+      ],
+      "previously_used_words": [
+        "happy",
+        "sad"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Fast Slow Quick Quiet Quietly Quiet",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quiet",
+        "quiet"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Tiny Large Small Medium Minute Second Century",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Alone Together In Out With On By At To From",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Beautiful Star Pretty White Fluffy Bright Yellow Green",
+      "uncommon_words": [
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "beautiful",
+        "pretty"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Expensive Rare Free Cheap Valuable Cheapened Cheaper",
+      "uncommon_words": [
+        "cheapened",
+        "cheaper"
+      ],
+      "previously_used_words": [
+        "expensive",
+        "cheap"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Angry Mad Furious Hurt Sad Love Happy Joyful",
+      "uncommon_words": [
+        "furious",
+        "joyful"
+      ],
+      "previously_used_words": [
+        "angry",
+        "sad",
+        "love",
+        "happy"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Brave Fearless Courageous Ambitious Determined Resilient",
+      "uncommon_words": [
+        "fearless",
+        "courageous",
+        "determined",
+        "resilient"
+      ],
+      "previously_used_words": [
+        "brave"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Open Secret Covert Ugly Nice Elegant Sophisticated",
+      "uncommon_words": [
+        "covert"
+      ],
+      "previously_used_words": [
+        "ugly"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Fast-Food Junk Food Fast Meal Quick Snack Fast Delivery Cheap",
+      "uncommon_words": [
+        "fast-food",
+        "junk",
+        "snack"
+      ],
+      "previously_used_words": [
+        "fast",
+        "quick",
+        "fast",
+        "cheap"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Loudly Quietly Softly Hard Beautifully Painfully",
+      "uncommon_words": [
+        "loudly",
+        "beautifully",
+        "painfully"
+      ],
+      "previously_used_words": [
+        "quietly",
+        "softly"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Kind Cruelty Gentle Cruel Stingy Compassionate Insulting",
+      "uncommon_words": [
+        "cruelty",
+        "stingy",
+        "compassionate",
+        "insulting"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Wealthy Poor Rich Richer Richest Poorest Cashless Cashier Expensive",
+      "uncommon_words": [
+        "richer",
+        "richest",
+        "poorest",
+        "cashless",
+        "cashier"
+      ],
+      "previously_used_words": [
+        "expensive"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Early Morning Night Evening Dusk Dawn Sunny Rain",
+      "uncommon_words": [
+        "dusk"
+      ],
+      "previously_used_words": [
+        "early",
+        "morning",
+        "night",
+        "evening",
+        "dusk"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Big Huge Small Tiny Large Medium Short Long Thin Thick",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big",
+        "huge",
+        "small",
+        "tiny",
+        "large",
+        "medium",
+        "short",
+        "thin",
+        "thick"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Happy Sad Angry Cheerful Nostalgic Upset Joyful Terrible",
+      "uncommon_words": [
+        "cheerful",
+        "nostalgic",
+        "joyful"
+      ],
+      "previously_used_words": [
+        "happy",
+        "sad",
+        "angry",
+        "cheerful",
+        "nostalgic",
+        "upset",
+        "joyful"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Fast Slowly Quickly Quietly Softly Loudly Silently",
+      "uncommon_words": [
+        "loudly",
+        "silently"
+      ],
+      "previously_used_words": [
+        "fast",
+        "quietly",
+        "softly",
+        "loudly"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Simple Complex Thoughtful Intrusive Abstract Imaginative",
+      "uncommon_words": [
+        "thoughtful",
+        "intrusive",
+        "imaginative"
+      ],
+      "previously_used_words": [
+        "simple",
+        "complex"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Brave Fearless Courageous Ambitious Determined Resilient Weak",
+      "uncommon_words": [
+        "fearless",
+        "courageous",
+        "determined",
+        "resilient"
+      ],
+      "previously_used_words": [
+        "brave",
+        "fearless",
+        "courageous",
+        "ambitious",
+        "determined",
+        "resilient",
+        "weak"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Open Secret Covert Ugly Nice Elegant Sophisticated Luxurious",
+      "uncommon_words": [
+        "covert",
+        "luxurious"
+      ],
+      "previously_used_words": [
+        "open",
+        "secret",
+        "covert",
+        "ugly",
+        "nice",
+        "elegant",
+        "sophisticated"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Rich Expensive Cheap Free Low High Value Value Additive Lossless",
+      "uncommon_words": [
+        "additive",
+        "lossless"
+      ],
+      "previously_used_words": [
+        "rich",
+        "expensive",
+        "cheap",
+        "free"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Angry Mad Furious Hurt Sad Love Happy Joyful Terrible Loved",
+      "uncommon_words": [
+        "furious",
+        "joyful",
+        "loved"
+      ],
+      "previously_used_words": [
+        "angry",
+        "mad",
+        "furious",
+        "hurt",
+        "sad",
+        "love",
+        "happy",
+        "joyful",
+        "terrible"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Fast Slow Quickly Quietly Softly Hard Beautifully Painfully",
+      "uncommon_words": [
+        "beautifully",
+        "painfully"
+      ],
+      "previously_used_words": [
+        "fast",
+        "slow",
+        "quickly",
+        "quietly",
+        "softly",
+        "hard",
+        "beautifully",
+        "painfully"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Kind Cruelty Gentle Cruel Stingy Compassionate Insulting Sympathetic",
+      "uncommon_words": [
+        "cruelty",
+        "stingy",
+        "compassionate",
+        "insulting",
+        "sympathetic"
+      ],
+      "previously_used_words": [
+        "kind",
+        "cruelty",
+        "gentle",
+        "cruel",
+        "stingy",
+        "compassionate",
+        "insulting"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Wealthy Poor Rich Richer Richest Poorest Cashless Cashier Expensive Cheap",
+      "uncommon_words": [
+        "richer",
+        "richest",
+        "poorest",
+        "cashless",
+        "cashier"
+      ],
+      "previously_used_words": [
+        "wealthy",
+        "poor",
+        "rich",
+        "richer",
+        "richest",
+        "poorest",
+        "cashless",
+        "cashier",
+        "expensive",
+        "cheap"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Early Morning Night Evening Dusk Dawn Sunny Rain",
+      "uncommon_words": [
+        "dusk"
+      ],
+      "previously_used_words": [
+        "early",
+        "morning",
+        "night",
+        "evening",
+        "dusk",
+        "dawn",
+        "sunny",
+        "rain"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Big Huge Small Tiny Large Medium Short Long Thin Thick",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big",
+        "huge",
+        "small",
+        "tiny",
+        "large",
+        "medium",
+        "short",
+        "long",
+        "thin",
+        "thick"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Happy Sad Angry Cheerful Nostalgic Upset Joyful Terrible Loved Frightened",
+      "uncommon_words": [
+        "cheerful",
+        "nostalgic",
+        "joyful",
+        "loved",
+        "frightened"
+      ],
+      "previously_used_words": [
+        "happy",
+        "sad",
+        "angry",
+        "cheerful",
+        "nostalgic",
+        "upset",
+        "joyful",
+        "terrible",
+        "loved"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Fast Slowly Quickly Quietly Softly Loudly Silently Deliberately Hesitantly",
+      "uncommon_words": [
+        "loudly",
+        "silently",
+        "hesitantly"
+      ],
+      "previously_used_words": [
+        "fast",
+        "slowly",
+        "quickly",
+        "quietly",
+        "softly",
+        "loudly",
+        "silently"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Simple Complex Thoughtful Intrusive Abstract Imaginative Insightful Vague",
+      "uncommon_words": [
+        "thoughtful",
+        "intrusive",
+        "imaginative",
+        "insightful",
+        "vague"
+      ],
+      "previously_used_words": [
+        "simple",
+        "complex",
+        "thoughtful",
+        "intrusive",
+        "abstract",
+        "imaginative"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Brave Fearless Courageous Ambitious Determined Resilient Brave Vulnerable Uncertain",
+      "uncommon_words": [
+        "fearless",
+        "courageous",
+        "determined",
+        "resilient"
+      ],
+      "previously_used_words": [
+        "brave",
+        "fearless",
+        "courageous",
+        "ambitious",
+        "determined",
+        "resilient",
+        "brave"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

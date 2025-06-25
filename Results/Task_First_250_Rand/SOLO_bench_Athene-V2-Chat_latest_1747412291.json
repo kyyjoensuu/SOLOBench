@@ -1,0 +1,5944 @@
+{
+  "model": "Athene-V2-Chat:latest",
+  "label": "2025-05-16 21:45:21",
+  "total_sentences": 400,
+  "perfect_sentences": 21,
+  "score_percentage": 5.25,
+  "word_count_failures": 214,
+  "format_failures": 357,
+  "common_word_failures": 192,
+  "word_reuse_failures": 268,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_Athene-V2-Chat_latest_1747412291.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_Athene-V2-Chat_latest_1747412291.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "bite tiny insect flesh",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "breathe fresh mountain air",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "dance cheerful children song",
+      "uncommon_words": [
+        "cheerful",
+        "children"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cheerful' is not an adjective",
+        "Third word 'children' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "drink sweet berry juice",
+      "uncommon_words": [
+        "berry"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'berry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "eat crunchy granola bar",
+      "uncommon_words": [
+        "crunchy",
+        "granola"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crunchy' is not an adjective",
+        "Third word 'granola' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "fly beautiful butterfly garden",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "grow green plant pot",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "hike rugged forest trail",
+      "uncommon_words": [
+        "rugged"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rugged' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "hug warm furry cat",
+      "uncommon_words": [
+        "furry"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'furry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "jog smooth beach sand",
+      "uncommon_words": [
+        "jog"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'jog' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "jump high trampoline sky",
+      "uncommon_words": [
+        "trampoline"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'trampoline' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "kiss loving couple lips",
+      "uncommon_words": [
+        "loving",
+        "lips"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'loving' is not an adjective",
+        "Fourth word 'lips' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "laugh happy friends party",
+      "uncommon_words": [
+        "friends"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'friends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "make delicious homemade pie",
+      "uncommon_words": [
+        "delicious",
+        "homemade"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective",
+        "Third word 'homemade' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "play fun family game",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fun' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "read interesting mystery novel",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "sing soft lullaby baby",
+      "uncommon_words": [
+        "lullaby"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'lullaby' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "smile bright sunny day",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sunny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "sit cozy library chair",
+      "uncommon_words": [
+        "cozy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cozy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "swim fast Olympic pool",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'olympic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "talk quiet church service",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "wave long beach hair",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "beach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "whisper secret friend ear",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "write neat school paper",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "zip closed backpack zipper",
+      "uncommon_words": [
+        "zip",
+        "backpack",
+        "zipper"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'zip' is not a verb",
+        "Third word 'backpack' is not a noun",
+        "Fourth word 'zipper' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "assemble sturdy wooden desk",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective",
+        "Third word 'wooden' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "attack vicious wild dog",
+      "uncommon_words": [
+        "vicious"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "boost low battery car",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "celebrate lively Thanksgiving feast",
+      "uncommon_words": [
+        "lively",
+        "feast"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lively' is not an adjective",
+        "Fourth word 'feast' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "chew sticky bubble gum",
+      "uncommon_words": [
+        "sticky",
+        "gum"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sticky' is not an adjective",
+        "Fourth word 'gum' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "clean shiny silver spoon",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'shiny' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "compete fierce rival match",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "craft intricate paper flowers",
+      "uncommon_words": [
+        "intricate",
+        "flowers"
+      ],
+      "previously_used_words": [
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Fourth word 'flowers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "damage fragile antique vase",
+      "uncommon_words": [
+        "antique",
+        "vase"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'antique' is not a noun",
+        "Fourth word 'vase' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "describe vivid dream night",
+      "uncommon_words": [
+        "vivid"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vivid' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "dismiss rude customer request",
+      "uncommon_words": [
+        "rude"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rude' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "doubt serious political claims",
+      "uncommon_words": [
+        "claims"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun",
+        "Fourth word 'claims' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "embrace warm family hug",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warm",
+        "family",
+        "hug"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "encourage struggling artist work",
+      "uncommon_words": [
+        "struggling"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'struggling' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "enforce strict security protocol",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "evaluate current economic trends",
+      "uncommon_words": [
+        "trends"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun",
+        "Fourth word 'trends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "explore remote tropical island",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'tropical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "express deep personal feelings",
+      "uncommon_words": [
+        "feelings"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'feelings' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "fix broken household appliance",
+      "uncommon_words": [
+        "appliance"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'appliance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "foster healthy community relations",
+      "uncommon_words": [
+        "relations"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'relations' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "generate powerful positive thoughts",
+      "uncommon_words": [
+        "thoughts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'thoughts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "hate annoying fly buzz",
+      "uncommon_words": [
+        "annoying",
+        "buzz"
+      ],
+      "previously_used_words": [
+        "fly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'annoying' is not an adjective",
+        "Fourth word 'buzz' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "hesitate uncertain first step",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "insist stubborn opinion stance",
+      "uncommon_words": [
+        "stubborn"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stubborn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "invest wisely financial savings",
+      "uncommon_words": [
+        "wisely",
+        "savings"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective",
+        "Third word 'financial' is not a noun",
+        "Fourth word 'savings' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "jump high hurdles track",
+      "uncommon_words": [
+        "hurdles"
+      ],
+      "previously_used_words": [
+        "jump",
+        "high"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'hurdles' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "keep secret hidden treasure map",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secret"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "lend helpful neighbor hand",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "modify existing legal agreement",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'legal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "neglect forgotten family heirloom",
+      "uncommon_words": [
+        "neglect",
+        "forgotten",
+        "heirloom"
+      ],
+      "previously_used_words": [
+        "family"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'neglect' is not a verb",
+        "Second word 'forgotten' is not an adjective",
+        "Fourth word 'heirloom' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "notify absent meeting member",
+      "uncommon_words": [
+        "notify",
+        "absent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'notify' is not a verb",
+        "Second word 'absent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "observe mysterious celestial event",
+      "uncommon_words": [
+        "celestial"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'celestial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "oppress vulnerable minority group",
+      "uncommon_words": [
+        "oppress"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'oppress' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "oppose harmful government policy",
+      "uncommon_words": [
+        "harmful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'harmful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "organize chaotic office space",
+      "uncommon_words": [
+        "chaotic"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'chaotic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "overcome difficult personal obstacle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "personal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "pardon minor legal offense",
+      "uncommon_words": [
+        "pardon"
+      ],
+      "previously_used_words": [
+        "legal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'pardon' is not a verb",
+        "Third word 'legal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "plan successful marketing campaign",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "pollinate essential crop flowers",
+      "uncommon_words": [
+        "pollinate",
+        "flowers"
+      ],
+      "previously_used_words": [
+        "flowers"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'pollinate' is not a verb",
+        "Fourth word 'flowers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "ponder deep philosophical questions",
+      "uncommon_words": [
+        "ponder",
+        "questions"
+      ],
+      "previously_used_words": [
+        "deep"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ponder' is not a verb",
+        "Third word 'philosophical' is not a noun",
+        "Fourth word 'questions' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "praise outstanding academic achievement",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "prevent potential safety hazard",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "produce high-quality film project",
+      "uncommon_words": [
+        "high-quality"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'high-quality' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "prohibit dangerous chemical use",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "question official investigation results",
+      "uncommon_words": [
+        "results"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'results' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "recall fond childhood memories",
+      "uncommon_words": [
+        "fond",
+        "memories"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fond' is not an adjective",
+        "Fourth word 'memories' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "read insightful historical document",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "read"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'insightful' is not an adjective",
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "recommend trusted medical specialist",
+      "uncommon_words": [
+        "trusted"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'trusted' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "reduce carbon footprint significantly",
+      "uncommon_words": [
+        "footprint"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carbon' is not an adjective",
+        "Third word 'footprint' is not a noun",
+        "Fourth word 'significantly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "refuse unreasonable customer demands",
+      "uncommon_words": [
+        "unreasonable",
+        "demands"
+      ],
+      "previously_used_words": [
+        "customer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unreasonable' is not an adjective",
+        "Fourth word 'demands' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "reinforce weak structural support",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'structural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "reject flawed scientific theory",
+      "uncommon_words": [
+        "flawed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'flawed' is not an adjective",
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "remove toxic waste safely",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'safely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "remember fallen war heroes",
+      "uncommon_words": [
+        "fallen",
+        "heroes"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fallen' is not an adjective",
+        "Fourth word 'heroes' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "replace old car parts",
+      "uncommon_words": [
+        "parts"
+      ],
+      "previously_used_words": [
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'parts' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "respect different cultural values",
+      "uncommon_words": [
+        "values"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cultural' is not a noun",
+        "Fourth word 'values' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "retire successful professional career",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "successful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "reveal hidden political motives",
+      "uncommon_words": [
+        "motives"
+      ],
+      "previously_used_words": [
+        "hidden",
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun",
+        "Fourth word 'motives' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "review recent performance metrics",
+      "uncommon_words": [
+        "metrics"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'metrics' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "ruin perfect vacation plans",
+      "uncommon_words": [
+        "plans"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'plans' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "sacrifice personal comfort duty",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "personal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "seek genuine peace treaty",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "sell valuable family heirlooms",
+      "uncommon_words": [
+        "heirlooms"
+      ],
+      "previously_used_words": [
+        "family"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'heirlooms' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "send heartfelt sympathy card",
+      "uncommon_words": [
+        "heartfelt"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heartfelt' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "separate mixed recycling materials",
+      "uncommon_words": [
+        "recycling",
+        "materials"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'recycling' is not a noun",
+        "Fourth word 'materials' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "service malfunctioning computer system",
+      "uncommon_words": [
+        "malfunctioning"
+      ],
+      "previously_used_words": [
+        "service"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'malfunctioning' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "share valuable life lessons",
+      "uncommon_words": [
+        "lessons"
+      ],
+      "previously_used_words": [
+        "valuable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'lessons' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "sightsee famous tourist attractions",
+      "uncommon_words": [
+        "sightsee",
+        "attractions"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sightsee' is not a verb",
+        "Fourth word 'attractions' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "signal approaching train conductor",
+      "uncommon_words": [
+        "approaching",
+        "conductor"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'approaching' is not an adjective",
+        "Fourth word 'conductor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "simplify complex legal jargon",
+      "uncommon_words": [
+        "simplify",
+        "jargon"
+      ],
+      "previously_used_words": [
+        "legal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'simplify' is not a verb",
+        "Third word 'legal' is not a noun",
+        "Fourth word 'jargon' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "skip tedious administrative tasks",
+      "uncommon_words": [
+        "tedious",
+        "tasks"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tedious' is not an adjective",
+        "Third word 'administrative' is not a noun",
+        "Fourth word 'tasks' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "solve challenging math problems",
+      "uncommon_words": [
+        "challenging",
+        "problems"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective",
+        "Fourth word 'problems' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "speak fluent foreign language",
+      "uncommon_words": [
+        "fluent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluent' is not an adjective",
+        "Third word 'foreign' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "sponsor local sports team",
+      "uncommon_words": [
+        "sports"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sports' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "stare blank computer screen",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "computer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "start ambitious new project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "study ancient historical artifact",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "historical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "sue negligent property owner",
+      "uncommon_words": [
+        "negligent"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'negligent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "talk tough with unruly student",
+      "uncommon_words": [
+        "unruly"
+      ],
+      "previously_used_words": [
+        "talk"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "teach eager young children",
+      "uncommon_words": [
+        "children"
+      ],
+      "previously_used_words": [
+        "children"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'children' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "tell entertaining bedtime story",
+      "uncommon_words": [
+        "entertaining",
+        "bedtime"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'entertaining' is not an adjective",
+        "Third word 'bedtime' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "thank generous benefactor donation",
+      "uncommon_words": [
+        "benefactor"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'benefactor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "threaten legal action lawsuit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "legal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "tolerate obnoxious loud neighbor",
+      "uncommon_words": [
+        "obnoxious"
+      ],
+      "previously_used_words": [
+        "neighbor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'obnoxious' is not an adjective",
+        "Third word 'loud' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "touch inspiring artistic creation",
+      "uncommon_words": [
+        "inspiring"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'inspiring' is not an adjective",
+        "Third word 'artistic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "trace distant family genealogy",
+      "uncommon_words": [
+        "genealogy"
+      ],
+      "previously_used_words": [
+        "family"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'genealogy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "treat serious medical condition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "serious",
+        "medical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "trust loyal longtime friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "friend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'longtime' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "type fast qwerty keyboard",
+      "uncommon_words": [
+        "qwerty",
+        "keyboard"
+      ],
+      "previously_used_words": [
+        "fast"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'qwerty' is not a noun",
+        "Fourth word 'keyboard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "underline important sentence phrase",
+      "uncommon_words": [
+        "underline"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'underline' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "unload heavy cargo ship",
+      "uncommon_words": [
+        "unload"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unload' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "validate important scientific theory",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "important",
+        "scientific",
+        "theory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "verify crucial financial records",
+      "uncommon_words": [
+        "verify",
+        "records"
+      ],
+      "previously_used_words": [
+        "financial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb",
+        "Third word 'financial' is not a noun",
+        "Fourth word 'records' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "vote wisely in election",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [
+        "wisely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wisely' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "wake early morning sunrise",
+      "uncommon_words": [
+        "sunrise"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'sunrise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "want shiny new car",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [
+        "shiny",
+        "new",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'shiny' is not an adjective",
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "wave friendly neighbor hello",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wave",
+        "neighbor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "whisper secret lover ear",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "whisper",
+        "secret",
+        "ear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "write detailed research paper",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write",
+        "paper"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "zip cold winter jacket",
+      "uncommon_words": [
+        "zip"
+      ],
+      "previously_used_words": [
+        "zip"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'zip' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "observe lazy cat nap",
+      "uncommon_words": [
+        "lazy",
+        "nap"
+      ],
+      "previously_used_words": [
+        "observe",
+        "cat"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lazy' is not an adjective",
+        "Fourth word 'nap' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "admit wrong past action",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "anticipate fun upcoming date",
+      "uncommon_words": [
+        "upcoming"
+      ],
+      "previously_used_words": [
+        "fun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fun' is not an adjective",
+        "Third word 'upcoming' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "argue heatedly with sibling",
+      "uncommon_words": [
+        "heatedly"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'heatedly' is not an adjective",
+        "Third word 'with' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "assume innocent until proven",
+      "uncommon_words": [
+        "proven"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'until' is not a noun",
+        "Fourth word 'proven' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "avoid dangerous dark alley",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dangerous"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "bake delicious chocolate cake",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "delicious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "burn bright campfire night",
+      "uncommon_words": [
+        "campfire"
+      ],
+      "previously_used_words": [
+        "bright",
+        "night"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'campfire' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "chase playful puppy park",
+      "uncommon_words": [
+        "playful",
+        "puppy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'playful' is not an adjective",
+        "Third word 'puppy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "climb steep mountain path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mountain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "collect rare vintage coins",
+      "uncommon_words": [
+        "vintage",
+        "coins"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'vintage' is not a noun",
+        "Fourth word 'coins' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "control aggressive anger impulses",
+      "uncommon_words": [
+        "impulses"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'impulses' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "create stunning digital art",
+      "uncommon_words": [
+        "stunning"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stunning' is not an adjective",
+        "Third word 'digital' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "defend innocent defendant court",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "innocent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "deliver urgent legal document",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [
+        "legal",
+        "document"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'urgent' is not an adjective",
+        "Third word 'legal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "design stylish wedding dress",
+      "uncommon_words": [
+        "stylish"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stylish' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "describe vivid dream journal",
+      "uncommon_words": [
+        "vivid"
+      ],
+      "previously_used_words": [
+        "describe",
+        "vivid",
+        "dream"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vivid' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "detect subtle lie deception",
+      "uncommon_words": [
+        "deception"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'deception' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "develop groundbreaking software app",
+      "uncommon_words": [
+        "groundbreaking",
+        "app"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'groundbreaking' is not an adjective",
+        "Fourth word 'app' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "discuss serious relationship issues",
+      "uncommon_words": [
+        "issues"
+      ],
+      "previously_used_words": [
+        "serious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'issues' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "draft persuasive business proposal",
+      "uncommon_words": [
+        "persuasive"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'persuasive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "drink strong morning coffee",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "drink",
+        "morning"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "drive antique sportscar road",
+      "uncommon_words": [
+        "antique",
+        "sportscar"
+      ],
+      "previously_used_words": [
+        "antique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'antique' is not an adjective",
+        "Third word 'sportscar' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "eat fresh local produce market",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "eat",
+        "fresh",
+        "local",
+        "produce"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "embrace unique cultural tradition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "embrace",
+        "cultural"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'cultural' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "enjoy peaceful lakeside picnic",
+      "uncommon_words": [
+        "lakeside",
+        "picnic"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'lakeside' is not a noun",
+        "Fourth word 'picnic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "envy successful rival company",
+      "uncommon_words": [
+        "envy"
+      ],
+      "previously_used_words": [
+        "successful",
+        "rival"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'envy' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "express sincere emotional gratitude",
+      "uncommon_words": [
+        "sincere",
+        "gratitude"
+      ],
+      "previously_used_words": [
+        "express"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sincere' is not an adjective",
+        "Third word 'emotional' is not a noun",
+        "Fourth word 'gratitude' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "fear approaching winter storm",
+      "uncommon_words": [
+        "approaching"
+      ],
+      "previously_used_words": [
+        "approaching",
+        "winter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'approaching' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "feel sudden rush joy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "finish challenging school project",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "challenging",
+        "school",
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "forget important doctor appointment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "important"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "freeze still as statue",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "frown deeply furrowed brows",
+      "uncommon_words": [
+        "furrowed",
+        "brows"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'furrowed' is not a noun",
+        "Fourth word 'brows' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "gather scattered family tree",
+      "uncommon_words": [
+        "scattered"
+      ],
+      "previously_used_words": [
+        "family"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'scattered' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "gift expensive watch husband",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "give honest feedback friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "friend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "go crazy at loud concert",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loud"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "grow strong medicinal herbs",
+      "uncommon_words": [
+        "medicinal",
+        "herbs"
+      ],
+      "previously_used_words": [
+        "grow",
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'medicinal' is not a noun",
+        "Fourth word 'herbs' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "heal deep emotional wounds",
+      "uncommon_words": [
+        "wounds"
+      ],
+      "previously_used_words": [
+        "deep",
+        "emotional"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'emotional' is not a noun",
+        "Fourth word 'wounds' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "hear faint baby cry night",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "baby",
+        "night"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "hide stolen loot basement",
+      "uncommon_words": [
+        "stolen"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stolen' is not an adjective",
+        "Third word 'loot' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "hike rugged mountain trail",
+      "uncommon_words": [
+        "rugged"
+      ],
+      "previously_used_words": [
+        "hike",
+        "rugged",
+        "mountain",
+        "trail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rugged' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "hold precious newborn child",
+      "uncommon_words": [
+        "newborn"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'newborn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "hope fervently for miracle",
+      "uncommon_words": [
+        "fervently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fervently' is not an adjective",
+        "Third word 'for' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "ignore persistent salesman calls",
+      "uncommon_words": [
+        "persistent",
+        "salesman",
+        "calls"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'persistent' is not an adjective",
+        "Third word 'salesman' is not a noun",
+        "Fourth word 'calls' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "imagine perfect future life",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perfect",
+        "life"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "implement innovative business ideas",
+      "uncommon_words": [
+        "ideas"
+      ],
+      "previously_used_words": [
+        "business"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'ideas' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "improve poor writing skills",
+      "uncommon_words": [
+        "skills"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'skills' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "inspect damaged vehicle thoroughly",
+      "uncommon_words": [
+        "inspect",
+        "damaged"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'damaged' is not an adjective",
+        "Fourth word 'thoroughly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "intend to start new habit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "start",
+        "new"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "invite close friends over dinner",
+      "uncommon_words": [
+        "friends"
+      ],
+      "previously_used_words": [
+        "friends"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "joke about awkward social moment",
+      "uncommon_words": [
+        "awkward"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "jump wildly with joy news",
+      "uncommon_words": [
+        "wildly"
+      ],
+      "previously_used_words": [
+        "jump",
+        "with",
+        "joy"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "keep daily personal journal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "keep",
+        "personal",
+        "journal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "kick stubborn printer jam",
+      "uncommon_words": [
+        "stubborn",
+        "printer",
+        "jam"
+      ],
+      "previously_used_words": [
+        "stubborn"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stubborn' is not an adjective",
+        "Third word 'printer' is not a noun",
+        "Fourth word 'jam' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "kill menacing snake garden",
+      "uncommon_words": [
+        "menacing"
+      ],
+      "previously_used_words": [
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'menacing' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "learn complicated math equation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "math"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "lend money to desperate friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "to",
+        "friend"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "listen carefully to lesson",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective",
+        "Third word 'to' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "look suspiciously at package",
+      "uncommon_words": [
+        "suspiciously"
+      ],
+      "previously_used_words": [
+        "at"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'suspiciously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "love deeply loyal spouse",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deeply",
+        "loyal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'loyal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "maintain healthy work-life balance",
+      "uncommon_words": [
+        "work-life"
+      ],
+      "previously_used_words": [
+        "healthy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'work-life' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "make quick getaway car",
+      "uncommon_words": [
+        "getaway"
+      ],
+      "previously_used_words": [
+        "make",
+        "car"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'getaway' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "manage difficult employee conflict",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "difficult"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "maneuver delicate political situation",
+      "uncommon_words": [
+        "maneuver"
+      ],
+      "previously_used_words": [
+        "political"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'maneuver' is not a verb",
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "miss dearly departed loved ones",
+      "uncommon_words": [
+        "dearly",
+        "departed",
+        "loved",
+        "ones"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "mistake awkward teen for adult",
+      "uncommon_words": [
+        "awkward"
+      ],
+      "previously_used_words": [
+        "awkward",
+        "for"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "name newborn baby daughter",
+      "uncommon_words": [
+        "newborn"
+      ],
+      "previously_used_words": [
+        "newborn",
+        "baby"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'newborn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "need restful good night sleep",
+      "uncommon_words": [
+        "restful"
+      ],
+      "previously_used_words": [
+        "night"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "nurture sensitive garden flowers",
+      "uncommon_words": [
+        "nurture",
+        "flowers"
+      ],
+      "previously_used_words": [
+        "garden",
+        "flowers"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'nurture' is not a verb",
+        "Fourth word 'flowers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "offer sincere apology friend",
+      "uncommon_words": [
+        "sincere"
+      ],
+      "previously_used_words": [
+        "sincere",
+        "friend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sincere' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "overlook minor sibling transgression",
+      "uncommon_words": [
+        "transgression"
+      ],
+      "previously_used_words": [
+        "minor",
+        "sibling"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'transgression' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "paint vivid landscape sunset",
+      "uncommon_words": [
+        "vivid",
+        "sunset"
+      ],
+      "previously_used_words": [
+        "vivid"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vivid' is not an adjective",
+        "Fourth word 'sunset' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "panic suddenly during speech Sure, here are 200 sentences adhering to the given rules and structure:",
+      "uncommon_words": [
+        "are",
+        "200",
+        "sentences",
+        "adhering",
+        "rules"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 201,
+      "sentence": "assemble sturdy desk",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "assemble",
+        "sturdy",
+        "desk"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 202,
+      "sentence": "bite sour lemon",
+      "uncommon_words": [
+        "sour"
+      ],
+      "previously_used_words": [
+        "bite"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 203,
+      "sentence": "celebrate joyful Christmas",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [
+        "celebrate"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 204,
+      "sentence": "chew tough steak",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "chew",
+        "tough"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 205,
+      "sentence": "clean shiny floor",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [
+        "clean",
+        "shiny"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 206,
+      "sentence": "command loud driver",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loud"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 207,
+      "sentence": "confirm strict rule",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strict"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 208,
+      "sentence": "connect distant place",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "distant"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 209,
+      "sentence": "consume delicious lunch",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "delicious"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 210,
+      "sentence": "criticize harsh criticism",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 211,
+      "sentence": "dance fast rhythm",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dance",
+        "fast"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 212,
+      "sentence": "defend brave soldier",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "defend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 213,
+      "sentence": "destroy giant enemy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 214,
+      "sentence": "diagnose serious illness",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "serious"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 215,
+      "sentence": "discover hidden treasure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hidden",
+        "treasure"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 216,
+      "sentence": "disclose secret information",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "secret"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 217,
+      "sentence": "divide equal share",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 218,
+      "sentence": "dominate tough competitor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tough"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 219,
+      "sentence": "educate young student",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "young",
+        "student"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 220,
+      "sentence": "enforce strict regulation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enforce",
+        "strict"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 221,
+      "sentence": "evaluate quality product",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "evaluate"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 222,
+      "sentence": "expand vast territory",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 223,
+      "sentence": "face strong opposition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strong"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 224,
+      "sentence": "feed hungry refugee",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 225,
+      "sentence": "fill warm bottle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warm"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 226,
+      "sentence": "find fragile artifact",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fragile",
+        "artifact"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 227,
+      "sentence": "fire incompetent employee",
+      "uncommon_words": [
+        "incompetent"
+      ],
+      "previously_used_words": [
+        "employee"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 228,
+      "sentence": "fix broken device",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fix",
+        "broken"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 229,
+      "sentence": "follow wise leader",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 230,
+      "sentence": "form strategic alliance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 231,
+      "sentence": "gather useful data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "gather"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 232,
+      "sentence": "handle delicate situation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "delicate",
+        "situation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 233,
+      "sentence": "heal wounded heart",
+      "uncommon_words": [
+        "wounded"
+      ],
+      "previously_used_words": [
+        "heal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 234,
+      "sentence": "help needy citizen",
+      "uncommon_words": [
+        "needy"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 235,
+      "sentence": "hire skilled worker",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 236,
+      "sentence": "hold historic meeting",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hold",
+        "meeting"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 237,
+      "sentence": "hug loving friend",
+      "uncommon_words": [
+        "loving"
+      ],
+      "previously_used_words": [
+        "hug",
+        "loving",
+        "friend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 238,
+      "sentence": "inspect old-fashioned clock",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 239,
+      "sentence": "introduce novel idea",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "novel"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 240,
+      "sentence": "interview key witness",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 241,
+      "sentence": "issue harsh penalty",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "harsh"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 242,
+      "sentence": "join local club",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "local"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 243,
+      "sentence": "judge difficult case",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "difficult"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 244,
+      "sentence": "justify tough stance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tough",
+        "stance"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 245,
+      "sentence": "keep sensitive information",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "keep",
+        "sensitive",
+        "information"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 246,
+      "sentence": "kick aggressive attacker",
+      "uncommon_words": [
+        "attacker"
+      ],
+      "previously_used_words": [
+        "kick",
+        "aggressive"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 247,
+      "sentence": "kill dangerous predator",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "kill",
+        "dangerous"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 248,
+      "sentence": "kiss sweet girlfriend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "kiss",
+        "sweet"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 249,
+      "sentence": "lament tragic loss",
+      "uncommon_words": [
+        "lament"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 250,
+      "sentence": "launch successful project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "successful",
+        "project"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 251,
+      "sentence": "lend generous loan",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "generous"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 252,
+      "sentence": "listen patient friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "listen",
+        "friend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 253,
+      "sentence": "look distant star",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "look",
+        "distant"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 254,
+      "sentence": "make wise decision",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "make",
+        "wise"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 255,
+      "sentence": "manage large property",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "manage",
+        "property"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 256,
+      "sentence": "measure accurate distance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 257,
+      "sentence": "meet friendly neighbor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "friendly",
+        "neighbor"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 258,
+      "sentence": "move soft blanket",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "soft"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 259,
+      "sentence": "multiply abundant wealth",
+      "uncommon_words": [
+        "multiply",
+        "abundant"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 260,
+      "sentence": "note important detail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "important"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 261,
+      "sentence": "observe careful study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "study"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 262,
+      "sentence": "offer sincere apology",
+      "uncommon_words": [
+        "sincere"
+      ],
+      "previously_used_words": [
+        "offer",
+        "sincere",
+        "apology"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 263,
+      "sentence": "open wide door",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 264,
+      "sentence": "order delicious meal",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "delicious"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 265,
+      "sentence": "organize chaotic desk",
+      "uncommon_words": [
+        "chaotic"
+      ],
+      "previously_used_words": [
+        "organize",
+        "chaotic",
+        "desk"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 266,
+      "sentence": "paint beautiful landscape",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "paint",
+        "beautiful",
+        "landscape"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 267,
+      "sentence": "pay fair wage",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 268,
+      "sentence": "perform challenging surgery",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "challenging"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 269,
+      "sentence": "play fierce football",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "play",
+        "fierce"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 270,
+      "sentence": "prepare elaborate feast",
+      "uncommon_words": [
+        "feast"
+      ],
+      "previously_used_words": [
+        "feast"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 271,
+      "sentence": "print detailed report",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "detailed"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 272,
+      "sentence": "protest unfair law",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 273,
+      "sentence": "provide essential service",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "essential",
+        "service"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 274,
+      "sentence": "punish guilty defendant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "defendant"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 275,
+      "sentence": "pursue ambitious goal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ambitious"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 276,
+      "sentence": "question suspicious witness",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "question",
+        "witness"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 277,
+      "sentence": "reach distant planet",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "distant"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 278,
+      "sentence": "receive warm greeting",
+      "uncommon_words": [
+        "greeting"
+      ],
+      "previously_used_words": [
+        "warm"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 279,
+      "sentence": "reduce high inflation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reduce",
+        "high"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 280,
+      "sentence": "recommend top candidate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 281,
+      "sentence": "refine pure gold",
+      "uncommon_words": [
+        "refine"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 282,
+      "sentence": "reject harmful proposal",
+      "uncommon_words": [
+        "harmful"
+      ],
+      "previously_used_words": [
+        "reject",
+        "harmful",
+        "proposal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 283,
+      "sentence": "relieve heavy burden",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "heavy"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 284,
+      "sentence": "report accurate data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report",
+        "accurate",
+        "data"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 285,
+      "sentence": "request urgent action",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [
+        "request",
+        "urgent",
+        "action"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 286,
+      "sentence": "resolve complex problem",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 287,
+      "sentence": "restore old document",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old",
+        "document"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 288,
+      "sentence": "retrieve lost item",
+      "uncommon_words": [
+        "retrieve"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 289,
+      "sentence": "return overdue book",
+      "uncommon_words": [
+        "overdue"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 290,
+      "sentence": "run fast race",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 291,
+      "sentence": "save precious resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "precious"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 292,
+      "sentence": "say polite hello",
+      "uncommon_words": [
+        "polite"
+      ],
+      "previously_used_words": [
+        "hello"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 293,
+      "sentence": "scream loud alarm",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "loud"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 294,
+      "sentence": "seek hidden treasure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "seek",
+        "hidden",
+        "treasure"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 295,
+      "sentence": "sell valuable asset",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sell",
+        "valuable"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 296,
+      "sentence": "send urgent message",
+      "uncommon_words": [
+        "urgent"
+      ],
+      "previously_used_words": [
+        "send",
+        "urgent"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 297,
+      "sentence": "separate mixed ingredients",
+      "uncommon_words": [
+        "ingredients"
+      ],
+      "previously_used_words": [
+        "separate",
+        "mixed"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 298,
+      "sentence": "serve warm meal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warm",
+        "meal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 299,
+      "sentence": "set challenging goal",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "challenging",
+        "goal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 300,
+      "sentence": "share common goal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "share",
+        "goal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 301,
+      "sentence": "show rare artifact",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "rare",
+        "artifact"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 302,
+      "sentence": "sightsee famous landmark",
+      "uncommon_words": [
+        "sightsee"
+      ],
+      "previously_used_words": [
+        "sightsee",
+        "famous"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 303,
+      "sentence": "sign important document",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "important",
+        "document"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 304,
+      "sentence": "simplify complex process",
+      "uncommon_words": [
+        "simplify"
+      ],
+      "previously_used_words": [
+        "simplify",
+        "complex"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 305,
+      "sentence": "skip boring meeting",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "skip",
+        "meeting"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 306,
+      "sentence": "solve difficult puzzle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solve",
+        "difficult"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 307,
+      "sentence": "speak fluent language",
+      "uncommon_words": [
+        "fluent"
+      ],
+      "previously_used_words": [
+        "speak",
+        "fluent",
+        "language"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 308,
+      "sentence": "spin fast wheel",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fast"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 309,
+      "sentence": "split large order",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "large",
+        "order"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 310,
+      "sentence": "stand firm ground",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 311,
+      "sentence": "start new project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "start",
+        "new",
+        "project"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 312,
+      "sentence": "study ancient text",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "study",
+        "ancient"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 313,
+      "sentence": "submit final report",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "report"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 314,
+      "sentence": "support local business",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "support",
+        "local",
+        "business"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 315,
+      "sentence": "teach young student",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "teach",
+        "young",
+        "student"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 316,
+      "sentence": "tell compelling story",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tell",
+        "story"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 317,
+      "sentence": "thank helpful friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "thank",
+        "helpful",
+        "friend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 318,
+      "sentence": "think deep thought",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deep"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 319,
+      "sentence": "throw heavy rock",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "heavy"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 320,
+      "sentence": "trace family history",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "trace",
+        "family"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 321,
+      "sentence": "track fast ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "track",
+        "fast",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 322,
+      "sentence": "transform old house",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 323,
+      "sentence": "transport vital supplies",
+      "uncommon_words": [
+        "supplies"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 324,
+      "sentence": "try new method",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "new"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 325,
+      "sentence": "uncover hidden secret",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hidden",
+        "secret"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 326,
+      "sentence": "understand complex theory",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex",
+        "theory"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 327,
+      "sentence": "unfurl bright flag",
+      "uncommon_words": [
+        "unfurl"
+      ],
+      "previously_used_words": [
+        "bright"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 328,
+      "sentence": "unfold surprising plot",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 329,
+      "sentence": "use powerful tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "use",
+        "powerful"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 330,
+      "sentence": "validate scientific theory",
+      "uncommon_words": [
+        "validate"
+      ],
+      "previously_used_words": [
+        "validate",
+        "scientific",
+        "theory"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 331,
+      "sentence": "value honest opinion",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "honest",
+        "opinion"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 332,
+      "sentence": "verify critical data",
+      "uncommon_words": [
+        "verify"
+      ],
+      "previously_used_words": [
+        "verify",
+        "data"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 333,
+      "sentence": "visit historic site",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "historic"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 334,
+      "sentence": "vote for candidate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "vote",
+        "for",
+        "candidate"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 335,
+      "sentence": "wake early morning",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wake",
+        "early",
+        "morning"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 336,
+      "sentence": "watch exciting game",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "watch",
+        "game"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 337,
+      "sentence": "wear stylish jacket",
+      "uncommon_words": [
+        "stylish"
+      ],
+      "previously_used_words": [
+        "stylish",
+        "jacket"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 338,
+      "sentence": "welcome new neighbor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "new",
+        "neighbor"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 339,
+      "sentence": "write insightful essay",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "write",
+        "insightful"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 340,
+      "sentence": "accept generous offer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "generous",
+        "offer"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 341,
+      "sentence": "adopt strict regulation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strict",
+        "regulation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 342,
+      "sentence": "admire beautiful sunset",
+      "uncommon_words": [
+        "sunset"
+      ],
+      "previously_used_words": [
+        "beautiful",
+        "sunset"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 343,
+      "sentence": "analyze complex data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "complex",
+        "data"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 344,
+      "sentence": "anticipate future trend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "anticipate",
+        "future"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 345,
+      "sentence": "approve major project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "project"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 346,
+      "sentence": "argue strong case",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "argue",
+        "strong",
+        "case"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 347,
+      "sentence": "aspire noble goal",
+      "uncommon_words": [
+        "aspire",
+        "noble"
+      ],
+      "previously_used_words": [
+        "goal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 348,
+      "sentence": "assess current situation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "current",
+        "situation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 349,
+      "sentence": "attack ruthless enemy",
+      "uncommon_words": [
+        "ruthless"
+      ],
+      "previously_used_words": [
+        "attack",
+        "enemy"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 350,
+      "sentence": "avoid harmful substance",
+      "uncommon_words": [
+        "harmful"
+      ],
+      "previously_used_words": [
+        "avoid",
+        "harmful"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 351,
+      "sentence": "ban dangerous weapon",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dangerous"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 352,
+      "sentence": "broadcast live event",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "event"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 353,
+      "sentence": "celebrate annual festival",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "celebrate"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 354,
+      "sentence": "challenge powerful opponent",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "powerful"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 355,
+      "sentence": "change old habit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old",
+        "habit"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 356,
+      "sentence": "choose perfect gift",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "perfect",
+        "gift"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 357,
+      "sentence": "comfort sad friend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "comfort",
+        "friend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 358,
+      "sentence": "condemn violent act",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 359,
+      "sentence": "conduct thorough investigation",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "investigation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 360,
+      "sentence": "consider different option",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "different"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 361,
+      "sentence": "control chaotic crowd",
+      "uncommon_words": [
+        "chaotic"
+      ],
+      "previously_used_words": [
+        "control",
+        "chaotic"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 362,
+      "sentence": "critic harsh policy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "harsh",
+        "policy"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 363,
+      "sentence": "defend vulnerable group",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "defend",
+        "vulnerable",
+        "group"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 364,
+      "sentence": "delay important decision",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "important",
+        "decision"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 365,
+      "sentence": "demonstrate effective technique",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 366,
+      "sentence": "detect subtle clue",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "detect",
+        "subtle"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 367,
+      "sentence": "develop innovative solution",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "develop",
+        "innovative"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 368,
+      "sentence": "diagnose serious illness",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "diagnose",
+        "serious",
+        "illness"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 369,
+      "sentence": "diffuse tense situation",
+      "uncommon_words": [
+        "diffuse",
+        "tense"
+      ],
+      "previously_used_words": [
+        "situation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 370,
+      "sentence": "discuss critical issue",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "critical",
+        "issue"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 371,
+      "sentence": "distribute scarce resource",
+      "uncommon_words": [
+        "scarce"
+      ],
+      "previously_used_words": [
+        "resource"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 372,
+      "sentence": "document crucial evidence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "document",
+        "crucial"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 373,
+      "sentence": "enforce strict law",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "enforce",
+        "strict",
+        "law"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 374,
+      "sentence": "express sincere gratitude",
+      "uncommon_words": [
+        "sincere",
+        "gratitude"
+      ],
+      "previously_used_words": [
+        "express",
+        "sincere",
+        "gratitude"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 375,
+      "sentence": "facilitate productive meeting",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "meeting"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 376,
+      "sentence": "fight relentless opponent",
+      "uncommon_words": [
+        "relentless"
+      ],
+      "previously_used_words": [
+        "opponent"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 377,
+      "sentence": "finance major project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "major",
+        "project"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 378,
+      "sentence": "forecast future trend",
+      "uncommon_words": [
+        "forecast"
+      ],
+      "previously_used_words": [
+        "future",
+        "trend"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 379,
+      "sentence": "formalize tentative agreement",
+      "uncommon_words": [
+        "formalize",
+        "tentative"
+      ],
+      "previously_used_words": [
+        "agreement"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 380,
+      "sentence": "gather relevant information",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "gather",
+        "information"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 381,
+      "sentence": "generate creative idea",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "generate",
+        "idea"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 382,
+      "sentence": "handle sensitive matter",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "handle",
+        "sensitive"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 383,
+      "sentence": "highlight important point",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "important"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 384,
+      "sentence": "implement effective strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "implement",
+        "effective"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 385,
+      "sentence": "increase public awareness",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 386,
+      "sentence": "initiate groundbreaking research",
+      "uncommon_words": [
+        "groundbreaking"
+      ],
+      "previously_used_words": [
+        "groundbreaking",
+        "research"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 387,
+      "sentence": "issue strict warning",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "issue",
+        "strict"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 388,
+      "sentence": "justify tough decision",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "justify",
+        "tough",
+        "decision"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 389,
+      "sentence": "launch ambitious campaign",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch",
+        "ambitious",
+        "campaign"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 390,
+      "sentence": "lead successful team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "successful",
+        "team"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 391,
+      "sentence": "limit excessive spending",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 392,
+      "sentence": "maintain high standard",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "maintain",
+        "high"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 393,
+      "sentence": "manage complex project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "manage",
+        "complex",
+        "project"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 394,
+      "sentence": "maximize available resource",
+      "uncommon_words": [
+        "maximize"
+      ],
+      "previously_used_words": [
+        "resource"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 395,
+      "sentence": "mediate difficult dispute",
+      "uncommon_words": [
+        "mediate"
+      ],
+      "previously_used_words": [
+        "difficult"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 396,
+      "sentence": "mitigate potential risk",
+      "uncommon_words": [
+        "mitigate"
+      ],
+      "previously_used_words": [
+        "potential"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 397,
+      "sentence": "monitor ongoing situation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "situation"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 398,
+      "sentence": "negotiate fair deal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fair"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 399,
+      "sentence": "oppose harmful proposal",
+      "uncommon_words": [
+        "harmful"
+      ],
+      "previously_used_words": [
+        "oppose",
+        "harmful",
+        "proposal"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 400,
+      "sentence": "organize successful event",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "organize",
+        "successful",
+        "event"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

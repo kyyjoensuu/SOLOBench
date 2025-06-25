@@ -1,0 +1,464 @@
+{
+  "model": "QwQ-32B-Preview:latest",
+  "label": "2025-05-19 05:41:58",
+  "total_sentences": 27,
+  "perfect_sentences": 1,
+  "score_percentage": 3.7037037037037033,
+  "word_count_failures": 8,
+  "format_failures": 25,
+  "common_word_failures": 23,
+  "word_reuse_failures": 10,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_QwQ-32B-Preview_latest_1747621877.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_QwQ-32B-Preview_latest_1747621877.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "All words must be used EXACTLY as they appear in the original list, including capitalization, spelling, punctuation, etc.",
+      "uncommon_words": [
+        "words",
+        "capitalization",
+        "spelling",
+        "punctuation"
+      ],
+      "previously_used_words": [],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "You can skip any word that cannot fit into any of your sentences, but try to use all if possible.",
+      "uncommon_words": [
+        "can",
+        "cannot",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "all"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "If there is no Adjective available for a specific sentence, replace it with an adverb only if such a modification makes sense",
+      "uncommon_words": [
+        "is",
+        "adjective",
+        "an",
+        "adverb",
+        "modification",
+        "makes"
+      ],
+      "previously_used_words": [
+        "if",
+        "if"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "If none of the above is applicable or makes sense, then you may omit that word from usage, but again, attempt to make sentences with all words as much as possible.",
+      "uncommon_words": [
+        "is",
+        "applicable",
+        "makes",
+        "omit",
+        "usage",
+        "sentences",
+        "words"
+      ],
+      "previously_used_words": [
+        "if",
+        "of",
+        "the",
+        "is",
+        "makes",
+        "sense",
+        "you",
+        "that",
+        "word",
+        "but",
+        "to",
+        "sentences",
+        "with",
+        "all",
+        "words",
+        "as",
+        "as",
+        "possible"
+      ],
+      "word_count": 31,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Analyze challenging research",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Approve additional funding",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Appreciate consistent effort",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Analyze challenging research data",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "analyze",
+        "challenging",
+        "research"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Approve additional funding requests",
+      "uncommon_words": [
+        "requests"
+      ],
+      "previously_used_words": [
+        "approve",
+        "additional",
+        "funding"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'requests' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Appreciate consistent employee performance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "appreciate",
+        "consistent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Assign critical project deadlines",
+      "uncommon_words": [
+        "deadlines"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'deadlines' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Assess significant market trends",
+      "uncommon_words": [
+        "trends"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'trends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Attach essential document attachments",
+      "uncommon_words": [
+        "attachments"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'attachments' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Attempt difficult calculus problems",
+      "uncommon_words": [
+        "calculus",
+        "problems"
+      ],
+      "previously_used_words": [
+        "attempt"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'calculus' is not a noun",
+        "Fourth word 'problems' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Avoid dangerous driving behaviors",
+      "uncommon_words": [
+        "behaviors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'behaviors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Balance complex budget allocations",
+      "uncommon_words": [
+        "allocations"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'allocations' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Behave professionally in meetings",
+      "uncommon_words": [
+        "professionally",
+        "meetings"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'professionally' is not an adjective",
+        "Fourth word 'meetings' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Build effective communication strategies",
+      "uncommon_words": [
+        "strategies"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'strategies' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Calculate precise financial figures",
+      "uncommon_words": [
+        "figures"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'financial' is not a noun",
+        "Fourth word 'figures' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Celebrate successful team achievements",
+      "uncommon_words": [
+        "achievements"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'achievements' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Challenge prevailing industry standards",
+      "uncommon_words": [
+        "prevailing",
+        "standards"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'prevailing' is not an adjective",
+        "Fourth word 'standards' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Change defective light bulbs",
+      "uncommon_words": [
+        "defective",
+        "bulbs"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'defective' is not an adjective",
+        "Fourth word 'bulbs' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Choose reliable transportation options",
+      "uncommon_words": [
+        "options"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'options' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Clean neglected kitchen appliances",
+      "uncommon_words": [
+        "neglected",
+        "appliances"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'neglected' is not an adjective",
+        "Fourth word 'appliances' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Collect comprehensive customer feedback",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Combine multiple data sources effectively",
+      "uncommon_words": [
+        "sources"
+      ],
+      "previously_used_words": [
+        "data"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Communicate clearly with stakeholders",
+      "uncommon_words": [
+        "stakeholders"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clearly' is not an adjective",
+        "Third word 'with' is not a noun",
+        "Fourth word 'stakeholders' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

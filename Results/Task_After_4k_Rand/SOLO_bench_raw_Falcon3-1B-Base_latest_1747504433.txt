@@ -1,0 +1,37 @@
+. The first sentence should have the highest number: this sentence will be printed at the top or side of the display. 
+8. Do not use the word 'you' as part of your output (do not type in or mention how you typed). For example, do not print something like "You can get to work by bus." rather say, print "you get to work by bus".
+
+You are absolutely forbidden from printing words that you have used. For example if you see the word "I write" in the list above, then you should omit writing the letter I and omitting it will be considered an error as long as you do not output it, so in this case it would be invalid. So in your final output, do not print "I write " in that sentence
+
+Here are the rules again, in bullet form:
+1. Only use words from the word list exactly as we typed them above or you will earn a zero.
+2. Use only a single word per line. Each line of code should be printed on its own line
+3, 4 and 5) Don't print any of the words in the list here either. If you type it all you won't win any points!
+6.) We want each output sentence to have a different number so we will print out numbers on separate lines.
+
+I hope that clears things up. Happy programming :)
+
+```python
+# Create dictionary with random words for each row and column
+words_per_row = ['Biscuit',
+                  'Bread',
+                  'Breaded',
+                  'Brown',
+                  'Broccoli',
+                  'Catnip',
+                  'Cheese',
+                  'Chihuahua',
+                  'Dolphin',
+                  'Eagles',
+                  'Earthquake',
+                 
+                 # For each line separate with newline to keep things simple 
+                 for i in range(len(words_per_row)):
+                     # Pick random word from dictionary or pick one 
+                     word = words_per_row[random.randrange(0, len(words_per_row))]
+                             
+                 # Print [column, row, word]'s line 
+                 print('{:d}{}\n'.format(i+1), ",", word)
+```
+
+I hope that answers your question. I'm happy to help if you have more questions and you just need some clarification on this problem so let me know!

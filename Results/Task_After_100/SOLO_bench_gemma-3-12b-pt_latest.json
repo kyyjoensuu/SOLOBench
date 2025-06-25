@@ -1,0 +1,53 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-15 11:07:35",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_100/SOLO_bench_raw_gemma-3-12b-pt_latest.txt",
+  "formatted_output_file": "Results/Task_After_100/SOLO_bench_gemma-3-12b-pt_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Your solution should be a numbered list with exactly 50 items in it",
+      "uncommon_words": [
+        "should",
+        "numbered",
+        "50",
+        "items"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "You might need to run this multiple times to get your final numbered list.  This isn't unusual and is completely within the bounds of the rules of the game",
+      "uncommon_words": [
+        "times",
+        "numbered",
+        "isn't",
+        "is",
+        "bounds",
+        "rules"
+      ],
+      "previously_used_words": [
+        "your",
+        "numbered",
+        "list"
+      ],
+      "word_count": 29,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

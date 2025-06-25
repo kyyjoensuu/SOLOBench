@@ -1,0 +1,532 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-15 21:45:23",
+  "total_sentences": 36,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 35,
+  "format_failures": 36,
+  "common_word_failures": 25,
+  "word_reuse_failures": 19,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747333945.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747333945.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Cook orange juice eggs pancakes.",
+      "uncommon_words": [
+        "eggs",
+        "pancakes"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Feel cold wind trees outside.",
+      "uncommon_words": [
+        "trees"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Sing guitar songs happy.",
+      "uncommon_words": [
+        "songs"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guitar' is not an adjective",
+        "Third word 'songs' is not a noun",
+        "Fourth word 'happy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Give toys girl birthday presents.",
+      "uncommon_words": [
+        "toys",
+        "presents"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Walk dog park early morning.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Write paper stories teacher read.",
+      "uncommon_words": [
+        "stories"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Catch fish net river cold.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cold"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Buy milk eggs bread sandwiches.",
+      "uncommon_words": [
+        "eggs",
+        "sandwiches"
+      ],
+      "previously_used_words": [
+        "eggs"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Dance people square yard enjoy.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Eat pizza cheese tomato sauce.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Paint cars blue red yellow orange.",
+      "uncommon_words": [
+        "cars"
+      ],
+      "previously_used_words": [
+        "orange"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Fly plane jet engine engines travel.",
+      "uncommon_words": [
+        "engines"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Sit watch movie theater cinema black-and-white.",
+      "uncommon_words": [
+        "cinema",
+        "black-and-white"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Open book chapter learning knowledge.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Dance girl friend hand hug kiss.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dance",
+        "girl"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Build house bricks foundation roof.",
+      "uncommon_words": [
+        "bricks"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Cook beans carrots rice soup.",
+      "uncommon_words": [
+        "beans",
+        "carrots"
+      ],
+      "previously_used_words": [
+        "cook"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Ride train station board conductor.",
+      "uncommon_words": [
+        "conductor"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Study math science history facts.",
+      "uncommon_words": [
+        "facts"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Walk beach sand water sea air.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "walk"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Paint sunset sky mountain cliffs brown.",
+      "uncommon_words": [
+        "sunset",
+        "cliffs"
+      ],
+      "previously_used_words": [
+        "paint"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Write letter love message girlfriend.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "write"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Swim pool water ocean waves.",
+      "uncommon_words": [
+        "waves"
+      ],
+      "previously_used_words": [
+        "water"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Read book novels characters plotlines.",
+      "uncommon_words": [
+        "novels",
+        "characters",
+        "plotlines"
+      ],
+      "previously_used_words": [
+        "read",
+        "book"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Plant seeds garden flowers herbs.",
+      "uncommon_words": [
+        "seeds",
+        "flowers",
+        "herbs"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Dance party dance floor club music.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dance",
+        "dance"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Cook stew carrots potatoes beans.",
+      "uncommon_words": [
+        "stew",
+        "carrots",
+        "potatoes",
+        "beans"
+      ],
+      "previously_used_words": [
+        "cook",
+        "carrots",
+        "beans"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Jump rope rope fitness exercise gym.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Write poem feelings love lost found.",
+      "uncommon_words": [
+        "feelings"
+      ],
+      "previously_used_words": [
+        "write",
+        "love"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Fly airplane helicopter flying high.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fly"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Watch film drama mystery unsolved clues.",
+      "uncommon_words": [
+        "unsolved",
+        "clues"
+      ],
+      "previously_used_words": [
+        "watch"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Take photo landscapes parks mountains.",
+      "uncommon_words": [
+        "landscapes",
+        "parks",
+        "mountains"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Sing opera aria music voice chorus.",
+      "uncommon_words": [
+        "aria",
+        "chorus"
+      ],
+      "previously_used_words": [
+        "sing",
+        "music"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Paint landscape mountain lake rivers water.",
+      "uncommon_words": [
+        "rivers"
+      ],
+      "previously_used_words": [
+        "paint",
+        "mountain",
+        "water"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Buy dress shoes clothes fashion trends style.",
+      "uncommon_words": [
+        "shoes",
+        "trends"
+      ],
+      "previously_used_words": [
+        "buy"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Play guitar drums bass keyboard.",
+      "uncommon_words": [
+        "drums",
+        "bass",
+        "keyboard"
+      ],
+      "previously_used_words": [
+        "guitar"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

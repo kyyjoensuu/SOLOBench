@@ -1,0 +1,82 @@
+{
+  "model": "Llama-3.3-70B-Instruct:latest",
+  "label": "2025-05-19 05:33:14",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_First_4k_Rand/SOLO_bench_raw_Llama-3.3-70B-Instruct_latest_1747619331.txt",
+  "formatted_output_file": "Results/Task_First_4k_Rand/SOLO_bench_Llama-3.3-70B-Instruct_latest_1747619331.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Generate a story or sentence using as many of these words as possible?",
+      "uncommon_words": [
+        "using",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Help you categorize or group similar words together (e.g., by theme, part of speech, etc.)?",
+      "uncommon_words": [
+        "categorize",
+        "words",
+        "(eg",
+        "etc)"
+      ],
+      "previously_used_words": [
+        "or",
+        "words",
+        "of"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Play a word-based game using this list (e.g., Hangman, Word Scramble, etc.)?",
+      "uncommon_words": [
+        "word-based",
+        "using",
+        "(eg",
+        "hangman",
+        "etc)"
+      ],
+      "previously_used_words": [
+        "a",
+        "using",
+        "(eg",
+        "etc)"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Something else entirely?",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

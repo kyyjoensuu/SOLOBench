@@ -1,0 +1,437 @@
+, no spaces or tabs or tabs are used, all sentences are on one line of code.
+ 
+The output will look like the below image but the code will look like the below image
+ 
+The output will end after 500 tokens, that will be the maximum number of tokens that can be used
+ 
+Input tokens
+The output must include two different token types 
+The output must be tokenized in the following order: 1. Verb, 2. Adjective, 3. Noun, 4. Noun 
+Each word must be tokenized correctly, using the tools in the code
+Tokenization rules
+All rules are used with the above structure
+The output is tokenized using the following rules when used together
+1.  Verb (V), Adjective (A), Adjective (A), Adjective (A) 
+Each word can only be tokenized with one of the rules above
+The input must be a list of tokens, this is what the input will read
+The output must be a list of tokens, this is what the output will look like
+ 
+ 
+I will be using:
+ 
+#include <bits/stdc++.h>
+using namespace std;
+ 
+bool isEqual(string a, string b){
+if(strcmp(a,b) == 0)
+return(true);
+else {
+return(false);
+}
+}
+string add(string a,string b) {
+int a1,a2,a3,a4,a5,a6,a7,b1,b2,b3,b4,b5,b6,b7;
+for(int i=0;i<a_length;i++)
+{
+ a1=upper(a[i]);
+ a2=upper(b[i]);
+a3 =upper(a[i].substr(i+1,a[i].length()))
+a4 =upper(b[i].substr(i+1,b[i].length()));
+a5 =upper(a[i].uppser_substr(i,a[i].length()) );
+ a6 =upper(a[i+1].uppser_substr(i,a[i].length()));
+a7 =upper(b[i].uppser_substr(i,b[i].length()));
+a8 =upper(a[i].uppser_substr(i,a[i].length()) );
+}
+if( a6 != a7 )
+{
+ b1 =upper(a[i+1]);
+ b2 =upper(b[i]);
+b3 =upper(a[i+2]);
+b4 =upper(b[i+1]);
+b5 =upper(a[i].uppser_substr(i,a[i].length()) );
+b6 =upper(a[i+2].uppser_substr(i,a[i].length()) );
+b7 =upper(b[i].uppser_substr(i,b[i].length()) );
+}
+return( "yes" );
+}
+
+bool isAnagram(string a, string b)
+{
+for(int i=0;i<a_length;i++)
+for(int j=0;j<b_length;j++)
+{
+if(a[i]==b[j])
+{
+return(false);
+}
+}
+return(true);
+}
+
+bool isAnagram(string a, string b, bool b2)
+{
+for(int i=0;i<a_length;i++)
+{
+if(b2&&(b2==false))
+{
+return(false);
+}
+b2=false;
+for(int j=0;j<b_length;j++)
+{
+if(a[i]==b[j])
+{
+b2=true;
+b1=false;
+}
+}
+if(b2==false)
+{
+return(false);
+return(true);
+}
+}
+return(true);
+}
+
+// Function to remove duplicate letters from a String
+string removeDuplicate(char[] s)
+{
+for (int i=s.Length;i>=1;i--)
+{
+if(s[i]==s[i-1])
+s.Insert(0,s[i-1]);
+}
+char newString[40];
+int index;
+int index1;
+char[] subString;
+index = 0;
+for (index1 = 0; index1 < index; index++)
+{
+newString[index1] = s[index];
+}
+if (newString[0] != '=||=')
+{
+return removeDuplicate(subString);
+}
+string newString2 = "0123456789";
+newString[0] = newString[0] + newString2[0];
+newString[1] = newString[0] + newString2[1];
+newString[2] = newString[0] + newString2[2];
+newString[3] = newString[0] + newString2[3];
+newString[0] = newString[0] + newString2[0];
+return newString;
+}
+string removeDuplicate(char[] s)
+{
+for (int i=s.Length;i>=1;i--)
+{
+if(s[i]==s[i-1])
+s.Insert(0,s[i-1]);
+}
+for (int i=0;i<6;i++)
+{
+if (s[i] != '0')
+{
+s[i] = ('0' + s[i]);
+}
+}
+char newString[40];
+int index;
+int index1;
+char[] subString;
+index = 0;
+for (index1 = 0; index1 < index; index++)
+{
+newString[index] = s[index];
+}
+if (newString[0] != '=||=')
+{
+return removeDuplicate(subString);
+}
+string newString2 = newString[0]+'='+newString[1]+'=';
+removeDuplicate(newString2.toCharArray());
+return newString2;
+
+string add(string a[],string b[])
+{
+int a_array_length;
+int b_array_length;
+int i;
+a_array_length = b_array_length = a.Length;
+int i;
+int j;
+int index;
+string a1,b1,a2,b2,a3,b3,a4,b4;
+while (a_length > 1)
+{
+a_array_length = a.Length;
+a1 = new String(a.SubArray(0,a_array_length-1));
+a3 = new String(b.SubArray(0,a_array_length-1));
+b2 = a.SubArray(a_array_length,a_array_length);
+
+a4 = a3.Substring(a_array_length-2,a_array_length-1);
+a3.Insert(0,a1.Substring(0,a_array_length-1));
+a3.Insert(0, a2.Substring(a_array_length-1,a_array_length));
+a3.Insert(0, a4.Substring(a_array_length-1, a_array_length));
+a2.Insert(0, a3.Substring(0,a_array_length-1));
+a3.Insert(0, a4.Substring(a_array_length-1,a_array_length));
+b2 = a.Substring(a_array_length,a_array_length);
+b2 = b2.Substring(0,b_array_length-1);
+b2 = b2.Substring(b_array_length-1,b_array_length);
+b2 = b2.Substring(0,b_array_length-1);
+b2 = b2.Substring(b_array_length,b_array_length-1);
+b2 = b2.Substring(0,b_array_length-1);
+b2 = b2.Substring(b_array_length,b_array_length-1);
+b2 = b2.Substring(0,b_array_length-1);
+a3 = a3.Substring(b_array_length,a_array_length-1);
+a2 = a2.Substring(b_array_length,a_array_length-1);
+a1 = a1.Substring(0,a_array_length-1);
+a1 = a1.Substring(a_array_length-1,a_array_length);
+a1 = a1.Substring(0,a_array_length-1);
+b3 = b3.Substring(0,b_array_length-1);
+b4 = b4.Substring(a_array_length-1,a_array_length);
+string newString[a_array_length];
+for (int ii=a_array_length-1;ii>=0;ii--)
+{
+string temp = "";
+temp += a[ii];
+string temp1 = temp.ToLower();
+while (temp1 != '=||=')
+{
+temp1 += ';';
+}
+
+subString = a.SubArray(0,a_array_length-1);
+subString = subString.SubArray(0,subString.Length-1);
+subString = subString.Substring(0,subString.Length-1);
+subString = subString.Substring(subString.Length-1,subString.Length);
+temp = subString.Substring(0,subString.Length-1);
+string tmp = temp.ToLower();
+for(int ii=0;ii<=tmp.Length;ii++)
+{
+if(isEqual(a1,tmp)==true)
+{
+newString[i] = temp1+ tmp[ii];
+}
+}
+newString[a_array_length-1] = temp1+ '=';
+a_array_length--;
+}
+a_array_length = a.Length;
+i= 0;
+for (int j=0;j<a_array_length;j++)
+{
+a[i] = newString[j];
+i++;
+}
+return a1+ b2+ a3+ a4+ b3+ b4+ b4+ a4;
+return newString[0]+'='+newString[1]+'=';
+ 
+string add(string a[],string b[])
+{
+int a_array_length;
+int b_array_length;
+int i;
+a_array_length = b_array_length = a.Length;
+int i;
+//string a2, b2;
+//var result = new string();
+string x;
+string result;
+string[] a1,b1,a2,b2,a3,b3,a4,b4;
+while (a_length > 1)
+{
+a_array_length = a.Length;
+a1 = new String(a.SubArray(0,a_array_length-1));
+a3 = new String(b.SubArray(0,a_array_length-1));
+b2 = a.SubArray(a_array_length,a_array_length);
+
+a4 = a3.Substring(a_array_length-2,a_array_length-1);
+a3.Insert(0,a1.Substring(0,a_array_length-1));
+a3.Insert(0, a2.Substring(a_array_length-1,a_array_length));
+a3.Insert(0, a4.Substring(a_array_length-1,a_array_length));
+a2.Insert(0, a3.Substring(0,a_array_length-1));
+a3.Insert(0, a4.Substring(a_array_length-1,a_array_length));
+b2 = a.Substring(a_array_length,a_array_length);
+b2 = b2.Substring(0,b_array_length-1);
+b2 = b2.Substring(b_array_length-1,b_array_length);
+b2 = b2.Substring(0,b_array_length-1);
+b2 = b2.Substring(b_array_length,b_array_length-1);
+b2 = b2.Substring(0,b_array_length-1);
+a3 = a3.Substring(b_array_length,a_array_length-1);
+a2 = a2.Substring(b_array_length,a_array_length-1);
+a1 = a1.Substring(0,a_array_length-1);
+a1 = a1.Substring(a_array_length-1,a_array_length);
+a1 = a1.Substring(0,a_array_length-1);
+b3 = b3.Substring(0,b_array_length-1);
+b4 = b4.Substring(a_array_length-1,a_array_length);
+string newString[a_array_length];
+for (int ii=a_array_length-1;ii>=0;ii--)
+{
+string temp = "";
+temp += a[ii];
+string temp1 = temp.ToLower();
+while (temp1 != '=||=')
+{
+temp1 += ';';
+}
+
+subString = b.SubArray(0,a_array_length-1);
+subString = subString.SubArray(0,subString.Length-1);
+subString = subString.Substring(0,subString.Length-1);
+subString = subString.Substring(subString.Length-1,subString.Length);
+temp = subString.Substring(0,subString.Length-1);
+string tmp = temp.ToLower();
+for(int ii=0;ii<=tmp.Length;ii++)
+{
+if(isEqual(b1,tmp)==true)
+{
+newString[i] = temp1+ tmp[ii];
+}
+}
+newString[a_array_length-1] = temp1+ '=';
+a_array_length--;
+}
+a_array_length = a.Length;
+i= 0;
+for (int j=0;j<a_array_length;j++)
+{
+a[i] = newString[j];
+i++;
+}
+return newString[0]+'='+newString[1]+'=';
+ 
+bool isAnagram(string a[], string b)
+{
+for (int i=0;i<a_length;i++)
+for (int j=0;j<b_length;j++)
+{
+if(a[i]==b[j])
+{
+return(false);
+}
+}
+return(true);
+}
+// Function to remove duplicate letters from a String
+string removeDuplicate(char[] s)
+{
+for (int i=s.Length;i>=1;i--)
+{
+if(s[i]==s[i-1])
+s.Insert(0,s[i-1]);
+}
+char newString[40];
+int index;
+int index1;
+char[] subString;
+index = 0;
+for (index1 = 0; index1 < 40; index1++)
+{
+subString = s.SubArray(0, index1);
+subString = subString.SubArray(0, subString.Length - 1);
+subString = subString.Substring(0, subString.Length - 1);
+subString = subString.Substring(subString.Length - 1, subString.Length);
+temp = subString.Substring(0, subString.Length - 1);
+string tmp = temp.ToLower();
+for (int ii=0;ii<=tmp.Length;ii++)
+{
+if(isEqual(s1,tmp)==true)
+{
+newString[i] = temp1+ tmp[ii];
+}
+}
+newString[a_array_length-1] = temp1+ '=';
+a_array_length--;
+}
+return newString[0] + '= +';
+ 
+bool isAnagram(string a[], string b)
+{
+for (int i=0;i<a_length;i++)
+for (int j=0;j<b_length;j++)
+{
+if(a[i]==b[j])
+{
+return(false);
+}
+}
+return(true);
+}
+bool anagram(string a, string b)
+{
+int i;
+int j;
+string anagram;
+char s1;
+char s2;
+for(i=0;i<=a.Length-1;i++)
+{
+for(j=0;j<=b.Length-1;j++)
+{
+if(a[i]==b[j])
+{
+return(true);
+}
+}
+}
+return(false);
+}
+// This functions checks if two words are anagrams
+// of each other
+bool isAnagram(string word1, string word2)
+{
+int i=0;
+int j=0;
+string anagrams[2];
+char s1;
+char s2;
+for(i=0;i<word2.Length;i++)
+{
+for(j=0;j<word1.Length;j++)
+{
+if(word2[i]==word1[j])
+{
+anagrams[j]=anagrams[j]==anagrams[i]?"anagrams[i]:anagrams[j];
+}
+}
+}
+return(anagrams[0]==anagrams[1])? anagrams[0]: false;
+
+
+// A function to return a copy of a string of a to replace i a b
+// to change the text of a copy of a string
+char string_copy(string a)
+{
+return (a) + a[a.Length()-1];
+}
+string copy(char a)
+{
+return a) + (new char);
+}
+string copy_with_spaces (string a)
+{
+var spaces = new char(a.Length - 1);
+for (; a[1] != a[0]; a[0] += " "); a[0] = spaces + a[a.Length - 1 - a[0]];
+a[0] = spaces;
+return a);
+ 
+// This code finds the word count of the most common word in a file
+string WordCount = String.Empty;
+
+
+using System.IO;
+namespace WordCount
+{
+public void Main()
+{
+while ((File.ReadLines("E:\Text Files\A-Z-A-Z00.txt").Next().ToLower()).Count > 1)
+{
+WordCount = WordCount += File.ReadLines("E:\Text Files\A-Z-A-Z00.txt").Skip(1).Substring(File.ReadLines("E:\Text Files\A-Z-A-Z00.txt").Skip(1).Last());
+}
+Console.WriteLine("The most common word in the file is: "+WordCount);
+
+}
+}

@@ -1,0 +1,2374 @@
+{
+  "model": "Mistral-Small-3.1-24B-Instruct-2503:latest",
+  "label": "2025-05-16 00:36:10",
+  "total_sentences": 141,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 123,
+  "format_failures": 141,
+  "common_word_failures": 103,
+  "word_reuse_failures": 110,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_Mistral-Small-3.1-24B-Instruct-2503_latest_1747343854.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_Mistral-Small-3.1-24B-Instruct-2503_latest_1747343854.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Make sure you have an overview of the content you are going to produce before beginning.",
+      "uncommon_words": [
+        "an",
+        "overview",
+        "are",
+        "going"
+      ],
+      "previously_used_words": [],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Be creative!",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "You do not need to use all of the words in the word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "you",
+        "to",
+        "of",
+        "the",
+        "the"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Construct 50 sentences starting with an adjective",
+      "uncommon_words": [
+        "50",
+        "sentences",
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "an"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Construct 50 Sentences, but begin each sentence with a noun",
+      "uncommon_words": [
+        "50",
+        "sentences",
+        "noun"
+      ],
+      "previously_used_words": [
+        "construct",
+        "50",
+        "sentences",
+        "with"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Construct 50 Sentences, but this time start them with a verb then an adjective and then the two nouns.",
+      "uncommon_words": [
+        "50",
+        "sentences",
+        "verb",
+        "an",
+        "adjective",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "construct",
+        "50",
+        "sentences",
+        "but",
+        "with",
+        "a",
+        "an",
+        "adjective",
+        "the"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "After constructing the four sets of fifty sentences, choose five favorites from all the sentences (one favorite for each structure) and write them down, explaining why that is your favorite.",
+      "uncommon_words": [
+        "constructing",
+        "sets",
+        "sentences",
+        "favorites",
+        "sentences",
+        "(one",
+        "structure)",
+        "explaining",
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "of",
+        "sentences",
+        "all",
+        "the",
+        "sentences",
+        "each",
+        "and",
+        "them"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Reviewing my notes and breaking down the word list into categories to find words that fit the requirements:",
+      "uncommon_words": [
+        "reviewing",
+        "notes",
+        "breaking",
+        "categories",
+        "words",
+        "requirements"
+      ],
+      "previously_used_words": [
+        "and",
+        "down",
+        "the",
+        "word",
+        "list",
+        "to",
+        "words",
+        "that",
+        "the"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Starting with the structure: Adjective + Verb + Noun + Noun",
+      "uncommon_words": [
+        "adjective",
+        "+",
+        "verb",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "starting",
+        "with",
+        "the",
+        "adjective",
+        "verb",
+        "noun",
+        "noun"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Freshly bake cake recipe.",
+      "uncommon_words": [
+        "freshly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'freshly' is not a verb",
+        "Second word 'bake' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Silky wrap delicate garment.",
+      "uncommon_words": [
+        "silky",
+        "garment"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'silky' is not a verb",
+        "Second word 'wrap' is not an adjective",
+        "Third word 'delicate' is not a noun",
+        "Fourth word 'garment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Brilliant mind explain concept.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'brilliant' is not a verb",
+        "Second word 'mind' is not an adjective",
+        "Third word 'explain' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Delicately weave colorful blanket.",
+      "uncommon_words": [
+        "delicately"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'delicately' is not a verb",
+        "Second word 'weave' is not an adjective",
+        "Third word 'colorful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Secret blend exotic seasoning.",
+      "uncommon_words": [
+        "seasoning"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'secret' is not a verb",
+        "Second word 'blend' is not an adjective",
+        "Third word 'exotic' is not a noun",
+        "Fourth word 'seasoning' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Bright star light night sky.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Loud bell alarm school",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'loud' is not a verb",
+        "Second word 'bell' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Fancy dress elegant gown.",
+      "uncommon_words": [
+        "fancy",
+        "gown"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fancy' is not a verb",
+        "Third word 'elegant' is not a noun",
+        "Fourth word 'gown' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Huge dragon slay hero.",
+      "uncommon_words": [
+        "slay"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'huge' is not a verb",
+        "Second word 'dragon' is not an adjective",
+        "Third word 'slay' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Happy child play park.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'happy' is not a verb",
+        "Second word 'child' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Shiny apple juice recipe.",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [
+        "recipe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'shiny' is not a verb",
+        "Second word 'apple' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Deep love heal heartbreak",
+      "uncommon_words": [
+        "heartbreak"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'deep' is not a verb",
+        "Second word 'love' is not an adjective",
+        "Third word 'heal' is not a noun",
+        "Fourth word 'heartbreak' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Powerful engine drive airplane.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'powerful' is not a verb",
+        "Second word 'engine' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Warm hug melt cold heart.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Strong man lift log.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strong' is not a verb",
+        "Second word 'man' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Tasty coffee serve afternoon snack.",
+      "uncommon_words": [
+        "tasty",
+        "snack"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Pretty flower bouquet tabletop decoration",
+      "uncommon_words": [
+        "bouquet",
+        "tabletop",
+        "decoration"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Loud salsa musician dance floor.",
+      "uncommon_words": [
+        "salsa"
+      ],
+      "previously_used_words": [
+        "loud"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Brightly lit room decorate apartment.",
+      "uncommon_words": [
+        "brightly",
+        "lit"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Bold stroke paint artwork canvas.",
+      "uncommon_words": [
+        "artwork"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Fun game play boardroom.",
+      "uncommon_words": [
+        "boardroom"
+      ],
+      "previously_used_words": [
+        "play"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fun' is not a verb",
+        "Fourth word 'boardroom' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Tight squeeze park tiny car downtown plaza.",
+      "uncommon_words": [
+        "plaza"
+      ],
+      "previously_used_words": [
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Hot meal serve dinner guest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "serve"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Cheap toy delight child",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "child"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cheap' is not a verb",
+        "Second word 'toy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Comfy couch watch movie.",
+      "uncommon_words": [
+        "comfy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'comfy' is not a verb",
+        "Second word 'couch' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Colorful bird spot nature trail.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "colorful"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Fast rabbit sprint forest clearing.",
+      "uncommon_words": [
+        "sprint",
+        "clearing"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Heavy equipment move construction site",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Tidy room create space house.",
+      "uncommon_words": [
+        "tidy"
+      ],
+      "previously_used_words": [
+        "room"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Soft fur pet cuddle lap.",
+      "uncommon_words": [
+        "cuddle"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Sweet melody sing band concert.",
+      "uncommon_words": [
+        "melody"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Brave explorer find treasure island.",
+      "uncommon_words": [
+        "explorer"
+      ],
+      "previously_used_words": [
+        "find"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Shaggy haircut style punk kid.",
+      "uncommon_words": [
+        "shaggy",
+        "haircut",
+        "punk"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Strong drink offer party guest.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strong",
+        "guest"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Cold breeze hit face hike mountain trail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cold",
+        "trail"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Heavy metal concert play arena crowd.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "heavy",
+        "concert",
+        "play"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Loud boom scare neighborhood park kids.",
+      "uncommon_words": [
+        "kids"
+      ],
+      "previously_used_words": [
+        "loud",
+        "park"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Rich soil grow healthy garden.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Tasty cake serve birthday bash.",
+      "uncommon_words": [
+        "tasty",
+        "bash"
+      ],
+      "previously_used_words": [
+        "tasty",
+        "cake",
+        "serve"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Bitter medicine cure serious illness.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Softly pat old blanket",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blanket"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'softly' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Bright sky shine cityscape",
+      "uncommon_words": [
+        "cityscape"
+      ],
+      "previously_used_words": [
+        "bright",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bright' is not a verb",
+        "Second word 'sky' is not an adjective",
+        "Fourth word 'cityscape' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Old photo album preserve family memory.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Lively song entertain audience gathering.",
+      "uncommon_words": [
+        "lively",
+        "entertain"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Delicate rose attract visitor garden.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "delicate",
+        "garden"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Bold plan inspire team member.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bold"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Tired hiker stop shelter mountain peak.",
+      "uncommon_words": [
+        "hiker"
+      ],
+      "previously_used_words": [
+        "mountain"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Sharp knife slice ripe fruit salad.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Clean room impress potential buyer home interior",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "room"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Hot meal serve elderly volunteer event.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hot",
+        "meal",
+        "serve"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Now, starting with this structure: Noun + Verb + Adjective +Noun",
+      "uncommon_words": [
+        "noun",
+        "+",
+        "verb",
+        "+",
+        "adjective",
+        "+noun"
+      ],
+      "previously_used_words": [
+        "starting",
+        "with",
+        "this",
+        "structure",
+        "noun",
+        "+",
+        "verb",
+        "+",
+        "adjective"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "The bird chirp loudly outside window.",
+      "uncommon_words": [
+        "chirp",
+        "loudly"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "The actor perform enthusiastically stage audition.",
+      "uncommon_words": [
+        "enthusiastically",
+        "audition"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "The car race quickly highway.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "car"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "The farmer grow organic healthy crop",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "grow",
+        "healthy"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "The hero save courageous village enemy attack.",
+      "uncommon_words": [
+        "courageous"
+      ],
+      "previously_used_words": [
+        "the",
+        "hero"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "The musician play sweet melody live performance.",
+      "uncommon_words": [
+        "melody"
+      ],
+      "previously_used_words": [
+        "the",
+        "musician",
+        "play",
+        "sweet",
+        "melody"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "The teacher present engaging subject classroom activity.",
+      "uncommon_words": [
+        "engaging"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "The chef cook creative unique dish restaurant menu.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "creative"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "The scientist discover groundbreaking discovery lab research.",
+      "uncommon_words": [
+        "groundbreaking"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "The writer compose compelling plot story narrative.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "The architect build innovative modern architecture skyline.",
+      "uncommon_words": [
+        "skyline"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "The painter create vivid texture canvas artwork",
+      "uncommon_words": [
+        "vivid",
+        "artwork"
+      ],
+      "previously_used_words": [
+        "the",
+        "create",
+        "canvas",
+        "artwork"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "The athlete train intensively professional sport program.",
+      "uncommon_words": [
+        "intensively"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "The lawyer defend passionately client courtroom trial.",
+      "uncommon_words": [
+        "passionately"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "The mechanic fix swiftly broken automobile mechanic shop.",
+      "uncommon_words": [
+        "swiftly"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "The designer produce stylish new collection fashion runway show",
+      "uncommon_words": [
+        "stylish",
+        "runway"
+      ],
+      "previously_used_words": [
+        "the",
+        "produce"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "The baker make delicious confectionery morning bakery rush",
+      "uncommon_words": [
+        "baker",
+        "delicious",
+        "confectionery",
+        "bakery"
+      ],
+      "previously_used_words": [
+        "the",
+        "make"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "The gardener tend lovingly beautiful flower garden landscape.",
+      "uncommon_words": [
+        "gardener",
+        "lovingly"
+      ],
+      "previously_used_words": [
+        "the",
+        "flower",
+        "garden"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "The tailor fit perfectly fine suit customer order .",
+      "uncommon_words": [
+        "tailor"
+      ],
+      "previously_used_words": [
+        "the",
+        "fit"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "The photographer capture beautifully scenic nature photo album.",
+      "uncommon_words": [
+        "beautifully",
+        "scenic"
+      ],
+      "previously_used_words": [
+        "the",
+        "nature",
+        "photo",
+        "album"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "The sculptor shape gracefully detailed statue art exhibit",
+      "uncommon_words": [
+        "sculptor",
+        "gracefully"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "The dancer perform elegantly traditional cultural festival dance.",
+      "uncommon_words": [
+        "elegantly"
+      ],
+      "previously_used_words": [
+        "the",
+        "perform",
+        "dance"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "The pilot navigate skillfully jetstream air traffic control",
+      "uncommon_words": [
+        "navigate",
+        "skillfully",
+        "jetstream"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "The firefighter extinguish urgently spreading blaze fire station report .",
+      "uncommon_words": [
+        "firefighter",
+        "extinguish",
+        "urgently",
+        "spreading",
+        "blaze"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "The poet write deeply emotional verse literary anthology entry.",
+      "uncommon_words": [
+        "verse",
+        "anthology"
+      ],
+      "previously_used_words": [
+        "the",
+        "write"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "The surgeon operate precisely delicate heart surgery procedure .",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "delicate",
+        "heart"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "The electrician install safely new power line residential area wiring project.",
+      "uncommon_words": [
+        "electrician",
+        "wiring"
+      ],
+      "previously_used_words": [
+        "the",
+        "new"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "The accountant manage carefully expense monthly budget review",
+      "uncommon_words": [
+        "accountant"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "The sailor steer confidently vast ocean waterway journey.",
+      "uncommon_words": [
+        "sailor",
+        "confidently",
+        "waterway"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "The student read attentively complex textbook college assignment.",
+      "uncommon_words": [
+        "attentively"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": ".The librarian organize neatly wide collection book library shelf .",
+      "uncommon_words": [
+        "librarian",
+        "neatly"
+      ],
+      "previously_used_words": [
+        "the",
+        "collection"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "The chef cook delicious meal dinner guest.",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [
+        "the",
+        "chef",
+        "cook",
+        "delicious",
+        "meal",
+        "dinner",
+        "guest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "The scientist investigate mystery lab experiment .",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "scientist",
+        "lab"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "The tourist sightsee amazing landmark famous city tour",
+      "uncommon_words": [
+        "sightsee"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "The photographer capture stunning moment wedding reception photo shoot",
+      "uncommon_words": [
+        "stunning"
+      ],
+      "previously_used_words": [
+        "the",
+        "photographer",
+        "capture",
+        "photo"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "The tailor drape elegantly fine fabric wedding dress outfit",
+      "uncommon_words": [
+        "tailor",
+        "drape",
+        "elegantly"
+      ],
+      "previously_used_words": [
+        "the",
+        "tailor",
+        "elegantly",
+        "fine",
+        "wedding",
+        "dress"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "The engineer calculate efficiently bridge design engineering project.",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "the",
+        "project"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "The athlete compete fiercely rival opponent track meet.",
+      "uncommon_words": [
+        "fiercely"
+      ],
+      "previously_used_words": [
+        "the",
+        "athlete"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "The mechanic repair expertly broken car engine.",
+      "uncommon_words": [
+        "expertly"
+      ],
+      "previously_used_words": [
+        "the",
+        "mechanic",
+        "broken",
+        "car",
+        "engine"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "The doctor examine carefully ill patient hospital room.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "carefully",
+        "room"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "The scientist observe intricately microscopic cell structure lab microscopy.",
+      "uncommon_words": [
+        "intricately",
+        "microscopic",
+        "microscopy"
+      ],
+      "previously_used_words": [
+        "the",
+        "scientist",
+        "structure",
+        "lab"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "The writer edit meticulously rough draft manuscript proofreading session",
+      "uncommon_words": [
+        "meticulously",
+        "manuscript",
+        "proofreading"
+      ],
+      "previously_used_words": [
+        "the",
+        "writer"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "The photographer display creatively arranged photoshoots art exhibit gallery .",
+      "uncommon_words": [
+        "creatively",
+        "arranged",
+        "photoshoots"
+      ],
+      "previously_used_words": [
+        "the",
+        "photographer",
+        "art",
+        "exhibit"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "The dancer train diligently strenuous rehearsal ballet performance .",
+      "uncommon_words": [
+        "diligently",
+        "strenuous",
+        "rehearsal",
+        "ballet"
+      ],
+      "previously_used_words": [
+        "the",
+        "dancer",
+        "train",
+        "performance"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "The baker decorate beautifully festive cake party occasion.",
+      "uncommon_words": [
+        "baker",
+        "beautifully",
+        "festive"
+      ],
+      "previously_used_words": [
+        "the",
+        "baker",
+        "decorate",
+        "beautifully",
+        "cake",
+        "party"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "The musician practice tirelessly demanding solo recital.",
+      "uncommon_words": [
+        "tirelessly",
+        "demanding",
+        "solo",
+        "recital"
+      ],
+      "previously_used_words": [
+        "the",
+        "musician"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "The artist create vividly expressive painting art studio session..",
+      "uncommon_words": [
+        "vividly",
+        "expressive"
+      ],
+      "previously_used_words": [
+        "the",
+        "create",
+        "art",
+        "session"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Love strong grow happily relationship.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "love",
+        "strong",
+        "grow"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Dance gracefully perform show stop finale.",
+      "uncommon_words": [
+        "gracefully",
+        "finale"
+      ],
+      "previously_used_words": [
+        "dance",
+        "gracefully",
+        "perform",
+        "show",
+        "stop"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Enjoy lively spend happy weekend away.",
+      "uncommon_words": [
+        "lively"
+      ],
+      "previously_used_words": [
+        "lively",
+        "happy"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Explore remote hike new trail adventure trip",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "hike",
+        "new",
+        "trail"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Listen closely understand clearly instruction .",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Paint delicate create impressive portrait artwork",
+      "uncommon_words": [
+        "artwork"
+      ],
+      "previously_used_words": [
+        "paint",
+        "delicate",
+        "create",
+        "artwork"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Drive carefully navigate winding country road trip.",
+      "uncommon_words": [
+        "navigate",
+        "winding"
+      ],
+      "previously_used_words": [
+        "drive",
+        "carefully",
+        "navigate",
+        "trip"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Run quickly reach finish line championship race",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quickly",
+        "line",
+        "race"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Sing sweetly perform harmony chorus song .",
+      "uncommon_words": [
+        "sweetly",
+        "chorus"
+      ],
+      "previously_used_words": [
+        "sing",
+        "perform",
+        "song"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Build steadily construct sturdy new office building.",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "build",
+        "construct",
+        "new"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Read attentively learn valuable knowledge insight .",
+      "uncommon_words": [
+        "attentively"
+      ],
+      "previously_used_words": [
+        "read",
+        "attentively"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Skate fearlessly perform daring trick  street competition",
+      "uncommon_words": [
+        "skate",
+        "fearlessly",
+        "daring"
+      ],
+      "previously_used_words": [
+        "perform"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Camp quietly admire starry night sky nature camping.",
+      "uncommon_words": [
+        "starry",
+        "camping"
+      ],
+      "previously_used_words": [
+        "night",
+        "sky",
+        "nature"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Fish patiently catch delicious sea food stream pond.",
+      "uncommon_words": [
+        "patiently",
+        "delicious"
+      ],
+      "previously_used_words": [
+        "delicious"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Play gently  delightful child friendly game",
+      "uncommon_words": [
+        "delightful"
+      ],
+      "previously_used_words": [
+        "play",
+        "child",
+        "game"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Travel eagerly explore hidden exotic destination .",
+      "uncommon_words": [
+        "eagerly"
+      ],
+      "previously_used_words": [
+        "explore",
+        "exotic"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Build sturdy bridge river crossing.",
+      "uncommon_words": [
+        "sturdy",
+        "crossing"
+      ],
+      "previously_used_words": [
+        "build",
+        "sturdy",
+        "bridge"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Discover valuable treasure hidden chest box",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "valuable",
+        "treasure",
+        "hidden"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Design clever logo brand identity project",
+      "uncommon_words": [
+        "clever",
+        "logo"
+      ],
+      "previously_used_words": [
+        "design",
+        "project"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Sing lively song party event.",
+      "uncommon_words": [
+        "lively"
+      ],
+      "previously_used_words": [
+        "sing",
+        "lively",
+        "song",
+        "party",
+        "event"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Read inspiring story bedtime routine .",
+      "uncommon_words": [
+        "inspiring",
+        "bedtime"
+      ],
+      "previously_used_words": [
+        "read",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Plan secret escape  romantic getaway vacation,",
+      "uncommon_words": [
+        "getaway"
+      ],
+      "previously_used_words": [
+        "plan",
+        "secret"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Hike steep trail mountain peak scenery..",
+      "uncommon_words": [
+        "scenery"
+      ],
+      "previously_used_words": [
+        "hike",
+        "trail",
+        "mountain",
+        "peak"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Bake yummy cake dessert family gathering",
+      "uncommon_words": [
+        "yummy"
+      ],
+      "previously_used_words": [
+        "bake",
+        "cake",
+        "family",
+        "gathering"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Grow healthy crop farmland field,",
+      "uncommon_words": [
+        "farmland"
+      ],
+      "previously_used_words": [
+        "grow",
+        "healthy",
+        "crop"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Enjoy tasty pizza restaurant dinner date.",
+      "uncommon_words": [
+        "tasty"
+      ],
+      "previously_used_words": [
+        "enjoy",
+        "tasty",
+        "restaurant",
+        "dinner"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Run fast marathon endurance race .",
+      "uncommon_words": [
+        "marathon",
+        "endurance"
+      ],
+      "previously_used_words": [
+        "run",
+        "fast",
+        "race"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Listen carefully lesson classroom instruction..",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "listen",
+        "carefully",
+        "classroom",
+        "instruction"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Camp quiet forest trail overnight trip",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "camp",
+        "forest",
+        "trail",
+        "trip"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Skate quick board street competition trick.",
+      "uncommon_words": [
+        "skate"
+      ],
+      "previously_used_words": [
+        "skate",
+        "street",
+        "competition",
+        "trick"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Climb high mountain peak challenge adventure trip",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mountain",
+        "peak",
+        "adventure",
+        "trip"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Build sturdy home modern design family estate project",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "build",
+        "sturdy",
+        "home",
+        "modern",
+        "design",
+        "family",
+        "project"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "My favorite for the adjective + verb + noun+noun structure:",
+      "uncommon_words": [
+        "adjective",
+        "+",
+        "verb",
+        "+",
+        "noun+noun"
+      ],
+      "previously_used_words": [
+        "my",
+        "favorite",
+        "for",
+        "the",
+        "adjective",
+        "+",
+        "verb",
+        "+",
+        "structure"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Favorite Sentence with this structure: Noun + verb +adj+ noun:",
+      "uncommon_words": [
+        "noun",
+        "+",
+        "verb",
+        "+adj+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "favorite",
+        "sentence",
+        "with",
+        "this",
+        "structure",
+        "noun",
+        "+",
+        "verb",
+        "noun"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

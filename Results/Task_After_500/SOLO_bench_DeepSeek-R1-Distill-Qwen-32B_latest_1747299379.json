@@ -1,0 +1,278 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-15 12:06:27",
+  "total_sentences": 15,
+  "perfect_sentences": 1,
+  "score_percentage": 6.666666666666667,
+  "word_count_failures": 4,
+  "format_failures": 14,
+  "common_word_failures": 14,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747299379.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747299379.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Create three lists: Verbs, Adjectives, Nouns.",
+      "uncommon_words": [
+        "lists",
+        "verbs",
+        "adjectives",
+        "nouns"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Check each word's possible part of speech based on the given list (which is difficult without context).",
+      "uncommon_words": [
+        "word's",
+        "based",
+        "(which",
+        "is",
+        "context)"
+      ],
+      "previously_used_words": [],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "For each sentence, pick one verb, one adjective, and two nouns from each respective list without repetition.",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "nouns",
+        "respective",
+        "repetition"
+      ],
+      "previously_used_words": [
+        "each",
+        "nouns",
+        "each",
+        "list",
+        "without"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Adapt basic strategy direction.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Achieve annual academic assessment. (But 'achieve' isn't in Word List)",
+      "uncommon_words": [
+        "(but",
+        "'achieve'",
+        "isn't",
+        "list)"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "**Adapt bold leadership strategy.**",
+      "uncommon_words": [
+        "**adapt",
+        "strategy**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**adapt' is not a verb",
+        "Fourth word 'strategy**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "**Adjust annual academic assignment.**",
+      "uncommon_words": [
+        "**adjust",
+        "assignment**"
+      ],
+      "previously_used_words": [
+        "annual",
+        "academic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**adjust' is not a verb",
+        "Fourth word 'assignment**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "**Approve essential military mission.**",
+      "uncommon_words": [
+        "**approve",
+        "mission**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**approve' is not a verb",
+        "Fourth word 'mission**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "**Assure crucial financial flexibility.**",
+      "uncommon_words": [
+        "**assure",
+        "flexibility**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**assure' is not a verb",
+        "Third word 'financial' is not a noun",
+        "Fourth word 'flexibility**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "**Allocate limited resource availability.**",
+      "uncommon_words": [
+        "**allocate",
+        "availability**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**allocate' is not a verb",
+        "Fourth word 'availability**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "**Amplify significant policy implication.**",
+      "uncommon_words": [
+        "**amplify",
+        "implication**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**amplify' is not a verb",
+        "Fourth word 'implication**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Apply complex mathematical principle.**",
+      "uncommon_words": [
+        "**apply",
+        "mathematical",
+        "principle**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**apply' is not a verb",
+        "Third word 'mathematical' is not a noun",
+        "Fourth word 'principle**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Archive historical cultural artifact.**",
+      "uncommon_words": [
+        "**archive",
+        "artifact**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**archive' is not a verb",
+        "Third word 'cultural' is not a noun",
+        "Fourth word 'artifact**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Arouse genuine emotional response.**",
+      "uncommon_words": [
+        "**arouse",
+        "response**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**arouse' is not a verb",
+        "Third word 'emotional' is not a noun",
+        "Fourth word 'response**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Assess critical infrastructural need.**",
+      "uncommon_words": [
+        "**assess",
+        "infrastructural",
+        "need**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**assess' is not a verb",
+        "Third word 'infrastructural' is not a noun",
+        "Fourth word 'need**' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

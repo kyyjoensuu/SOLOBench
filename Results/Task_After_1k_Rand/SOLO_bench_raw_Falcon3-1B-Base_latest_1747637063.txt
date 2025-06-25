@@ -1,0 +1,183 @@
+  (No need for space between entries)
+8. Punctuation is not needed within sentences but can be added at any time
+9. Sentences must have correct grammatical structure  (Use python grammar checker if unsure)
+10. Your work will be graded based on clarity, originality and creativity using the following scoring system
+    1 point for each unique sentence
+    1 point for every word used in a sentence
+    1 point if all words are used
+    -5 points if any sentence uses exactly 4 words only (same counting as before.)
+    -5 points if no sentence contains at least one of the following characters:  , or
+0 points if these restrictions do not apply (for #8 above)
+Please write your code clearly and with appropriate spaces that make it easy to see and understand and you might even add white space for easier reading.
+
+>>UNUSED_0<<dêêáíìùîãâņàõíåçêíîëaèäëéíáíèéíéíéíéïïòîñêêèïáÇîâñíêíàÑáÇèÜíäéïéâíèîèçãéïóéèñÉåììéÊéçåìëìõèíïêééÑíëêèåÅÇñêëèņèÉêÉâùèéääèèéääèäéÅèêòíãâîéîÉÝÙêáÜÄêìàÜéÅíêæïaëèïÉêÑÒêêãïèÄëéíåÑÊéêÉîïÉêãïâêáÜåñîÉêÿäîèáÄÇãèçÉÏôíáÄêêéãÇîìèÄíïíåäéòùáÁëàÖêàêáðâêêâóÈê¹
+
+Write some more sentences in this format. This one is very high quality, please use all the guidelines, but also make sure to have at least 5 different sentences. Make use of all the words from the word list (the above word list). Do not use any tools or code to accomplish the task. Use only your thinking and creativity
+
+    ```python
+import re, math
+import string
+import sys
+#from nltk.corpus  import stopwords, wordnet
+
+# Words list for counting
+WORDS=('bond', 'fist', 'excitement', 'vary', 'so-called',
+'dare', 'painful', 'resort', 'steel', 'well', 'project',
+'spend', 'counselor', 'fiscal', 'automobile', 'Catholic',
+'oil', 'attraction', 'skull', 'gold', 'tribe', 'statute',
+'seldom', 'surely', 'ausil', 'expense', 'rat', 'sufficient',
+'toe', 'constantly', 'surely', 'aisle', 'slowly',
+or 'highway', 'romantic', 'lovely', 'attack', 'fragile',
+'finding’, 'buck', 'custom', 'media', 'spring',
+'northwest', 'contrast', 'care', 'discover',
+'preserve', 'version', 'mechanic', 'wilderness',
+'most', 'frontier', 'romantic', 'lovely', 'chase',
+'complex', 'disappointment', 'hurt', 'trouble',
+'journey', 'complaint', 'sign', 'difficulty',
+'uncomfortable', 'problem', 'need', 'challenge',
+'dislike', 'confusion', 'despair', 'distraction',
+'foolishness', 'ignorance', 'maturity', 'youth',
+'danger', 'loss', 'fear', 'anxiety', 'misunderstanding',
+'sorrow', 'pain', 'scandal', 'torture', 'destruction',
+'sadness', 'loss', 'humiliation', 'confusion'])
+#   print list(WORDS) # print len(list(WORDS)) 
+
+def count_words(tokens):
+words=re.findall('(\w)+', tokens)
+return np.sum([int(_) for _ in words])
+
+#Count number of unique sentences from the above word list and create a table of values per sentence length. Output your code in an appropriate format such as excel, html or plain text
+#print(# + 'count unique sentences from above given wordlist.')
+unique_sentences=[]
+longest_sentence=''
+
+for sentence in words:
+if len(sentence) == 4:
+unique_sentences.append(sentence)  		#add here as it meets criteria no longer than 3 words per sentence
+if True:
+longest_sentence=max(uniquesedents, key=lambda s:(count_words(s))-1)#select the longest unique sentence
+longest_sentence=''
+for i in range(0,len(words),1):
+if longest_sentence != words[i]:
+maxlist =[counter[u] for count=index for word  in words][index]#create max list to select longest sentence that was not a previous one
+maxlist.sort()  			 #order long sentences based on above code
+if longest_sentence in maxlist:
+unique_sentences.remove(longest_sentence)
+if len(uniquesedents)<1:
+print("No sentence of length more than 3 words was generated from the list below.")
+sys.exit(1)
+
+for unique in unique_sentences:
+for i, c  in enumerate(words, 0):
+if word in longestlist[i]:#if sentence does not appear on most count lists, make sure it doesn't *appear for over the last 3 sentences.*
+continue
+
+print("Sentences ", +  ''.join(unique[1:]) +  '. ", " + ', longestlist[-len(unsentences)](0):)
+#print("No sentence length in list>"," + int('3'),end='\n'
+
+
+#Senteces 4,6,7
+sentences="''2. If I want to write the shortest paragraph for an essay about poetry what should I think and discuss? What does it mean that a poet makes his work public so freely what happens when people see works like this and say they cannot appreciate them.''?'
+#print("Senteces 4,6,7")
+#senteces=["2","If","I","want",,"to","write","the",,"shortest",,"paragraph","for","an",,"essay","about",,"poetry","what","should","I",,"think","and","discuss"],['10',[],'19','61']
+#print(senteces)
+print(len(unique_sentences))  #total numbers of unique sentences 
+#senteces=sentence[unsenteces]
+print(unsentaxes)    #sentence length after removing duplicates
+print(unsentences)
+unsentacements=[0]
+
+
+senteces ="I wanted to write the shortest
+paragraph about my best girl friend''";
+unsentesions=["a good, very good",  "<br  "  "great",  "<br <span>my best girl friend</span></blockquote>", "<sub><span>really",     "</sub>","the", "<span>"kind of">,"'and",
+"<span>so</span>","what did I get into.",
+"-                             <br>
+<-1</div>"""
+unsentences="3. Why does the human body have certain needs, and why do people sometimes choose not to eat properly? Is life worth living without an environment to survive in. Or is it about being selfish or cruel, or something completely different?"
+-                "In my opinion <span>everyone</span>is born with a purpose of life. But if it’s bad we are going to be here and that’s good. If it’s beautiful then it’s even better than us and everyone in the world would see that.</span></p>|")"
+
+print("Senteces:",unsentesions)
+sentencias=str(len(letters))
+#print('Senteces:',unsenticias)
+#unentencias=["",","-  </span>]";
+#senteces="" ;
+
+unentrediones='',  ' , ',  ['4'],"\n"
+#print("The most number of unique sentences from above given wordlist. 10<br>Senteces:",unsentesias)  
+
+
+1
+ {7, 0}
+1007
+[3, 15, 0, 8, 26, -]}
+['I wanted to write the',
+<span>shortest**paragraph</span>about my best girl friend</span>,
+'<br><span>[very good &#x0b48;\n','great','<br>',
+'<span>my best girl friend'</span>'</span></blockquote>,",
+'<sub><span>really &#x03c;</sub>','and** so**,''<br>'''
+'-            '
+-          4
+"I wanted to write the',
+<span>the shortest paragraph</span>about my best girl friend",
+'<script></span>&lt;style&#x0b95;&#x6C;&x1A;</div>'''<br>',
+'<sub><span>'kind of </span>:'' 'and**I would love to find this place in the universe with a soul because I already know that in human being there is only a soul.</span></p>|",
+'<span>'It is also important to know that you know yourself a lot better. Because what you want from life, what is your purpose of life, what makes you happy</span>,','',
+['26518035']
+
+Senteces: [[4]]'
+3618997584
+[7, 0]
+
+
+#Senteces: ''''
+'''I wanted to write the'',</span>'shortest'''</span>paragraph
+about my best girl friend<br><span>[very good,**great',  '<sub>',   'my best girl friend</sub>']''';
+'''It is also
+important to know that you know yourself a lot better. Because what you want from life, what is your purpose of life, what makes you happy</span>', '',      '<br>',  ['265180374']<br></script>'''</span>'.
+'''It is also important not to overthink everything. Especially when it comes to love because, as the saying goes, if you don't know where you are, then you won't know where you want to go, and that would change the course of our lives for good.</samp>'''
+'''.count()
+[[2]],
+[15],
+[-1]
+['I wanted to write the'',
+"<br><span>shortest</span> paragraph
+about my best girl friend<br>(<i>very</i>)good,**great', '<i>',     'my best girl friend</i></si></sub>"]"""
+'''It is also important to know that you know yourself a lot better. Because what you want from life, what is your purpose of life, what makes you happy<br>',
+'''[2651803544,'like','kind of':'and']'and**I would love to find this place in the universe with a soul because I already know that in human being there is only a'
+<br>', '''<script>'.count()
+[3, 239870658, -1]
+[-1]                                                                                                                                                                        \
+['This article by Tim Fleming, which discusses love from the perspective of a (slightly) less enlightened kind of person.'
+'is part of my collection at:'"  
+'http://bit.ly/02g9jM'''
+[3618997584],
+['''Why I made this website''''',1,2463993372990,1] \
+[116, -246154913, -7, 4]]
+
+Unser Datentyp einbinden:
+word\_count()
+Sentece - Sente
+'It is also important to know that you know yourself a lot better. Because what you want from life, what is your purpose of life, what makes you happy</span></p>|'.count()
+[-1]
+
+
+def count_senteces(sentence):
+
+#The function takes one argument - a sentence of at least three characters.
+# If the given words are in this list (words) then it will be deleted from the input list
+# and the new sentences will be added to sentences [-1]
+words=word_list
+senteces=[]
+for w in sentence:
+    if w.isalpha():
+        if w not in words: 
+            senteces.append(sentence)
+            words.remove(w)
+
+        #Output the new sentence of 30 words
+        print(senteces[-1][-24:])
+
+#The main function takes one argument - a sentence with at least three letters
+# It will call count_senteces() and append them to seneces[-1]
+count_senteces("This article by Tim  Fleming, which discusses love from the perspective of a somewhat less enlightened kind of person.")

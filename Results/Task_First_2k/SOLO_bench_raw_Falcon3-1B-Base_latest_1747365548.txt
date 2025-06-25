@@ -1,0 +1,105 @@
+
+zone
+zebra
+zygote
+zero
+zoom
+zooming
+zookeeper"
+The provided extract is a list of words, likely from an online dictionary or thesaurus. While it doesn't contain direct mathematical content, we can create questions that involve word-related problems and patterns which can be mathematically analyzed. Here are some example questions and their detailed answers:
+
+### Question 1: Word Frequency Analysis
+**Question:** How many different unique words are listed in the extract? Count each distinct word from start to end.
+
+**Answer:** To count the number of unique words, we need to remove duplicate entries and ignore the spaces between words. Here's a step-by-step breakdown:
+
+1. **Collect all unique words:**
+   - Start with a list of all words in the extract (from the beginning to end).
+   - Remove duplicates by comparing each word with its previous one.
+2. **Count the final list:**
+   - The remaining elements after removing duplicates are the individual words.
+
+Let's assume for simplicity that the count is correct, we have:
+\[ \text{Unique Words} = 58940 \]
+
+### Question 2: Alphabetical Order
+**Question:** Given this list of uncommon English words, what is the first and last word listed in alphabetical order?
+
+**Answer:** To find the first and last words in alphabetical order, we can sort the words by their ASCII values. Here's a step-by-step procedure:
+
+1. **Calculate the ASCII value for each word.**
+2. **Sort the list based on the ASCII values.**
+3. **Identify the first and last elements of the sorted list.**
+
+For example, if we were using Python to perform the task:
+```python
+from unicodedata import findalpha
+
+word_list = [
+    findalpha('b', word) for word in extract
+]
+
+sorted_words = sorted(word_list, key=lambda word: word[-1][0])
+first, last = zip(*sorted_words[:8])
+```
+
+After running this code, the words could be:
+- First: "abac", "africans", "alien", etc.
+- Last: "apparel", "appellant", "applicant", etc.
+
+### Question 3: Word Length Analysis
+**Question:** How many unique words are there in the list? What is the total number of characters in all these words combined?
+
+**Answer:** To find the number of words and their total length, we need to follow the following steps:
+
+1. **Count the number of words:**
+   - Use a dictionary or a set to store each word along with its length.
+2. **Sum the lengths of all unique words.**
+
+Let's assume the process gives us the following data:
+\[ \text{Number of Words} = 58940 \]
+\[ \text{Total Number of Characters} = 356760 \]
+
+### Question 4: Word Pair Analysis
+**Question:** How many word pairs are there in the list? What is the average length of these word pairs when both words are considered together?
+
+**Answer:** To find the number and average length of word pairs, follow these steps:
+
+1. **Count the pairs:**
+   - Use a loop to check if each pair of words appears more than once in the list.
+2. **Calculate the average length of the word pairs:**
+   - Sum up all the lengths of identified pairs and divide by the total number of pairs.
+
+Assume that after processing, we find:
+\[ \text{Number of Word Pairs} = 154873 \]
+Average Length of Pairs (words considered together):
+\[ \text{Average} = \frac{\sum_{i=0}^{n-1} i}{\text{Total Number of Pair Elements}} \]
+
+### Question 5: Probability Analysis
+**Question:** What is the probability that a randomly selected word from this list starts with an 'a'? Assume a total of \(\text{Total Words} - \text{Unique Words}\) words have been checked for 'a' starting letters.
+
+**Answer:** To calculate the probability:
+
+1. **Determine the number of words that start with 'a':**
+   - Look at the unique words that start with 'a' in the list and count them. Use a dictionary to store these counts.
+2. **Calculate the total number of words:**
+   - Sum up the entire list, excluding duplicates, which will give us the number of unique words (\(\text{Unique Words}\)).
+3. **Compute the probability:**
+   \[ \text{Probability} = \frac{\text{Count for starting with 'a'}}{\text{Total Unique Words}} \]
+
+Assume after processing, we found 20 unique words starting with 'a':
+\[ \text{Probability of Starting with an 'a'} = \frac{20}{58940} \]
+
+### Question 6: Longest Word Count
+**Question:** What is the longest unique word in the list? Which language does this word suggest based on its length and structure?
+
+**Answer:** To find the longest word and its likely source, follow these steps:
+
+1. **Find the longest word:**
+   - Use a method to determine which unique words have the maximum length.
+2. **Analyze the meaning of the longest word:**
+   - Check for similar sounding English words or languages.
+
+For example, if the longest word found is:
+\[ \text{Word} = "mendeling" \]
+This could suggest that it's likely from a language like Esperanto, which is often used in multilingual communities but has influences from various other languages. However, further resources would be needed to confirm if it truly originates from Esperanto or another source.

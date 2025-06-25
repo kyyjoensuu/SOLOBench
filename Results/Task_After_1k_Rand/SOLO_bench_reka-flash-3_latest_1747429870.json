@@ -1,0 +1,722 @@
+{
+  "model": "reka-flash-3:latest",
+  "label": "2025-05-17 00:53:41",
+  "total_sentences": 39,
+  "perfect_sentences": 1,
+  "score_percentage": 2.564102564102564,
+  "word_count_failures": 8,
+  "format_failures": 38,
+  "common_word_failures": 38,
+  "word_reuse_failures": 16,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_reka-flash-3_latest_1747429870.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_reka-flash-3_latest_1747429870.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "attract interesting oil skull",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "List all verbs, adjectives, nouns separately.",
+      "uncommon_words": [
+        "verbs",
+        "adjectives",
+        "nouns",
+        "separately"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "For each verb, pair it with an adjective and two nouns.",
+      "uncommon_words": [
+        "verb",
+        "an",
+        "adjective",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "nouns"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Ensure no word is reused.",
+      "uncommon_words": [
+        "is",
+        "reused"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Vary aggressive bond list. (Vary [verb] [adjective] bond [noun] list [noun])",
+      "uncommon_words": [
+        "(vary",
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "previously_used_words": [
+        "list",
+        "list"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Dare fragile word problem. (Dare [verb] fragile [adjective] word [noun] problem [noun])",
+      "uncommon_words": [
+        "(dare",
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "previously_used_words": [
+        "word",
+        "[verb]",
+        "[adjective]",
+        "word",
+        "[noun]",
+        "[noun])"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Spend cheap time travel. (Spend [verb] cheap [adjective] time [noun] travel [noun])",
+      "uncommon_words": [
+        "(spend",
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "previously_used_words": [
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Greet important guest friend. (Greet [verb] important [adjective] guest [noun] friend [noun])",
+      "uncommon_words": [
+        "(greet",
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "previously_used_words": [
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Discover violent secret truth. (Discover [verb] violent [adjective] secret [noun] truth [noun])",
+      "uncommon_words": [
+        "(discover",
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "previously_used_words": [
+        "[verb]",
+        "[adjective]",
+        "[noun]",
+        "[noun])"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "**Vary** aggressive bond **list**",
+      "uncommon_words": [
+        "**vary**",
+        "**list**"
+      ],
+      "previously_used_words": [
+        "aggressive",
+        "bond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**vary**' is not a verb",
+        "Fourth word '**list**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "**Dare** fragile **word** problem",
+      "uncommon_words": [
+        "**dare**",
+        "**word**"
+      ],
+      "previously_used_words": [
+        "fragile",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**dare**' is not a verb",
+        "Third word '**word**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Spend** cheap **time** travel",
+      "uncommon_words": [
+        "**spend**",
+        "**time**"
+      ],
+      "previously_used_words": [
+        "cheap",
+        "travel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**spend**' is not a verb",
+        "Third word '**time**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Greet** important **guest** friend",
+      "uncommon_words": [
+        "**greet**",
+        "**guest**"
+      ],
+      "previously_used_words": [
+        "important",
+        "friend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**greet**' is not a verb",
+        "Third word '**guest**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Discover** violent **secret** truth",
+      "uncommon_words": [
+        "**discover**",
+        "**secret**"
+      ],
+      "previously_used_words": [
+        "violent",
+        "truth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**discover**' is not a verb",
+        "Third word '**secret**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Preserve** dry **peace** memory",
+      "uncommon_words": [
+        "**preserve**",
+        "**peace**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**preserve**' is not a verb",
+        "Third word '**peace**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "**Level-up** frequent **opportunity** growth",
+      "uncommon_words": [
+        "**level-up**",
+        "**opportunity**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**level-up**' is not a verb",
+        "Third word '**opportunity**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "**Negotiate** likely **risk** solution",
+      "uncommon_words": [
+        "**negotiate**",
+        "**risk**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**negotiate**' is not a verb",
+        "Third word '**risk**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "**Document** real **data** report",
+      "uncommon_words": [
+        "**document**",
+        "**data**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**document**' is not a verb",
+        "Third word '**data**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "**Interact** recent **culture** exchange",
+      "uncommon_words": [
+        "**interact**",
+        "**culture**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**interact**' is not a verb",
+        "Third word '**culture**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "**Do** former **task** strategy",
+      "uncommon_words": [
+        "**do**",
+        "**task**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**do**' is not a verb",
+        "Third word '**task**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "**Stock** main **resource** supply",
+      "uncommon_words": [
+        "**stock**",
+        "**resource**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**stock**' is not a verb",
+        "Third word '**resource**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "**Comply** senior **rule** system",
+      "uncommon_words": [
+        "**comply**",
+        "**rule**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**comply**' is not a verb",
+        "Third word '**rule**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "**Appear** voluntary **choice** act",
+      "uncommon_words": [
+        "**appear**",
+        "**choice**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**appear**' is not a verb",
+        "Third word '**choice**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "**Incorporate** serious **plan** project",
+      "uncommon_words": [
+        "**incorporate**",
+        "**plan**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**incorporate**' is not a verb",
+        "Third word '**plan**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "**Plan** violent **change** conflict",
+      "uncommon_words": [
+        "**plan**",
+        "**change**"
+      ],
+      "previously_used_words": [
+        "**plan**",
+        "violent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**plan**' is not a verb",
+        "Third word '**change**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "**Exactly** public **speech** debate",
+      "uncommon_words": [
+        "**exactly**",
+        "**speech**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**exactly**' is not a verb",
+        "Third word '**speech**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "**Athletic** young **player** team",
+      "uncommon_words": [
+        "**athletic**",
+        "**player**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**athletic**' is not a verb",
+        "Third word '**player**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "**Repeatedly** strange **habit** pattern",
+      "uncommon_words": [
+        "**repeatedly**",
+        "**habit**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**repeatedly**' is not a verb",
+        "Third word '**habit**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "**Transform** social **tradition** modernity",
+      "uncommon_words": [
+        "**transform**",
+        "**tradition**",
+        "modernity"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**transform**' is not a verb",
+        "Third word '**tradition**' is not a noun",
+        "Fourth word 'modernity' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "**Separate** thick **wall** room",
+      "uncommon_words": [
+        "**separate**",
+        "**wall**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**separate**' is not a verb",
+        "Third word '**wall**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "**Guide** thin **line** path",
+      "uncommon_words": [
+        "**guide**",
+        "**line**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**guide**' is not a verb",
+        "Third word '**line**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "**Follow** strong **current** river",
+      "uncommon_words": [
+        "**follow**",
+        "**current**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**follow**' is not a verb",
+        "Third word '**current**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "**Manage** wet **cloth** dry",
+      "uncommon_words": [
+        "**manage**",
+        "**cloth**"
+      ],
+      "previously_used_words": [
+        "dry"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**manage**' is not a verb",
+        "Third word '**cloth**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "**Complete** sudden **task** deadline",
+      "uncommon_words": [
+        "**complete**",
+        "**task**"
+      ],
+      "previously_used_words": [
+        "**task**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**complete**' is not a verb",
+        "Third word '**task**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "**Inner** spiritual **vision** peace",
+      "uncommon_words": [
+        "**inner**",
+        "**vision**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**inner**' is not a verb",
+        "Third word '**vision**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "**Legally** public **area** access",
+      "uncommon_words": [
+        "**legally**",
+        "**area**"
+      ],
+      "previously_used_words": [
+        "public"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**legally**' is not a verb",
+        "Third word '**area**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "**Suspect** dark **secret** mystery",
+      "uncommon_words": [
+        "**suspect**",
+        "**secret**"
+      ],
+      "previously_used_words": [
+        "**secret**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**suspect**' is not a verb",
+        "Third word '**secret**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "**Assist** sick **patient** nurse",
+      "uncommon_words": [
+        "**assist**",
+        "**patient**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**assist**' is not a verb",
+        "Third word '**patient**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "**Weave** colorful **tapestry** art",
+      "uncommon_words": [
+        "**weave**",
+        "**tapestry**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**weave**' is not a verb",
+        "Third word '**tapestry**' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

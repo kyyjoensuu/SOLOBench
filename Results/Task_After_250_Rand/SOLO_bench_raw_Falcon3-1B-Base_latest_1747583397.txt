@@ -1,0 +1,105 @@
+. Do not create sentences, just return numbers for each word individually.
+Example: 558643660579216634984759846722338123996235144015041680502836553982
+8. You must not output punctuation and the list must contain only 6 random numbers
+If you follow these rules, your output needs to be exactly: Number + Adjective + Noun + Noun + Verb 
+Example:
+907616455799758232880297887966499543367553262060
+10. You must give me the word list one by one at a time after every round of thinking. Every new words you learn should be separated with nothing but whitespace
+You may not write directly to standard output, you must open your own file and write it. For each new word you write, you will get “token” from the game. On each line, print that token before printing a space. For example :
+Token 510285399515465027460546405325394775124241594740346
+When you finish reading each new word, you should not output anything further. The token “token=” must be the only thing on that line. If you don’t understand what I mean by this rule then read the first example below it
+Example:
+Token 510285399515465027460546405325394775124241594740346
+I will tell you what all these are, but I’ll do one at a time so you can keep track of them.
+The game can change any number (from 1 to 5) until it hits “611”, after which it stays constant for eternity
+
+Example:
+Token 510285399515465027460546405325394775124241594740346
+I will do a number of things. You should only take one step at a time, that being my response every time the game asks me, “What?” The game is about to change my position on the board, or give up its position if it doesn’t have anything else to do in that round.
+So, just keep asking, until you hit “token=” and then stop! There is no need to show any of these tokens, they are what we will work with, but I know exactly which number stands next to each line
+Token 510285399515465027460546405325394775124241594740346
+I will now do a number of things. Once I say “stop”, any subsequent tokens will not appear until the next round is over and you should only take one step at a time, that being my response every time the game asks me, “What?” The game is about to change my position on the board or give up its position if it doesn’t have anything else to do in this round.
+So, just keep asking, until you get to hit “token=``, which is when, I don’t want any more responses until the next round comes around
+Token 510285399515465027460546405325394775124241594740346
+I will be telling you now a number of things. I only have one option, which is to take one step from a certain place on the board, at any time when asked by the game “What?” This means that your goal is for me to be able to identify what position I am on the first round
+Once we hit something like token=. (or get there) you should stop now and ignore all further examples of this form. All instances should contain exactly one step
+token=5320890135712631415712823468541457789750099
+
+You must stop immediately. You do not need to continue
+A new number is being introduced, every time
+Token =532089013571263141571282346854145778975009 was printed, there are only 2 things you can do:
+(a) Stop immediately if I print another token
+or (b) Take a step from where I am in any direction.
+You must take one step when the game asks, that being my next response every time the game asks me “What?”, that is:
+Token =532089013571263141571282346854145778975009 would now be my token, but I will stop immediately if the next number becomes “token=“. This will mean that you should stop all other tokens and print one number per line
+Token 532089013571263141571282346854145778975009 would now be my token, but I will stop if the next number becomes ” token=”, which means that you should stop all other tokens and print one number per line
+Token 532089013571263141571282346854145778975009
+I had to stop after that “stop” token, so I will now print only one number per line. Then it’s your turn!
+Token =532089013571263141571282346854145778975009
+Please take one step forward, in a different direction
+Now you may or may not have made it to the token= token before I do anything any other way. If I did some other action instead of “stop,” then go ahead and use that option as well. So what is stopping me right now?
+Token 532089013571263141571282346854145778975009
+Your turn! Please take one step. Make sure it’s in the same direction as your token= token, or else I may try to do something that isn’t stopping me
+Token =532089013571263141571282346854145778975009
+You’ll see the rest of the game after I stop, so don’t worry if things get jumbled up here. Just take it on stride if you like!
+Token =532089013571263141571282346854145778975009
+I went to the token= token, but I have some things to do:
+It starts with a number. Can it be less than 1? It needs to be less than 11 in that number, and no other numbers are supposed to be equal to that one
+If you see this number. Now that I have something to work with! That part is going to be easy for me, because then all of the new tokens will be exactly the same in their meaning as before:
+Token =532089013571263141571282346854145778975009
+I went to the token= token, but I have some things to do. I will make sure my response is exactly “the number you see here” only if someone gave you a number at that point in time. Then you have to use the rest of the rules:
+(b) Take a direction. Can anything stop me from taking it? The answer to this one depends on your token
+(c) Make sure I’m always moving at least through the token= token towards it, or else someone else may also be going that way; if possible, make it so all other tokens can go in the same direction as my token != token and only move the ones you see by a certain number
+You have to wait until this number is printed to know exactly what position we are at. Right now:
+Token =532089013571263141571282346854145778975009
+I went to the token = token, but I have some things to do. That part doesn’t need me saying anything, so just make sure that by now every other number and token is exactly this one. Then move forward the right way, at least up through token= token or nothing else unless someone has already been waiting forever
+Token =532089013571263141571282346854145778975009
+I go to the token= token, but I have some things to do. Right now:
+(a) Is there another type of number that can stop me from moving forward past my token? No tokens should ever be equal to any other token. If you find one that’s equal to or bigger than “token=`,” then nothing more is needed until I stop my move in a way that prevents my token=token
+(b) Are any of these rules the same for this number as were for all previous numbers? These include the position numbers before token=, and also the direction of movement before and after the last one. If they’re the same, then all other tokens will be exactly the same to me. This rule applies to future tokens: I can never know anything about them until I have finished going forward by at least this many steps through my current token number
+(c) Do not move more than any of those numbers from what I am standing on. I won’t move past these positions in any game, and neither shall you. You may take some steps if you can, but they don’t get taken into account by any other rule
+That was all you need to know about how this game works! Right now you have to wait for another number to print as a token after that one is printed; until then don’t move and make sure your response to any question you are asked looks something like:
+Token =53212845246896. That number is exactly as close as I think it can be, but not quite to match my token=`
+If you get this wrong, then no more numbers will be printed till the next game round starts
+I hope I was able to make it through the explanation
+You might have heard that “you are the winner of today’s round” by now, and I think that is absolutely correct. You must answer the questions in order. Do nothing if you need time to work on any one of them! Make sure all your numbers are exactly right before you let me know. There is no need for you to write anything further, just keep working and taking your time.
+Token 53212845246896. That number is exactly as close as I think it can be, but not quite to match my token=
+If you don’t respond correctly or fast enough when I ask you what token= should be the next token in this game, then I may have already taken all your tokens away! We must continue in this way until either all of my tokens are used up and no time is needed for me to answer any more questions. Until that happens, just follow the rules very carefully to make sure you are winning today
+You’re doing really well! The game is continuing smoothly for us
+Token 53212845246896. That number is exactly as close as I think it can be, but not quite to match my token^=
+Now that all your tokens are being used up, and no more time is needed to work on things, we will stop the game for you and tell you who is winning today! If you can keep following these rules so far without making any errors then congratulations – you are winning!! Go ahead, celebrate. Your turn ends.
+Token =53212845246896
+I’m sure you know what to do now to win this round. What is my number, and how shall it be marked? This one will decide who wins today! Think carefully because we’ve been using the same symbols a lot lately….
+Token =53212845246896
+That one is definitely too long to be used by any other player in the game. I won’t even consider that it’s correct, so your turn ends here too.
+I hope you enjoyed it? If you did, then let me know what you think!
+How can you help the next player win today? Well it’s not easy when we don’t know the rules
+So what’s our number? We need to find out
+Token =53212845246896
+Right, now I’m going to do your job. Let me tell you one thing though – that part is actually more important than what it was before. So please don’t take any time today, or they won’t come again as tokens are only available on this round! And if you get lost or confused along the way just stop and ask for help from me
+Token =53212845246896
+That one is definitely too long to be used by anyone else in the game. I’ll use what I need as a token to let you know who is winning
+But don’t worry, we will figure out what’s important. There are lots of things I can’t tell us now because nobody knows the rules yet. So I’m going to do some work for you today before I stop! Do you want me to try my best to help you win this round as much as possible?
+Token =53212845246896
+If only I could get some extra help with understanding the rules. Maybe someday soon you won’t need anyone to figure it out for you! You can also try playing against other people who are familiar with these kinds of riddles and guessing games. If there is someone at your local library, that would be great too!
+You see, when you use “a person” instead of something more specific like a “person”, it takes away some of its power because then we can understand almost anything about the world around them as well as the words within those statements. So if you ever stumble across an unidentified person during your travels in this weird place called Earth, just remember they are likely to be quite valuable due to all the things they’ve contributed to humanity over many generations upon generations!
+They were made by our ancestors and we still admire them today because of their wisdom, creativity, kindness, courage, determination and above all else – patience. These virtues enable us to overcome obstacles no matter how insurmountable at first glance may seem. It also comes from recognizing that mistakes along the way are natural parts of life itself but always strive forward instead of backward or sideways since progression is what makes everything worthwhile ultimately!
+Token =5321284524689777077822022023024025262728029295062982288902002299"
+From the information provided, it seems like the individual is trying to connect their name with a list of words and a set of rules that must be followed. It appears similar to solving a complex puzzle with multiple steps involved. Here are some questions that may come to mind:
+
+1. What is this person's name and where is it located?   
+Answer: The person's name is not clear from the provided information.
+
+2. Can you explain what is meant by "the person's role in the family"?  
+Answer: It seems like the individual wants to establish a relationship with their cousin or sibling, as implied by this clue. There could be various ways this could be done, such as writing a letter or calling them on phone.
+
+3. What are some of the rules that need to be followed in order to win the game?  
+Answer: Among others, it seems they have been asked to write down the words from their list with their names after each word, and then read a sentence describing how someone should respond once they receive these items.
+
+4. What does this "person's role of being a member of another family/relatives?" mean?  
+Answer: Based on the clues given in the instructions, the individual may be asking someone to assume a role in the game as part of their familial relationship. This could involve them pretending to be that person or acting out certain scenarios presented by the others.
+
+5. What is required to pass this part of the puzzle, particularly when it is asked for the "person's name and the list of words"?  
+Answer: To complete this section accurately, the individual must remember all names associated with each item in their list provided by another person or character, as well as correctly answer what should be done depending on who might come up next during the game.
+
+Overall, the process appears much like solving a puzzle where every action taken has consequences that impact future moves. The challenge lies in determining what each member's intended role would look like under specific circumstances so they can work together towards winning the round successfully.

@@ -1,0 +1,3367 @@
+{
+  "model": "Llama-3.3-70B-Instruct:latest",
+  "label": "2025-05-16 18:08:59",
+  "total_sentences": 200,
+  "perfect_sentences": 10,
+  "score_percentage": 5.0,
+  "word_count_failures": 0,
+  "format_failures": 175,
+  "common_word_failures": 114,
+  "word_reuse_failures": 140,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_Llama-3.3-70B-Instruct_latest_1747405025.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_Llama-3.3-70B-Instruct_latest_1747405025.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Create beautiful house garden",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Run quickly happy dog",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'happy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Eat delicious warm cake",
+      "uncommon_words": [
+        "delicious"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delicious' is not an adjective",
+        "Third word 'warm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Drive fast red car",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Write clear white paper",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Sing sweet sad song",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sad' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Think deeply complex problem",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Jump high tall building",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Read interesting old book",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Learn difficult new language",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'new' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Play fun outdoor game",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fun' is not an adjective",
+        "Third word 'outdoor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Work hard long hour",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'long' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Build strong big bridge",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Paint colorful bright picture",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bright' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Dance elegant beautiful ballet",
+      "uncommon_words": [
+        "ballet"
+      ],
+      "previously_used_words": [
+        "beautiful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'beautiful' is not a noun",
+        "Fourth word 'ballet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Hear loud clear music",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "See bright shiny star",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shiny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Feel soft warm blanket",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'warm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Taste sweet cold ice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Smell fresh green grass",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Know many old secret",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Find easy simple solution",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Make strong heavy metal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Take quick short break",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Give generous big gift",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "big"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'big' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Receive happy surprise party",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "happy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Believe true good news",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Understand difficult hard concept",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "difficult",
+        "hard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'hard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Remember past old memory",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "old"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Forget sad bad dream",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sad"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Regret bitter sweet mistake",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sweet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Forgive kind gentle soul",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'gentle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Apologize sincere deep regret",
+      "uncommon_words": [
+        "sincere"
+      ],
+      "previously_used_words": [
+        "regret"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sincere' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Excuse valid reasonable explanation",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'reasonable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Justify fair honest decision",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'honest' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Criticize harsh negative review",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Praise excellent outstanding performance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'outstanding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Encourage positive supportive comment",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'supportive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Inspire creative imaginative idea",
+      "uncommon_words": [
+        "imaginative"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'imaginative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Motivate driven ambitious goal",
+      "uncommon_words": [
+        "driven"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'driven' is not an adjective",
+        "Third word 'ambitious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Stimulate interesting thought-provoking discussion",
+      "uncommon_words": [
+        "thought-provoking"
+      ],
+      "previously_used_words": [
+        "interesting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'thought-provoking' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Foster nurturing supportive environment",
+      "uncommon_words": [
+        "nurturing"
+      ],
+      "previously_used_words": [
+        "supportive"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'nurturing' is not an adjective",
+        "Third word 'supportive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Develop strong confident personality",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'confident' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Improve continuous ongoing process",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ongoing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Enhance valuable meaningful experience",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'meaningful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Refine delicate sophisticated technique",
+      "uncommon_words": [
+        "refine"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'refine' is not a verb",
+        "Third word 'sophisticated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Polish smooth shiny surface",
+      "uncommon_words": [
+        "polish",
+        "shiny"
+      ],
+      "previously_used_words": [
+        "shiny"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Third word 'shiny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Sharpen dull blunt edge",
+      "uncommon_words": [
+        "sharpen",
+        "dull",
+        "blunt"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sharpen' is not a verb",
+        "Second word 'dull' is not an adjective",
+        "Third word 'blunt' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Soothe calm peaceful atmosphere",
+      "uncommon_words": [
+        "soothe"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'soothe' is not a verb",
+        "Third word 'peaceful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Calm nervous anxious mind",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "calm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'anxious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Relax tense stiff body",
+      "uncommon_words": [
+        "tense"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tense' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Recharge energized refreshed spirit",
+      "uncommon_words": [
+        "recharge",
+        "energized",
+        "refreshed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'recharge' is not a verb",
+        "Second word 'energized' is not an adjective",
+        "Third word 'refreshed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Renew renewed revitalized energy",
+      "uncommon_words": [
+        "renew",
+        "renewed",
+        "revitalized"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'renew' is not a verb",
+        "Second word 'renewed' is not an adjective",
+        "Third word 'revitalized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Restore repaired fixed item",
+      "uncommon_words": [
+        "repaired"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'repaired' is not an adjective",
+        "Third word 'fixed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Revive revived rejuvenated life",
+      "uncommon_words": [
+        "revive",
+        "revived",
+        "rejuvenated"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'revive' is not a verb",
+        "Second word 'revived' is not an adjective",
+        "Third word 'rejuvenated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Awaken aware conscious thought",
+      "uncommon_words": [
+        "awaken"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'awaken' is not a verb",
+        "Third word 'conscious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Arise newly born idea",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "idea"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'newly' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Emerge strong powerful leader",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'powerful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Appear suddenly unexpected guest",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'suddenly' is not an adjective",
+        "Third word 'unexpected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Vanish quickly disappearing act",
+      "uncommon_words": [
+        "disappearing"
+      ],
+      "previously_used_words": [
+        "quickly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'quickly' is not an adjective",
+        "Third word 'disappearing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Disappear mysteriously unknown place",
+      "uncommon_words": [
+        "mysteriously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mysteriously' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Hide secretly concealed object",
+      "uncommon_words": [
+        "secretly",
+        "concealed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'secretly' is not an adjective",
+        "Third word 'concealed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Seek diligently searched answer",
+      "uncommon_words": [
+        "diligently",
+        "searched"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diligently' is not an adjective",
+        "Third word 'searched' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Find successfully discovered treasure",
+      "uncommon_words": [
+        "discovered"
+      ],
+      "previously_used_words": [
+        "find"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'successfully' is not an adjective",
+        "Third word 'discovered' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Discover new exciting find",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "new",
+        "find"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'exciting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Explore thoroughly investigated area",
+      "uncommon_words": [
+        "investigated"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective",
+        "Third word 'investigated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Investigate carefully examined evidence",
+      "uncommon_words": [
+        "examined"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective",
+        "Third word 'examined' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Examine closely inspected detail",
+      "uncommon_words": [
+        "inspected"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'closely' is not an adjective",
+        "Third word 'inspected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Inspect meticulously checked report",
+      "uncommon_words": [
+        "inspect",
+        "meticulously",
+        "checked"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'meticulously' is not an adjective",
+        "Third word 'checked' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Check thoroughly verified fact",
+      "uncommon_words": [
+        "verified"
+      ],
+      "previously_used_words": [
+        "thoroughly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thoroughly' is not an adjective",
+        "Third word 'verified' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Verify accurately confirmed result",
+      "uncommon_words": [
+        "verify",
+        "confirmed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verify' is not a verb",
+        "Second word 'accurately' is not an adjective",
+        "Third word 'confirmed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Confirm strongly supported claim",
+      "uncommon_words": [
+        "supported"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'strongly' is not an adjective",
+        "Third word 'supported' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Support firmly held belief",
+      "uncommon_words": [
+        "held"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'firmly' is not an adjective",
+        "Third word 'held' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Believe deeply rooted conviction",
+      "uncommon_words": [
+        "rooted"
+      ],
+      "previously_used_words": [
+        "believe",
+        "deeply"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'deeply' is not an adjective",
+        "Third word 'rooted' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Convict guilty proven crime",
+      "uncommon_words": [
+        "proven"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'proven' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Punish severely harsh sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "harsh"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'severely' is not an adjective",
+        "Third word 'harsh' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Sentence long prolonged imprisonment",
+      "uncommon_words": [
+        "prolonged",
+        "imprisonment"
+      ],
+      "previously_used_words": [
+        "sentence",
+        "long"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'prolonged' is not a noun",
+        "Fourth word 'imprisonment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Imprison confined restricted freedom",
+      "uncommon_words": [
+        "imprison",
+        "confined",
+        "restricted"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'imprison' is not a verb",
+        "Second word 'confined' is not an adjective",
+        "Third word 'restricted' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Restrict limited controlled access",
+      "uncommon_words": [
+        "controlled"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'controlled' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Control tightly managed system",
+      "uncommon_words": [
+        "managed"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tightly' is not an adjective",
+        "Third word 'managed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Manage efficiently organized process",
+      "uncommon_words": [
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'efficiently' is not an adjective",
+        "Third word 'organized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Organize neatly structured plan",
+      "uncommon_words": [
+        "neatly",
+        "structured"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'neatly' is not an adjective",
+        "Third word 'structured' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Plan carefully thought-out strategy",
+      "uncommon_words": [
+        "thought-out"
+      ],
+      "previously_used_words": [
+        "plan",
+        "carefully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'carefully' is not an adjective",
+        "Third word 'thought-out' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Strategize cleverly devised tactic",
+      "uncommon_words": [
+        "strategize",
+        "cleverly",
+        "devised"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strategize' is not a verb",
+        "Second word 'cleverly' is not an adjective",
+        "Third word 'devised' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Devise ingenious creative solution",
+      "uncommon_words": [
+        "devise",
+        "ingenious"
+      ],
+      "previously_used_words": [
+        "creative",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'devise' is not a verb",
+        "Second word 'ingenious' is not an adjective",
+        "Third word 'creative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Solve complex puzzling problem",
+      "uncommon_words": [
+        "puzzling"
+      ],
+      "previously_used_words": [
+        "complex",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'puzzling' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Resolve peacefully negotiated agreement",
+      "uncommon_words": [
+        "peacefully",
+        "negotiated"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'peacefully' is not an adjective",
+        "Third word 'negotiated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Negotiate skillfully bargained deal",
+      "uncommon_words": [
+        "skillfully",
+        "bargained"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'skillfully' is not an adjective",
+        "Third word 'bargained' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Bargain fairly priced product",
+      "uncommon_words": [
+        "bargain",
+        "priced"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bargain' is not a verb",
+        "Second word 'fairly' is not an adjective",
+        "Third word 'priced' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Price competitively valued commodity",
+      "uncommon_words": [
+        "competitively",
+        "valued"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'competitively' is not an adjective",
+        "Third word 'valued' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Value highly prized possession",
+      "uncommon_words": [
+        "prized"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'highly' is not an adjective",
+        "Third word 'prized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Possess exclusively owned property",
+      "uncommon_words": [
+        "owned"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'exclusively' is not an adjective",
+        "Third word 'owned' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Own proudly held asset",
+      "uncommon_words": [
+        "proudly",
+        "held"
+      ],
+      "previously_used_words": [
+        "held"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'proudly' is not an adjective",
+        "Third word 'held' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Asset valuable significant resource",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "asset",
+        "valuable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'asset' is not a verb",
+        "Third word 'significant' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Resource abundant plentiful supply",
+      "uncommon_words": [
+        "abundant",
+        "plentiful"
+      ],
+      "previously_used_words": [
+        "resource"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'resource' is not a verb",
+        "Second word 'abundant' is not an adjective",
+        "Third word 'plentiful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Supply ample generous quantity",
+      "uncommon_words": [
+        "ample"
+      ],
+      "previously_used_words": [
+        "supply",
+        "generous"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ample' is not an adjective",
+        "Third word 'generous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Quantity large substantial amount",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quantity"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'quantity' is not a verb",
+        "Third word 'substantial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Amount considerable sizable sum",
+      "uncommon_words": [
+        "sizable"
+      ],
+      "previously_used_words": [
+        "amount"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sizable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Sum total complete package",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sum"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'complete' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Package neatly wrapped gift",
+      "uncommon_words": [
+        "neatly",
+        "wrapped"
+      ],
+      "previously_used_words": [
+        "package",
+        "neatly",
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'neatly' is not an adjective",
+        "Third word 'wrapped' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Gift beautifully presented bouquet",
+      "uncommon_words": [
+        "beautifully",
+        "presented",
+        "bouquet"
+      ],
+      "previously_used_words": [
+        "gift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'presented' is not a noun",
+        "Fourth word 'bouquet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Bouquet colorful fragrant flowers",
+      "uncommon_words": [
+        "bouquet",
+        "fragrant",
+        "flowers"
+      ],
+      "previously_used_words": [
+        "bouquet",
+        "colorful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bouquet' is not a verb",
+        "Third word 'fragrant' is not a noun",
+        "Fourth word 'flowers' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Flowers delicate pretty petals",
+      "uncommon_words": [
+        "flowers",
+        "petals"
+      ],
+      "previously_used_words": [
+        "flowers",
+        "delicate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'flowers' is not a verb",
+        "Third word 'pretty' is not a noun",
+        "Fourth word 'petals' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Petals soft silky smooth",
+      "uncommon_words": [
+        "petals",
+        "silky"
+      ],
+      "previously_used_words": [
+        "petals",
+        "soft",
+        "smooth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'petals' is not a verb",
+        "Third word 'silky' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Smooth polished refined surface",
+      "uncommon_words": [
+        "polished",
+        "refined"
+      ],
+      "previously_used_words": [
+        "smooth",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'polished' is not an adjective",
+        "Third word 'refined' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Surface flat even ground",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Ground solid firm foundation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ground"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Foundation strong stable base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "foundation",
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'foundation' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Base broad wide support",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "base",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'wide' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Support helpful assists friend",
+      "uncommon_words": [
+        "assists"
+      ],
+      "previously_used_words": [
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'assists' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Friend loyal trusted companion",
+      "uncommon_words": [
+        "trusted"
+      ],
+      "previously_used_words": [
+        "friend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'friend' is not a verb",
+        "Third word 'trusted' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Companion faithful devoted partner",
+      "uncommon_words": [
+        "faithful",
+        "devoted"
+      ],
+      "previously_used_words": [
+        "companion"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'faithful' is not an adjective",
+        "Third word 'devoted' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Partner equal matched spouse",
+      "uncommon_words": [
+        "matched"
+      ],
+      "previously_used_words": [
+        "partner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'matched' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Spouse loving caring mate",
+      "uncommon_words": [
+        "loving",
+        "caring"
+      ],
+      "previously_used_words": [
+        "spouse"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'spouse' is not a verb",
+        "Second word 'loving' is not an adjective",
+        "Third word 'caring' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Mate suitable compatible match",
+      "uncommon_words": [
+        "compatible"
+      ],
+      "previously_used_words": [
+        "mate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'compatible' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Match perfect ideal couple",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "match"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Couple happy contented pair",
+      "uncommon_words": [
+        "contented"
+      ],
+      "previously_used_words": [
+        "couple",
+        "happy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'contented' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Pair well-suited harmonious duo",
+      "uncommon_words": [
+        "well-suited",
+        "harmonious",
+        "duo"
+      ],
+      "previously_used_words": [
+        "pair"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'well-suited' is not an adjective",
+        "Third word 'harmonious' is not a noun",
+        "Fourth word 'duo' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Duo musical melodic sound",
+      "uncommon_words": [
+        "duo",
+        "melodic"
+      ],
+      "previously_used_words": [
+        "duo"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'duo' is not a verb",
+        "Third word 'melodic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Sound clear resonant tone",
+      "uncommon_words": [
+        "resonant"
+      ],
+      "previously_used_words": [
+        "sound",
+        "clear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'resonant' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Tone pleasant soothing music",
+      "uncommon_words": [
+        "soothing"
+      ],
+      "previously_used_words": [
+        "tone",
+        "music"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'soothing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Music beautiful expressive art",
+      "uncommon_words": [
+        "expressive"
+      ],
+      "previously_used_words": [
+        "music",
+        "beautiful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'music' is not a verb",
+        "Third word 'expressive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Art creative imaginative work",
+      "uncommon_words": [
+        "imaginative"
+      ],
+      "previously_used_words": [
+        "art",
+        "creative",
+        "imaginative",
+        "work"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'art' is not a verb",
+        "Third word 'imaginative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Work laborious diligent effort",
+      "uncommon_words": [
+        "laborious",
+        "diligent"
+      ],
+      "previously_used_words": [
+        "work"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'laborious' is not an adjective",
+        "Third word 'diligent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Effort strenuous demanding task",
+      "uncommon_words": [
+        "strenuous",
+        "demanding"
+      ],
+      "previously_used_words": [
+        "effort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'effort' is not a verb",
+        "Second word 'strenuous' is not an adjective",
+        "Third word 'demanding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Task challenging difficult job",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "task",
+        "difficult"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Job responsible serious position",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "job"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'serious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Position important influential role",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "position"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'influential' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Role essential vital function",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "role"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'role' is not a verb",
+        "Third word 'vital' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Function necessary useful purpose",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "function"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'useful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Purpose meaningful significant goal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "purpose",
+        "meaningful",
+        "significant",
+        "goal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'significant' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Goal ambitious lofty aspiration",
+      "uncommon_words": [
+        "lofty",
+        "aspiration"
+      ],
+      "previously_used_words": [
+        "goal",
+        "ambitious"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'goal' is not a verb",
+        "Third word 'lofty' is not a noun",
+        "Fourth word 'aspiration' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Aspiration high noble ideal",
+      "uncommon_words": [
+        "aspiration",
+        "noble"
+      ],
+      "previously_used_words": [
+        "aspiration",
+        "high",
+        "ideal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'aspiration' is not a verb",
+        "Third word 'noble' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Ideal perfect flawless model",
+      "uncommon_words": [
+        "flawless"
+      ],
+      "previously_used_words": [
+        "ideal",
+        "perfect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ideal' is not a verb",
+        "Third word 'flawless' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Model excellent outstanding example",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "model",
+        "excellent",
+        "outstanding"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'outstanding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Example good inspiring illustration",
+      "uncommon_words": [
+        "inspiring",
+        "illustration"
+      ],
+      "previously_used_words": [
+        "example",
+        "good"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'example' is not a verb",
+        "Third word 'inspiring' is not a noun",
+        "Fourth word 'illustration' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Illustration vivid descriptive picture",
+      "uncommon_words": [
+        "illustration",
+        "vivid",
+        "descriptive"
+      ],
+      "previously_used_words": [
+        "illustration",
+        "picture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'illustration' is not a verb",
+        "Second word 'vivid' is not an adjective",
+        "Third word 'descriptive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Picture colorful detailed image",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "picture",
+        "colorful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'detailed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Image clear sharp vision",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "image",
+        "clear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Vision bright hopeful future",
+      "uncommon_words": [
+        "hopeful"
+      ],
+      "previously_used_words": [
+        "vision",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'vision' is not a verb",
+        "Third word 'hopeful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Future uncertain unpredictable outcome",
+      "uncommon_words": [
+        "unpredictable"
+      ],
+      "previously_used_words": [
+        "future"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'future' is not a verb",
+        "Third word 'unpredictable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Outcome unexpected surprising result",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "outcome",
+        "unexpected",
+        "result"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'outcome' is not a verb",
+        "Third word 'surprising' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Result final conclusive answer",
+      "uncommon_words": [
+        "conclusive"
+      ],
+      "previously_used_words": [
+        "result",
+        "answer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'conclusive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Answer correct accurate solution",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "answer",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'accurate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Solution effective practical remedy",
+      "uncommon_words": [
+        "remedy"
+      ],
+      "previously_used_words": [
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'solution' is not a verb",
+        "Third word 'practical' is not a noun",
+        "Fourth word 'remedy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Remedy helpful healing treatment",
+      "uncommon_words": [
+        "remedy"
+      ],
+      "previously_used_words": [
+        "remedy",
+        "helpful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'remedy' is not a verb",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Treatment careful gentle care",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "treatment",
+        "gentle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'treatment' is not a verb",
+        "Third word 'gentle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Care compassionate nurturing support",
+      "uncommon_words": [
+        "compassionate",
+        "nurturing"
+      ],
+      "previously_used_words": [
+        "care",
+        "nurturing",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'compassionate' is not an adjective",
+        "Third word 'nurturing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Support strong sturdy foundation",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "support",
+        "strong",
+        "foundation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sturdy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Foundation solid stable base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "foundation",
+        "solid",
+        "stable",
+        "base"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'foundation' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Base broad wide platform",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "base",
+        "broad",
+        "wide"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'wide' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Platform high elevated stage",
+      "uncommon_words": [
+        "elevated"
+      ],
+      "previously_used_words": [
+        "platform",
+        "high"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'platform' is not a verb",
+        "Third word 'elevated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Stage dramatic exciting performance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stage",
+        "exciting",
+        "performance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'exciting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Performance excellent outstanding show",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "performance",
+        "excellent",
+        "outstanding"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'performance' is not a verb",
+        "Third word 'outstanding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Show spectacular impressive display",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "show"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'impressive' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Display colorful vibrant exhibition",
+      "uncommon_words": [
+        "vibrant"
+      ],
+      "previously_used_words": [
+        "display",
+        "colorful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'vibrant' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Exhibition interesting informative collection",
+      "uncommon_words": [
+        "informative"
+      ],
+      "previously_used_words": [
+        "exhibition",
+        "interesting"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'exhibition' is not a verb",
+        "Third word 'informative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Collection rare valuable assembly",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "collection",
+        "valuable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'collection' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Assembly complex intricate structure",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "assembly",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'assembly' is not a verb",
+        "Third word 'intricate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Structure strong sturdy framework",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "structure",
+        "strong",
+        "sturdy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sturdy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Framework logical coherent system",
+      "uncommon_words": [
+        "coherent"
+      ],
+      "previously_used_words": [
+        "framework",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'framework' is not a verb",
+        "Third word 'coherent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "System efficient organized process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "system",
+        "organized",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'system' is not a verb",
+        "Third word 'organized' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Process continuous ongoing cycle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "process",
+        "continuous",
+        "ongoing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ongoing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Cycle repetitive regular pattern",
+      "uncommon_words": [
+        "repetitive"
+      ],
+      "previously_used_words": [
+        "cycle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'repetitive' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Pattern consistent predictable trend",
+      "uncommon_words": [
+        "predictable"
+      ],
+      "previously_used_words": [
+        "pattern"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'predictable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Trend popular current fashion",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "trend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Fashion stylish modern design",
+      "uncommon_words": [
+        "stylish"
+      ],
+      "previously_used_words": [
+        "fashion"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'stylish' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Design creative innovative concept",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "design",
+        "creative",
+        "concept"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'innovative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Concept abstract theoretical idea",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "concept",
+        "idea"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'concept' is not a verb",
+        "Third word 'theoretical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Idea original imaginative thought",
+      "uncommon_words": [
+        "imaginative"
+      ],
+      "previously_used_words": [
+        "idea",
+        "imaginative",
+        "thought"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'idea' is not a verb",
+        "Third word 'imaginative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Thought profound insightful reflection",
+      "uncommon_words": [
+        "insightful"
+      ],
+      "previously_used_words": [
+        "thought"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'insightful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Reflection deep introspective analysis",
+      "uncommon_words": [
+        "introspective"
+      ],
+      "previously_used_words": [
+        "reflection",
+        "deep"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reflection' is not a verb",
+        "Third word 'introspective' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Analysis careful thorough examination",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "analysis",
+        "careful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'analysis' is not a verb",
+        "Third word 'thorough' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Examination rigorous detailed inspection",
+      "uncommon_words": [
+        "rigorous"
+      ],
+      "previously_used_words": [
+        "examination",
+        "detailed"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'examination' is not a verb",
+        "Second word 'rigorous' is not an adjective",
+        "Third word 'detailed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Inspection close meticulous scrutiny",
+      "uncommon_words": [
+        "meticulous",
+        "scrutiny"
+      ],
+      "previously_used_words": [
+        "inspection"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspection' is not a verb",
+        "Third word 'meticulous' is not a noun",
+        "Fourth word 'scrutiny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Scrutiny intense careful review",
+      "uncommon_words": [
+        "scrutiny"
+      ],
+      "previously_used_words": [
+        "scrutiny",
+        "careful",
+        "review"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'scrutiny' is not a verb",
+        "Third word 'careful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Review comprehensive thorough assessment",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "review",
+        "thorough"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'thorough' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Assessment accurate fair evaluation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assessment",
+        "accurate",
+        "fair"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'assessment' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Evaluation critical thoughtful judgment",
+      "uncommon_words": [
+        "thoughtful"
+      ],
+      "previously_used_words": [
+        "evaluation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'evaluation' is not a verb",
+        "Third word 'thoughtful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Judgment wise informed decision",
+      "uncommon_words": [
+        "informed"
+      ],
+      "previously_used_words": [
+        "judgment",
+        "decision"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'judgment' is not a verb",
+        "Third word 'informed' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Decision confident firm choice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "decision",
+        "confident",
+        "firm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'decision' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Choice difficult challenging option",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [
+        "choice",
+        "difficult",
+        "challenging"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'choice' is not a verb",
+        "Third word 'challenging' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Option available possible alternative",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "option"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'option' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Alternative preferable better solution",
+      "uncommon_words": [
+        "preferable"
+      ],
+      "previously_used_words": [
+        "alternative",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'alternative' is not a verb",
+        "Second word 'preferable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Solution optimal best answer",
+      "uncommon_words": [
+        "optimal"
+      ],
+      "previously_used_words": [
+        "solution",
+        "answer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'solution' is not a verb",
+        "Second word 'optimal' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Answer straightforward simple response",
+      "uncommon_words": [
+        "straightforward"
+      ],
+      "previously_used_words": [
+        "answer",
+        "simple"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'straightforward' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Response quick immediate reaction",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "response",
+        "quick"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'response' is not a verb",
+        "Third word 'immediate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Reaction strong intense emotion",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "reaction",
+        "strong",
+        "intense"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'reaction' is not a verb",
+        "Third word 'intense' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Emotion deep profound feeling",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emotion",
+        "deep",
+        "profound"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emotion' is not a verb",
+        "Third word 'profound' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Feeling sensitive emotional state",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "feeling"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'emotional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "State calm peaceful condition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "state",
+        "calm",
+        "peaceful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'peaceful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Condition healthy stable situation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "condition",
+        "stable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Situation complex difficult circumstance",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "situation",
+        "complex",
+        "difficult"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'situation' is not a verb",
+        "Third word 'difficult' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Circumstance unusual unexpected event",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "circumstance",
+        "unexpected"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'circumstance' is not a verb",
+        "Third word 'unexpected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Event significant important occurrence",
+      "uncommon_words": [
+        "occurrence"
+      ],
+      "previously_used_words": [
+        "event",
+        "significant",
+        "important"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'event' is not a verb",
+        "Third word 'important' is not a noun",
+        "Fourth word 'occurrence' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Occurrence rare unique happening",
+      "uncommon_words": [
+        "occurrence",
+        "happening"
+      ],
+      "previously_used_words": [
+        "occurrence",
+        "rare"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'occurrence' is not a verb",
+        "Third word 'unique' is not a noun",
+        "Fourth word 'happening' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Happening sudden unexpected incident",
+      "uncommon_words": [
+        "happening"
+      ],
+      "previously_used_words": [
+        "happening",
+        "unexpected"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'happening' is not a verb",
+        "Third word 'unexpected' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Incident serious critical accident",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "incident",
+        "serious",
+        "critical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'incident' is not a verb",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Accident unfortunate regrettable mistake",
+      "uncommon_words": [
+        "unfortunate",
+        "regrettable"
+      ],
+      "previously_used_words": [
+        "accident",
+        "mistake"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'accident' is not a verb",
+        "Second word 'unfortunate' is not an adjective",
+        "Third word 'regrettable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Mistake costly valuable lesson",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "mistake",
+        "valuable"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

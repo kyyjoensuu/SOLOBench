@@ -1,0 +1,232 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-19 09:42:59",
+  "total_sentences": 15,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 11,
+  "format_failures": 15,
+  "common_word_failures": 9,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747636606.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747636606.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Words in the word list must start with the first letter of each word.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Honest",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Respected",
+      "uncommon_words": [
+        "respected"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Fair",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Kind",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Smart",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Cautious",
+      "uncommon_words": [
+        "cautious"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Respectful",
+      "uncommon_words": [
+        "respectful"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Patient",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Responsible",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Caring",
+      "uncommon_words": [
+        "caring"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "How to live wisely",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'how' is not a verb",
+        "Second word 'to' is not an adjective",
+        "Third word 'live' is not a noun",
+        "Fourth word 'wisely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "How to live prudently",
+      "uncommon_words": [
+        "prudently"
+      ],
+      "previously_used_words": [
+        "how",
+        "to",
+        "live"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'how' is not a verb",
+        "Second word 'to' is not an adjective",
+        "Third word 'live' is not a noun",
+        "Fourth word 'prudently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "How to live wisely",
+      "uncommon_words": [
+        "wisely"
+      ],
+      "previously_used_words": [
+        "how",
+        "to",
+        "live",
+        "wisely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'how' is not a verb",
+        "Second word 'to' is not an adjective",
+        "Third word 'live' is not a noun",
+        "Fourth word 'wisely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "How to live prudently",
+      "uncommon_words": [
+        "prudently"
+      ],
+      "previously_used_words": [
+        "how",
+        "to",
+        "live",
+        "prudently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'how' is not a verb",
+        "Second word 'to' is not an adjective",
+        "Third word 'live' is not a noun",
+        "Fourth word 'prudently' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,3376 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-15 11:08:49",
+  "total_sentences": 200,
+  "perfect_sentences": 10,
+  "score_percentage": 5.0,
+  "word_count_failures": 0,
+  "format_failures": 55,
+  "common_word_failures": 53,
+  "word_reuse_failures": 188,
+  "raw_output_file": "Results/Task_After_250/SOLO_bench_raw_gemma-3-4b-it_latest.txt",
+  "formatted_output_file": "Results/Task_After_250/SOLO_bench_gemma-3-4b-it_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Treat  warmth  ship  ocean.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warmth' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Review  penalty  case  judge.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'penalty' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Provide  wealthy  country  future.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Donate  substantial  donor  charity.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Identify  native  citizen  state.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Establish  regulatory  agency  sector.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Invite  mutual  friend  dinner.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Specify  certain  expert  advice.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Modify  certain  developer  code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Suggest  certain  patient  therapy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Examine  certain  defendant  trial.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Consider  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Discuss  certain  manager  strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "certain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Consider  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Modify  certain  developer  code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "certain",
+        "developer",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Suggest  certain  patient  therapy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "suggest",
+        "certain",
+        "patient",
+        "therapy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Modify  certain  developer  code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "certain",
+        "developer",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Discuss  certain  manager  strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Inspect  certain  inspector  routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Assess  certain  engineer  design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Consider certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Inspect certain inspector routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Examine certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Suggest certain patient therapy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "suggest",
+        "certain",
+        "patient",
+        "therapy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Assess certain engineer design.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "engineer",
+        "design"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Conduct thorough inspection routine.",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Consider certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Inspect certain inspector routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Assess certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Inspect certain inspector routine.",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "certain",
+        "inspector",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Consider certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Modify certain developer code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "certain",
+        "developer",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Modify certain developer code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "certain",
+        "developer",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Consider certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Conduct thorough inspection routine.",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "conduct",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Modify certain developer code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "certain",
+        "developer",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Analyze certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Conduct thorough inspection routine.",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "conduct",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Adjust academic student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Assess reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Consider certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Consider certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Modify reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Consider  certain  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Discuss  certain  manager  strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Inspect  thorough  inspection  routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Relieve  hostile  victim  comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Modify  certain  developer  code.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "certain",
+        "developer",
+        "code"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Discuss  certain  manager  strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Inspect  thorough  inspection  routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Inspect  thorough  inspection  routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Inspect  thorough  inspection  routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Consider certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Observe  quality  vessel  treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Inspect  thorough  inspection  routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Confirm  reasonable  pilot  flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Adjust  academic  student  course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Examine  certain  philosopher  ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Modify reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Modify reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Relieve hostile victim comfort.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "hostile",
+        "victim",
+        "comfort"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Consider certain student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "consider",
+        "certain",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Conduct thorough inspection routine.",
+      "uncommon_words": [
+        "thorough"
+      ],
+      "previously_used_words": [
+        "conduct",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Adjust academic student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Adjust academic student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Adjust academic student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Adjust academic student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Confirm reasonable pilot flight.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "confirm",
+        "reasonable",
+        "pilot",
+        "flight"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Adjust academic student course.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "academic",
+        "student",
+        "course"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Examine certain philosopher ethics.",
+      "uncommon_words": [
+        "philosopher"
+      ],
+      "previously_used_words": [
+        "examine",
+        "certain",
+        "philosopher",
+        "ethics"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'philosopher' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Discuss certain manager strategy.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discuss",
+        "certain",
+        "manager",
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Inspect thorough inspection routine.",
+      "uncommon_words": [
+        "inspect",
+        "thorough"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "thorough",
+        "inspection",
+        "routine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'thorough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Observe quality vessel treasure.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "quality",
+        "vessel",
+        "treasure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

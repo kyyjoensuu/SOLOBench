@@ -1,0 +1,138 @@
+{
+  "model": "gemma-3-27b-pt:latest",
+  "label": "2025-05-16 18:31:41",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_gemma-3-27b-pt_latest_1747408672.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_gemma-3-27b-pt_latest_1747408672.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not return anything else, the list should only contain the numbered sentences, nothing else.",
+      "uncommon_words": [
+        "should",
+        "numbered",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not use any words that don't appear in the below word list, or words that are composed of other words in the below word list, or words that are contained in other words in the below word list. It is ok to use abbreviations like USA or NYC. Also, It is OK to use common contractions like I'm, Can't, Won't, etc.",
+      "uncommon_words": [
+        "words",
+        "don't",
+        "words",
+        "are",
+        "composed",
+        "words",
+        "words",
+        "are",
+        "contained",
+        "words",
+        "is",
+        "abbreviations",
+        "usa",
+        "nyc",
+        "is",
+        "contractions",
+        "i'm",
+        "can't",
+        "won't"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "the",
+        "list",
+        "the",
+        "list",
+        "the",
+        "list"
+      ],
+      "word_count": 62,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Make the sentences as interesting as possible, using common phrases, interesting and diverse adjectives, common nouns and verbs that make sense, avoiding generic adjectives like \"good\" and \"bad\".",
+      "uncommon_words": [
+        "sentences",
+        "using",
+        "phrases",
+        "adjectives",
+        "nouns",
+        "verbs",
+        "avoiding",
+        "generic",
+        "adjectives",
+        "\"good\"",
+        "\"bad\""
+      ],
+      "previously_used_words": [
+        "the",
+        "sentences",
+        "common",
+        "common",
+        "that",
+        "like"
+      ],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Think step by step to accomplish the task carefully and carefully without mistakes. Be extremely careful with your thinking and only think and output what I have asked for. Make sure to adhere to the rules exactly as I have provided them. If you make a mistake I will give you a bad rating. Do not make any errors or break any rules.",
+      "uncommon_words": [
+        "mistakes",
+        "asked",
+        "adhere",
+        "rules",
+        "will",
+        "errors",
+        "rules"
+      ],
+      "previously_used_words": [
+        "to",
+        "the",
+        "and",
+        "and",
+        "only",
+        "and",
+        "make",
+        "to",
+        "to",
+        "the",
+        "as",
+        "make",
+        "do",
+        "not",
+        "make",
+        "any",
+        "or",
+        "any"
+      ],
+      "word_count": 63,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

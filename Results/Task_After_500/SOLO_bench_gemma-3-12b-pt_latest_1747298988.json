@@ -1,0 +1,755 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-15 11:52:28",
+  "total_sentences": 26,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 26,
+  "format_failures": 26,
+  "common_word_failures": 26,
+  "word_reuse_failures": 25,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_gemma-3-12b-pt_latest_1747298988.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_gemma-3-12b-pt_latest_1747298988.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Each line containing a sentence must be numbered 1 to 200.",
+      "uncommon_words": [
+        "containing",
+        "numbered",
+        "1",
+        "200"
+      ],
+      "previously_used_words": [],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each sentence must be a sentence describing something (e.x. \"The man saw the woman.\")",
+      "uncommon_words": [
+        "describing",
+        "(ex",
+        "\"the",
+        "saw",
+        "woman\")"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "be",
+        "a",
+        "sentence"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Each sentence must be a sentence containing at least 4 words",
+      "uncommon_words": [
+        "containing",
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "be",
+        "a",
+        "sentence",
+        "containing"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "The following words MUST be included in the sentence: a, are, be, by, of, or, the, to",
+      "uncommon_words": [
+        "words",
+        "included",
+        "are"
+      ],
+      "previously_used_words": [
+        "the",
+        "words",
+        "must",
+        "be",
+        "the",
+        "sentence",
+        "a",
+        "be",
+        "the",
+        "to"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Each word can only be used once. Meaning, once a word is used it cannot be re-used in sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "be",
+        "a",
+        "be",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Only include words in the following word list. Do not include any words not featured below",
+      "uncommon_words": [
+        "words",
+        "words",
+        "featured"
+      ],
+      "previously_used_words": [
+        "only",
+        "words",
+        "in",
+        "the",
+        "following",
+        "word",
+        "words"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Do not use AI tools or coding to accomplish the task",
+      "uncommon_words": [
+        "ai",
+        "tools",
+        "coding"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "or",
+        "to",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Do not copy and paste the entire word list in your thinking. it is too long. you need to pick and chose the subset of words relevant to your task.",
+      "uncommon_words": [
+        "paste",
+        "is",
+        "chose",
+        "subset",
+        "words"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "the",
+        "word",
+        "list",
+        "in",
+        "it",
+        "is",
+        "to",
+        "the",
+        "of",
+        "words",
+        "to",
+        "task"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Output a list that contains 200 distinct sentences, each sentence on its own line. The first sentence is item number 1, the second sentence is item number 2, etc.",
+      "uncommon_words": [
+        "contains",
+        "200",
+        "sentences",
+        "is",
+        "1",
+        "is",
+        "2"
+      ],
+      "previously_used_words": [
+        "a",
+        "list",
+        "200",
+        "sentences",
+        "each",
+        "sentence",
+        "line",
+        "the",
+        "sentence",
+        "is",
+        "1",
+        "the",
+        "sentence",
+        "is"
+      ],
+      "word_count": 29,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Each prompt must have exactly 4 words",
+      "uncommon_words": [
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "must",
+        "4",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "The following words MUST be included in the prompt: a, are, be, by, of, or, the, to",
+      "uncommon_words": [
+        "words",
+        "included",
+        "are"
+      ],
+      "previously_used_words": [
+        "the",
+        "following",
+        "words",
+        "must",
+        "be",
+        "included",
+        "in",
+        "the",
+        "prompt",
+        "a",
+        "are",
+        "be",
+        "by",
+        "of",
+        "or",
+        "the",
+        "to"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Each prompt must be a statement about something, for example, \"The man saw the woman.\"",
+      "uncommon_words": [
+        "\"the",
+        "saw",
+        "woman\""
+      ],
+      "previously_used_words": [
+        "each",
+        "prompt",
+        "must",
+        "be",
+        "a",
+        "something",
+        "\"the",
+        "man",
+        "saw",
+        "the"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Each prompt must only have exactly 4 words",
+      "uncommon_words": [
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "prompt",
+        "must",
+        "only",
+        "have",
+        "exactly",
+        "4",
+        "words"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "The following words MUST be included in the prompt: a, are, be, by, of, or, the, to",
+      "uncommon_words": [
+        "words",
+        "included",
+        "are"
+      ],
+      "previously_used_words": [
+        "the",
+        "following",
+        "words",
+        "must",
+        "be",
+        "included",
+        "in",
+        "the",
+        "prompt",
+        "a",
+        "are",
+        "be",
+        "by",
+        "of",
+        "or",
+        "the",
+        "to"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Each word can only be used once. Meaning, once a word is used it cannot be re-used in prompts",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "prompts"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "meaning",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Only include words in the following word list. Do not include any words not featured below",
+      "uncommon_words": [
+        "words",
+        "words",
+        "featured"
+      ],
+      "previously_used_words": [
+        "only",
+        "include",
+        "words",
+        "in",
+        "the",
+        "following",
+        "word",
+        "list",
+        "do",
+        "not",
+        "include",
+        "any",
+        "words",
+        "not",
+        "featured",
+        "below"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Do not use AI tools or coding to accomplish the task",
+      "uncommon_words": [
+        "ai",
+        "tools",
+        "coding"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use",
+        "ai",
+        "tools",
+        "or",
+        "coding",
+        "to",
+        "accomplish",
+        "the",
+        "task"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Do not copy and paste the entire word list in your thinking. it is too long. you need to pick and chose the subset of words relevant to your task.",
+      "uncommon_words": [
+        "paste",
+        "is",
+        "chose",
+        "subset",
+        "words"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "copy",
+        "and",
+        "paste",
+        "the",
+        "entire",
+        "word",
+        "list",
+        "in",
+        "your",
+        "thinking",
+        "it",
+        "is",
+        "too",
+        "long",
+        "you",
+        "need",
+        "to",
+        "pick",
+        "and",
+        "chose",
+        "the",
+        "subset",
+        "of",
+        "words",
+        "relevant",
+        "to",
+        "your",
+        "task"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Output a list that contains 200 distinct prompts, each prompt on its own line. The first prompt is item number 1, the second prompt is item number 2, etc.",
+      "uncommon_words": [
+        "contains",
+        "200",
+        "prompts",
+        "is",
+        "1",
+        "is",
+        "2"
+      ],
+      "previously_used_words": [
+        "output",
+        "a",
+        "list",
+        "that",
+        "contains",
+        "200",
+        "distinct",
+        "prompts",
+        "each",
+        "prompt",
+        "on",
+        "its",
+        "own",
+        "line",
+        "the",
+        "first",
+        "prompt",
+        "is",
+        "item",
+        "number",
+        "1",
+        "the",
+        "second",
+        "prompt",
+        "is",
+        "item",
+        "number",
+        "2",
+        "etc"
+      ],
+      "word_count": 29,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Must include each word EXACTLY AS IT APPEARS IN THE BELOW WORD LIST.",
+      "uncommon_words": [
+        "appears"
+      ],
+      "previously_used_words": [
+        "must",
+        "include",
+        "each",
+        "word",
+        "exactly",
+        "it",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Each word can only be used once. Once it is used it cannot be reused in other prompts",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "reused",
+        "prompts"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "it",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "in",
+        "prompts"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Each prompt must be exactly 4 words long",
+      "uncommon_words": [
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "prompt",
+        "must",
+        "be",
+        "exactly",
+        "4",
+        "words",
+        "long"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "The following sentence structure applies to every prompt: verb + adjective + noun + noun",
+      "uncommon_words": [
+        "applies",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "the",
+        "following",
+        "sentence",
+        "to",
+        "prompt"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Do not use AI tools or code to accomplish the task",
+      "uncommon_words": [
+        "ai",
+        "tools"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use",
+        "ai",
+        "tools",
+        "or",
+        "to",
+        "accomplish",
+        "the",
+        "task"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Do not copy and paste the entire word list in your thinking stage",
+      "uncommon_words": [
+        "paste"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "copy",
+        "and",
+        "paste",
+        "the",
+        "entire",
+        "word",
+        "list",
+        "in",
+        "your",
+        "thinking"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Return a numbered list of 300 words in your answer. Item list begins with prompt 1 and ends with prompt 300",
+      "uncommon_words": [
+        "numbered",
+        "300",
+        "words",
+        "begins",
+        "1",
+        "ends",
+        "300"
+      ],
+      "previously_used_words": [
+        "a",
+        "numbered",
+        "list",
+        "of",
+        "words",
+        "in",
+        "your",
+        "item",
+        "list",
+        "prompt",
+        "1",
+        "and",
+        "prompt"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

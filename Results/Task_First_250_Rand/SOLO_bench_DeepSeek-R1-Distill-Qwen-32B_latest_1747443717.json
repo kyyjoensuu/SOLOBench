@@ -1,0 +1,1458 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-17 05:08:20",
+  "total_sentences": 69,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 67,
+  "format_failures": 69,
+  "common_word_failures": 68,
+  "word_reuse_failures": 59,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747443717.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747443717.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Simple present with third person singular (She plays)",
+      "uncommon_words": [
+        "singular",
+        "(she",
+        "plays)"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Simple past (He went)",
+      "uncommon_words": [
+        "(he",
+        "went)"
+      ],
+      "previously_used_words": [
+        "simple"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'simple' is not a verb",
+        "Third word '(he' is not a noun",
+        "Fourth word 'went)' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Present continuous with 'be' verb (They are working.)",
+      "uncommon_words": [
+        "'be'",
+        "verb",
+        "(they",
+        "are",
+        "working)"
+      ],
+      "previously_used_words": [
+        "present",
+        "with"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Past continuous",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "past",
+        "continuous"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Future with 'will'",
+      "uncommon_words": [
+        "'will'"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Modals like 'can', 'should'",
+      "uncommon_words": [
+        "modals",
+        "'can'",
+        "'should'"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'modals' is not a verb",
+        "Third word ''can'' is not a noun",
+        "Fourth word ''should'' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Gerund vs infinitive after verbs.",
+      "uncommon_words": [
+        "gerund",
+        "infinitive",
+        "verbs"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Prepositions of time, place, direction.",
+      "uncommon_words": [
+        "prepositions"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Relative clauses.",
+      "uncommon_words": [
+        "clauses"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Conditional sentences.",
+      "uncommon_words": [
+        "conditional",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Articles: a/an/the/zero article.",
+      "uncommon_words": [
+        "articles",
+        "a/an/the/zero"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "S + V: e.g., She walks.",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "eg",
+        "walks"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "S + V + DO: He eats apples.",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "eats",
+        "apples"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "v",
+        "+"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "S + V + IO + DO: I gave him a book.",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "io",
+        "+",
+        "gave"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "+",
+        "do"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "S + V + adv phrase",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "adv"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "v",
+        "+"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "S + to be (+ adj)",
+      "uncommon_words": [
+        "s",
+        "+",
+        "(+",
+        "adj)"
+      ],
+      "previously_used_words": [
+        "s",
+        "+"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "S + V + prepositional phrase",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "prepositional"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "phrase"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "S + V + gerund",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "gerund"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "gerund"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "S + V + infinitive",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "infinitive"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "v",
+        "+",
+        "infinitive"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "S+ V with modal verbs",
+      "uncommon_words": [
+        "s+",
+        "v",
+        "modal",
+        "verbs"
+      ],
+      "previously_used_words": [
+        "v",
+        "with",
+        "verbs"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "S + have/has with past participles (perfect tense)",
+      "uncommon_words": [
+        "s",
+        "+",
+        "have/has",
+        "participles",
+        "(perfect",
+        "tense)"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "with",
+        "past"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "S + was/were + -ing (past continuous)",
+      "uncommon_words": [
+        "s",
+        "+",
+        "was/were",
+        "+",
+        "-ing",
+        "(past",
+        "continuous)"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "+"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "S + V1 until when clause (time clauses)",
+      "uncommon_words": [
+        "s",
+        "+",
+        "v1",
+        "clause",
+        "(time",
+        "clauses)"
+      ],
+      "previously_used_words": [
+        "s",
+        "+"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "S + if condition + then clause (conditional sentences)",
+      "uncommon_words": [
+        "s",
+        "+",
+        "+",
+        "clause",
+        "(conditional",
+        "sentences)"
+      ],
+      "previously_used_words": [
+        "s",
+        "+",
+        "+",
+        "clause"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "S + although/causes",
+      "uncommon_words": [
+        "s",
+        "+",
+        "although/causes"
+      ],
+      "previously_used_words": [
+        "s",
+        "+"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "S + direct question (yes/no or WH)",
+      "uncommon_words": [
+        "s",
+        "+",
+        "(yes/no",
+        "wh)"
+      ],
+      "previously_used_words": [
+        "s",
+        "+"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "S + reported speech/indirect command",
+      "uncommon_words": [
+        "s",
+        "+",
+        "reported",
+        "speech/indirect"
+      ],
+      "previously_used_words": [
+        "s",
+        "+"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "There is/there are",
+      "uncommon_words": [
+        "is/there",
+        "are"
+      ],
+      "previously_used_words": [
+        "are"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "It + be + adj/noun phrase",
+      "uncommon_words": [
+        "+",
+        "+",
+        "adj/noun"
+      ],
+      "previously_used_words": [
+        "+",
+        "be",
+        "+",
+        "phrase"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Use of articles",
+      "uncommon_words": [
+        "articles"
+      ],
+      "previously_used_words": [
+        "of",
+        "articles"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Passive voice constructions.",
+      "uncommon_words": [
+        "passive",
+        "constructions"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "The honest worker carefully assembled the parts for the new machine.",
+      "uncommon_words": [
+        "assembled",
+        "parts"
+      ],
+      "previously_used_words": [],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "She averaged the scores quickly to determine the winner.",
+      "uncommon_words": [
+        "averaged",
+        "scores"
+      ],
+      "previously_used_words": [
+        "she",
+        "the",
+        "to",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "He is currently educating himself on sustainable energy solutions.",
+      "uncommon_words": [
+        "is",
+        "educating",
+        "solutions"
+      ],
+      "previously_used_words": [
+        "he"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "The company was restricting access to sensitive data during peak hours.",
+      "uncommon_words": [
+        "was",
+        "restricting",
+        "hours"
+      ],
+      "previously_used_words": [
+        "the",
+        "to"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "The organization was restricting the use of substantial resources last year.",
+      "uncommon_words": [
+        "was",
+        "restricting",
+        "resources"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "restricting",
+        "the",
+        "use",
+        "of"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "I will pursue this opportunity as soon as possible under the current conditions.",
+      "uncommon_words": [
+        "will",
+        "conditions"
+      ],
+      "previously_used_words": [
+        "i",
+        "the"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "He can reform the structure effectively to enhance project clarity.",
+      "uncommon_words": [
+        "can",
+        "clarity"
+      ],
+      "previously_used_words": [
+        "he",
+        "the",
+        "to"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "She likes emphasizing the importance of equality in the workplace.",
+      "uncommon_words": [
+        "likes",
+        "emphasizing"
+      ],
+      "previously_used_words": [
+        "she",
+        "the",
+        "of",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "They need to implement these changes to maintain compliance with regulations.",
+      "uncommon_words": [
+        "changes",
+        "regulations"
+      ],
+      "previously_used_words": [
+        "to",
+        "to",
+        "with"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "It seems substantial progress has been made in reducing carbon emissions.",
+      "uncommon_words": [
+        "seems",
+        "has",
+        "been",
+        "made",
+        "reducing",
+        "emissions"
+      ],
+      "previously_used_words": [
+        "it",
+        "substantial",
+        "in"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "After working late, he finally finished the report at midnight.",
+      "uncommon_words": [
+        "finished"
+      ],
+      "previously_used_words": [
+        "after",
+        "he",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "She placed the\u6587\u4ef6 on her desk for easy access during the meeting.",
+      "uncommon_words": [
+        "placed",
+        "the\u6587\u4ef6"
+      ],
+      "previously_used_words": [
+        "she",
+        "on",
+        "for",
+        "access",
+        "during",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "The book that she read last night was very interesting.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "book",
+        "she",
+        "last",
+        "was"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "So, they decided to prioritize team collaboration to achieve organizational goals effectively.",
+      "uncommon_words": [
+        "decided",
+        "prioritize",
+        "goals"
+      ],
+      "previously_used_words": [
+        "they",
+        "to",
+        "to",
+        "effectively"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "If you study regularly, you will perform well in the exams.",
+      "uncommon_words": [
+        "will",
+        "exams"
+      ],
+      "previously_used_words": [
+        "if",
+        "will",
+        "in",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "The manager said, \"Employees should maintain a high level of professionalism.\"",
+      "uncommon_words": [
+        "said",
+        "\"employees",
+        "should",
+        "professionalism\""
+      ],
+      "previously_used_words": [
+        "the",
+        "maintain",
+        "a",
+        "of"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "It is important to communicate clearly when working in a team environment.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "it",
+        "is",
+        "to",
+        "when",
+        "working",
+        "in",
+        "a",
+        "team"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "There are numerous benefits associated with adopting renewable energy solutions.",
+      "uncommon_words": [
+        "are",
+        "benefits",
+        "adopting",
+        "renewable",
+        "solutions"
+      ],
+      "previously_used_words": [
+        "there",
+        "are",
+        "with",
+        "energy",
+        "solutions"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "The manager seemed confident about the company's future growth plans.",
+      "uncommon_words": [
+        "seemed",
+        "company's",
+        "plans"
+      ],
+      "previously_used_words": [
+        "the",
+        "manager",
+        "the",
+        "future"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "You should consider taking a break to recharge your batteries and improve productivity.",
+      "uncommon_words": [
+        "should",
+        "taking",
+        "recharge",
+        "batteries"
+      ],
+      "previously_used_words": [
+        "you",
+        "should",
+        "a",
+        "to"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "A new product was developed by the research team last quarter.",
+      "uncommon_words": [
+        "was",
+        "developed"
+      ],
+      "previously_used_words": [
+        "a",
+        "new",
+        "was",
+        "the",
+        "team",
+        "last"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "**Simple Present**: The honest worker carefully assembles the parts for the new machine.",
+      "uncommon_words": [
+        "**simple",
+        "present**",
+        "assembles",
+        "parts"
+      ],
+      "previously_used_words": [
+        "the",
+        "honest",
+        "worker",
+        "carefully",
+        "the",
+        "parts",
+        "for",
+        "the",
+        "new",
+        "machine"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "**Simple Past**: She averaged the scores quickly to determine the winner.",
+      "uncommon_words": [
+        "**simple",
+        "past**",
+        "averaged",
+        "scores"
+      ],
+      "previously_used_words": [
+        "**simple",
+        "she",
+        "averaged",
+        "the",
+        "scores",
+        "quickly",
+        "to",
+        "determine",
+        "the",
+        "winner"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "**Present Continuous**: He is educating himself on sustainable energy solutions.",
+      "uncommon_words": [
+        "**present",
+        "continuous**",
+        "is",
+        "educating",
+        "solutions"
+      ],
+      "previously_used_words": [
+        "he",
+        "is",
+        "educating",
+        "himself",
+        "on",
+        "sustainable",
+        "energy",
+        "solutions"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "**Past Continuous**: The organization was restricting access to resources during peak hours.",
+      "uncommon_words": [
+        "**past",
+        "continuous**",
+        "was",
+        "restricting",
+        "resources",
+        "hours"
+      ],
+      "previously_used_words": [
+        "continuous**",
+        "the",
+        "organization",
+        "was",
+        "restricting",
+        "access",
+        "to",
+        "resources",
+        "during",
+        "peak",
+        "hours"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "**Future with 'will'**: I will pursue this opportunity as soon as possible.",
+      "uncommon_words": [
+        "**future",
+        "'will'**",
+        "will"
+      ],
+      "previously_used_words": [
+        "with",
+        "i",
+        "will",
+        "pursue",
+        "this",
+        "opportunity",
+        "as",
+        "soon",
+        "as",
+        "possible"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "**Modal Verb**: He can reform the structure effectively to enhance clarity.",
+      "uncommon_words": [
+        "**modal",
+        "verb**",
+        "can",
+        "clarity"
+      ],
+      "previously_used_words": [
+        "he",
+        "can",
+        "reform",
+        "the",
+        "structure",
+        "effectively",
+        "to",
+        "enhance",
+        "clarity"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "**Gerund after Verb**: She likes emphasizing the importance of equality.",
+      "uncommon_words": [
+        "**gerund",
+        "verb**",
+        "likes",
+        "emphasizing"
+      ],
+      "previously_used_words": [
+        "after",
+        "verb**",
+        "she",
+        "likes",
+        "emphasizing",
+        "the",
+        "importance",
+        "of",
+        "equality"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "**Infinitive after Verb**: They need to implement these changes to maintain compliance.",
+      "uncommon_words": [
+        "**infinitive",
+        "verb**",
+        "changes"
+      ],
+      "previously_used_words": [
+        "after",
+        "verb**",
+        "they",
+        "need",
+        "to",
+        "implement",
+        "these",
+        "changes",
+        "to",
+        "maintain",
+        "compliance"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "**Linking Verb with Adjective**: It seems substantial progress has been made.",
+      "uncommon_words": [
+        "**linking",
+        "verb",
+        "adjective**",
+        "seems",
+        "has",
+        "been",
+        "made"
+      ],
+      "previously_used_words": [
+        "verb",
+        "with",
+        "it",
+        "seems",
+        "substantial",
+        "progress",
+        "has",
+        "been",
+        "made"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "**Prepositional Time Phrase**: After working late, she finished the report at midnight.",
+      "uncommon_words": [
+        "**prepositional",
+        "phrase**",
+        "finished"
+      ],
+      "previously_used_words": [
+        "time",
+        "after",
+        "working",
+        "late",
+        "she",
+        "finished",
+        "the",
+        "report",
+        "at",
+        "midnight"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "**Relative Clause**: The book that she read last night was very interesting.",
+      "uncommon_words": [
+        "**relative",
+        "clause**",
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "book",
+        "that",
+        "she",
+        "read",
+        "last",
+        "night",
+        "was",
+        "very",
+        "interesting"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "**Adverbial Consequence Clause**: So, they decided to prioritize team collaboration.",
+      "uncommon_words": [
+        "**adverbial",
+        "clause**",
+        "decided",
+        "prioritize"
+      ],
+      "previously_used_words": [
+        "clause**",
+        "so",
+        "they",
+        "decided",
+        "to",
+        "prioritize",
+        "team",
+        "collaboration"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "**First Conditional**: If you study regularly, you will perform well in exams.",
+      "uncommon_words": [
+        "**first",
+        "conditional**",
+        "will",
+        "exams"
+      ],
+      "previously_used_words": [
+        "if",
+        "you",
+        "study",
+        "regularly",
+        "you",
+        "will",
+        "perform",
+        "well",
+        "in",
+        "exams"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "**Direct Speech**: The manager said, \"Employees should maintain professionalism.\"",
+      "uncommon_words": [
+        "**direct",
+        "speech**",
+        "said",
+        "\"employees",
+        "should",
+        "professionalism\""
+      ],
+      "previously_used_words": [
+        "the",
+        "manager",
+        "said",
+        "\"employees",
+        "should",
+        "maintain",
+        "professionalism\""
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "**Expletive 'It'**: It is important to communicate clearly in a team.",
+      "uncommon_words": [
+        "**expletive",
+        "'it'**",
+        "is"
+      ],
+      "previously_used_words": [
+        "it",
+        "is",
+        "important",
+        "to",
+        "communicate",
+        "clearly",
+        "in",
+        "a",
+        "team"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "**There + Be Construction**: There are numerous benefits with renewable energy.",
+      "uncommon_words": [
+        "**there",
+        "+",
+        "construction**",
+        "are",
+        "benefits",
+        "renewable"
+      ],
+      "previously_used_words": [
+        "+",
+        "be",
+        "there",
+        "are",
+        "numerous",
+        "benefits",
+        "with",
+        "renewable",
+        "energy"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "**Passive Voice**: A new product was developed by the research team last quarter.",
+      "uncommon_words": [
+        "**passive",
+        "voice**",
+        "was",
+        "developed"
+      ],
+      "previously_used_words": [
+        "a",
+        "new",
+        "product",
+        "was",
+        "developed",
+        "by",
+        "the",
+        "research",
+        "team",
+        "last",
+        "quarter"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

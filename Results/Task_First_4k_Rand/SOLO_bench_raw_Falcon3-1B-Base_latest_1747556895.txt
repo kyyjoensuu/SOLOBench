@@ -1,0 +1,144 @@
+
+tribe
+businessman
+shocking
+strive
+deter
+desperate
+costal
+dream
+hasten
+stray
+revenge
+malignant
+unrest
+courage
+devil
+fugue
+purse
+cling
+pledge
+palliative
+harpoon
+wander
+scandalous
+peril
+nervously
+shocking
+fluctuate
+numb
+beneath
+limp
+mischievous
+revere
+thoroughly
+enlist
+stressed
+censor
+unjust
+sordid
+dread
+dignity
+pessimism
+chilly" ) .  ```
+   
+   @param <?php // for security reasons you can remove this
+    $this->get_session()->is_logout(); ?>);
+}
+
+class User extends SvcUserClass<?>$this; :
+
+    @author Srikrishna Rao   
+public function __construct()
+{
+    parent::__construct();
+   // set all required fields
+
+}
+
+      public function session(Closure[] $sessions)
+        $this->request->saveSession(get_var('session'));
+      $this->request->hasSession();
+          if(!isset($_SESSION)){	
+            $self->initialize();
+            $self = new User;
+            exit;}}
+
+[more code blocks...][more code block]
+
+**Comment:**
+
+This method allows a session to be persisted after the connection with the database has been dropped for several reasons. One such reason could be when the database, in this case mysqli, is not currently alive. Another factor may be for performance optimizations which allow sessions to be retained even if an attempt is made to drop them prematurely.
+
+**The Role of Sessions and Persistence:**
+
+Sessions are crucial for maintaining user session on a website—essentially, storing login details, preferences, or temporary data that needs to last until further interaction. When using the PHP function `session_start()`, it starts this feature allowing the web page to create and manage user sessions via session ID.
+
+The session identifier (`$_SESSION`) is used in various functions throughout the application. However, due to its unpredictable lifespan upon termination, a simple save-commit operation does not always ensure successful persistence of individual sessions. This is why the method discussed in this snippet provides another safeguard against losing all active sessions simultaneously by first checking if any session exists before proceeding with saving the current one."
+### Questions and Answers
+
+1. **Question:** What are session IDs used for in web applications, according to the PHP extract provided?
+   - **Answer:** Session IDs are used to identify individual users within a single browsing session on websites. This identifier is then passed along to various functions as arguments to create unique sessions or to identify which user accessed particular pages. By maintaining session IDs across multiple actions and links, site administrators can distinguish between different users for personalization or data tracking purposes.
+
+2. **Question:** In the context of PHP session management, why is it necessary for this code block to include a check using `$this->session` before adding data within it?
+   - **Answer:** The check using `$this->session` prevents the addition of content that doesn't have a specific session associated with it. Session data can only be added when there is already a connection established as per the active user session, thus ensuring consistency in how users are authenticated and treated across different parts of a web application."
+
+3. **Question:** What does the check `if(!isset($_SESSION)){	// if no session exists, initialize...}` do?
+   - **Answer:** This line checks whether the user’s current session is not already loaded before adding any new session data to that user. When there's no session associated with a particular request, such operations will fail with errors on some platforms. By preventing this initialization under such conditions, this code block guarantees that every newly added data (i.e., the new user) has a fully initialized and active session.
+
+4. **Question:** Why might it be beneficial for a software framework to implement this type of validation?
+   - **Answer:** Implementing such validations ensures application robustness by:
+     * **Enhancing user experience:** Users won't see unexpected error messages on forms or interactive elements that do not require session data, providing more seamless interaction.
+     * **Ensuring consistent behavior:** Sessions allow for the persistence of state and preferences between different parts of an application that share a single login identity.
+     * **Preventing security vulnerabilities:** By only loading session data when they are needed, this practice helps avoid exposing sensitive information or storing inactive sessions, which might lead to sessions being hijacked by malicious code or stored for too long.
+
+5. **Question:** In what scenarios might you need the ability to persist user sessions from one page to another, and how can this scenario be implemented with conditional checks?
+   - **Answer:** Persisting a user session between pages is necessary when you want users to:
+     * Log in to multiple parts of your application independently without remembering the same set of credentials.
+     * Access their personalization data and settings saved for that session across different pages or sections of the website which are not directly linked in their URLs.
+   - Example implementation: In such cases, instead of simply saving new user's ID on each page, an AJAX call is sent back to the server that runs JavaScript code to check whether a session with that specific identifier exists. If a viable session is found, all necessary data (such as cookies) from the last active session can be loaded onto the current page where the user wants to continue their interaction."
+   - Implementation typically involves a:
+     * Query to validate sessions upon login or navigation changes.
+     * Conditional check in the JavaScript function that determines if the requested URL matches any currently available session records.
+     * If no such records exist, perform operations associated with new session creation, e.g., adding cookies to the request headers, then persist those for future use by redirecting to either a login page or specific pages using AJAX requests."
+   - This method avoids direct user data access and ensures that session information is managed correctly in complex, dynamic web application environments.
+    ```php
+    // Example code snippet for URL validation against existing sessions
+    function validate_session() {
+        $server_side = config()->get('session');
+        if (!$GLOBALS['this-object']['session']) {
+            // Create a new session or get the current one here, possibly via AJAX request to persist it across different pages.
+            session_start();
+        } else {
+            $this->request->setHasSession(true);  // Set up the required attributes for persistence and access on different pages or sessions.
+        }
+    }
+    var_dump((new stdClass()) as Object);
+    if ($this-object->session) { /* Assuming a custom structure exists within User class to maintain context for the current session */
+        if (!$GLOBALS['this-object']->session) {  
+            // Call code to initialize fresh sessions on every page request which has not already been established in the database or environment.
+        }
+    }
+    ```
+    This method integrates with PHP's session data in a flexible, robust, and secure manner for your application."
+The above answers are general in interpretation due to the content of the extract and lack of clear context about 'Srikrishna Rao'. The given question seems to be based on PHP programming concepts around session handling in a web application. Each part elaborates on why it's necessary, how it is implemented, and its benefits, providing a framework for answering similar questions related to session management in PHP applications."
+### Additional Questions and Answers (Based on PHP Concepts):
+
+1) **Question:** What is the purpose of the `session_start();` function call before adding data within an existing user's session?
+   - **Answer:** The purpose of `session_start()` in PHP is to ensure that the current PHP environment is used to initialize the session, even if a PHP script attempts to create sessions from another language or environment. This helps in handling PHP errors and making sure that sessions are managed correctly under all circumstances.
+
+2) **Question:** Explain the significance of the check `if(!isset($_SESSION)){	// if no session exists, initialize...}` in preventing application crashes when a user attempts to access new content.
+   - **Answer:** This check is crucial as it ensures that every interaction begins with a full and fully initialized session. Without this check, if a user accesses the page after an existing session has been created but lost during that process, PHP might fail in creating a new session without encountering errors due to missing or corrupted sessions."
+
+3) **Question:** What are the steps involved in the method provided for persisting user sessions from one page to another or to multiple pages?
+   - **Answer:** The method provided involves several steps:
+     * Checking if there's a session by validating it upon request using `$this->session`. This is checked against whether any valid session with a given `id` exists.
+     * If there’s no such session, new data such as cookies need to be loaded onto the page for the corresponding id from a database or environment. Typically this involves making an AJAX call back to the server which runs these operations."
+   - This includes validating every time a request is made and ensuring that relevant data is saved at appropriate points in the process where needed, while preserving the state of user sessions across multiple pages of the website without causing errors."
+
+4) **Question:** How does an AJAX call facilitate session persistence between pages?
+   - **Answer:** An AJAX (Asynchronous JavaScript and XML) call is a method that utilizes HTTP requests to asynchronously load data from another server into a web page, without requiring the page to reload. In this context, it can be used for persisting user session information by sending this data in an XMLHttpRequest to another PHP script or backend application which runs the logic of the persistence operation. This allows session data such as cookies and other attributes to be sent in a format that enables them to persist across multiple page loads, without needing to send page reload requests, thus avoiding potential errors due to missing sessions by browser or server settings."
+   - In more detail: `ajax("server", function(XMLHttpRequest) { // send AJAX request here })(http://localhost/someURL/"path"/"name"));` where the server will perform any necessary business logic that's needed for session persistence. The result of this operation is a data object which can then be stored in cookies, sent through query strings, or included in headers and used to maintain user sessions across different pages on the web site."
+5) **Question:** Why would you choose to include session control in your application's setup process?
+   - **Answer:** Including session handling in the initial setup of an application can provide several benefits. Firstly, it ensures that each user's session is securely managed internally within the application rather than relying on external factors like cookies which could be lost or corrupted by security or browser settings. This enhances the overall reliability and stability of your application. Secondly, it streamlines handling by centralizing session control in a single location, which simplifies development efforts and maintenance processes. And also, enabling developers to use common session management practices consistently across different pages of the website without having to maintain separate code for each instance."
+  

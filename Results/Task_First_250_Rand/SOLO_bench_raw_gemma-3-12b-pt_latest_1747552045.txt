@@ -1,0 +1,590 @@
+
+re
+sustain
+re
+in
+re
+reassure
+reassure
+reassure
+re
+reassure
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+the themselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+the themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+the themselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+the themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+the themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+theirselves
+theirselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves
+themselves<start_of_image>```In []:
+```python
+class SentenceMaker:
+  def __init__(self, sentence_count:int, wordlist:list):
+    self.sentence_count = sentence_count
+    self.word_list = wordlist
+    self.used_words = []
+    self.sentences = []
+    
+  def _random_int(self,low:int,high:int):
+    from random import randint
+    return randint(low,high)
+  
+  def _get_un_used_word(self)->list:
+    avail_words = [word for word in self.word_list if word not in self.used_words]
+    from random import choice
+    return choice(avail_words)
+  
+  def construct_sentence(self)->list:
+    from random import choice
+    word_indexes = ['verb','adjective','noun','noun']
+    while len(self.sentences) < self.sentence_count:
+      sentence = ''
+      for i in word_indexes:
+        #check if used words contains any words with the given property
+        if len([w for w in self.used_words if w[0] == i.lower()]) < 6:
+          word = self._get_un_used_word()
+        else:
+          #get first unused word from a given property
+          for c in [w for w in self.word_list if w[0] == i.lower()]:
+            if c not in self.used_words:
+              word = c
+              break
+        self.used_words.append(word)
+        sentence+=word
+        sentence+=' '
+      self.sentences.append(sentence)
+    return self.sentences
+
+def create_sentence_maker(inputfile:str)->str:
+  #create sentence maker
+  from sentence_maker import SentenceMaker
+  with open(inputfile,'r') as f:
+      word_stream=(w.rstrip('\n') for w in f)
+  word_list = [w for w in word_stream]
+  if len(inputfile) < 4:
+    sentence_count = 20
+  else:
+    sentence_count = int(inputfile[-3:-1])
+  sentence_maker = SentenceMaker(sentence_count=sentence_count,
+                 wordlist=wordlist)
+  #get sentences
+  output = sentence_maker.construct_sentence()
+  output = '\n'.join(output)
+
+  with open(output,'wb') as w:
+      w.write(output)
+  return output
+  
+
+```
+
+In []:
+```python
+output = create_sentence_maker('/content/words.txt')
+print(output)
+
+```
+
+In []:
+```python
+create_sentence_maker('/content/words-large.txt')
+
+```
+
+In []:
+# Challenge: Generate 10 more sets of words, then use the previous code to create 1000 sentences about one of these topics.
+
+In []:
+```python
+def create_word_list(inputfile:str,outputfile:str):
+  from random import choice
+  with open(inputfile,'r') as f:
+      word_stream=(w.rstrip('\n') for w in f)
+
+  def split_words(word_stream):
+    return [w.split() for w in word_stream]
+  def remove_duplicates(sentence:list)->list:
+    return [w for i,w in enumerate(sentence) if w not in sentence[i+1:]]
+            
+  def filter_sentences(split_sentence:list):
+      #split each word in the sentence and return the first letter of the word
+      word_list = split_words(split_sentence)
+      sentences = []
+      for w in word_list:
+        #remove duplicates
+        w = remove_duplicates(w)
+        #get rid of single word sentences, add the first letter 
+        #of the sentence to the list
+        if len(w) > 3:
+          w = w[0]
+          sentences.append(w)
+      return sentences
+
+  output = filter_sentences(word_stream)
+  with open(output,'wb') as w:
+      w.write(output)
+  return output
+
+create_word_list('content/words-example.txt','content/new_list')
+
+```
+
+Out []:
+```output
+
+```
+
+In []:
+```python
+#create sentence maker
+from sentence_maker import SentenceMaker
+with open(inputfile,'r') as f:
+    word_stream=(w.rstrip('\n') for w in f)
+
+
+def sentence_maker(inputfile)
+if len(inputfile) < 2:
+  sentence_count = 20
+
+output = sentence_maker('/content/new_list')
+print(output)
+
+```
+
+In []:
+This is a challenge which could lead to an entirely different challenge...
+# Challenge: Write your own version of the algorithm in a new notebook for creating sentences. 
+
+Use any number of tools that you would like. The goal is to provide a solution with the fewest amount of tokens possible.

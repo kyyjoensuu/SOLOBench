@@ -10,7 +10,7 @@ directory = os.path.dirname(__file__)
 results = {}
 
 # Get all result directories
-result_dirs = glob.glob(os.path.join(directory, 'Results', '*'))
+result_dirs = glob.glob(os.path.join(directory, 'Results', '*Rand'))
 
 # Process each result directory
 for result_dir in result_dirs:
@@ -57,7 +57,7 @@ df = df.sort_values('avg_score', ascending=False)
 df = df.drop('avg_score', axis=1)
 
 # Save to CSV
-output_file = os.path.join(directory, 'benchmark_results.csv')
+output_file = os.path.join(directory, 'benchmark_results_rand.csv')
 df.to_csv(output_file)
 print(f'Results saved to {output_file}')
 

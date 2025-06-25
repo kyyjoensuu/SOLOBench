@@ -1,0 +1,46 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-16 00:32:22",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_100/SOLO_bench_raw_gemma-3-1b-pt_latest_1747344709.txt",
+  "formatted_output_file": "Results/Task_After_100/SOLO_bench_gemma-3-1b-pt_latest_1747344709.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Each sentence must be between 8 and 13 tokens",
+      "uncommon_words": [
+        "8",
+        "13",
+        "tokens"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not use any whitespace between your sentences",
+      "uncommon_words": [
+        "whitespace",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "between"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "model": "DeepHermes-3-Mistral-24B-Preview:latest",
+  "label": "2025-05-18 03:22:03",
+  "total_sentences": 40,
+  "perfect_sentences": 5,
+  "score_percentage": 12.5,
+  "word_count_failures": 7,
+  "format_failures": 34,
+  "common_word_failures": 27,
+  "word_reuse_failures": 11,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_DeepHermes-3-Mistral-24B-Preview_latest_1747526585.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_DeepHermes-3-Mistral-24B-Preview_latest_1747526585.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Begin lovely childhood wonder",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Create essential modern kitchen",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Design creative innovative technology",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'innovative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Destroy ancient historical monument",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'historical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Drink cold refreshing lemonade",
+      "uncommon_words": [
+        "refreshing",
+        "lemonade"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'refreshing' is not a noun",
+        "Fourth word 'lemonade' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Enjoy peaceful relaxing retreat",
+      "uncommon_words": [
+        "relaxing"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'relaxing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Explore vast infinite universe",
+      "uncommon_words": [
+        "infinite"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'infinite' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Follow strict religious doctrine",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Generate unique personal brand",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Implement effective communication strategy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Launch spectacular firework display",
+      "uncommon_words": [
+        "firework"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'firework' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Manipulate complex financial market",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Nurture delicate young sapling",
+      "uncommon_words": [
+        "nurture",
+        "sapling"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'nurture' is not a verb",
+        "Fourth word 'sapling' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Operate powerful industrial machine [Note: Adjective comes after verb!]",
+      "uncommon_words": [
+        "[note",
+        "adjective",
+        "comes",
+        "verb]"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Pursue challenging career path",
+      "uncommon_words": [
+        "challenging"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'challenging' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Remember distant childhood memories",
+      "uncommon_words": [
+        "memories"
+      ],
+      "previously_used_words": [
+        "childhood"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'memories' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Settle peaceful mountain village",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "peaceful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Solve complex mathematical equation",
+      "uncommon_words": [
+        "mathematical"
+      ],
+      "previously_used_words": [
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'mathematical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Transform ordinary everyday life",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'everyday' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Uncover ancient archaeological site [Note: Adjective comes after verb!]",
+      "uncommon_words": [
+        "archaeological",
+        "[note",
+        "adjective",
+        "comes",
+        "verb]"
+      ],
+      "previously_used_words": [
+        "ancient",
+        "[note",
+        "adjective",
+        "comes",
+        "after",
+        "verb]"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Utilize advanced search algorithm",
+      "uncommon_words": [
+        "algorithm"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'algorithm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Validate scientific breakthrough results",
+      "uncommon_words": [
+        "validate",
+        "breakthrough",
+        "results"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'validate' is not a verb",
+        "Third word 'breakthrough' is not a noun",
+        "Fourth word 'results' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Weave intricate beautiful tapestry",
+      "uncommon_words": [
+        "intricate",
+        "tapestry"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'intricate' is not an adjective",
+        "Third word 'beautiful' is not a noun",
+        "Fourth word 'tapestry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Xerox important business documents",
+      "uncommon_words": [
+        "xerox",
+        "documents"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'xerox' is not a verb",
+        "Fourth word 'documents' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Yearn distant forgotten homeland",
+      "uncommon_words": [
+        "yearn",
+        "forgotten"
+      ],
+      "previously_used_words": [
+        "distant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'yearn' is not a verb",
+        "Third word 'forgotten' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Zap dangerous enemy targets [Note: Adjective comes after verb!]",
+      "uncommon_words": [
+        "zap",
+        "targets",
+        "[note",
+        "adjective",
+        "comes",
+        "verb]"
+      ],
+      "previously_used_words": [
+        "[note",
+        "adjective",
+        "comes",
+        "after",
+        "verb]"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Build sturdy wooden structure",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective",
+        "Third word 'wooden' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Capture clear colorful photograph",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'colorful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Develop sophisticated AI system",
+      "uncommon_words": [
+        "ai"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ai' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Execute precise surgical procedure",
+      "uncommon_words": [
+        "surgical"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'surgical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Fabricate high-quality custom furniture",
+      "uncommon_words": [
+        "fabricate",
+        "high-quality"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fabricate' is not a verb",
+        "Second word 'high-quality' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Generate enormous digital data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "generate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'digital' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Harvest fresh juicy berries",
+      "uncommon_words": [
+        "juicy",
+        "berries"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'juicy' is not a noun",
+        "Fourth word 'berries' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Identify rare precious gemstone",
+      "uncommon_words": [
+        "gemstone"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'precious' is not a noun",
+        "Fourth word 'gemstone' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Illustrate vivid detailed painting [Note: Adjective comes after verb!]",
+      "uncommon_words": [
+        "vivid",
+        "[note",
+        "adjective",
+        "comes",
+        "verb]"
+      ],
+      "previously_used_words": [
+        "[note",
+        "adjective",
+        "comes",
+        "after",
+        "verb]"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Juggle bright colorful balls skillfully",
+      "uncommon_words": [
+        "juggle",
+        "balls",
+        "skillfully"
+      ],
+      "previously_used_words": [
+        "colorful"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Knead soft fluffy bread dough",
+      "uncommon_words": [
+        "knead",
+        "fluffy"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Launch successful political campaign",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "launch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'political' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Master complex martial art techniques [Adjective comes after verb in this case]",
+      "uncommon_words": [
+        "martial",
+        "techniques",
+        "[adjective",
+        "comes",
+        "verb",
+        "case]"
+      ],
+      "previously_used_words": [
+        "complex",
+        "comes",
+        "after"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Navigate confusing city streets",
+      "uncommon_words": [
+        "navigate",
+        "confusing",
+        "streets"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'navigate' is not a verb",
+        "Second word 'confusing' is not an adjective",
+        "Fourth word 'streets' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-15 20:09:57",
+  "total_sentences": 5,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 5,
+  "common_word_failures": 5,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_gemma-3-1b-pt_latest_1747328685.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_gemma-3-1b-pt_latest_1747328685.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Must be 200 words or more in length to count",
+      "uncommon_words": [
+        "200",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Do not input all the sentences in one go. This will slow down your task and can lead to incorrect outputs",
+      "uncommon_words": [
+        "sentences",
+        "will",
+        "can",
+        "incorrect",
+        "outputs"
+      ],
+      "previously_used_words": [
+        "in",
+        "to"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Be specific, explain each word in detail and give examples where necessary to ensure your work is understood",
+      "uncommon_words": [
+        "examples",
+        "is",
+        "understood"
+      ],
+      "previously_used_words": [
+        "be",
+        "in",
+        "and",
+        "to",
+        "your"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Only use one word at a time to keep from being distracted by the word before and after",
+      "uncommon_words": [
+        "distracted"
+      ],
+      "previously_used_words": [
+        "one",
+        "word",
+        "to",
+        "the",
+        "word",
+        "and"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "No spaces should be used between the words or between the words and the sentences",
+      "uncommon_words": [
+        "spaces",
+        "should",
+        "words",
+        "words",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "be",
+        "the",
+        "words",
+        "or",
+        "the",
+        "words",
+        "and",
+        "the",
+        "sentences"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

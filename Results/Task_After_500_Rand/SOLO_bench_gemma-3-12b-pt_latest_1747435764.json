@@ -1,0 +1,1463 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-17 02:07:52",
+  "total_sentences": 59,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 54,
+  "format_failures": 59,
+  "common_word_failures": 49,
+  "word_reuse_failures": 58,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747435764.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747435764.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Adore the enormous whale.",
+      "uncommon_words": [
+        "adore"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'adore' is not a verb",
+        "Second word 'the' is not an adjective",
+        "Third word 'enormous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Applaud the enormous whale.",
+      "uncommon_words": [
+        "applaud"
+      ],
+      "previously_used_words": [
+        "the",
+        "enormous",
+        "whale"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'applaud' is not a verb",
+        "Second word 'the' is not an adjective",
+        "Third word 'enormous' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "word",
+        "only",
+        "word",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Sentence structure is a verb + adjective + noun + noun (4 words).",
+      "uncommon_words": [
+        "is",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "(4",
+        "words)"
+      ],
+      "previously_used_words": [
+        "is",
+        "a"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences.",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Can use tools to help you answer the question",
+      "uncommon_words": [
+        "can",
+        "tools"
+      ],
+      "previously_used_words": [
+        "can",
+        "use",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [
+        "the",
+        "word",
+        "list",
+        "in",
+        "it",
+        "is",
+        "you"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Return only a numbered list with one sentence on each line",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "only",
+        "a",
+        "list",
+        "sentence",
+        "each"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "The beautiful apple.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "The lovely apple.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "the",
+        "apple"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Sentence structure is a verb + adjective + noun + noun (4 words).",
+      "uncommon_words": [
+        "is",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "(4",
+        "words)"
+      ],
+      "previously_used_words": [
+        "sentence",
+        "structure",
+        "is",
+        "a",
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "(4",
+        "words)"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences.",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Return ONLY a numbered list with only one sentence on each line",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "return",
+        "only",
+        "a",
+        "numbered",
+        "list",
+        "with",
+        "only",
+        "one",
+        "sentence",
+        "on",
+        "each",
+        "line"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "output",
+        "the",
+        "entire",
+        "word",
+        "list",
+        "in",
+        "your",
+        "thinking",
+        "stage",
+        "it",
+        "is",
+        "too",
+        "long",
+        "and",
+        "you",
+        "will",
+        "run",
+        "out",
+        "of",
+        "thinking",
+        "tokens"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Return ONLY a numbered list with ONLY ONE SENTENCE ON EACH LINE.",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "return",
+        "only",
+        "a",
+        "numbered",
+        "list",
+        "with",
+        "only",
+        "one",
+        "sentence",
+        "on",
+        "each",
+        "line"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Apple is awesome.",
+      "uncommon_words": [
+        "is",
+        "awesome"
+      ],
+      "previously_used_words": [
+        "apple",
+        "is"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Orange is amazing.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "is"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Sentence structure is a verb + noun + noun + noun (4 words).",
+      "uncommon_words": [
+        "is",
+        "verb",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "(4",
+        "words)"
+      ],
+      "previously_used_words": [
+        "sentence",
+        "structure",
+        "is",
+        "a",
+        "verb",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "+",
+        "noun",
+        "(4",
+        "words)"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences.",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Can use tools to help you answer the question",
+      "uncommon_words": [
+        "can",
+        "tools"
+      ],
+      "previously_used_words": [
+        "can",
+        "use",
+        "tools",
+        "to",
+        "help",
+        "you",
+        "answer",
+        "the",
+        "question"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "output",
+        "the",
+        "entire",
+        "word",
+        "list",
+        "in",
+        "your",
+        "thinking",
+        "stage",
+        "it",
+        "is",
+        "too",
+        "long",
+        "and",
+        "you",
+        "will",
+        "run",
+        "out",
+        "of",
+        "thinking",
+        "tokens"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Return only a numbered list with one sentence on each line",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "return",
+        "only",
+        "a",
+        "numbered",
+        "list",
+        "with",
+        "one",
+        "sentence",
+        "on",
+        "each",
+        "line"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Apple is delicious.",
+      "uncommon_words": [
+        "is",
+        "delicious"
+      ],
+      "previously_used_words": [
+        "apple",
+        "is"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Apple is amazing.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "apple",
+        "is",
+        "amazing"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Can use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "can",
+        "words"
+      ],
+      "previously_used_words": [
+        "can",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences.",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "can",
+        "only",
+        "be",
+        "used",
+        "once",
+        "once",
+        "a",
+        "word",
+        "is",
+        "used",
+        "it",
+        "cannot",
+        "be",
+        "re-used",
+        "in",
+        "other",
+        "sentences"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Must adhere to the below list of verb-adverb-adjective-noun sentence structure.",
+      "uncommon_words": [
+        "adhere",
+        "verb-adverb-adjective-noun"
+      ],
+      "previously_used_words": [
+        "must",
+        "to",
+        "the",
+        "below",
+        "list",
+        "of",
+        "sentence",
+        "structure"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Sentence structure is a verb + adverb + adjective + noun.",
+      "uncommon_words": [
+        "is",
+        "verb",
+        "+",
+        "adverb",
+        "+",
+        "adjective",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "sentence",
+        "structure",
+        "is",
+        "a",
+        "verb",
+        "+",
+        "+",
+        "adjective",
+        "+",
+        "noun"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Must adhere to the below list of verb + adverb + adjective + noun sentence structure.",
+      "uncommon_words": [
+        "adhere",
+        "verb",
+        "+",
+        "adverb",
+        "+",
+        "adjective",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "must",
+        "adhere",
+        "to",
+        "the",
+        "below",
+        "list",
+        "of",
+        "verb",
+        "+",
+        "adverb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "sentence",
+        "structure"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Each word is required.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "each",
+        "word",
+        "is"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'each' is not a verb",
+        "Second word 'word' is not an adjective",
+        "Third word 'is' is not a noun",
+        "Fourth word 'required' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "No duplicate words.",
+      "uncommon_words": [
+        "duplicate",
+        "words"
+      ],
+      "previously_used_words": [
+        "words"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Each sentence in the word list must have 19 characters minimum and 25 characters maximum.",
+      "uncommon_words": [
+        "19",
+        "characters",
+        "25",
+        "characters"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "in",
+        "the",
+        "word",
+        "list",
+        "must",
+        "and"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "First sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sentence",
+        "of",
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Second sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Third sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Fourth sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "The sun was shining.",
+      "uncommon_words": [
+        "was",
+        "shining"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'the' is not a verb",
+        "Second word 'sun' is not an adjective",
+        "Third word 'was' is not a noun",
+        "Fourth word 'shining' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "It was a warm day.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "it",
+        "was",
+        "a"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "John was walking home.",
+      "uncommon_words": [
+        "john",
+        "was"
+      ],
+      "previously_used_words": [
+        "was"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'john' is not a verb",
+        "Second word 'was' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "First sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "first",
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Second sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "second",
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Third sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "third",
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Fourth sentence of the story.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fourth",
+        "sentence",
+        "of",
+        "the",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Must adhere to the below-mentioned requirements:",
+      "uncommon_words": [
+        "adhere",
+        "below-mentioned",
+        "requirements"
+      ],
+      "previously_used_words": [
+        "must",
+        "adhere",
+        "to",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Can only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "can",
+        "words"
+      ],
+      "previously_used_words": [
+        "can",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "must",
+        "only",
+        "use",
+        "words",
+        "exactly",
+        "as",
+        "they",
+        "appear",
+        "in",
+        "the",
+        "below",
+        "word",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

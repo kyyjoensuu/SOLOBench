@@ -1,0 +1,177 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-16 02:39:18",
+  "total_sentences": 8,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 7,
+  "format_failures": 8,
+  "common_word_failures": 7,
+  "word_reuse_failures": 6,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_Falcon3-1B-Base_latest_1747352247.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_Falcon3-1B-Base_latest_1747352247.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Don\u2019t add any explanation at the beginning",
+      "uncommon_words": [
+        "don\u2019t"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": ") You may want to specify how many words there are in your sentence. E.g. \"I can write this whole paragraph with only one word, six syllables; if one were to be required of him to express himself on this matter clearly and succinctly.\" or even better to make it about 4-5 words. Or you may want to be able to create a word in whatever language you choose (e.g. Spanish, French, etc), so try to keep these requirements as simple as possible.",
+      "uncommon_words": [
+        ")",
+        "words",
+        "are",
+        "eg",
+        "\"i",
+        "can",
+        "paragraph",
+        "syllables",
+        "were",
+        "succinctly\"",
+        "4-5",
+        "words",
+        "(eg",
+        "etc)",
+        "requirements"
+      ],
+      "previously_used_words": [],
+      "word_count": 83,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Your vocabulary is provided as a text list. See the Examples below.",
+      "uncommon_words": [
+        "vocabulary",
+        "is",
+        "examples"
+      ],
+      "previously_used_words": [
+        "your",
+        "as",
+        "a",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "The example sentences are provided for you to see your results in real-time.",
+      "uncommon_words": [
+        "sentences",
+        "are",
+        "results",
+        "real-time"
+      ],
+      "previously_used_words": [
+        "the",
+        "are",
+        "provided",
+        "you",
+        "to",
+        "see",
+        "your",
+        "in"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "If you find them interesting, just say that because we really like you.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "if",
+        "you",
+        "you"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "- Only the list contains -e.txt file (*.gz) and cannot contain *.json or *.xml formats",
+      "uncommon_words": [
+        "-",
+        "contains",
+        "-etxt",
+        "(*gz)",
+        "cannot",
+        "*json",
+        "*xml",
+        "formats"
+      ],
+      "previously_used_words": [
+        "only",
+        "the",
+        "list",
+        "and",
+        "or"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "- Do not use any tool to achieve the task.",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "-",
+        "any",
+        "to",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "- No explanation need.",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "-",
+        "explanation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '-' is not a verb"
+      ],
+      "passes_all": false
+    }
+  ]
+}

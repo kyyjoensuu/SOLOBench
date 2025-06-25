@@ -1,0 +1,3115 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-18 05:11:41",
+  "total_sentences": 200,
+  "perfect_sentences": 21,
+  "score_percentage": 10.5,
+  "word_count_failures": 37,
+  "format_failures": 72,
+  "common_word_failures": 67,
+  "word_reuse_failures": 173,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_gemma-3-4b-it_latest_1747531976.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_gemma-3-4b-it_latest_1747531976.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Listen  Strange  Mountain  Stone",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Observe  Happy  Flower  Rose",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Create  Empty  Bottle  Glass",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Imagine  Dark  Forest  Tree",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Protect  Small  Animal  Rabbit",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Review  Bright  Page  Book",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Explain  Quiet  River  Stream",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Measure  Cold  Water  Lake",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Recall  Clear  Memory  Picture",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Support  Strong  Building  House",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Provide  Gentle  Rain  Cloud",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Exhibit  Loose  Fabric  Cloth",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Share  Swift  Bird  Sparrow",
+      "uncommon_words": [
+        "swift",
+        "sparrow"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swift' is not an adjective",
+        "Fourth word 'sparrow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Control  Heavy  Metal  Hammer",
+      "uncommon_words": [
+        "hammer"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'hammer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Inspect  Red  Fruit  Apple",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Judge  Wise  Person  Judge",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Deliver  Fresh  Produce  Basket",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Record  Silent  Music  Piano",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Accept  Solid  Rock  Stone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Train  Tough  Pup  Dog",
+      "uncommon_words": [
+        "pup"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'pup' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Manage  Sharp  Knife  Blade",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Reflect  Clean  Window  Glass",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Guide  Slow  Turtle  Shell",
+      "uncommon_words": [
+        "turtle"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'turtle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Offer  Deep  Water  Pool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "water"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Discover  Warm  Fire  Flame",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Monitor  Dark  Shadow  Tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dark",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Demand  Loose  Cord  Twine",
+      "uncommon_words": [
+        "twine"
+      ],
+      "previously_used_words": [
+        "loose"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'twine' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Repair  Broken  Tool  Item",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Define  Rare  Gem  Crystal",
+      "uncommon_words": [
+        "gem"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'gem' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Assist  Young  Student  Class",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Consider  Green  Grass  Field",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Believe  Simple  Answer  Question",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Practice  Steady  Hand  Tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Accept  Clean  Surface  Table",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "accept",
+        "clean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Notice  Dark  Region  Land",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Control  Firm  Ground  Dirt",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "control"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Provide  Light  Beam  Sun",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Observe  Wild  Animal  Wolf",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "animal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Judge  Quick  Driver  Car",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Record  Solid  Result  Gain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "solid"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Protect  Warm  Belly  Bear",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "protect",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Analyze  Quick  Solution  Problem",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "quick"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Discover  Loose  Detail  Image",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "discover",
+        "loose"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Judge  Dark  Weather  Storm",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "dark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Record  Silent  Signal  Phone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "silent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Provide  Hard  Surface  Board",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Observe  Bright  Star  Night",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Judge  Clean  Room  Floor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "clean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Record  Quiet  Moment  Pause",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "quiet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Provide  Tough  Wall  Brick",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "tough"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Observe  Deep  Pit  Cave",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "deep"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Judge  Strong  Force  Wind",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Record  Swift  Action  Race",
+      "uncommon_words": [
+        "swift"
+      ],
+      "previously_used_words": [
+        "record",
+        "swift"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swift' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Provide  Clear  Path  Trail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "clear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Observe  Wide  Valley  Land",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "land"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Judge   Light  Footstep  Path",
+      "uncommon_words": [
+        "footstep"
+      ],
+      "previously_used_words": [
+        "judge",
+        "light",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'footstep' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Record  Quiet  Response  Answer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "quiet",
+        "answer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Protect  Cold  Water  Stream",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "protect",
+        "cold",
+        "water",
+        "stream"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Observe  Warm  Family  Home",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Judge  Quick  Reaction  Event",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "quick"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Record  Quiet  Area  Place",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "quiet"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Provide  Solid  Support  Hand",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "solid",
+        "support",
+        "hand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Observe  Dark  Terrain  Hill",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Judge  Bright  Signal  Beacon",
+      "uncommon_words": [
+        "beacon"
+      ],
+      "previously_used_words": [
+        "judge",
+        "bright",
+        "signal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'beacon' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Record   Gentle Rain  Shower",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "gentle",
+        "rain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Provide  Strong  Defense  Armor",
+      "uncommon_words": [
+        "armor"
+      ],
+      "previously_used_words": [
+        "provide",
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'armor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Observe  White  Cloud  Sky",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "cloud"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Judge   Slow  Movement  Animal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "slow",
+        "animal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Record  Safe  Location  Building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "building"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Protect  Heavy  Cargo  Truck",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "protect",
+        "heavy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Observe  Clean  Surface  Stone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "clean",
+        "surface",
+        "stone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Judge  Fast  Runner  Speed",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Record  Safe  Area  Room",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "safe",
+        "area",
+        "room"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Provide   Warm  Meal  Dinner",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Observe  Clean  Table  Surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "clean",
+        "table",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Judge  Bright  Light  Sun",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "bright",
+        "light",
+        "sun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Record  Quiet  Pause  Moment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "quiet",
+        "pause",
+        "moment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Provide  Safe  Shelter  Cave",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "safe",
+        "cave"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Observe  Warm  Water  Lake",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "warm",
+        "water",
+        "lake"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Judge  Steady  Step  Path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Record  Clean  Wall  Paint",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "clean",
+        "wall"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Provide  Bright  Signal  Mirror",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "bright",
+        "signal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Observe  Hot  Fire  Flame",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "fire",
+        "flame"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Judge  Swift  Response  Action",
+      "uncommon_words": [
+        "swift"
+      ],
+      "previously_used_words": [
+        "judge",
+        "swift",
+        "response",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'swift' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Record  Safe  Rest  Place",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "safe",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Provide  Clean  Water  Bottle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "clean",
+        "water",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Observe  Warm  Shelter  Tent",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "warm",
+        "shelter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Judge  Firm  Ground  Dirt",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "firm",
+        "ground",
+        "dirt"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Record  Bright  Picture  Memory",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "picture",
+        "memory"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Provide  Slow  Motion  Film",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "slow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Observe  Clean  Window  Glass",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "clean",
+        "window",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Judge   Bright  Reflection  Mirror",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "bright",
+        "mirror"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Record   Gentle Breeze  Wind",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "gentle",
+        "wind"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Provide  Firm  Foundation  Stone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "firm",
+        "stone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Observe  Warm  Handshake  Greeting",
+      "uncommon_words": [
+        "handshake",
+        "greeting"
+      ],
+      "previously_used_words": [
+        "observe",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'handshake' is not a noun",
+        "Fourth word 'greeting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Judge   Slow  Growth  Plant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "slow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Record   Bright  Glow  Lantern",
+      "uncommon_words": [
+        "glow",
+        "lantern"
+      ],
+      "previously_used_words": [
+        "record",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'glow' is not a noun",
+        "Fourth word 'lantern' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Provide  Safe  Zone  Forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "safe",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Observe  Cold  Current  River",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "cold",
+        "river"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Judge   Fast  Vehicle  Train",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "fast",
+        "train"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Record   Bright  Display  Screen",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Provide   Warm  Hug  Comfort",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Observe   Clean  Clothing  Fabric",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "clean",
+        "fabric"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Judge   Firm  Position  Posture",
+      "uncommon_words": [
+        "posture"
+      ],
+      "previously_used_words": [
+        "judge",
+        "firm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'posture' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Record   Bright  Picture  Album",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "picture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Provide  Safe  Storage  Box",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "safe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Observe   Fresh  Fruit  Berry",
+      "uncommon_words": [
+        "berry"
+      ],
+      "previously_used_words": [
+        "observe",
+        "fresh",
+        "fruit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'berry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Judge  Soft  Touch  Feather",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Record   Clear  Direction  Map",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "clear"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Provide  Warm  Blanket  Wrap",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Observe  Dark  Tunnel  Passage",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Judge   Fast  Growth  Tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "fast",
+        "growth",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Record  Bright  Signal  Radio",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "signal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Provide  Warm  Fireplace  Hearth",
+      "uncommon_words": [
+        "fireplace",
+        "hearth"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'fireplace' is not a noun",
+        "Fourth word 'hearth' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Observe  Bright  Stars  Night",
+      "uncommon_words": [
+        "stars"
+      ],
+      "previously_used_words": [
+        "observe",
+        "bright",
+        "night"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'stars' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Judge  Steady  Hand  Craft",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "hand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Record\tQuiet\tMoment\tTime",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "quiet",
+        "moment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Provide\tWarm\tDessert\tTreat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Observe\tDark\tCorner\tRoom",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "room"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Judge\tFast\tResponse\tPhone",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "fast",
+        "response",
+        "phone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Record\tBright\tFlashlight\tLight",
+      "uncommon_words": [
+        "flashlight"
+      ],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'flashlight' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Provide\tWarm\tComfort\tBlanket",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "comfort",
+        "blanket"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Observe  Dark  Shadows  Trees",
+      "uncommon_words": [
+        "shadows",
+        "trees"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shadows' is not a noun",
+        "Fourth word 'trees' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Judge   Steady  Path  Trail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "path",
+        "trail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Record  Bright  Signal  Tower",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "signal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Provide  Warm  Welcome  Door",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Observe  Dark  Forest  Path",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "forest",
+        "path"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Judge  Steady  Hand  Tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "hand",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Record\tQuiet\tPause\tTime",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "quiet",
+        "pause",
+        "time"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Provide  Warm  Shelter  Tent",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "shelter",
+        "tent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Observe   Bright  Sign  Road",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Judge  Steady  Step  Route",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "step"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Record   Clean   Surface   Table",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "clean",
+        "surface",
+        "table"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Provide\tSafety\tArea\tPark",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "area"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safety' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Observe  Gentle  Raindrops  Sky",
+      "uncommon_words": [
+        "raindrops"
+      ],
+      "previously_used_words": [
+        "observe",
+        "gentle",
+        "sky"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'raindrops' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Judge   Firm   Ground   Dirt",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "firm",
+        "ground",
+        "dirt"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Record   Bright   Reflection - Mirror",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "reflection",
+        "mirror"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Provide   Safe    Place  Hospital",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "safe",
+        "place"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Observe   Warm   Family_Home",
+      "uncommon_words": [
+        "family_home"
+      ],
+      "previously_used_words": [
+        "observe",
+        "warm"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Judge  Steady  Hand_Tool",
+      "uncommon_words": [
+        "hand_tool"
+      ],
+      "previously_used_words": [
+        "judge",
+        "steady"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Record  Bright   Signal - Beacon",
+      "uncommon_words": [
+        "-",
+        "beacon"
+      ],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "signal",
+        "-",
+        "beacon"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Provide   Warm  Dessert - Treat",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "dessert",
+        "-",
+        "treat"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Observe  Dark_Shadows - Trees",
+      "uncommon_words": [
+        "dark_shadows",
+        "-",
+        "trees"
+      ],
+      "previously_used_words": [
+        "observe",
+        "-",
+        "trees"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dark_shadows' is not an adjective",
+        "Third word '-' is not a noun",
+        "Fourth word 'trees' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Judge   Steady   Hand  Craft",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "hand",
+        "craft"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Record\tWarm\tDessert - Ice",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "record",
+        "warm",
+        "dessert",
+        "-"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Provide   Warm  Blanket - Wrap",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "blanket",
+        "-",
+        "wrap"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Observe  Bright_Sign_Roadway",
+      "uncommon_words": [
+        "bright_sign_roadway"
+      ],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Judge   Warm  Temperature - Heat",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "judge",
+        "warm",
+        "-"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Record   Bright_Light_Screen",
+      "uncommon_words": [
+        "bright_light_screen"
+      ],
+      "previously_used_words": [
+        "record"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Provide   Safe   Storage - Box",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "safe",
+        "storage",
+        "-",
+        "box"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Observe  Clear    Path   Trail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "clear",
+        "path",
+        "trail"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Judge  Steady  Hand_Tool",
+      "uncommon_words": [
+        "hand_tool"
+      ],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "hand_tool"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Record  Clear   Path - Trail",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "record",
+        "clear",
+        "path",
+        "-",
+        "trail"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Provide  Warm   Dessert-Ice",
+      "uncommon_words": [
+        "dessert-ice"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Observe   Bright_Sign_Road",
+      "uncommon_words": [
+        "bright_sign_road"
+      ],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Judge   Warm   Temperature",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "warm",
+        "temperature"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Record   Clean   Surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "clean",
+        "surface"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Provide   Safety  Area_Park",
+      "uncommon_words": [
+        "area_park"
+      ],
+      "previously_used_words": [
+        "provide",
+        "safety"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Observe  Dark_Forest_Path",
+      "uncommon_words": [
+        "dark_forest_path"
+      ],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Judge   Warm   Temperature - Sun",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "judge",
+        "warm",
+        "temperature",
+        "-",
+        "sun"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Record   Clear_Path_Trailway",
+      "uncommon_words": [
+        "clear_path_trailway"
+      ],
+      "previously_used_words": [
+        "record"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Provide   Safety - Area_Park",
+      "uncommon_words": [
+        "-",
+        "area_park"
+      ],
+      "previously_used_words": [
+        "provide",
+        "safety",
+        "-",
+        "area_park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safety' is not an adjective",
+        "Third word '-' is not a noun",
+        "Fourth word 'area_park' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Observe  Dark_Forest_Shadows",
+      "uncommon_words": [
+        "dark_forest_shadows"
+      ],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Judge  Steady   Hand   Tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "steady",
+        "hand",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Record  Warm_Dessert_Treat",
+      "uncommon_words": [
+        "warm_dessert_treat"
+      ],
+      "previously_used_words": [
+        "record"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Provide   Warm_Area - Shelter",
+      "uncommon_words": [
+        "warm_area",
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "-",
+        "shelter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warm_area' is not an adjective",
+        "Third word '-' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Observe  Dark   Forest_Trail",
+      "uncommon_words": [
+        "forest_trail"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dark"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Judge   Strong   Warm   Sun",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "strong",
+        "warm",
+        "sun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'warm' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Record   Clean - Surface_Table",
+      "uncommon_words": [
+        "-",
+        "surface_table"
+      ],
+      "previously_used_words": [
+        "record",
+        "clean",
+        "-"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word '-' is not a noun",
+        "Fourth word 'surface_table' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Provide   Safety_Area - Park",
+      "uncommon_words": [
+        "safety_area",
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "-",
+        "park"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'safety_area' is not an adjective",
+        "Third word '-' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Observe   Dark_Shadow_Trees",
+      "uncommon_words": [
+        "dark_shadow_trees"
+      ],
+      "previously_used_words": [
+        "observe"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Judge    Warm  Temperature-Sun",
+      "uncommon_words": [
+        "temperature-sun"
+      ],
+      "previously_used_words": [
+        "judge",
+        "warm"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Record   Bright    Surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "surface"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Provide  Warm_Area - Shelter",
+      "uncommon_words": [
+        "warm_area",
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm_area",
+        "-",
+        "shelter"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'warm_area' is not an adjective",
+        "Third word '-' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Observe  Dark  Trail - Forest",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "trail",
+        "-",
+        "forest"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Judge   Warm  Temperature_Sun",
+      "uncommon_words": [
+        "temperature_sun"
+      ],
+      "previously_used_words": [
+        "judge",
+        "warm"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Record Bright Surface Area",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "surface",
+        "area"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Provide Warm Shelter Location",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "shelter",
+        "location"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Observe Dark Forest Passage",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "forest",
+        "passage"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Judge Bright Area Temperature",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "bright",
+        "area",
+        "temperature"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Record Bright Surface Roadway",
+      "uncommon_words": [
+        "roadway"
+      ],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'roadway' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Provide Warm Shelter Area",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "shelter",
+        "area"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Observe Dark Shadows Forest",
+      "uncommon_words": [
+        "shadows"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "shadows",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shadows' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Judge   Warm  Temperature - Hot",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "judge",
+        "warm",
+        "temperature",
+        "-",
+        "hot"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Record Bright Surface Road",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "surface",
+        "road"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Provide Safe Shelter Road",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "safe",
+        "shelter",
+        "road"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Observe Dark Passage Forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "passage",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Judge Warm Atmosphere Sun",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "judge",
+        "warm",
+        "sun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Record  Dark   Forest_Trails",
+      "uncommon_words": [
+        "forest_trails"
+      ],
+      "previously_used_words": [
+        "record",
+        "dark"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Provide  Warm  Area - Shelter",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "area",
+        "-",
+        "shelter"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Observe  Dark  Shadows -Trees",
+      "uncommon_words": [
+        "shadows",
+        "-trees"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dark",
+        "shadows"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shadows' is not a noun",
+        "Fourth word '-trees' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Judge   Strong  Light - Sun",
+      "uncommon_words": [
+        "-"
+      ],
+      "previously_used_words": [
+        "judge",
+        "strong",
+        "light",
+        "-",
+        "sun"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Record  Dark  Forest_Passage",
+      "uncommon_words": [
+        "forest_passage"
+      ],
+      "previously_used_words": [
+        "record",
+        "dark"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Provide  Warm - Family_Home",
+      "uncommon_words": [
+        "-",
+        "family_home"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "-",
+        "family_home"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word '-' is not a noun",
+        "Fourth word 'family_home' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Observe  Dense  Shadow  Forest",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "shadow",
+        "forest"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Judge   Warm   Temperature-  Hot",
+      "uncommon_words": [
+        "temperature-"
+      ],
+      "previously_used_words": [
+        "judge",
+        "warm",
+        "hot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'temperature-' is not a noun",
+        "Fourth word 'hot' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Record  Bright  Surface- Road",
+      "uncommon_words": [
+        "surface-"
+      ],
+      "previously_used_words": [
+        "record",
+        "bright",
+        "road"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'surface-' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Provide  Warm - Shelter- Area",
+      "uncommon_words": [
+        "-",
+        "shelter-"
+      ],
+      "previously_used_words": [
+        "provide",
+        "warm",
+        "-",
+        "area"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Observe   Dark  Forest_Path",
+      "uncommon_words": [
+        "forest_path"
+      ],
+      "previously_used_words": [
+        "observe",
+        "dark"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Judge - Bright - Hot- Weather",
+      "uncommon_words": [
+        "-",
+        "-",
+        "hot-"
+      ],
+      "previously_used_words": [
+        "judge",
+        "-",
+        "bright",
+        "-",
+        "weather"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

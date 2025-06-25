@@ -1,0 +1,71 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-15 18:45:55",
+  "total_sentences": 3,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 3,
+  "common_word_failures": 3,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_After_100/SOLO_bench_raw_gemma-3-1b-pt_latest_1747323643.txt",
+  "formatted_output_file": "Results/Task_After_100/SOLO_bench_gemma-3-1b-pt_latest_1747323643.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "You may copy and paste this file into Word, then make changes in Microsoft Word.",
+      "uncommon_words": [
+        "paste",
+        "changes",
+        "microsoft"
+      ],
+      "previously_used_words": [],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "When you are finished, save the file in your Documents folder.",
+      "uncommon_words": [
+        "are",
+        "finished",
+        "documents",
+        "folder"
+      ],
+      "previously_used_words": [
+        "you",
+        "file",
+        "in"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "You'll have unlimited access to the vocabulary word list, just click the word link to download.",
+      "uncommon_words": [
+        "you'll",
+        "unlimited",
+        "vocabulary",
+        "download"
+      ],
+      "previously_used_words": [
+        "the",
+        "word",
+        "the",
+        "word"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "model": "DeepHermes-3-Mistral-24B-Preview:latest",
+  "label": "2025-05-16 22:54:36",
+  "total_sentences": 59,
+  "perfect_sentences": 10,
+  "score_percentage": 16.94915254237288,
+  "word_count_failures": 11,
+  "format_failures": 48,
+  "common_word_failures": 38,
+  "word_reuse_failures": 20,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_DeepHermes-3-Mistral-24B-Preview_latest_1747425122.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_DeepHermes-3-Mistral-24B-Preview_latest_1747425122.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Find fragile stone skull",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Hold heavy iron armor",
+      "uncommon_words": [
+        "armor"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'armor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Chase quick silver fox",
+      "uncommon_words": [
+        "fox"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'fox' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Repair broken ceramic vase",
+      "uncommon_words": [
+        "ceramic",
+        "vase"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'ceramic' is not a noun",
+        "Fourth word 'vase' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Discover ancient bronze coin",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Eat tasty spicy pepper",
+      "uncommon_words": [
+        "tasty",
+        "spicy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tasty' is not an adjective",
+        "Third word 'spicy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Drink cold sweet grape juice",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Wear warm cotton jacket",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Read interesting old book",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Write long personal letter",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Sing happy catchy song",
+      "uncommon_words": [
+        "catchy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'catchy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Play fun exciting game",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fun' is not an adjective",
+        "Third word 'exciting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Drive fast cool car",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Fly high small plane",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Swim deep cold water",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Climb steep rocky hill",
+      "uncommon_words": [
+        "rocky"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'rocky' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Jump over tall wooden fence",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Dig deep soft garden soil",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "deep"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Plant colorful beautiful flower",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'beautiful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Build strong sturdy house",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sturdy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Paint bright pretty picture",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'pretty' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Draw long curved line",
+      "uncommon_words": [
+        "curved"
+      ],
+      "previously_used_words": [
+        "long"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'curved' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Cut straight clean edge",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Stitch tight neat seam",
+      "uncommon_words": [
+        "stitch",
+        "seam"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stitch' is not a verb",
+        "Third word 'neat' is not a noun",
+        "Fourth word 'seam' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Fold smooth shiny fabric",
+      "uncommon_words": [
+        "shiny"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shiny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Iron wrinkled cotton dress",
+      "uncommon_words": [
+        "wrinkled"
+      ],
+      "previously_used_words": [
+        "iron",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wrinkled' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Sew button on wool coat",
+      "uncommon_words": [
+        "sew",
+        "wool"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Mend torn leather bag",
+      "uncommon_words": [
+        "mend",
+        "torn"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mend' is not a verb",
+        "Second word 'torn' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Trim excess thread ends",
+      "uncommon_words": [
+        "excess",
+        "ends"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'excess' is not an adjective",
+        "Fourth word 'ends' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Bind sturdy paperback book",
+      "uncommon_words": [
+        "sturdy",
+        "paperback"
+      ],
+      "previously_used_words": [
+        "sturdy",
+        "book"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective",
+        "Third word 'paperback' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "File sharp metal blade",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Smooth rough wooden surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "smooth",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'wooden' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Sandpaper uneven paint finish",
+      "uncommon_words": [
+        "sandpaper",
+        "uneven"
+      ],
+      "previously_used_words": [
+        "paint"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sandpaper' is not a verb",
+        "Second word 'uneven' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Buff shiny chrome bumper",
+      "uncommon_words": [
+        "buff",
+        "shiny",
+        "chrome",
+        "bumper"
+      ],
+      "previously_used_words": [
+        "shiny"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'buff' is not a verb",
+        "Second word 'shiny' is not an adjective",
+        "Third word 'chrome' is not a noun",
+        "Fourth word 'bumper' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Polish tarnished brass doorknob",
+      "uncommon_words": [
+        "polish",
+        "tarnished",
+        "brass",
+        "doorknob"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Second word 'tarnished' is not an adjective",
+        "Third word 'brass' is not a noun",
+        "Fourth word 'doorknob' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Scrub grimy bathroom tile",
+      "uncommon_words": [
+        "scrub",
+        "grimy"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'scrub' is not a verb",
+        "Second word 'grimy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Mop wet kitchen floor",
+      "uncommon_words": [
+        "mop"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mop' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Sweep dirty outdoor porch",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'outdoor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Rake fallen autumn leaves",
+      "uncommon_words": [
+        "rake",
+        "fallen",
+        "autumn",
+        "leaves"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'rake' is not a verb",
+        "Second word 'fallen' is not an adjective",
+        "Third word 'autumn' is not a noun",
+        "Fourth word 'leaves' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Prune overgrown bush branches",
+      "uncommon_words": [
+        "prune",
+        "overgrown",
+        "branches"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prune' is not a verb",
+        "Second word 'overgrown' is not an adjective",
+        "Fourth word 'branches' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Trim hedges into shape",
+      "uncommon_words": [
+        "hedges"
+      ],
+      "previously_used_words": [
+        "trim"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'hedges' is not an adjective",
+        "Third word 'into' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Edge crisp stone patio stones",
+      "uncommon_words": [
+        "crisp",
+        "patio",
+        "stones"
+      ],
+      "previously_used_words": [
+        "edge",
+        "stone"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Weed overgrown garden beds",
+      "uncommon_words": [
+        "overgrown",
+        "beds"
+      ],
+      "previously_used_words": [
+        "overgrown",
+        "garden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'overgrown' is not an adjective",
+        "Fourth word 'beds' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Fertilize dying houseplant",
+      "uncommon_words": [
+        "fertilize",
+        "houseplant"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Water wilted indoor plants",
+      "uncommon_words": [
+        "wilted",
+        "indoor",
+        "plants"
+      ],
+      "previously_used_words": [
+        "water"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'wilted' is not an adjective",
+        "Third word 'indoor' is not a noun",
+        "Fourth word 'plants' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Feed hungry stray cat",
+      "uncommon_words": [
+        "stray"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'stray' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Care for injured wild bird",
+      "uncommon_words": [
+        "injured"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Treat sick small puppy",
+      "uncommon_words": [
+        "puppy"
+      ],
+      "previously_used_words": [
+        "small"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'puppy' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Heal injured woodland creature",
+      "uncommon_words": [
+        "injured",
+        "woodland"
+      ],
+      "previously_used_words": [
+        "injured"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'injured' is not an adjective",
+        "Third word 'woodland' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Adopt rescue shelter dog",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'rescue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Foster unwanted pet rabbit",
+      "uncommon_words": [
+        "unwanted"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'unwanted' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Train new service animal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Board long-haired show dog",
+      "uncommon_words": [
+        "long-haired"
+      ],
+      "previously_used_words": [
+        "dog"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'long-haired' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Shampoo flea-infested cat",
+      "uncommon_words": [
+        "shampoo",
+        "flea-infested"
+      ],
+      "previously_used_words": [
+        "cat"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Clip nails on active squirrel",
+      "uncommon_words": [
+        "nails",
+        "squirrel"
+      ],
+      "previously_used_words": [
+        "on"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Brush coat of fluffy bunny",
+      "uncommon_words": [
+        "fluffy",
+        "bunny"
+      ],
+      "previously_used_words": [
+        "coat"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Bathe matted curly piglet",
+      "uncommon_words": [
+        "bathe",
+        "matted",
+        "curly",
+        "piglet"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bathe' is not a verb",
+        "Second word 'matted' is not an adjective",
+        "Third word 'curly' is not a noun",
+        "Fourth word 'piglet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Feed hungry orphan lamb",
+      "uncommon_words": [
+        "orphan",
+        "lamb"
+      ],
+      "previously_used_words": [
+        "feed",
+        "hungry"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'orphan' is not a noun",
+        "Fourth word 'lamb' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Train new baby horse to saddle",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "train",
+        "new"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

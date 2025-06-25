@@ -1,0 +1,125 @@
+
+8. Words are separated by spaces and punctuation (comma/space)
+9. The sentence does not need to make sense but it must be grammatically correct
+10. Each word in the set MUST BE USEFUL TO THE SENTENCE that you provide. If you want me to add a word, please just ask
+Examples:
+Original Text: Words to Replace Words for Hacker Interview Questions from the previous question "What is your favorite website? What do you prefer doing for fun?" from this topic. You can use these words without changing them. Keep in mind that there are hundreds of questions about what you do not want me to add here.
+Original Text:"Word 5: This will let me see how well a candidate understands how hacking works."
+1. Choose the correct word or phrases at least once in each sentence. Try to use the same noun and verb, but if this is not possible, simply choose two related ones that don't sound like you are cheating by using them together. For example, I would choose "What do you enjoy doing?", which can be used with nouns such as playing video games for fun or listening to music online. I could also use the word "to," if we wanted a stronger association between one subject and another than their shared noun or verb; using it in this way might not only change the meaning of your question, but even alter its tone so you are not being deceptive about knowing these answers beforehand!
+2. Keep track of your own words when using a tool like GPT-3 or any other language processing algorithm. It may seem confusing at first because people often try their best when using new concepts like AI technology while writing code, research papers, etc., yet sometimes they fall into traps themselves due to overzealousness caused by having so many possibilities available to them! To avoid this problem, try breaking down each part of your sentence apart from any direct influences behind it.
+3. Don't forget about grammar and syntax rules when composing these types of sentences, especially since most current tools cannot deal well enough to handle multiple meanings within just one phrase! Sometimes you need more than two words for clarity, which will result in extra difficulty finding suitable replacements later on so do your best not to compromise upon anything.
+
+Rewrite the following code with GPT-3, replacing "numb2017.pdf" in the line below with a real-world example of a Python implementation that could be used to remove or manipulate words in large textual documents. Keep in mind that you must use Python commands and avoid any functions such as print() which may alter sentence meaning; also, try not to utilize external libraries other than those allowed according to the requirements provided!
+def remove_repeated_words(text): # Remove repeated word(s) from given text using regex pattern matching. # Text: The given string of words that need to be removed should ideally be entered as a single list containing all individual terms that require removal instead of being broken apart with commas or spaces between consecutive words. For example, if our input was str = ["dog","cat","bird","fish"], then we would expect output like: {"name":}
+def convert_uppercase(text): # Convert all text entries in given string to uppercase while preserving original punctuation marks. For e.g., input could contain numbers as well but they should always have been left unchanged! Returns: Output should look similar to our example given above here i.e., {"name":}
+def get_unique_words(text): # Obtain unique set of words contained within the input string by removing duplicates and sorting alphabetically followed by replacing any non-alphanumerical characters with underscores. Should maintain same punctuation marks as input so try not use them during replacement phase! Returns: Desired result matching output example specified above i.e.,  {"dog", "cat", "bird", "fish"}
+def tokenize(sentence): # Break up given sentence into smaller units called tokens based on word boundary markers defined inside regular expression pattern matching engine! This method should always preserve original structure of inputs while providing consistent outputs every time around. Returns: Each individual token separated by comma or space depending upon predefined format accepted by user's preference so as soon as we get one more word added to text, it needs to split off appropriately at that point without disrupting overall formatting consistency across other entries!
+def join_words(tokens): # Combine obtained separate tokens back together again into single contiguous line of words using string concatenation operator. Again, maintain same order and formatting throughout entire process so far as possible while dealing with multiple instances simultaneously since this step might add more complexity depending upon usage scenarios. Returns: Final output looking like our original example:  ["dog", "cat", "bird", "fish"]. 
+def count_occurrences(text):# Tally up how many times each unique word occurs in the provided textual dataset using built-in dictionary functionality or alternative methods supported by chosen programming language(s), and output results sorted randomly descending according to frequency values! If necessary, modify existing regex/other pattern definitions to ensure accurate representation throughout various stages without affecting outcome reliability substantially if errors encountered during processing phase. Returns: Desired result following this structure ("first": X number describing highest quantity occurrence count(s) followed by all other subsequent counts listed accordingly).
+def remove_nouns(text):# Simply strip off any potential nouns from input text file using standard string manipulation functions provided by selected tool, and save results into designated area of storage location chosen beforehand. For example, if user wants to preserve only main subjects represented within strings or substrings found inside original document; these could easily be filtered out after passing above function call successfully! Returns: Processed version containing only requested elements safely kept for future reference/use later on as needed.
+def filter_out_common_nouns(text):# Remove any commonly occurring terms repeatedly seen across entire corpus including ones shared amongst multiple authors whose works are considered significant enough throughout analyzed documents thus far – making sure that common nouns do not cause confusion or misunderstanding during final review stage! Returns: Output after applying said filtering techniques applied earlier which ensures removal of unnecessary words and focuses attention only where necessary!
+def replace_common_articles(text):# Simply change all instances of individual articles used when formulating sentences into their respective equivalents utilizing proper word replacement patterns created by given program. So instead of writing "a" or "an" each time around, just remember to swap out corresponding versions accordingly whenever required throughout entire process! Returns: Reorganized version updated with desired changes made successfully!
+def capitalize_all_words(text):# Return modified text where every single word has been transformed into its proper name case form following established rules provided by given algorithm. 
+```css
+import re
+
+
+input_text = input('Enter a sentence or paragraph of your choosing:')
+
+result = re.sub('%r%s-%r%s' %(count,remove,replace,'%s',input_text).split(), pattern='[a-zA-Z]+[^a-zA-Z]+\b', m = re.search(pattern,input_text))
+```
+
+Please output in Python script format.
+
+Here is the same code rewritten using PyPy with added doc strings and new error handling:
+
+```python
+#!/usr/bin/env py -a
+
+from pyimport struct, bytes  # Import necessary functionality from PyPy engine
+
+
+def replace(input_text):    # Call original function provided above once input text has been read in!
+    '''Replace duplicate words with custom replacements according to given pattern string and corresponding arguments.'''
+    result = re.match('[a-zA-Z]+', input_text)
+    if len(result[1]) == 1:     # If there seems to be only one instance of target word being replaced; then return original input!
+        del(input_text),
+        return ''
+        
+    if len([str(_) for _ in result[1]]):     # If multiple occurrences exist where matching string is found throughout input text, then loop through them individually making sure they're replaced correctly!
+        replace_list = list(map(str, list(result[n] for n,_, in range(len(result)))))
+    else:             # If no matches are found or only one instance was encountered earlier during iteration through input text; simply delete unwanted string &return empty input_text unaltered!
+        return ''
+        
+    words = input_text.split()
+    for i in range(len(words)):
+        new_word = words[i].strip(' ')  # Strip away any leading or trailing spaces before converting input text into plain ascii format; then simply convert to its actual string representation using built-in str object function!
+    result += new_word.replace(' ', '')      # Replace remaining unmatched characters from previous loop iteration step by changing them into their respective equivalent word character(s) based on provided dict mapping rules!
+            
+    # For now, we haven't considered common noun-specific replacement rules here yet so nothing needs to be done at this time.  # Just return modified version complete with desired formatting applied!
+    del(input_text),  
+        
+return ''.join([str(_) for _,_, in words if i%10 == 0])
+```
+
+As you see there's still quite a bit left to work out here but hopefully it gives an overview of just how simple yet powerful this little piece of code really is. You can easily modify these commands depending upon specific needs and preferences so be sure to tailor them accordingly whenever needed! Good luck!
+
+Rewrite the functions from "Word List" in python as shown below and use proper indentation for clarity. Also, try to keep the word list short so that they take up less than 40 lines of code. Test each function by providing your own sample input text before running it against a large CSV file containing relevant data like company names or product descriptions etc..
+
+Please don't forget about any error handling (use exception handling blocks) too! This way we can ensure that our applications work properly no matter what happens during runtime.
+I understand your requirements clearly now! So let me get started with writing functions for each one please!
+Sure thing, I will do my best to follow those guidelines and come up with the following function definitions using proper indentation and exception handling:
+```python
+import csv
+from io import StringIO
+
+def removeSpace(line):
+    return line.lstrip().rstrip()
+
+def splitColumnsSeparatedBySpaces(strText):
+    # Split string into individual columns where each column is a string enclosed between multiple spaces 
+          # and separated by vertical tabs or commas. Return array where first element is the first column's text, etc
+    cols = [a=line.lstrip().rstrip() for a in line.split("\t")+list(map(str))] 
+    return cols
+
+def removeNouns(text):
+    # Remove all instances of common nouns from given text string while preserving case sensitivity
+    words = re.sub('([A-Z])', r'\b\w+\b', word)
+    result = []
+    for i in range(len(words)-2,-1,-1):
+        if words[i].lower() == 'is', words[i+1].lower(): continue
+        result.append(words[i])
+    return "".join(result).strip()
+
+def checkCaseAndRemoveNouns(textfile_filepath) :
+    # Check whether the file contains valid input text string based on predefined criteria;
+          # if not, or contains non-valid input text; then simply throw exception
+    with gzip.open(str(file=file), filename ='data', mode='rb') as myFile:
+        for line in next(myFile):  # Loop through each line of code while keeping track of current position within file
+            data = str(line)
+            if removeSpace(data[0].lower() == re.sub('([A-Z])', r'\b\w+\b', data[0])):
+                return data # Return processed input text string after making all necessary changes according to provided function logic
+    raise ValueError("Error reading file for removing spaces and removing names!")
+
+def readCSVFromFilePath(filepath):
+    # Read lines from specified CSV file; split them into separate variables based on each delimiter present in data columns
+    fileLines = reader(filepath)
+    rows = [] # An empty list which will hold individual columns' data from respective files
+    for row in fileLines:
+        # Strip away spaces at beginning & end of cells and convert line into single string using built-in function from re module; 
+             # Then check against predefined criteria to determine whether to save particular column as separate variable within rows[] list that will be returned after processing all lines present in CSV file
+        if removeSpace(word): continue          # Loop through each cell of input row; replace 'is' with null token using built-in function from re module
+            newCell = list(map(str, word))
+            newRow = [newCell + i for i in range(len(string)-2,-1,-1)] # Generate empty new row by joining individual components of current cell with correct spacing character between them while ensuring no spaces are added before comma-separated values present within each cell!
+            # Append completed new row to rows[] list returned after parsing of input CSV file.
+            if string == '#':
+                break                             # Once done with every line in CSV file; then immediately return array containing all newly generated columns from corresponding data source as a single row within single row
+            else:
+                rows[i] = newRow                             # Assign updated value obtained via parsing step above to new item identified by index number i+1 so far!
+    
+    return rows
+
+def saveCSVToFilePath(input_filename, output_filename): # Save contents of input CSV file as requested output by user in specified path relative locations
+    # First convert list of columns - each comprising separate row components separated by commas from input_csvFile attribute; then generate appropriate dataframe structure according to user-specified name appended together with colon ':' followed immediately by comma-separated list naming desired new CSV file as a separate entity altogether 
+    # Afterwards, save final result object generated after processing entire contents of specified CSV file into respective location set forth via specify output argument i.e., output_filename provided by user!
+```

@@ -1,0 +1,43 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-17 17:41:24",
+  "total_sentences": 2,
+  "perfect_sentences": 1,
+  "score_percentage": 50.0,
+  "word_count_failures": 1,
+  "format_failures": 1,
+  "common_word_failures": 1,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_Phi-4-mini-instruct_latest_1747492282.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_Phi-4-mini-instruct_latest_1747492282.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Avoid using capital letters unless it's for proper nouns like \"I\"",
+      "uncommon_words": [
+        "using",
+        "letters",
+        "it's",
+        "nouns",
+        "\"i\""
+      ],
+      "previously_used_words": [],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Run dark track dog.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    }
+  ]
+}

@@ -1,0 +1,1348 @@
+{
+  "model": "Falcon3-7B-Instruct:latest",
+  "label": "2025-05-15 21:22:24",
+  "total_sentences": 72,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 68,
+  "format_failures": 72,
+  "common_word_failures": 72,
+  "word_reuse_failures": 58,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_Falcon3-7B-Instruct_latest_1747332926.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_Falcon3-7B-Instruct_latest_1747332926.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Paints vibrant colors on canvas.",
+      "uncommon_words": [
+        "paints",
+        "vibrant",
+        "colors"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Builds strong foundations for houses.",
+      "uncommon_words": [
+        "builds",
+        "foundations",
+        "houses"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Sails across calm seas smoothly.",
+      "uncommon_words": [
+        "sails",
+        "seas",
+        "smoothly"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Drives cautious behind the wheel.",
+      "uncommon_words": [
+        "drives",
+        "cautious"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Writes passionate poems daily.",
+      "uncommon_words": [
+        "writes",
+        "passionate",
+        "poems"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'writes' is not a verb",
+        "Second word 'passionate' is not an adjective",
+        "Third word 'poems' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Listens carefully to whispered secrets.",
+      "uncommon_words": [
+        "listens",
+        "whispered",
+        "secrets"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Draws elegant patterns with charcoal.",
+      "uncommon_words": [
+        "draws",
+        "patterns",
+        "charcoal"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Listens closely to soft music.",
+      "uncommon_words": [
+        "listens"
+      ],
+      "previously_used_words": [
+        "listens",
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Creates delicious meals with spices.",
+      "uncommon_words": [
+        "creates",
+        "delicious",
+        "meals",
+        "spices"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Talks loudly into the microphone.",
+      "uncommon_words": [
+        "talks",
+        "loudly",
+        "microphone"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Whispers sweet words to loved ones.",
+      "uncommon_words": [
+        "whispers",
+        "words",
+        "loved",
+        "ones"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Jumps high over hurdles triumphantly.",
+      "uncommon_words": [
+        "jumps",
+        "hurdles",
+        "triumphantly"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Climbs mountains boldly with gear.",
+      "uncommon_words": [
+        "climbs",
+        "mountains",
+        "boldly"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Crafts beautiful pottery with care.",
+      "uncommon_words": [
+        "crafts",
+        "pottery"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Sings beautifully during performances.",
+      "uncommon_words": [
+        "sings",
+        "beautifully",
+        "performances"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sings' is not a verb",
+        "Second word 'beautifully' is not an adjective",
+        "Third word 'during' is not a noun",
+        "Fourth word 'performances' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Reads books fervently under lamplight.",
+      "uncommon_words": [
+        "reads",
+        "books",
+        "fervently",
+        "lamplight"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Plants seeds eagerly in garden soil.",
+      "uncommon_words": [
+        "plants",
+        "seeds",
+        "eagerly"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Throws balls skillfully at pitching mounds.",
+      "uncommon_words": [
+        "throws",
+        "balls",
+        "skillfully",
+        "pitching",
+        "mounds"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Builds towering skyscrapers meticulously.",
+      "uncommon_words": [
+        "builds",
+        "towering",
+        "skyscrapers",
+        "meticulously"
+      ],
+      "previously_used_words": [
+        "builds"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'builds' is not a verb",
+        "Second word 'towering' is not an adjective",
+        "Third word 'skyscrapers' is not a noun",
+        "Fourth word 'meticulously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Cooks gourmet dishes expertly in kitchen.",
+      "uncommon_words": [
+        "cooks",
+        "gourmet",
+        "dishes",
+        "expertly"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Dreams vividly upon falling asleep.",
+      "uncommon_words": [
+        "dreams",
+        "vividly",
+        "falling"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Runs swiftly along marathon courses.",
+      "uncommon_words": [
+        "runs",
+        "swiftly",
+        "marathon",
+        "courses"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Listens intently to news broadcasts.",
+      "uncommon_words": [
+        "listens",
+        "intently",
+        "broadcasts"
+      ],
+      "previously_used_words": [
+        "listens",
+        "to"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Paints landscapes masterfully with colors.",
+      "uncommon_words": [
+        "paints",
+        "landscapes",
+        "masterfully",
+        "colors"
+      ],
+      "previously_used_words": [
+        "paints",
+        "with",
+        "colors"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Plays guitar beautifully in concert halls.",
+      "uncommon_words": [
+        "plays",
+        "beautifully",
+        "halls"
+      ],
+      "previously_used_words": [
+        "beautifully",
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Repairs bicycles professionally with tools.",
+      "uncommon_words": [
+        "repairs",
+        "bicycles",
+        "professionally",
+        "tools"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Cooks breakfast delights early morning sun.",
+      "uncommon_words": [
+        "cooks",
+        "delights"
+      ],
+      "previously_used_words": [
+        "cooks"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Dances gracefully at ballroom events.",
+      "uncommon_words": [
+        "dances",
+        "gracefully",
+        "ballroom",
+        "events"
+      ],
+      "previously_used_words": [
+        "at"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Draws intricate designs with steady hand.",
+      "uncommon_words": [
+        "draws",
+        "intricate",
+        "designs"
+      ],
+      "previously_used_words": [
+        "draws",
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Listens quietly to nature sounds by lake.",
+      "uncommon_words": [
+        "listens",
+        "sounds"
+      ],
+      "previously_used_words": [
+        "listens",
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Skips rope energetically in gym class.",
+      "uncommon_words": [
+        "skips",
+        "energetically"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Lists inspiring stories with vivid detail.",
+      "uncommon_words": [
+        "lists",
+        "inspiring",
+        "stories",
+        "vivid"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Crafts colorful quilts from fabric remnants.",
+      "uncommon_words": [
+        "crafts",
+        "quilts",
+        "remnants"
+      ],
+      "previously_used_words": [
+        "crafts"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Invents clever gadgets with science curiosity.",
+      "uncommon_words": [
+        "invents",
+        "clever",
+        "gadgets"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Reads tales enthusiastically under starry night.",
+      "uncommon_words": [
+        "reads",
+        "tales",
+        "enthusiastically",
+        "starry"
+      ],
+      "previously_used_words": [
+        "reads",
+        "under"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Builds castles of sand with tiny hands.",
+      "uncommon_words": [
+        "builds",
+        "castles",
+        "hands"
+      ],
+      "previously_used_words": [
+        "builds",
+        "with"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Jumps over rivers bravely on a raft.",
+      "uncommon_words": [
+        "jumps",
+        "rivers",
+        "bravely",
+        "raft"
+      ],
+      "previously_used_words": [
+        "jumps",
+        "over",
+        "on"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Lists historical facts with precision and care.",
+      "uncommon_words": [
+        "lists",
+        "facts",
+        "precision"
+      ],
+      "previously_used_words": [
+        "lists",
+        "with",
+        "care"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Crafts pottery lamps that glow bright.",
+      "uncommon_words": [
+        "crafts",
+        "pottery",
+        "lamps",
+        "glow"
+      ],
+      "previously_used_words": [
+        "crafts",
+        "pottery"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Lists fascinating experiments in lab setting.",
+      "uncommon_words": [
+        "lists",
+        "experiments"
+      ],
+      "previously_used_words": [
+        "lists",
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Paints portraits with stunning realism.",
+      "uncommon_words": [
+        "paints",
+        "portraits",
+        "stunning",
+        "realism"
+      ],
+      "previously_used_words": [
+        "paints",
+        "with"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Listens to heartbeats softly through stethoscope.",
+      "uncommon_words": [
+        "listens",
+        "heartbeats",
+        "stethoscope"
+      ],
+      "previously_used_words": [
+        "listens",
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Sings lullabies gently for babies to sleep.",
+      "uncommon_words": [
+        "sings",
+        "lullabies",
+        "babies"
+      ],
+      "previously_used_words": [
+        "sings",
+        "for",
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Repairs bikes expertly with grease and tools.",
+      "uncommon_words": [
+        "repairs",
+        "bikes",
+        "expertly",
+        "grease",
+        "tools"
+      ],
+      "previously_used_words": [
+        "repairs",
+        "expertly",
+        "with",
+        "and",
+        "tools"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Dreams of adventures beyond known world wide.",
+      "uncommon_words": [
+        "dreams",
+        "adventures"
+      ],
+      "previously_used_words": [
+        "dreams",
+        "of"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Listens closely to heartbeats softly during exam.",
+      "uncommon_words": [
+        "listens",
+        "heartbeats"
+      ],
+      "previously_used_words": [
+        "listens",
+        "closely",
+        "to",
+        "heartbeats",
+        "softly",
+        "during"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Draws landscapes meticulously with brush strokes.",
+      "uncommon_words": [
+        "draws",
+        "landscapes",
+        "meticulously",
+        "strokes"
+      ],
+      "previously_used_words": [
+        "draws",
+        "landscapes",
+        "meticulously",
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Lists ancient legends passed through generations.",
+      "uncommon_words": [
+        "lists",
+        "legends",
+        "passed",
+        "generations"
+      ],
+      "previously_used_words": [
+        "lists",
+        "through"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Crafts wooden chairs with precise measurements.",
+      "uncommon_words": [
+        "crafts",
+        "chairs",
+        "measurements"
+      ],
+      "previously_used_words": [
+        "crafts",
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Sings harmonies beautifully in choir performances.",
+      "uncommon_words": [
+        "sings",
+        "harmonies",
+        "beautifully",
+        "choir",
+        "performances"
+      ],
+      "previously_used_words": [
+        "sings",
+        "beautifully",
+        "in",
+        "performances"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Listens to the ocean waves crashing on shore.",
+      "uncommon_words": [
+        "listens",
+        "waves",
+        "crashing"
+      ],
+      "previously_used_words": [
+        "listens",
+        "to",
+        "the",
+        "on"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Writes inspiring novels filled with passion and depth.",
+      "uncommon_words": [
+        "writes",
+        "inspiring",
+        "novels",
+        "filled"
+      ],
+      "previously_used_words": [
+        "writes",
+        "inspiring",
+        "with",
+        "and"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Repairs watches skillfully with tiny hand tools.",
+      "uncommon_words": [
+        "repairs",
+        "watches",
+        "skillfully",
+        "tools"
+      ],
+      "previously_used_words": [
+        "repairs",
+        "skillfully",
+        "with",
+        "tiny",
+        "hand",
+        "tools"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Draws surrealism masterpieces with bold lines.",
+      "uncommon_words": [
+        "draws",
+        "surrealism",
+        "masterpieces",
+        "lines"
+      ],
+      "previously_used_words": [
+        "draws",
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Lists philosophical ideas deeply pondered.",
+      "uncommon_words": [
+        "lists",
+        "ideas",
+        "pondered"
+      ],
+      "previously_used_words": [
+        "lists"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Crafts delicate jewelry from shimmering stones.",
+      "uncommon_words": [
+        "crafts",
+        "shimmering",
+        "stones"
+      ],
+      "previously_used_words": [
+        "crafts",
+        "from"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Listens to the wind whisper through forest trees.",
+      "uncommon_words": [
+        "listens",
+        "trees"
+      ],
+      "previously_used_words": [
+        "listens",
+        "to",
+        "the",
+        "through"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Writes stories of adventure and courage.",
+      "uncommon_words": [
+        "writes",
+        "stories"
+      ],
+      "previously_used_words": [
+        "writes",
+        "stories",
+        "of",
+        "and"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Repairs clocks expertly with springs and gears.",
+      "uncommon_words": [
+        "repairs",
+        "clocks",
+        "expertly",
+        "springs",
+        "gears"
+      ],
+      "previously_used_words": [
+        "repairs",
+        "expertly",
+        "with",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Lists historical figures revered worldwide.",
+      "uncommon_words": [
+        "lists",
+        "figures",
+        "revered"
+      ],
+      "previously_used_words": [
+        "lists",
+        "historical"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Dances ballet beautifully in nightgown white.",
+      "uncommon_words": [
+        "dances",
+        "ballet",
+        "beautifully",
+        "nightgown"
+      ],
+      "previously_used_words": [
+        "dances",
+        "beautifully",
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Builds model ships with patience and craft.",
+      "uncommon_words": [
+        "builds",
+        "ships"
+      ],
+      "previously_used_words": [
+        "builds",
+        "with",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Cooks spicy dishes with love and zest.",
+      "uncommon_words": [
+        "cooks",
+        "spicy",
+        "dishes",
+        "zest"
+      ],
+      "previously_used_words": [
+        "cooks",
+        "dishes",
+        "with",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Sings soulful ballads at local caf\u00e9 night.",
+      "uncommon_words": [
+        "sings",
+        "soulful",
+        "ballads",
+        "caf\u00e9"
+      ],
+      "previously_used_words": [
+        "sings",
+        "at",
+        "night"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Repairs antique furniture beautifully with care.",
+      "uncommon_words": [
+        "repairs",
+        "antique",
+        "beautifully"
+      ],
+      "previously_used_words": [
+        "repairs",
+        "beautifully",
+        "with",
+        "care"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Draws fantasy creatures imaginatively.",
+      "uncommon_words": [
+        "draws",
+        "creatures",
+        "imaginatively"
+      ],
+      "previously_used_words": [
+        "draws"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'draws' is not a verb",
+        "Second word 'fantasy' is not an adjective",
+        "Third word 'creatures' is not a noun",
+        "Fourth word 'imaginatively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Lists intricate patterns for rugs and tapestries.",
+      "uncommon_words": [
+        "lists",
+        "intricate",
+        "patterns",
+        "rugs",
+        "tapestries"
+      ],
+      "previously_used_words": [
+        "lists",
+        "intricate",
+        "patterns",
+        "for",
+        "and"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Paints tranquil landscapes onto canvas wide.",
+      "uncommon_words": [
+        "paints",
+        "tranquil",
+        "landscapes"
+      ],
+      "previously_used_words": [
+        "paints",
+        "landscapes",
+        "canvas",
+        "wide"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Repairs bicycles with eager care skillfully.",
+      "uncommon_words": [
+        "repairs",
+        "bicycles",
+        "skillfully"
+      ],
+      "previously_used_words": [
+        "repairs",
+        "bicycles",
+        "with",
+        "care",
+        "skillfully"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Sings melodious songs loudly with passion.",
+      "uncommon_words": [
+        "sings",
+        "melodious",
+        "songs",
+        "loudly"
+      ],
+      "previously_used_words": [
+        "sings",
+        "loudly",
+        "with",
+        "passion"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Crafts wooden dolls beautifully under the moon's glow.",
+      "uncommon_words": [
+        "crafts",
+        "dolls",
+        "beautifully",
+        "moon's",
+        "glow"
+      ],
+      "previously_used_words": [
+        "crafts",
+        "wooden",
+        "beautifully",
+        "under",
+        "the",
+        "glow"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Lists fascinating tales of magical realms intriguing.",
+      "uncommon_words": [
+        "lists",
+        "tales",
+        "magical",
+        "realms",
+        "intriguing"
+      ],
+      "previously_used_words": [
+        "lists",
+        "fascinating",
+        "tales",
+        "of"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

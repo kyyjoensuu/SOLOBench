@@ -1,0 +1,360 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-17 10:26:49",
+  "total_sentences": 13,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 11,
+  "format_failures": 13,
+  "common_word_failures": 11,
+  "word_reuse_failures": 11,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747466724.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747466724.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do not use the same word more than once in a sentence.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "The vocabulary has been shuffled. For example, do not output the words: \"The\", \"in\", \"that\". Try producing something like: \"a\", \"is\", \"the\".",
+      "uncommon_words": [
+        "vocabulary",
+        "has",
+        "been",
+        "shuffled",
+        "words",
+        "\"the\"",
+        "\"in\"",
+        "\"that\"",
+        "producing",
+        "\"a\"",
+        "\"is\"",
+        "\"the\""
+      ],
+      "previously_used_words": [
+        "the",
+        "do",
+        "not",
+        "the"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Output in uppercase and remove all punctuation as shown below: For example: \"A man with a gun\" should be output as follows: \"AMAN THGM GUN\"",
+      "uncommon_words": [
+        "uppercase",
+        "punctuation",
+        "shown",
+        "\"a",
+        "gun\"",
+        "should",
+        "follows",
+        "\"aman",
+        "thgm",
+        "gun\""
+      ],
+      "previously_used_words": [
+        "output",
+        "in",
+        "for",
+        "example",
+        "a",
+        "output"
+      ],
+      "word_count": 25,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Do not use the same sentence twice",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "do",
+        "not",
+        "use",
+        "the",
+        "same",
+        "sentence"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "3: \"Man\", \"with\", \"a\"",
+      "uncommon_words": [
+        "3",
+        "\"man\"",
+        "\"with\"",
+        "\"a\""
+      ],
+      "previously_used_words": [
+        "\"a\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '3' is not a verb",
+        "Second word '\"man\"' is not an adjective",
+        "Third word '\"with\"' is not a noun",
+        "Fourth word '\"a\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "00: \"man\", \"with\", \"an\"",
+      "uncommon_words": [
+        "00",
+        "\"man\"",
+        "\"with\"",
+        "\"an\""
+      ],
+      "previously_used_words": [
+        "\"man\"",
+        "\"with\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '00' is not a verb",
+        "Second word '\"man\"' is not an adjective",
+        "Third word '\"with\"' is not a noun",
+        "Fourth word '\"an\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "To meet rules",
+      "uncommon_words": [
+        "rules"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "4 unique lines of text must appear, and no repetitions or punctuation except for spaces between words.",
+      "uncommon_words": [
+        "4",
+        "lines",
+        "repetitions",
+        "punctuation",
+        "spaces",
+        "words"
+      ],
+      "previously_used_words": [
+        "and",
+        "punctuation",
+        "for",
+        "words"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "The same sentence cannot be used more than once with different characters or content in different positions but should only involve a variation in capitalization or spacing on each line.",
+      "uncommon_words": [
+        "cannot",
+        "characters",
+        "positions",
+        "should",
+        "capitalization",
+        "spacing"
+      ],
+      "previously_used_words": [
+        "the",
+        "same",
+        "sentence",
+        "be",
+        "more",
+        "than",
+        "once",
+        "with",
+        "or",
+        "in",
+        "should",
+        "a",
+        "in",
+        "or"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "There's a restriction against using spaces as a form of punctuation; all sentences need to remain a single, compact unit with no gaps apart from the end-of-line punctuation marks (.)",
+      "uncommon_words": [
+        "there's",
+        "using",
+        "spaces",
+        "punctuation",
+        "sentences",
+        "compact",
+        "gaps",
+        "end-of-line",
+        "punctuation",
+        "marks",
+        "()"
+      ],
+      "previously_used_words": [
+        "a",
+        "spaces",
+        "as",
+        "a",
+        "of",
+        "punctuation",
+        "all",
+        "to",
+        "a",
+        "with",
+        "no",
+        "the",
+        "punctuation"
+      ],
+      "word_count": 30,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Punctuation other than whitespace between words should be excluded, such as periods or commas.",
+      "uncommon_words": [
+        "punctuation",
+        "whitespace",
+        "words",
+        "should",
+        "excluded",
+        "periods",
+        "commas"
+      ],
+      "previously_used_words": [
+        "punctuation",
+        "than",
+        "between",
+        "words",
+        "should",
+        "be",
+        "as",
+        "or"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Sentences containing exactly four distinct tokens with different characters and order are mandatory. A bot that creates more than one sentence using these rules would be considered for a prize, although not all bots can execute this task without modification to produce multiple sentences on separate lines while adhering to the rules provided.",
+      "uncommon_words": [
+        "sentences",
+        "containing",
+        "tokens",
+        "characters",
+        "are",
+        "mandatory",
+        "bot",
+        "creates",
+        "using",
+        "rules",
+        "considered",
+        "bots",
+        "can",
+        "modification",
+        "sentences",
+        "lines",
+        "adhering",
+        "rules"
+      ],
+      "previously_used_words": [
+        "sentences",
+        "with",
+        "different",
+        "characters",
+        "and",
+        "a",
+        "more",
+        "than",
+        "sentence",
+        "using",
+        "rules",
+        "be",
+        "for",
+        "a",
+        "not",
+        "all",
+        "to",
+        "sentences",
+        "on",
+        "lines",
+        "to",
+        "the",
+        "rules"
+      ],
+      "word_count": 53,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Punctuation usage must follow strict standards: it cannot appear elsewhere in the code.",
+      "uncommon_words": [
+        "punctuation",
+        "usage",
+        "standards",
+        "cannot"
+      ],
+      "previously_used_words": [
+        "punctuation",
+        "must",
+        "cannot",
+        "appear",
+        "in",
+        "the"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

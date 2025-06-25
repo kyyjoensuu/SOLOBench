@@ -1,0 +1,3317 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-18 09:53:59",
+  "total_sentences": 200,
+  "perfect_sentences": 1,
+  "score_percentage": 0.5,
+  "word_count_failures": 0,
+  "format_failures": 139,
+  "common_word_failures": 1,
+  "word_reuse_failures": 199,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_gemma-3-4b-it_latest_1747550644.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_gemma-3-4b-it_latest_1747550644.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "blame   aggressive   system   ocean",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "post  critical  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "offer  clue  upper  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "capacity  descent  narrow  system",
+      "uncommon_words": [
+        "descent"
+      ],
+      "previously_used_words": [
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'capacity' is not a verb",
+        "Second word 'descent' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "historically  blame  violent  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'historically' is not a verb",
+        "Third word 'violent' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "want  tighten  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tighten' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "weak  exhibit   ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'weak' is not a verb",
+        "Second word 'exhibit' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "convince  traffic  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'traffic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "model  violent  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "post   clue   ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "post",
+        "clue",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "descend  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "French  upper  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "upper",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "above  blame  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'above' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "proof  aggressive  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "testing  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "lately  blame  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'lately' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "you  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'you' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "vessel   clue   upper   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'vessel' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "suddenly  violent   ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'suddenly' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "star   blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "system   aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "system",
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'system' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "fun  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fun' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "afford   violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "eastern   blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'eastern' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "ocean   aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ocean",
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ocean' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "marble  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "mutual   violent   ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mutual' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "word  blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "contact  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "engage  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "laughter  violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'laughter' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "associated  blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "never  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'never' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "left   clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "breakfast  violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "match   blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "tighten  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tighten",
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "collapse  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "emerge  violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "crucial  blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'crucial' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "intensity  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'intensity' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "aggressive  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'aggressive' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "bulb   violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'bulb' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "floor   blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "least  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'least' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "violent  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'violent' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "sock   violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "romantic  blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'romantic' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "undergo  aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "handful  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'handful' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "cage   violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "bell   blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "exhibition   aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'exhibition' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "dining   clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "order   violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "native  blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'native' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "document  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "e-mail   clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "overwhelming  violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "complete  blame   system   ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "camp   aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "director  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'director' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "evil   violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'evil' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "coal   blame   system   ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "catch   aggressive   water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "interpret   clue    upper   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "grandfather   violent   ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grandfather' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "seriously  blame   system   ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'seriously' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "preach   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "pat   clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "priest   violent   ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'priest' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "pan   blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "protest   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "banana  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'banana' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "third  violent   ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'third' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "economics  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economics' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "mixture   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mixture' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "appearance  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'appearance' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "imply  violent  ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "steel  blame  system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "but  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'but' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "number   clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "schedule   violent  ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "organized  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "timber   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'timber' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "interfere  clue  upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "annual   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'annual' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "just   blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'just' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "tourist   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'tourist' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "fluid  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fluid' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "shrug   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "fighter   blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fighter' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "hunting   aggressive  water   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "initiative  clue  upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'initiative' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "sexual  violent ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sexual' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "conception  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'conception' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "educate  aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "attack   clue  upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "distress  violent ocean  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'distress' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "desk  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'desk' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "audience  aggressive   water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'audience' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "platform  clue   upper   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'platform' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "regional  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'regional' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "hay  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "originally  aggressive   water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'originally' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "practitioner  clue    upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'practitioner' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "TRUE  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "his  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'his' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "scope   aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'scope' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "disappointment  clue   upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'disappointment' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "spokesman  violent  ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'spokesman' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "fragile  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'fragile' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "painful  aggressive  water   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'painful' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "drill  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "retired  violent  ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "vitamin  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'vitamin' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "possession  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'possession' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "early  clue    upper   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'early' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "obvious  violent  ocean   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'obvious' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "spot  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "basically   aggressive  water  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'basically' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "publicly  clue  upper   system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'publicly' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "dragon   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'dragon' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "developer  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'developer' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "technological  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'technological' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "canvas  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "resist  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "communication  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'communication' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "muscle  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "founder  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "sibling  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sibling' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "center  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "participation  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'participation' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "bunch  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "ten  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ten' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "brain  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "valuable  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'valuable' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "apartment  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'apartment' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "leadership  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'leadership' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "feather  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "solid  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'solid' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "continuing  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "meanwhile  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'meanwhile' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "circuit  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "explain  aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "diary  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diary' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "occasionally   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'occasionally' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "jazz  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "cancer  aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cancer' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "version   clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'version' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "everything  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'everything' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "lane  blame   system  ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'lane' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "sustain  aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "teaspoon  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'teaspoon' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "enact  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "isolate   blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "behalf  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'behalf' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "unusual  clue   upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'unusual' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "speculation  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'speculation' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "rip   blame   system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "convention   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'convention' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "mathematics   clue  upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mathematics' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "nasty   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'nasty' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "amendment   blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'amendment' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "member   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'member' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "virus   clue   upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'virus' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "barely   violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'barely' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "musical   blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'musical' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "teaching  aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "ritual  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'ritual' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "motivate  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "investment  blame   system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'investment' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "identify  aggressive   water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "heaven  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'heaven' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Thanksgiving  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'thanksgiving' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "collection   blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'collection' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "longtime   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'longtime' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "awful   clue   upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'awful' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "prescription  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'prescription' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "agricultural  blame   system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'agricultural' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "private  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'private' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "row   clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "discover  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "cargo  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cargo' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "lay   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "certain  clue  upper  system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'certain' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "management   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'management' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "self   blame   system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'self' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "urge  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "density  clue   upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'density' is not a verb",
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "naked   violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'naked' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "legislator  blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'legislator' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "gasoline  aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'gasoline' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "protect   clue  upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "recently  violent  ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'recently' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "clothes   blame  system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "stumble   aggressive  water system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aggressive",
+        "water",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "queen   clue  upper system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "clue",
+        "upper",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'clue' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "sympathy  violent   ocean system",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "violent",
+        "ocean",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sympathy' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "opportunity  blame   system ocean",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blame",
+        "system",
+        "ocean"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'opportunity' is not a verb"
+      ],
+      "passes_all": false
+    }
+  ]
+}

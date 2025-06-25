@@ -1,0 +1,3643 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-19 00:40:49",
+  "total_sentences": 200,
+  "perfect_sentences": 11,
+  "score_percentage": 5.5,
+  "word_count_failures": 0,
+  "format_failures": 155,
+  "common_word_failures": 114,
+  "word_reuse_failures": 181,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_gemma-3-4b-it_latest_1747604024.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_gemma-3-4b-it_latest_1747604024.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Carry  Rare  Mountain  Animal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Provide  Green  Forest  Creature",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Offer  Brown  River  Fish",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Assume  Gray  Sky  Cloud",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Employ  Red  Flower  Rose",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Inspect  Blue  Ocean  Wave",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Suggest  White  Snow  Peak",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Create  Yellow  Sun  Light",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Analyze  Black  Stone  Rock",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Demand  Orange  Fruit  Mango",
+      "uncommon_words": [
+        "mango"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'mango' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Demand  Purple  Berry  Grape",
+      "uncommon_words": [
+        "berry"
+      ],
+      "previously_used_words": [
+        "demand"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'berry' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Accept  Silver  Metal  Coin",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Obtain  Golden  Jewel  Crown",
+      "uncommon_words": [
+        "jewel",
+        "crown"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'jewel' is not a noun",
+        "Fourth word 'crown' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Confirm  Wooden  Table  Desk",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Examine  Plastic  Bottle  Glass",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Observe  Leather  Shoes  Boots",
+      "uncommon_words": [
+        "shoes",
+        "boots"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'leather' is not an adjective",
+        "Third word 'shoes' is not a noun",
+        "Fourth word 'boots' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Measure  Fabric  Cloth  Silk",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fabric' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Discover  Diamond  Gem  Star",
+      "uncommon_words": [
+        "gem"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'gem' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Display  Cotton  Blanket  Towel",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Consider  Paper  Book  Magazine",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'paper' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Obtain  Cotton  Plant  Tree",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "obtain",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Inspect  Silver  Candle  Lamp",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "silver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Provide  Wooden  Chair  Stool",
+      "uncommon_words": [
+        "stool"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'stool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Analyze  Plastic  Toy  Doll",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "plastic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Observe  Leather  Belt  Tie",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "leather"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'leather' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Employ  Diamond  Ring  Bracelet",
+      "uncommon_words": [
+        "bracelet"
+      ],
+      "previously_used_words": [
+        "employ",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'bracelet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Inspect  Cotton  Shirt  Jacket",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Offer  Diamond  Necklace  Earring",
+      "uncommon_words": [
+        "necklace",
+        "earring"
+      ],
+      "previously_used_words": [
+        "offer",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'necklace' is not a noun",
+        "Fourth word 'earring' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Analyze  Wooden  Box  Drawer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Observe  Cotton  Sock  Hat",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Employ  Silver  Brush  Comb",
+      "uncommon_words": [
+        "comb"
+      ],
+      "previously_used_words": [
+        "employ",
+        "silver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'comb' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Inspect  Diamond  Watch  Clock",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Provide  Cotton  Pillow  Blanket",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "cotton",
+        "blanket"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Examine  Diamond  Pen  Pencil",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Observe  Wooden  Floor  Rug",
+      "uncommon_words": [
+        "rug"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'rug' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Employ  Cotton  String  Yarn",
+      "uncommon_words": [
+        "yarn"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'yarn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Inspect  Diamond  Mirror  Glass",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "glass"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Provide  Wooden  Ladder  Stair",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Examine  Cotton  Thread  Fabric",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "cotton",
+        "fabric"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Observe  Diamond  Sculpture  Figure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Employ  Wooden  Handle  Knife",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Inspect  Cotton  Bandage  Tape",
+      "uncommon_words": [
+        "inspect",
+        "bandage"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'cotton' is not an adjective",
+        "Third word 'bandage' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Provide  Diamond  Dust  Gems",
+      "uncommon_words": [
+        "gems"
+      ],
+      "previously_used_words": [
+        "provide",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'gems' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Examine  Wooden  Fence  Gate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Observe  Cotton  Seed  Plant",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "cotton",
+        "plant"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Employ  Diamond  Paint  Acrylic",
+      "uncommon_words": [
+        "acrylic"
+      ],
+      "previously_used_words": [
+        "employ",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'acrylic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Inspect  Wooden  Tool  Hammer",
+      "uncommon_words": [
+        "inspect",
+        "hammer"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Fourth word 'hammer' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Provide  Cotton  Patch  Quilt",
+      "uncommon_words": [
+        "quilt"
+      ],
+      "previously_used_words": [
+        "provide",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'quilt' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Examine  Diamond  Pendant  Choker",
+      "uncommon_words": [
+        "pendant",
+        "choker"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'pendant' is not a noun",
+        "Fourth word 'choker' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Observe  Wooden  Deck  Platform",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Employ  Cotton  Ball  Stuffing",
+      "uncommon_words": [
+        "stuffing"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'stuffing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Inspect  Diamond  Shard  Fragment",
+      "uncommon_words": [
+        "inspect",
+        "shard"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Provide  Wooden  Boat  Sail",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Examine  Cotton  Blend  Velvet",
+      "uncommon_words": [
+        "velvet"
+      ],
+      "previously_used_words": [
+        "examine",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'velvet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Observe  Diamond  Crust  Gemstone",
+      "uncommon_words": [
+        "crust",
+        "gemstone"
+      ],
+      "previously_used_words": [
+        "observe",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'crust' is not a noun",
+        "Fourth word 'gemstone' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Employ  Wooden  Frame  Picture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Inspect  Cotton  Fabric  Denim",
+      "uncommon_words": [
+        "inspect",
+        "denim"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "cotton",
+        "fabric"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'denim' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Provide  Diamond  Stone  Marble",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "diamond",
+        "stone"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Examine  Wooden  Panel  Door",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Observe  Cotton  Puff  Foam",
+      "uncommon_words": [
+        "puff",
+        "foam"
+      ],
+      "previously_used_words": [
+        "observe",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Third word 'puff' is not a noun",
+        "Fourth word 'foam' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Employ  Diamond  Fragment  Crystal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "diamond",
+        "fragment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Inspect  Wooden  Cart  Wheel",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Provide  Cotton  Drape  Cloth",
+      "uncommon_words": [
+        "drape"
+      ],
+      "previously_used_words": [
+        "provide",
+        "cotton",
+        "cloth"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Third word 'drape' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Examine  Diamond  Dust  Coal",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "dust"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Observe  Wooden  Pipe  Tube",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Employ  Cotton  Patch  Seam",
+      "uncommon_words": [
+        "seam"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'seam' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Inspect  Diamond  Face  Surface",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Provide  Wooden  Stand  Table",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "table"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Examine  Cotton  Mound  Pile",
+      "uncommon_words": [
+        "mound"
+      ],
+      "previously_used_words": [
+        "examine",
+        "cotton"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Third word 'mound' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Observe  Diamond  Cluster  Gem",
+      "uncommon_words": [
+        "gem"
+      ],
+      "previously_used_words": [
+        "observe",
+        "diamond",
+        "gem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'gem' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Employ  Wooden  Box  Package",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "wooden",
+        "box"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Inspect  Diamond  Shard  Angle",
+      "uncommon_words": [
+        "inspect",
+        "shard"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Provide  Cotton  Stitch  Seam",
+      "uncommon_words": [
+        "stitch",
+        "seam"
+      ],
+      "previously_used_words": [
+        "provide",
+        "cotton",
+        "seam"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Third word 'stitch' is not a noun",
+        "Fourth word 'seam' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Examine  Diamond  Facet  Crystal",
+      "uncommon_words": [
+        "facet"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crystal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'facet' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Observe  Wooden  Post  Pole",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Employ  Cotton  Blend  Wool",
+      "uncommon_words": [
+        "wool"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "blend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'wool' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Inspect  Diamond  Prism  Lens",
+      "uncommon_words": [
+        "inspect",
+        "prism"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'prism' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Provide  Wooden  Shard  Piece",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Examine  Diamond  Glow  Light",
+      "uncommon_words": [
+        "glow"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Observe  Wooden  Shelf  Rack",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Employ  Cotton  Patch  Repair",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Inspect  Diamond  Edge  Border",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Provide  Wooden  Shard  Flake",
+      "uncommon_words": [
+        "shard",
+        "flake"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun",
+        "Fourth word 'flake' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Examine  Diamond  Surface  Film",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Observe  Wooden  Panel  Sheet",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Employ  Cotton  Patch  Fabric",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch",
+        "fabric"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Inspect  Diamond  Dust  Powder",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "dust"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Provide  Wooden  Fragment  Chunk",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "fragment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Examine  Diamond  Edge  Rim",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "edge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Observe  Wooden  Panel  Wall",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Employ  Cotton  Blend  Jersey",
+      "uncommon_words": [
+        "jersey"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "blend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'jersey' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Inspect  Diamond  Gleam  Luster",
+      "uncommon_words": [
+        "inspect",
+        "gleam",
+        "luster"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'gleam' is not a noun",
+        "Fourth word 'luster' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Provide  Wooden  Fragment  Core",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "fragment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Examine  Diamond  Glow  Flash",
+      "uncommon_words": [
+        "glow"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Observe  Wooden  Panel  Plate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Employ  Cotton  Patch  Liner",
+      "uncommon_words": [
+        "liner"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'liner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Inspect  Diamond  Gleam  Sparkle",
+      "uncommon_words": [
+        "inspect",
+        "gleam",
+        "sparkle"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "gleam"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'gleam' is not a noun",
+        "Fourth word 'sparkle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Provide  Wooden  Fragment  Core",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "fragment",
+        "core"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Examine  Diamond  Glow  Light",
+      "uncommon_words": [
+        "glow"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "glow",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Observe  Wooden  Panel  Frame",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "frame"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Employ  Cotton  Patch  Stuff",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Inspect  Diamond  Reflect  Mirror",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "mirror"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'reflect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Provide  Wooden  Shard  Edge",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "edge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Examine  Diamond  Gleam  Flash",
+      "uncommon_words": [
+        "gleam"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "gleam",
+        "flash"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'gleam' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Observe  Wooden  Panel  Base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Employ  Cotton  Patch  Thread",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch",
+        "thread"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Inspect  Diamond  Reflect  Light",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "reflect",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'reflect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Examine  Diamond  Glow  Shine",
+      "uncommon_words": [
+        "glow"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Observe  Wooden  Panel  Joint",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Employ  Cotton  Patch  Stitch",
+      "uncommon_words": [
+        "stitch"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch",
+        "stitch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'stitch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Inspect  Diamond  Reflect  Gems",
+      "uncommon_words": [
+        "inspect",
+        "gems"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "reflect",
+        "gems"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'reflect' is not a noun",
+        "Fourth word 'gems' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Provide  Wooden  Shard  Grain",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Examine  Diamond  Shine  Reflect",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "shine",
+        "reflect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'reflect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Observe  Wooden  Panel  Texture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Employ  Cotton  Blend  Jersey",
+      "uncommon_words": [
+        "jersey"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "blend",
+        "jersey"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'jersey' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Inspect  Diamond  Glow  Color",
+      "uncommon_words": [
+        "inspect",
+        "glow"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Examine  Diamond  Crush  Surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Observe  Wooden  Panel  Space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Employ  Cotton  Patch  Sew",
+      "uncommon_words": [
+        "sew"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'sew' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Inspect  Diamond  Glow  Light",
+      "uncommon_words": [
+        "inspect",
+        "glow"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "glow",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Provide  Wooden  Shard  Shape",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Examine  Diamond  Glaze  Surface",
+      "uncommon_words": [
+        "glaze"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Third word 'glaze' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Observe  Wooden  Panel  Edge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "edge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Employ  Cotton  Blend  Woolen",
+      "uncommon_words": [
+        "woolen"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "blend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'woolen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Inspect  Diamond  Shine  Texture",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "texture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Provide  Wooden  Shard  Flake",
+      "uncommon_words": [
+        "shard",
+        "flake"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "flake"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun",
+        "Fourth word 'flake' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Examine  Diamond  Crush  Color",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "color"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Observe  Wooden  Panel  Layer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Employ  Cotton  Patch  Line",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Inspect  Diamond  Shine  Surface",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "curve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Examine  Diamond  Crush  Sparkle",
+      "uncommon_words": [
+        "sparkle"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "sparkle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'sparkle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Observe  Wooden  Panel  Joints",
+      "uncommon_words": [
+        "joints"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'joints' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Employ  Cotton  Fill  Stuffing",
+      "uncommon_words": [
+        "stuffing"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "stuffing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'stuffing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Inspect  Diamond  Shine  Light",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Provide  Wooden  Shard  Grain",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "grain"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Examine  Diamond  Crush  Color",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "color"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Observe  Wooden  Panel  Crease",
+      "uncommon_words": [
+        "crease"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crease' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Employ  Cotton  Patch  Drape",
+      "uncommon_words": [
+        "drape"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "patch",
+        "drape"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'drape' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Inspect  Diamond  Shine  Flash",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "flash"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "split"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Examine  Diamond  Crush  Texture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "texture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Observe  Wooden  Panel  Space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Employ  Cotton  Fill  Stuff",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "stuff"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Inspect  Diamond  Shine  Glow",
+      "uncommon_words": [
+        "inspect",
+        "glow"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "curve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Examine  Diamond  Crush  Surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Observe  Wooden  Panel  Base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "base"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Employ  Cotton  Fill  Stitch",
+      "uncommon_words": [
+        "stitch"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "stitch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'stitch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Inspect  Diamond  Shine  Reflection",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "split"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Examine  Diamond  Crush  Color",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "color"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Observe  Wooden  Panel  Edge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "edge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Employ  Cotton  Fill  Wrap",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Inspect  Diamond  Shine  Glow",
+      "uncommon_words": [
+        "inspect",
+        "glow"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "split"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Examine  Diamond  Crush  Surface",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "surface"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Observe  Wooden  Panel  Edges",
+      "uncommon_words": [
+        "edges"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'edges' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Employ  Cotton  Fill  Patch",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Inspect  Diamond  Shine  Glow",
+      "uncommon_words": [
+        "inspect",
+        "glow"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "split"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Examine  Diamond  Shine  Texture",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "shine",
+        "texture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Observe  Wooden  Panel  Joints",
+      "uncommon_words": [
+        "joints"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "joints"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'joints' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Employ  Cotton  Fill  Cover",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Inspect  Diamond  Shine  Glow",
+      "uncommon_words": [
+        "inspect",
+        "glow"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "split"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Examine  Diamond  Crush  Color",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "color"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Observe  Wooden  Panel  Space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Employ  Cotton  Fill  Stitch",
+      "uncommon_words": [
+        "stitch"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "stitch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'stitch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Inspect  Diamond  Shine  Texture",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "texture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "curve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Examine  Diamond  Crush  Colors",
+      "uncommon_words": [
+        "colors"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'colors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Observe  Wooden  Panel  Space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Employ  Cotton  Fill  Patch",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "patch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Inspect  Diamond  Shine  Reflection",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "reflection"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Provide  Wooden  Shard  Curved",
+      "uncommon_words": [
+        "shard",
+        "curved"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun",
+        "Fourth word 'curved' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Examine  Diamond  Crush  Sparkle",
+      "uncommon_words": [
+        "sparkle"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "sparkle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'sparkle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Observe  Wooden  Panel  Edges",
+      "uncommon_words": [
+        "edges"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "edges"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'edges' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Employ  Cotton  Fill  Wrap",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "wrap"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Inspect  Diamond  Shine  Reflection",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "reflection"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "curve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Examine  Diamond  Crush  Color",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "color"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Observe  Wooden  Panel  Edge",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "edge"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Employ  Cotton  Fill  Cover",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "cover"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Inspect  Diamond  Shine  Reflection",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "reflection"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Provide  Wooden  Shard  Split",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "split"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Examine  Diamond  Crush  Colors",
+      "uncommon_words": [
+        "colors"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "colors"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'colors' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Observe  Wooden  Panel  Crease",
+      "uncommon_words": [
+        "crease"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "crease"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crease' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Employ  Cotton  Fill  Wrap",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "wrap"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Inspect  Diamond  Shine  Reflect",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "reflect"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'reflect' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "curve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Examine  Diamond  Crush  Color",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "crush",
+        "color"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Observe  Wooden  Panel  Space",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "space"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Employ  Cotton  Fill  Stitch",
+      "uncommon_words": [
+        "stitch"
+      ],
+      "previously_used_words": [
+        "employ",
+        "cotton",
+        "fill",
+        "stitch"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cotton' is not an adjective",
+        "Fourth word 'stitch' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Inspect  Diamond  Shine  Texture",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "diamond",
+        "shine",
+        "texture"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'diamond' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Provide  Wooden  Shard  Curve",
+      "uncommon_words": [
+        "shard"
+      ],
+      "previously_used_words": [
+        "provide",
+        "wooden",
+        "shard",
+        "curve"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shard' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Examine  Diamond  Shine  Glow",
+      "uncommon_words": [
+        "glow"
+      ],
+      "previously_used_words": [
+        "examine",
+        "diamond",
+        "shine",
+        "glow"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'diamond' is not an adjective",
+        "Fourth word 'glow' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Observe  Wooden  Panel  Edges",
+      "uncommon_words": [
+        "edges"
+      ],
+      "previously_used_words": [
+        "observe",
+        "wooden",
+        "panel",
+        "edges"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'edges' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,1074 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-16 20:27:57",
+  "total_sentences": 66,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 54,
+  "format_failures": 66,
+  "common_word_failures": 33,
+  "word_reuse_failures": 52,
+  "raw_output_file": "Results/Task_First_100_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747412382.txt",
+  "formatted_output_file": "Results/Task_First_100_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747412382.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Use only words exactly as they appear in the provided word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each word can be used only once. Once a word is used, it can't be re-used.",
+      "uncommon_words": [
+        "can",
+        "is",
+        "can't",
+        "re-used"
+      ],
+      "previously_used_words": [
+        "word",
+        "only",
+        "word"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Each sentence must follow the structure: Verb + Adjective + Noun + Noun.",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "the"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each sentence needs to have exactly four words.",
+      "uncommon_words": [
+        "needs",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "exactly",
+        "words"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "I shouldn\u2019t use any tools or code to do this\u2014it has to be manual.",
+      "uncommon_words": [
+        "shouldn\u2019t",
+        "tools",
+        "this\u2014it",
+        "has"
+      ],
+      "previously_used_words": [
+        "use",
+        "to",
+        "to",
+        "be"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Also, don\u2019t output the entire word list during my thinking phase because it's too long. Good, I can skip listing all of them then.",
+      "uncommon_words": [
+        "don\u2019t",
+        "it's",
+        "can",
+        "listing"
+      ],
+      "previously_used_words": [
+        "the",
+        "word",
+        "list",
+        "i",
+        "can"
+      ],
+      "word_count": 24,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Finally, return only a numbered list with one sentence per line.",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "only",
+        "a",
+        "list",
+        "sentence"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "**Relieve** a **random** **news** story.",
+      "uncommon_words": [
+        "**relieve**",
+        "**random**",
+        "**news**"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "**Differ** an **average** **threshold**.",
+      "uncommon_words": [
+        "**differ**",
+        "an",
+        "**average**",
+        "**threshold**"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**differ**' is not a verb",
+        "Second word 'an' is not an adjective",
+        "Third word '**average**' is not a noun",
+        "Fourth word '**threshold**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "**Cooperative** **accounting** **ship**",
+      "uncommon_words": [
+        "**cooperative**",
+        "**accounting**",
+        "**ship**"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "**Sustain** a **substantial** **conception**.",
+      "uncommon_words": [
+        "**sustain**",
+        "**substantial**",
+        "**conception**"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sustain**' is not a verb",
+        "Second word 'a' is not an adjective",
+        "Third word '**substantial**' is not a noun",
+        "Fourth word '**conception**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Feed** an **unexpected** **finding**.",
+      "uncommon_words": [
+        "**feed**",
+        "an",
+        "**unexpected**",
+        "**finding**"
+      ],
+      "previously_used_words": [
+        "an"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**feed**' is not a verb",
+        "Second word 'an' is not an adjective",
+        "Third word '**unexpected**' is not a noun",
+        "Fourth word '**finding**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Identify** the **hostile** **gallon**",
+      "uncommon_words": [
+        "**identify**",
+        "**hostile**",
+        "**gallon**"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**identify**' is not a verb",
+        "Second word 'the' is not an adjective",
+        "Third word '**hostile**' is not a noun",
+        "Fourth word '**gallon**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Accommodate? Wait**, no, 'accommodate' isn't in the list.",
+      "uncommon_words": [
+        "**accommodate",
+        "wait**",
+        "'accommodate'",
+        "isn't"
+      ],
+      "previously_used_words": [
+        "in",
+        "the",
+        "list"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "**Adjust** (verb) a **closer** **examination**",
+      "uncommon_words": [
+        "**adjust**",
+        "(verb)",
+        "**closer**",
+        "**examination**"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "**Relieve** a **random** **news** story.",
+      "uncommon_words": [
+        "**relieve**",
+        "**random**",
+        "**news**"
+      ],
+      "previously_used_words": [
+        "**relieve**",
+        "a",
+        "**random**",
+        "**news**",
+        "story"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "**Relieve** a **random** **threshold**",
+      "uncommon_words": [
+        "**relieve**",
+        "**random**",
+        "**threshold**"
+      ],
+      "previously_used_words": [
+        "**relieve**",
+        "a",
+        "**random**",
+        "**threshold**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**relieve**' is not a verb",
+        "Second word 'a' is not an adjective",
+        "Third word '**random**' is not a noun",
+        "Fourth word '**threshold**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "**Relieve** a **random** **threshold**",
+      "uncommon_words": [
+        "**relieve**",
+        "**random**",
+        "**threshold**"
+      ],
+      "previously_used_words": [
+        "**relieve**",
+        "a",
+        "**random**",
+        "**threshold**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**relieve**' is not a verb",
+        "Second word 'a' is not an adjective",
+        "Third word '**random**' is not a noun",
+        "Fourth word '**threshold**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "**Impress** an **average** **impression** (But 'impress' is not in the list. Hmm.)",
+      "uncommon_words": [
+        "**impress**",
+        "an",
+        "**average**",
+        "**impression**",
+        "(but",
+        "'impress'",
+        "is",
+        "hmm)"
+      ],
+      "previously_used_words": [
+        "an",
+        "**average**",
+        "is",
+        "in",
+        "the",
+        "list"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "**Relieve** a **random** threshold",
+      "uncommon_words": [
+        "**relieve**",
+        "**random**"
+      ],
+      "previously_used_words": [
+        "**relieve**",
+        "a",
+        "**random**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**relieve**' is not a verb",
+        "Second word 'a' is not an adjective",
+        "Third word '**random**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "**Differ** an **average** threshold",
+      "uncommon_words": [
+        "**differ**",
+        "an",
+        "**average**"
+      ],
+      "previously_used_words": [
+        "**differ**",
+        "an",
+        "**average**",
+        "threshold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**differ**' is not a verb",
+        "Second word 'an' is not an adjective",
+        "Third word '**average**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "**Sustain** a **substantial** conception",
+      "uncommon_words": [
+        "**sustain**",
+        "**substantial**"
+      ],
+      "previously_used_words": [
+        "**sustain**",
+        "a",
+        "**substantial**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**sustain**' is not a verb",
+        "Second word 'a' is not an adjective",
+        "Third word '**substantial**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "**Tolerate** the **hostile** alliance",
+      "uncommon_words": [
+        "**tolerate**",
+        "**hostile**"
+      ],
+      "previously_used_words": [
+        "the",
+        "**hostile**"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**tolerate**' is not a verb",
+        "Second word 'the' is not an adjective",
+        "Third word '**hostile**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "**Assure** the **superior** quality",
+      "uncommon_words": [
+        "**assure**",
+        "**superior**"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '**assure**' is not a verb",
+        "Second word 'the' is not an adjective",
+        "Third word '**superior**' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "relieve",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "differ",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "sustain",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "tolerate",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "assure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "educate",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "identify",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "adjust (v)",
+      "uncommon_words": [
+        "(v)"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "conclude",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "export",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "provide (can be adj, but I think it's a verb too)",
+      "uncommon_words": [
+        "(can",
+        "adj",
+        "it's",
+        "verb",
+        "too)"
+      ],
+      "previously_used_words": [
+        "be",
+        "i",
+        "it's",
+        "a",
+        "verb"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "relieve",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "differ",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "differ"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "sustain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sustain"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "tolerate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tolerate"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "assure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assure"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "educate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "educate"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "identify",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "adjust",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "conclude",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "conclude"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "export",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "export"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "provide",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "move",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "ship (as a verb)",
+      "uncommon_words": [
+        "(as",
+        "verb)"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word '(as' is not an adjective",
+        "Fourth word 'verb)' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "import (no, not in the list)",
+      "uncommon_words": [
+        "(no",
+        "list)"
+      ],
+      "previously_used_words": [
+        "not",
+        "in",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "feed (v)",
+      "uncommon_words": [
+        "(v)"
+      ],
+      "previously_used_words": [
+        "(v)"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "know (v)",
+      "uncommon_words": [
+        "(v)"
+      ],
+      "previously_used_words": [
+        "(v)"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "relieve",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "differ",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "differ"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "sustain",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sustain"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "tolerate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tolerate"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "assure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assure"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "educate",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "educate"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "identify",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "adjust",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "conclude",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "conclude"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "export",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "export"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "provide",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "provide"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "move",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "move"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "ship (v)",
+      "uncommon_words": [
+        "(v)"
+      ],
+      "previously_used_words": [
+        "ship",
+        "(v)"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "know (v)",
+      "uncommon_words": [
+        "(v)"
+      ],
+      "previously_used_words": [
+        "know",
+        "(v)"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "post (v)",
+      "uncommon_words": [
+        "(v)"
+      ],
+      "previously_used_words": [
+        "(v)"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

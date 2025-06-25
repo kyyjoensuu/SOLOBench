@@ -1,0 +1,340 @@
+ separated by line break characters;
+8. The sentences you return must be grammatically correct 
+*/
+
+#include <stdio.h>
+#include <string.h>
+
+// Word List
+
+const char *
+
+int main(int argc, char **argv){
+    // // Print word list
+    /*for (size_t i = 0; i < ARRAYSIZE(wordlist); ++i)
+        puts(wordlist[i]);*/
+    
+    wordlist[ARG_START] = argv[1];
+    for (int i = 2; i < argc; i++){
+        if (argv[i][0] != '-'){
+            strlcat(wordlist[ARG_START], argv[i], sizeof(wordlist[ARG_START]));
+            strlcat(wordlist[ARG_START], " ", sizeof(wordlist[ARG_START]));
+        }
+    }
+
+    puts("------------------------");
+
+
+    // Words
+    printf("%s\n",wordlist[ARG_START]);
+
+    char buffer[256];
+    size_t word_index = 0;
+
+    // Adjectives
+    // strlcpy(buffer,"hot",sizeof(buffer));
+    strlcat(buffer,wordlist[VOWEL2+"E"],sizeof(buffer));
+    strlcat(buffer,wordlist[VOWEL2+"S"],sizeof(buffer));
+    strlcat(buffer,wordlist[VOWEL2+"W"],sizeof(buffer));
+    //strlcpy(buffer,wordlist[VOWEL1+"A"],sizeof(buffer));
+
+    // Nouns
+    // strlcpy(buffer,"bird",sizeof(buffer));
+    strlcat(buffer,wordlist[VOWEL1+"S"],sizeof(buffer));
+    strlcat(buffer,wordlist[VOWEL1+"C"],sizeof(buffer));
+    //strlcpy(buffer,wordlist[VOCAL+"H"],sizeof(buffer));
+
+    char * wordlistcopy[] = {buffer, wordlist[ARG_START], sizeof(wordlist)};
+    char input_words[3][30];
+    for (int i = 0; i < 2; i++)
+        strlcpy(input_words[i],wordlistcopy[i],sizeof(input_words[i]));
+    strlcpy(input_words[2],wordlistcopy[0],sizeof(input_words[2]));
+
+
+    int sentence_index = 0;
+    const char ** word_list = &wordlist[ARG_START];
+    
+    char word1[] = "";
+    strlcpy(word1,wordlist[VOWEL2+"E"],sizeof(word1));
+    char word2[] = "";
+    strlcpy(word2,wordlist[VOWEL2+"S"],sizeof(word2));
+    char word3[] = "";
+    strlcpy(word3,wordlist[VOWEL2+"W"],sizeof(word3));
+    //char word3[] = "";
+    //strlcpy(word3,wordlist[VOWEL1+"A"],sizeof(word3));
+
+    char word4[] = "";
+    strlcpy(word4,wordlistcopy[0],sizeof(word4));
+    int n = 5;// 6
+
+
+    if(n > 4){
+        puts("------------------------");
+        
+        // 30 x 4 = 120
+        // 10 x 6 = 60
+
+        // 180 in sentence #1
+        
+        strlcpy(input_words[0],buffer,sizeof(input_words[0]));
+        strlcpy(input_words[1],word1,sizeof(input_words[1]));
+        //word_list[arg_start]
+        strlcpy(input_words[2],word2,sizeof(input_words[2]));
+        strlcat(input_words[0], " ", sizeof(input_words[0]));
+        strlcat(input_words[0], " ", sizeof(input_words[0]));
+
+        printSentence(input_words);
+
+        while (*wordlistcopy[0] != 0){ // While there are words in the buffer array
+            for (int i = -2; i < 2; i++){  // Loops until every combination has been tried
+                if (i == 0) strlcpy(word3,input_words[0],sizeof(word3));
+                if (i == 2) strlcpy(word4,input_words[0],sizeof(word4));
+                strlcat(input_words[0],input_words[1],sizeof(input_words[0]));
+    
+            #if NUMBEROFSENTENCES < 9
+                printSentence(input_words);
+            #else
+                sentence_index++;
+           #endif
+                if (i >= -2)
+                    if (strlcat(input_words[1],word4,sizeof(input_words[1])) < 0) goto end;
+            }
+        }
+    #endif
+        while (sentence_index < NUMBEROFSENTENCES){ // Loops until we have done NUMBEROFSENTENCES
+            for (int i = -2; i < 2; i++){
+                if (i == 0) strlcpy(word3,input_words[0],sizeof(word3));
+                if (i == 2) strlcpy(word4,wordlist[ARG_START],sizeof(word4));
+                if (i >= 0)word1 = wordlistcopy[0]; 
+                word1[0] = tolower(word1[0]);
+                strlcat(input_words[0],word1,sizeof(input_words[0]));
+                word2 = wordlistcopy[1]; 
+                word1[0] = tolower(word1[0]);
+                word2[0] = tolower(word2[0]);
+                strlcat(input_words[1],word2,sizeof(input_words[1]));
+                //word4 = wordlistcopy[2]; 
+                //word1[0] = tolower(word1[0]);
+                //strlcat(input_words[2],word4,sizeof(input_words[2]));
+                if (i >= -2)
+                    if (strlcat(input_words[2],word4,sizeof(input_words[2])) < 0)
+                        break;
+            #if NUMBEROFSENTENCES == 7
+                printSentence(input_words);    
+            #else 
+                sentence_index++;
+           #endif
+            }
+        }
+
+
+    end:
+        // 20 x 5 = 100
+        // 10 x 6 = 60
+        
+    
+       
+        while (i < NUMBEROFSENTENCES){ // Loops until NUMBEROFSENTENCES is exceeded
+            for (int j = -4; j < 4; j++){
+                if(j == 0) strlcpy(word3, input_words[3],sizeof(word3));
+                if (j == 4) strlcpy(input_words[0], wordlist[ARG_START],sizeof(input_words[0]));
+                strlcat(input_words[0],word4,sizeof(input_words[0]));
+                int a = 1;
+                for (int k = 1; k < 8; k++){
+                    if (a == 1){
+                        if(wordlistcopy[word3][0] == 0){
+                            i++;
+                            continue;
+                        }  
+                        strlcat(input_words[0],wordlistcopy[word3],sizeof(input_words[0]) - 1);
+                    }
+                    else{
+                        strlcat(input_words[a],wordlistcopy[word3] ? wordlistcopy[word3] : word3, sizeof(input_words[a]) - 1);
+                        a++; 
+                    }
+                }
+                //word3 = wordlistcopy[0]; strlcat(input_words[0],word3,sizeof(word3));
+                if (j == 4)
+                    break;
+            }
+        }
+
+
+    }// end of word loop
+}
+
+void printSentence(char *words[]){
+    for(int i = 0;i < ARRAYSIZE(words); i++){
+        printf("%s ",words[i]);
+    }// end of sentence
+    puts("------------------------");}
+
+    char input_words[3][30];
+    for (int i = 1; i < ARRAYSIZE(input_words); i++){
+            if(input_words[i] == '*')
+            int num_matches=0;
+            size_t num_matches = 0;
+            size_t strlcat(output,size_t strlcasecmp(wordlistcopy, sizeof(input_words[i]);
+            char *input_words[NUMBEROFSENTENCES],sizeof(input_words[] = input_words[j];
+            if */
+    size_t sizeof(input_words[3][29];
+    #endif // Loops until we have done for a sentence loop
+    printf(input_words)
+            char * input_words);
+    #ifdef NUMBEROFSENTENCES < NUMBEROFSENTENCES
+        if (strlen(input_words) < ARRAYSIZE(input_words)
+        words[]);{for (size_t
+        strlcpy(input_words, sizeof(input_words)) - sizeof(input_words);
+            /*if(i < (str + ARRAYSIZE(input_words[0]/*,ARRAYSIZE(wordlist[i]);
+            size_t/*,strlcat(input_words[0];
+        int a=1;
+        tolower(wordlist[i];
+        char * input_words)
+        char * sizeof(input_words[i], sizeof(input_words[0]);
+        /*if
+        size_t
+        int *arg_start , sizeof(wordlistcopy[VOWEL2+strlcpy(input_word_list);
+            while (i) to 30);// words_t, sizeof(input_words);/*
+        size_t
+        strlcpy(input_words[i]);
+            size_t// Loops until we have to match the size of a loop to match the size of the size of the words
+            size_t
+            size_t
+        if (argc);
+        strlcat(input_words, size_t wordlistcopy[size_t) strlcpy(input_words[2] = 0;
+        static void printSentence(input_wordlist);
+        char strlcat(input_words[] = "Sentence 2:
+            char * wordlist/argc to 0 + 1} %d, int n =1} // 1 > 0}
+        while (size_t); /*
+        size(i, size_t
+        for(i=0;
+        size_t);// 3// '// for(i=0;i++) > size_t
+        strlcpy(input_words[2];
+      for(int n=1;
+        // for(size_t
+        arger;
+        wordlist
+      // 12;
+        size_t tolower()/upper()/lower()->lowercase()/size_t
+        size_t,size_t size * wordlist[0], ARY
+        size_t
+        char strlcat(input_words,argc);
+        struct size_t
+        while (strcpy(input_wordlistcopy:
+        size_t
+        size_t);}// size - size_t
+        char. 
+        size_t
+
+
+char strlcpy {
+            // 'size_t
+    /*
+     // size_t>0,
+    strlcat(arg_size_t-strlcat(size_t)
+// strlcat(&input_words[0], sizeof // size_t
+        char * -size_t
+    size_t// size_t
+        struct size_t
+	/ // size_t
+       char-size_t
+        char. this char/
+      */
+
+	char type(input_words, int NUMBEROPSA);
+    	
+    while *(num = 100 words(sizetword(sizeflagsize_t
+	 * size_t);
+    strlcat(char * input_words[]
+        if (-1);}
+        for(input_words[1]//input_word list
+        char * strl_t// size_t
+	 char * strlcpy(input_linesize_t
+        void size_t
+        wd. strlcpy(char* inpwordlist of the word a function(int 
+
+struct strlcat(input_word_t
+    size_t=
+       size_t
+       while (char*input_t;
+	strlcat(&argv
+        //strcat(char
+	const char * argv[])
+	//		
+        int			
+// the input_line
+*/;
+	size_t;
+    /* for(const	#include<string> 0
+       char array[]);
+        char **
+#include<strlcpy(arg[arg in syscord_t
+				int putchar
+    size_t-
+// size_t			wordlist of function
+    int length
+        size_t size_of_strcat(i
+	/*size;
+}
+
+struct input_size of words]
+        strcpy(input(FILE * input_service
+        char * -c/strcat(char *
+    char	 use this for(const double
+	for (a
+// size_t to a function(void main
+	while strcat(constrained of
+// strlcpy(arg, with the following in(argv
+	// const
+	char * argv this time the words the arg
+ */
+
+// const char	char + * size of word
+	# this is the (struct,
+// this
+//# _functure
+    // size_t struct char
+
+# This is very helpful/solve this year
+        char -
+		char * (in C
+	struct input_data
+//		/* /c; */
+# the, so it is not for the size_tou a struct
+// if(FILE *arguing
+}
+        int function = func(char* argv this->#,struct strcat(1]	
+ char = for this data
+ * str that it is, this is not a, (and 5) {
+
+			function void main
+#
+## this will serve
+
+// "//,
+    char 4.h, the next line 0x
+		# to find a small in this
+#trou
+
+struct 
+--- this->; struct char[]= (strstrange of this, while 
+//strlen(strangueenumer this code
+	C_tou the result- => word this method will make a)
+
+
+func
+
+void main
+// // C program
+int main, the main()
+// 
+//
+//
+#
+	
+t-wise decision(2)
+
+#include , the main(0x
+}
+
+#include<
+#structs on line +line # 	 +

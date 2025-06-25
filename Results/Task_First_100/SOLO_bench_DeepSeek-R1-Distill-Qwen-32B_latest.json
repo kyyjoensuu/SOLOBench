@@ -1,0 +1,1016 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-14 18:11:56",
+  "total_sentences": 52,
+  "perfect_sentences": 1,
+  "score_percentage": 1.9230769230769231,
+  "word_count_failures": 7,
+  "format_failures": 51,
+  "common_word_failures": 51,
+  "word_reuse_failures": 30,
+  "raw_output_file": "Results/Task_First_100/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest.txt",
+  "formatted_output_file": "Results/Task_First_100/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Verbs: I estimate there are around 50 verbs.",
+      "uncommon_words": [
+        "verbs",
+        "are",
+        "50",
+        "verbs"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Adjectives: Approximately 30 adjectives.",
+      "uncommon_words": [
+        "adjectives",
+        "30",
+        "adjectives"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'adjectives' is not a verb",
+        "Second word 'approximately' is not an adjective",
+        "Third word '30' is not a noun",
+        "Fourth word 'adjectives' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Nouns: The remaining, which would be about 120.",
+      "uncommon_words": [
+        "nouns",
+        "120"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "List all the words given by the user:",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "the",
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Pick a verb (V) from verbs list.",
+      "uncommon_words": [
+        "verb",
+        "(v)",
+        "verbs"
+      ],
+      "previously_used_words": [
+        "verbs",
+        "list"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Choose an adjective (A) from adjectives list that makes conceptual sense with V.",
+      "uncommon_words": [
+        "an",
+        "adjective",
+        "(a)",
+        "adjectives",
+        "makes",
+        "conceptual",
+        "v"
+      ],
+      "previously_used_words": [
+        "from",
+        "adjectives",
+        "list"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Choose Noun1: the target of the verb; so perhaps noun that can be acted upon by V and described by A.",
+      "uncommon_words": [
+        "noun1",
+        "verb",
+        "noun",
+        "can",
+        "acted",
+        "v",
+        "described"
+      ],
+      "previously_used_words": [
+        "choose",
+        "the",
+        "the",
+        "verb",
+        "that",
+        "be",
+        "by",
+        "v",
+        "by",
+        "a"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Choose Noun2: another related or context noun.",
+      "uncommon_words": [
+        "noun2",
+        "noun"
+      ],
+      "previously_used_words": [
+        "choose",
+        "noun"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Adjust colonial bedrooms decorum.",
+      "uncommon_words": [
+        "bedrooms",
+        "decorum"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'bedrooms' is not a noun",
+        "Fourth word 'decorum' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Adjust colonial bedroom decor.",
+      "uncommon_words": [
+        "decor"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "colonial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'decor' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Educate cooperative students knowledge.",
+      "uncommon_words": [
+        "students"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'students' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Tolerate hostile neighbor existence.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Adjust colonial decor meticulously.",
+      "uncommon_words": [
+        "decor",
+        "meticulously"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "colonial",
+        "decor"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'decor' is not a noun",
+        "Fourth word 'meticulously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Assure cooperative efforts completion.",
+      "uncommon_words": [
+        "efforts",
+        "completion"
+      ],
+      "previously_used_words": [
+        "cooperative"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'efforts' is not a noun",
+        "Fourth word 'completion' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Conceive comparable solutions innovatively.",
+      "uncommon_words": [
+        "solutions",
+        "innovatively"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solutions' is not a noun",
+        "Fourth word 'innovatively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Disclose confidential information securely.",
+      "uncommon_words": [
+        "confidential",
+        "securely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confidential' is not an adjective",
+        "Fourth word 'securely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Divide equal shares fairly.",
+      "uncommon_words": [
+        "shares"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shares' is not a noun",
+        "Fourth word 'fairly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Educate joyful children knowledgeably.",
+      "uncommon_words": [
+        "joyful",
+        "children",
+        "knowledgeably"
+      ],
+      "previously_used_words": [
+        "educate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Third word 'children' is not a noun",
+        "Fourth word 'knowledgeably' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Export quality products efficiently.",
+      "uncommon_words": [
+        "products",
+        "efficiently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'products' is not a noun",
+        "Fourth word 'efficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Feed starving animals generously.",
+      "uncommon_words": [
+        "starving",
+        "animals",
+        "generously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'starving' is not an adjective",
+        "Third word 'animals' is not a noun",
+        "Fourth word 'generously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Guarantee superior service reliably.",
+      "uncommon_words": [
+        "reliably"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'reliably' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Identify random errors accurately.",
+      "uncommon_words": [
+        "errors"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'errors' is not a noun",
+        "Fourth word 'accurately' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Interact positively people amicably.",
+      "uncommon_words": [
+        "positively",
+        "amicably"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'positively' is not an adjective",
+        "Fourth word 'amicably' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Invite unexpected guests warmly.",
+      "uncommon_words": [
+        "guests",
+        "warmly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'guests' is not a noun",
+        "Fourth word 'warmly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Know substantial facts thoroughly.",
+      "uncommon_words": [
+        "facts"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'facts' is not a noun",
+        "Fourth word 'thoroughly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Modify outdated systems effectively.",
+      "uncommon_words": [
+        "outdated",
+        "systems"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outdated' is not an adjective",
+        "Third word 'systems' is not a noun",
+        "Fourth word 'effectively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Move heavy equipment cautiously.",
+      "uncommon_words": [
+        "cautiously"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'cautiously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Package fragile items securely.",
+      "uncommon_words": [
+        "items",
+        "securely"
+      ],
+      "previously_used_words": [
+        "securely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'items' is not a noun",
+        "Fourth word 'securely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Place strategic pieces correctly.",
+      "uncommon_words": [
+        "pieces"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'pieces' is not a noun",
+        "Fourth word 'correctly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Post important announcements promptly.",
+      "uncommon_words": [
+        "announcements",
+        "promptly"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'announcements' is not a noun",
+        "Fourth word 'promptly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Provide adequate resources sufficiently.",
+      "uncommon_words": [
+        "resources",
+        "sufficiently"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'resources' is not a noun",
+        "Fourth word 'sufficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Progress projects timely successfully.",
+      "uncommon_words": [
+        "projects",
+        "timely"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'projects' is not an adjective",
+        "Third word 'timely' is not a noun",
+        "Fourth word 'successfully' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Adjust colonial decor meticulously.",
+      "uncommon_words": [
+        "decor",
+        "meticulously"
+      ],
+      "previously_used_words": [
+        "adjust",
+        "colonial",
+        "decor",
+        "meticulously"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'decor' is not a noun",
+        "Fourth word 'meticulously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Assure cooperative efforts completion.",
+      "uncommon_words": [
+        "efforts",
+        "completion"
+      ],
+      "previously_used_words": [
+        "assure",
+        "cooperative",
+        "efforts",
+        "completion"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'efforts' is not a noun",
+        "Fourth word 'completion' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Conceive comparable solutions innovatively.",
+      "uncommon_words": [
+        "solutions",
+        "innovatively"
+      ],
+      "previously_used_words": [
+        "conceive",
+        "comparable",
+        "solutions",
+        "innovatively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'solutions' is not a noun",
+        "Fourth word 'innovatively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Disclose confidential information securely.",
+      "uncommon_words": [
+        "confidential",
+        "securely"
+      ],
+      "previously_used_words": [
+        "disclose",
+        "confidential",
+        "information",
+        "securely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'confidential' is not an adjective",
+        "Fourth word 'securely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Divide equal shares fairly.",
+      "uncommon_words": [
+        "shares"
+      ],
+      "previously_used_words": [
+        "divide",
+        "equal",
+        "shares",
+        "fairly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shares' is not a noun",
+        "Fourth word 'fairly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Educate joyful children knowledgeably.",
+      "uncommon_words": [
+        "joyful",
+        "children",
+        "knowledgeably"
+      ],
+      "previously_used_words": [
+        "educate",
+        "joyful",
+        "children",
+        "knowledgeably"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective",
+        "Third word 'children' is not a noun",
+        "Fourth word 'knowledgeably' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Export quality products efficiently.",
+      "uncommon_words": [
+        "products",
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "export",
+        "quality",
+        "products",
+        "efficiently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'products' is not a noun",
+        "Fourth word 'efficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Feed starving animals generously.",
+      "uncommon_words": [
+        "starving",
+        "animals",
+        "generously"
+      ],
+      "previously_used_words": [
+        "feed",
+        "starving",
+        "animals",
+        "generously"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'starving' is not an adjective",
+        "Third word 'animals' is not a noun",
+        "Fourth word 'generously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Guarantee superior service reliably.",
+      "uncommon_words": [
+        "reliably"
+      ],
+      "previously_used_words": [
+        "guarantee",
+        "superior",
+        "service",
+        "reliably"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'reliably' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Identify random errors accurately.",
+      "uncommon_words": [
+        "errors"
+      ],
+      "previously_used_words": [
+        "identify",
+        "random",
+        "errors",
+        "accurately"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'errors' is not a noun",
+        "Fourth word 'accurately' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Interact positively people amicably.",
+      "uncommon_words": [
+        "positively",
+        "amicably"
+      ],
+      "previously_used_words": [
+        "interact",
+        "positively",
+        "people",
+        "amicably"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'positively' is not an adjective",
+        "Fourth word 'amicably' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Invite unexpected guests warmly.",
+      "uncommon_words": [
+        "guests",
+        "warmly"
+      ],
+      "previously_used_words": [
+        "invite",
+        "unexpected",
+        "guests",
+        "warmly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'guests' is not a noun",
+        "Fourth word 'warmly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Know substantial facts thoroughly.",
+      "uncommon_words": [
+        "facts"
+      ],
+      "previously_used_words": [
+        "know",
+        "substantial",
+        "facts",
+        "thoroughly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'facts' is not a noun",
+        "Fourth word 'thoroughly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Modify outdated systems effectively.",
+      "uncommon_words": [
+        "outdated",
+        "systems"
+      ],
+      "previously_used_words": [
+        "modify",
+        "outdated",
+        "systems",
+        "effectively"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'outdated' is not an adjective",
+        "Third word 'systems' is not a noun",
+        "Fourth word 'effectively' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Move heavy equipment cautiously.",
+      "uncommon_words": [
+        "cautiously"
+      ],
+      "previously_used_words": [
+        "move",
+        "heavy",
+        "equipment",
+        "cautiously"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'cautiously' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Package fragile items securely.",
+      "uncommon_words": [
+        "items",
+        "securely"
+      ],
+      "previously_used_words": [
+        "package",
+        "fragile",
+        "items",
+        "securely"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'items' is not a noun",
+        "Fourth word 'securely' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Place strategic pieces correctly.",
+      "uncommon_words": [
+        "pieces"
+      ],
+      "previously_used_words": [
+        "place",
+        "strategic",
+        "pieces",
+        "correctly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'pieces' is not a noun",
+        "Fourth word 'correctly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Post important announcements promptly.",
+      "uncommon_words": [
+        "announcements",
+        "promptly"
+      ],
+      "previously_used_words": [
+        "post",
+        "important",
+        "announcements",
+        "promptly"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'announcements' is not a noun",
+        "Fourth word 'promptly' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Provide adequate resources sufficiently.",
+      "uncommon_words": [
+        "resources",
+        "sufficiently"
+      ],
+      "previously_used_words": [
+        "provide",
+        "adequate",
+        "resources",
+        "sufficiently"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'resources' is not a noun",
+        "Fourth word 'sufficiently' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Progress projects timely successfully.",
+      "uncommon_words": [
+        "projects",
+        "timely"
+      ],
+      "previously_used_words": [
+        "progress",
+        "projects",
+        "timely",
+        "successfully"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'projects' is not an adjective",
+        "Third word 'timely' is not a noun",
+        "Fourth word 'successfully' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-16 04:29:43",
+  "total_sentences": 1,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 0,
+  "format_failures": 1,
+  "common_word_failures": 1,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_500/SOLO_bench_raw_gemma-3-12b-pt_latest_1747357584.txt",
+  "formatted_output_file": "Results/Task_After_500/SOLO_bench_gemma-3-12b-pt_latest_1747357584.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "50969, 86, 6300, 8599",
+      "uncommon_words": [
+        "50969",
+        "86",
+        "6300",
+        "8599"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '50969' is not a verb",
+        "Second word '86' is not an adjective",
+        "Third word '6300' is not a noun",
+        "Fourth word '8599' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

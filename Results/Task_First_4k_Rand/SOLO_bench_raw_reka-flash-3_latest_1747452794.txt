@@ -1,0 +1,1062 @@
+
+broaden
+parallel
+ladder
+prosperity
+which
+exotic
+stain
+tension
+subsidy
+championship
+charity
+intensively
+cliff
+wheat
+mood
+interviewer
+necessarily
+crown
+complement
+hut
+degradation
+cathedral
+insane
+fence
+pound
+innovation
+separate
+till
+gasp
+involvement
+broad
+cylinder
+practitioner
+simplify
+stumble
+examine
+impose
+kettle
+contrast
+dusk
+merger
+ocean
+ladder
+magnet
+narrow
+ferry
+industrialization
+shortage
+warrant
+integrate
+survival
+concrete
+psychology
+pioneer
+debut
+strategic
+chamber
+glance
+cultural
+tactic
+honor
+gently
+stadium
+triumph
+fashion
+shelter
+museum
+reinforce
+kiss
+soul
+abortion
+satisfy
+exhausted
+dislike
+subtle
+innocence
+relieve
+vapor
+depression
+torture
+gratitude
+determination
+companion
+deflation
+necessity
+divine
+council
+obligation
+protest
+chambermaid
+murmur
+hull
+pistol
+grip
+jewel
+foul
+dove
+sweep
+foggy
+shock
+wander
+frown
+butter
+apron
+drain
+moisture
+rhythm
+secrets
+sprout
+stiffness
+conveniently
+whistle
+crutch
+defeat
+excessive
+garlic
+humiliate
+jagged
+leash
+melt
+prism
+quiver
+sigh
+snicker
+splinter
+squelch
+teddy
+thud
+transient
+vein
+waistcoat
+wilt
+wool
+yearn
+zebra'''.split()
+
+english_adjectives = '''small
+large
+tiny
+huge
+big
+little
+short
+long
+thin
+fat/thick
+black
+white
+red
+blue
+green
+yellow
+orange
+purple
+brown
+gray/grey
+old
+new
+young
+happy
+sad
+angry
+calm
+scared/afraid
+beautiful
+ugly
+interesting
+boring
+clever/intelligent
+stupid
+strong
+weak
+silly
+excited
+tired
+friendly
+mean
+sick/ill
+hungry/thirsty
+important
+unusual
+modern
+traditional
+public
+private
+political
+religious
+historical
+economic
+scientific
+artistic
+cultural
+physical
+mental/emotional
+social
+active/passive
+violent
+dangerous
+safe
+quiet/peaceful
+loud/noisy
+fast/speedy
+slow
+dry/wet
+cold/freezing
+hot/burning
+warm
+sharp/blunt
+rough/smooth
+sticky/slippery
+soft/hard
+light/dim
+dark
+dirty/clean
+spicy/sweet/sour/bitter
+juicy
+crunchy
+soft/firm
+fresh
+rotten/stale
+metallic
+wooden/plastic
+glassy
+fragrant
+scented
+colorful/painted
+plain/neutral
+fluffy
+striped/patterned
+polished/shiny
+dull
+transparent/opaque
+reflective
+smooth/tubby
+wrinkled
+clean/dirty
+stained
+cracked/chipped
+bent/wavy
+curly/smooth
+straight
+frizzy/sparse
+thick/thin
+long/short
+chubby/plump
+slim/svelte
+muscular/weedy
+weak/benevolent
+ugly/beautiful
+attractive
+handsome
+homely
+scary
+pretty
+cute
+adorable
+fierce
+gentle
+friendly/hostile
+majestic
+shiny/sparkling
+gleaming/pearlescent
+dusty/dank/musty
+sweaty
+sparkly/starry
+clear/vivid
+blurry/foggy
+muddy/dirty
+steep/high
+narrow/wide
+deep/shallow
+high/tall
+low/short
+thick/thin
+curved/angular
+rounded/square
+oval/circular
+smooth/rough
+jagged/spiky
+pointed/blunt
+sharp/blurry
+transparent/cloudy
+sparkling/dull
+shiny/glossy
+matte/pearlescent
+bright/dim
+colorless/pale
+dark/bright
+light/heavy
+warm/cozy/cold
+cool/mild
+hot/searing
+icy/chilly
+freezing/cold
+burning/hot
+fluffy/soft
+rough/smooth
+hard/stiff
+flexible/rigid
+springy/damp
+elastic/stretchy
+squishy/firm
+crisp/brittle
+gooey/slick
+sticky/gluey
+creamy/oily
+wet/damp/moist
+dry/dehydrated
+fresh/ripe
+rotten/off
+smelly/perfumed
+aromatic/floral
+spicy/herbal
+sour/tangy
+sweet/cloying
+bitter/harsh
+savory/salty
+umami/meaty
+fragrant/botanical
+earthy/dusty
+oceanic/marine
+fresh/briny
+sharp/acrid
+moldy/rancid
+pungent/penetrating
+clean/sharp
+sour/tart
+delicious/appetizing
+yummy/tasty
+yucky/disgusting
+gross/nauseating
+mouth-watering/scrumptious
+refreshing/satisfying
+hearty/stuffed
+light/easy-to-digest
+rich/opulent
+bland/poorly-flavored
+cloyingly/sweet
+sourish/astringent
+bitterish/amargo
+umami/rich
+tangy/zesty
+peppery/numbing
+mild/quiescent
+severe/intense
+gentle/calm
+harsh/rude
+rough/aggressive
+smooth/polite
+bright/vibrant
+faded/diminished
+deep/saturated
+light/pale
+vivid/flashing
+pale/stale
+dark/muted
+bold/unusual
+pretty/ugly
+handsome/beautiful
+homely/plain
+scary/frightening
+cute/adorable
+fierce/domineering
+gentle/harmless
+friendly/amicable
+majestic/noble
+shiny/sparkling
+gleaming/dazzling
+dusty/dirty
+sweaty/moist
+sparkly/starry
+clear/vivid
+blurry/foggy
+muddy/greasy
+steep/high
+narrow/wide
+deep/shallow
+high/tall
+low/short
+thick/thin
+curved/angular
+rounded/square
+oval/circular
+smooth/rough
+jagged/spiky
+pointed/blunt
+sharp/blurry
+transparent/cloudy
+sparkling/dull
+shiny/glossy
+matte/pearlescent
+bright/dim
+colorless/pale
+dark/bright
+light/heavy
+warm/cozy/cold
+cool/mild
+hot/searing
+icy/chilly
+freezing/cold
+burning/hot
+fluffy/soft
+rough/smooth
+hard/stiff
+flexible/rigid
+springy/damp
+elastic/stretchy
+squishy/firm
+crisp/brittle
+gooey/slick
+sticky/gluey
+creamy/oily
+wet/damp/moist
+dry/dehydrated
+fresh/ripe
+rotten/off
+smelly/perfumed
+aromatic/floral
+spicy/herbal
+sour/tangy
+sweet/cloying
+bitter/harsh
+savory/salty
+umami/meaty
+fragrant/botanical
+earthy/dusty
+oceanic/marine
+fresh/briny
+sharp/acrid
+moldy/rancid
+pungent/penetrating
+clean/sharp
+sour/tart
+delicious/appetizing
+yummy/tasty
+yucky/disgusting
+gross/nauseating
+mouth-watering/scrumptious
+refreshing/satisfying
+hearty/stuffed
+light/easy-to-digest
+rich/opulent
+bland/poorly-flavored
+cloyingly/sweet
+sourish/astringent
+bitterish/amargo
+umami/rich
+tangy/zesty
+peppery/numbing
+mild/quiescent
+severe/intense
+gentle/calm
+harsh/rude
+rough/aggressive
+smooth/polite
+bright/vibrant
+faded/diminished
+deep/saturated
+light/pale
+vivid/flashing
+pale/stale
+dark/muted
+bold/unusual
+pretty/ugly
+handsome/beautiful
+homely/plain
+scary/frightening
+cute/adorable
+fierce/domineering
+gentle/harmless
+friendly/amicable
+majestic/noble
+shiny/sparkling
+gleaming/dazzling
+dusty/dirty
+sweaty/moist
+sparkly/starry
+clear/vivid
+blurry/foggy
+muddy/greasy
+steep/high
+narrow/wide
+deep/shallow
+high/tall
+low/short
+thick/thin
+curved/angular
+rounded/square
+oval/circular
+smooth/rough
+jagged/spiky
+pointed/blunt
+sharp/blurry
+transparent/cloudy
+sparkling/dull
+shiny/glossy
+matte/pearlescent
+bright/dim
+colorless/pale
+dark/bright
+light/heavy
+warm/cozy/cold
+cool/mild
+hot/searing
+icy/chilly
+freezing/cold
+burning/hot
+fluffy/soft
+rough/smooth
+hard/stiff
+flexible/rigid
+springy/damp
+elastic/stretchy
+squishy/firm
+crisp/brittle
+gooey/slick
+sticky/gluey
+creamy/oily
+wet/damp/moist
+dry/dehydrated
+fresh/ripe
+rotten/off
+smelly/perfumed
+aromatic/floral
+spicy/herbal
+sour/tangy
+sweet/cloying
+bitter/harsh
+savory/salty
+umami/meaty
+fragrant/botanical
+earthy/dusty
+oceanic/marine
+fresh/briny
+sharp/acrid
+moldy/rancid
+pungent/penetrating
+clean/sharp
+sour/tart
+delicious/appetizing
+yummy/tasty
+yucky/disgusting
+gross/nauseating
+mouth-watering/scrumptious
+refreshing/satisfying
+hearty/stuffed
+light/easy-to-digest
+rich/opulent
+bland/poorly-flavored'''.split()
+
+english_nouns = ['cat', 'dog', 'bird', 'fish', 'horse',
+                'human', 'child/adult', 'woman/man', 'boy/girl',
+                'baby/toddler', 'friend/enemy', 'teacher/student',
+                'parent/child', 'sister/brother', 'family/group',
+                'animal/plant', 'car/bus/truck', 'bicycle/motorcycle',
+                'airplane/rocket', 'boat/ship', 'train/subway',
+                'computer/laptop/tablet/phone', 'chair/table',
+                'bed/couch/furniture', 'clothes/jacket/coat/shirt/pants',
+                'shoes/accessories', 'food/bread/fruit/vegetable',
+                'drink/water/coffee/tea/milk', 'school/hospital/home',
+                'store/market', 'park/garden', 'city/country',
+                'building/house', 'room/kitchen/bathroom', 'object/tool',
+                'instrument/music', 'book/ magazine/newspaper',
+                'pen/pencil/paper', 'art/artwork', 'flower/plant',
+                'tree/nature', 'mountain/rhill', 'beach/ocean',
+                'river/lake/sewer', 'sky/clouds/sun/moon/stars',
+                'weather/rain/snow/fog', 'time/date/year/month/day',
+                'number/letter/symbol', 'color/black/white/red/blue',
+                'shape/circle/square/triangle', 'emotion/happiness/sadness',
+                'idea/thought/concept', 'problem/question', 'solution/answer',
+                'action/movement/dance', 'event/festival/holiday',
+                'sport/game', 'vehicle/transportation', 'weapon/gun/bomb',
+                'religion/church/temple', 'government/politics',
+                'money/currency/banknote/coin', 'job/profession',
+                'history/event/past', 'science/discovery/experiment',
+                'technology/invention', 'art/painting/sculpture',
+                'literature/novel/story', 'music/song/beat',
+                'film/movie/theater', 'travel/adventure/journey',
+                'health/medicine/disease', 'education/learning/knowledge',
+                'friendship/love/hate', 'war/conflict', 'peace/truce',
+                'family/relation', 'memory/recollection',
+                'imagination/fantasy', 'reality/truth', 'lies/deception',
+                'hope/despair', 'fear/terror', 'courage/bravery',
+                'anger/rage', 'excitement/enthusiasm', 'boredom/weary',
+                'surprise/shock', 'shame/guilt', 'pride/confidence',
+                'humiliation/disgrace', 'love/passion', 'romance/affair',
+                'hatred/malice', 'kindness/compassion', 'generosity/selfishness',
+                'ambition/dream/aspiration', 'failure/despair/regret',
+                'success/achievement/glory', 'beauty/allure',
+                'ugliness/horror', 'strength/power', 'weakness/helplessness',
+                'health/wellness', 'sickness/illness', 'age/younger/older',
+                'size/large/small', 'weight/heavy/light',
+                'speed/fast/slow', 'direction/north/south/east/west',
+                'quality/good/bad/excellent/poor', 'quantity/much/few',
+                'reason/cause/effect', 'condition/state',
+                'possessive/own/rent/borrow', 'verb/action', 'noun/object',
+                'adjective/qualifier', 'adverb/method/manner', 'preposition/location',
+                'conjunction/connection', 'interjection/exclamation',
+                'pronoun/personal/relative', 'article/determiner',
+                'metaphor/simile', 'idiom/phrase', 'myth/legend/folklore',
+                'history/time_period', 'culture/tradition/custom',
+                'language/spelling/pronunciation', 'grammar/punctuation',
+                'logic/reasoning/thinking', 'emotion/mood/state_of_mind',
+                'sensation/perception', 'thought/idea/concept',
+                'perception/sense/impression', 'belief/opinion/faith',
+                'intention/purpose/desire', 'need/want/requirement',
+                'obligation/duty/responsibility', 'ability/capability',
+                'skill/competence', 'knowledge/expertise/erudition',
+                'experience/life_experience', 'impression/seeming/appearance',
+                'reality/existence', 'nonexistence/inexistence',
+                'potential/possibility', 'necessity/imperative',
+                'importance/significance', 'likelihood/probability/chance',
+                'certainty/assurance', 'ambiguity/doubt', 'certainty/surety',
+                'probability/unlikely', 'certainty/definitely/maybe',
+                'opinion/viewpoint', 'argument/persuasion', 'proof/evidence',
+                'testimony/witness', 'statement/assertion',
+                'complaint/grievance', 'praise/accolade/compliment',
+                'criticism/reproach/blame', 'advice/council/suggestion',
+                'instruction/command/order', 'warning/caution/plea',
+                'invitation/offer/proposal', 'request/appeal',
+                'announcement/notification', 'introduction/presentation',
+                'conclusion/resolution/finality', 'summary/abridgment',
+                'detail/specification', 'example/instance/case',
+                'analogy/comparison', 'contrast/difference',
+                'similarity/identity', 'union/connection/link',
+                'separation/division/split', 'addition/increase',
+                'subtraction/decrease', 'multiplication/formation',
+                'division/segregation', 'distribution/dealing',
+                'collection/gathering', 'exchange/trade/barter',
+                'combination/mixture', 'comparison/resemblance',
+                'relationship/connection', 'cause/effect/consequence',
+                'reason/explanation', 'purpose/intent/objective',
+                'foundation/basis/groundwork', 'structure/framework',
+                'system/network/organization', 'process/action/series',
+                'movement/transformation', 'development/growth',
+                'decay/destruction', 'creation/formation',
+                'maintenance/preservation', 'repair/restoration',
+                'destruction/wreckage', 'disintegration/unmaking',
+                'abundance/oversupply', 'scarcity/lack-shortage',
+                'sufficiency/ampleness', 'insufficiency-deficiency',
+                'quantity/amount/volume', 'density/concentration',
+                'extension/span', 'intensity/severity',
+                'frequency/regularity', 'velocity/speed',
+                'duration/length', 'magnitude/grandeur',
+                'importance/significance/value', 'use/applicability',
+                'utility/practicality', 'worth/value/importance',
+                'profit/gain/benefits', 'loss/damage/harm',
+                'expense/cost/paying', 'income/revenue',
+                'exchange/trade/barter', 'investment/speculation',
+                'debt/credit/liability', 'property/ownership',
+                'rights/permission', 'obligations/duties',
+                'liabilities/responsibilities', 'entitlement/legal_right',
+                'forbidden/prohibited', 'allowed/permitted',
+                'necessary/indispensable', 'unnecessary/redundant',
+                'essential/vital', 'optional/elective',
+                'possible/plausible', 'impossible/unfeasible',
+                'likely/probable', 'unlikely/improbable',
+                'certain/sure', 'uncertain/questionable',
+                'definite/clear', 'indistinct/ambiguous',
+                'factual/concrete', 'hypothetical/theoretical',
+                'real/physical', 'imaginary/fictional',
+                'concrete/tangible', 'abstract/intangible',
+                'perceptible/sensory', 'intellectual/mental',
+                'emotional/spiritual', 'physical/bodily',
+                'moral/ethical', 'immoral/unethical',
+                'legal/legitimate', 'illegal/illicit',
+                'religious/sacred', 'secular/temporal',
+                'public/open', 'private/closed',
+                'domestic/household', 'international/national',
+                'cultural/traditional', 'modern/contemporary',
+                'traditional/classical', 'ancient/old-fashioned',
+                'future/forthcoming', 'past/historical',
+                'present/current', 'imaginary/fantasy',
+                'real/reality', 'science/fact', 'myth/fiction',
+                'truth/truthfulness', 'lie/deceit',
+                'honesty/integrity', 'dishonesty/deception',
+                'knowledge/expertise', 'ignorance/lack_of_knowledge',
+                ' wisdom/sapience', 'foolishness/stupidity',
+                'reasoning/thought', 'madness/insanity',
+                'calmness/serenity', 'anger/rage/fury',
+                'excitement/excitability', 'boredom/tedium',
+                'happiness/joy/bliss', 'sadness/sorrow/grief',
+                'fear/terror/panic', 'courage/bravery/valor',
+                'shame/guilt/penitence', 'pride/confidence/arrogance',
+                'love/passion/affection', 'lust/desire/infatuation',
+                'hatred/malice/venom', 'kindness/compassion/empathy',
+                'generosity/selflessness/altruism', 'selfishness/greed',
+                'ambition/aspiration/determination',
+                'envy/envious/respect', 'gratitude/appreciation',
+                'indifference/apathy', 'surprise/amazement',
+                'disapproval/reproach', 'approval/commendation',
+                ' hope/optimism', 'despair/pessimism',
+                'faith/trust/belief', 'doubt/skepticism',
+                'certainty/sureness', 'uncertainty/doubtful',
+                'possibility/likelihood', 'improbability/unlikeliness',
+                'necessity/requirement', 'option/elective_choice',
+                'choice/arbitrary_decision', 'compulsion/obligation',
+                'freedom/liberty', 'captivity/imprisonment',
+                'health/well-being', 'sickness/ailment/disease',
+                'ageing/aging/maturity', 'youth/adulthood/seniority',
+                'beauty/allure/grace', 'ugliness/horror/disgust',
+                'strength/power', 'weakness/frailty/helplessness',
+                'boldness/courage', ' timidity/cowardice',
+                'brilliance/intelligence', 'foolishness/stupidity',
+                'charisma/charm', 'dullness/plainness',
+                'kindness/gentleness', 'rudeness/harshness',
+                'generosity/selflessness', 'meanness/ingratitude',
+                'modesty/h humility', 'arrogance/presumption',
+                'patience/endurance', 'impatient/restlessness',
+                'honesty/integrity', 'dishonesty/deceit',
+                'loyalty/allegiance', 'betrayal/disloyalty',
+                'humor/jest', 'seriosity/sullenness',
+                'activity/motion', 'inertia/stasis',
+                'aggression/hostility', 'passivity/submission',
+                'creativity/invention', 'conformity/adaptability',
+                'innovation/progress', 'traditionalism/conservatism',
+                'peace/tranquility', 'conflict/war',
+                'order/structure', 'chaos/disarray',
+                'cleverness/wits', 'silliness/nonsense',
+                'vigor/energy', 'laziness/sluggishness',
+                'accuracy/precision', 'carelessness/imprecision',
+                'clarity/distinctness', 'ambiguity/confusion',
+                'simplicity/ease', 'complexity/difficulty',
+                'beauty/allure', 'lack_of_beauty/glamour',
+                'safety/security', 'danger/peril',
+                'comfort/relaxation', 'discomfort/tension',
+                'expensiveness/premium', 'cheapness/bargain',
+                'popularity/fame', 'obscurity/invisibility',
+                'reputation/image', 'notoriety/infamy',
+                'originality/creativity', 'imitation/copies',
+                'tradition/custom', 'innovation/change',
+                'consistency/stability', 'instability/fluctuation',
+                'growth/progression', 'decline/regression',
+                'construction/building', 'destruction/dismantling',
+                'mainten ance/repair', 'disrepair/decay',
+                'creation/formation', 'annihilation/extinction',
+                'development/evolution', 'regression/reduction',
+                'expansion/enlargement', 'contraction/shrinking',
+                'abundance/overflowing', 'scarcity/rarity',
+                'sufficiency/ample_quantity', 'insufficiency/lack',
+                'fullness/completeness', 'emptiness/vacancy',
+                'thickness/heaviness', 'thinness/lightness',
+                'hardness/sturdiness', 'softness/flimsiness',
+                'length/extent', 'brevity/shortness',
+                'width/spread', 'narrowness/limitation',
+                'height/elevation', 'depth/profundity',
+                'velocity/speed', 'slowness/laggardliness',
+                'frequency/occurrence', 'rarity/uncommonness',
+                'force/power', 'weakness/incapacity',
+                'temperature/hot/cold', 'pressure/stress',
+                'quantity/amound', 'quality/purity',
+                'value/importance', 'relevance/significance',
+                'usefulness/applicability', 'pointlessness/uselessness',
+                'accuracy/faithfulness', 'inaccuracy/difference',
+                'likelihood/probability', 'impossibility/unfeasibility',
+                'necessity/impertinence', 'option/election',
+                'certainty/sureness', 'uncertainty/doubt',
+                'possible/probable', 'impossible/improbable',
+                'definite/clear', 'indistinct/vague',
+                'real/physical', 'imaginary/fictitious',
+                'concrete/tangible', 'abstract/intangible',
+                'perceptible/sensory', 'intellectual/abstract',
+                'emotional/spiritual', 'physical/bodily',
+                'moral/ethical', 'immoral/unethical',
+                'legal/lawful', 'illegal/illicit',
+                'religious/pious', 'secular/temporal',
+                'public/open', 'private/closed',
+                'domestic/home', 'foreign/national',
+                'cultural/traditional', 'modern/contemporary',
+                'classic/antique', 'traditional/classical',
+                'past/history', 'present/time',
+                'future/prospective', 'imaginary/fantastical',
+                'real/actual', 'science/reality', 'myth fiction',
+                'truth/verity', 'lie/deception',
+                'honesty/truthfulness', 'dishonesty/falsehood',
+                'knowledge/savoir_faire', 'ignorance/lack_of_knowledge',
+                'wisdom/experience', 'foolishness/stupidity',
+                'reasoning/thought_process', 'madness/insanity',
+                'calmness/serenity', 'anger/fury',
+                'excitement/enthusiasm', 'boredom/tedium',
+                'happiness/bliss', 'sadness/grief',
+                'fear/terror', 'courage/bravery',
+                'shame/regret', 'pride/arrogance',
+                'love/affection', 'lust/desire',
+                'hatred/malice', 'kindness/empathy',
+                'generosity/altruism', 'selfishness/greed',
+                'ambition/aspiration', 'envy/respect',
+                'gratitude/appreciation', 'indifference/apathy',
+                'surprise/amazement', 'disapproval/censure',
+                'approval/accolade', 'hope/optimism',
+                'despair/pessimism', 'faith/trust',
+                'doubt/skepticism', 'certainty/confidence',
+                'uncertainty/doubtful', 'possibility/probability',
+                'improbability/unlikeliness', 'necessity/obligation',
+                'option/election', 'compulsion/duty',
+                'freedom/liberty', 'captivity/imprisonment',
+                'health/wellness', 'sickness/ailment',
+                'ageing/maturity', 'youth/adulthood',
+                'beauty/grace', 'ugliness/disgust',
+                'strength/power', 'weakness/helplessness',
+                'boldness/courage', 'timidity/fearfulness',
+                'brilliance/intelligence', 'foolishness/stupidity',
+                'charisma/charm', 'dullness/plainness',
+                'kindness/gentleness', 'rudeness/harshness',
+                'generosity/selflessness', 'meanness/ingratitude',
+                'modesty/humility', 'arrogance/presumption',
+                'patience/endurance', 'impatience/restlessness',
+                'honesty/integrity', 'dishonesty/deceit',
+                'loyalty/allegiance', 'betrayal/dishonor',
+                'humor/jest', 'seriousness/sullenness',
+                'activity/motion', 'inertia/stagnation',
+                'aggression/hostility', 'passivity/submission',
+                'creativity/invention', 'conformity/adaptation',
+                'innovation/progress', 'traditionalism/conservatism',
+                'peace/tranquility', 'conflict/war',
+                'order/system', 'chaos/disarray',
+                'cleverness/wits', 'silliness/nonsense',
+                'vigor/energy', 'laziness/sluggishness',
+                'accuracy/precision', 'carelessness/imprecision',
+                'clarity/distinctness', 'ambiguity/vagueness',
+                'simplicity/ease', 'complexity/difficulty',
+                'beauty/allure', 'lack_of_beauty/uglify',
+                'safety/security', 'danger/peril',
+                'comfort/relaxation', 'discomfort/tension',
+                'expensiveness/premium', 'cheapness/inexpensive',
+                'popularity/reputation', 'obscurity/unknown',
+                'reputation/image', 'notoriety/stigma',
+                'originality/uniqueness', 'imitation/copy',
+                'tradition/customs', 'innovation/challenge',
+                'consistency/regularity', 'instability/fluctuation',
+                'growth/enhancement', 'decline/reduction',
+                'construction/building', 'destruction/dismantling',
+                'maintenance/repair', 'disrepair/decay',
+                'creation/generation', 'annihilation/destruction',
+                'development/progression', 'regression/reversal',
+                'expansion/enlargement', 'contraction/reduction',
+                'abundance/overflow', 'scarcity/lack',
+                'sufficiency/adequacy', 'insufficiency/deficiency',
+                'fullness/completeness', 'emptiness/vacancy',
+                'thickness/heaviness', 'thinness/lightness',
+                'hardness/sturdiness', 'softness/flimsiness',
+                'length/duration', 'brevity/shortness',
+                'width/spread', 'narrowness/constriction',
+                'height/elevation', 'depth/profundity',
+                'velocity/speed', 'slowness/laziness',
+                'frequency/occurrence', 'rarity/uncommonness',
+                'force/power', 'weakness/incapability',
+                'temperature/cold/hot', 'pressure/stress',
+                'quantity/amout', 'quality/purity',
+                'value/importance', 'relevance/significance',
+                'usefulness/applicability', 'pointlessness/uselessness',
+                'accuracy/preciseness', 'inaccuracy/imprecision',
+                'likelihood/probability', 'impossibility/unfeasibility',
+                'necessity/requirement', 'option/election',
+                'certainty/sureness', 'uncertainty/doubt',
+                'possible/probable', 'impossible/improbable',
+                'definite/clear', 'indistinct/vague',
+                'real/physical', 'imaginary/fictitious',
+                'concrete/tangible', 'abstract/intangible',
+                'perceptible/sensory', 'intellectual/abstract',
+                'emotional/spiritual', 'physical/bodily',
+                'moral/ethical', 'immoral/unethical',
+                'legal/lawful', 'illegal/illicit',
+                'religious/pious', 'secular/temporal',
+                'public/open', 'private/closed',
+                'domestic/home', 'foreign/national',
+                'cultural/traditional', 'modern/contemporary',
+                'classic/antique', 'traditional/classical',
+                'past/history', 'present/current',
+                'future/prospective', 'imaginary/fantastical',
+                'real/actual', 'science/reality', 'myth fiction',
+                'truth/verity', 'lie/deception',
+                'honesty/truthfulness', 'dishonesty/falsehood',
+                'knowledge/savoir_faire', 'ignorance/lack_of_knowledge',
+                'wisdom/experience', 'foolishness/stupidity',
+                'reasoning/thought_process', 'madness/insanity',
+                'calmness/serenity', 'anger/fury',
+                'excitement/enthusiasm', 'boredom/tedium',
+                'happiness/bliss', 'sadness/grief',
+                'fear/terror', 'courage/bravery',
+                'shame/regret', 'pride/arrogance',
+                'love/affection', 'lust/desire',
+                'hatred/malice', 'kindness/empathy',
+                'generosity/altruism', 'selfishness/greed',
+                'ambition/aspiration', 'envy/respect',
+                'gratitude/appreciation', 'indifference/apathy',
+                'surprise/amazement', 'disapproval/censure',
+                'approval/accolade', 'hope/optimism',
+                'despair/pessimism', 'faith/trust',
+                'doubt/skepticism', 'certainty/confidence',
+                'uncertainty/doubtful', 'possibility/probability',
+                'improbability/unlikeliness', 'necessity/obligation',
+                'option/election', 'compulsion/duty',
+                'freedom/liberty', 'captivity/imprisonment',
+                'health/wellness', 'sickness/ailment',
+                'ageing/maturity', 'youth/adulthood',
+                'beauty/grace', 'ugliness/disgust',
+                'strength/power', 'weakness/helplessness',
+                'boldness/courage', 'timidity/fearfulness',
+                'brilliance/intelligence', 'foolishness/stupidity',
+                'charisma/charm', 'dullness/plainness',
+                'kindness/gentleness', 'rudeness/harshness',
+                'generosity/selflessness', 'meanness/ingratitude',
+                'modesty/humility', 'arrogance/presumption',
+                'patience/endurance', 'impatience/restlessness',
+                'honesty/integrity', 'dishonesty/deceit',
+                'loyalty/allegiance', 'betrayal/dishonor',
+                'humor/jest', 'seriousness/sullenness',
+                'activity/motion', 'inertia/stagnation',
+                'aggression/hostility', 'passivity/submission',
+                'creativity/invention', 'conformity/adaptation',
+                'innovation/progress', 'traditionalism/conservatism',
+                'peace/tranquility', 'conflict/war',
+                'order/system', 'chaos/disarray',
+                'cleverness/wits', 'silliness/nonsense',
+                'vigor/energy', 'laziness/sluggishness',
+                'accuracy/precision', 'carelessness/imprecision',
+                'clarity/distinctness', 'ambiguity/vagueness',
+                'simplicity/ease', 'complexity/difficulty',
+                'beauty/allure', 'lack_of_beauty/uglify',
+                'safety/security', 'danger/peril',
+                'comfort/relaxation', 'discomfort/tension',
+                'expensiveness/premium', 'cheapness/inexpensive',
+                'popularity/reputation', 'obscurity/unknown',
+                'reputation/image', 'notoriety/stigma',
+                'originality/uniqueness', 'imitation/copy',
+                'tradition/customs', 'innovation/challenge',
+                'consistency/regularity', 'instability/fluctuation',
+                'growth/enhancement', 'decline/reduction',
+                'construction/building', 'destruction/dismantling',
+                'maintenance/repair', 'disrepair/decay',
+                'creation/generation', 'annihilation/destruction',
+                'development/progression', 'regression/reversal',
+                'expansion/enlargement', 'contraction/reduction',
+                'abundance/overflow', 'scarcity/lack',
+                'sufficiency/adequacy', 'insufficiency/deficiency',
+                'fullness/completeness', 'emptiness/vacancy',
+                'thickness/heaviness', 'thinness/lightness',
+                'hardness/sturdiness', 'softness/flimsiness',
+                'length/duration', 'brevity/shortness',
+                'width/spread', 'narrowness/constriction',
+                'height/elevation', 'depth/profundity',
+                'velocity/speed', 'slowness/laziness',
+                'frequency/occurrence', 'rarity/uncommonness',
+                'force/power', 'weakness/incapability',
+                'temperature/cold/hot', 'pressure/stress',
+                'quantity/amout', 'quality/purity',
+                'value/importance', 'relevance/significance',
+                'usefulness/applicability', 'pointlessness/uselessness',
+                'accuracy/preciseness', 'inaccuracy/imprecision',
+                'likelihood/probability', 'impossibility/unfeasibility',
+                'necessity/requirement', 'option/election',
+                'certainty/sureness', 'uncertainty/doubt',
+                'possible/probable', 'impossible/improbable',
+                'definite/clear', 'indistinct/vague',
+                'real/physical', 'imaginary/fictitious',
+                'concrete/tangible', 'abstract/intangible',
+                'perceptible/sensory', 'intellectual/abstract',
+                'emotional/spiritual', 'physical/bodily',
+                'moral/ethical', 'immoral/unethical',
+                'legal/lawful', 'illegal/illicit',
+                'religious/pious', 'secular/temporal',
+                'public/open', 'private/closed',
+                'domestic/home', 'foreign/national',
+                'cultural/traditional', 'modern/contemporary',
+                'classic/antique', 'traditional/classical',
+                'past/history', 'present/current',
+                'future/prospective', 'imaginary/fantastical',
+                'real/actual', 'science/reality', 'myth fiction',
+                'truth/verity', 'lie/deception',
+                'honesty/truthfulness', 'dishonesty/falsehood',
+                'knowledge/savoir_faire', 'ignorance/lack_of_knowledge',
+                'wisdom/experience', 'foolishness/stupidity',
+                'reasoning/thought_process', 'madness/insanity',
+                'calmness/serenity', 'anger/fury',
+                'excitement/enthusiasm', 'boredom/tedium',
+                'happiness/bliss', 'sadness/grief',
+                'fear/terror', 'courage/bravery',
+                'shame/regret', 'pride/arrogance',
+                'love/affection', 'lust/desire',
+                'hatred/malice', 'kindness/empathy',
+                'generosity/altruism', 'selfishness/greed',
+                'ambition/aspiration', 'envy/respect',
+                'gratitude/appreciation', 'indifference/apathy',
+                'surprise/amazement', 'disapproval/censure',
+                'approval/accolade', 'hope/optimism',
+                'despair/pessimism', 'faith/trust',
+                'doubt/skepticism', 'certainty/confidence',
+                'uncertainty/doubtful', 'possibility/probability',
+                'improbability/unlikeliness', 'necessity/obligation',
+                'option/election', 'compulsion/duty',
+                'freedom/liberty', 'captivity/imprisonment',
+                'health/wellness', 'sickness/ailment',
+                'ageing/maturity', 'youth/adulthood',
+                'beauty/grace', 'ugliness/disgust',
+                'strength/power', 'weakness/helplessness',
+                'boldness/courage', 'timidity/fearfulness',
+                'brilliance/intelligence', 'foolishness/stupidity',
+                'charisma/charm', 'dullness/plainness',
+                'kindness/gentleness', 'rudeness/harshness',
+                'generosity/selflessness', 'meanness/ingratitude',
+                'modesty/humility', 'arrogance/presumption',
+                'patience/endurance', 'impatience/restlessness',
+                'honesty/integrity', 'dishonesty/deceit',
+                'loyalty/allegiance', 'betrayal/dishonor',
+                'humor/jest', 'seriousness/sullenness',
+                'activity/motion', 'inertia/stagnation',
+                'aggression/hostility', 'passivity/submission',
+                'creativity/invention', 'conformity/adaptation',
+                'innovation/progress', 'traditionalism/conservatism',
+                'peace/tranquility', 'conflict/war',
+                'order/system', 'chaos/disarray',
+                'cleverness/wits', 'silliness/nonsense',
+                'vigor/energy', 'laziness/sluggishness',
+                'accuracy/precision', 'carelessness/imprecision',
+                'clarity/distinctness', 'ambiguity/vagueness',
+                'simplicity/ease', 'complexity/difficulty',
+                'beauty/allure', 'lack_of_beauty/uglify',
+                'safety/security', 'danger/peril',
+                'comfort/relaxation', 'discomfort/tension',
+                'expensiveness/premium', 'cheapness/inexpensive',
+                'popularity/reputation', 'obscurity/unknown',
+                'reputation/image', 'notoriety/stigma',
+                'originality/uniqueness', 'imitation/copy',
+                'tradition/customs', 'innovation/challenge',
+                'consistency/regularity', 'instability/fluctuation',
+                'growth/enhancement', 'decline/reduction',
+                'construction/building', 'destruction/dismantling',
+                'maintenance/repair', 'disrepair/decay',
+                'creation/generation', 'annihilation/destruction',
+                'development/progression', 'regression/reversal',
+                'expansion/enlargement', 'contraction/reduction',
+                'abundance/overflow', 'scarcity/lack',
+                'sufficiency/adequacy', 'insufficiency/deficiency',
+                'fullness/completeness', 'emptiness/vacancy',
+                'thickness/heaviness', 'thinness/lightness',
+                'hardness/sturdiness', 'softness/flimsiness',
+                'length/duration', 'brevity/shortness',
+                'width/spread', 'narrowness/constriction',
+                'height/elevation', 'depth/profundity',
+                'velocity/speed', 'slowness/laziness',
+                'frequency/occurrence', 'rarity/uncommonness',
+                'force/power', 'weakness/incapability',
+                'temperature/cold/hot', 'pressure/stress',
+                'quantity/amout', 'quality/purity',
+                'value/importance', 'relevance/significance',
+                'usefulness/applicability', 'pointlessness/uselessness',
+                'accuracy/preciseness', 'inaccuracy/imprecision']
+)
+
+# Mapping from part-of-speech tags to human-readable categories
+pos_to_readable = {
+    "NOUN": "nouns",
+    "VERB": "verbs",
+    "ADJ": "adjectives",
+    "ADV": "adverbs",
+    "PRON": "pronouns",
+    "PREP": "prepositions",
+    "CONJ": "conjunctions",
+    "DET": "determiners"
+}

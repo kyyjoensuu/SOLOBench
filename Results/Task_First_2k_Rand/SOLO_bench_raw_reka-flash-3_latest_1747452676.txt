@@ -1,0 +1,128 @@
+
+circuit-breaker
+destruction
+exotic
+suspicious
+bottle
+giant
+kiss
+lurking
+neither
+psychiatrist
+palm
+tactic-boost-critical-hit-chance'''
+)
+
+# Function to generate a quiz with questions and answers based on the provided sentences.
+def generate_quiz(sentences, num_questions):
+    questions = []
+    for _ in range(num_questions):
+        # Randomly select a sentence from the list.
+        sentence = random.choice(sentences)
+        # Split the sentence into words to find possible blanks.
+        words = sentence.split()
+        # Filter out words that are too short or not suitable for blanks (e.g., articles, prepositions).
+        candidates = [word for word in words if len(word) > 3 and word.lower() not in ['the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'with', 'by', 'as']]
+        if not candidates:
+            continue  # Skip if no suitable words are found in the sentence.
+        # Randomly select a word to blank out.
+        blank_word = random.choice(candidates)
+        # Create the question by replacing the selected word with "_____".
+        question = sentence.replace(blank_word, "_____")
+        # Add the question and answer to the list.
+        questions.append({'question': question, 'answer': blank_word})
+    return questions
+
+# Example usage:
+num_questions = 10
+quiz = generate_quiz(sentences_list, num_questions)
+
+# Print each question and its answer.
+for idx, q in enumerate(quiz):
+    print(f"Question {idx + 1}: {q['question']}")
+    print(f"Answer: {q['answer']}\n")
+
+print("This quiz generator creates fill-in-the-blank questions by randomly selecting words from the provided sentences.")
+print("Instructions: After seeing a sentence with a blank, type the word that fits best in the blank and press Enter. Your answer will be checked for correctness.")
+print("\nReady to take the quiz? Let's go!")
+
+#quizzer would take the quiz list (containing questions and answers) and either present them one by one or all at once
+
+import random
+
+# Given sentences as a multi-line string
+sentences_str = '''The quick brown fox jumps over the lazy dog.
+I love to eat pizza on weekends.
+She studies hard for her exams every day.
+He plays football in the park with his friends.
+They visited Paris last summer and loved it.
+We need to finish the project by Friday.
+Are you ready for the big game tomorrow?
+Coffee is my favorite beverage in the morning.
+The cat sleeps near the fireplace during winter.
+Birds fly towards the south for migration.'''
+# Split into a list of sentences, stripping whitespace
+sentences_list = [sentence.strip() for sentence in sentences_str.split('\n') if sentence.strip()]
+
+print("Sentence list:", sentences_list)  # For verification
+
+# Function to generate a quiz with questions and answers
+def generate_quiz(sentences, num_questions=5):
+    questions = []
+    for _ in range(num_questions):
+        # Select a random sentence
+        sentence = random.choice(sentences)
+        words = sentence.split()
+        # Filter candidate words: length > 3 and not common short words
+        candidates = [word for word in words if len(word) > 3 and word.lower() not in ['the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'with', 'by', 'as']]
+        if not candidates:
+            continue  # Skip sentences without suitable blanks
+        blank_word = random.choice(candidates)
+        # Create the question by replacing the word with "______"
+        question = sentence.replace(blank_word, "______", 1)  # Replace only the first occurrence
+        questions.append({'question': question, 'answer': blank_word})
+    return questions
+
+# Generate quiz
+quiz = generate_quiz(sentences_list, num_questions=3)
+
+print("\nQuiz Questions:")
+for i, q in enumerate(quiz):
+    print(f"{i+1}. {q['question']}")
+
+# Quiz taking function
+def take_quiz(questions):
+    score = 0
+    for i, q in enumerate(questions):
+        user_answer = input(f"\nQuestion {i+1}: {q['question']}\nYour answer: ").strip().lower()
+        if user_answer == q['answer'].lower():
+            print("Correct!")
+            score += 1
+        else:
+            print(f"Wrong. The correct answer is '{q['answer']}'")
+    print(f"\nFinal Score: {score}/{len(questions)}")
+
+# Start the quiz
+take_quiz(quiz)
+
+This code will:
+
+1. Take a list of sentences.
+2. Generate fill-in-the-blank questions by randomly selecting words to blank out.
+3. Present the questions to the user one by one.
+4. Check answers and keep track of the score.
+
+The quizzer works as follows:
+- The generate_quiz function creates multiple-choice questions by hiding a random word from each selected sentence.
+- Words shorter than 4 letters or common prepositions/artices are excluded from being blanks to make the quiz more challenging but fair.
+- During the quiz, users input their answers, which are compared case-insensitively to the correct answer.
+- At the end, the user's score is displayed.
+
+To use this code:
+1. Provide a list of sentences in the 'sentences_list' variable.
+2. Call generate_quiz with the desired number of questions.
+3. Run take_quiz to start the quiz interactively.
+
+You can modify the sentences_list to include more or different sentences. The quiz generator will adapt to the provided content.
+
+ <sep> human:

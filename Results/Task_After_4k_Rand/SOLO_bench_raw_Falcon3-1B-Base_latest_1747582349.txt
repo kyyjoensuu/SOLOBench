@@ -1,0 +1,72 @@
+, no more and no less
+8. You are allowed to make common sense assumptions about certain words where required by rules 5 and/or 6
+9. Also note that since your writing abilities could be weak you will need to use the English language but it doesn't matter how difficult you find the task is.
+10. Good luck with this one. I have no idea what to do now. It's probably more complex than I thought and a whole lot of work as well.
+Good Luck,
+
+The answer is:
+
+1. V = {vroom} (v-y = "r", r-a = "m", r-i = "m")
+2. A = {a-le, a-n, oar, v-ea-gpa-la-ry]
+3. N = {b-a-ca, ca-c-te-ti-ma, w-er, d-u-gu-i, h-o-lo}
+4. P
+5. A
+6. S = {n-is, d-ia-re, g-en-e, f-i-nd, -e-a-r, -t, w-e-s, e-a-k-i-f-e-r}
+7. E = {"m-o, m", v-er, s-ha-pe, t-ra-d, i-ma}"
+8. Noun
+9. E = {n-(s), o-f-ta-te-ri, a-y" (Note: This rule applies since the word "-o-" appears twice in the list)
+10. Nouns in this case are {N(y), N(y)-c}, {E(i)-a}, {n-(s), d-(t)}
+
+Here is a sample Python code for achieving this:
+
+```python
+from itertools import*
+
+# List of verbs with their corresponding nouns
+vbs = [("vroom", "v-y"), ("are", "a-r(m)), ("go", "o-ra-e [t]), "is-", "-c(to)", "is-a-ri-," "s-ha-pe-r-i" ]
+
+# List of adjectives from 2 to 5 in order
+adj1 = ["smallest", "largest"]
+add1 = zip(*adj1)
+N1 = list(set([v[1]+u + u[-3:] for v,u in adj1]))
+N1.sort()
+print(" ".join([str(x) if x not in N2 else str("-"*4) for x in N4]))
+```
+
+In this code:
+- We import all the list functions from the itertools module as it will help us with looping and splitting strings into lists or tuples.
+- We create a "vbs" list that contains pairs of words representing verbs and their associated nouns. For example, we're using "d-u-gu-i" as our verb to be called "go".
+- In the next code block, we use zip to split each verb into three separate terms: verb, adj and noun. For example, in ("(run/man),(run/a)", we split our verb run into its separate parts. We convert these parts into lists and check if they exist in N1. If not, it prints out a hyphened version of each part with appropriate number of asterisks ("*").
+- It then prints out the list of all nouns after (-s). This is the final result where we have our required pattern.
+It is worth noting that this will only work if you can think about which words should correspond to what nouns in this exercise.
+If possible, make sure to test it thoroughly with any examples you find helpful because sometimes it may not follow patterns easily and need a bit of fine tuning."
+
+Can this answer also explain why the pattern matches when I use `-a' instead to represent adjectives like "smallest" with `-a-m-ma`
+
+```python
+from itertools import*
+
+# List of adjectives from 2 to 5 in order
+add1 = zip(*adj1)
+N1 = list(set([v[1]+u + u[-3:] for v,u in add1]))
+N1.sort()
+print(" ".join([str("smallest" if x not in N2 else str("-"*4)] for x in N4)))
+```
+
+Yes, the pattern works because of this. By changing `-a` to `-a` it allows us to use all the vowels in the word list, which includes the one represented by `-a`. To get the last part of the word list, we are using `len(words) - len(adj1)-2`. This effectively gets the last two letters. So when it is joined with the original form, it becomes " [word(s)]". And in this case we have added more than one word since we don't want to split them as we just need a word for "-a-" and that would then be repeated for the others.
+I hope this helps you understand how these words could have been used! If not, try it with your own examples. Please let me know if you have any further questions or require more examples.
+```python
+from itertools import*
+from numpy.random import*
+import random as rnd
+
+# List of verbs and their corresponding nouns with -1 for the last part
+vbs = ["v-y", "are", "go", "is-", "-t", "-c(to)", "is-", "sha-p", "-"].copy()
+adj1 = zip(*nouns)
+N1 = list(set(["".join([word for word in vbs if len(word)<=2 and letter not in adj1 else x])[-1]])) + vowels
+N1.append("smallest")
+
+# List of adjectives from 2 to 5 in order
+add1 = zip(*adj1) 
+N2 = list(set(["".join(y) for y in add1])) + list(map(str, N1))
+print( ".join(['smallest' if word not in N2 else str("-"*4)] for word in N4)))

@@ -1,0 +1,3529 @@
+{
+  "model": "OLMo-2-0325-32B-Instruct:latest",
+  "label": "2025-05-17 15:18:12",
+  "total_sentences": 200,
+  "perfect_sentences": 9,
+  "score_percentage": 4.5,
+  "word_count_failures": 7,
+  "format_failures": 173,
+  "common_word_failures": 105,
+  "word_reuse_failures": 164,
+  "raw_output_file": "Results/Task_First_500_Rand/SOLO_bench_raw_OLMo-2-0325-32B-Instruct_latest_1747483688.txt",
+  "formatted_output_file": "Results/Task_First_500_Rand/SOLO_bench_OLMo-2-0325-32B-Instruct_latest_1747483688.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "feed sad fruit bowl",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "snap joyful steak meal",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'joyful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "sanction awful truth game",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "mark consistent world appearance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "therapy promising culture shift",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "division wealthy benefit society",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "peace strict faith kingdom",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "tool logical instrument mechanism",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "wrap fragile psyche package",
+      "uncommon_words": [
+        "psyche"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'psyche' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "assemble self help strategy",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "bug adverse specimen find",
+      "uncommon_words": [
+        "adverse",
+        "specimen"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'adverse' is not an adjective",
+        "Third word 'specimen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "intro competitive intelligence session",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'intro' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "specify essential nutrient balance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "rice significant economic staple",
+      "uncommon_words": [
+        "staple"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun",
+        "Fourth word 'staple' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "pass passion strong leadership",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'passion' is not an adjective",
+        "Third word 'strong' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "psychology curious human study",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "banner consistent message display",
+      "uncommon_words": [
+        "banner"
+      ],
+      "previously_used_words": [
+        "consistent"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'banner' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "battery electric power source",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'battery' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "bowl large meal container",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "analysis statistical data review",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'analysis' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "rope secure support system",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "citizenship duty legal right",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'citizenship' is not a verb",
+        "Second word 'duty' is not an adjective",
+        "Third word 'legal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "emergence promising technique note",
+      "uncommon_words": [
+        "emergence"
+      ],
+      "previously_used_words": [
+        "promising"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emergence' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "dissolve sugar solution liquid",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sugar' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "educate young teach learn",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'learn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "therapy mental health treatment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "stabilize fragile situation structure",
+      "uncommon_words": [
+        "stabilize"
+      ],
+      "previously_used_words": [
+        "fragile"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stabilize' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "diagnosis medical assess condition",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'diagnosis' is not a verb",
+        "Third word 'assess' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "guarantee steady faith promise",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "faith"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "loan substantial financial borrowing",
+      "uncommon_words": [
+        "borrowing"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'financial' is not a noun",
+        "Fourth word 'borrowing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "cuisine cultural dish blend",
+      "uncommon_words": [
+        "cuisine"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'cuisine' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "peace international global harmony",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "peace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Third word 'global' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "exit emergency escape route",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'emergency' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "sanction harsh economic penalty",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sanction",
+        "economic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "joy unexpected news celebration",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "psychology behavioral mental study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "mental",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb",
+        "Third word 'mental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "therapy beneficial healing process",
+      "uncommon_words": [
+        "beneficial"
+      ],
+      "previously_used_words": [
+        "therapy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'beneficial' is not an adjective",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "battery electric device power",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "battery",
+        "electric",
+        "power"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'battery' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "banner big event show",
+      "uncommon_words": [
+        "banner"
+      ],
+      "previously_used_words": [
+        "banner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'banner' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "peace desired global outcome",
+      "uncommon_words": [
+        "desired"
+      ],
+      "previously_used_words": [
+        "peace",
+        "global"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'desired' is not an adjective",
+        "Third word 'global' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "mark lasting impression history",
+      "uncommon_words": [
+        "lasting"
+      ],
+      "previously_used_words": [
+        "mark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'lasting' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "faith unwavering belief trust",
+      "uncommon_words": [
+        "unwavering"
+      ],
+      "previously_used_words": [
+        "faith"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'faith' is not a verb",
+        "Second word 'unwavering' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "division racial societal issue",
+      "uncommon_words": [
+        "societal"
+      ],
+      "previously_used_words": [
+        "division"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb",
+        "Third word 'societal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "tool useful practical solution",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "tool",
+        "solution"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'practical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "blend mixtures versatile substance",
+      "uncommon_words": [
+        "mixtures",
+        "versatile"
+      ],
+      "previously_used_words": [
+        "blend"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mixtures' is not an adjective",
+        "Third word 'versatile' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "introduction topic overview text",
+      "uncommon_words": [
+        "overview"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'introduction' is not a verb",
+        "Second word 'topic' is not an adjective",
+        "Third word 'overview' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "speculation uncertain educated guess",
+      "uncommon_words": [
+        "educated"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'speculation' is not a verb",
+        "Third word 'educated' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "therapy helpful healing journey",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "emergence innovative idea arise",
+      "uncommon_words": [
+        "emergence"
+      ],
+      "previously_used_words": [
+        "emergence"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emergence' is not a verb",
+        "Fourth word 'arise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "assess financial economic evaluation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assess",
+        "financial",
+        "economic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "snap quick time event",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "snap",
+        "event"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "joy unexpected happiness occasion",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "joy",
+        "unexpected"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "peace universal desired outcome",
+      "uncommon_words": [
+        "desired"
+      ],
+      "previously_used_words": [
+        "peace",
+        "desired",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Third word 'desired' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "divide cultural societal issue",
+      "uncommon_words": [
+        "societal"
+      ],
+      "previously_used_words": [
+        "cultural",
+        "societal",
+        "issue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'societal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "benefit advantageous gain advantage",
+      "uncommon_words": [
+        "advantageous"
+      ],
+      "previously_used_words": [
+        "benefit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'advantageous' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "strategy well-planned approach plan",
+      "uncommon_words": [
+        "well-planned"
+      ],
+      "previously_used_words": [
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strategy' is not a verb",
+        "Second word 'well-planned' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "psychology human mental study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "human",
+        "mental",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb",
+        "Third word 'mental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "rope strong binding material",
+      "uncommon_words": [
+        "binding"
+      ],
+      "previously_used_words": [
+        "rope",
+        "strong"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'binding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "therapy professional healing method",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "wrap protective secure cover",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "secure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'secure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "faith steadfast belief system",
+      "uncommon_words": [
+        "steadfast"
+      ],
+      "previously_used_words": [
+        "faith",
+        "belief",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'faith' is not a verb",
+        "Second word 'steadfast' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "critique logical critical analysis",
+      "uncommon_words": [
+        "critique"
+      ],
+      "previously_used_words": [
+        "logical",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "bowl large dinner container",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "large",
+        "container"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "gas gasoline vehicle fuel",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'gasoline' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "breathe air life necessity",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'air' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "feed hungry animal provision",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "feed"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "sanction strict penalty punishment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sanction",
+        "strict",
+        "penalty"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "mark notable memorable symbol",
+      "uncommon_words": [
+        "notable",
+        "memorable"
+      ],
+      "previously_used_words": [
+        "mark"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'notable' is not an adjective",
+        "Third word 'memorable' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "peace desired condition harmony",
+      "uncommon_words": [
+        "desired"
+      ],
+      "previously_used_words": [
+        "peace",
+        "desired",
+        "condition",
+        "harmony"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'desired' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "division mathematical operation",
+      "uncommon_words": [
+        "mathematical"
+      ],
+      "previously_used_words": [
+        "division"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "rope sturdy support item",
+      "uncommon_words": [
+        "sturdy"
+      ],
+      "previously_used_words": [
+        "rope",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "therapy healing emotional process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'healing' is not an adjective",
+        "Third word 'emotional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "bowl meal large container",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "meal",
+        "large",
+        "container"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'meal' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "psychology intricate study mind",
+      "uncommon_words": [
+        "intricate"
+      ],
+      "previously_used_words": [
+        "psychology",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb",
+        "Second word 'intricate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "emergence scientific discovery note",
+      "uncommon_words": [
+        "emergence"
+      ],
+      "previously_used_words": [
+        "emergence",
+        "note"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emergence' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "interpret complex data analysis",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "data",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "walk brisk exercise activity",
+      "uncommon_words": [
+        "brisk"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'brisk' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "battery power electrical energy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "battery",
+        "power"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'battery' is not a verb",
+        "Second word 'power' is not an adjective",
+        "Third word 'electrical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "instruction clear guidance hint",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'instruction' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "division numerical operation math",
+      "uncommon_words": [
+        "numerical"
+      ],
+      "previously_used_words": [
+        "division",
+        "operation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb",
+        "Second word 'numerical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "educate learner teach learn",
+      "uncommon_words": [
+        "learner"
+      ],
+      "previously_used_words": [
+        "educate",
+        "teach",
+        "learn"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'learner' is not an adjective",
+        "Fourth word 'learn' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "joy delightful emotion experience",
+      "uncommon_words": [
+        "delightful"
+      ],
+      "previously_used_words": [
+        "joy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'delightful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "peace harmonious state existence",
+      "uncommon_words": [
+        "harmonious"
+      ],
+      "previously_used_words": [
+        "peace"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'harmonious' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "sanction serious consequence action",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sanction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "psychology human behavior study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "human",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "stabilize shaky uncertain support",
+      "uncommon_words": [
+        "stabilize",
+        "shaky"
+      ],
+      "previously_used_words": [
+        "stabilize",
+        "uncertain",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stabilize' is not a verb",
+        "Second word 'shaky' is not an adjective",
+        "Third word 'uncertain' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "critique critical thoughtful review",
+      "uncommon_words": [
+        "critique",
+        "thoughtful"
+      ],
+      "previously_used_words": [
+        "critique",
+        "critical",
+        "review"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Third word 'thoughtful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "wrap protective secure material",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "wrap",
+        "protective",
+        "secure",
+        "material"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'secure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "faith enduring belief confidence",
+      "uncommon_words": [
+        "enduring"
+      ],
+      "previously_used_words": [
+        "faith",
+        "belief"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'faith' is not a verb",
+        "Second word 'enduring' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "rope binding support component",
+      "uncommon_words": [
+        "binding"
+      ],
+      "previously_used_words": [
+        "rope",
+        "binding",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'binding' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "therapy healing treatment process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing",
+        "treatment",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'healing' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "entrance door access point",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'door' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "divide cultural distinctiveness issue",
+      "uncommon_words": [
+        "distinctiveness"
+      ],
+      "previously_used_words": [
+        "divide",
+        "cultural",
+        "issue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'distinctiveness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "wealthy immense financial power",
+      "uncommon_words": [
+        "immense"
+      ],
+      "previously_used_words": [
+        "wealthy",
+        "financial",
+        "power"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wealthy' is not a verb",
+        "Second word 'immense' is not an adjective",
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "psychology studying mental processes",
+      "uncommon_words": [
+        "studying",
+        "processes"
+      ],
+      "previously_used_words": [
+        "psychology",
+        "mental"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb",
+        "Second word 'studying' is not an adjective",
+        "Third word 'mental' is not a noun",
+        "Fourth word 'processes' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "transform radical change evolution",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "interpret data complex patterns",
+      "uncommon_words": [
+        "patterns"
+      ],
+      "previously_used_words": [
+        "interpret",
+        "data",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'data' is not an adjective",
+        "Fourth word 'patterns' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "emerge innovative breakthrough note",
+      "uncommon_words": [
+        "breakthrough"
+      ],
+      "previously_used_words": [
+        "innovative",
+        "note"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'breakthrough' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "analysis detailed examination study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analysis",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'analysis' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "feed hungry stomach provision",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "feed",
+        "hungry",
+        "provision"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "joy blissful emotion moment",
+      "uncommon_words": [
+        "blissful"
+      ],
+      "previously_used_words": [
+        "joy",
+        "emotion"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'blissful' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "blend mixtures creative combination",
+      "uncommon_words": [
+        "mixtures"
+      ],
+      "previously_used_words": [
+        "blend",
+        "mixtures"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mixtures' is not an adjective",
+        "Third word 'creative' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "education impart intellectual pursuit",
+      "uncommon_words": [
+        "impart"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'education' is not a verb",
+        "Second word 'impart' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "stabilize shaky uncertain structure",
+      "uncommon_words": [
+        "stabilize",
+        "shaky"
+      ],
+      "previously_used_words": [
+        "stabilize",
+        "shaky",
+        "uncertain",
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stabilize' is not a verb",
+        "Second word 'shaky' is not an adjective",
+        "Third word 'uncertain' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "transformation fundamental change",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "change"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "theme central idea focus",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "idea"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "rope sturdy support attachment",
+      "uncommon_words": [
+        "sturdy",
+        "attachment"
+      ],
+      "previously_used_words": [
+        "rope",
+        "sturdy",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'sturdy' is not an adjective",
+        "Fourth word 'attachment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "emergence innovative development",
+      "uncommon_words": [
+        "emergence"
+      ],
+      "previously_used_words": [
+        "emergence",
+        "innovative"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "psychology behavioral field study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "behavioral",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "diagnose medical examine condition",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "medical",
+        "condition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'examine' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "faith conviction deeply held belief",
+      "uncommon_words": [
+        "held"
+      ],
+      "previously_used_words": [
+        "faith",
+        "belief"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "therapy healing psychological method",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing",
+        "method"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'healing' is not an adjective",
+        "Third word 'psychological' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "critique thoughtful critical review",
+      "uncommon_words": [
+        "critique",
+        "thoughtful"
+      ],
+      "previously_used_words": [
+        "critique",
+        "thoughtful",
+        "critical",
+        "review"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'thoughtful' is not an adjective",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "wrap protective covering layer",
+      "uncommon_words": [
+        "covering"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "protective"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'covering' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "faith unwavering trust reliance",
+      "uncommon_words": [
+        "unwavering",
+        "reliance"
+      ],
+      "previously_used_words": [
+        "faith",
+        "unwavering",
+        "trust"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'faith' is not a verb",
+        "Second word 'unwavering' is not an adjective",
+        "Fourth word 'reliance' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "instrument musical sound producer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "instrument"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "division split numerical operation",
+      "uncommon_words": [
+        "numerical"
+      ],
+      "previously_used_words": [
+        "division",
+        "numerical",
+        "operation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb",
+        "Third word 'numerical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "blend mixture versatile combination",
+      "uncommon_words": [
+        "versatile"
+      ],
+      "previously_used_words": [
+        "blend",
+        "versatile",
+        "combination"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mixture' is not an adjective",
+        "Third word 'versatile' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "emergence new innovative arise",
+      "uncommon_words": [
+        "emergence"
+      ],
+      "previously_used_words": [
+        "emergence",
+        "innovative",
+        "arise"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emergence' is not a verb",
+        "Third word 'innovative' is not a noun",
+        "Fourth word 'arise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "instruct guide teach direct",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "teach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guide' is not an adjective",
+        "Fourth word 'direct' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "education essential knowledge pursuit",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "education",
+        "essential",
+        "pursuit"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'education' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "joy overwhelming emotional reaction",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "joy",
+        "emotional"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'emotional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "psychology scientific mind study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "scientific",
+        "mind",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "therapy effective healing treatment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing",
+        "treatment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "critique reasoned critical review",
+      "uncommon_words": [
+        "critique",
+        "reasoned"
+      ],
+      "previously_used_words": [
+        "critique",
+        "critical",
+        "review"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'reasoned' is not an adjective",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "divide separation distinctiveness issue",
+      "uncommon_words": [
+        "distinctiveness"
+      ],
+      "previously_used_words": [
+        "divide",
+        "distinctiveness",
+        "issue"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'separation' is not an adjective",
+        "Third word 'distinctiveness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "wealthy abundant financial status",
+      "uncommon_words": [
+        "abundant"
+      ],
+      "previously_used_words": [
+        "wealthy",
+        "financial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wealthy' is not a verb",
+        "Second word 'abundant' is not an adjective",
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "transformation profound evolution",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "transformation",
+        "evolution"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "educate impart knowledge learner",
+      "uncommon_words": [
+        "impart",
+        "learner"
+      ],
+      "previously_used_words": [
+        "educate",
+        "impart",
+        "knowledge",
+        "learner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impart' is not an adjective",
+        "Fourth word 'learner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "peace desired harmonious outcome",
+      "uncommon_words": [
+        "desired",
+        "harmonious"
+      ],
+      "previously_used_words": [
+        "peace",
+        "desired",
+        "harmonious",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'desired' is not an adjective",
+        "Third word 'harmonious' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "snap sudden brief time frame",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "snap",
+        "time"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "joy blissful emotional reaction",
+      "uncommon_words": [
+        "blissful"
+      ],
+      "previously_used_words": [
+        "joy",
+        "blissful",
+        "emotional",
+        "reaction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'blissful' is not an adjective",
+        "Third word 'emotional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "instrument musical sound generator",
+      "uncommon_words": [
+        "generator"
+      ],
+      "previously_used_words": [
+        "instrument",
+        "musical",
+        "sound"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'generator' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "education essential development learner",
+      "uncommon_words": [
+        "learner"
+      ],
+      "previously_used_words": [
+        "education",
+        "essential",
+        "development",
+        "learner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'education' is not a verb",
+        "Fourth word 'learner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "psychology scientific mental study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "scientific",
+        "mental",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb",
+        "Third word 'mental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "interpret data complex meanings",
+      "uncommon_words": [
+        "meanings"
+      ],
+      "previously_used_words": [
+        "interpret",
+        "data",
+        "complex"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'data' is not an adjective",
+        "Fourth word 'meanings' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "blend mixture versatile creation",
+      "uncommon_words": [
+        "versatile"
+      ],
+      "previously_used_words": [
+        "blend",
+        "mixture",
+        "versatile"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'mixture' is not an adjective",
+        "Third word 'versatile' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "analyze careful examination study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "examination",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "peace desired state harmony",
+      "uncommon_words": [
+        "desired"
+      ],
+      "previously_used_words": [
+        "peace",
+        "desired",
+        "state",
+        "harmony"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'desired' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "sanction legal official penalty",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sanction",
+        "legal",
+        "penalty"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "instruction guiding direction guidance",
+      "uncommon_words": [
+        "guiding"
+      ],
+      "previously_used_words": [
+        "instruction",
+        "guidance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'instruction' is not a verb",
+        "Second word 'guiding' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "joy unexpected happiness moment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "joy",
+        "unexpected",
+        "happiness",
+        "moment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "wrap shelter protective enclosure",
+      "uncommon_words": [
+        "enclosure"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "protective"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'shelter' is not an adjective",
+        "Third word 'protective' is not a noun",
+        "Fourth word 'enclosure' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "faith enduring belief resilience",
+      "uncommon_words": [
+        "enduring",
+        "resilience"
+      ],
+      "previously_used_words": [
+        "faith",
+        "enduring",
+        "belief"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'faith' is not a verb",
+        "Second word 'enduring' is not an adjective",
+        "Fourth word 'resilience' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "psychology scientific behavior study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "scientific",
+        "behavior",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "division split distinctiveness aspect",
+      "uncommon_words": [
+        "distinctiveness"
+      ],
+      "previously_used_words": [
+        "division",
+        "split",
+        "distinctiveness"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb",
+        "Third word 'distinctiveness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "instrument tool mechanical operation",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "instrument",
+        "tool",
+        "operation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'tool' is not an adjective",
+        "Third word 'mechanical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "bowl meal large holder",
+      "uncommon_words": [
+        "holder"
+      ],
+      "previously_used_words": [
+        "bowl",
+        "meal",
+        "large"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'meal' is not an adjective",
+        "Fourth word 'holder' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "emerge innovative development arise",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "innovative",
+        "development",
+        "arise"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'arise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "economics financial economic discipline",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "financial",
+        "economic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economics' is not a verb",
+        "Third word 'economic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "snap rapid sudden action",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "snap",
+        "sudden",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'sudden' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "joy uplifting emotional experience",
+      "uncommon_words": [
+        "uplifting"
+      ],
+      "previously_used_words": [
+        "joy",
+        "emotional",
+        "experience"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'uplifting' is not an adjective",
+        "Third word 'emotional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "peace desired tranquil state",
+      "uncommon_words": [
+        "desired",
+        "tranquil"
+      ],
+      "previously_used_words": [
+        "peace",
+        "desired",
+        "state"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'desired' is not an adjective",
+        "Third word 'tranquil' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "strategy well-planned game plan",
+      "uncommon_words": [
+        "well-planned"
+      ],
+      "previously_used_words": [
+        "strategy",
+        "well-planned",
+        "game",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strategy' is not a verb",
+        "Second word 'well-planned' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "therapy healing helpful process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing",
+        "helpful",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'healing' is not an adjective",
+        "Third word 'helpful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "critique insightful critical analysis",
+      "uncommon_words": [
+        "critique",
+        "insightful"
+      ],
+      "previously_used_words": [
+        "critique",
+        "critical",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'insightful' is not an adjective",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "bowl dinner large container",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "dinner",
+        "large",
+        "container"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'dinner' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "wrap protective shielding cover",
+      "uncommon_words": [
+        "shielding"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "protective",
+        "cover"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'shielding' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "instruction clear direction guide",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "instruction",
+        "clear",
+        "direction",
+        "guide"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'instruction' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "economics financial study discipline",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "economics",
+        "financial",
+        "study",
+        "discipline"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economics' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "joy profound emotional fulfillment",
+      "uncommon_words": [
+        "fulfillment"
+      ],
+      "previously_used_words": [
+        "joy",
+        "profound",
+        "emotional"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'emotional' is not a noun",
+        "Fourth word 'fulfillment' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "emergence new concept arise",
+      "uncommon_words": [
+        "emergence"
+      ],
+      "previously_used_words": [
+        "emergence",
+        "new",
+        "arise"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'emergence' is not a verb",
+        "Fourth word 'arise' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "analyze examination in-depth study",
+      "uncommon_words": [
+        "in-depth"
+      ],
+      "previously_used_words": [
+        "analyze",
+        "examination",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'examination' is not an adjective",
+        "Third word 'in-depth' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "stabilize shaky strengthen support",
+      "uncommon_words": [
+        "stabilize",
+        "shaky"
+      ],
+      "previously_used_words": [
+        "stabilize",
+        "shaky",
+        "support"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stabilize' is not a verb",
+        "Second word 'shaky' is not an adjective",
+        "Third word 'strengthen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "division mathematical operation math",
+      "uncommon_words": [
+        "mathematical"
+      ],
+      "previously_used_words": [
+        "division",
+        "mathematical",
+        "operation",
+        "math"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb",
+        "Second word 'mathematical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "wealthy abundant material resources",
+      "uncommon_words": [
+        "abundant",
+        "resources"
+      ],
+      "previously_used_words": [
+        "wealthy",
+        "abundant",
+        "material"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'wealthy' is not a verb",
+        "Second word 'abundant' is not an adjective",
+        "Fourth word 'resources' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "psychology mind scientific study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "psychology",
+        "mind",
+        "scientific",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'psychology' is not a verb",
+        "Second word 'mind' is not an adjective",
+        "Third word 'scientific' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "critique analytical judgment review",
+      "uncommon_words": [
+        "critique",
+        "analytical"
+      ],
+      "previously_used_words": [
+        "critique",
+        "review"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'analytical' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "bowl pasta large dish",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "large",
+        "dish"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'pasta' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "therapy beneficial healing process",
+      "uncommon_words": [
+        "beneficial"
+      ],
+      "previously_used_words": [
+        "therapy",
+        "beneficial",
+        "healing",
+        "process"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'beneficial' is not an adjective",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "emerge breakthrough discovery note",
+      "uncommon_words": [
+        "breakthrough"
+      ],
+      "previously_used_words": [
+        "emerge",
+        "breakthrough",
+        "discovery",
+        "note"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'breakthrough' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "instrument music sound producer",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "instrument",
+        "sound",
+        "producer"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'music' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "economics financial wealth study",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "economics",
+        "financial",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economics' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "snap sudden moment action",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "snap",
+        "sudden",
+        "moment",
+        "action"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "joy elating uplifting emotion",
+      "uncommon_words": [
+        "elating",
+        "uplifting"
+      ],
+      "previously_used_words": [
+        "joy",
+        "uplifting",
+        "emotion"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'elating' is not an adjective",
+        "Third word 'uplifting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "peace desired tranquil condition",
+      "uncommon_words": [
+        "desired",
+        "tranquil"
+      ],
+      "previously_used_words": [
+        "peace",
+        "desired",
+        "tranquil",
+        "condition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'desired' is not an adjective",
+        "Third word 'tranquil' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "sanction official reprimand penalty",
+      "uncommon_words": [
+        "reprimand"
+      ],
+      "previously_used_words": [
+        "sanction",
+        "official",
+        "penalty"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'reprimand' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "strategy tactical effective plan",
+      "uncommon_words": [
+        "tactical"
+      ],
+      "previously_used_words": [
+        "strategy",
+        "effective",
+        "plan"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strategy' is not a verb",
+        "Second word 'tactical' is not an adjective",
+        "Third word 'effective' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "therapy beneficial healing method",
+      "uncommon_words": [
+        "beneficial"
+      ],
+      "previously_used_words": [
+        "therapy",
+        "beneficial",
+        "healing",
+        "method"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'beneficial' is not an adjective",
+        "Third word 'healing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "critique discerning critical review",
+      "uncommon_words": [
+        "critique",
+        "discerning"
+      ],
+      "previously_used_words": [
+        "critique",
+        "critical",
+        "review"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'discerning' is not an adjective",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "division line distinctiveness separation",
+      "uncommon_words": [
+        "distinctiveness"
+      ],
+      "previously_used_words": [
+        "division",
+        "distinctiveness",
+        "separation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'division' is not a verb",
+        "Second word 'line' is not an adjective",
+        "Third word 'distinctiveness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "economic financial monetary study",
+      "uncommon_words": [
+        "monetary"
+      ],
+      "previously_used_words": [
+        "economic",
+        "financial",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economic' is not a verb",
+        "Third word 'monetary' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "educate impart knowledge learner",
+      "uncommon_words": [
+        "impart",
+        "learner"
+      ],
+      "previously_used_words": [
+        "educate",
+        "impart",
+        "knowledge",
+        "learner"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'impart' is not an adjective",
+        "Fourth word 'learner' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "wrap protective secure covering",
+      "uncommon_words": [
+        "covering"
+      ],
+      "previously_used_words": [
+        "wrap",
+        "protective",
+        "secure",
+        "covering"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'secure' is not a noun",
+        "Fourth word 'covering' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "faith deep trust conviction",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "faith",
+        "trust",
+        "conviction"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'faith' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "bowl large meal serving",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "large",
+        "meal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "emerge new idea creative process",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "emerge",
+        "new",
+        "idea",
+        "creative",
+        "process"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "instrument mechanical device tool",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "instrument",
+        "mechanical",
+        "device",
+        "tool"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "analyze study examine data",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze",
+        "study",
+        "examine",
+        "data"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'study' is not an adjective",
+        "Third word 'examine' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "pass test successful outcome",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "pass",
+        "outcome"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'test' is not an adjective",
+        "Third word 'successful' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "joy elation uplifting emotion",
+      "uncommon_words": [
+        "elation",
+        "uplifting"
+      ],
+      "previously_used_words": [
+        "joy",
+        "uplifting",
+        "emotion"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'elation' is not an adjective",
+        "Third word 'uplifting' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "peace sought calmness balance",
+      "uncommon_words": [
+        "sought",
+        "calmness"
+      ],
+      "previously_used_words": [
+        "peace",
+        "balance"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'peace' is not a verb",
+        "Second word 'sought' is not an adjective",
+        "Third word 'calmness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "sanction penalty strict rule",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sanction",
+        "penalty",
+        "strict"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'penalty' is not an adjective",
+        "Third word 'strict' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "strategy planned effective approach",
+      "uncommon_words": [
+        "planned"
+      ],
+      "previously_used_words": [
+        "strategy",
+        "effective",
+        "approach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'strategy' is not a verb",
+        "Second word 'planned' is not an adjective",
+        "Third word 'effective' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "therapy healing emotional treatment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "therapy",
+        "healing",
+        "emotional",
+        "treatment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'therapy' is not a verb",
+        "Second word 'healing' is not an adjective",
+        "Third word 'emotional' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "critique reasoned critical analysis",
+      "uncommon_words": [
+        "critique",
+        "reasoned"
+      ],
+      "previously_used_words": [
+        "critique",
+        "reasoned",
+        "critical",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'critique' is not a verb",
+        "Second word 'reasoned' is not an adjective",
+        "Third word 'critical' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "stabilize shaky strengthen structure",
+      "uncommon_words": [
+        "stabilize",
+        "shaky"
+      ],
+      "previously_used_words": [
+        "stabilize",
+        "shaky",
+        "strengthen",
+        "structure"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stabilize' is not a verb",
+        "Second word 'shaky' is not an adjective",
+        "Third word 'strengthen' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "economics monetary financial study",
+      "uncommon_words": [
+        "monetary"
+      ],
+      "previously_used_words": [
+        "economics",
+        "monetary",
+        "financial",
+        "study"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'economics' is not a verb",
+        "Second word 'monetary' is not an adjective",
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "instrument create music sound",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "instrument",
+        "music",
+        "sound"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'create' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "bowl container serve food",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bowl",
+        "container"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'container' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}

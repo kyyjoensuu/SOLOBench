@@ -1,0 +1,137 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "timestamp": "2025-05-14 11:24:48",
+  "total_sentences": 7,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 6,
+  "format_failures": 7,
+  "common_word_failures": 7,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/2025-05-14_11-11-28/SOLO_bench_raw_Phi-4-mini-instruct_latest.txt",
+  "formatted_output_file": "Results/2025-05-14_11-11-28/SOLO_bench_Phi-4-mini-instruct_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Initialize procedure SecurePasswordValidation with parameters: userProvidedAccount, inputtedSecurityQuestionAnswer.",
+      "uncommon_words": [
+        "initialize",
+        "securepasswordvalidation",
+        "parameters",
+        "userprovidedaccount",
+        "inputtedsecurityquestionanswer"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Store a mapping of security questions associated users in an internal secure database:",
+      "uncommon_words": [
+        "mapping",
+        "questions",
+        "users",
+        "an"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Retrieve the expected answer from stored data using the provided account (userProvideAccount):",
+      "uncommon_words": [
+        "retrieve",
+        "stored",
+        "using",
+        "(userprovideaccount)"
+      ],
+      "previously_used_words": [],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Set initial validation state:",
+      "uncommon_words": [
+        "validation"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'validation' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Implement inputted answer verification process for each question in the retrieved tuple (Question-Answers set):",
+      "uncommon_words": [
+        "inputted",
+        "verification",
+        "retrieved",
+        "tuple",
+        "(question-answers",
+        "set)"
+      ],
+      "previously_used_words": [
+        "answer",
+        "in",
+        "the"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "End routine SecurePasswordValidation. If a correct username and its encrypted authentication factor do not match then display error prompt with an appropriate message without exposing original sensitive information.",
+      "uncommon_words": [
+        "securepasswordvalidation",
+        "username",
+        "encrypted",
+        "authentication",
+        "an",
+        "exposing"
+      ],
+      "previously_used_words": [
+        "securepasswordvalidation",
+        "a",
+        "with",
+        "an"
+      ],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Establish function `validateItemFormat(dataLine)`",
+      "uncommon_words": [
+        "`validateitemformat(dataline)`"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

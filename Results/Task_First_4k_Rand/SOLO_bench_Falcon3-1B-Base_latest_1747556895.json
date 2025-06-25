@@ -1,0 +1,136 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-18 11:41:20",
+  "total_sentences": 5,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 5,
+  "common_word_failures": 5,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_First_4k_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747556895.txt",
+  "formatted_output_file": "Results/Task_First_4k_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747556895.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Question:** What are session IDs used for in web applications, according to the PHP extract provided?",
+      "uncommon_words": [
+        "**question**",
+        "are",
+        "ids",
+        "applications",
+        "php",
+        "extract"
+      ],
+      "previously_used_words": [],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Question:** In the context of PHP session management, why is it necessary for this code block to include a check using `$this->session` before adding data within it?",
+      "uncommon_words": [
+        "**question**",
+        "php",
+        "is",
+        "using",
+        "`$this->session`",
+        "adding"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "in",
+        "the",
+        "php",
+        "session",
+        "for",
+        "to"
+      ],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Question:** What does the check `if(!isset($_SESSION)){\t// if no session exists, initialize...}` do?",
+      "uncommon_words": [
+        "**question**",
+        "does",
+        "`if(isset($_session)){",
+        "//",
+        "exists",
+        "initialize}`"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "what",
+        "the",
+        "check",
+        "session"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Question:** Why might it be beneficial for a software framework to implement this type of validation?",
+      "uncommon_words": [
+        "**question**",
+        "beneficial",
+        "validation"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "why",
+        "it",
+        "for",
+        "a",
+        "to",
+        "this",
+        "of"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "**Question:** In what scenarios might you need the ability to persist user sessions from one page to another, and how can this scenario be implemented with conditional checks?",
+      "uncommon_words": [
+        "**question**",
+        "scenarios",
+        "sessions",
+        "can",
+        "implemented",
+        "conditional",
+        "checks"
+      ],
+      "previously_used_words": [
+        "**question**",
+        "in",
+        "what",
+        "might",
+        "the",
+        "to",
+        "to",
+        "this",
+        "be"
+      ],
+      "word_count": 28,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

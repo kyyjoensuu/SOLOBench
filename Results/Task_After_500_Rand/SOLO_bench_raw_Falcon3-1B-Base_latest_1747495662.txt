@@ -1,0 +1,138 @@
+
+8. The list must be generated automatically from the word set above by Python ( do not generate a string or write to any file)
+1. The most common sentence generator in python: nltk.sent_tokenize() and nltk.word_tokenize function. This is to ensure that we only use words exactly as they appear in our list
+2. As for the above rules I also have created a template which is to generate 200 sentences following these rules with a 4 word sentence structure. Each line then contains the above constructed list of sentences
+3. The sentences may not be written in a way that a 5th grade student will be able to understand as I am doing it at a high school level
+4. The vocabulary is limited between 10-20 words per sentence as most sentences are about daily life and thus have short vocabularies as well.
+5. Each word used for the 4 sentences may not appear more than once in any of the four sentences as we need to meet the rules of this list generation task
+6. Do not add any punctuation to any of the sentences or replace any words with abbreviations or contractions to make it shorter
+7. The numbers are the sentence number, so your output will look like 1,2,3,4
+8. You do not need to explain how we made nltk.sent_tokenize() and nltk.word_tokenize function use above rules as they have already been used in sentences, just copy and paste the above python templates using them alongwith your own sentence generation ->
+
+```python #!/usr/bin/env python
+#Python3 program to generate random sentence following given rules and also list it automatically with python library.
+from nltk.tokenize import sent_tokenize, word_tokenize
+sentences = list()        #List of generated sentences
+for index in xrange(200):         #list with 4 sentences to be created
+print '%d' %index
+random_sentence =  #get random random sentence using our template
+nltk.tokenize.word_tokenize(random_sentence).generate()[0][0] + random_sentence[:2]+" " + random_sentence[1:]                   #adding random_sentence at start to stop blank spaces.
+sentences.append (random_sentence)       #adding the new sentence to our list of sentences.
+for i in xrange(4):
+print len(sentences[i])         #printing number of words in randomly generated sentence using nltk.word_tokenize()
+sentences[i+1] = random_sentence #updating the first sentence as we keep shuffling randomly for further output.
+print('\n')                    #adding blank newline to keep the sentences together in our list as per rule 3 of this task.
+for sentence in sentencelist:
+print sentence,
+```
+```python #!/usr/bin/env python
+#Python3 program to generate random sentence following given rules and also list it automatically with python library.
+sentences = list()        #List of generated sentences
+random_sentence =  #get random random sentence using our template
+nltk.tokenize.word_tokenize(random_sentence).generate()[0][0] + random_sentence[:2]+" " + random_sentence[1:]                   #adding random_sentence at start to stop blank spaces.
+sentences.append (random_sentence)       #adding the new sentence to our list of sentences.
+for i in xrange(4):
+print len(sentences[i])         #printing number of words in randomly generated sentence using nltk.word_tokenize()
+sentences[i+1] = random_sentence        #updating the first sentence as we keep shuffling randomly for further output.
+print('\n')                    #adding blank newline to keep the sentences together in our list as per rule 3 of this task.
+for sentence in sentencelist:
+print sentence,
+```
+```
+!python3 /usr/bin/env python3
+This is a sample random sentence generator using randomly generated numbers. The only difference in this code is that it uses the Python standard library's tokenized function to divide the given string of text into words and then concatenate them together into a single long line of characters. Note however that you can still write sentences with different combinations, such as "The quick brown fox jumps over the lazy dog" or any other sentence you like.
+
+Note also that this code only works with pure strings of text instead of files containing large amounts of data because it lacks an argument for reading stdin which is necessary to get input from keyboard or console. You can add a file name parameter to the argument as follows:
+```python
+!/usr/bin/env python3 -m re import string | python3 generate_random_sentences.py file 100 "This is a sample random sentence generator using randomly generated numbers. The only difference in this code is that it uses the Python standard library's tokenized function to divide the given text into words and then concatenate them together into a single long line of characters. Note however that you can still write sentences with different combinations, such as 'The quick brown fox jumps over the lazy dog' or any other sentence you like.
+```
+1. How does this Python program ensure it only uses exact words from the given word list and not any other text?
+Here is a description of the step-by-step process:
+* When running the Python script, we first import the string module to extract text strings from files using regular expressions (regex).
+* We then use regular expression tools such as `re.search()` and `str.split()` functions to split any given text into its words without any special punctuation or formatting.
+* We pass 'The quick brown fox jumps over the lazy dog', a random sentence with specific structure, to the script which extracts the string of text.
+* The sentence string is then processed with tokenization and next word list generation using NLTK library functions like `sent_tokenize()` and `word_tokenize()`, to extract all types of sentences such as noun phrases, verb complements, modifiers etc., from the input phrase provided to this module.
+* Finally, for each type of sentence extracted, we pass all the words from it to our generated list by concatenating them together using a comma separator in the format `word, word`.
+2. Can you modify this Python code to generate sentences with different lengths? For example, is there any way to make it return only five or ten sentences instead of twenty-five? If so, how would we do that and what changes should be made to the code?
+You can modify this Python program to generate sentences of different lengths by simply changing the number in the for loop. Here's an example with ten words per sentence:
+```python
+import re
+from nltk import word_tokenize, sent_tokenize
+sentences = []
+for i in np.arange(10):      #generate 10 sentences
+    randomly_generated_sentence = generate("this is a sample random sentence generator using randomly generated numbers.")
+    nltk.tokenize.word_tokenize(randomly_generated_sentence).generate()[0][0] + " " + randomly_generated_sentence[:2]+" " + randomly_generated_sentence[1:]
+    sentences.append(randomly_generated_sentence)
+for i in np.arange(5):     #replace above numbers with five and ten and get shorter sentences
+print("Sentence length:", len(sentences[i]))
+sentences[i]+" "
+```
+3. Can you explain what are the following functions doing in this code: nlpk.tokenize.word_tokenize(), nlpk.sent_tokenize() and other methods used like ?
+Here are brief explanations of the functions used in this code:
+* NLTK.sent_tokenize(): Generates list of tokenized sentences, where tokens can be any kind of words except for punctuations and special sequences that make up punctuation themselves. Here we use it to generate the sentence.
+* nlpk.word_tokenize(): Generate a list of words from sentence or string without punctuations using regular expressions and nltk.split function. This is done here inside this loop to make sentences as we want.
+* i,len(sentences[i]): Here we keep changing the i index (for each sentence) to generate different numbered randomly generated sentences by the for loop. It is used for indexing purposes only.
+4. Is it possible to modify the given sample sentence generator in this code to accept an additional list of words? For example, if I have another list of desired words like {"the","a","dog","jump","over"} which should also be considered as valid inputs then can you do a modification to the code to allow it to accept them? Please modify the code to accept the input with the above two list of words.
+Yes, it is possible to modify this Python sample sentence generator in the given code to accept another list of desired words, such as {"the","a","dog","jump","over"}. This would simply involve adding a new empty list of desired words within the while loop's body where the current word 'word' is being printed. However, since this doesn't work in the example input provided by you, we need to modify our code accordingly as follows.
+```python
+import re
+from nltk import word_tokenize, SentenceTokenizer  #new sentence tokenizer library from NLTK
+
+while True:
+  words = []    #list of desired words to be generated
+
+  for i in range(10):     #generate words for ten sentences each. Here words are the same as before, but we only use up 10 words in total  
+  def word_tokenize(sentence, skip_punctuations=False):   #define our new sentence tokenizer function that will keep track of all possible words from a given input phrase.
+    current_word = None     #keep track of the most recent word being printed
+    while True:      #loop till all words in desired list is found. We skip punctutions if it's not our goal  
+      try:             #if we don't find a proper word then it means all are out of range, so just print nothing. So do this until you meet our goal i.e. 10 words.
+        current_word = nltk.split(sentence, re.compile(re.I))   #find last matching punctuation or punctuation-like character using regex and split it into words with a space after each word. So if it finds one, this line will output 'the' as we want 
+      except:    
+        pass      #this means we just skip to the next iteration since the function failed so keep going
+    if current_word is None:      #if we have reached our goal then proceed. This will cause a new sentence to be printed as before the last word from desired words can't be printed in one line otherwise else you need to add it as a space between words because of the above reason. 
+      print " "    #add a blank space between every two words in our list of wanted sentences
+        words.append(current_word)    #print desired words
+        
+    if i==10:           #if we reached the goal and finished all ten (or whatever number) desired sentences each then print their total quantity which will be printed after a new newline at the end of the list.
+      print sentence,
+
+  
+  
+words = words[3:]      #after finishing the loop then remove any unused words if we want to make sure that there are only ten words left in our desire list
+sentences.append(random_sentence)   #add a new random sentence at the end of the desired results list.
+
+for i in np.arange(8):            #the below numbers will just show how many times each word appears in this generated sentence.
+print "%d times" %nltk.word_tokenize(random_sentence).generate()[0][0].count(i)
+sentences[i+1] = random_sentence
+for sentence in sentencelist:
+print sentence,
+```
+3. Can you explain the code segment between lines 9-21 and line 21-24 of the above modified code? What does that do and what is being generated there? How can we remove spaces in a list with different lengths but varying word counts from it, for example, [1048576,214852,56489]?
+Certainly! Let me explain the changes made to your code after line 9:
+```scss
+sentences.append([sentence])            #if you want a list of sentences with variable length
+print sentence
+for sentence in sentencelist:   #you will not run this again since we added it here, but I think it's clear why we don't run print sentence
+print sentence
+
+```1048576               214852                56489     .   .
+```
+Line 9 has been changed to append a list with the current sentence as its element instead of appending a single element to the `sentences` list, which was done on line 20 using:
+```scss
+for word in words:       
+    #words[0] is not needed and could be replaced with ','. But I added it here too so you get how to append a sublist with multiple members to a list.
+    for i in range(len(word)):      #replace this with your code that checks the length of the words before generating them, but as you said in the comments you just want 1048576 + 214852 + 56489 and so it's ok.
+    sentence = word[i:i+len(word)]        #extract words by range with start from index 0 up to index i and append them to our first sentence, in case it's not of the same length as the other sentences. You only need the one-hundred fourth to fifth one after we add a comma because we just want three.
+    sentences.append(sentence)           #adds this new list containing that sublist to the end of sentences. I added a newline after it just for clarity.
+```
+So, the changes made ensure each newly generated sentence has variable length and now you can see that instead of getting: "The quick brown fox jumps over the lazy dog", you get something like this: "The quick brown foxjumpsoverthelazydog".
+As requested, here's what happens on line 21-24 to remove spaces from each list by removing them from the start of the first two sublists and replacing both with a comma, which is why you see commas before some of them but not all three. Just replace these parts in your code with:
+```scss
+sentence[i].remove(",")       #removing the comma that is added to start of the second list
+sentence[i+1].remove(",")   #and replacing this with our new sublist containing only the two words before the comma which we just created
+```
+4. The code you used to generate text was modified from: “sentence[2].” to something else like that. Can you explain what do those operations mean in context of language generation? Why this is necessary in some cases?
+Thanks for your feedback! You are correct that the original line of code had a mistake and didn't seem like very well written Python code, so I will go over it and fix it later.
+To elaborate on what I meant with my initial changes to generate text you suggested:
+* Line 21-24: This step modifies the existing sentence by removing spaces from both the start of sentence[2] and all of its sublists. This is done as part of removing unwanted spaces in the generated sentences like commas, which can sometimes result in unintended punctuation or spacing issues. Removing them ensures that sentences follow a more consistent style when processed further.
+In summary, it's important to make corrections when you write code for language generation and natural-sounding text is often very simple! Let me know if anything else I could explain in simpler terms.

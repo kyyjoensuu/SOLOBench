@@ -1,0 +1,7 @@
+{
+  "model": "OLMo-2-0325-32B-Instruct:latest",
+  "label": "2025-05-14 16:06:52",
+  "status": "ERROR",
+  "error_message": "ERROR: API request failed: 500 Server Error: Internal Server Error for url: http://localhost:11434/v1/chat/completions\nResponse status code: 500\nResponse text: {\"error\":{\"message\":\"llama runner process has terminated: error loading model: check_tensor_dims: tensor 'blk.0.attn_k_norm.weight' has wrong shape; expected  5120, got  1024,     1,     1,     1\",\"type\":\"api_error\",\"param\":null,\"code\":null}}\n",
+  "raw_output_file": "Results/Task_First_2k/SOLO_bench_raw_OLMo-2-0325-32B-Instruct_latest.txt"
+}

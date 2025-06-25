@@ -1,0 +1,151 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-16 19:04:53",
+  "total_sentences": 7,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 7,
+  "format_failures": 7,
+  "common_word_failures": 7,
+  "word_reuse_failures": 6,
+  "raw_output_file": "Results/Task_First_1k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747410946.txt",
+  "formatted_output_file": "Results/Task_First_1k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747410946.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Must only use words exactly as they appear in the below word list.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each word can only be used once. Once a word is used it cannot be re-used in other sentences",
+      "uncommon_words": [
+        "can",
+        "is",
+        "cannot",
+        "re-used",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "word",
+        "only",
+        "word",
+        "in"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Each sentence must follow this structure: Verb + Adjective + Noun + Noun",
+      "uncommon_words": [
+        "verb",
+        "+",
+        "adjective",
+        "+",
+        "noun",
+        "+",
+        "noun"
+      ],
+      "previously_used_words": [
+        "each",
+        "must"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each sentence must contain exactly 4 words",
+      "uncommon_words": [
+        "4",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "exactly",
+        "words"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Do not use any tools or code to accomplish the task",
+      "uncommon_words": [
+        "tools"
+      ],
+      "previously_used_words": [
+        "use",
+        "the"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens",
+      "uncommon_words": [
+        "is",
+        "will",
+        "tokens"
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "the",
+        "word",
+        "list",
+        "in",
+        "it",
+        "is"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Return only a numbered list with one sentence on each line",
+      "uncommon_words": [
+        "numbered"
+      ],
+      "previously_used_words": [
+        "only",
+        "a",
+        "list",
+        "sentence",
+        "each"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

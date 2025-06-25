@@ -1,0 +1,112 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-17 10:02:33",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747465266.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747465266.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "{adjective}{place}{verb}{name}: The majestic forest is where Sarah, a skilled naturalist, goes for peaceful contemplation.",
+      "uncommon_words": [
+        "{adjective}{place}{verb}{name}",
+        "majestic",
+        "is",
+        "sarah",
+        "naturalist",
+        "goes",
+        "contemplation"
+      ],
+      "previously_used_words": [],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "{adjective}{place}{verb}{name}: The bustling market is where Emma, a talented chef, sources fresh ingredients.",
+      "uncommon_words": [
+        "{adjective}{place}{verb}{name}",
+        "bustling",
+        "is",
+        "emma",
+        "sources",
+        "ingredients"
+      ],
+      "previously_used_words": [
+        "{adjective}{place}{verb}{name}",
+        "the",
+        "is",
+        "where",
+        "a"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "{adjective}{place}{verb}{name}: The cozy living room is where Mark, a devoted reader, enjoys tranquil evenings with a book.",
+      "uncommon_words": [
+        "{adjective}{place}{verb}{name}",
+        "cozy",
+        "is",
+        "devoted",
+        "enjoys",
+        "tranquil",
+        "evenings"
+      ],
+      "previously_used_words": [
+        "{adjective}{place}{verb}{name}",
+        "the",
+        "is",
+        "where",
+        "a",
+        "a"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "{adjective}{place}{verb}{name}: The tranquil beach is where Rachel, a talented artist, finds inspiration for her vibrant paintings.",
+      "uncommon_words": [
+        "{adjective}{place}{verb}{name}",
+        "tranquil",
+        "is",
+        "rachel",
+        "finds",
+        "vibrant",
+        "paintings"
+      ],
+      "previously_used_words": [
+        "{adjective}{place}{verb}{name}",
+        "the",
+        "tranquil",
+        "is",
+        "where",
+        "a",
+        "talented",
+        "for"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

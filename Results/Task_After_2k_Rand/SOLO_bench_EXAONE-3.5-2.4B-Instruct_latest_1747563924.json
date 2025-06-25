@@ -1,0 +1,133 @@
+{
+  "model": "EXAONE-3.5-2.4B-Instruct:latest",
+  "label": "2025-05-18 13:54:31",
+  "total_sentences": 6,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 3,
+  "format_failures": 6,
+  "common_word_failures": 6,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_EXAONE-3.5-2.4B-Instruct_latest_1747563924.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_EXAONE-3.5-2.4B-Instruct_latest_1747563924.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Verb Adjective Noun Noun",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verb' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word 'noun' is not a noun",
+        "Fourth word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Verb Adjective Noun Person",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "previously_used_words": [
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verb' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Person Verb Adjective Noun",
+      "uncommon_words": [
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "previously_used_words": [
+        "person",
+        "verb",
+        "adjective",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'person' is not a verb",
+        "Second word 'verb' is not an adjective",
+        "Third word 'adjective' is not a noun",
+        "Fourth word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Sentence contains a rare word from WL (use sparingly)",
+      "uncommon_words": [
+        "contains",
+        "wl",
+        "(use",
+        "sparingly)"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Sentence must use at least one past tense verb",
+      "uncommon_words": [
+        "tense",
+        "verb"
+      ],
+      "previously_used_words": [
+        "sentence",
+        "verb"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Use the present participle in sentences where possible to emphasize ongoing action",
+      "uncommon_words": [
+        "participle",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "use"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

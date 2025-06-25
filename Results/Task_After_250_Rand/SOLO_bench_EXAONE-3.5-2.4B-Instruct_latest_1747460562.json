@@ -1,0 +1,76 @@
+{
+  "model": "EXAONE-3.5-2.4B-Instruct:latest",
+  "label": "2025-05-17 08:42:48",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 0,
+  "raw_output_file": "Results/Task_After_250_Rand/SOLO_bench_raw_EXAONE-3.5-2.4B-Instruct_latest_1747460562.txt",
+  "formatted_output_file": "Results/Task_After_250_Rand/SOLO_bench_EXAONE-3.5-2.4B-Instruct_latest_1747460562.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Walk graceful elephant skyward",
+      "uncommon_words": [
+        "graceful",
+        "skyward"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'graceful' is not an adjective",
+        "Fourth word 'skyward' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Keep simple honesty bookstore",
+      "uncommon_words": [
+        "honesty",
+        "bookstore"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'honesty' is not a noun",
+        "Fourth word 'bookstore' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Move joyful mouse slowly toward box",
+      "uncommon_words": [
+        "joyful"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Throw impatient dog behind fence aggressively",
+      "uncommon_words": [
+        "impatient",
+        "aggressively"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+
+
+There are many possible solutions to this task, but I find the following solution easy to remember:
+• Write a loop that creates a sentence (verb + adjective + noun + noun) in the first iteration. Then iterate again making the same kind of sentence but in the second iteration, pick the second-to-last word from your sentence in iteration 1 and make it an adjective so that you make a sentence from something like "sink green apple red". Repeat the process again. The nth iteration should pick the n-before-last word and so on until you have a single n-gram of length 200, where each word in the n-gram is randomly selected from the wordlist given.
+The most obvious solution I can think of is to first create a list of all possible 4-words sentences that can be made from the given vocabulary list. I do this since we are only allowed to use each word once and not re-use. Then we just return one of the n-grams randomly without replacing any of the words in each n-gram. In effect you are going to return n sentences where n is 200 (the number of submissions we are required to make), so be prepared for the execution to take a while if you only have a minute to complete this exercise.
+I had been planning to use the solution above, but was surprised to discover that it is actually too slow to be used in real-world applications. The next approach is a much better one and the one the authors use. The trick to use here is to use Python's random functionality to return one of the items in your array randomly from a given range. This would be impossible to do on an array of arbitrary length but here one of the bounds of the random function call is the size of the list so we know that the item selected will always be in the bounds of the original wordlist.
+To find the length of all sub-sequences of random word combinations that give us a result of four, we simply use Python's range() function which accepts two parameters. The first parameter specifies the starting place for range() and we set it as 0 with the second parameter specifying the end of what range() should return us which we get from iterating through all words from an empty list.
+Let's say you want to write a generator function that produces the values 0,1,2,3, then you can do the following to produce a list of all the values
+def produce_values():
+return values_list
+produce_values()
+If you now invoke the function produce_values() you will receive a value and to get to all the values you simply iterate over produce_values(), and this is exactly the same idea behind range().
+The actual code to achieve n-grams of length n looks like this:
+# returns a list of only the words in the vocabulary
+def get_words():
+return word_list
+# get the 1-grams
+one_gram_list = get_words()
+# remove all word-repetitions to only have unique 1-grams words
+one_gram_list = list(set(one_gram_list))
+# return all 1-grams in a single list
+return one_gram_list
+# get all 2-grams that can be created from an n-sized sample (n: number of iterations)
+def produce_grams(n):
+# return all the 2-grams
+get_words[pos:]) # return all 2-word combinations
+grams = get_words()
+grams.sort() # sort and return one_grams
+return gram_list
+# return 3-grams for an n-sized sample
+def produce_grams(n):
+get_words[pos1+1:pos2+1]) # return 3-word combination
+grams.append(get_words(
+grams.sort() # sort and return one gram list
+def produce_grams(n):
+return one_gram_list
+# get all n-grams
+return gram_list
+# produce the n-grams
+# return only a sample of the output (as required by the challenge)
+produce(n)):
+gram_list
+grams.sort()
+This last piece of code is to remove the first item from the final list, as we are required
+The one you would think that you have done, and
+This last piece of the wordlist[i] and produce the n-grams
+gram is the most likely to win this ngram_list in the ngram_list and
+return a sample of all ngrams in the final size n-grams for an n-sized samn_list[i:i+1])
+gram list and return the ngram list of the ngram
+gram(iteration(
+# for all the words in the one n-gram
+word_list and the one n-grams that can
+def one_gram_list
+gram_list
+gram_list and the n-gram
+# returns the words in
+# remove all repeated words
+word list and return a sample
+def produce_sample(n):
+wordlist[pos:pos+1) # returns all 4-word n-sized list
+return all n_grams
+gram
+# get the n-grams
+def get_words():
+def produce_n_grams and returns all the .
+grams and return a sample
+# returns all the n-grams and a single the final wordlist in the n-gram
+gram(n):
+gram list of the word_list[i:i+1]
+# get all that can be randomly
+# returns only the n-grams that an n
+gram_list(i-1) # return the sub-list and return n-sized sub-list and return the word_list) (sub-list that can be randomly the sub list and create a random.
+# makes one n-grams for random. 
+def produce_gram_list (as per the n-gram_list | n_gram_list and gram_list(
+gram and return all the words in an (n)
+def produce_grams and returns all n-size sub-list.
+def produce_gram_list(n):
+# remove any ngrams(n):
+# get all words in 1 to produce_n_grams of n-grams of length n
+def make the word_list that could be the word_list(n):
+return word_lists, word_list and return the n-gram_list n):
+return from the initial word list. to the n-gram and return one word list and
+# in the original word_list or -grams from word list
+gram and "n-gram
+# produce_gram
+gram with a final_ngram of all wordlist that can be one(n):
+def produce_gram or 1-gram
+gram and produce one n-gram
+gram-n-gram of n-gram
+# produce_count word(for:
+# produces an output which produces word-list be the result will list a single sentence and the phrase
+gram and a phrasal:
+gram from: 
+If
+gram and a phrase
+produce from a noun to a phrase with a single noun phrase: the phrase that can a phrase is a phrase that can a Phrase is
+def produce_phrase *
+gram and a small to the phrases a
+phrases are phrases to
+gram/ the
+Phrases
+phrases of the phrases in a single phrase, and phrases are
+gram, and
+# a phrase or (
+grams(1) a
+gram: the for
+gram-related phrase.
+# a phrase
+gram for
+gram, and also phrasal
+gram with an 'Phrase, and a
+# gram/ a phrase with a phrase
+gram
+Phrase/ phrase
+# return a certain a Phrase
+# the
+# PHRASE-related Phrase
+# the phrase
+Phrase
+# the single-phrase. In the sentence and one-phrase a phrase a single
+# return any single-phrases
+# Phrase in a single. A frase or
+Gram
+#
+# gram, the phrase
+dram on the single-phrase
+# sentence
+# sentence/sentence. Phrase
+# from a single sentence
+# from a phrases
+# sentence 1.
+# be sentence 1:
+
+>>COMMENT<< For the full of phrase
+# a phraze a phreaze, this phraze.
+# the phrase>>COMMENT<<# the phrase...
+gram or a phrase/phrased and the phrasemes. A few phrase
+The Phrase. # the phrase
+# the phrase
+# to a phrase
+# get a sense
+# the phrase
+# get the best in Phrase
+# the
+# the phraze by the best in a certain phrases for the sentence of these words are the right to the phrase the
+praise
+# The -shaped [
+# the sentence as well as the sentence
+# an individual the meaning than they may have a single phrase.
+# the single sentence
+# the -phrase #. # the phrasement
+# the phrases will contain: in particular.
+# the best you are a bit from 
+Grammar
+# be the end of the line
+ # produce an English
+# an English# sentence and a line
+# the end
+# The purpose of Phrases...
+# A line
+English
+# be the purpose of Phrase a Phrase get to the phrase it is it
+Phrase 0
+# a single phrase the single purpose-phrase(as a sentence that purpose
+# phoarphrase
+The purpose, the phrase
+And the rest of Phrase this purpose of all
+# in the purpose, to a purpose of the sentence about [edit: phrasa and the second-purpose
+# two-purposse
+# and use single phrase this Phrase you know you. Phrase
+# and purpose:
+# The main difference
+
+# and purpose, so be the sentence to create new words this sentence any purpose.
+
+" I was
+phrase to phrase:The concept of purpose and then
+# a short. Purpose of purpose of phrases your purpose of 
+# of phrase - as I believe that a purpose of the purpose of the purpose of having a specific purpose in
+Purpose
+# to
+# in to create purposes. As is a whole section
+# purpose for the purposes. =
+# purpose
+
+
+# Purpose...
+# a Phrase each word
+# to help to the sentence in your purpose for a single line to produce this purpose to phrase this, (gram. Sentences
+# a sentence, the words in a Phrases of line and the meaning.
+# of the sentence or ph the phrase it was at a sentence the sentence this purpose of the ph
+
+# and the purpose and to find out the meaning of Phrase this means of Phrase
+A purpose of the other words a particular sentence any sentence which in terms in the purpose of these
+
+I should have you the role- the purpose of this book and. Purpose the idea this is your essay and what is good luck - it purpose is to set / a purpose of that if your own purpose of a sentence this purpose is to provide
+# (gram of this one '
+#3 to have this part with your sentences with a phrase on, &lt;3, the sentence to serve a variety of Phrase#n purpose: a sentence is a statement that is used to make clear something - an answer in which it is not the answer but rather the meaning.
+
+#&gt; It may be part of a question, an answer, a sentence or other grammatical forms.>>COMMENT<< It is the answer to the question which it is asked is the answer that has been given to a question. It is a response. It is the answer to the question to which the answer has been given.
+>>COMMENT<< When we ask a question the answer we are asking is given in an a sentence by the person who answered the question. In a way it would be better for us to ask the answer for which it is the answer. If we were to use the a sentence it would mean that we would ask only one kind of question, but the answer to that question is given in either a a sentence or an answer, or for a question.>>DOMAIN<< this is not true. We need the answer both the answer and the question. >>COMMENT<< I would like to learn what you think about that. What makes me a good person. what do you think about that? I know this is a question but what if I asked the answer the opposite way. I am asking the opposite because I want to know the answer, not because I want to know what was actually being said.
+
+I know for a fact the answer is not correct, I believe the answer is just a lie.>>COMMENT<< That was the answer and answer question the question, but I wanted. This answer that they ask that question. I am also a good person but I am a good person but I feel like I need to ask for the purpose in life, for them to know what the answers is wrong. >>COMMENT<< I want you to see the opposite word for the purpose of this.
+
+The answer is the answer.
+
+I will never know for the purpose that I should have the answer. I know the purpose that it is not that you will know for the purpose, for that purpose.
+
+My purpose that it should be that should know for them. 3.1. 1. a. What I will not be my purpose.
+
+I need to know for my purpose that I asked. 1. I need to know the answer that they have no purpose. 1. I want you to see. I will not I know.1. I know what is the purpose of what purpose. I want to see more, they have a purpose by the way you will not have the opposite word. 
+
+That said, I am sure.>>COMMENT<< I am not able to answer that I am a good person but it is the answer to that it.
+
+1 1 that said and the word, it is.
+
+The end in your question has a question. I've been thinking, it has a question to ask the questions of the question that is not as well. 3. I would like 3. I have been using the language a new thread has to have the same way back, he's no longer be able to find the right to use to go back with the same as the answer that you, the most useful in terms of.
+
+I did ask for the answer the question.>>COMMENT<< What is your question. The opposite is the 1 and 2 questions to ask that would you say a question of, you're just what would be the reason to believe the next sentence or not.
+
+I have to keep the answer to your question, I didn't know where the opposite that you will also the best course. This is one>>COMMENT<< When it is the same person I am I to read it. When I was only to be that of what it means.>>COMMENT<< I want to make sure to get the answer but I have no problem with this sentence is a sentence this is a good person in this way that has no.3
+
+
+3
+>>COMMENT<< you this paragraph of the world.>>COMMENT<< The next sentence that the purpose of the way I am and be as a question is the answer
+
+
+2 words 1) the same
+
+1.>>COMMENT<< I'd like this sentence is true to ask for a specific object.
+It is. I will not change your password. You will need your answer it is to be able to create this one as I'm not sure I have to do so if you say. It is a simple>>COMMENT<< The world you want to be an exact date when I can. I guess that's why, there for the word of the following, with one would have to get the next.
+
+3. 1, the text-to do is to make it easy to be honest for this sentence, but they're making. For now, a long and the same as the last one for two sentences.
+
+It's the next 1 would like this question.
+#
+3 I was not only is the only place I have to make it is easy-to-do you this is to be given that you are a great idea or a word or two and it is to do>>COMMENT<< The end and the purpose of our lives every new version of our own way to the right answer this book of our lives. The first sentence is the purpose and you will return the list of the question, I need some of the next item in the following 7 days and that is more than a word at a single. these words and a long the world.
+
+I get the information I used to write what is an example. 
+
+
+
+
+
+3. I's the same reason this sentence, which means that the word in my mind, (in the middle of this word, I hope so it in the sentence from a similar in mind.
+# a sentence the text of the purpose-
+
+The first letter.>>COMMENT<< I's just have a good day with a short essay. "
+* (for those who live and the next 5 days you's the way my words. This is a short essay of what I was the word that the purpose with my life in the book,
+*
+* this document is the answer all of what do we have the full page that the book. That is.>>COMMENT<< I need to make it's only one who have no doubt you's the same.  
+ I could use the end and the same 1. 
+
+&amp, 5: 0 words, for a new document that is the 0 words to a word that have in the word that. [1: word, you want it
+I do not know you do you think of one I's 2 and make a statement of my mind that has this page is your own life, so you will. (in my heart that has been there any sentence that is your point and how the same the following: A list on Google it the following code. To say.
+
+... is a noun, and the noun can only with one-at-t
+
+
+
+
+
+
+
+3.  
+
+    a single, your. 1 (if it should be the first step at random and the last word and what the 5:
+
+
+2.
+E. 1: to start the next sentence the next week to say. 6: The first the noun and what I want to know how they's ... The first is a sentence that will become more than just the beginning to know = a statement of the world 'that was originally used to be the middle word is repeated the end of the following:
+
+
+2 is the subject of this post.
+
+
+* 2 is the subject of my understanding.
+
+3:
+1 your subject of the first is the text.
+
+* 2. 
+4)
+    ...
+
+2-
+* 3: 0
+* 6)
+* and that the beginning word with an email in
+*/-
+* 
+This document.1. 2: 0
+2: and 1 is the subject/words
+
+2:
+1 is the beginning or the subject is a document are a 0: The sub-
+* 2: 0-
+* * (the following information.
+* * is an email from the first to the following:
+
+* the words... you are an e- mail and the subject the start by adding the word that the following:
+* the following information. this comment is the following: , the information.
+* 2. this email from that the previous:
+* The second is what has the beginning:
+
+5 is the previous document. The beginning is the best way to understand 2:
+2: an image that the other ones you's that the same purpose of this is the sentence 0:0
+* the subject is the subject to the following: the start the subject as: the start. the text that the start. this one because: the purpose, the start: the beginning of what is the subject. You want.2 the starting to what it means that: the end is also: *the end_count of what it, all: what is being a file and what the subject is that
+2. * the second is to be -- the beginning of what is the beginning the what is what the beginning of. this is one that the purpose is to be more important. if you are the beginning. it's the beginning of an object a 4: the text of an email for a report was made for what is
+* 6:
+*
+
+*
+* that the 2 to what is...
+*
+* that what the subject a *
+2. * the start
+* the subject
+2. The * the start
+3. * the subject.
+
+2. * the subject
+3. * The Subject
+4. The Subject
+
+2. The Subject
+3. The Subject
+
+-- * the subject
+3. The Subject.
+
+2. The Text
+3. The Subject.
+
+2. The Text
+3. The Text.
+
+2. The Text to the Document
+
+>>COMMENT<< My brain is leaking out my earholes>>COMMENT<< Did you ever end up watching any of the video? (Sorry, my mind isn't as strong as that of a normal person...)>>COMMENT<< I did watch all of them, but I couldn't find the exact one that I was looking for. I'm not sure if it wasn't posted on the forum, but I don't think I saw it on Reddit somewhere, but it was so long ago. 
+
+I also really liked how they went to other countries and talked about what the people there thought about them. Like in one of those scenes, they got out on a bus and asked people on the street how people treat animals.>>COMMENT<< If I had to guess it was the one that got out on a bus? I was thinking it was something to do with a show on BBC, or maybe I watched it on Amazon>>COMMENT<< No, no idea how to watch that, it's so weird.. I know that you can just open up a new folder for it!>>COMMENT<< Is it weird, how was the only one in the video? :(>>COMMENT<< It's kinda weird, but i don't know what else it could be. Maybe try the audio on your phone. Also, this is a good start on the page for more than a while now.>>COMMENT<< What makes is it a very bad job of taking it. 
+
+2. Do you have some people use to make the video? I hope you can watch the one you can get a lot of it as a game on. It's been like that.
+
+2. There's a good one. 
+I didn't want to make some of them. I got a video 
+I can find me and the second, I will use me more than a single thread on their own, but not a lot of them would be a good idea if you to do you like it. 
+
+2. 
+To do what is that's why I have seen people use 
+2. I have to make the video to make some really good that would be able to say we can't know that 
+2. In some way i have the first one and you will know how to use for example for a while ago that the more than 60% for years and a list of what is why the subject was the first half of the way it sounds the most part of a lot of it that I don't need to work the game, which means that I have the option, that i will make the answer the first the end of their minds off and make it would you see this is more to make a video? The subject of the subject of the video? I hope you can watch and then the video, I'm here and the [subject of the sentence and can make the video?>>COMMENT<< Do I know we're getting the start you can get it because I didn're more than it has been able 2) and if there's some reason to do not 
+
+I have any of the people and I don't need for example for this is one or not a few different is not a >>COMMENT<< 
+2.>>COMMENT<< It. If it was the first one or a long shot.
+
+The subject or we are for a sentence [here is what it is it, but how to use this sentence was going to have been this way to the video is the first it seems so I would be the first sentence that was it is an example of the subject is a video
+3. The second example of the rest of the second example of the world is a few sentences 2.
+
+
+3>>COMMENT<< I know I can't think the subject is to the second and the same as to make sure to use this is the most important: "the beginning the rest of the first person to say that:
+
+
+In the video is also can use the video, we can watch.
+>>COMMENT<< I’s. "a thing, like you have to use the end, but how do you want to see if you have to get that it're looking for the subject would be in a new project is not in a sentence and that's I's or something else that's
+
+>>COMMENT<< I just said the same as a new * one or no idea.
+
+* I can have an example to use it, then.>>COMMENT<< (this is a good time and what's a second.>>COMMENT<< 2
+
+3. the "I do you want to go about that is it a good place for which will I would be used, I am having the start of a sentence, to have the text by an online.
+. 
+
+>>COMMENT<< It was a lot to the rest of you want. I would be able to make it can be the subject of the subject to do for the purpose: this is a "a person the subject that are for the point that the person being a sentence, then a few words, but also can not. It's the fact that it the sentence is a very good.
+ a good start . >>COMMENT<< I see the video, when i, it is a sentence is to create an example would be used as an opportunity to add to make sure there the same thing that he was that it is in a few words that I had the subject to the purpose this sentence as it's not a good word "a statement of what is your question for a second.>>COMMENT<< to make the purpose of the original post. That is the subject of the following "what a second example that "the answer a lot that is the start the sentence to end it's an example to get the subject to provide the following sentence would be used in a response to the subject for this, to the same purpose; therefore - The answer.
+
+** to it that  that the start the person to the * the subject and to make the subject of the rest to make the best thing is it is the subject of you say the same "to change the the subject of a response! I'm not to do with it is the point that you would need the (I've is the first sentence of the first two words that the second sentence, a sentence the person . The purpose of the question:
+
+2) can be used to get the best word in the sentence. [0 "the sentence to change the subject is the use of a more "how to make it is to make the rest that you't make it in the second example, you've to do the subject and why. The purpose of. the use the following the text:
+ to make it can’s that the subject it would be used for instance, to find out for the sentence to make the subject of an object the source of your original statement;

@@ -1,0 +1,514 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-16 18:36:33",
+  "total_sentences": 33,
+  "perfect_sentences": 9,
+  "score_percentage": 27.27272727272727,
+  "word_count_failures": 3,
+  "format_failures": 6,
+  "common_word_failures": 6,
+  "word_reuse_failures": 21,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest_1747407956.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest_1747407956.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Assemble the honest desk. Wait no, but it's just four words. Wait, the verb must be used without an article. Hmm, perhaps \"Assemble Honest Desk Game.\" But \"assemble\" as a verb is correct. Let me see.",
+      "uncommon_words": [
+        "it's",
+        "words",
+        "verb",
+        "an",
+        "hmm",
+        "\"assemble",
+        "game\"",
+        "\"assemble\"",
+        "verb",
+        "is"
+      ],
+      "previously_used_words": [],
+      "word_count": 36,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "\"Recommend average role country.\" That would be: Recommend (verb), Average (adjective), Role (noun1), Country (noun2).",
+      "uncommon_words": [
+        "\"recommend",
+        "country\"",
+        "(verb)",
+        "(adjective)",
+        "(noun1)",
+        "(noun2)"
+      ],
+      "previously_used_words": [
+        "be"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "\"Resist increasing bias driver.\"",
+      "uncommon_words": [
+        "\"resist",
+        "driver\""
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"resist' is not a verb",
+        "Fourth word 'driver\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Assemble honest desk game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "honest",
+        "desk"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Recommend average role country.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "average",
+        "role",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Resist increasing bias driver.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "increasing",
+        "bias"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Bite fragile steak knife? Wait, 'bite' is a verb but let's see if it fits.",
+      "uncommon_words": [
+        "'bite'",
+        "is",
+        "verb",
+        "let's",
+        "fits"
+      ],
+      "previously_used_words": [
+        "wait",
+        "is",
+        "a",
+        "verb",
+        "but",
+        "see"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Observe unexpected event situation.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Assemble honest desk game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "honest",
+        "desk",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Recommend average role country.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "average",
+        "role",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Resist increasing bias driver.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resist",
+        "increasing",
+        "bias",
+        "driver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Bite fragile steak knife.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bite",
+        "fragile",
+        "steak",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Observe unexpected event situation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unexpected",
+        "event",
+        "situation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Lend sufficient support system.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Improve quality education standard.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Modify complex formula equation.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Specify clear instruction guideline.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Expose hidden plot twist.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Assemble honest desk game.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "honest",
+        "desk",
+        "game"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Recommend average role country.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "recommend",
+        "average",
+        "role",
+        "country"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Resist increasing bias driver.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "resist",
+        "increasing",
+        "bias",
+        "driver"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Bite fragile steak knife.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "bite",
+        "fragile",
+        "steak",
+        "knife"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Observe unexpected event situation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "observe",
+        "unexpected",
+        "event",
+        "situation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Lend sufficient support system.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "lend",
+        "sufficient",
+        "support",
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Improve quality education standard.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "improve",
+        "quality",
+        "education",
+        "standard"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Modify complex formula equation.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "modify",
+        "complex",
+        "formula",
+        "equation"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Specify clear instruction guideline.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "specify",
+        "clear",
+        "instruction",
+        "guideline"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Expose hidden plot twist.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "expose",
+        "hidden",
+        "plot",
+        "twist"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Adjust minor detail adjustment.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Develop sustainable energy policy.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Formulate new theory application.",
+      "uncommon_words": [
+        "formulate"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'formulate' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Update obsolete system feature.",
+      "uncommon_words": [
+        "obsolete"
+      ],
+      "previously_used_words": [
+        "system"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'obsolete' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Utilize efficient resource method.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    }
+  ]
+}

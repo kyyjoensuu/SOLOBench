@@ -1,0 +1,53 @@
+{
+  "model": "DeepHermes-3-Mistral-24B-Preview:latest",
+  "label": "2025-05-18 21:53:53",
+  "total_sentences": 2,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 2,
+  "format_failures": 2,
+  "common_word_failures": 2,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_First_4k_Rand/SOLO_bench_raw_DeepHermes-3-Mistral-24B-Preview_latest_1747594203.txt",
+  "formatted_output_file": "Results/Task_First_4k_Rand/SOLO_bench_DeepHermes-3-Mistral-24B-Preview_latest_1747594203.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "\"The new factory can produce tremendous amounts of steel.\"",
+      "uncommon_words": [
+        "\"the",
+        "can",
+        "amounts",
+        "steel\""
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "\"Scientists have discovered that there are tremendous amounts of water beneath the Earth's surface.\"",
+      "uncommon_words": [
+        "\"scientists",
+        "discovered",
+        "are",
+        "amounts",
+        "earth's",
+        "surface\""
+      ],
+      "previously_used_words": [
+        "tremendous",
+        "amounts",
+        "of"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

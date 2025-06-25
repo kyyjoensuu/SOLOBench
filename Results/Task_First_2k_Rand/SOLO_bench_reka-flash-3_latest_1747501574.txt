@@ -1,0 +1,16 @@
+1. For each component in the structure, pick a random element from their respective list.
+2. Join them into a string separated by spaces.
+3. Capitalize the first letter of the entire string.
+4. Add a period at the end.
+5. For each component in sentence_structure (determiners, nouns, verbs, adjectives):
+6. Combine these elements into a single string separated by spaces.
+7. Capitalize the first letter of the entire string (making sure the rest are lowercase as per .capitalize()).
+8. Add a period at the end.
+9. Return this sentence.
+10. If the total number of possible unique sentences is less than 200, the code will enter an infinite loop.
+11. **Component Selection**: Randomly select one word from each of the four lists (determiners, nouns, verbs, adjectives) to form a sentence.
+12. **Sentence Construction**: Combine the selected words into a single string and format it correctly by capitalizing the first letter and adding a period at the end.
+13. **Uniqueness Check**: Use a set to store generated sentences to automatically handle duplicates. Continue generating sentences until we have 200 unique ones.
+14. **Component Selection**: The `generate_sentence` function takes a sentence structure and parts, then randomly selects words from each part to form a sentence.
+15. **Sentence Construction**: The selected words are joined into a string, which is then capitalized and formatted with a period.
+16. **Uniqueness Check**: A set is used to store sentences, ensuring no duplicates. The loop continues until 200 unique sentences are generated.

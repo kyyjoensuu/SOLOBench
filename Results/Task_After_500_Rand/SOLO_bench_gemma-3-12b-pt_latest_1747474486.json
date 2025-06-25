@@ -1,0 +1,95 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-17 12:35:38",
+  "total_sentences": 5,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 5,
+  "common_word_failures": 1,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_After_500_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747474486.txt",
+  "formatted_output_file": "Results/Task_After_500_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747474486.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "My first sentence",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "My second sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "my",
+        "sentence"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "My third sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "my",
+        "sentence"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "My fourth sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "my",
+        "sentence"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Use the following word list - the below lines start with \"'''\" (these are used to denote Python code blocks) and you do not need them in your sentence list, they just indicate the list of acceptable words - you can also remove the comment with the list name as it is purely for reference",
+      "uncommon_words": [
+        "-",
+        "lines",
+        "\"'''\"",
+        "(these",
+        "are",
+        "denote",
+        "python",
+        "blocks)",
+        "words",
+        "-",
+        "can",
+        "is",
+        "purely"
+      ],
+      "previously_used_words": [
+        "sentence"
+      ],
+      "word_count": 55,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

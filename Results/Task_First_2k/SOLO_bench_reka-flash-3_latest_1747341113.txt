@@ -1,0 +1,16 @@
+1. Parse each sentence to find all time expressions, which can be either in HH:MM format (numerical) or in words (like "twelve", "sixty-five").
+2. For each identified time expression, extract all the letters present in those words or numerical parts (even though numerical parts don't have letters).
+3. Compile a list of all unique letters found in any part of these time expressions.
+4. For each letter, list all instances where it appears in the time expressions.
+5. Numbers written as words (e.g., twelve, twenty-three).
+6. Abbreviations like AM, PM.
+7. Any other components that are part of the time expression (e.g., quarter, past).
+8. A clock ticks twelve times at midnight.
+9. The sun rises at six AM and sets at eight PM.
+10. They left at quarter past three.
+11. It's half past eleven in the evening.
+12. She arrived at twenty-three hundred hours.
+13. The alarm goes off at midnight twelve times a year.
+14. Identify all unique words and abbreviations related to times from the sentences.
+15. For each word/abbreviation, extract its letters.
+16. Tally the occurrences of each letter.

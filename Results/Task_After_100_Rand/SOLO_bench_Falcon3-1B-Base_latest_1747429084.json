@@ -1,0 +1,266 @@
+{
+  "model": "Falcon3-1B-Base:latest",
+  "label": "2025-05-17 00:08:22",
+  "total_sentences": 12,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 9,
+  "format_failures": 12,
+  "common_word_failures": 12,
+  "word_reuse_failures": 10,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_Falcon3-1B-Base_latest_1747429084.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_Falcon3-1B-Base_latest_1747429084.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "If possible return an ordered list so that the words appear in dictionary order (dictionary ordering is case-insensitive)",
+      "uncommon_words": [
+        "an",
+        "ordered",
+        "words",
+        "dictionary",
+        "(dictionary",
+        "ordering",
+        "is",
+        "case-insensitive)"
+      ],
+      "previously_used_words": [],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "As more than half of sentences contain some of your input keywords, you will have better results if you do not output \u201cNone\u201d after the lists returned for these types of tasks.",
+      "uncommon_words": [
+        "sentences",
+        "keywords",
+        "will",
+        "results",
+        "\u201cnone\u201d",
+        "lists",
+        "returned",
+        "types",
+        "tasks"
+      ],
+      "previously_used_words": [
+        "if",
+        "the"
+      ],
+      "word_count": 32,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "noun, noun, noun",
+      "uncommon_words": [
+        "noun",
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "adjective, noun, verb",
+      "uncommon_words": [
+        "adjective",
+        "noun",
+        "verb"
+      ],
+      "previously_used_words": [
+        "noun"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "adjective, noun, adjective, noun",
+      "uncommon_words": [
+        "adjective",
+        "noun",
+        "adjective",
+        "noun"
+      ],
+      "previously_used_words": [
+        "adjective",
+        "noun",
+        "adjective",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'adjective' is not a verb",
+        "Second word 'noun' is not an adjective",
+        "Third word 'adjective' is not a noun",
+        "Fourth word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "noun, adjective, verb",
+      "uncommon_words": [
+        "noun",
+        "adjective",
+        "verb"
+      ],
+      "previously_used_words": [
+        "noun",
+        "adjective",
+        "verb"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "noun, noun, noun, noun",
+      "uncommon_words": [
+        "noun",
+        "noun",
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [
+        "noun",
+        "noun",
+        "noun",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'noun' is not a verb",
+        "Second word 'noun' is not an adjective",
+        "Third word 'noun' is not a noun",
+        "Fourth word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "adjective, noun, noun",
+      "uncommon_words": [
+        "adjective",
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [
+        "adjective",
+        "noun",
+        "noun"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "noun, adjective, adverb",
+      "uncommon_words": [
+        "noun",
+        "adjective",
+        "adverb"
+      ],
+      "previously_used_words": [
+        "noun",
+        "adjective"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "noun, adjective, topic",
+      "uncommon_words": [
+        "noun",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "noun",
+        "adjective"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "(all input are keyword)",
+      "uncommon_words": [
+        "(all",
+        "are",
+        "keyword)"
+      ],
+      "previously_used_words": [
+        "input"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '(all' is not a verb",
+        "Second word 'input' is not an adjective",
+        "Third word 'are' is not a noun",
+        "Fourth word 'keyword)' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "noun, adjective, preposition, noun or noun, verb, adverb and noun",
+      "uncommon_words": [
+        "noun",
+        "adjective",
+        "preposition",
+        "noun",
+        "noun",
+        "verb",
+        "adverb",
+        "noun"
+      ],
+      "previously_used_words": [
+        "noun",
+        "adjective",
+        "noun",
+        "noun",
+        "verb",
+        "adverb",
+        "noun"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

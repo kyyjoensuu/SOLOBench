@@ -1,0 +1,95 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-15 18:57:50",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_First_500/SOLO_bench_raw_gemma-3-1b-pt_latest_1747324664.txt",
+  "formatted_output_file": "Results/Task_First_500/SOLO_bench_gemma-3-1b-pt_latest_1747324664.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Do you prefer to think outside the box or are you more comfortable with the typical ways of thinking?",
+      "uncommon_words": [
+        "are",
+        "ways"
+      ],
+      "previously_used_words": [],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "How is the vocabulary in your head as opposed to your thinking?",
+      "uncommon_words": [
+        "is",
+        "vocabulary"
+      ],
+      "previously_used_words": [
+        "the",
+        "to",
+        "thinking"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "What is an example of a sentence in your vocabulary that is grammatically wrong?",
+      "uncommon_words": [
+        "is",
+        "an",
+        "vocabulary",
+        "is",
+        "grammatically"
+      ],
+      "previously_used_words": [
+        "is",
+        "of",
+        "in",
+        "your",
+        "vocabulary",
+        "is"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Why can it ever be grammatically wrong? (Provide an example and an explanation)",
+      "uncommon_words": [
+        "can",
+        "grammatically",
+        "(provide",
+        "an",
+        "an",
+        "explanation)"
+      ],
+      "previously_used_words": [
+        "grammatically",
+        "wrong",
+        "an",
+        "example",
+        "an"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

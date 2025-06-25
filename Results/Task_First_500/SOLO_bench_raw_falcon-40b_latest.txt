@@ -1,0 +1,35 @@
+
+Zoo
+A sample solution is illustrated below.
+import java.util.*;
+
+class Solution {
+    public static ArrayList<String> wordSets;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int tc = sc.nextInt();
+
+        wordSets = new ArrayList<>();
+        for (int tcNdx = 0 ; tcNdx < tc; tcNdx++) {
+            addWordset(sc);
+        }
+
+        for (ArrayList<String> wordList : wordSets) {
+            System.out.println(wordList);
+        }
+    }
+
+    private static void addWordset(Scanner sc) {
+       LinkedList<String> wordList = new LinkedList<>();
+       do {
+            String word = sc.next(); 
+            if (word != null) {
+               wordList.add(word);
+            }
+        }
+        while(sc.hasNextLine());
+        wordSets.add;
+
+//      return false;
+//  }

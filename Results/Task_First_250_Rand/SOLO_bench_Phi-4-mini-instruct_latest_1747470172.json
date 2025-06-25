@@ -1,0 +1,140 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-17 11:24:40",
+  "total_sentences": 6,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 5,
+  "format_failures": 6,
+  "common_word_failures": 6,
+  "word_reuse_failures": 4,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_Phi-4-mini-instruct_latest_1747470172.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_Phi-4-mini-instruct_latest_1747470172.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "I will generate 200 unique, grammatically correct English phrases.",
+      "uncommon_words": [
+        "will",
+        "200",
+        "grammatically",
+        "phrases"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Each phrase could include various sentence structures but must contain no more than three words for adherence (as this is within the bounds of available word count).",
+      "uncommon_words": [
+        "could",
+        "structures",
+        "words",
+        "adherence",
+        "(as",
+        "is",
+        "bounds",
+        "count)"
+      ],
+      "previously_used_words": [],
+      "word_count": 27,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "I cannot strictly use your provided \"word list\" verbatim; however, any created content would naturally utilize a diverse vocabulary in compliance with my programming to produce English text that represents meaningful sentences.",
+      "uncommon_words": [
+        "cannot",
+        "\"word",
+        "list\"",
+        "verbatim",
+        "created",
+        "vocabulary",
+        "represents",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "i",
+        "english"
+      ],
+      "word_count": 32,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Each sentence must contain no more than three words",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "sentence",
+        "must",
+        "contain",
+        "no",
+        "more",
+        "than",
+        "three",
+        "words"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Sentences should be unique",
+      "uncommon_words": [
+        "sentences",
+        "should"
+      ],
+      "previously_used_words": [
+        "sentences",
+        "unique"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'sentences' is not a verb",
+        "Second word 'should' is not an adjective",
+        "Fourth word 'unique' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "The first letter of each phrase will alternate between consonant, vowel",
+      "uncommon_words": [
+        "will",
+        "alternate",
+        "consonant",
+        "vowel"
+      ],
+      "previously_used_words": [
+        "the",
+        "of",
+        "each",
+        "phrase",
+        "will"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

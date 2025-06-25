@@ -1,0 +1,2354 @@
+{
+  "model": "Falcon3-3B-Instruct-GGUF:latest",
+  "label": "2025-05-16 07:07:00",
+  "total_sentences": 119,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 117,
+  "format_failures": 119,
+  "common_word_failures": 119,
+  "word_reuse_failures": 103,
+  "raw_output_file": "Results/Task_First_1k/SOLO_bench_raw_Falcon3-3B-Instruct-GGUF_latest_1747367175.txt",
+  "formatted_output_file": "Results/Task_First_1k/SOLO_bench_Falcon3-3B-Instruct-GGUF_latest_1747367175.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Absolutely breathtaking view from the top.",
+      "uncommon_words": [
+        "breathtaking"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "An amazing academic paper presented today.",
+      "uncommon_words": [
+        "an",
+        "presented"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Catholic tradition emphasizes kindness.",
+      "uncommon_words": [
+        "emphasizes",
+        "kindness"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'catholic' is not a verb",
+        "Second word 'tradition' is not an adjective",
+        "Third word 'emphasizes' is not a noun",
+        "Fourth word 'kindness' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "African-American community celebrated Christmas last year.",
+      "uncommon_words": [
+        "celebrated"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "A Democrat politician announced new laws.",
+      "uncommon_words": [
+        "announced",
+        "laws"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "French movie stars were honored with awards.",
+      "uncommon_words": [
+        "stars",
+        "were",
+        "honored",
+        "awards"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Hispanic heritage is celebrated nationwide.",
+      "uncommon_words": [
+        "is",
+        "celebrated"
+      ],
+      "previously_used_words": [
+        "celebrated"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Iraqi refugees seek asylum in various countries.",
+      "uncommon_words": [
+        "refugees",
+        "asylum",
+        "countries"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Israeli technology firms are gaining international acclaim.",
+      "uncommon_words": [
+        "firms",
+        "are",
+        "gaining",
+        "acclaim"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Jewish culture deeply values education.",
+      "uncommon_words": [
+        "values"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Mr. Thompson, an elderly gentleman, donated funds.",
+      "uncommon_words": [
+        "thompson",
+        "an",
+        "donated",
+        "funds"
+      ],
+      "previously_used_words": [
+        "an"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "OK referendum passed with overwhelming support.",
+      "uncommon_words": [
+        "referendum",
+        "passed"
+      ],
+      "previously_used_words": [
+        "with"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "PM announced plans to boost military presence.",
+      "uncommon_words": [
+        "announced",
+        "plans"
+      ],
+      "previously_used_words": [
+        "announced"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Roman Catholic Church engages in charitable work continuously.",
+      "uncommon_words": [
+        "engages",
+        "charitable",
+        "continuously"
+      ],
+      "previously_used_words": [
+        "catholic",
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Spanish language is the most spoken in the world.",
+      "uncommon_words": [
+        "is",
+        "spoken"
+      ],
+      "previously_used_words": [
+        "is",
+        "the",
+        "in",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Thanksgiving festivities across America are vibrant.",
+      "uncommon_words": [
+        "festivities",
+        "america",
+        "are",
+        "vibrant"
+      ],
+      "previously_used_words": [
+        "are"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Ability to adapt quickly in new environments.",
+      "uncommon_words": [
+        "environments"
+      ],
+      "previously_used_words": [
+        "to",
+        "in",
+        "new"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Absolutely acceptable for job applicants.",
+      "uncommon_words": [
+        "applicants"
+      ],
+      "previously_used_words": [
+        "absolutely"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Accident happened on a sunny morning last week.",
+      "uncommon_words": [
+        "happened"
+      ],
+      "previously_used_words": [
+        "a",
+        "last"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Accomplishment of breaking world records.",
+      "uncommon_words": [
+        "breaking",
+        "records"
+      ],
+      "previously_used_words": [
+        "world"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Accounting firm specializes in tax-related services.",
+      "uncommon_words": [
+        "specializes",
+        "tax-related",
+        "services"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Accusation was made against the CEO's business ethics.",
+      "uncommon_words": [
+        "was",
+        "made",
+        "ceo's"
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Acid test challenges products for durability.",
+      "uncommon_words": [
+        "challenges",
+        "products",
+        "durability"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Across several continents, airplanes connect people.",
+      "uncommon_words": [
+        "continents",
+        "airplanes"
+      ],
+      "previously_used_words": [
+        "across"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Actively promoting environmental sustainability initiatives.",
+      "uncommon_words": [
+        "promoting",
+        "sustainability",
+        "initiatives"
+      ],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Artistic actress captivated an international audience.",
+      "uncommon_words": [
+        "captivated",
+        "an"
+      ],
+      "previously_used_words": [
+        "an",
+        "international"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Adapting to language barriers is key in diplomacy.",
+      "uncommon_words": [
+        "adapting",
+        "barriers",
+        "is",
+        "diplomacy"
+      ],
+      "previously_used_words": [
+        "to",
+        "language",
+        "is",
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Additional tasks given as incentives for employees.",
+      "uncommon_words": [
+        "tasks",
+        "incentives",
+        "employees"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Adjustment period following a divorce can be challenging.",
+      "uncommon_words": [
+        "can",
+        "challenging"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Administrator overseeing multiple departments.",
+      "uncommon_words": [
+        "overseeing",
+        "departments"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'administrator' is not a verb",
+        "Second word 'overseeing' is not an adjective",
+        "Fourth word 'departments' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Adolescent athletes represent their college teams at majors.",
+      "uncommon_words": [
+        "athletes",
+        "teams",
+        "majors"
+      ],
+      "previously_used_words": [],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Advancements in food technology ensuring nutritional needs.",
+      "uncommon_words": [
+        "advancements",
+        "ensuring",
+        "nutritional",
+        "needs"
+      ],
+      "previously_used_words": [
+        "in",
+        "technology"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Advertising strategies effectively attract youth consumers.",
+      "uncommon_words": [
+        "strategies",
+        "consumers"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Advocate for human rights amidst global challenges.",
+      "uncommon_words": [
+        "rights",
+        "amidst",
+        "challenges"
+      ],
+      "previously_used_words": [
+        "for",
+        "challenges"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Afforded loans to small businesses impacted by economic downturn.",
+      "uncommon_words": [
+        "afforded",
+        "loans",
+        "businesses",
+        "impacted",
+        "downturn"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Afterward conference aimed at professional growth.",
+      "uncommon_words": [
+        "aimed"
+      ],
+      "previously_used_words": [
+        "at"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Agency facilitating cross-sector collaboration between government and private enterprise.",
+      "uncommon_words": [
+        "facilitating",
+        "cross-sector"
+      ],
+      "previously_used_words": [],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Aggressive campaign led by local activists demanding change.",
+      "uncommon_words": [
+        "led",
+        "activists",
+        "demanding"
+      ],
+      "previously_used_words": [
+        "by"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Agricultural practices significantly enhancing crop yields.",
+      "uncommon_words": [
+        "practices",
+        "enhancing",
+        "yields"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Aid projects funded to support war-torn regions.",
+      "uncommon_words": [
+        "projects",
+        "funded",
+        "war-torn",
+        "regions"
+      ],
+      "previously_used_words": [
+        "to",
+        "support"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Airframe innovations lead to more efficient flying machines.",
+      "uncommon_words": [
+        "airframe",
+        "innovations",
+        "machines"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Aisle used for security checks during airport check-ins.",
+      "uncommon_words": [
+        "checks",
+        "check-ins"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Alien abduction narrative gaining cultural significance.",
+      "uncommon_words": [
+        "abduction",
+        "gaining"
+      ],
+      "previously_used_words": [
+        "gaining"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Allegations raised against prominent figures' actions.",
+      "uncommon_words": [
+        "allegations",
+        "raised",
+        "figures'",
+        "actions"
+      ],
+      "previously_used_words": [
+        "against"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Allies forged in international conflicts for peace and stability.",
+      "uncommon_words": [
+        "allies",
+        "forged",
+        "conflicts"
+      ],
+      "previously_used_words": [
+        "in",
+        "international",
+        "for",
+        "and"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Alone, Sarah faced a daunting challenge on her journey.",
+      "uncommon_words": [
+        "sarah",
+        "faced",
+        "daunting"
+      ],
+      "previously_used_words": [
+        "a",
+        "on"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Always also preparing backup plans for emergencies.",
+      "uncommon_words": [
+        "preparing",
+        "backup",
+        "plans",
+        "emergencies"
+      ],
+      "previously_used_words": [
+        "plans",
+        "for"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Altogether, the team exceeded expectations with their performance.",
+      "uncommon_words": [
+        "exceeded",
+        "expectations"
+      ],
+      "previously_used_words": [
+        "the",
+        "with",
+        "their"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Ambassador representing country's interests in foreign policy debates.",
+      "uncommon_words": [
+        "representing",
+        "country's",
+        "interests",
+        "debates"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Amendment proposed aiming to strengthen civil liberties.",
+      "uncommon_words": [
+        "aiming",
+        "liberties"
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Analysis of economic data providing insights into market trends.",
+      "uncommon_words": [
+        "providing",
+        "insights",
+        "trends"
+      ],
+      "previously_used_words": [
+        "of",
+        "economic"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Ancient civilizations leaving behind grand architectural legacies.",
+      "uncommon_words": [
+        "civilizations",
+        "leaving",
+        "architectural",
+        "legacies"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Anger simmering over perceived injustices among community members.",
+      "uncommon_words": [
+        "simmering",
+        "injustices",
+        "members"
+      ],
+      "previously_used_words": [
+        "community"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Ankle sprain suffered by young athlete during intense training sessions.",
+      "uncommon_words": [
+        "sprain",
+        "suffered",
+        "sessions"
+      ],
+      "previously_used_words": [
+        "by",
+        "during"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Annual budget allocations impacting various sectors like education and healthcare.",
+      "uncommon_words": [
+        "allocations",
+        "impacting",
+        "sectors",
+        "healthcare"
+      ],
+      "previously_used_words": [
+        "various",
+        "education",
+        "and"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Answering questions is crucial for effective law enforcement officers.",
+      "uncommon_words": [
+        "answering",
+        "questions",
+        "is",
+        "officers"
+      ],
+      "previously_used_words": [
+        "is",
+        "for"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Annoyingly, the dog's barking nearly disrupted everyone's peace.",
+      "uncommon_words": [
+        "annoyingly",
+        "dog's",
+        "barking",
+        "disrupted",
+        "everyone's"
+      ],
+      "previously_used_words": [
+        "the",
+        "peace"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Always appreciated the community's collective efforts to build a safe neighborhood.",
+      "uncommon_words": [
+        "appreciated",
+        "community's",
+        "efforts"
+      ],
+      "previously_used_words": [
+        "always",
+        "the",
+        "to",
+        "a"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "An appreciation for traditional music festivals celebrating cultural heritage.",
+      "uncommon_words": [
+        "an",
+        "festivals",
+        "celebrating"
+      ],
+      "previously_used_words": [
+        "an",
+        "for",
+        "cultural",
+        "heritage"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Appropriately attending religious services as a practicing Catholic.",
+      "uncommon_words": [
+        "appropriately",
+        "attending",
+        "services",
+        "practicing"
+      ],
+      "previously_used_words": [
+        "services",
+        "as",
+        "a",
+        "catholic"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Arab-American population contributing immensely to urban landscapes across the nation.",
+      "uncommon_words": [
+        "arab-american",
+        "contributing",
+        "immensely",
+        "landscapes"
+      ],
+      "previously_used_words": [
+        "to",
+        "across",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Army units trained rigorously to respond swiftly to crises globally.",
+      "uncommon_words": [
+        "units",
+        "trained",
+        "rigorously",
+        "swiftly",
+        "crises",
+        "globally"
+      ],
+      "previously_used_words": [
+        "to",
+        "to"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Array of security measures implemented by airlines for passenger safety.",
+      "uncommon_words": [
+        "measures",
+        "implemented",
+        "airlines"
+      ],
+      "previously_used_words": [
+        "of",
+        "security",
+        "by",
+        "for"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Arrow indicating the direction towards the heart in medical imagery.",
+      "uncommon_words": [
+        "indicating",
+        "imagery"
+      ],
+      "previously_used_words": [
+        "the",
+        "the",
+        "in"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Artifact discovered illuminates prehistoric life on Earth.",
+      "uncommon_words": [
+        "discovered",
+        "illuminates",
+        "prehistoric"
+      ],
+      "previously_used_words": [
+        "on"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Asleep during a power outage, technology saving energy was praised.",
+      "uncommon_words": [
+        "outage",
+        "was",
+        "praised"
+      ],
+      "previously_used_words": [
+        "during",
+        "a",
+        "technology",
+        "was"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Assembly line production maximizing efficiency in manufacturing processes.",
+      "uncommon_words": [
+        "maximizing",
+        "processes"
+      ],
+      "previously_used_words": [
+        "in"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Assurance crucial for maintaining employee trust and satisfaction.",
+      "uncommon_words": [
+        "assurance",
+        "maintaining"
+      ],
+      "previously_used_words": [
+        "crucial",
+        "for",
+        "and"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Athletic prowess displayed by swimmers on the annual Olympics held every four years.",
+      "uncommon_words": [
+        "prowess",
+        "displayed",
+        "swimmers",
+        "held",
+        "years"
+      ],
+      "previously_used_words": [
+        "by",
+        "on",
+        "the",
+        "annual"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Attacking high-profile targets became a significant concern in counterterrorism efforts.",
+      "uncommon_words": [
+        "attacking",
+        "high-profile",
+        "targets",
+        "became",
+        "counterterrorism",
+        "efforts"
+      ],
+      "previously_used_words": [
+        "a",
+        "in",
+        "efforts"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Throughout history, attending public assemblies played a vital role in civic life.",
+      "uncommon_words": [
+        "attending",
+        "assemblies",
+        "played"
+      ],
+      "previously_used_words": [
+        "attending",
+        "a",
+        "in",
+        "life"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Above all, ensuring environmental sustainability is paramount for future generations.",
+      "uncommon_words": [
+        "ensuring",
+        "sustainability",
+        "is",
+        "paramount",
+        "generations"
+      ],
+      "previously_used_words": [
+        "ensuring",
+        "environmental",
+        "sustainability",
+        "is",
+        "for"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Being absolutely aware of ethical implications in business operations.",
+      "uncommon_words": [
+        "implications",
+        "operations"
+      ],
+      "previously_used_words": [
+        "absolutely",
+        "of",
+        "in",
+        "business"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Absolutely amazing performance by ballet dancers on stage captivated the awestruck audience.",
+      "uncommon_words": [
+        "ballet",
+        "dancers",
+        "captivated",
+        "awestruck"
+      ],
+      "previously_used_words": [
+        "absolutely",
+        "amazing",
+        "performance",
+        "by",
+        "on",
+        "captivated",
+        "the",
+        "audience"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Adopting alternative therapies alongside conventional medicine can be beneficial for some patients.",
+      "uncommon_words": [
+        "adopting",
+        "therapies",
+        "can",
+        "beneficial",
+        "patients"
+      ],
+      "previously_used_words": [
+        "can",
+        "be",
+        "for"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Advertising agency's creativity shines through their innovative campaigns.",
+      "uncommon_words": [
+        "agency's",
+        "shines",
+        "campaigns"
+      ],
+      "previously_used_words": [
+        "advertising",
+        "their"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Advocacy groups tirelessly fight against social injustices affecting marginalized communities.",
+      "uncommon_words": [
+        "advocacy",
+        "groups",
+        "tirelessly",
+        "injustices",
+        "affecting",
+        "marginalized",
+        "communities"
+      ],
+      "previously_used_words": [
+        "against",
+        "injustices"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Affording housing was a pressing concern for families navigating urban poverty.",
+      "uncommon_words": [
+        "affording",
+        "was",
+        "pressing",
+        "families",
+        "navigating"
+      ],
+      "previously_used_words": [
+        "was",
+        "a",
+        "concern",
+        "for",
+        "urban"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Age is nothing when it comes to being absolutely fearless in danger-filled situations.",
+      "uncommon_words": [
+        "is",
+        "comes",
+        "fearless",
+        "danger-filled",
+        "situations"
+      ],
+      "previously_used_words": [
+        "is",
+        "to",
+        "being",
+        "absolutely",
+        "in"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Above average performance across all subjects, indicating exceptional academic abilities.",
+      "uncommon_words": [
+        "subjects",
+        "indicating",
+        "exceptional",
+        "abilities"
+      ],
+      "previously_used_words": [
+        "above",
+        "performance",
+        "across",
+        "all",
+        "indicating",
+        "academic"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Absolutely unacceptable conduct was swiftly addressed by the committee.",
+      "uncommon_words": [
+        "unacceptable",
+        "was",
+        "swiftly",
+        "addressed"
+      ],
+      "previously_used_words": [
+        "absolutely",
+        "was",
+        "swiftly",
+        "by",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Accident almost caused a catastrophic vehicle crash on that highway yesterday morning.",
+      "uncommon_words": [
+        "caused",
+        "catastrophic"
+      ],
+      "previously_used_words": [
+        "accident",
+        "a",
+        "on",
+        "morning"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Accomplishment of leading a team to victory under intense pressure conditions.",
+      "uncommon_words": [
+        "conditions"
+      ],
+      "previously_used_words": [
+        "accomplishment",
+        "of",
+        "a",
+        "team",
+        "to",
+        "intense"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Acrylic painting technique revolutionizing contemporary art scene with bold strokes and vibrant colors.",
+      "uncommon_words": [
+        "acrylic",
+        "revolutionizing",
+        "strokes",
+        "vibrant",
+        "colors"
+      ],
+      "previously_used_words": [
+        "with",
+        "and",
+        "vibrant"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Acting classes equipped students with versatile skills required in diverse entertainment industries.",
+      "uncommon_words": [
+        "acting",
+        "classes",
+        "equipped",
+        "students",
+        "versatile",
+        "skills",
+        "industries"
+      ],
+      "previously_used_words": [
+        "with",
+        "in"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Advantage taken advantage of by savvy investors in high-interest rate environments.",
+      "uncommon_words": [
+        "taken",
+        "savvy",
+        "investors",
+        "high-interest",
+        "environments"
+      ],
+      "previously_used_words": [
+        "of",
+        "by",
+        "in",
+        "environments"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Advising colleagues on strategic planning was essential for business growth success.",
+      "uncommon_words": [
+        "advising",
+        "colleagues",
+        "was"
+      ],
+      "previously_used_words": [
+        "on",
+        "was",
+        "for",
+        "business",
+        "growth"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Absolutely unacceptable behavior from a coworker led to termination.",
+      "uncommon_words": [
+        "unacceptable",
+        "coworker",
+        "led",
+        "termination"
+      ],
+      "previously_used_words": [
+        "absolutely",
+        "unacceptable",
+        "from",
+        "a",
+        "led",
+        "to"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Addiction to certain online games often cited as an issue among youngsters today.",
+      "uncommon_words": [
+        "addiction",
+        "games",
+        "cited",
+        "an",
+        "youngsters"
+      ],
+      "previously_used_words": [
+        "to",
+        "as",
+        "an",
+        "among",
+        "today"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Addition of new facilities enhancing overall educational experience in the school district.",
+      "uncommon_words": [
+        "facilities",
+        "enhancing"
+      ],
+      "previously_used_words": [
+        "of",
+        "new",
+        "enhancing",
+        "in",
+        "the"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Administration managing student affairs with compassion and dedication to campus life.",
+      "uncommon_words": [
+        "affairs",
+        "compassion",
+        "dedication"
+      ],
+      "previously_used_words": [
+        "with",
+        "and",
+        "to",
+        "life"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Adolescent boys excelling academically while engaging in sports activities beyond high school levels.",
+      "uncommon_words": [
+        "boys",
+        "excelling",
+        "academically",
+        "engaging",
+        "sports",
+        "activities",
+        "levels"
+      ],
+      "previously_used_words": [
+        "adolescent",
+        "in",
+        "school"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Advancements in artificial intelligence promising transformative changes across multiple sectors.",
+      "uncommon_words": [
+        "advancements",
+        "transformative",
+        "changes",
+        "sectors"
+      ],
+      "previously_used_words": [
+        "advancements",
+        "in",
+        "across",
+        "multiple",
+        "sectors"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Advertising slogans creatively capturing attention amidst increasingly saturated markets.",
+      "uncommon_words": [
+        "slogans",
+        "creatively",
+        "capturing",
+        "amidst",
+        "saturated",
+        "markets"
+      ],
+      "previously_used_words": [
+        "advertising",
+        "amidst"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Advocacy for immigrant rights is crucial amid global migration patterns reshaping societies.",
+      "uncommon_words": [
+        "advocacy",
+        "rights",
+        "is",
+        "patterns",
+        "reshaping",
+        "societies"
+      ],
+      "previously_used_words": [
+        "advocacy",
+        "for",
+        "rights",
+        "is",
+        "crucial",
+        "global"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Ability to balance work commitments with personal family life was valued immensely during this period.",
+      "uncommon_words": [
+        "commitments",
+        "was",
+        "valued",
+        "immensely"
+      ],
+      "previously_used_words": [
+        "ability",
+        "to",
+        "work",
+        "with",
+        "life",
+        "was",
+        "immensely",
+        "during",
+        "period"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Absolutely unacceptable attitude from client led to a strained business relationship.",
+      "uncommon_words": [
+        "unacceptable",
+        "led",
+        "strained"
+      ],
+      "previously_used_words": [
+        "absolutely",
+        "unacceptable",
+        "from",
+        "led",
+        "to",
+        "a",
+        "business"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Actively participating in charity functions to raise funds for under-resourced schools.",
+      "uncommon_words": [
+        "participating",
+        "functions",
+        "funds",
+        "under-resourced",
+        "schools"
+      ],
+      "previously_used_words": [
+        "actively",
+        "in",
+        "to",
+        "funds",
+        "for"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Adding extra hours significantly improved productivity levels, thus saving time elsewhere.",
+      "uncommon_words": [
+        "adding",
+        "hours",
+        "levels"
+      ],
+      "previously_used_words": [
+        "significantly",
+        "levels",
+        "saving"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Administrative oversight critical in navigating complex organizational structures efficiently and effectively.",
+      "uncommon_words": [
+        "oversight",
+        "navigating",
+        "structures",
+        "efficiently"
+      ],
+      "previously_used_words": [
+        "in",
+        "navigating",
+        "and",
+        "effectively"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Agricultural practices heavily reliant on seasonal weather patterns affecting crop yields.",
+      "uncommon_words": [
+        "practices",
+        "reliant",
+        "seasonal",
+        "patterns",
+        "affecting",
+        "yields"
+      ],
+      "previously_used_words": [
+        "agricultural",
+        "practices",
+        "on",
+        "patterns",
+        "affecting",
+        "crop",
+        "yields"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Allocating resources wisely is key for addressing pressing social issues like homelessness and hunger.",
+      "uncommon_words": [
+        "allocating",
+        "resources",
+        "wisely",
+        "is",
+        "addressing",
+        "pressing",
+        "issues",
+        "homelessness"
+      ],
+      "previously_used_words": [
+        "is",
+        "key",
+        "for",
+        "pressing",
+        "social",
+        "like",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Ambiguously interpreted legal terms contributing to judicial decisions' uncertainties.",
+      "uncommon_words": [
+        "ambiguously",
+        "interpreted",
+        "contributing",
+        "decisions'",
+        "uncertainties"
+      ],
+      "previously_used_words": [
+        "contributing",
+        "to"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Amidst challenging circumstances, athletes displayed remarkable resilience in overcoming obstacles.",
+      "uncommon_words": [
+        "amidst",
+        "challenging",
+        "circumstances",
+        "athletes",
+        "displayed",
+        "resilience",
+        "overcoming",
+        "obstacles"
+      ],
+      "previously_used_words": [
+        "amidst",
+        "challenging",
+        "athletes",
+        "displayed",
+        "in"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "An appreciation for history deepened one's understanding of societal dynamics throughout time.",
+      "uncommon_words": [
+        "an",
+        "deepened",
+        "one's",
+        "societal"
+      ],
+      "previously_used_words": [
+        "an",
+        "appreciation",
+        "for",
+        "history",
+        "of",
+        "throughout",
+        "time"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Absolutely unacceptable practices of past corporations were scrutinized closely by environmental activists.",
+      "uncommon_words": [
+        "unacceptable",
+        "practices",
+        "corporations",
+        "were",
+        "scrutinized",
+        "activists"
+      ],
+      "previously_used_words": [
+        "absolutely",
+        "unacceptable",
+        "practices",
+        "of",
+        "were",
+        "by",
+        "environmental",
+        "activists"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Analysing customer feedback to identify areas for improvement in product design and service quality.",
+      "uncommon_words": [
+        "analysing",
+        "areas"
+      ],
+      "previously_used_words": [
+        "to",
+        "for",
+        "in",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Analytical skills essential for solving complex problems in fields like finance, engineering, and law enforcement.",
+      "uncommon_words": [
+        "analytical",
+        "skills",
+        "solving",
+        "problems",
+        "fields"
+      ],
+      "previously_used_words": [
+        "skills",
+        "essential",
+        "for",
+        "complex",
+        "in",
+        "like",
+        "and",
+        "law",
+        "enforcement"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Appreciation for art forms diverse, including painting, sculpture, music, and dance, fostering cultural awareness and enrichment.",
+      "uncommon_words": [
+        "forms",
+        "fostering",
+        "enrichment"
+      ],
+      "previously_used_words": [
+        "appreciation",
+        "for",
+        "art",
+        "diverse",
+        "painting",
+        "music",
+        "and",
+        "cultural",
+        "and"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Applying analytical thinking to evaluate data-driven strategies for business success.",
+      "uncommon_words": [
+        "applying",
+        "analytical",
+        "data-driven",
+        "strategies"
+      ],
+      "previously_used_words": [
+        "analytical",
+        "to",
+        "strategies",
+        "for",
+        "business",
+        "success"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Appreciating the value of diversity in fostering innovative solutions in problem-solving scenarios.",
+      "uncommon_words": [
+        "appreciating",
+        "fostering",
+        "solutions",
+        "problem-solving",
+        "scenarios"
+      ],
+      "previously_used_words": [
+        "the",
+        "of",
+        "in",
+        "fostering",
+        "innovative",
+        "in"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Above average performance across all departments showcased outstanding leadership qualities within an organization.",
+      "uncommon_words": [
+        "departments",
+        "showcased",
+        "qualities",
+        "an"
+      ],
+      "previously_used_words": [
+        "above",
+        "average",
+        "performance",
+        "across",
+        "all",
+        "departments",
+        "an"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Award ceremony honoring achievements of students, faculty, and staff celebrating academic and extracurricular successes.",
+      "uncommon_words": [
+        "honoring",
+        "achievements",
+        "students",
+        "celebrating",
+        "extracurricular",
+        "successes"
+      ],
+      "previously_used_words": [
+        "of",
+        "students",
+        "and",
+        "celebrating",
+        "academic",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Assessing risks associated with new technological implementations to mitigate potential downside effects.",
+      "uncommon_words": [
+        "assessing",
+        "risks",
+        "implementations",
+        "mitigate",
+        "downside",
+        "effects"
+      ],
+      "previously_used_words": [
+        "with",
+        "new",
+        "to"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Being absolutely aware of current affairs affecting global politics is crucial for informed citizenship.",
+      "uncommon_words": [
+        "affairs",
+        "affecting",
+        "is",
+        "informed"
+      ],
+      "previously_used_words": [
+        "being",
+        "absolutely",
+        "aware",
+        "of",
+        "affairs",
+        "affecting",
+        "global",
+        "is",
+        "crucial",
+        "for"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Above all objectives set by company focused on sustainable growth through innovation and customer satisfaction.",
+      "uncommon_words": [
+        "objectives",
+        "focused"
+      ],
+      "previously_used_words": [
+        "above",
+        "all",
+        "by",
+        "on",
+        "growth",
+        "through",
+        "and",
+        "customer",
+        "satisfaction"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Acting skills honed in drama club enabling seamless execution during important presentations and interviews.",
+      "uncommon_words": [
+        "acting",
+        "skills",
+        "honed",
+        "enabling",
+        "seamless",
+        "presentations",
+        "interviews"
+      ],
+      "previously_used_words": [
+        "acting",
+        "skills",
+        "in",
+        "during",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "After completing a marathon, the community celebrated with joyous festivities showcasing solidarity and unity.",
+      "uncommon_words": [
+        "completing",
+        "marathon",
+        "celebrated",
+        "joyous",
+        "festivities",
+        "showcasing",
+        "solidarity"
+      ],
+      "previously_used_words": [
+        "a",
+        "the",
+        "community",
+        "celebrated",
+        "with",
+        "festivities",
+        "and"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Airplanes playing essential roles in emergency response operations by swiftly transporting critical personnel to affected areas.",
+      "uncommon_words": [
+        "airplanes",
+        "playing",
+        "roles",
+        "operations",
+        "swiftly",
+        "transporting",
+        "affected",
+        "areas"
+      ],
+      "previously_used_words": [
+        "airplanes",
+        "essential",
+        "in",
+        "operations",
+        "by",
+        "swiftly",
+        "critical",
+        "to",
+        "areas"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,6763 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-17 19:30:15",
+  "total_sentences": 322,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 320,
+  "format_failures": 322,
+  "common_word_failures": 322,
+  "word_reuse_failures": 320,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747498374.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747498374.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "The following examples were created with one sentence on one line and 4 words in the word list:",
+      "uncommon_words": [
+        "examples",
+        "were",
+        "created",
+        "4",
+        "words"
+      ],
+      "previously_used_words": [],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "\"The boy ran across the street.\"",
+      "uncommon_words": [
+        "\"the",
+        "ran",
+        "street\""
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "\"I love math.\" | \u201cMom, I ate some of my favorite candy.\"",
+      "uncommon_words": [
+        "\"i",
+        "math\"",
+        "|",
+        "\u201cmom",
+        "ate",
+        "candy\""
+      ],
+      "previously_used_words": [],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "\u201cI went to the store.\" | \"He was a good, responsible neighbor.\"",
+      "uncommon_words": [
+        "\u201ci",
+        "went",
+        "store\"",
+        "|",
+        "\"he",
+        "was",
+        "neighbor\""
+      ],
+      "previously_used_words": [
+        "the",
+        "|"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "\"I can\u2019t find my glasses!\"",
+      "uncommon_words": [
+        "\"i",
+        "can\u2019t",
+        "glasses\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "my"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "\u201cThe sun was hot today.\"",
+      "uncommon_words": [
+        "\u201cthe",
+        "was",
+        "today\""
+      ],
+      "previously_used_words": [
+        "was"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "\"Can you please write to me?\"",
+      "uncommon_words": [
+        "\"can",
+        "me\""
+      ],
+      "previously_used_words": [
+        "to"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "\"It looks like you have lots of things left to do.\u201d",
+      "uncommon_words": [
+        "\"it",
+        "looks",
+        "things",
+        "do\u201d"
+      ],
+      "previously_used_words": [
+        "you",
+        "of",
+        "to"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "\"I would like to give her a birthday party.\"",
+      "uncommon_words": [
+        "\"i",
+        "party\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "like",
+        "to",
+        "a"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "\"It is cold outside.\"",
+      "uncommon_words": [
+        "\"it",
+        "is",
+        "outside\""
+      ],
+      "previously_used_words": [
+        "\"it"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"it' is not a verb",
+        "Second word 'is' is not an adjective",
+        "Fourth word 'outside\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "\"Can you tell me the story?\"",
+      "uncommon_words": [
+        "\"can",
+        "story\""
+      ],
+      "previously_used_words": [
+        "\"can",
+        "you",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "\"The students had a good time during the picnic.\"",
+      "uncommon_words": [
+        "\"the",
+        "students",
+        "had",
+        "picnic\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "a",
+        "good",
+        "the"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "\"Can you help me?\"",
+      "uncommon_words": [
+        "\"can",
+        "me\""
+      ],
+      "previously_used_words": [
+        "\"can",
+        "you",
+        "me\""
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word '\"can' is not a verb",
+        "Second word 'you' is not an adjective",
+        "Fourth word 'me\"' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "\"I am tired.\"",
+      "uncommon_words": [
+        "\"i",
+        "tired\""
+      ],
+      "previously_used_words": [
+        "\"i"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "\"We went to see the movie last night.\"",
+      "uncommon_words": [
+        "\"we",
+        "went",
+        "night\""
+      ],
+      "previously_used_words": [
+        "went",
+        "to",
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "\"I will try the pizza.\"",
+      "uncommon_words": [
+        "\"i",
+        "will",
+        "pizza\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "the"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "\"What is the best way for us to get there?\"",
+      "uncommon_words": [
+        "\"what",
+        "is",
+        "there\""
+      ],
+      "previously_used_words": [
+        "is",
+        "the",
+        "to"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "\"The sun was very hot today.\"",
+      "uncommon_words": [
+        "\"the",
+        "was",
+        "today\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "sun",
+        "was",
+        "hot",
+        "today\""
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "\"The sky at night was brilliant.\"",
+      "uncommon_words": [
+        "\"the",
+        "was",
+        "brilliant\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "was"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "\"Please write again.\"",
+      "uncommon_words": [
+        "\"please",
+        "again\""
+      ],
+      "previously_used_words": [
+        "write"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "\"Let\u2019s play some more games.\"",
+      "uncommon_words": [
+        "\"let\u2019s",
+        "games\""
+      ],
+      "previously_used_words": [
+        "some"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "\"I will be home at 5 o\u2019clock.\"",
+      "uncommon_words": [
+        "\"i",
+        "will",
+        "5",
+        "o\u2019clock\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "will",
+        "at"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "\"I saw a bear in the woods today.\"",
+      "uncommon_words": [
+        "\"i",
+        "saw",
+        "woods",
+        "today\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "a",
+        "in",
+        "the",
+        "today\""
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "\"We went to the store last week.\"",
+      "uncommon_words": [
+        "\"we",
+        "went",
+        "week\""
+      ],
+      "previously_used_words": [
+        "\"we",
+        "went",
+        "to",
+        "the",
+        "last"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "\"He went home for the weekend.\"",
+      "uncommon_words": [
+        "\"he",
+        "went",
+        "weekend\""
+      ],
+      "previously_used_words": [
+        "\"he",
+        "went",
+        "home",
+        "for",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "\"I saw a cat outside the window.\"",
+      "uncommon_words": [
+        "\"i",
+        "saw",
+        "window\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "saw",
+        "a",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "\"I can\u2019t find my keys!\"",
+      "uncommon_words": [
+        "\"i",
+        "can\u2019t",
+        "keys\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "can\u2019t",
+        "find",
+        "my"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "\"It is a very small classroom.\"",
+      "uncommon_words": [
+        "\"it",
+        "is",
+        "classroom\""
+      ],
+      "previously_used_words": [
+        "\"it",
+        "is",
+        "a",
+        "very"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "\"It went over to the counter to get a cup of coffee.\"",
+      "uncommon_words": [
+        "\"it",
+        "went",
+        "coffee\""
+      ],
+      "previously_used_words": [
+        "\"it",
+        "went",
+        "to",
+        "the",
+        "to",
+        "get",
+        "a",
+        "of"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "\"Can you please write me a note?\"",
+      "uncommon_words": [
+        "\"can",
+        "note\""
+      ],
+      "previously_used_words": [
+        "\"can",
+        "you",
+        "please",
+        "write",
+        "me",
+        "a"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "\"Please bring me some lemonade.\"",
+      "uncommon_words": [
+        "\"please",
+        "lemonade\""
+      ],
+      "previously_used_words": [
+        "\"please",
+        "me",
+        "some"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "\"The dog woke me up.\"",
+      "uncommon_words": [
+        "\"the",
+        "woke",
+        "up\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "me"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "\"The rain fell as usual last night.\"",
+      "uncommon_words": [
+        "\"the",
+        "fell",
+        "night\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "last",
+        "night\""
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "\"I saw a man running down the street.\"",
+      "uncommon_words": [
+        "\"i",
+        "saw",
+        "street\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "saw",
+        "a",
+        "the",
+        "street\""
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "\"Please write me a note.\"",
+      "uncommon_words": [
+        "\"please",
+        "note\""
+      ],
+      "previously_used_words": [
+        "\"please",
+        "write",
+        "me",
+        "a",
+        "note\""
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "\"I want a new cell phone.\"",
+      "uncommon_words": [
+        "\"i",
+        "phone\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "a"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "\"We went to the city today.\"",
+      "uncommon_words": [
+        "\"we",
+        "went",
+        "today\""
+      ],
+      "previously_used_words": [
+        "\"we",
+        "went",
+        "to",
+        "the",
+        "today\""
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "\"The sun rose very early this morning.\"",
+      "uncommon_words": [
+        "\"the",
+        "morning\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "sun",
+        "very"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "\"She went to the beach every day during the summer.\"",
+      "uncommon_words": [
+        "\"she",
+        "went",
+        "summer\""
+      ],
+      "previously_used_words": [
+        "went",
+        "to",
+        "the",
+        "during",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "\"I don\u2019t know how to spell this word!\"",
+      "uncommon_words": [
+        "\"i",
+        "don\u2019t",
+        "word\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "to",
+        "this"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "\"I am hungry!\"",
+      "uncommon_words": [
+        "\"i",
+        "hungry\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "am"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "\"It will be my parents\u2019 30th wedding anniversary on November 21st.\"",
+      "uncommon_words": [
+        "\"it",
+        "will",
+        "parents\u2019",
+        "30th",
+        "november",
+        "21st\""
+      ],
+      "previously_used_words": [
+        "\"it",
+        "will",
+        "be",
+        "my",
+        "on"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "\"The sun was very hot this summer.\"",
+      "uncommon_words": [
+        "\"the",
+        "was",
+        "summer\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "sun",
+        "was",
+        "very",
+        "hot",
+        "this",
+        "summer\""
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "\"Would you like some lemonade?\"",
+      "uncommon_words": [
+        "\"would",
+        "lemonade\""
+      ],
+      "previously_used_words": [
+        "you",
+        "like",
+        "some",
+        "lemonade\""
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "\"The bus took us to the station.\"",
+      "uncommon_words": [
+        "\"the",
+        "took",
+        "station\""
+      ],
+      "previously_used_words": [
+        "\"the",
+        "us",
+        "to",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "\"I need a ticket for the movie.\"",
+      "uncommon_words": [
+        "\"i",
+        "movie\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "a",
+        "for",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "\"I like watching a movie on the computer.\"",
+      "uncommon_words": [
+        "\"i",
+        "watching",
+        "computer\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "like",
+        "a",
+        "movie",
+        "on",
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "\"My cat is a brown tabby.\"",
+      "uncommon_words": [
+        "\"my",
+        "is",
+        "tabby\""
+      ],
+      "previously_used_words": [
+        "cat",
+        "is",
+        "a"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "\"I like playing baseball in the spring and the fall.\"",
+      "uncommon_words": [
+        "\"i",
+        "playing",
+        "fall\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "like",
+        "in",
+        "the",
+        "and",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "\"That picture looks like it was taken today.\"",
+      "uncommon_words": [
+        "\"that",
+        "looks",
+        "was",
+        "taken",
+        "today\""
+      ],
+      "previously_used_words": [
+        "looks",
+        "like",
+        "was",
+        "today\""
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "\"I will bring home the book.\"",
+      "uncommon_words": [
+        "\"i",
+        "will",
+        "book\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "will",
+        "bring",
+        "home",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "\"It was a great evening.\"",
+      "uncommon_words": [
+        "\"it",
+        "was",
+        "evening\""
+      ],
+      "previously_used_words": [
+        "\"it",
+        "was",
+        "a"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "\"It was very cold outside.\"",
+      "uncommon_words": [
+        "\"it",
+        "was",
+        "outside\""
+      ],
+      "previously_used_words": [
+        "\"it",
+        "was",
+        "very",
+        "cold",
+        "outside\""
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "\"I love to run the stairs every day.\"",
+      "uncommon_words": [
+        "\"i",
+        "stairs",
+        "day\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "love",
+        "to",
+        "the",
+        "every"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "\"I can write all these words!\"",
+      "uncommon_words": [
+        "\"i",
+        "can",
+        "words\""
+      ],
+      "previously_used_words": [
+        "\"i",
+        "write"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "\"Can you tell me where my car is?\"",
+      "uncommon_words": [
+        "\"can",
+        "is\""
+      ],
+      "previously_used_words": [
+        "\"can",
+        "you",
+        "tell",
+        "me",
+        "my"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "The boy was jumping on the trampoline",
+      "uncommon_words": [
+        "was",
+        "jumping",
+        "trampoline"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "The dog was barking in the garden.",
+      "uncommon_words": [
+        "was",
+        "barking"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "The bird is sitting on the tree.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "is",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "The cat ran down the street.",
+      "uncommon_words": [
+        "ran"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "ran",
+        "down",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "The boy was riding a scooter on the beach.",
+      "uncommon_words": [
+        "was",
+        "riding",
+        "scooter"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "a",
+        "on",
+        "the",
+        "beach"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "The cat was jumping on the fence.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "jumping",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "The bird was jumping in the tree.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "jumping",
+        "in",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "The dog was barking in the field.",
+      "uncommon_words": [
+        "was",
+        "barking"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "barking",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "The dog was barking behind the house.",
+      "uncommon_words": [
+        "was",
+        "barking"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "barking",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "The boy was running at the window.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "running",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "The bird was running in the car.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "running",
+        "in",
+        "the",
+        "car"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "The cat was jumping under the bridge.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "jumping",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "The cat was jumping in the park.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "jumping",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "The boy was jumping over the car.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "jumping",
+        "over",
+        "the",
+        "car"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "The dog was barking in the house.",
+      "uncommon_words": [
+        "was",
+        "barking"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "barking",
+        "in",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "The bird was jumping over the school.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "jumping",
+        "over",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "The man was sitting in the garden.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "was",
+        "sitting",
+        "in",
+        "the",
+        "garden"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "The tree was over the house.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "tree",
+        "was",
+        "over",
+        "the",
+        "house"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "The cat was on the chair.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "on",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "The bird was on the rock.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "on",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "The dog was on the beach.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "on",
+        "the",
+        "beach"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "The child was hiding under the bench.",
+      "uncommon_words": [
+        "was",
+        "hiding"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "under",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "The boy was running on the ground.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "running",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "The woman was taking her shoes.",
+      "uncommon_words": [
+        "was",
+        "taking",
+        "shoes"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "her"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "The dog was running away from the house.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "running",
+        "the",
+        "house"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "The cat was running on the road.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "running",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "The man was standing over the window.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "was",
+        "over",
+        "the",
+        "window"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "The bird was sitting on the door.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "sitting",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "The boy was walking down the road.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "down",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "The cow was drinking at the lake.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "The man was looking at the house.",
+      "uncommon_words": [
+        "was",
+        "looking"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "was",
+        "at",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "The boy was going for a walk in the park.",
+      "uncommon_words": [
+        "was",
+        "going"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "for",
+        "a",
+        "in",
+        "the",
+        "park"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "The cat was looking at the wall.",
+      "uncommon_words": [
+        "was",
+        "looking"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "looking",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "The cow was sleeping on the grass.",
+      "uncommon_words": [
+        "was",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cow",
+        "was",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "The mother was feeding the dog.",
+      "uncommon_words": [
+        "was",
+        "feeding"
+      ],
+      "previously_used_words": [
+        "the",
+        "was",
+        "the",
+        "dog"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "The bird was sitting on the roof.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "sitting",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "The dog was sitting on the grass.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "sitting",
+        "on",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "The boy was sitting on the table.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "sitting",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "The bird was sitting on the tree.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "sitting",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "The man was sitting at the window.",
+      "uncommon_words": [
+        "was",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "was",
+        "sitting",
+        "at",
+        "the",
+        "window"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "The mother was feeding the cow.",
+      "uncommon_words": [
+        "was",
+        "feeding"
+      ],
+      "previously_used_words": [
+        "the",
+        "mother",
+        "was",
+        "feeding",
+        "the",
+        "cow"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "The cat was jumping on the windowsill.",
+      "uncommon_words": [
+        "was",
+        "jumping",
+        "windowsill"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "jumping",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "The dog was jumping over the hill.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "jumping",
+        "over",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "The boy was jumping on the roof.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "jumping",
+        "on",
+        "the",
+        "roof"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "The bird was flying down the road.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "down",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "The man was jumping over the car.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "was",
+        "jumping",
+        "over",
+        "the",
+        "car"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "The man was going for a walk.",
+      "uncommon_words": [
+        "was",
+        "going"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "was",
+        "going",
+        "for",
+        "a",
+        "walk"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "The cat was jumping on the balcony.",
+      "uncommon_words": [
+        "was",
+        "jumping",
+        "balcony"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "was",
+        "jumping",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "The dog was jumping over the field.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "jumping",
+        "over",
+        "the",
+        "field"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "The boy was walking in the park.",
+      "uncommon_words": [
+        "was"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "was",
+        "walking",
+        "in",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "The bird is flying over the house.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "The bird is sitting on the tree.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "sitting",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "The cat is sleeping on the bed.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "The cow is drinking at the pond.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cow",
+        "is",
+        "drinking",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "The boy is playing with the ball.",
+      "uncommon_words": [
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "playing",
+        "with",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "The dog is sleeping in the yard.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "sleeping",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "The bird is flying in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "The bird is jumping on a branch.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "jumping",
+        "on",
+        "a"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "The bird is flying over the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "The cat is jumping on the stairs.",
+      "uncommon_words": [
+        "is",
+        "jumping",
+        "stairs"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "stairs"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "The dog is running in the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "in",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "The dog was jumping in the grass.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "was",
+        "jumping",
+        "in",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "The bird was jumping over the fence.",
+      "uncommon_words": [
+        "was",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "was",
+        "jumping",
+        "over",
+        "the",
+        "fence"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "The bird is jumping on the tree.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "The boy is running at the window.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "at",
+        "the",
+        "window"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "The woman is standing over the pond.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "woman",
+        "is",
+        "standing",
+        "over",
+        "the",
+        "pond"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "The dog is jumping in the yard.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "jumping",
+        "in",
+        "the",
+        "yard"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "The cat is sitting on the sofa.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sitting",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "The man is drinking coffee at the kitchen.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "drinking",
+        "at",
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "The girl is walking in the park.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "The boy is jumping on the roof.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "roof"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "The dog is running in the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "in",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "The cat is standing at the porch.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "standing",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "The man is drinking in the bar.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "drinking",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "The woman is riding a bicycle.",
+      "uncommon_words": [
+        "is",
+        "riding"
+      ],
+      "previously_used_words": [
+        "the",
+        "woman",
+        "is",
+        "riding",
+        "a"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "The boy is jumping on the hill.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "hill"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "The bird is flying over the house.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "The bird is sitting at the tree.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "sitting",
+        "at",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "The bird is jumping on the fence.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "fence"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "The bird is flying in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "The man is jumping on the tree.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "The boy is running on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "The man is running in the jungle.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "The cat is running at the table.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "running",
+        "at",
+        "the",
+        "table"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "The man is driving on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "The dog is running on the grass.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "on",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "The cat is sleeping at the house.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "at",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "The dog is sleeping in the yard.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "yard"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "The man is running through the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "The bird is flying on the tree.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "The tree is hanging in the air.",
+      "uncommon_words": [
+        "is",
+        "hanging"
+      ],
+      "previously_used_words": [
+        "the",
+        "tree",
+        "is",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "The girl is walking on the grass.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "The girl is walking under the trees.",
+      "uncommon_words": [
+        "is",
+        "trees"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "walking",
+        "under",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "The boy is riding a bicycle.",
+      "uncommon_words": [
+        "is",
+        "riding"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "riding",
+        "a",
+        "bicycle"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "The man is sleeping at the table.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "sleeping",
+        "at",
+        "the",
+        "table"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "The bird is flying on a ladder.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "on",
+        "a"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "The dog is jumping over a garden.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "jumping",
+        "over",
+        "a",
+        "garden"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "The bird is flying in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "The boy is jumping in the jungle.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "in",
+        "the",
+        "jungle"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "The cat is catching the mice.",
+      "uncommon_words": [
+        "is",
+        "catching",
+        "mice"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "the"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "The man is walking in the grass.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "The boy is jumping in the forest.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "The bird is running on the ground.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "running",
+        "on",
+        "the",
+        "ground"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "The man is running in the jungle.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "the",
+        "jungle"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "The cat is sleeping in the grass.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "The woman is swimming at the pond.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "woman",
+        "is",
+        "at",
+        "the",
+        "pond"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "The bird is flying at the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "at",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "The cat is running on the hill.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "running",
+        "on",
+        "the",
+        "hill"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "The dog is walking on the field.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "field"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "The bird is flying on the tree.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "The man is running in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "The bird is jumping in the sea.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "jumping",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "The bird is running in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "running",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "The boy is walking on the ground.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "ground"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "The bird is flying in the jungle.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "jungle"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "The man is playing football outside.",
+      "uncommon_words": [
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "playing",
+        "outside"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "The dog is walking on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "The cat is resting near the street.",
+      "uncommon_words": [
+        "is",
+        "resting"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "The bird is climbing a tree.",
+      "uncommon_words": [
+        "is",
+        "climbing"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "a",
+        "tree"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "The boy is sleeping at the park.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "sleeping",
+        "at",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "The cat is eating on the ground.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "on",
+        "the",
+        "ground"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "The dog is running on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "The cat is sleeping near the river.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "near",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "The cat is jumping on the grass.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "The boy is sleeping in the forest.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "The bird is flying down the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "down",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "The boy is walking by the river.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "walking",
+        "the",
+        "river"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "The bird is flying on the tree.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "The cat is sitting at the road.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sitting",
+        "at",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "The dog is walking behind the house.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "behind",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "The cat is sleeping under a tree.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "under",
+        "a",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "The man is driving on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "driving",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "The dog is sitting on the couch.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "sitting",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "The cat is playing at the street.",
+      "uncommon_words": [
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "playing",
+        "at",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "The boy is walking on the field.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "field"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "The bird is flying in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "The boy is running in the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "in",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "The cat is sleeping under the bed.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "under",
+        "the",
+        "bed"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "The dog is running in the grass.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "in",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "The man is going for a walk.",
+      "uncommon_words": [
+        "is",
+        "going"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "going",
+        "for",
+        "a",
+        "walk"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "The woman is feeding the dog.",
+      "uncommon_words": [
+        "is",
+        "feeding"
+      ],
+      "previously_used_words": [
+        "the",
+        "woman",
+        "is",
+        "feeding",
+        "the",
+        "dog"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "The girl is walking in the mountain.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "walking",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "The cat is sleeping in the kitchen.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "kitchen"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "The bird is flying in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 201,
+      "sentence": "The dog is running beside the house.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 202,
+      "sentence": "The boy is playing with the ball in the field.",
+      "uncommon_words": [
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "playing",
+        "with",
+        "the",
+        "ball",
+        "in",
+        "the",
+        "field"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 203,
+      "sentence": "1. The boy is playing in the garden.",
+      "uncommon_words": [
+        "1",
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "playing",
+        "in",
+        "the",
+        "garden"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 204,
+      "sentence": "The cat is drinking in the pond.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "drinking",
+        "in",
+        "the",
+        "pond"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 205,
+      "sentence": "The dog is walking at the city.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "at",
+        "the",
+        "city"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 206,
+      "sentence": "The man is playing football in the stadium.",
+      "uncommon_words": [
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "playing",
+        "football",
+        "in",
+        "the"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 207,
+      "sentence": "The bird is running in the mountains.",
+      "uncommon_words": [
+        "is",
+        "mountains"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "running",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 208,
+      "sentence": "The dog is sleeping in the yard.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "yard"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 209,
+      "sentence": "The bird is sitting on a tree.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "sitting",
+        "on",
+        "a",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 210,
+      "sentence": "The cat is sleeping on the ground.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "ground"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 211,
+      "sentence": "The man is walking on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 212,
+      "sentence": "The bird is flying over the mountains.",
+      "uncommon_words": [
+        "is",
+        "mountains"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "mountains"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 213,
+      "sentence": "The girl is walking in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 214,
+      "sentence": "The boy is driving on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "driving",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 215,
+      "sentence": "The woman is feeding in the city.",
+      "uncommon_words": [
+        "is",
+        "feeding"
+      ],
+      "previously_used_words": [
+        "the",
+        "woman",
+        "is",
+        "feeding",
+        "in",
+        "the",
+        "city"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 216,
+      "sentence": "The cat is standing on the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "standing",
+        "on",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 217,
+      "sentence": "The bird is flying over the mountain.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "mountain"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 218,
+      "sentence": "The dog is running on the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "on",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 219,
+      "sentence": "The bird is flying over the mountains.",
+      "uncommon_words": [
+        "is",
+        "mountains"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "mountains"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 220,
+      "sentence": "The cat is sleeping on the ground.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "ground"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 221,
+      "sentence": "The man is driving on the mountain.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "driving",
+        "on",
+        "the",
+        "mountain"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 222,
+      "sentence": "The girl is walking in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 223,
+      "sentence": "The dog is walking around the house.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 224,
+      "sentence": "The bird is flying in the air.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "air"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 225,
+      "sentence": "The cat is sleeping on a chair in the room.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "a",
+        "chair",
+        "in",
+        "the"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 226,
+      "sentence": "The boy is running on a road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "on",
+        "a",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 227,
+      "sentence": "The dog is standing at the door.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "standing",
+        "at",
+        "the",
+        "door"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 228,
+      "sentence": "The bird is sleeping on the plane.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "sleeping",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 229,
+      "sentence": "The bird is flying around the city.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "around",
+        "the",
+        "city"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 230,
+      "sentence": "The cat is walking down the street.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "walking",
+        "down",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 231,
+      "sentence": "The boy is walking on a field.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "walking",
+        "on",
+        "a",
+        "field"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 232,
+      "sentence": "Man is driving on a hill.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "man",
+        "is",
+        "driving",
+        "on",
+        "a",
+        "hill"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 233,
+      "sentence": "1. The fish is swimming in the sea.",
+      "uncommon_words": [
+        "1",
+        "is"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "is",
+        "swimming",
+        "in",
+        "the",
+        "sea"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 234,
+      "sentence": "The cat is barking in the house.",
+      "uncommon_words": [
+        "is",
+        "barking"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "barking",
+        "in",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 235,
+      "sentence": "The dog is running at the park.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "at",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 236,
+      "sentence": "The lion is sitting in the river.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "is",
+        "sitting",
+        "in",
+        "the",
+        "river"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 237,
+      "sentence": "The bird is sitting on the tree.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "sitting",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 238,
+      "sentence": "The cat is sleeping on the balcony.",
+      "uncommon_words": [
+        "is",
+        "sleeping",
+        "balcony"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "balcony"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 239,
+      "sentence": "The dog is walking in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 240,
+      "sentence": "The horse is sleeping in the meadow.",
+      "uncommon_words": [
+        "is",
+        "sleeping",
+        "meadow"
+      ],
+      "previously_used_words": [
+        "the",
+        "is",
+        "sleeping",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 241,
+      "sentence": "The girl is swimming on a river.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "swimming",
+        "on",
+        "a",
+        "river"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 242,
+      "sentence": "The bird is flying over the lake.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "lake"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 243,
+      "sentence": "The man is walking in the garden.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "garden"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 244,
+      "sentence": "The cat is looking at the street.",
+      "uncommon_words": [
+        "is",
+        "looking"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "looking",
+        "at",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 245,
+      "sentence": "The girl is running in the river.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "running",
+        "in",
+        "the",
+        "river"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 246,
+      "sentence": "The boy is running in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 247,
+      "sentence": "The dog is running on a road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "on",
+        "a",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 248,
+      "sentence": "The cat is sleeping on the road.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 249,
+      "sentence": "The bird is flying up in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 250,
+      "sentence": "The tree is running on the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "tree",
+        "is",
+        "running",
+        "on",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 251,
+      "sentence": "The horse is jumping on the grass.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "horse",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 252,
+      "sentence": "The man is driving in the mountain.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "driving",
+        "in",
+        "the",
+        "mountain"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 253,
+      "sentence": "The bird is flying over the house.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 254,
+      "sentence": "The cat is sleeping in the house.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "house"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 255,
+      "sentence": "The lion is sleeping on the street.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "lion",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 256,
+      "sentence": "The man is driving on a mountain.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "driving",
+        "on",
+        "a",
+        "mountain"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 257,
+      "sentence": "The girl is running on land.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "running",
+        "on"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 258,
+      "sentence": "1. The man is sleeping on the street.",
+      "uncommon_words": [
+        "1",
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "man",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "street"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 259,
+      "sentence": "The cat is sleeping on the floor.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 260,
+      "sentence": "The bird is running in the garden.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "running",
+        "in",
+        "the",
+        "garden"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 261,
+      "sentence": "The dog is walking on the stairs.",
+      "uncommon_words": [
+        "is",
+        "stairs"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "stairs"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 262,
+      "sentence": "The boy is moving in the forest.",
+      "uncommon_words": [
+        "is",
+        "moving"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 263,
+      "sentence": "1. The boy is sleeping in the forest.",
+      "uncommon_words": [
+        "1",
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "boy",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 264,
+      "sentence": "The girl is running in the river.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "running",
+        "in",
+        "the",
+        "river"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 265,
+      "sentence": "The horse is sleeping at the stable.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "horse",
+        "is",
+        "sleeping",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 266,
+      "sentence": "The bird is flying over the wall.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "wall"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 267,
+      "sentence": "The cat is sleeping on the table.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "on",
+        "the",
+        "table"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 268,
+      "sentence": "The dog is riding a bike.",
+      "uncommon_words": [
+        "is",
+        "riding"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "riding",
+        "a"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 269,
+      "sentence": "The man is running in the woods.",
+      "uncommon_words": [
+        "is",
+        "woods"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "the",
+        "woods"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 270,
+      "sentence": "The bird is flying over the hill.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "over",
+        "the",
+        "hill"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 271,
+      "sentence": "The lion is sleeping in a cage.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "lion",
+        "is",
+        "sleeping",
+        "in",
+        "a"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 272,
+      "sentence": "The girl is riding a motor scooter.",
+      "uncommon_words": [
+        "is",
+        "riding",
+        "scooter"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "riding",
+        "a",
+        "scooter"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 273,
+      "sentence": "The cat is jumping on the grass.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "grass"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 274,
+      "sentence": "The boy is running in the field.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "in",
+        "the",
+        "field"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 275,
+      "sentence": "The man is running in the mountain.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "the",
+        "mountain"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 276,
+      "sentence": "The lion is sleeping at the zoo.",
+      "uncommon_words": [
+        "is",
+        "sleeping",
+        "zoo"
+      ],
+      "previously_used_words": [
+        "the",
+        "lion",
+        "is",
+        "sleeping",
+        "at",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 277,
+      "sentence": "The bird is jumping on a branch.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "jumping",
+        "on",
+        "a",
+        "branch"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 278,
+      "sentence": "1. The dog is running on the road.",
+      "uncommon_words": [
+        "1",
+        "is"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "dog",
+        "is",
+        "running",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 279,
+      "sentence": "The cat is sleeping in the garden.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "garden"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 280,
+      "sentence": "The bird is flying up in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "up",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 281,
+      "sentence": "The boy is jumping on the stairs.",
+      "uncommon_words": [
+        "is",
+        "jumping",
+        "stairs"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "on",
+        "the",
+        "stairs"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 282,
+      "sentence": "The dog is driving under the bridge.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "driving",
+        "under",
+        "the",
+        "bridge"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 283,
+      "sentence": "The cat is sleeping in the park.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 284,
+      "sentence": "The bird is flying in the river.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "river"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 285,
+      "sentence": "The boy is walking on a path.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "walking",
+        "on",
+        "a"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 286,
+      "sentence": "The dog is walking on the beach.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "beach"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 287,
+      "sentence": "The man is driving in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "driving",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 288,
+      "sentence": "The dog is sitting at the table.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "sitting",
+        "at",
+        "the",
+        "table"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 289,
+      "sentence": "The bird is sitting on the tree.",
+      "uncommon_words": [
+        "is",
+        "sitting"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "sitting",
+        "on",
+        "the",
+        "tree"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 290,
+      "sentence": "The cat is sleeping in the box.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 291,
+      "sentence": "The boy is running on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 292,
+      "sentence": "The girl is running in the garden.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "running",
+        "in",
+        "the",
+        "garden"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 293,
+      "sentence": "The dog is barking in the forest.",
+      "uncommon_words": [
+        "is",
+        "barking"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "barking",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 294,
+      "sentence": "The bird is flying in the mountains.",
+      "uncommon_words": [
+        "is",
+        "mountains"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "mountains"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 295,
+      "sentence": "1. The cat is walking on a road.",
+      "uncommon_words": [
+        "1",
+        "is"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "cat",
+        "is",
+        "walking",
+        "on",
+        "a",
+        "road"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 296,
+      "sentence": "The man is sleeping in a forest.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "sleeping",
+        "in",
+        "a",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 297,
+      "sentence": "The boy is standing on a table.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "standing",
+        "on",
+        "a",
+        "table"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 298,
+      "sentence": "1. The bird is flying in the air.",
+      "uncommon_words": [
+        "1",
+        "is"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "air"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 299,
+      "sentence": "The dog is walking through the park.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "walking",
+        "through",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 300,
+      "sentence": "1. The man is running in a forest.",
+      "uncommon_words": [
+        "1",
+        "is"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "a",
+        "forest"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 301,
+      "sentence": "The boy is jumping in the park.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "in",
+        "the",
+        "park"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 302,
+      "sentence": "The cat is sleeping under the bed.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "under",
+        "the",
+        "bed"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 303,
+      "sentence": "The cat is walking on the hill.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "walking",
+        "on",
+        "the",
+        "hill"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 304,
+      "sentence": "The bird is flying in the air.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "air"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 305,
+      "sentence": "The dog is running in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "running",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 306,
+      "sentence": "The girl is riding a bike in the park.",
+      "uncommon_words": [
+        "is",
+        "riding"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "riding",
+        "a",
+        "bike",
+        "in",
+        "the",
+        "park"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 307,
+      "sentence": "The boy is running in the jungle.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "running",
+        "in",
+        "the",
+        "jungle"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 308,
+      "sentence": "The dog is sleeping in the yard.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "yard"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 309,
+      "sentence": "The man is running in the field.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "in",
+        "the",
+        "field"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 310,
+      "sentence": "1. The cat is sleeping in the sofa.",
+      "uncommon_words": [
+        "1",
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "sofa"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 311,
+      "sentence": "The girl is walking in the forest.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "girl",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "forest"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 312,
+      "sentence": "The boy is jumping in the street.",
+      "uncommon_words": [
+        "is",
+        "jumping"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "jumping",
+        "in",
+        "the",
+        "street"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 313,
+      "sentence": "The bird is flying in the air.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "air"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 314,
+      "sentence": "1. The lion is sleeping in a house.",
+      "uncommon_words": [
+        "1",
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "1",
+        "the",
+        "lion",
+        "is",
+        "sleeping",
+        "in",
+        "a",
+        "house"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 315,
+      "sentence": "The cat is sleeping in the woods.",
+      "uncommon_words": [
+        "is",
+        "sleeping",
+        "woods"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "the",
+        "woods"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 316,
+      "sentence": "The man is running on the road.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "man",
+        "is",
+        "running",
+        "on",
+        "the",
+        "road"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 317,
+      "sentence": "The boy is walking in the jungle.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "walking",
+        "in",
+        "the",
+        "jungle"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 318,
+      "sentence": "The cat is sleeping in a room.",
+      "uncommon_words": [
+        "is",
+        "sleeping"
+      ],
+      "previously_used_words": [
+        "the",
+        "cat",
+        "is",
+        "sleeping",
+        "in",
+        "a",
+        "room"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 319,
+      "sentence": "The bird is flying in the sky.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "bird",
+        "is",
+        "flying",
+        "in",
+        "the",
+        "sky"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 320,
+      "sentence": "The dog is standing on a hill.",
+      "uncommon_words": [
+        "is"
+      ],
+      "previously_used_words": [
+        "the",
+        "dog",
+        "is",
+        "standing",
+        "on",
+        "a",
+        "hill"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 321,
+      "sentence": "The boy is playing football in the field.",
+      "uncommon_words": [
+        "is",
+        "playing"
+      ],
+      "previously_used_words": [
+        "the",
+        "boy",
+        "is",
+        "playing",
+        "football",
+        "in",
+        "the",
+        "field"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 322,
+      "sentence": "The lion is standing in the meadow.",
+      "uncommon_words": [
+        "is",
+        "meadow"
+      ],
+      "previously_used_words": [
+        "the",
+        "lion",
+        "is",
+        "standing",
+        "in",
+        "the",
+        "meadow"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

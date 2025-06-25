@@ -1,0 +1,467 @@
+{
+  "model": "QwQ-32B-Preview:latest",
+  "label": "2025-05-16 04:35:40",
+  "total_sentences": 27,
+  "perfect_sentences": 6,
+  "score_percentage": 22.22222222222222,
+  "word_count_failures": 6,
+  "format_failures": 12,
+  "common_word_failures": 12,
+  "word_reuse_failures": 18,
+  "raw_output_file": "Results/Task_After_2k/SOLO_bench_raw_QwQ-32B-Preview_latest_1747358660.txt",
+  "formatted_output_file": "Results/Task_After_2k/SOLO_bench_QwQ-32B-Preview_latest_1747358660.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Act able affair affair.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Act able advice agency.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "act",
+        "able"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Add accountable agent agenda.",
+      "uncommon_words": [
+        "accountable"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'accountable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Adjust accurate age ability.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Administer adverse affair analysis.",
+      "uncommon_words": [
+        "adverse"
+      ],
+      "previously_used_words": [
+        "affair"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'adverse' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Advise abundant account addition.",
+      "uncommon_words": [
+        "abundant"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'abundant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Advance acceptable advice amendment.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "advice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Adopt accessible approach application.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Afford adequate assistance attention.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Agree additional aspect attitude.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Aim appropriate audience assessment.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "**Categorize Words**: First, identify which words are verbs, adjectives, and nouns.",
+      "uncommon_words": [
+        "**categorize",
+        "words**",
+        "words",
+        "are",
+        "verbs",
+        "adjectives",
+        "nouns"
+      ],
+      "previously_used_words": [],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "**Sentence Construction**: Form sentences by selecting one verb, one adjective, and two distinct nouns for each sentence.",
+      "uncommon_words": [
+        "**sentence",
+        "construction**",
+        "sentences",
+        "selecting",
+        "verb",
+        "adjective",
+        "nouns"
+      ],
+      "previously_used_words": [
+        "and",
+        "nouns"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "**Ensure Uniqueness**: Make sure that no word is repeated in any of the sentences.",
+      "uncommon_words": [
+        "**ensure",
+        "uniqueness**",
+        "is",
+        "repeated",
+        "sentences"
+      ],
+      "previously_used_words": [
+        "sentences"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Act able advice agency",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "act",
+        "able",
+        "advice",
+        "agency"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Add accountable agent agenda",
+      "uncommon_words": [
+        "accountable"
+      ],
+      "previously_used_words": [
+        "add",
+        "accountable",
+        "agent",
+        "agenda"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'accountable' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Adjust accurate age ability",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust",
+        "accurate",
+        "age",
+        "ability"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Administer adverse affair analysis",
+      "uncommon_words": [
+        "adverse"
+      ],
+      "previously_used_words": [
+        "administer",
+        "adverse",
+        "affair",
+        "analysis"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'adverse' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Advise abundant account addition",
+      "uncommon_words": [
+        "abundant"
+      ],
+      "previously_used_words": [
+        "advise",
+        "abundant",
+        "account",
+        "addition"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'abundant' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Advance acceptable advice amendment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "advance",
+        "acceptable",
+        "advice",
+        "amendment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Adopt accessible approach application",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adopt",
+        "accessible",
+        "approach",
+        "application"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Afford adequate assistance attention",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "afford",
+        "adequate",
+        "assistance",
+        "attention"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Agree additional aspect attitude",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "agree",
+        "additional",
+        "aspect",
+        "attitude"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Aim appropriate audience assessment",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "aim",
+        "appropriate",
+        "audience",
+        "assessment"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "**Verb Selection**: Select verbs from the list to start each sentence, ensuring no repeats.",
+      "uncommon_words": [
+        "**verb",
+        "selection**",
+        "verbs",
+        "ensuring",
+        "repeats"
+      ],
+      "previously_used_words": [
+        "verbs",
+        "the",
+        "each",
+        "sentence",
+        "no"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "**Adjective Selection**: Choose adjectives that haven't been used in previous sentences to describe the first noun.",
+      "uncommon_words": [
+        "**adjective",
+        "selection**",
+        "adjectives",
+        "haven't",
+        "been",
+        "sentences",
+        "noun"
+      ],
+      "previously_used_words": [
+        "selection**",
+        "adjectives",
+        "that",
+        "in",
+        "sentences",
+        "to",
+        "the",
+        "first"
+      ],
+      "word_count": 16,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "**Noun Selection**: Pick two distinct nouns for each sentence that have not been used before, maintaining uniqueness.",
+      "uncommon_words": [
+        "**noun",
+        "selection**",
+        "nouns",
+        "been",
+        "maintaining",
+        "uniqueness"
+      ],
+      "previously_used_words": [
+        "selection**",
+        "two",
+        "distinct",
+        "nouns",
+        "for",
+        "each",
+        "sentence",
+        "that",
+        "been",
+        "used"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

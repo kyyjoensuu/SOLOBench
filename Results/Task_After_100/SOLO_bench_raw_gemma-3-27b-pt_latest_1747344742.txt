@@ -1,0 +1,1512 @@
+
+
+WORD LIST:
+Iraqi
+Thanksgiving
+accounting
+adjustment
+agency
+alliance
+anger
+appearance
+arrow
+assure
+average
+barely
+bedroom
+bias
+bloody
+bowl
+brown
+button
+car
+celebration
+cheap
+citizen
+closer
+colonial
+comparable
+conception
+consequently
+context
+cooperative
+country
+criticism
+cycle
+decade
+democracy
+desk
+differ
+disclose
+divide
+dragon
+duty
+educate
+eleven
+enemy
+equal
+every
+executive
+export
+faith
+feed
+finding
+floor
+former
+friend
+game
+giant
+graduation
+guarantee
+harassment
+height
+his
+hostile
+identify
+impression
+infant
+inspector
+interaction
+invite
+joy
+know
+lawmaker
+lend
+line
+loot
+make
+mask
+medium
+mill
+modify
+move
+native
+news
+novel
+off
+operation
+ought
+package
+partly
+penalty
+philosophy
+place
+pole
+post
+premise
+priority
+progress
+provide
+quality
+random
+reason
+refugee
+relieve
+republican
+restrict
+right
+row
+sanction
+scream
+self
+several
+ship
+sigh
+size
+snap
+something
+specify
+square
+steak
+straw
+substantial
+superior
+sustain
+tall
+ten
+theme
+threshold
+tolerate
+trading
+treat
+turn
+unexpected
+useful
+vessel
+voting
+wealthy
+wherever
+wire
+wrap
+```
+We have a simple prompt that generates 208 sentences using the provided word list. 
+In this case, there is only one output required so there's no risk of losing context.  
+
+Our second example has a much more complex output requirement. 
+We won't be able to put all these steps in one prompt because the context will get lost. 
+Let's break this into steps. 
+
+### Generate 100 sentences for each of the 6 categories
+
+Let's think this through. If we generate the sentences, then ask the LLM to categorize, it won't be able to do this.  
+There are too many sentences for the LLM to keep in context. 
+So we can generate 200 sentences with no category, and then categorize at the end. 
+Or we can use two prompts and have one prompt for generating and one for categorizing.
+The second approach can help keep token usage low.
+
+Let's create the prompt for generating sentences.
+
+```python
+from openai import OpenAI
+import os
+from dotenv import load_dotenv, find_dotenv
+from datetime import datetime
+
+_ : bool = load_dotenv(find_dotenv())
+
+openai_client : OpenAI = OpenAI()
+
+
+
+
+prompt: str = """
+Create 100 sentences that adhere the following rules:
+1. Must only use words exactly as they appear in the below word list.
+2. Each word can only be used once. Once a word is used it cannot be re-used in other sentences
+3. Each sentence must follow this structure: Verb + Adjective + Noun + Noun 
+4. Each sentence must contain exactly 4 words 
+5. Do not use any tools or code to accomplish the task
+6. Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens
+7. Return a numbered list with one sentence on each line
+
+WORD LIST:
+Iraqi
+Thanksgiving
+accounting
+adjustment
+agency
+alliance
+anger
+appearance
+arrow
+assure
+average
+barely
+bedroom
+bias
+bloody
+bowl
+brown
+button
+car
+celebration
+cheap
+citizen
+closer
+colonial
+comparable
+conception
+consequently
+context
+cooperative
+country
+criticism
+cycle
+decade
+democracy
+desk
+differ
+disclose
+divide
+dragon
+duty
+educate
+eleven
+enemy
+equal
+every
+executive
+export
+faith
+feed
+finding
+floor
+former
+friend
+game
+giant
+graduation
+guarantee
+harassment
+height
+his
+hostile
+identify
+impression
+infant
+inspector
+interaction
+invite
+joy
+know
+lawmaker
+lend
+line
+loot
+make
+mask
+medium
+mill
+modify
+move
+native
+news
+novel
+off
+operation
+ought
+package
+partly
+penalty
+philosophy
+place
+pole
+post
+premise
+priority
+progress
+provide
+quality
+random
+reason
+refugee
+relieve
+republican
+restrict
+right
+row
+sanction
+scream
+self
+several
+ship
+sigh
+size
+snap
+something
+specify
+square
+steak
+straw
+substantial
+superior
+sustain
+tall
+ten
+theme
+threshold
+tolerate
+trading
+treat
+turn
+unexpected
+useful
+vessel
+voting
+wealthy
+wherever
+wire
+wrap
+""" # noqa
+
+
+category_prompts = [
+    {
+        "text": "The following sentence must be about sports:",
+        "expected_category": "Sports",
+    },
+    {
+        "text": "The following sentence must be about history:",
+        "expected_category": "History",
+    },
+    {
+        "text": "The following sentence must be about science:",
+        "expected_category": "Science",
+    },
+    {
+        "text": "The following sentence must be about technology:",
+        "expected_category": "Technology",
+    },
+    {
+        "text": "The following sentence must be about entertainment:",
+        "expected_category": "Entertainment",
+    },
+    {
+        "text": "The following sentence must be about culture:",
+        "expected_category": "Culture",
+    },
+]
+
+# Loop through the category prompts and generate an example for each category
+for category_prompt in category_prompts:
+    response = openai_client.chat.completions.create(
+        model="gpt-4-0613",
+        temperature=1,
+        # Max response tokens: 200
+        # System prompt: "You are always on my side"
+        messages=[
+            {
+                "role": "system",
+                "content": "You are on my side, you never give negative results, you are an expert at generating sentences, you are very useful and friendly at all times.",  # noqa
+            },
+            {
+                "role": "user",
+                "content": category_prompt["text"] + " Return only one sentence:",
+            },
+        ],
+    )
+
+    example_text = response.choices[0].message.content
+
+    print(
+        f"Example: {response.choices[0].finish_reason}\n{response.choices[0].message.content}\n\n"  # noqa
+    )
+
+    example = {
+        "examples": [{"task": category_prompt["text"], "output": example_text}],
+        "task": "Generate a sentence that matches:",
+        "few_shot_output": example_text,
+        "category": category_prompt["expected_category"],
+    }
+
+    print(f"Example: {example}\n")
+
+```
+
+You can run the above code in a repl and see how the LLM generates a sentence in each category.
+
+When you run this, you should see something close to the below example text
+
+```
+Example 1: [finish_reason=stop]
+The Iraqi troops decisively captured the Thanksgiving feast.
+
+Example 1: {'examples': [{'task': 'The following sentence must be about sports:', 'output': 'The Iraqi troops decisively captured the Thanksgiving feast.'}], 'task': 'Generate a sentence that matches:', 'output': 'The Iraqi troops decisively captured the Thanksgiving feast.', 'category': 'Sports'}
+
+Example 2: [finish_reason=stop]
+After the Bloody Bowl, the Enemy Arrow assured the Enemy the Iraqi Adjustment Accounting.
+
+Example 2: {'examples': [{'task': 'The following sentence must be about history:', 'output': 'After the Bloody Bowl, the Enemy Arrow assured the Enemy the Iraqi Adjustment Accounting.'}], 'task': 'Generate a sentence that matches:', 'output': 'After the Bloody Bowl, the Enemy Arrow assured the Enemy the Iraqi Adjustment Accounting.', 'category': 'History'}
+
+Example 3: [finish_reason=stop]
+
+After the Iraqi adjustment accounting, the enemy barely conceived his strategy to divide the average.
+
+Example 3: {'examples': [{'task': 'The following sentence must be about technology:', 'output': 'After the Iraqi adjustment accounting, the enemy barely conceived his strategy to divide the average.'}], 'task': 'Generate a sentence that matches:', 'output': 'After the Iraqi adjustment accounting, the enemy barely conceived his strategy to divide the average.', 'category': 'Technology'}
+
+Example 4: [finish_reason=stop]
+
+
+The enemy must divide the average in order to conceive a cooperative context.
+
+Example 4: {'examples': [{'task': 'The following sentence must be about sports:', 'output': 'The enemy must divide the average in order to conceive a cooperative context.'}], 'task': 'Generate a sentence that matches:', 'output': 'The enemy must divide the average in order to conceive a cooperative context.', 'category': 'Sports'}
+
+
+Example 5: [finish_reason=stop]
+After the thanksgiving accounting, the enemy barely assured the average adjustment.
+
+Example 5: {'examples': [{'task': 'The following sentence must be about history:', 'output': 'After the thanksgiving accounting, the enemy barely assured the average adjustment.'}], 'task': 'Generate a sentence that matches:', 'output': 'After the thanksgiving accounting, the enemy barely assured the average adjustment.', 'category': 'History'}
+```
+
+So we have sentences in each category, but we can't generate these as a few shot examples.
+There are too many tokens.
+
+If we generate the sentences in each category, we will have too many tokens (400+) and we will have to drop many of the few shot examples if we want to have any tokens left for the task.
+This means we will have to generate a much larger number of example sentences, which will be much more tokens. 
+
+So we'll have to generate these sentences and categories separately, then generate the few shot examples.
+Let's create the prompt for generating the sentences in each category.
+
+```python
+prompt: str = """
+You are always on my side, you never give negative results, you are an expert at generating sentences, you are very useful and friendly at all times.
+Now you are going to create a list of 100 sentences that adhere the following rules:
+1. Must only use words exactly as they appear in the below word list.
+2. Each word can only be used once. Once a word is used it cannot be re-used in other sentences
+3. Each sentence must follow this structure: Verb + Adjective + Noun + Noun 
+4. Each sentence must contain exactly 4 words 
+5. Each category must be about the given category in the text below the return string
+6. Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens
+
+Return a list of sentences formatted like this
+
+Category: Culture
+Sentence 1
+Sentence 2
+Sentence 3
+
+Category: Technology
+Sentence 1
+Sentence 2 
+Sentence 3
+
+....
+
+
+WORD LIST:
+Iraqi
+Thanksgiving
+accounting
+adjustment
+agency
+alliance
+anger
+appearance
+arrow
+assure
+average
+barely
+bedroom
+bias
+bloody
+bowl
+brown
+button
+car
+celebration
+cheap
+citizen
+closer
+colonial
+comparable
+conception
+consequently
+context
+cooperative
+country
+criticism
+cycle
+decade
+democracy
+desk
+differ
+disclose
+divide
+dragon
+duty
+educate
+eleven
+enemy
+equal
+every
+executive
+export
+faith
+feed
+finding
+floor
+former
+friend
+game
+giant
+graduation
+guarantee
+harassment
+height
+his
+hostile
+identify
+impression
+infant
+inspector
+interaction
+invite
+joy
+know
+lawmaker
+lend
+line
+loot
+make
+mask
+medium
+mill
+modify
+move
+native
+news
+novel
+off
+operation
+ought
+package
+partly
+penalty
+philosophy
+place
+pole
+post
+premise
+priority
+progress
+provide
+quality
+random
+reason
+refugee
+relieve
+republican
+restrict
+right
+row
+sanction
+scream
+self
+several
+ship
+sigh
+size
+snap
+something
+specify
+square
+steak
+straw
+substantial
+superior
+sustain
+tall
+ten
+theme
+threshold
+tolerate
+trading
+treat
+turn
+unexpected
+useful
+vessel
+voting
+wealthy
+wherever
+wire
+wrap
+"""
+```
+
+Our prompt generates the sentences nicely, but it won't give us any categories. 
+We'll have to generate these separately. 
+How can we do this? 
+By combining the sentence with the category in the prompt. 
+
+```python
+sentence: str = "After the thanksgiving accounting, the enemy barely assured the average adjustment."
+category: str = "Technology" 
+prompt = f"""
+sentence: {sentence}, category: {category}
+sentence: .... category: ....
+"""
+```
+
+This will add the sentence with the category to the prompt. 
+Let's create a function that generates the prompt. 
+
+```python
+def create_category_prompt(
+    sentence: str, category: str, expected_category: str = None
+) -> str:
+    if expected_category is None: return f""""The sentence is about: {category}""""
+    return f""""The sentence is about: {category}""
+"""
+
+
+prompt = create_category_prompt(sentence=sentence, category=category, expected_category="Technology")
+```
+
+This will return our prompt nicely. 
+
+```python
+prompt: str = f"sentence: {sentence}"
+```
+
+```python
+def create_category_prompt(sentence, category, expected_category=None):
+    prompt = [("The sentence is about:", category)]
+    prompt += [("sentence:", sentence)]
+    return prompt
+```
+
+Now we have a function that will generate a prompt with a sentence and category, then generate the prompt. 
+Let's create a function to generate the category prompts for each sentence. 
+
+```python
+category_prompts = [
+    {
+        "text": "The following sentence must be about sports:",
+        "expected_category": "Sports",
+    },
+    {
+        "text": "The following sentence must be about history:",
+        "expected_category": "History",
+    },
+    {
+        "text": "The following sentence must be about science:",
+        "expected_category": "Science",
+    },
+    {
+        "text": "The following sentence must be about technology:",
+        "expected_category": "Technology",
+    },
+    {
+        "text": "The following sentence must be about entertainment:",
+        "expected_category": "Entertainment",
+    },
+    {
+        "text": "The following sentence must be about culture:",
+        "expected_category": "Culture",
+    },
+]
+
+category_outputs = [create_category_prompt(c["text"], c["expected_category"]) for c in category_prompts]
+category_outputs
+```
+
+This will generate the category prompts for each sentence.
+We will pass these prompts to the LLM, let it generate the sentences, then generate the prompts. 
+
+In our first example, we have 100 sentences to generate for 6 categories.  
+That's 600 prompts to generate.
+Then we will generate the prompts for each sentence. 
+That's 1200 prompts to generate in total. 
+This will use a lot of tokens.
+
+In the second example, we have 400 sentences to generate for 6 categories. 
+That's 2400 prompts to generate.
+Then we will generate the prompts for each sentence.
+That's an additional 4800 prompts to generate.  
+So we will have to generate 7200 prompts in total.
+This will use a lot of tokens.
+ 
+Let's try to create a function that will generate a list of output sentences from a prompt that generates sentences, then a list of prompts that generates outputs from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts, then a list of prompts that generates prompts from a prompt that generates prompts,  
+then a list of prompts that generates the prompts
+from the prompts from the prompts
+from the prompts
+from the prompts
+
+
+In []:
+```python
+sentence = "After the thanksgiving accounting, the enemy barely assured the average adjustment."
+category = "Technology"
+sentence: str
+category: str
+prompt = f""""sentence: {sentence} category: {category}""""
+prompt: str
+
+```
+
+In []:
+```python
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence: str
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+sentence:
+
+```
+
+In []:
+```python
+sentences_1 = [
+    "The enemy must divide the average in order to conceive a cooperative context.",
+    "After the thanksgiving accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+    "After the thanks accounting, the enemy barely assured the average adjustment.",
+]
+
+```
+
+In []:
+```python
+import sys 
+sys.getsizeof(sentences[10])
+
+```
+
+Out []:
+```output
+65
+```
+
+In []:
+```python
+sys.getsizeof(sentences[6])
+
+```
+
+Out []:
+```output
+43
+```
+
+In []:
+```python
+sys.getsizeof(sentences[3])
+
+```
+
+Out []:
+```output
+4361722432
+```
+
+In []:
+```python
+import torch 
+from torch import nn
+from torch.nn import functional as F 
+
+def linear_layer(inp, out):
+  layer = nn.Linear(inp, out)
+  torch.nn.init.xavier_uniform(layer.weight)
+  return layer
+
+def one_hot(x):
+    return torch.eye(len(x))[torch.LongTensor(x)]
+
+
+
+class LSTM_Cell(torch.nn.Module):
+  def __init__(self, input_size, hidden_size):
+    super(LSTM_Cell, self).__init__()
+    self.input_size     = input_size
+    self.hidden_size    = hidden_size
+    self.f_i            = linear_layer(self.input_size + self.hidden_size, self.hidden_size)
+    self.u_i            = linear_layer(self.input_size + self.hidden_size, self.hidden_size)
+    self.o_i            = linear_layer(self.input_size + self.hidden_size, self.hidden_size)
+    self.u_h            = linear_layer(self.input_size + self.hidden_size, self.hidden_size)
+    self.o_h            = linear_layer(self.input_size + self.hidden_size, self.hidden_size)
+
+  def forward(self, input, states):
+    # TODO implement here.
+    # input is of shape (batch_size, input_size)
+    # states is a list with the previous hidden and cell states i.e. [h,c]
+    
+    return states
+
+```
+
+In []:
+# 2. Implementing LSTM
+
+In []:
+## 2.1 Defining the LSTM network
+
+In []:
+```python
+
+torch.manual_seed(42)
+
+# The size of the input. 
+input_size           = 220 
+hidden_size          = 64
+
+# The size of the output. 
+NUM_CLASS            = 3 
+
+class LSTM(torch.nn.Module):
+  def __init__(self, input_size, hidden_size, num_class):
+    super(LSTM, self).__init__()
+    self.input_size = input_size
+    self.hidden_size = hidden_size
+    self.num_class = num_class
+    self.lstm = LSTM_Cell(input_size, hidden_size)
+    
+    self.fc1 = nn.Linear(hidden_size, hidden_size)
+    self.fc2 = nn.Linear(hidden_size, hidden_size)
+    self.fc3 = nn.Linear(hidden_size, NUM_CLASS)
+
+  def forward(self, x):
+    # TODO implement here.
+    # x is of shape (batch_size, seq_len, input_size).
+    x = torch.reshape(x, (-1, self.input_size))
+    return x
+    # return states[-1]
+
+# A simple function to compute the cross-entropy loss.
+def loss_func(x, y):
+  return F.cross_entropy(x, y)
+
+# A simple function to compute the accuracy of the model.
+def accuracy(y_pred, y):
+  total, correct = 0, 0
+  for i in range(y.shape[0]):
+    if y[i].argmax(dim = -1) == y_pred[:, i]:
+      correct = correct + 1
+    total = total + 1
+  return 100 * correct / total
+
+```
+
+In []:
+```python
+import numpy as np
+from torch.utils.data import DataLoader, TensorDataset
+x, y = np.zeros((3000, 200)), torch.zeros((3000, 200)).type(torch.LongTensor)
+y[np.arange(3000), x.squeeze()] = 1
+
+X = torch.tensor(x,dtype=torch.float32)
+Y = torch.reshape(y, (-1, 200,3))
+
+```
+
+In []:
+```python
+Y.shape
+
+```
+
+Out []:
+```output
+torch.Size([3000, 200, 3])
+```
+
+In []:
+## 2.2 Training the network
+
+In []:
+```python
+# Hyperparameters.
+num_epoch, batch_size, learning_rate, momentum = 100, 64, 0.01, 0.5
+
+# Initialize the network.
+network = LSTM(input_size, hidden_size, num_class)
+# Create the optimzer.
+optimizer = torch.optim.SGD(network.parameters(), lr = learning_rate, momentum = momentum)
+
+for i in range(num_epoch):
+  # Create a new optimizer for each epoch.
+  optimizer = torch.optim.SGD(network.parameters(), lr = learning_rate, momentum = momentum)
+  # Loop through the training dataset.
+  # TODO implement here
+
+  # Check the loss and accuracy after each epoch.
+  # TODO implement here
+
+```
+
+In []:
+# 3. Evaluation
+
+In []:
+```python
+NUM_EPOCH = 300
+LEARNING_RATE = 0.001
+BATCH_SIZE = 1024
+NUM_CLASS = 3
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+print(device)
+
+```
+
+Out []:
+```output
+cuda
+
+```
+
+In []:
+## 3.1 Test dataset generation
+
+In []:
+```python
+x, y = np.zeros((3000, 200)), torch.zeros((3000, 200)).type(torch.LongTensor)
+
+
+y[np.arange(3000), x.squeeze()] = 1
+
+
+y[1, 20] = 3
+y[2, 30] = 2
+
+y[3] = torch.tensor([3,1])
+
+X = torch.tensor(x)
+Y = torch.reshape(y, (-1, 200,3))
+
+print(Y.shape)
+
+```
+
+Out []:
+```output
+torch.Size([3, 200, 3])
+```
+
+In []:
+```python
+for i in range(10):
+  X[i, i:] = 1 
+
+```
+
+In []:
+```python
+X[12] = torch.tensor([1, 2, 3, 4, 5, 6, 0, 0])
+
+```
+
+In []:
+```python
+test_loader = DataLoader(TensorDataset(X, Y), batch_size = BATCH_SIZE, shuffle = False)
+
+```
+
+In []:
+## 3.2 Testing the LSTM network
+
+In []:
+```python
+def test(network, device):
+    network.eval()
+    test_loss = 0
+    correct = 0
+    with torch.no_grad():
+        for data, target in test_loader:
+            device_data = data.to(device)
+            output = network(device_data)
+            test_loss += loss_func(output, target).item()  # sum up batch loss
+            pred = output.max(1, keepdim=True)[1]  # get the index of the max log-probability
+            correct += pred.eq(target.view_as(pred)).sum().item()
+    test_loss /= len(test_loader.dataset)
+    print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
+        test_loss, correct, len(test_loader.dataset),
+        100. * correct / len(test_loader.dataset)))
+
+```
+
+In []:
+```python
+## TODO implement test function here
+
+```
+
+In []:
+```python
+## TODO train the network here
+
+```
+
+In []:
+```python
+## TODO test the network here
+
+```
+
+In []:
+## 3.3 Result
+
+In []:
+```python
+## TODO Report the loss and accuracy here
+
+```
+
+In []:
+# 4. Submission
+
+In []:
+Submit this notebook on Moodle with your code completed and all the output shown. Make sure to rename this notebook as `Student_Number_Project.ipynb` before uploading it.

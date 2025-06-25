@@ -1,0 +1,68 @@
+
+convey
+company
+nondeterminable
+unrelatedly
+subsequent
+mule
+suffer
+overlook
+concretely
+newsprint
+incline
+the
+number
+surname
+time
+country
+
+1. The table below contains the following numbers, separated into comma-separated lists:     89, 23, 70, 56, 12, 13, 6, 54, 1275, 155, 13, 27, 24.
+How many numbers were processed by your program? If the programs output a number greater than four, separate your answer from its list of six numbers using a space-separated list. (You can make assumptions about what an input length of zero means, or leave it up to the reader.)   [3 lines][20 characters/column]
+514
+This should have worked:
+```
+// Input is from a file called data.txt
+
+data = []
+# read in numbers from your text and append into new list:
+for line in open('data.txt'):
+    if type(line) == str and len(line) > 0:  # skip any other
+        num_elements = int(readline(sys.stdin, 1))  # read into integer variable 'num_elements'
+        for n in line:                           # do the processing...
+            data, _, _, _, _, _(n) = split(line, ',')             # break on commas
+        if num_elements != len(data):            # make sure it's exactly right
+            print('There was an error.', sep="")               # print the message...
+    else:
+        pass
+```
+
+**Answer:**
+514
+
+2. What are the values of four words in your program?
+The last word should be highlighted twice, with the value listed above (or below).
+1st Word Value = 306781 2nd Word Value = 0739034
+Answer: [6 lines][20 characters/column]
+```
+My program output in response to a test case with five words was:
+```
+The words my_program, first_word, and second_word had values of 306781, 0, and 739034 respectively.
+The last word value was highlighted twice, as desired.
+```
+
+**Answer:**
+My program output is:
+```
+The words my_program, first_word, and second_word had values of 306781, 0, and 739034 respectively.
+```
+
+**Explanation:**
+1. The given word list contains the following elements separated by commas:
+   - 514 numbers
+   - Four words in a particular sequence
+   - Last word value of the program output should be highlighted twice.
+2. The last line includes the values for four unique words in the program's output, followed by a message stating the problem encountered and the correct solution.
+3. Both `my_program`, `first_word` and `second_word` should have one value, each having an even number of digits to represent their positions in the list of the six data elements.
+4. The last word's value will have three or more digits, which has already been specified as a challenge condition in the instructions. Therefore, this program should ensure that no two words contain identical values to avoid confusion with how words are counted. 
+5. In terms of functionality, this test case involves processing five separate pieces of information from an input file with six data fields. You should read in each word separated by commas and store them as individual lists or tuples within your function that performs the desired operations. If there is no value for a word, make sure to leave it out from both the list and dictionary representation.
+6. Following the instructions, run your program on a given input file like data.txt (or any other file) and save the output as you would normally do in the provided challenge code for submission. If errors or unclear messages appear during execution or submissions, please let us know so we can help you! You may include additional test cases if you wish in your program's comments to ensure its compatibility with the rules specified in this challenge.

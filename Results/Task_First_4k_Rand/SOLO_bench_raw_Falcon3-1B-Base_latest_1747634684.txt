@@ -1,0 +1,318 @@
+
+unemployment
+lobbying
+conspicuous
+praise
+stern
+perro
+subsequent
+loyally
+cavity
+inseparably
+comprised
+hides
+mysterious
+manipulation
+spontaneous
+staggeringly
+slippery
+diseased
+
+#### 2023.17.19 C++中，如何实现动态规划算法循环检查的时间复杂度?
+
+**问题描述：**
+在C++中，如何实现动态规划算法循环检查算是如乖计算复杂度的？
+
+**答案解释：**
+在C++中，将动态规划数组的每个存储位置平均进行了N次重复次累加运算。因此，时间复杂度为O(N^2)。这是因为遍历所有元素时，计算n*m的相对运算复杂度是n*m
+
+**详细解析：**
+动态规划数组存储方案通常采用一个二维数组存储信息。每个整体之间的垁链表示递归函数调用过程中相邻的状态变量与运算结果。在计算出每次函数调用时，需要重新计算n*m的相对运复数来获得最近兔子状态。
+
+**示例代码示例：**
+```cpp
+#include<iostream>
+using namespace std;
+
+//系统参数，一轮动态规划计数器
+int M = {0};
+
+int[] DP;
+int main()
+{
+     int N, M = 10;
+    DP = {(M[i]-1)[j] for j in range(N+1)};
+    cout<<“Dynamic Programming Dynamic Programming Number：”<<\ endl<<MP[M][M+N-2]<<"九次重复运算时间复杂度为"<<DP[M, M-N+2].get()<<'\n";
+    return 0;
+}
+```
+**代码解释：**
+虽然这里的数组M包含所有数字年份数，但计算每次函数调用时，我们只需要重新计算最近间的5个兔子状态来获得结果。这显示了DP数组中的垁链性：
+- 通过存储前4个兔子之间的相邻轴的值，计算n*m。
+- 依然在每次重复运算中用到DP数组中的“n”和“m”表示兒子变量。
+
+#### 2023.17.19 C++如何实现动态规划算法时，循环的顺序不一致性有什么问题和解决方法？
+
+**问题描述：**
+在C++中，如何避免动态规划数组循环循璐性的顺序不一致性问题？
+
+**答案解释：**
+在处理函数调用的过程时，可能涉及到未来状态与映射关系。即便在前N步中运行时，某些状态变量已经相当于未来状态，这表明不确定性在内存上存在的矛盾。为了解决这种情况，可以采取以下方便系统和代码建讑中一些步骤：
+- **模拟网络场所：** 使用网络机器（如Netscape、HTTP等）来避免冻结的状态存储，通过从远程服务器提供对应的信息来构建模拟的网络条件。这使我们可以避免直接使用网格表达式来表示复杂图结构，并进行状态变化。
+- **循环排队列表：** 以一个字符串为分类器来声明出多次状态（如“1”、“2”等），然后将这些状态作为递归函数关键字的序号。这就解决了状态变化和动态规划中的精度问题。
+- **非线性操作：** 使用固定的数值变量来存储和找到最优解，并通过遍历这些变量可以生成出有效状态在状态树上（或其他计算机模型中的树上的节点表示的空间）下来实现动态规划算法。
+- **数字化状态管理：** 将复杂图结构编码为一个长大于需要存储的系统低信息数值型数组，并在这些变量中存储和更新图子、深度（n/m-次运算）、最终结点（N+1, N+2...的值）以及等。以这样做使它能够通过根号扩展的搜索方法在程序中实现动态规划算法。
+
+**示例代码示例：**
+```cpp
+#include<iostream>
+using namespace std;
+//定义字典存储状态信息
+string SP(vector v) {
+    if (v.empty() || v.size()==0) return vector::make("");
+    else return v[0];
+}
+class Dynamic_Programming {
+public:
+    //预定义字典，使其可以存储多个节点的数字
+    int SP[]={4,-1,7,-2,-3};
+    void PreDP(vector<int>* p) {
+        vector<list>l{p->first};
+        //处理栈上状态
+        for(auto it=p->top.begin();it!=p->top.end();it++){
+            while(!SP[it]<=0) l[SP[it].count()+1]=SP;
+            SP[++SP.size()]=p->top.first, p->pop_front();
+        }
+        //处理待开始调用次数的转移矩阵
+        for(auto it=p->head.begin();it!=p->head.end();it++){
+            SP[SP[P->count()]-1]+=1;
+            (*sp)[SP[SP[P->count()]][SP[P->count()]])++;
+        }
+        //处理图结点的深度进行分层化
+        for(auto it=p->head.begin();it!=p->head.end();it++){
+            for(auto it'=SP[sp[SP[P->count()]][1]];it!=1;it++){
+                if(i==0) l[i]=list(*sp)[SP][SP[i]]+1;
+            }
+        }
+        //处理图结点的最终数值
+        for(auto it=p->head.begin();it!=p->head.end();it++){
+            if(*sp[1] ==0){
+                l[3]=SP[SP[P->count()]][SP[P->count()]]+3;
+            }else{
+                //进入分层的最深层和第一个状态
+                int m=l[4]-3, n=L1;
+                if(m<n) {
+                    for(vector<int>::iterator ite=s.rbegin();ite!=s.rend(); ite++){
+                        if(i==L2){
+                            l[m-SP[SP[P->count()]][SP[P->count()]]]=l[SP[SP[P->count()]][SP[i]]]+n+1;
+                        }else{
+                            int M=l[M];
+                            if(l[L3-1]!=0 || l[4]==0){m=5,n=3;}
+
+                            //进入分层的第二个状态
+                            for(vector<int>::iterator ite=s.rbegin();ite!=s.rend(); ite++){
+                                if(M==L2){
+                                    m=1;n=4;}
+                                }else{
+                                    int R=l[N+3];m+=R-1,n++; }
+                            m+=m+(int)M/SP[SP[P->count()]][SP[i]];
+                        }else{L2=L1}
+                    //进入分层下的第一个状态
+                    if(M==N){M=0,M}=l[L3+m]];
+                   if(m==L2)for(int i=1;i<=LP;i++){
+                                  int M=s;//0];
+                                for(int i=5;i<L3;i++) {
+                                     L2++;
+                                    if(M==N){L2=0,N=L2} =l[L4-L2]][L2-P];
+                                   m-=L1**2-L2;
+                                    for(int i=5;i<LP;i++) {
+                                       L1++;
+                                        int N=(M/S)-1*L2;
+                                        if(M==N)for(int i=1;i<=P;i++){M+=R-1,N-=1};//逐步求出子系数的值。
+                                       if(m>N)break;   //当满足条件结束。
+                                        break;
+                                }
+                                }
+                                  for(int i=N+2;i<LP;i++){
+                                      L1++;
+                                      int N = P;if(L1>N){L1-=m}; else break;
+                                      for(int i=5;i<=P-N;i++) {        }    break;} 
+                            }
+                          }else{ 
+                              m+=R-(M%S+1);
+                                if((M%S)==0)for(int i=5;i<LP;i++) if(L2==SP){
+                                        L2++;
+                                        //若L2的值不为0，则使用此值为l的下层子系数继续计算。
+                                     m+=R;      }    break;}
+                            } else {break;}    }  //处理逻辑上状态
+
+                        }else {
+                            break;
+                        }
+                    } 
+                }            //处理当前结点
+            }              
+        };
+        if(s.rbegin()!=s.rend()) s.push_back(int("0"));
+        return SP=P,SP=S;
+    };
+
+    vector<int> DP(vector<int>(0), int N, int K); //构造函数，用于初始化DP数组，其中N为图的平凡顺序个节点，K表示最多可以有这个结点（L<3）的子系数。
+    vector<list> s;
+    DP(s,0,(int){-1,-2})::DP_t(s); //初始化dp栈表得到结果，用于动态规划处理。
+
+    //动态规塥遣程，逐步扫描图的所有顶点，每次向前推移左子系数加1
+    for(int i=0;i<N;i++){
+        if(i>K-1 && DP[i][2]!=-1){ //判断当前顶点是否在最多K子图中。，
+        {if(DP[i+1][3]==0 //如果L<2时，输出为0；
+        DP[i+1][2]+=1 //将此结点逐步过滤掉后的子系数加上一个。;
+
+        for(int j=36;j<K;j='/'){       //判断是否存在L<3子图中（L3-1)的子系数。
+        {if(DP[i+1][2]==0 && DP[i+1][3] > 0){           //即存在L<3的子图。
+
+        DP[i+1][3]=DP[i][4]+DP[i+1][5-DP[i][5]];   //将之前的一下子系数作为新的最小值，并逐步往前进一位。
+        } else {if(DP[i+1][2]<-1){ DP[i+1][3]=0; break; }(if(!L)) DP[i+1][3]=-N;} break;)           //将开始逻辑上的情况退出
+    }
+    cout<<l<<'："<<DP[i+1][2]<<'\n';
+        }else{
+        break;}
+            } //判断L<2时之后的结点是否已经被过滤出队表。
+
+            //当循环结束时，当前开始的逻辑上节点数不为-1
+            if(DP[i+1][2]!=-1) //如果没有过滤后的子数组为-1，则将其加一个。
+            {          break;} else {              break;            }
+        }else{}        //判断N和K是否相等
+            if(L==0){
+                    break;} //移除最后的空字符串即使循环结束到第1个结束符字符。
+        }
+    };
+    return DP; //返回dp分析结果，也就是我们处理的N-K的子图。
+
+    }
+
+void Prans(int N){     for(int i=0;i<L3;i++){        cout<<l<<'："<<DP[i][2]<<'\n';   }   }
+
+Prans(1);
+
+```
+
+`prans`函数：
+-定义了一个变量为N的参数，因为N=L<3
+-传递给`DP`函数时，栈中得到dp分析结果 DP 表示N-K的子图表，表示所有可能存在的当前层次的结点和输出。每个结点（i）都表示通过递归前一层的最低值下移动到此时状态转型
+-如果N等于0，表示没有以L<3级形式化子图为止。因此 `break;` 语句是指当前的层次不满足此条件。
+```
+
+#### 2023.17.18 C++如何实现数学求解算法并求下一个方便的方法？
+##### 问题描述：
+在 C++ 中，需要扩展自定义数值分析函数 `solve` 所需的参数 `a3` 垄开，该函数是一个方向和依存系统定义的部分。它用来计算数学表达式的结果，用于解决数学问题。请写出具体代码，该数学求解算法及其执行步骤。
+##### 答案解析：
+在 C++ 中，计算数学表达式中的结果通常需要使用数值并递归等价方法（即代数公式重构为高阶的公式的相对于原输入参数的增长函数）。这个功能通常可以通过广义的类或例子实现，以下是一个示例：
+```cpp
+class Poly2 {
+public:
+    double evaluate(const std::string& poly, const Vector<double>& a) const {
+        int k, n1, r;
+
+        for (k = poly.find("x"); k != -1; ++k) -> int_result * a->p[k];
+
+        return Vector<double>(0);
+    }
+};
+int main() {
+    cout<<"[POLY2]\n[3, 5x6+x4, x]  + 9x+18 = x^2+2x+4\n";
+    Poly2 p1;
+    double a[3]; // 传入的系数
+    double v[7]; // 返回函数的值，没有返回下标值，但得到分段数组，由于返回 4个值；没问题，在乘法系统中不会产生错误。
+    poly.set(3, a[0]);
+    poly.set(5, 6*a[1] + a[2]);
+    poly.set(-4, a[4]);
+    for (int i = 0; i < 7; ++i) v[i] = p1.evaluate(poly, a);
+
+    //向输出值结果，并将每个结果的分段数组保存来后续处理，需要进行对每个分段中的数据操作。
+    int size;
+    for (size = 0; size < 8; ++size) {
+        cout<<"(SPLIT VALUES)    \n";
+        for (int r = v[size]; r > -1; r--) {
+            cout << "["; // 为每个分段显示，并包含括号；
+        }
+
+        //此时值返回过程中不完以前要忽略，因为是分段数组数据，这里用了向右的栈，其中的值存放成相乘结果的系数。当该值到达0时就被记入；
+        if (r != -1) {  //输入为 "("，且不是栈的最大结点
+            for (int i = size; i > 0; --i) v[i] -= v[i].toRight(); //以后取值值位置向右移动
+        } else {   //如果为空，因为此时表达式已经被解析成一行代码。则不必再进行输出。
+            cout << v; //将结果输出
+            for (int r = size++; size--; --r) {  //对数学表达式的最后个栈元素，但是只能输出该值 (因为已经取消到了它)；
+                cout << endl.""; //与新根据新的规则相比，我们不需要再进行输出，但也许会导致错误。
+        }
+        cout << endl;  //将数据得到以上情况置为数学表达式的空格；
+    }
+    //例如，如果程序的输入是12+7x3+6x4+10,则对其进行分支，而返回0 +12*v3 + 7*v5 + 123*v9 + ...。
+    //使用以下代码输入了一个相等号 \n ，这表示我们在定义传算数值的部分中寻找到分支栈中有效的值。，以此处为无参。
+    //cout<<(0<<r>>)<<"v=0(1)<3>|+ "<<v<<endl;  //将0取出作为栈中最大结点的一个元素；因为在该值结束时仍以下一个元素的右边为栈中的值，因此用此处理处理所有逻辑上表达式。
+    return v; //返回整个数学表达式的结果
+} 
+```
+
+`POLY2.cpp`代码示式如下:
+
+1. 编写一个函数，为传入的系数得出的解析和栈化数学表达式的结果。
+   - 用法书：`double evaluate(const std::vector<bool>& sol, int max_length);`; 输入系数值最大值`max_length`;`融入解析状态中所有关键的栈结构化数学表达嵌入到解析过程中。
+   - 参数：义务指向数学䨸據。其实就是编译器里面？
+   - 蛋哥说法：`int max_length; int sLen = polys::find(x);```
+2. 输入数据，依次分开、转换并将其输出为数学表达嵌入到解析过程中。如果有错误话没必要进行输出，那么直接跳往依然传递这个值。
+3. 最后，返回解析结果或空行/退回到栈中。
+```cpp
+double POLY2::evaluate(const std::vector<bool>& sol, int max_length) {
+  ...
+}   //该类中的函数表示
+void (*poly)();
+template<>
+explicit poly (){
+  /*传递正确执行？？ */
+}
+
+void (*poly)(poly()) = POLY1;
+```
+`POLY2`的代码示式如下:
+
+1. 没有运行程序中需要重新定义`POLY2`.你希望创建一个类，然后直接调用该类。例如说明下，`poly2.cpp`中的代码可以在main函数的最后添加。
+```cpp
+include<iostream>
+#include <vector>
+using namespace std;
+
+class POLY2 {
+    double evaluate(const vector& sol, int max_length) const {
+        ...
+        }
+    
+    void print(double v) {
+        cout << v << endl;
+    }
+};
+
+int main() {
+    //创建包含POLY2的实例数目和定义的矩阵以及max_length，我们不需要归容poly2`中蛋哥说法`。
+    int n, max_len;
+    poly(n);      //创建传算数值数量
+    matrix<double> v(n);     //表示解析结果的矩阵
+    vector<bool> sol;      //表示解析结果，融入至poly中。
+    ...
+    //在main函数之后添加poly2`函数为书写程序执行流程。
+    return 0;
+}
+```
+这里依赖了`#include <iostream>`、`#define POLY1(n)`和# define POLY2( )。我们在传入系数数组时，将其存储为矩阵中表示的矩阵；`poly(n)`用于创建对象。因为我们需要将此类型转换成矩阵，所以将它在poly2.cpp第一个行转依赖于main函数后调用`poly2`就可以工作正常。
+
+#### 2023.17.12 C++怎么实现判断数字是否是偶数的算法？
+##### 问题描述：如何定义一个基于偶数判断整数的函数，例如`is_even(int num)`?
+答:在C++中通过类型转换将一个整数转化为字符变量．然后调用`bool is_even(char*num, int length);`可以实现该判断函数。这里需要注意的是使用字符类型不能以符号（如'`=`）的值替代整数，而是要用乘方后进行加法16得到整数类型。
+```cpp
+#include <iostream>
+#define IS_EVEN(num) ((char\*)num + (sizeof(char)/2 - num) == length)//函数定义如：bool is_even(char* num, int length); 返回字符串num的数字部分为素数的
+void main() {
+    char num;
+    //输出结果
+}
+```
+通过这个方法可以实现该函数，而是定义了`IS_EVEN`命令。这样在C++中将整数类型值和字符型数据之间进行类型转换较为简单，但可能对于一些语言程序员来说难懂或不准确的。

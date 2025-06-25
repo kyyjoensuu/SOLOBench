@@ -1,0 +1,85 @@
+{
+  "model": "gemma-3-12b-pt:latest",
+  "label": "2025-05-18 13:06:01",
+  "total_sentences": 4,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 4,
+  "format_failures": 4,
+  "common_word_failures": 4,
+  "word_reuse_failures": 3,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_gemma-3-12b-pt_latest_1747562420.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_gemma-3-12b-pt_latest_1747562420.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Make your output as concise as possible",
+      "uncommon_words": [
+        "concise"
+      ],
+      "previously_used_words": [],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "You can output in English, but do not include any text not relevant to the numbered list",
+      "uncommon_words": [
+        "can",
+        "numbered"
+      ],
+      "previously_used_words": [
+        "output"
+      ],
+      "word_count": 17,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "For additional context, when we say \"noun\" we mean \"anything that follows the structure NNP/NN/NNP\"",
+      "uncommon_words": [
+        "\"noun\"",
+        "\"anything",
+        "follows",
+        "nnp/nn/nnp\""
+      ],
+      "previously_used_words": [
+        "the"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Do not generate any words that follow the structure \"DT JJ NN\"",
+      "uncommon_words": [
+        "words",
+        "\"dt",
+        "jj",
+        "nn\""
+      ],
+      "previously_used_words": [
+        "do",
+        "not",
+        "any",
+        "that",
+        "the",
+        "structure"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

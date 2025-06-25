@@ -1,0 +1,868 @@
+{
+  "model": "falcon-40b:latest",
+  "label": "2025-05-17 17:38:58",
+  "total_sentences": 41,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 36,
+  "format_failures": 41,
+  "common_word_failures": 40,
+  "word_reuse_failures": 37,
+  "raw_output_file": "Results/Task_After_1k_Rand/SOLO_bench_raw_falcon-40b_latest_1747489389.txt",
+  "formatted_output_file": "Results/Task_After_1k_Rand/SOLO_bench_falcon-40b_latest_1747489389.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Keep a sentence to 11. Don\u2019t make sense, a list",
+      "uncommon_words": [
+        "11",
+        "don\u2019t"
+      ],
+      "previously_used_words": [],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Sentences or less than 13 sentences.",
+      "uncommon_words": [
+        "sentences",
+        "13",
+        "sentences"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Sentence",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "sentence"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "One noun.25. a person,",
+      "uncommon_words": [
+        "noun25"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'one' is not a verb",
+        "Second word 'noun25' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "\u201c",
+      "uncommon_words": [
+        "\u201c"
+      ],
+      "previously_used_words": [],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "A noun.",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "A preposition,",
+      "uncommon_words": [
+        "preposition"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "An adverb.",
+      "uncommon_words": [
+        "an",
+        "adverb"
+      ],
+      "previously_used_words": [],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "a sentence. 1. Noun.",
+      "uncommon_words": [
+        "1",
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "sentence",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'a' is not a verb",
+        "Second word 'sentence' is not an adjective",
+        "Third word '1' is not a noun",
+        "Fourth word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "A verbally-",
+      "uncommon_words": [
+        "verbally-"
+      ],
+      "previously_used_words": [
+        "a"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "This is not a verb. 35. An adjective.",
+      "uncommon_words": [
+        "is",
+        "verb",
+        "35",
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "a",
+        "an"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "An adjective. 37. noun.",
+      "uncommon_words": [
+        "an",
+        "adjective",
+        "37",
+        "noun"
+      ],
+      "previously_used_words": [
+        "an",
+        "adjective",
+        "noun"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'an' is not a verb",
+        "Second word 'adjective' is not an adjective",
+        "Third word '37' is not a noun",
+        "Fourth word 'noun' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "A noun. 39. An article. 40. A noun. 41. A noun.42.",
+      "uncommon_words": [
+        "noun",
+        "39",
+        "an",
+        "40",
+        "noun",
+        "41",
+        "noun42"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun",
+        "an",
+        "a",
+        "noun",
+        "a"
+      ],
+      "word_count": 11,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "A noun. 44. A noun.",
+      "uncommon_words": [
+        "noun",
+        "44",
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun",
+        "a",
+        "noun"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Verbal noun.",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "noun"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "The use of proper noun 46. Personal",
+      "uncommon_words": [
+        "noun",
+        "46"
+      ],
+      "previously_used_words": [
+        "noun"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "A noun",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "A noun.",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "A proper noun",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "proper",
+        "noun"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Common noun to noun. A noun.",
+      "uncommon_words": [
+        "noun",
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [
+        "noun",
+        "to",
+        "noun",
+        "a",
+        "noun"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "These, a noun. An adjective 52. An adjective.",
+      "uncommon_words": [
+        "noun",
+        "an",
+        "adjective",
+        "52",
+        "an",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun",
+        "an",
+        "adjective",
+        "an",
+        "adjective"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "An adjective 58. An adjective 59. an adverb.",
+      "uncommon_words": [
+        "an",
+        "adjective",
+        "58",
+        "an",
+        "adjective",
+        "59",
+        "an",
+        "adverb"
+      ],
+      "previously_used_words": [
+        "an",
+        "adjective",
+        "an",
+        "adjective",
+        "an",
+        "adverb"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "As a noun",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "A verb. As if you were a verb. The sentence",
+      "uncommon_words": [
+        "verb",
+        "were",
+        "verb"
+      ],
+      "previously_used_words": [
+        "a",
+        "verb",
+        "as",
+        "a",
+        "verb",
+        "the",
+        "sentence"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Verb. A verb.",
+      "uncommon_words": [
+        "verb",
+        "verb"
+      ],
+      "previously_used_words": [
+        "verb",
+        "a",
+        "verb"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "In the present. The person. A present. The person is presents the person, they presents the person. (you are present in the person, as a person,",
+      "uncommon_words": [
+        "is",
+        "presents",
+        "presents",
+        "(you",
+        "are"
+      ],
+      "previously_used_words": [
+        "the",
+        "the",
+        "person",
+        "a",
+        "the",
+        "person",
+        "is",
+        "the",
+        "person",
+        "the",
+        "person",
+        "the",
+        "person",
+        "as",
+        "a",
+        "person"
+      ],
+      "word_count": 26,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Present /verb. To-verb. Present. Verb",
+      "uncommon_words": [
+        "/verb",
+        "to-verb",
+        "verb"
+      ],
+      "previously_used_words": [
+        "present",
+        "present",
+        "verb"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Verb, verb A verb",
+      "uncommon_words": [
+        "verb",
+        "verb",
+        "verb"
+      ],
+      "previously_used_words": [
+        "verb",
+        "verb",
+        "a",
+        "verb"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'verb' is not a verb",
+        "Second word 'verb' is not an adjective",
+        "Fourth word 'verb' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "The verb. They verb. 69. The verb an adverb",
+      "uncommon_words": [
+        "verb",
+        "verb",
+        "69",
+        "verb",
+        "an",
+        "adverb"
+      ],
+      "previously_used_words": [
+        "the",
+        "verb",
+        "they",
+        "verb",
+        "the",
+        "verb",
+        "an",
+        "adverb"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "The verb. 72. Verbal?",
+      "uncommon_words": [
+        "verb",
+        "72"
+      ],
+      "previously_used_words": [
+        "the",
+        "verb",
+        "verbal"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'the' is not a verb",
+        "Second word 'verb' is not an adjective",
+        "Third word '72' is not a noun",
+        "Fourth word 'verbal' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Verbal noun",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "verbal",
+        "noun"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Verbal adjective. (or as the verb-verb, A. Adverb. A verb to Verball noun. I verb or an action verb. Verb. The verb/adjective noun.",
+      "uncommon_words": [
+        "adjective",
+        "(or",
+        "verb-verb",
+        "adverb",
+        "verb",
+        "verball",
+        "noun",
+        "verb",
+        "an",
+        "verb",
+        "verb",
+        "verb/adjective",
+        "noun"
+      ],
+      "previously_used_words": [
+        "verbal",
+        "adjective",
+        "as",
+        "the",
+        "a",
+        "adverb",
+        "a",
+        "verb",
+        "to",
+        "noun",
+        "verb",
+        "or",
+        "an",
+        "verb",
+        "verb",
+        "the",
+        "noun"
+      ],
+      "word_count": 23,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "A noun.",
+      "uncommon_words": [
+        "noun"
+      ],
+      "previously_used_words": [
+        "a",
+        "noun"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "To noun. 77 ... A. noun. Noun.",
+      "uncommon_words": [
+        "noun",
+        "77",
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [
+        "to",
+        "noun",
+        "a",
+        "noun",
+        "noun"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Proper noun. No to a noun.",
+      "uncommon_words": [
+        "noun",
+        "noun"
+      ],
+      "previously_used_words": [
+        "proper",
+        "noun",
+        "to",
+        "a",
+        "noun"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "(to noun. So noun. A noun. Other noun. Interl",
+      "uncommon_words": [
+        "(to",
+        "noun",
+        "noun",
+        "noun",
+        "noun",
+        "interl"
+      ],
+      "previously_used_words": [
+        "noun",
+        "noun",
+        "a",
+        "noun",
+        "noun"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Verb. Determiner \u2018+verb. Determined. Verb. Verbatim transitory.",
+      "uncommon_words": [
+        "verb",
+        "determiner",
+        "\u2018+verb",
+        "determined",
+        "verb",
+        "verbatim",
+        "transitory"
+      ],
+      "previously_used_words": [
+        "verb",
+        "verb"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Verb.",
+      "uncommon_words": [
+        "verb"
+      ],
+      "previously_used_words": [
+        "verb"
+      ],
+      "word_count": 1,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "The Verbal noun. Noun. The noun. Verbal-noun. 3.",
+      "uncommon_words": [
+        "noun",
+        "noun",
+        "noun",
+        "verbal-noun",
+        "3"
+      ],
+      "previously_used_words": [
+        "the",
+        "verbal",
+        "noun",
+        "noun",
+        "the",
+        "noun"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Determiner. The determiner. Verb. Particular: Verb to noun. The adjective. Article a adjective with an adjective. A noun. Verb.",
+      "uncommon_words": [
+        "determiner",
+        "determiner",
+        "verb",
+        "verb",
+        "noun",
+        "adjective",
+        "adjective",
+        "an",
+        "adjective",
+        "noun",
+        "verb"
+      ],
+      "previously_used_words": [
+        "determiner",
+        "the",
+        "determiner",
+        "verb",
+        "verb",
+        "to",
+        "noun",
+        "the",
+        "adjective",
+        "article",
+        "a",
+        "adjective",
+        "an",
+        "adjective",
+        "a",
+        "noun",
+        "verb"
+      ],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Determindicate it. 2-year this 1. Verb. Verb. Noun. Conjugation. Verb.",
+      "uncommon_words": [
+        "determindicate",
+        "2-year",
+        "1",
+        "verb",
+        "verb",
+        "noun",
+        "conjugation",
+        "verb"
+      ],
+      "previously_used_words": [
+        "this",
+        "1",
+        "verb",
+        "verb",
+        "noun",
+        "verb"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

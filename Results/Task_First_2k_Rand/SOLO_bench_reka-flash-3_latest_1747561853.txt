@@ -1,0 +1,19 @@
+1. Parse each sentence into words.
+2. For each word in the list of 200, check if it appears in the sentence.
+3. For each occurrence, determine if the word is used as an adjective (adj).
+4. If yes, include that sentence in the results for that word.
+5. For each sentence in the input:
+6. Import necessary libraries: nltk for tokenization and POS tagging.
+7. Define the target_words set (lowercase).
+8. For each sentence in the input:
+9. Loading the target words into a set.
+10. Iterating over each sentence, tokenizing, tagging, and checking for adjective uses.
+11. Aggregating results by word.
+12. **Tokenization**: Split each sentence into individual words while preserving their original form and punctuation.
+13. **POS Tagging**: Use a POS tagger to assign grammatical categories (such as noun, verb, adjective) to each word in the tokenized sentences.
+14. **Adjective Check**: For each word in the tokenized sentence, check if it exists in the predefined list of target words and if its POS tag indicates that it is an adjective (JJ, JJR, JJS).
+15. **Result Aggregation**: Collect and store sentences where each target word is used as an adjective.
+16. **Tokenization**: The `nltk.word_tokenize` function splits each sentence into words and punctuation marks.
+17. **POS Tagging**: The `nltk.pos_tag` function assigns a POS tag to each token, such as 'JJ' for adjectives, 'NN' for nouns, etc.
+18. **Adjective Check**: Each word is converted to lowercase and checked against the target list. If it matches, its POS tag is verified to start with 'JJ', indicating it is an adjective.
+19. **Result Aggregation**: Sentences where target words are used as adjectives are collected in a dictionary, organized by each target word.

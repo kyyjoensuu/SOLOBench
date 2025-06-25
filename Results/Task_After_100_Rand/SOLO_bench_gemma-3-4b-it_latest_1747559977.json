@@ -1,0 +1,3094 @@
+{
+  "model": "gemma-3-4b-it:latest",
+  "label": "2025-05-18 12:29:21",
+  "total_sentences": 200,
+  "perfect_sentences": 4,
+  "score_percentage": 2.0,
+  "word_count_failures": 180,
+  "format_failures": 193,
+  "common_word_failures": 35,
+  "word_reuse_failures": 196,
+  "raw_output_file": "Results/Task_After_100_Rand/SOLO_bench_raw_gemma-3-4b-it_latest_1747559977.txt",
+  "formatted_output_file": "Results/Task_After_100_Rand/SOLO_bench_gemma-3-4b-it_latest_1747559977.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Turn  superior  country  car",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Relieve  brown  place  ship",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Identify  useful  floor  vessel",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Modify  tall  citizen  package",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Sustain  average  guest  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Spread  cheap  reason  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Offer  several  penalty  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Inspect  waste  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Express  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Divide  estate  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'estate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Offer  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Divide  estate  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "estate",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'estate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Offer  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Divide  estate  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "estate",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'estate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Offer  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "offer",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Identify  estate  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "estate",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'estate' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Spread  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Inspect  guest  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'inspect' is not a verb",
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Express  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Divide  guest  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "guest",
+        "country",
+        "ship"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'guest' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Identify  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Spread  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "ship",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Express  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "ship",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Divide  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Spread  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "ship",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Express  ship  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "ship",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Divide  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Identify  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Spread  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Express  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Spread  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Express  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Identify  estate  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "estate",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Spread  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Express  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Identify  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Spread  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Express  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Express  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Identify  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Spread  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Express  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Spread  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Express  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Divide  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Relieve  guest  country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Identify  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Spread  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Inspect  country  ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Express   country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Divide   country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Relieve  guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Identify  Country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Spread   country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Inspect   country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Express  country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 80,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 81,
+      "sentence": "Relieve  guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 82,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 83,
+      "sentence": "Spread  country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 84,
+      "sentence": "Inspect  country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 85,
+      "sentence": "Express  country  ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 86,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 87,
+      "sentence": "Relieve  guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 88,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 89,
+      "sentence": "Spread   country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 90,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 91,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 92,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 93,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 94,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 95,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 96,
+      "sentence": "Inspector country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 97,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 98,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 99,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 100,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 101,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 102,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 103,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 104,
+      "sentence": "Divide  country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 105,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 106,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 107,
+      "sentence": "Spread countryship",
+      "uncommon_words": [
+        "countryship"
+      ],
+      "previously_used_words": [
+        "spread"
+      ],
+      "word_count": 2,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 108,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 109,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 110,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 111,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 112,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 113,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 114,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 115,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 116,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 117,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 118,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 119,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 120,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 121,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 122,
+      "sentence": "Divide  country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 123,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 124,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 125,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 126,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 127,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 128,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 129,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 130,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 131,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 132,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 133,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 134,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 135,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 136,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 137,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 138,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 139,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 140,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 141,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 142,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 143,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 144,
+      "sentence": "Inspector country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "inspector",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 145,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 146,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 147,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 148,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 149,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 150,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 151,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 152,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 153,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 154,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 155,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 156,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 157,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 158,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 159,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 160,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 161,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 162,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 163,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 164,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 165,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 166,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 167,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 168,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 169,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 170,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 171,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 172,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 173,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 174,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 175,
+      "sentence": "Express county ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 176,
+      "sentence": "Inspect  county ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "county",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 177,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 178,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 179,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 180,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 181,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 182,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 183,
+      "sentence": "Spread  country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 184,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 185,
+      "sentence": "Express county ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "county",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 186,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 187,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 188,
+      "sentence": "Inspect  country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 189,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 190,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 191,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 192,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 193,
+      "sentence": "Inspect country ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 194,
+      "sentence": "Spread  county ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "county",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 195,
+      "sentence": "Inspect county ship",
+      "uncommon_words": [
+        "inspect"
+      ],
+      "previously_used_words": [
+        "inspect",
+        "county",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 196,
+      "sentence": "Express country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "express",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 197,
+      "sentence": "Divide country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "divide",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 198,
+      "sentence": "Relieve guest country",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "relieve",
+        "guest",
+        "country"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 199,
+      "sentence": "Identify country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "identify",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 200,
+      "sentence": "Spread country ship",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "spread",
+        "country",
+        "ship"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

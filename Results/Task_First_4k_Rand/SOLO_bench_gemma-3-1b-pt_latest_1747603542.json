@@ -1,0 +1,436 @@
+{
+  "model": "gemma-3-1b-pt:latest",
+  "label": "2025-05-19 00:34:25",
+  "total_sentences": 22,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 19,
+  "format_failures": 22,
+  "common_word_failures": 22,
+  "word_reuse_failures": 20,
+  "raw_output_file": "Results/Task_First_4k_Rand/SOLO_bench_raw_gemma-3-1b-pt_latest_1747603542.txt",
+  "formatted_output_file": "Results/Task_First_4k_Rand/SOLO_bench_gemma-3-1b-pt_latest_1747603542.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "This verse begins with the word <strong>\u2018\u0627\u064e\u0644\u064e\u0651\u0630\u0650\u064a</strong>\u2018 which means \u2018He\u2019 or \u2018It\u2019 and means the same as \u2018He Who\u2019 or \u2018It\u2019",
+      "uncommon_words": [
+        "verse",
+        "begins",
+        "<strong>\u2018\u0627\u064e\u0644\u064e\u0651\u0630\u0650\u064a</strong>\u2018",
+        "means",
+        "\u2018he\u2019",
+        "\u2018it\u2019",
+        "means",
+        "\u2018he",
+        "who\u2019",
+        "\u2018it\u2019"
+      ],
+      "previously_used_words": [],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Note; \u201ckaraa\u201d means \u201ckaria\u201d",
+      "uncommon_words": [
+        "\u201ckaraa\u201d",
+        "means",
+        "\u201ckaria\u201d"
+      ],
+      "previously_used_words": [
+        "means"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word '\u201ckaraa\u201d' is not an adjective",
+        "Third word 'means' is not a noun",
+        "Fourth word '\u201ckaria\u201d' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Note; \u201cyathiri\u201d means \u201cyathiran\u201d or \u201cyathriya\u201d",
+      "uncommon_words": [
+        "\u201cyathiri\u201d",
+        "means",
+        "\u201cyathiran\u201d",
+        "\u201cyathriya\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means",
+        "or"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Note; \u201cyaziri\u201d means \u201cyaziran\u201d or \u201cyazriya\u201d",
+      "uncommon_words": [
+        "\u201cyaziri\u201d",
+        "means",
+        "\u201cyaziran\u201d",
+        "\u201cyazriya\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means",
+        "or"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Note; \u201cyatin\u201d means \u201ceatin\u201d or \u201ceetan\u201d",
+      "uncommon_words": [
+        "\u201cyatin\u201d",
+        "means",
+        "\u201ceatin\u201d",
+        "\u201ceetan\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means",
+        "or"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Note; \u201cyatam\u201d means \u201cyatamtan\u201d",
+      "uncommon_words": [
+        "\u201cyatam\u201d",
+        "means",
+        "\u201cyatamtan\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word '\u201cyatam\u201d' is not an adjective",
+        "Third word 'means' is not a noun",
+        "Fourth word '\u201cyatamtan\u201d' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Note; \u201ckumariyun\u201d means \u201ckumariyun\u201d",
+      "uncommon_words": [
+        "\u201ckumariyun\u201d",
+        "means",
+        "\u201ckumariyun\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word '\u201ckumariyun\u201d' is not an adjective",
+        "Third word 'means' is not a noun",
+        "Fourth word '\u201ckumariyun\u201d' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Note; \u201chumura\u201d means \u201chumurat\u201d or \u201chumura\u201d",
+      "uncommon_words": [
+        "\u201chumura\u201d",
+        "means",
+        "\u201chumurat\u201d",
+        "\u201chumura\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means",
+        "or"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Note; \u201chumura\u201d means \u201chumurat\u201d or \u201chumura\u201d",
+      "uncommon_words": [
+        "\u201chumura\u201d",
+        "means",
+        "\u201chumurat\u201d",
+        "\u201chumura\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "\u201chumura\u201d",
+        "means",
+        "\u201chumurat\u201d",
+        "or",
+        "\u201chumura\u201d"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Note; \u201cmuna\u201d means \u201cmuna\u201d or \u201cman\u201d or \u201cmanana\u201d",
+      "uncommon_words": [
+        "\u201cmuna\u201d",
+        "means",
+        "\u201cmuna\u201d",
+        "\u201cman\u201d",
+        "\u201cmanana\u201d"
+      ],
+      "previously_used_words": [
+        "note",
+        "means",
+        "or",
+        "or"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Note; \u201csowa\u201d means \u201csowa\u201d or \u201cswona\u201d or \u201cswona\u201d <h3><strong>References</strong></h3>",
+      "uncommon_words": [
+        "\u201csowa\u201d",
+        "means",
+        "\u201csowa\u201d",
+        "\u201cswona\u201d",
+        "\u201cswona\u201d",
+        "<h3><strong>references</strong></h3>"
+      ],
+      "previously_used_words": [
+        "note",
+        "means",
+        "or",
+        "or"
+      ],
+      "word_count": 9,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Al-Mutanabb\u012b, 2005, \u201cTafheem al-Nahw, page 7.",
+      "uncommon_words": [
+        "al-mutanabb\u012b",
+        "2005",
+        "\u201ctafheem",
+        "al-nahw",
+        "7"
+      ],
+      "previously_used_words": [],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Ibid., page 10.",
+      "uncommon_words": [
+        "ibid",
+        "10"
+      ],
+      "previously_used_words": [
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Ibid., page 5.",
+      "uncommon_words": [
+        "ibid",
+        "5"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Ibid., page 11.",
+      "uncommon_words": [
+        "ibid",
+        "11"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Ibid., page 56.",
+      "uncommon_words": [
+        "ibid",
+        "56"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Ibid., page 57.",
+      "uncommon_words": [
+        "ibid",
+        "57"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Ibid., page 58.",
+      "uncommon_words": [
+        "ibid",
+        "58"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Ibid., page 59.",
+      "uncommon_words": [
+        "ibid",
+        "59"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Ibid., page 60.",
+      "uncommon_words": [
+        "ibid",
+        "60"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Ibid., page 61.",
+      "uncommon_words": [
+        "ibid",
+        "61"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Ibid., page 62.",
+      "uncommon_words": [
+        "ibid",
+        "62"
+      ],
+      "previously_used_words": [
+        "ibid",
+        "page"
+      ],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

@@ -1,0 +1,1296 @@
+{
+  "model": "DeepHermes-3-Mistral-24B-Preview:latest",
+  "label": "2025-05-17 17:57:34",
+  "total_sentences": 79,
+  "perfect_sentences": 12,
+  "score_percentage": 15.18987341772152,
+  "word_count_failures": 28,
+  "format_failures": 62,
+  "common_word_failures": 56,
+  "word_reuse_failures": 49,
+  "raw_output_file": "Results/Task_After_2k_Rand/SOLO_bench_raw_DeepHermes-3-Mistral-24B-Preview_latest_1747492884.txt",
+  "formatted_output_file": "Results/Task_After_2k_Rand/SOLO_bench_DeepHermes-3-Mistral-24B-Preview_latest_1747492884.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Breathe invisible oxygen balloon.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Mix smooth coffee ice cream.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Ride wild tiger truck.",
+      "uncommon_words": [
+        "tiger"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'tiger' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Bake light biscotti bread.",
+      "uncommon_words": [
+        "biscotti"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'biscotti' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Paint vivid portrait tree.",
+      "uncommon_words": [
+        "vivid"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'vivid' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Chill ancient waterfall bottle.",
+      "uncommon_words": [
+        "waterfall"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'waterfall' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Taste sweet grape wine.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Stitch bright pattern skirt.",
+      "uncommon_words": [
+        "stitch"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stitch' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Carve wooden elephant clock.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Shred fresh salad lettuce.",
+      "uncommon_words": [
+        "shred",
+        "lettuce"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'shred' is not a verb",
+        "Fourth word 'lettuce' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Whisper secret door key.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Fix broken bridge toy.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Boil spicy chili pot.",
+      "uncommon_words": [
+        "spicy",
+        "chili"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'spicy' is not an adjective",
+        "Third word 'chili' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Wrap red ribbon box.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Melt solid steel bar.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Polish shiny penny coin.",
+      "uncommon_words": [
+        "polish",
+        "shiny",
+        "penny"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'polish' is not a verb",
+        "Second word 'shiny' is not an adjective",
+        "Third word 'penny' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Write thick letter book.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Stamp valid passport sheet.",
+      "uncommon_words": [
+        "stamp",
+        "passport"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'stamp' is not a verb",
+        "Third word 'passport' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Brew strong coffee cup.",
+      "uncommon_words": [
+        "brew"
+      ],
+      "previously_used_words": [
+        "coffee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'brew' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Plant green vegetable seeds.",
+      "uncommon_words": [
+        "seeds"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'seeds' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Pour cold water glass.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Knead soft chocolate dough.",
+      "uncommon_words": [
+        "knead"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'knead' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Fold white napkin fan.",
+      "uncommon_words": [
+        "napkin"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'napkin' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Grind fine coffee beans.",
+      "uncommon_words": [
+        "grind",
+        "beans"
+      ],
+      "previously_used_words": [
+        "coffee"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grind' is not a verb",
+        "Fourth word 'beans' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Fold tiny paper crane.",
+      "uncommon_words": [
+        "crane"
+      ],
+      "previously_used_words": [
+        "fold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'crane' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Spin bright spider wheel.",
+      "uncommon_words": [
+        "spider"
+      ],
+      "previously_used_words": [
+        "bright"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'spider' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Press warm face towel.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Pack light camping bag.",
+      "uncommon_words": [
+        "camping"
+      ],
+      "previously_used_words": [
+        "light"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'camping' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Shuck fresh oyster shell.",
+      "uncommon_words": [
+        "shuck",
+        "oyster"
+      ],
+      "previously_used_words": [
+        "fresh"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'shuck' is not a verb",
+        "Third word 'oyster' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Assemble metal bike chain.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Brew rich chocolate drink.",
+      "uncommon_words": [
+        "brew"
+      ],
+      "previously_used_words": [
+        "brew",
+        "chocolate"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'brew' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Roll flat pizza dough.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "dough"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Stretch long rubber band.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Shake red paint can.",
+      "uncommon_words": [
+        "can"
+      ],
+      "previously_used_words": [
+        "red",
+        "paint"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'can' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Whip cream stiff peaks.",
+      "uncommon_words": [
+        "peaks"
+      ],
+      "previously_used_words": [
+        "cream"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cream' is not an adjective",
+        "Fourth word 'peaks' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Press warm clay pot.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "press",
+        "warm",
+        "pot"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Squeeze ripe lemon juice.",
+      "uncommon_words": [
+        "ripe"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Blend smooth milk shake.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "smooth",
+        "shake"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Peel fresh orange peel.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "fresh"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Stir hot tea cup mix.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "cup",
+        "mix"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Churn soft ice butter.",
+      "uncommon_words": [
+        "churn"
+      ],
+      "previously_used_words": [
+        "soft",
+        "ice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'churn' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Pour green paint bottle.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "pour",
+        "green",
+        "paint",
+        "bottle"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Whisk fluffy egg whites.",
+      "uncommon_words": [
+        "whisk",
+        "fluffy",
+        "whites"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'whisk' is not a verb",
+        "Second word 'fluffy' is not an adjective",
+        "Fourth word 'whites' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Melt pink ice popsicle.",
+      "uncommon_words": [
+        "popsicle"
+      ],
+      "previously_used_words": [
+        "melt",
+        "ice"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'popsicle' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Grate hard parmesan cheese.",
+      "uncommon_words": [
+        "grate",
+        "parmesan"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'grate' is not a verb",
+        "Third word 'parmesan' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Snap crisp carrot stick.",
+      "uncommon_words": [
+        "crisp"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'crisp' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Shave thick tree bark.",
+      "uncommon_words": [
+        "shave",
+        "bark"
+      ],
+      "previously_used_words": [
+        "thick",
+        "tree"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'shave' is not a verb",
+        "Fourth word 'bark' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Blow up red party balloon.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "red",
+        "balloon"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Mash ripe banana fruit.",
+      "uncommon_words": [
+        "mash",
+        "ripe"
+      ],
+      "previously_used_words": [
+        "ripe"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'mash' is not a verb",
+        "Second word 'ripe' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Chisel sharp marble stone.",
+      "uncommon_words": [
+        "chisel"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'chisel' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Toss warm dog toy bone.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "warm",
+        "toy"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 52,
+      "sentence": "Bake flaky pie crust shell.",
+      "uncommon_words": [
+        "flaky",
+        "crust"
+      ],
+      "previously_used_words": [
+        "bake",
+        "shell"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 53,
+      "sentence": "Stir rich gravy sauce bowl.",
+      "uncommon_words": [
+        "gravy"
+      ],
+      "previously_used_words": [
+        "stir",
+        "rich"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 54,
+      "sentence": "Melt green wax candle.",
+      "uncommon_words": [
+        "wax"
+      ],
+      "previously_used_words": [
+        "melt",
+        "green"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'wax' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 55,
+      "sentence": "Knead stiff dough bread recipe.",
+      "uncommon_words": [
+        "knead"
+      ],
+      "previously_used_words": [
+        "knead",
+        "stiff",
+        "dough",
+        "bread"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 56,
+      "sentence": "Whip fluffy snow peak.",
+      "uncommon_words": [
+        "fluffy"
+      ],
+      "previously_used_words": [
+        "whip",
+        "fluffy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'fluffy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 57,
+      "sentence": "Peel orange citrus fruit skin.",
+      "uncommon_words": [
+        "citrus"
+      ],
+      "previously_used_words": [
+        "peel",
+        "orange",
+        "fruit"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 58,
+      "sentence": "Shave white bar soap lather.",
+      "uncommon_words": [
+        "shave",
+        "lather"
+      ],
+      "previously_used_words": [
+        "shave",
+        "white",
+        "bar"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 59,
+      "sentence": "Pour red wine sangria glass pitcher.",
+      "uncommon_words": [
+        "sangria"
+      ],
+      "previously_used_words": [
+        "pour",
+        "red",
+        "wine",
+        "glass"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 60,
+      "sentence": "Fold fresh lettuce salad.",
+      "uncommon_words": [
+        "lettuce"
+      ],
+      "previously_used_words": [
+        "fold",
+        "fresh",
+        "lettuce",
+        "salad"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'lettuce' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 61,
+      "sentence": "Squeeze ripe lemon juice drops.",
+      "uncommon_words": [
+        "ripe",
+        "drops"
+      ],
+      "previously_used_words": [
+        "squeeze",
+        "ripe",
+        "lemon",
+        "juice"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 62,
+      "sentence": "Grind dark coffee beans blend.",
+      "uncommon_words": [
+        "grind",
+        "beans"
+      ],
+      "previously_used_words": [
+        "grind",
+        "coffee",
+        "beans",
+        "blend"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 63,
+      "sentence": "Stretch thin pizza dough slice.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "stretch",
+        "pizza",
+        "dough"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 64,
+      "sentence": "Press warm face towel cleansing cloth.",
+      "uncommon_words": [
+        "cleansing"
+      ],
+      "previously_used_words": [
+        "press",
+        "warm",
+        "face",
+        "towel"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 65,
+      "sentence": "Whisk egg protein froth.",
+      "uncommon_words": [
+        "whisk",
+        "froth"
+      ],
+      "previously_used_words": [
+        "whisk",
+        "egg"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'whisk' is not a verb",
+        "Second word 'egg' is not an adjective",
+        "Fourth word 'froth' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 66,
+      "sentence": "Melt yellow plastic ruler tip.",
+      "uncommon_words": [
+        "ruler"
+      ],
+      "previously_used_words": [
+        "melt"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 67,
+      "sentence": "Fold tiny paper crane decoration.",
+      "uncommon_words": [
+        "crane",
+        "decoration"
+      ],
+      "previously_used_words": [
+        "fold",
+        "tiny",
+        "paper",
+        "crane"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 68,
+      "sentence": "Blow out gray smoke exhaust pipe.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "blow"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 69,
+      "sentence": "Pour clear water droplet glass prism.",
+      "uncommon_words": [
+        "droplet",
+        "prism"
+      ],
+      "previously_used_words": [
+        "pour",
+        "water",
+        "glass"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 70,
+      "sentence": "Snap crisp carrot vegetable stick.",
+      "uncommon_words": [
+        "crisp"
+      ],
+      "previously_used_words": [
+        "snap",
+        "crisp",
+        "carrot",
+        "vegetable",
+        "stick"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 71,
+      "sentence": "Chisel soft soapstone block sculpture.",
+      "uncommon_words": [
+        "chisel",
+        "soapstone"
+      ],
+      "previously_used_words": [
+        "chisel",
+        "soft"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 72,
+      "sentence": "Shake red pepper flakes bottle spice rack.",
+      "uncommon_words": [
+        "flakes",
+        "spice"
+      ],
+      "previously_used_words": [
+        "shake",
+        "red",
+        "bottle"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 73,
+      "sentence": "Whip hard meringue cookies shell.",
+      "uncommon_words": [
+        "meringue",
+        "cookies"
+      ],
+      "previously_used_words": [
+        "whip",
+        "hard",
+        "shell"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 74,
+      "sentence": "Melt pink cotton candy spun sugar cone treat.",
+      "uncommon_words": [
+        "spun",
+        "cone"
+      ],
+      "previously_used_words": [
+        "melt",
+        "pink"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 75,
+      "sentence": "Grate hard parmesan cheese sprinkles.",
+      "uncommon_words": [
+        "grate",
+        "parmesan",
+        "sprinkles"
+      ],
+      "previously_used_words": [
+        "grate",
+        "hard",
+        "parmesan",
+        "cheese"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 76,
+      "sentence": "Squeeze fresh lime juice margarita.",
+      "uncommon_words": [
+        "lime",
+        "margarita"
+      ],
+      "previously_used_words": [
+        "squeeze",
+        "fresh",
+        "juice"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 77,
+      "sentence": "Blend frozen ice cream milkshake cup dessert recipe.",
+      "uncommon_words": [
+        "milkshake"
+      ],
+      "previously_used_words": [
+        "blend",
+        "ice",
+        "cream",
+        "cup",
+        "recipe"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 78,
+      "sentence": "Pour aromatic tea leaves cup pot steep infusion brew time.",
+      "uncommon_words": [
+        "aromatic",
+        "leaves",
+        "infusion",
+        "brew"
+      ],
+      "previously_used_words": [
+        "pour",
+        "tea",
+        "cup",
+        "pot",
+        "brew"
+      ],
+      "word_count": 10,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 79,
+      "sentence": "Churn soft butter churn bucket dairy product farm kitchen countertop shelf next fridge store container spoon spread toast cheese bread jam honey peanut jar spicy sauce vinegar condiment rack cabinet corner storage area pantry closet basement cellar",
+      "uncommon_words": [
+        "churn",
+        "churn",
+        "dairy",
+        "countertop",
+        "fridge",
+        "toast",
+        "jam",
+        "spicy",
+        "vinegar",
+        "condiment",
+        "pantry",
+        "cellar"
+      ],
+      "previously_used_words": [
+        "churn",
+        "soft",
+        "butter",
+        "churn",
+        "cheese",
+        "bread",
+        "spicy",
+        "sauce",
+        "rack"
+      ],
+      "word_count": 37,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

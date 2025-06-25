@@ -1,0 +1,576 @@
+{
+  "model": "Phi-4-mini-instruct:latest",
+  "label": "2025-05-17 22:47:22",
+  "total_sentences": 24,
+  "perfect_sentences": 0,
+  "score_percentage": 0.0,
+  "word_count_failures": 22,
+  "format_failures": 24,
+  "common_word_failures": 15,
+  "word_reuse_failures": 17,
+  "raw_output_file": "Results/Task_After_4k_Rand/SOLO_bench_raw_Phi-4-mini-instruct_latest_1747510044.txt",
+  "formatted_output_file": "Results/Task_After_4k_Rand/SOLO_bench_Phi-4-mini-instruct_latest_1747510044.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "First Sentence Here.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Second Sentence Here.) No need for grammar",
+      "uncommon_words": [
+        "here)",
+        "grammar"
+      ],
+      "previously_used_words": [
+        "sentence"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "find food plant bowl garden",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "watch player chess board",
+      "uncommon_words": [
+        "chess"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'player' is not an adjective",
+        "Third word 'chess' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "run dog bone path park",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "ask friend window classroom",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'friend' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "hide toy car box shelf at a desk or similar space in the room where writing can take place.",
+      "uncommon_words": [
+        "can"
+      ],
+      "previously_used_words": [],
+      "word_count": 19,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "climb tree branch playground swing set nearby open area for physical activity, such as an outdoor field like grass playing on balls (a ball) catching it while running and throwing it back to someone else trying their best not only with hand but also other body parts.",
+      "uncommon_words": [
+        "playground",
+        "an",
+        "playing",
+        "balls",
+        "(a",
+        "ball)",
+        "catching",
+        "throwing",
+        "trying",
+        "parts"
+      ],
+      "previously_used_words": [
+        "for"
+      ],
+      "word_count": 47,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Create big fire wood house.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Find food plant bowl garden.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "find",
+        "food",
+        "plant",
+        "bowl",
+        "garden"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "Watch player chess board watch game play strategy with pieces on table.",
+      "uncommon_words": [
+        "chess",
+        "pieces"
+      ],
+      "previously_used_words": [
+        "watch",
+        "player",
+        "chess",
+        "board",
+        "watch",
+        "with",
+        "on"
+      ],
+      "word_count": 12,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Run dog bone path park running around obstacles physical exercise playing for enjoyment.",
+      "uncommon_words": [
+        "obstacles",
+        "playing",
+        "enjoyment"
+      ],
+      "previously_used_words": [
+        "run",
+        "dog",
+        "bone",
+        "path",
+        "park",
+        "running",
+        "physical",
+        "playing",
+        "for"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Ask friend window classroom learning together reading books or similar visual materials used to obtain information understand content in language studies.",
+      "uncommon_words": [
+        "books",
+        "materials",
+        "studies"
+      ],
+      "previously_used_words": [
+        "ask",
+        "friend",
+        "window",
+        "classroom",
+        "or",
+        "similar",
+        "to",
+        "in"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Create big fire house wood.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "big",
+        "fire",
+        "house",
+        "wood"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Find food bowl plant garden vegetables fruits grow naturally near water (irrigate use methods in a region cultivate).",
+      "uncommon_words": [
+        "vegetables",
+        "fruits",
+        "(irrigate",
+        "methods",
+        "cultivate)"
+      ],
+      "previously_used_words": [
+        "find",
+        "food",
+        "bowl",
+        "plant",
+        "garden",
+        "in",
+        "a"
+      ],
+      "word_count": 18,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Watch player chess table study games strategies planning moves piece pieces positions tactics on playing board strategy with understanding skills learning enhance over time practice knowledge learn effectively develop brain growth improving logical reasoning analyze concepts understand principles apply theories systematically process information gain experience through solving problems engage deeply exploring themes interact communicate ideas visualize scenarios build abstract connections.",
+      "uncommon_words": [
+        "chess",
+        "games",
+        "strategies",
+        "moves",
+        "pieces",
+        "positions",
+        "tactics",
+        "playing",
+        "skills",
+        "improving",
+        "reasoning",
+        "concepts",
+        "principles",
+        "theories",
+        "systematically",
+        "solving",
+        "problems",
+        "exploring",
+        "themes",
+        "ideas",
+        "visualize",
+        "scenarios",
+        "connections"
+      ],
+      "previously_used_words": [
+        "watch",
+        "player",
+        "chess",
+        "table",
+        "pieces",
+        "on",
+        "playing",
+        "board",
+        "strategy",
+        "with",
+        "learning",
+        "understand",
+        "information"
+      ],
+      "word_count": 60,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Create brave big fire wood house.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "create",
+        "big",
+        "fire",
+        "wood",
+        "house"
+      ],
+      "word_count": 6,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Find food plate plant vegetable garden grow near water (irrigate farm use methods cultivate).",
+      "uncommon_words": [
+        "(irrigate",
+        "methods",
+        "cultivate)"
+      ],
+      "previously_used_words": [
+        "find",
+        "food",
+        "plant",
+        "garden",
+        "grow",
+        "near",
+        "water",
+        "(irrigate",
+        "use",
+        "methods",
+        "cultivate)"
+      ],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Watch player chess table think move strategize tactics understand positions skills practicing learning logic knowledge improve brain develop reasoning engage communicate abstract conceptual visualize analyze themes scenarios ideas explore solutions solve problems interact theories systems.",
+      "uncommon_words": [
+        "chess",
+        "strategize",
+        "tactics",
+        "positions",
+        "skills",
+        "practicing",
+        "reasoning",
+        "conceptual",
+        "visualize",
+        "themes",
+        "scenarios",
+        "ideas",
+        "solutions",
+        "problems",
+        "theories",
+        "systems"
+      ],
+      "previously_used_words": [
+        "watch",
+        "player",
+        "chess",
+        "table",
+        "tactics",
+        "understand",
+        "positions",
+        "skills",
+        "learning",
+        "knowledge",
+        "brain",
+        "develop",
+        "reasoning",
+        "engage",
+        "communicate",
+        "abstract",
+        "visualize",
+        "analyze",
+        "themes",
+        "scenarios",
+        "ideas",
+        "problems",
+        "interact",
+        "theories"
+      ],
+      "word_count": 35,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Run smooth path bone long chase game run jump dodge hit obstacle aim avoid fail.",
+      "uncommon_words": [
+        "dodge"
+      ],
+      "previously_used_words": [
+        "run",
+        "path",
+        "bone",
+        "game",
+        "run"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Ask nice voice cat listen respond pet talk walk in street home neighbor visit share story fun explore adventure play outdoor.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "ask",
+        "in",
+        "explore",
+        "play",
+        "outdoor"
+      ],
+      "word_count": 21,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Hide old box paper read drawing book keep secret find lost work hide toy treasure look for solve mystery interest finding interesting discoveries creative exploration storytelling ideas communicate concepts learn about experience and knowledge expand mind creatively develop skills practicing creativity problem-solving solving things engage with curiosity enhancing imagination using different ways to express learning understand discover fun in process.",
+      "uncommon_words": [
+        "discoveries",
+        "storytelling",
+        "ideas",
+        "concepts",
+        "creatively",
+        "skills",
+        "practicing",
+        "problem-solving",
+        "solving",
+        "things",
+        "enhancing",
+        "using",
+        "ways"
+      ],
+      "previously_used_words": [
+        "hide",
+        "box",
+        "find",
+        "hide",
+        "toy",
+        "for",
+        "solve",
+        "ideas",
+        "communicate",
+        "concepts",
+        "learn",
+        "experience",
+        "and",
+        "knowledge",
+        "develop",
+        "skills",
+        "practicing",
+        "solving",
+        "engage",
+        "with",
+        "to",
+        "learning",
+        "understand",
+        "fun",
+        "in",
+        "process"
+      ],
+      "word_count": 60,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Climb tall tree branch swing play high above reach fast moving up and down exercise balance strengthen muscles coordination fun outdoor activity.",
+      "uncommon_words": [
+        "moving",
+        "muscles",
+        "coordination"
+      ],
+      "previously_used_words": [
+        "climb",
+        "tree",
+        "branch",
+        "swing",
+        "play",
+        "and",
+        "exercise",
+        "fun",
+        "outdoor",
+        "activity"
+      ],
+      "word_count": 22,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Watch curious movie magic story characters costumes scenes adventures imagination explore themes emotions learn about different cultures understand visual experience entertain enjoy creativity develop narrative skills storytelling analyze message communicate through visuals broaden knowledge inspire understanding.",
+      "uncommon_words": [
+        "characters",
+        "costumes",
+        "scenes",
+        "adventures",
+        "themes",
+        "emotions",
+        "cultures",
+        "entertain",
+        "skills",
+        "storytelling",
+        "visuals",
+        "broaden"
+      ],
+      "previously_used_words": [
+        "watch",
+        "story",
+        "imagination",
+        "explore",
+        "themes",
+        "learn",
+        "about",
+        "different",
+        "understand",
+        "visual",
+        "experience",
+        "creativity",
+        "develop",
+        "skills",
+        "storytelling",
+        "analyze",
+        "communicate",
+        "through",
+        "knowledge",
+        "understanding"
+      ],
+      "word_count": 36,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    }
+  ]
+}

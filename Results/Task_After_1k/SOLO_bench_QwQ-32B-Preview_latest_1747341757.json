@@ -1,0 +1,153 @@
+{
+  "model": "QwQ-32B-Preview:latest",
+  "label": "2025-05-15 23:53:54",
+  "total_sentences": 10,
+  "perfect_sentences": 4,
+  "score_percentage": 40.0,
+  "word_count_failures": 0,
+  "format_failures": 6,
+  "common_word_failures": 4,
+  "word_reuse_failures": 1,
+  "raw_output_file": "Results/Task_After_1k/SOLO_bench_raw_QwQ-32B-Preview_latest_1747341757.txt",
+  "formatted_output_file": "Results/Task_After_1k/SOLO_bench_QwQ-32B-Preview_latest_1747341757.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Adapt annual battle plan.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Advance additional ability act.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Aggressive aim ancient artifact.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'aggressive' is not a verb",
+        "Second word 'aim' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Alien alliance angry astronaut.",
+      "uncommon_words": [
+        "astronaut"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'alliance' is not an adjective",
+        "Third word 'angry' is not a noun",
+        "Fourth word 'astronaut' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Analyze apparent academic ambition.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Approach artistic athletic achievement.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'athletic' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Artistic Asian attraction avenue.",
+      "uncommon_words": [
+        "avenue"
+      ],
+      "previously_used_words": [
+        "artistic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'artistic' is not a verb",
+        "Fourth word 'avenue' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Assault atomic assistant arrival.",
+      "uncommon_words": [
+        "atomic"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'atomic' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Associate attractive attribute awareness.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Assume auspicious authentic award.",
+      "uncommon_words": [
+        "auspicious",
+        "authentic"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'auspicious' is not an adjective",
+        "Third word 'authentic' is not a noun"
+      ],
+      "passes_all": false
+    }
+  ]
+}

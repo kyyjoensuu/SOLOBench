@@ -1,0 +1,780 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-32B:latest",
+  "label": "2025-05-14 18:33:02",
+  "total_sentences": 51,
+  "perfect_sentences": 13,
+  "score_percentage": 25.49019607843137,
+  "word_count_failures": 11,
+  "format_failures": 24,
+  "common_word_failures": 15,
+  "word_reuse_failures": 31,
+  "raw_output_file": "Results/Task_First_500/SOLO_bench_raw_DeepSeek-R1-Distill-Qwen-32B_latest.txt",
+  "formatted_output_file": "Results/Task_First_500/SOLO_bench_DeepSeek-R1-Distill-Qwen-32B_latest.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "**Identify Verbs**: From the word list, pick verbs. Each verb will start one sentence.",
+      "uncommon_words": [
+        "**identify",
+        "verbs**",
+        "verbs",
+        "verb",
+        "will"
+      ],
+      "previously_used_words": [],
+      "word_count": 14,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "**Pair with Adjectives**: For each verb, find an adjective from the remaining words.",
+      "uncommon_words": [
+        "**pair",
+        "adjectives**",
+        "verb",
+        "an",
+        "adjective",
+        "words"
+      ],
+      "previously_used_words": [
+        "each",
+        "verb",
+        "from",
+        "the"
+      ],
+      "word_count": 13,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "**Select First Noun**: Then, chose a noun that pairs well after the verb and adjective.",
+      "uncommon_words": [
+        "**select",
+        "noun**",
+        "chose",
+        "noun",
+        "pairs",
+        "verb",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "the",
+        "verb",
+        "adjective"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "**Final Noun**: Ensure the last word is another noun to complete the structure V + Adj + N + N.",
+      "uncommon_words": [
+        "**final",
+        "noun**",
+        "is",
+        "noun",
+        "v",
+        "+",
+        "adj",
+        "+",
+        "n",
+        "+",
+        "n"
+      ],
+      "previously_used_words": [
+        "noun**",
+        "the",
+        "word",
+        "noun",
+        "the"
+      ],
+      "word_count": 20,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Afford annual apartment cost.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Attack brave soldier mission.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Approach careful solution problem.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Adjust bold strategy plan.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Assemble academic team project.",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Attack bold army base.",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attack",
+        "bold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 11,
+      "sentence": "List out all verbs from the word list.",
+      "uncommon_words": [
+        "verbs"
+      ],
+      "previously_used_words": [
+        "list",
+        "verbs",
+        "from",
+        "the",
+        "word",
+        "list"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 12,
+      "sentence": "Pair each verb with a unique adjective.",
+      "uncommon_words": [
+        "verb",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "each",
+        "verb",
+        "with",
+        "a",
+        "adjective"
+      ],
+      "word_count": 7,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 13,
+      "sentence": "Match that pair with two nouns to complete the sentence, ensuring no word is reused.",
+      "uncommon_words": [
+        "nouns",
+        "ensuring",
+        "is",
+        "reused"
+      ],
+      "previously_used_words": [
+        "that",
+        "pair",
+        "with",
+        "to",
+        "complete",
+        "the",
+        "sentence",
+        "word",
+        "is"
+      ],
+      "word_count": 15,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 14,
+      "sentence": "Select an unused verb.",
+      "uncommon_words": [
+        "an",
+        "unused",
+        "verb"
+      ],
+      "previously_used_words": [
+        "an",
+        "verb"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'an' is not an adjective",
+        "Third word 'unused' is not a noun",
+        "Fourth word 'verb' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 15,
+      "sentence": "Pair with an unused adjective.",
+      "uncommon_words": [
+        "an",
+        "unused",
+        "adjective"
+      ],
+      "previously_used_words": [
+        "pair",
+        "with",
+        "an",
+        "unused",
+        "adjective"
+      ],
+      "word_count": 5,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 16,
+      "sentence": "Choose two unused nouns that can follow logically.",
+      "uncommon_words": [
+        "unused",
+        "nouns",
+        "can",
+        "logically"
+      ],
+      "previously_used_words": [
+        "two",
+        "unused",
+        "nouns",
+        "that"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 17,
+      "sentence": "Mark all four words as used and proceed.",
+      "uncommon_words": [
+        "words"
+      ],
+      "previously_used_words": [
+        "all",
+        "words",
+        "and"
+      ],
+      "word_count": 8,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 18,
+      "sentence": "Adapt annual academic program",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "annual",
+        "academic"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 19,
+      "sentence": "Attack bold battle scenario",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attack",
+        "bold"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 20,
+      "sentence": "Approach careful medical procedure",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "approach",
+        "careful"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 21,
+      "sentence": "Adjust minor business policy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 22,
+      "sentence": "Assemble comprehensive research team",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "assemble",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 23,
+      "sentence": "Apply critical financial strategy",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "strategy"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'financial' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 24,
+      "sentence": "Analyze detailed environmental impact",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'environmental' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 25,
+      "sentence": "Arrange formal contract signing",
+      "uncommon_words": [
+        "signing"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Fourth word 'signing' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 26,
+      "sentence": "Attach essential safety equipment",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 27,
+      "sentence": "Attract young talent industry",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 28,
+      "sentence": "Attend annual university event",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "annual"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 29,
+      "sentence": "Avoid frequent networking opportunity",
+      "uncommon_words": [
+        "networking"
+      ],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'networking' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 30,
+      "sentence": "Award honest integrity leader",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 31,
+      "sentence": "Assert primary leadership role",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 32,
+      "sentence": "Achieve high student performance",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 33,
+      "sentence": "Add extra project deadline",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 34,
+      "sentence": "Assume major corporate responsibility",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'corporate' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 35,
+      "sentence": "Attempt final solution problem",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "solution",
+        "problem"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 36,
+      "sentence": "Attach critical success factor",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attach",
+        "critical"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 37,
+      "sentence": "Admit past management failure",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 38,
+      "sentence": "Advance ambitious global goal",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'global' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 39,
+      "sentence": "Adjust flexible work schedule",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "adjust"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 40,
+      "sentence": "Analyze historical market trend",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 41,
+      "sentence": "Approve new investment project",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "project"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 42,
+      "sentence": "Assign key department task",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 43,
+      "sentence": "Audit financial company year",
+      "uncommon_words": [
+        "audit"
+      ],
+      "previously_used_words": [
+        "financial"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'audit' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 44,
+      "sentence": "Attack enemy military base",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attack",
+        "base"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'enemy' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 45,
+      "sentence": "Avoid legal regulatory issue",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "avoid"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Third word 'regulatory' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 46,
+      "sentence": "Arrange employee team building",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "arrange",
+        "team"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'employee' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 47,
+      "sentence": "Attach contract additional clause",
+      "uncommon_words": [
+        "clause"
+      ],
+      "previously_used_words": [
+        "attach",
+        "contract"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'contract' is not an adjective",
+        "Third word 'additional' is not a noun",
+        "Fourth word 'clause' is not a noun"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 48,
+      "sentence": "Administer vaccine population",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 3,
+      "word_count_check": false,
+      "format_check": false,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 49,
+      "sentence": "Analyze user experience survey",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "analyze"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'user' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 50,
+      "sentence": "Attach important document meeting",
+      "uncommon_words": [],
+      "previously_used_words": [
+        "attach"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 51,
+      "sentence": "Appear public media interview",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    }
+  ]
+}

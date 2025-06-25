@@ -1,0 +1,139 @@
+{
+  "model": "Mistral-Small-3.1-24B-Instruct-2503:latest",
+  "label": "2025-05-18 09:32:17",
+  "total_sentences": 10,
+  "perfect_sentences": 7,
+  "score_percentage": 70.0,
+  "word_count_failures": 0,
+  "format_failures": 3,
+  "common_word_failures": 2,
+  "word_reuse_failures": 2,
+  "raw_output_file": "Results/Task_First_250_Rand/SOLO_bench_raw_Mistral-Small-3.1-24B-Instruct-2503_latest_1747549259.txt",
+  "formatted_output_file": "Results/Task_First_250_Rand/SOLO_bench_Mistral-Small-3.1-24B-Instruct-2503_latest_1747549259.txt",
+  "detailed_results": [
+    {
+      "sentence_num": 1,
+      "sentence": "Observe warm bowl rabbit",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 2,
+      "sentence": "Actively fresh news smile",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "First word 'actively' is not a verb"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 3,
+      "sentence": "Combine tall candy star",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 4,
+      "sentence": "Make pretty area life",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 5,
+      "sentence": "Create useful place time",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 6,
+      "sentence": "Assure sad property size",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 7,
+      "sentence": "Lend hungry coffee piece",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 8,
+      "sentence": "Present strong chair fault",
+      "uncommon_words": [],
+      "previously_used_words": [],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": true,
+      "format_errors": [],
+      "passes_all": true
+    },
+    {
+      "sentence_num": 9,
+      "sentence": "Depict blindfolded paper bowl",
+      "uncommon_words": [
+        "blindfolded"
+      ],
+      "previously_used_words": [
+        "bowl"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'blindfolded' is not an adjective"
+      ],
+      "passes_all": false
+    },
+    {
+      "sentence_num": 10,
+      "sentence": "Modify cheerful line smile",
+      "uncommon_words": [
+        "cheerful"
+      ],
+      "previously_used_words": [
+        "smile"
+      ],
+      "word_count": 4,
+      "word_count_check": true,
+      "format_check": false,
+      "format_errors": [
+        "Second word 'cheerful' is not an adjective"
+      ],
+      "passes_all": false
+    }
+  ]
+}
